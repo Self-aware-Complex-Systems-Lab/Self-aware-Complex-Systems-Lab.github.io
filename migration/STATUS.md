@@ -7,6 +7,7 @@ Live: https://self-aware-complex-systems-lab.github.io/ (push to main deploys; u
 - [x] Proofread profiles for all 73 (people-profiles.json, profiles/CHANGELOG.md); per-person lab publications; 30 duplicate pubs hidden; faulty links fixed; PI Talks & Videos (8)
 - [x] CI: deploys verified green after @types/node fix (ALWAYS confirm `gh run list` success before saying 'live')
 - [x] TrAC archived (300 pages/181 imgs, local only); recent grants on PI page; featured pubs on home; Hsin-Jung & Mahsa -> alumni
-- [ ] PENDING background: project pages/code per publication -> migration/publications-update/project-pages.json, then show on Publications
+- [x] Project pages/code (33 high-conf) on Publications + featured; CV page+PDF auto-built; weekly OpenAlex/Crossref updater (green); fonts self-hosted, 0 external runtime requests (tested)
+- [ ] ASK USER: confirm repo Settings → Actions → Workflow permissions = Read and write (needed for updater to commit)
 - [ ] ASK USER: purge 160MB TrAC files from git history (force-push) — not done
 After each change: npm run build && npx playwright test && content_audit.py, commit, push.

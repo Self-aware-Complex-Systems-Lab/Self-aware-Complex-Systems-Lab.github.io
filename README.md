@@ -35,6 +35,18 @@ npx astro preview  # serve dist/
 npx playwright test   # page, accessibility (axe), image, link, layout tests (desktop + mobile)
 ```
 
+## Automatic updates
+
+- **Publications**: `.github/workflows/update-publications.yml` runs every Monday (and on demand from the Actions tab).
+  `scripts/update_publications.py` queries OpenAlex and Crossref by Prof. Sarkar's ORCID, appends genuinely new papers to
+  `src/data/publications-added.json`, refreshes duplicate detection and each member's publication list, and commits.
+  The deploy workflow then rebuilds the site. Requires *Settings → Actions → General → Workflow permissions: Read and write*.
+- **CV**: `/cv/` is generated from the site data, and `scripts/render-cv-pdf.mjs` prints it to `/cv/Soumik_Sarkar_CV.pdf`
+  on every build, so the CV always matches the latest publications, grants and talks.
+- **Featured papers / project links**: edit `src/data/featured-publications.json` and `src/data/publication-links.json`.
+
+The site is self-contained: fonts, images and thumbnails are served from this repository (a test enforces this).
+
 ## Deployment
 
 `.github/workflows/static.yml` runs `astro check` and `astro build` on every push to `main`, then deploys `dist/` to GitHub Pages.
