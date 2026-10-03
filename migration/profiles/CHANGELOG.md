@@ -476,3 +476,4 @@ Every edit made to the original lab-site text, with the reason. Facts added from
 - **Mahsa Khosravi**: defended Ph.D. Fall 2026 → Graduate Alumni; Ph.D. line added; bio in past tense.
 - **Sanjeda Akter**: M.S. 2026, now a Ph.D. student → Masters Alumni.
 - **Minhao Wang, Timothy Wilkie, Seyed Vahid Mirnezami** → Independent Study Alumni (only Nikhil Bhattacharya remains current).
+- **Tirtho Roy, Harshada Anavkar**: listed as Ph.D. students (M.S. leading to Ph.D.), per Prof. Sarkar (2026-10-03).

@@ -234,7 +234,8 @@ export function buildVita() {
   for (const p of people) {
     if (!['Doctoral Students', 'Masters Students'].includes(p.category ?? '') || listed(p.name)) continue;
     const joined = P[p.name]?.joined;
-    stillInProgress.push(`${p.name}, ${p.category === 'Doctoral Students' ? 'PhD' : 'MS'}, ${joined ? `${joined} – ` : ''}work in progress.`);
+    const track = /M\.S\. leading to Ph\.D\./.test((P[p.name] as { headline?: string } | undefined)?.headline ?? '') ? ' (M.S. leading to Ph.D.)' : '';
+    stillInProgress.push(`${p.name}, ${p.category === 'Doctoral Students' ? 'PhD' : 'MS'}${track}, ${joined ? `${joined} – ` : ''}work in progress.`);
   }
   prog.items = stillInProgress;
   const grad = [...(sup.blocks.find((b) => b.heading === PREV)?.items ?? []), ...curSup.items];

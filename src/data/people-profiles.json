@@ -340,7 +340,7 @@
  },
  "Harshada Anavkar": {
   "name": "Harshada Anavkar",
-  "headline": "M.S. Student, Mechanical Engineering",
+  "headline": "Ph.D. Student (M.S. leading to Ph.D.), Mechanical Engineering",
   "education": [
    "B.Tech., Indian Institute of Technology Kharagpur, 2025"
   ],
@@ -348,24 +348,29 @@
    "Department of Mechanical Engineering, Iowa State University"
   ],
   "bio": [
-   "Harshada joined the lab in Fall 2025 as a master's student. Her research interests lie at the intersection of machine learning and mechanics."
+   "Harshada joined the lab in Fall 2025 as a Ph.D. student on the M.S.-leading-to-Ph.D. track in Mechanical Engineering. Her research interests lie at the intersection of machine learning and mechanics."
   ],
   "researchInterests": "Machine learning, mechanics",
   "joined": "Fall 2025",
   "currentPosition": null,
   "project": null,
-  "_sources": []
+  "_sources": [
+   {
+    "fact": "Ph.D. student on the M.S.-leading-to-Ph.D. track",
+    "url": "lab (Prof. Sarkar), 2026-10-03"
+   }
+  ]
  },
  "Tirtho Roy": {
   "name": "Tirtho Roy",
-  "headline": "B.S./M.S. Student, Data Science and Mechanical Engineering",
+  "headline": "Ph.D. Student (M.S. leading to Ph.D.), Mechanical Engineering",
   "education": [],
   "affiliation": [
    "Department of Mechanical Engineering, Iowa State University",
    "Translational AI Center (TrAC), Iowa State University"
   ],
   "bio": [
-   "Tirtho is a concurrent B.S. in Data Science and M.S. in Mechanical Engineering student at Iowa State University, and a Forward-Deployed Engineer and AI researcher at the Translational AI Center (TrAC). He joined the lab in Summer 2024. His M.S. thesis focuses on agentic vision-language systems for cyber-agriculture, and his broader research spans cyber-agricultural systems, biology and health informatics, and FinTech, with work on vision-language models, multi-agent systems, and rigorous LLM/VLM evaluation."
+   "Tirtho is a Ph.D. student in Mechanical Engineering at Iowa State University on the M.S.-leading-to-Ph.D. track, concurrently completing a B.S. in Data Science, and a Forward-Deployed Engineer and AI researcher at the Translational AI Center (TrAC). He joined the lab in Summer 2024. His research centers on agentic vision-language systems for cyber-agriculture and spans cyber-agricultural systems, biology and health informatics, and FinTech, with work on vision-language models, multi-agent systems, and rigorous LLM/VLM evaluation."
   ],
   "researchInterests": "Agentic vision-language systems, cyber-agricultural systems, health informatics, FinTech, LLM/VLM evaluation",
   "joined": "Summer 2024",
@@ -383,6 +388,10 @@
    {
     "fact": "Research spans agriculture, biology & health informatics, and finance; VLMs, LLMs, multi-agent systems, LLM/VLM evaluation",
     "url": "https://tirtho149.github.io/"
+   },
+   {
+    "fact": "Ph.D. student on the M.S.-leading-to-Ph.D. track",
+    "url": "lab (Prof. Sarkar), 2026-10-03"
    }
   ]
  },
