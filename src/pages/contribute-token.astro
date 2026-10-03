@@ -1,7 +1,7 @@
 ---
-// Front-end for lab-member contributions. It stores no credentials and writes nothing itself: it collects the details
-// (pre-filling what the website already knows and warning about duplicates), then opens the matching GitHub issue form
-// pre-filled. Members attach photos and press Submit on GitHub; .github/workflows/contributions.yml applies it.
+// Token-based contributions: same forms as /contribute/, but submitting commits directly with the member's OWN
+// fine-grained GitHub token (stored only in their browser). The commit lands in submissions/inbox/ and
+// .github/workflows/submissions.yml applies it with the same processor as the issue forms.
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
 import { publications } from '../lib/publications';
@@ -40,13 +40,33 @@ const PHOTO_KINDS = ['Conference presentation or poster', 'Graduation or thesis 
   'Lab event or group photo', 'Field work, robots or experiments', 'Outreach or teaching', 'Something else'];
 const LINK_FIELDS = [['homepage', 'Homepage'], ['scholar', 'Google Scholar'], ['github', 'GitHub'], ['linkedin', 'LinkedIn'], ['orcid', 'ORCID']];
 ---
-<Base title="Contribute" description="Lab members: add photos, news, publications, people, milestones, grants and awards to the SCSLab website." noindex>
-  <PageHeader title="Contribute to the website" kicker="For lab members">
-    <p class="mt-4 text-muted max-w-3xl">Pick what you want to add and fill in the form. <b>Continue on GitHub</b> opens GitHub with
-      everything filled in — attach photos there (works on your phone) and press <b>Submit</b>. The website updates itself a few
-      minutes later. Details the website already has are filled in for you, and duplicates are flagged.
-      Have a personal GitHub access key? Use the <a href="/contribute-token/">direct version</a> — no GitHub form, just Submit.</p>
+<Base title="Contribute (direct)" description="Lab members: publish photos, news, publications, people, milestones, grants and awards directly with your GitHub key." noindex>
+  <PageHeader title="Contribute to the website" kicker="For lab members · direct">
+    <p class="mt-4 text-muted max-w-3xl">Connect your personal GitHub access key once, then fill in a form and press <b>Submit</b>.
+      Photos are resized and their location data removed in your browser. The website updates itself a few minutes later.
+      Prefer not to use a key? Use the <a href="/contribute/">GitHub sign-in version</a>.</p>
   </PageHeader>
+
+  <section class="bg-white border border-line rounded-lg p-5 mb-6" aria-labelledby="key-h">
+    <h2 id="key-h" class="text-lg font-bold">Your access key</h2>
+    <p id="key-status" class="text-sm text-muted mt-1" aria-live="polite">Not connected.</p>
+    <div class="mt-3 flex flex-col sm:flex-row gap-2">
+      <label class="sr-only" for="token">GitHub access key</label>
+      <input id="token" type="password" autocomplete="off" spellcheck="false" placeholder="Paste your GitHub access key (github_pat_…)" class="w-full rounded border border-line bg-white px-3 py-2" />
+      <button id="save-token" type="button" class="rounded bg-cardinal px-4 py-2 text-white font-semibold">Connect</button>
+      <button id="forget-token" type="button" class="rounded border border-line px-4 py-2">Forget</button>
+    </div>
+    <details class="mt-3 text-sm">
+      <summary class="cursor-pointer text-cardinal font-semibold">How do I get a key? (one time, 2 minutes)</summary>
+      <ol class="list-decimal pl-5 mt-2 space-y-1">
+        <li>Your GitHub account needs write access to the lab website repository (ask the website maintainer).</li>
+        <li>Open <a href="https://github.com/settings/personal-access-tokens/new">GitHub → Settings → Developer settings → Fine-grained tokens → Generate new token</a>.</li>
+        <li>Resource owner: <b>Self-aware-Complex-Systems-Lab</b>. Expiration: up to 1 year. Repository access: <b>Only select repositories</b> → <b>Self-aware-Complex-Systems-Lab.github.io</b>.</li>
+        <li>Repository permissions: <b>Contents: Read and write</b>. Generate, copy, and paste it above.</li>
+      </ol>
+      <p class="mt-2 text-muted">Your key is stored only in this browser and is sent only to GitHub. Never share it, and press <b>Forget</b> on shared computers. If it leaks, revoke it on GitHub.</p>
+    </details>
+  </section>
 
   <div role="tablist" aria-label="What would you like to add?" class="flex flex-wrap gap-2 mb-4">
     {TABS.map(([id, t], i) => (
@@ -70,8 +90,10 @@ const LINK_FIELDS = [['homepage', 'Homepage'], ['scholar', 'Google Scholar'], ['
     <label class={label}>Caption <span class={opt}>(a suggestion appears as you fill the form; edit freely)</span><textarea name="caption" rows="3" class={field} required></textarea></label>
     <label class={label}>Related link <span class={opt}>(optional)</span><input name="link" type="url" class={field} /></label>
     <label class={label}>Photo credit<input name="credit" class={field} value="Photo: Soumik Sarkar" /></label>
-    <p class="mt-4 text-sm text-muted">You will attach the photos on the next screen.</p>
-    <button class={btn}>Continue on GitHub →</button>
+    <label class={label}>Photos<input name="__img_Photos" type="file" accept="image/*" multiple required class={field} /></label>
+    <div data-previews class="mt-2 grid grid-cols-3 sm:grid-cols-6 gap-2"></div>
+    <button class={btn}>Submit</button>
+    <p data-status class="mt-3 text-sm" aria-live="polite"></p>
   </form>
 
   <!-- News -->
@@ -81,8 +103,9 @@ const LINK_FIELDS = [['homepage', 'Homepage'], ['scholar', 'Google Scholar'], ['
     <label class={label}>Details<textarea name="details" rows="3" class={field}></textarea></label>
     <label class={label}>Date<input name="date" type="date" class={field} required /></label>
     <label class={label}>Link <span class={opt}>(optional)</span><input name="link" type="url" class={field} /></label>
-    <p class="mt-4 text-sm text-muted">You can attach an image on the next screen.</p>
-    <button class={btn}>Continue on GitHub →</button>
+    <label class={label}>Image <span class={opt}>(optional)</span><input name="__img_Image (optional)" type="file" accept="image/*" class={field} /></label>
+    <button class={btn}>Submit</button>
+    <p data-status class="mt-3 text-sm" aria-live="polite"></p>
   </form>
 
   <!-- Publication -->
@@ -99,7 +122,8 @@ const LINK_FIELDS = [['homepage', 'Homepage'], ['scholar', 'Google Scholar'], ['
     <label class={label}>Year<input name="year" type="number" min="2000" max="2100" class={field} /></label>
     <label class={label}>Project page <span class={opt}>(optional)</span><input name="project" type="url" class={field} /></label>
     <label class={label}>Code <span class={opt}>(optional)</span><input name="code" type="url" class={field} /></label>
-    <button class={btn}>Continue on GitHub →</button>
+    <button class={btn}>Submit</button>
+    <p data-status class="mt-3 text-sm" aria-live="polite"></p>
   </form>
 
   <!-- New member -->
@@ -115,8 +139,9 @@ const LINK_FIELDS = [['homepage', 'Homepage'], ['scholar', 'Google Scholar'], ['
     <label class={label}>Email<input name="email" class={field} placeholder="netid (@) iastate.edu" /></label>
     {LINK_FIELDS.map(([n, l]) => <label class={label}>{l}<input name={n} type="url" class={field} /></label>)}
     <label class={label}>Other links <span class={opt}>(one per line)</span><textarea name="other" rows="2" class={field}></textarea></label>
-    <p class="mt-4 text-sm text-muted">You will attach a headshot on the next screen.</p>
-    <button class={btn}>Continue on GitHub →</button>
+    <label class={label}>Headshot <span class={opt}>(square works best)</span><input name="__img_Photo" type="file" accept="image/*" class={field} /></label>
+    <button class={btn}>Submit</button>
+    <p data-status class="mt-3 text-sm" aria-live="polite"></p>
   </form>
 
   <!-- Profile update -->
@@ -133,8 +158,9 @@ const LINK_FIELDS = [['homepage', 'Homepage'], ['scholar', 'Google Scholar'], ['
     <label class={label}>Research interests<input name="interests" class={field} /></label>
     {LINK_FIELDS.map(([n, l]) => <label class={label}>{l}<input name={n} type="url" class={field} /></label>)}
     <label class={label}>Other links <span class={opt}>(one per line)</span><textarea name="other" rows="2" class={field}></textarea></label>
-    <p class="mt-4 text-sm text-muted">You can attach a new headshot on the next screen.</p>
-    <button class={btn}>Continue on GitHub →</button>
+    <label class={label}>New headshot <span class={opt}>(optional)</span><input name="__img_Photo (new headshot)" type="file" accept="image/*" class={field} /></label>
+    <button class={btn}>Submit</button>
+    <p data-status class="mt-3 text-sm" aria-live="polite"></p>
   </form>
 
   <!-- Milestone -->
@@ -147,8 +173,10 @@ const LINK_FIELDS = [['homepage', 'Homepage'], ['scholar', 'Google Scholar'], ['
     <label class={label}>Thesis title <span class={opt}>(optional)</span><input name="thesis" class={field} /></label>
     <label class={label}>Next position <span class={opt}>(optional)</span><input name="next" class={field} placeholder="Research Scientist at …" /></label>
     <label class={label}>Link <span class={opt}>(optional)</span><input name="link" type="url" class={field} /></label>
-    <p class="mt-4 text-sm text-muted">The person moves to the right alumni section automatically. You can attach a defense or hooding photo on the next screen.</p>
-    <button class={btn}>Continue on GitHub →</button>
+    <label class={label}>Defense or hooding photo <span class={opt}>(optional)</span><input name="__img_Photo (optional)" type="file" accept="image/*" class={field} /></label>
+    <p class="mt-4 text-sm text-muted">The person moves to the right alumni section automatically.</p>
+    <button class={btn}>Submit</button>
+    <p data-status class="mt-3 text-sm" aria-live="polite"></p>
   </form>
 
   <!-- Grant -->
@@ -164,7 +192,8 @@ const LINK_FIELDS = [['homepage', 'Homepage'], ['scholar', 'Google Scholar'], ['
     </div>
     <label class={label}>Summary <span class={opt}>(optional, one sentence)</span><textarea name="summary" rows="2" class={field}></textarea></label>
     <label class={label}>Announcement link <span class={opt}>(optional)</span><input name="link" type="url" class={field} /></label>
-    <button class={btn}>Continue on GitHub →</button>
+    <button class={btn}>Submit</button>
+    <p data-status class="mt-3 text-sm" aria-live="polite"></p>
   </form>
 
   <!-- Award -->
@@ -176,14 +205,12 @@ const LINK_FIELDS = [['homepage', 'Homepage'], ['scholar', 'Google Scholar'], ['
     <label class={label}>Year<input name="year" type="number" min="1990" max="2100" class={field} /></label>
     <label class={label}>Details <span class={opt}>(optional)</span><textarea name="details" rows="2" class={field}></textarea></label>
     <label class={label}>Link <span class={opt}>(optional)</span><input name="link" type="url" class={field} /></label>
-    <button class={btn}>Continue on GitHub →</button>
+    <label class={label}>Photo <span class={opt}>(optional)</span><input name="__img_Photo (optional)" type="file" accept="image/*" class={field} /></label>
+    <button class={btn}>Submit</button>
+    <p data-status class="mt-3 text-sm" aria-live="polite"></p>
   </form>
 
-  <details class="mt-8 text-sm max-w-3xl">
-    <summary class="cursor-pointer text-cardinal font-semibold">First time? What you need</summary>
-    <p class="mt-2">A free GitHub account that the website maintainer has added to the lab’s GitHub organization (or to the approved
-      contributor list). Submissions from other accounts are kept for review instead of being published automatically.</p>
-  </details>
+
 
   <datalist id="papers">{titles.map((t) => <option value={t} />)}</datalist>
   <datalist id="people">{names.map((n) => <option value={n} />)}</datalist>
@@ -191,7 +218,7 @@ const LINK_FIELDS = [['homepage', 'Homepage'], ['scholar', 'Google Scholar'], ['
   <script type="application/json" id="known" set:html={JSON.stringify({ people: known, grants: grantTitles, awards: awardTitles, papers: titles })} />
 
   <script>
-    const REPO = 'https://github.com/Self-aware-Complex-Systems-Lab/Self-aware-Complex-Systems-Lab.github.io';
+    import { getToken, setToken, checkKey, submit, waitForResult } from '../scripts/contribute-token';
     type Known = { people: Record<string, { category: string; headline: string; interests: string; position: string; joined: string; department: string; links: Record<string, string> }>;
       grants: string[]; awards: string[]; papers: string[] };
     const K: Known = JSON.parse(document.getElementById('known')!.textContent!);
@@ -280,24 +307,73 @@ const LINK_FIELDS = [['homepage', 'Homepage'], ['scholar', 'Google Scholar'], ['
     input(aw, 'award').addEventListener('input', (e) => { const v = (e.target as HTMLInputElement).value; const d = v.length > 5 && K.awards.find((g) => sim(g, v) >= 0.75);
       hint(aw, 'award', d ? `Already in Honors &amp; Awards: “${esc(d)}”` : '', !!d); });
 
-    // Hand off to the GitHub issue form, pre-filled (input names match the ids in .github/ISSUE_TEMPLATE/*.yml).
+    // ----- direct submission with the member's own key -----
+    const LABELS: Record<string, Record<string, string>> = {
+      photos: { kind: 'What is this photo?', paper: 'Paper presented (if any)', event: 'Event / conference / place', people: 'People in the photo (if relevant)', caption: 'Caption', date: 'Date', link: 'Related link (optional)', credit: 'Photo credit' },
+      news: { type: 'Type', headline: 'Headline', details: 'Details', date: 'Date', link: 'Link (optional)' },
+      pub: { mode: 'I want to…', paper: 'Paper title', authors: 'Authors (new papers)', category: 'Type', venue: 'Venue', year: 'Year', url: 'Paper link (DOI / arXiv / publisher)', project: 'Project page (optional)', code: 'Code (optional)' },
+      member: { name: 'Full name', role: 'Role', department: 'Department', joined: 'Joined (term)', degrees: 'Degrees', bio: 'Bio', interests: 'Research interests', email: 'Email (shown as name (@) iastate.edu)', homepage: 'Homepage', scholar: 'Google Scholar', github: 'GitHub', linkedin: 'LinkedIn', orcid: 'ORCID', other: 'Other links (one per line)' },
+      profile: { person: 'Your name', headline: 'Role / headline', department: 'Department', position: 'Current position (alumni)', joined: 'Joined (term)', degrees: 'Degrees (new ones only)', bio: 'Bio (replaces the current one)', interests: 'Research interests', homepage: 'Homepage', scholar: 'Google Scholar', github: 'GitHub', linkedin: 'LinkedIn', orcid: 'ORCID', other: 'Other links (one per line)' },
+      milestone: { who: 'Who?', milestone: 'Milestone', date: 'Date', degree: 'Degree earned', thesis: 'Thesis title (optional)', next: 'Next position (optional)', link: 'Link (optional)' },
+      grant: { title: 'Grant title', sponsor: 'Sponsor', role: "Dr. Sarkar's role", amount: 'Amount', start: 'Start', end: 'End', summary: 'Summary (optional)', link: 'Announcement link (optional)' },
+      award: { award: 'Award', recipient: 'Recipient', org: 'Awarding organization / event', year: 'Year', date: 'Date (optional)', details: 'Details (optional)', link: 'Link (optional)' },
+    };
     const monthLabel = (v: string) => { if (!v) return ''; const [y, m] = v.split('-').map(Number); return new Date(y, m - 1, 1).toLocaleDateString('en-US', { month: 'long', year: 'numeric' }); };
-    panels.forEach((form) => form.addEventListener('submit', (e) => {
+    let login = '';
+    const keyStatus = document.getElementById('key-status')!;
+    async function refreshKey() {
+      if (!getToken()) { keyStatus.textContent = 'Not connected. Paste your key to start.'; return; }
+      keyStatus.textContent = 'Checking your key with GitHub…';
+      try {
+        const me = await checkKey(); login = me.login;
+        keyStatus.innerHTML = me.canWrite ? `✅ Connected as <b>${esc(me.login)}</b>. You can publish.`
+          : `⚠️ Connected as <b>${esc(me.login)}</b>, but this key cannot write to the website. Check the key's permissions or ask the maintainer for access.`;
+      } catch { keyStatus.textContent = '❌ That key did not work (expired, revoked, or missing permissions).'; }
+    }
+    document.getElementById('save-token')!.addEventListener('click', () => { const t = document.getElementById('token') as HTMLInputElement; setToken(t.value); t.value = ''; refreshKey(); });
+    document.getElementById('forget-token')!.addEventListener('click', () => { setToken(''); login = ''; refreshKey(); });
+    refreshKey();
+
+    // photo previews
+    photos.querySelector<HTMLInputElement>('[name="__img_Photos"]')!.addEventListener('change', (e) => {
+      const box = photos.querySelector('[data-previews]')!; box.innerHTML = '';
+      [...((e.target as HTMLInputElement).files ?? [])].forEach((f) => { const i = document.createElement('img'); i.src = URL.createObjectURL(f); i.alt = ''; i.className = 'w-full aspect-square object-cover rounded'; box.append(i); });
+    });
+
+    panels.forEach((form) => form.addEventListener('submit', async (e) => {
       e.preventDefault();
-      const f = new FormData(form); const q = new URLSearchParams({ template: form.dataset.template! });
-      for (const [k, v] of f.entries()) if (!k.startsWith('_') && String(v).trim()) q.set(k, String(v).trim());
-      if (form.dataset.panel === 'photos') {
-        if (f.get('_who')) q.set('people', `${f.get('_who')} (${f.get('_milestone')})`);
-        const m = monthLabel(String(f.get('_month') || '')); if (m) q.set('date', m);
-        q.set('photos', 'Attach photos here ↓');
-      }
-      if (form.dataset.panel === 'profile') {   // only send what changed relative to the website
-        const who = findPerson(String(f.get('person'))); const k = who ? K.people[who] : null;
-        if (k) for (const [n, cur] of Object.entries({ headline: k.headline, interests: k.interests, position: k.position, joined: k.joined, department: k.department, ...k.links }))
-          if (q.get(n) === cur) q.delete(n);
-      }
-      q.set('title', `${form.dataset.prefix} ${String(f.get(form.dataset.title!) || '').slice(0, 80)}`);
-      window.open(`${REPO}/issues/new?${q.toString()}`, '_blank', 'noopener');
+      const status = form.querySelector<HTMLElement>('[data-status]')!;
+      const say = (m: string, bad = false) => { status.innerHTML = m; status.className = `mt-3 text-sm ${bad ? 'text-cardinal font-semibold' : ''}`; };
+      if (!getToken()) return say('Connect your access key first (top of the page).', true);
+      const btn = form.querySelector<HTMLButtonElement>('button:not([type=button])')!; btn.disabled = true;
+      try {
+        const f = new FormData(form); const panelId = form.dataset.panel!; const map = LABELS[panelId];
+        const fields: Record<string, string> = {}; const images: Record<string, File[]> = {};
+        for (const [k, v] of f.entries()) {
+          if (k.startsWith('__img_')) { if (v instanceof File && v.size) (images[k.slice(6)] ??= []).push(v); continue; }
+          if (k.startsWith('_') || !map[k]) continue;
+          const val = String(v).trim(); if (val) fields[map[k]] = val;
+        }
+        if (panelId === 'photos') {
+          if (f.get('_who')) fields['People in the photo (if relevant)'] = `${f.get('_who')} (${f.get('_milestone')})`;
+          const m = monthLabel(String(f.get('_month') || '')); if (m) fields['Date'] = m;
+          if (!images['Photos']?.length) { btn.disabled = false; return say('Please choose at least one photo.', true); }
+        }
+        if (panelId === 'profile') {   // send only what changed relative to the website
+          const who = findPerson(String(f.get('person'))); const k = who ? K.people[who] : null;
+          if (k) for (const [n, cur] of Object.entries({ headline: k.headline, interests: k.interests, position: k.position, joined: k.joined, department: k.department, ...k.links }))
+            if (fields[map[n]] === cur) delete fields[map[n]];
+        }
+        const id = await submit({ kind: form.dataset.prefix!, title: String(f.get(form.dataset.title!) || '').slice(0, 80), fields, images }, (m) => say(m));
+        say('Submitted. Applying it to the website (about a minute)…');
+        form.reset(); photos.querySelector('[data-previews]')!.innerHTML = '';
+        const r = await waitForResult(id);
+        const md = (m: string) => esc(m).replace(/\*\*(.+?)\*\*/g, '<b>$1</b>').replace(/\[([^\]]+)\]\((https?:[^)]+)\)/g, '<a href="$2">$1</a>');
+        if (!r) say('Submitted. It is taking longer than usual; check the website in a few minutes.');
+        else if (r.ok) say(`✅ ${md(r.message)} The live site refreshes in about 2 minutes.`);
+        else say(`⚠️ ${md(r.message)}`, true);
+      } catch (err) { say(`Something went wrong: ${esc((err as Error).message)}`, true); }
+      finally { btn.disabled = false; }
     }));
   </script>
 </Base>

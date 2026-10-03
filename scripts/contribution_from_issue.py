@@ -60,7 +60,7 @@ norm = lambda t: re.sub(r"[^a-z0-9]", "", (t or "").lower())
 
 
 def image_urls(md):
-    urls = re.findall(r"!\[[^\]]*\]\((https?://[^)\s]+)\)", md or "") + re.findall(r'<img[^>]+src="(https?://[^"]+)"', md or "")
+    urls = re.findall(r"!\[[^\]]*\]\(((?:https?|file)://[^)\s]+)\)", md or "") + re.findall(r'<img[^>]+src="(https?://[^"]+)"', md or "")
     urls += [u for u in re.findall(r"(https://github\.com/user-attachments/assets/[0-9a-f-]+)", md or "") if u not in urls]
     return list(dict.fromkeys(urls))
 

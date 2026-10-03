@@ -5,7 +5,7 @@ on:
   push:
     branches: ["main"]
   workflow_run:
-    workflows: ["Update publications", "Contributions"]
+    workflows: ["Update publications", "Contributions", "Submissions"]
     types: [completed]
   workflow_dispatch:
 

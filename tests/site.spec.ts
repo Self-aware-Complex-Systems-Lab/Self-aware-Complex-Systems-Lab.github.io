@@ -3,7 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { people } from '../src/lib/people';
 import { publications } from '../src/lib/publications';
 
-const PAGES = ['/', '/principal-investigator/', '/research/', '/people/', '/publications/', '/alumni/', '/news/', '/gallery/', '/contact/', '/contribute/'];
+const PAGES = ['/', '/principal-investigator/', '/research/', '/people/', '/publications/', '/alumni/', '/news/', '/gallery/', '/contact/', '/contribute/', '/contribute-token/'];
 
 for (const path of PAGES) {
   test.describe(path, () => {
@@ -116,4 +116,43 @@ test('contribute: profile pre-fills known details and new-member detects existin
   await page.click('button[data-tab=milestone]');
   await page.fill('[data-panel=milestone] [name=who]', 'Shreyan Ganguly');
   await expect(page.locator('[data-panel=milestone] [data-hint=who]')).toContainText('Graduate Alumni');
+});
+
+test('token form: connect key, submit photos, commit lands in submissions/inbox, result shown (GitHub API mocked)', async ({ page }) => {
+  const blobs: string[] = []; let treePaths: string[] = [];
+  await page.route('https://api.github.com/**', async (route) => {
+    const url = route.request().url(); const method = route.request().method();
+    const json = (b: unknown, status = 200) => route.fulfill({ status, contentType: 'application/json', body: JSON.stringify(b) });
+    if (url.endsWith('/user')) return json({ login: 'tester' });
+    if (/\/repos\/[^/]+\/[^/]+$/.test(url)) return json({ permissions: { push: true } });
+    if (url.includes('/git/ref/heads/main')) return json({ object: { sha: 'head1' } });
+    if (url.includes('/git/commits/head1')) return json({ tree: { sha: 'tree0' } });
+    if (url.endsWith('/git/blobs') && method === 'POST') { blobs.push(JSON.parse(route.request().postData()!).content); return json({ sha: `b${blobs.length}` }); }
+    if (url.endsWith('/git/trees')) { treePaths = JSON.parse(route.request().postData()!).tree.map((t: any) => t.path); return json({ sha: 't1' }); }
+    if (url.endsWith('/git/commits') && method === 'POST') return json({ sha: 'c1' });
+    if (url.includes('/git/refs/heads/main')) return json({});
+    if (url.includes('/contents/submissions/results/')) {
+      const body = btoa(JSON.stringify({ ok: true, message: 'Added **1** photo(s) to the gallery.' }));
+      return json({ content: body });
+    }
+    return json({ message: 'unexpected ' + url }, 404);
+  });
+  await page.goto('/contribute-token/');
+  await page.fill('#token', 'github_pat_test');
+  await page.click('#save-token');
+  await expect(page.locator('#key-status')).toContainText('Connected as tester');
+  // a tiny real PNG as the "phone photo"
+  const png = Buffer.from('iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAIAAAD91JpzAAAAFklEQVR4nGP4z8DAwMDAxMDAwMDAAAANHQEDasKb6QAAAABJRU5ErkJggg==', 'base64');
+  await page.setInputFiles('[data-panel=photos] [name="__img_Photos"]', { name: 'IMG_0001.png', mimeType: 'image/png', buffer: png });
+  await page.fill('[data-panel=photos] [name=event]', 'CVPR 2026');
+  await page.fill('[data-panel=photos] [name=caption]', 'Poster at CVPR 2026.');
+  await page.click('[data-panel=photos] button:has-text("Submit")');
+  await expect(page.locator('[data-panel=photos] [data-status]')).toContainText('Added 1 photo(s) to the gallery', { timeout: 30000 });
+  expect(treePaths.some((p) => /^submissions\/inbox\/[^/]+\/image-1\.jpg$/.test(p))).toBe(true);
+  const sub = JSON.parse(Buffer.from(blobs[blobs.length - 1], 'base64').toString());
+  expect(sub.kind).toBe('[Photo]');
+  expect(sub.fields['Caption']).toBe('Poster at CVPR 2026.');
+  expect(sub.fields['Event / conference / place']).toBe('CVPR 2026');
+  expect(sub.images['Photos']).toEqual(['image-1.jpg']);
+  expect(Buffer.from(blobs[0], 'base64').subarray(0, 3).toString('hex')).toBe('ffd8ff');   // re-encoded as JPEG (metadata stripped)
 });
