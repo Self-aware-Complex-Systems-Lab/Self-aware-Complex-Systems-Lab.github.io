@@ -20,6 +20,11 @@
    "displayTitle": "Find the Fruit: Designing a Zero-Shot Sim2Real Deep RL Planner for Occlusion Aware Plant Manipulation"
   },
   {
+   "key": "added:16",
+   "badge": "AISTATS 2026",
+   "displayTitle": "Directional Concentration Uncertainty: A Representational Approach to Uncertainty Quantification for Generative Models"
+  },
+  {
    "key": "archived:315",
    "badge": "ICLR 2025",
    "displayTitle": "Latent Safety-Constrained Policy Approach for Safe Offline Reinforcement Learning"

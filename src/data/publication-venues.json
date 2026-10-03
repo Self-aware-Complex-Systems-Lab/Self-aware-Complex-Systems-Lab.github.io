@@ -90,6 +90,12 @@
    "venue": "IEEE Open Journal of Instrumentation and Measurement, IEEE (2025)",
    "year": 2025,
    "evidence": "venue is a journal (IEEE Open Journal of Instrumentation and Measurement); was filed under conferences"
+  },
+  "added:16": {
+   "category": "conferences",
+   "venue": "International Conference on Artificial Intelligence and Statistics (AISTATS 2026)",
+   "year": 2026,
+   "evidence": "confirmed by lab (2026-10-03); Souradeep Chattopadhyay's LinkedIn post on presenting at AISTATS 2026, Tangier, Morocco"
   }
  }
 }
