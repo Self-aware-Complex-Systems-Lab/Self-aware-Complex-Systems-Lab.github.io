@@ -93,7 +93,7 @@ test('contribute form hands off to a prefilled GitHub issue form', async ({ page
   await page.goto('/contribute/');
   await page.evaluate(() => { (window as any).__opened = ''; window.open = ((u: string) => { (window as any).__opened = u; return null; }) as any; });
   await page.selectOption('[data-panel=photos] [name=kind]', 'Graduation or thesis defense');
-  await page.fill('[data-panel=photos] [name=people]', 'Jane Doe');
+  await page.fill('[data-panel=photos] [name=_who]', 'Jane Doe');
   await page.fill('[data-panel=photos] [name=event]', 'ISU commencement');
   await expect(page.locator('[data-panel=photos] [name=caption]')).toHaveValue(/Jane Doe — ph\.d\. graduation, ISU commencement\./i);
   await page.click('[data-panel=photos] button');
@@ -102,4 +102,18 @@ test('contribute form hands off to a prefilled GitHub issue form', async ({ page
   expect(url.searchParams.get('template')).toBe('gallery-photo.yml');
   expect(url.searchParams.get('kind')).toBe('Graduation or thesis defense');
   expect(url.searchParams.get('title')).toMatch(/^\[Photo\] Jane Doe/);
+});
+
+test('contribute: profile pre-fills known details and new-member detects existing people', async ({ page }) => {
+  await page.goto('/contribute/');
+  await page.click('button[data-tab=profile]');
+  await page.fill('[data-panel=profile] [name=person]', 'Zahid Hasan');
+  await expect(page.locator('[data-panel=profile] [name=github]')).toHaveValue(/github\.com\/zahid-isu/);
+  await expect(page.locator('[data-panel=profile] [data-hint=person]')).toContainText('Found');
+  await page.click('button[data-tab=member]');
+  await page.fill('[data-panel=member] [name=name]', 'Nitesh Subedi');
+  await expect(page.locator('[data-panel=member] [data-hint=name]')).toContainText('already on the website');
+  await page.click('button[data-tab=milestone]');
+  await page.fill('[data-panel=milestone] [name=who]', 'Shreyan Ganguly');
+  await expect(page.locator('[data-panel=milestone] [data-hint=who]')).toContainText('Graduate Alumni');
 });

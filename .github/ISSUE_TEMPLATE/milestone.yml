@@ -1,0 +1,31 @@
+name: "🎓 Defense, graduation or leaving the lab"
+description: Moves the person to the right alumni section, adds the degree and posts a news item. Applied automatically for lab members.
+title: "[Milestone] "
+body:
+  - type: input
+    id: who
+    attributes: { label: Who?, description: Name as it appears on the website. }
+    validations: { required: true }
+  - type: dropdown
+    id: milestone
+    attributes: { label: Milestone, options: ["Ph.D. thesis defense", "Ph.D. graduation", "M.S. graduation", "B.S. graduation", "Postdoc completed", "Left the lab"] }
+    validations: { required: true }
+  - type: input
+    id: date
+    attributes: { label: Date, placeholder: "2026-12-12" }
+    validations: { required: true }
+  - type: input
+    id: degree
+    attributes: { label: Degree earned, placeholder: "Ph.D., Mechanical Engineering, Iowa State University, 2026" }
+  - type: input
+    id: thesis
+    attributes: { label: Thesis title (optional) }
+  - type: input
+    id: next
+    attributes: { label: Next position (optional), placeholder: "Research Scientist at …" }
+  - type: input
+    id: link
+    attributes: { label: Link (optional), description: "Thesis, LinkedIn post, news story…" }
+  - type: textarea
+    id: photo
+    attributes: { label: Photo (optional), description: Defense or hooding photo — it also goes to the news item. }

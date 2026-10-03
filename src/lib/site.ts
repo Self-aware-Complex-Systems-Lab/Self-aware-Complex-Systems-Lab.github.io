@@ -24,8 +24,10 @@ export const CURRENT_CATEGORIES = [
   'Doctoral Students',
   'Masters Students',
   'Research Students on Independent Studies',
+  'Undergraduate Researchers',
+  'Visiting Scholars',
 ];
-export const ALUMNI_CATEGORIES = ['Post-doctorate Alumni', 'Graduate Alumni', 'Masters Alumni', 'Independent Study Alumni', 'Undergraduate Alumni'];
+export const ALUMNI_CATEGORIES = ['Post-doctorate Alumni', 'Graduate Alumni', 'Masters Alumni', 'Visiting Scholar Alumni', 'Independent Study Alumni', 'Undergraduate Alumni'];
 
 export const slug = (s: string) =>
   s.toLowerCase().replace(/^dr\.?\s+/, '').replace(/[^a-z0-9]+/g, '-').replace(/^-|-$/g, '');

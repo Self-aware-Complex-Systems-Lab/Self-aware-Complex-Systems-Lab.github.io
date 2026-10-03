@@ -1,0 +1,51 @@
+name: "🧑‍🔬 New lab member"
+description: Add a new student, postdoc or visitor to the People page. If the person is already listed, this updates their profile instead.
+title: "[Member] "
+body:
+  - type: input
+    id: name
+    attributes: { label: Full name }
+    validations: { required: true }
+  - type: dropdown
+    id: role
+    attributes: { label: Role, options: ["Ph.D. student", "Master's student", "Postdoctoral researcher", "Undergraduate researcher", "Independent study / visiting student", "Visiting scholar"] }
+    validations: { required: true }
+  - type: input
+    id: department
+    attributes: { label: Department, placeholder: "Department of Mechanical Engineering" }
+  - type: input
+    id: joined
+    attributes: { label: Joined (term), placeholder: "Fall 2026" }
+  - type: textarea
+    id: degrees
+    attributes: { label: Degrees, description: "One per line, newest first, e.g. B.S., Computer Science, BUET, 2024" }
+  - type: textarea
+    id: bio
+    attributes: { label: Bio, description: Two to four sentences in third person. }
+  - type: input
+    id: interests
+    attributes: { label: Research interests, placeholder: "reinforcement learning, robotics, computer vision" }
+  - type: input
+    id: email
+    attributes: { label: Email (shown as name (@) iastate.edu), placeholder: "netid (@) iastate.edu" }
+  - type: input
+    id: homepage
+    attributes: { label: Homepage }
+  - type: input
+    id: scholar
+    attributes: { label: Google Scholar }
+  - type: input
+    id: github
+    attributes: { label: GitHub }
+  - type: input
+    id: linkedin
+    attributes: { label: LinkedIn }
+  - type: input
+    id: orcid
+    attributes: { label: ORCID }
+  - type: textarea
+    id: other
+    attributes: { label: Other links (one per line) }
+  - type: textarea
+    id: photo
+    attributes: { label: Photo, description: Attach a headshot (square works best). }

@@ -1,18 +1,50 @@
 name: "👤 Profile update"
-description: New photo, role, graduation, bio or links. A maintainer reviews and applies it.
+description: Update your role, bio, interests, links or photo. Only the fields you fill in are changed. Applied automatically for lab members.
 title: "[Profile] "
 body:
   - type: input
     id: person
-    attributes: { label: Your name }
+    attributes: { label: Your name, description: As it appears on the website. }
     validations: { required: true }
+  - type: input
+    id: headline
+    attributes: { label: Role / headline, placeholder: "Ph.D. Candidate, Mechanical Engineering" }
+  - type: input
+    id: department
+    attributes: { label: Department }
+  - type: input
+    id: position
+    attributes: { label: Current position (alumni), placeholder: "Research Scientist, Company" }
+  - type: input
+    id: joined
+    attributes: { label: Joined (term) }
+  - type: textarea
+    id: degrees
+    attributes: { label: Degrees (new ones only), description: One per line. }
+  - type: textarea
+    id: bio
+    attributes: { label: Bio (replaces the current one), description: Leave empty to keep the current bio. }
+  - type: input
+    id: interests
+    attributes: { label: Research interests }
+  - type: input
+    id: homepage
+    attributes: { label: Homepage }
+  - type: input
+    id: scholar
+    attributes: { label: Google Scholar }
+  - type: input
+    id: github
+    attributes: { label: GitHub }
+  - type: input
+    id: linkedin
+    attributes: { label: LinkedIn }
+  - type: input
+    id: orcid
+    attributes: { label: ORCID }
+  - type: textarea
+    id: other
+    attributes: { label: Other links (one per line) }
   - type: textarea
     id: photo
-    attributes: { label: New photo (optional), description: Attach a headshot. }
-  - type: textarea
-    id: changes
-    attributes: { label: What should change? }
-    validations: { required: true }
-  - type: textarea
-    id: links
-    attributes: { label: Links (one per line) }
+    attributes: { label: Photo (new headshot), description: Attach only if you want to replace your photo. }

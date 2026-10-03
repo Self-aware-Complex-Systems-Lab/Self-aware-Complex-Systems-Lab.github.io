@@ -1,5 +1,5 @@
 # Applies lab-member submissions from the website's Contribute page (GitHub issue forms):
-# [Photo] / [News] / [Publication] are published automatically for lab members; [Profile] waits for a maintainer.
+# Photo, News, Publication, Member, Profile, Milestone, Grant and Award submissions from lab members are applied automatically.
 name: Contributions
 
 on:
@@ -16,7 +16,7 @@ concurrency:
 
 jobs:
   apply:
-    if: startsWith(github.event.issue.title, '[Photo]') || startsWith(github.event.issue.title, '[News]') || startsWith(github.event.issue.title, '[Publication]') || startsWith(github.event.issue.title, '[Profile]')
+    if: startsWith(github.event.issue.title, '[Photo]') || startsWith(github.event.issue.title, '[News]') || startsWith(github.event.issue.title, '[Publication]') || startsWith(github.event.issue.title, '[Profile]') || startsWith(github.event.issue.title, '[Member]') || startsWith(github.event.issue.title, '[Milestone]') || startsWith(github.event.issue.title, '[Grant]') || startsWith(github.event.issue.title, '[Award]')
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4

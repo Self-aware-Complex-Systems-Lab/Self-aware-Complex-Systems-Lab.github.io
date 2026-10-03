@@ -1,0 +1,29 @@
+name: "💰 New grant"
+description: Adds a grant to Research Funding (PI page and CV) and posts a news item. Duplicates are detected. Applied automatically for lab members.
+title: "[Grant] "
+body:
+  - type: input
+    id: title
+    attributes: { label: Grant title }
+    validations: { required: true }
+  - type: input
+    id: sponsor
+    attributes: { label: Sponsor, placeholder: "NSF, USDA-NIFA, DOE, DARPA, industry…" }
+  - type: dropdown
+    id: role
+    attributes: { label: Dr. Sarkar's role, options: ["PI", "Co-PI", "ISU PI", "Senior Personnel"] }
+  - type: input
+    id: amount
+    attributes: { label: Amount, placeholder: "$500,000" }
+  - type: input
+    id: start
+    attributes: { label: Start, placeholder: "Sep 2026" }
+  - type: input
+    id: end
+    attributes: { label: End, placeholder: "Aug 2029" }
+  - type: textarea
+    id: summary
+    attributes: { label: Summary (optional), description: One sentence for the news item. }
+  - type: input
+    id: link
+    attributes: { label: Announcement link (optional) }

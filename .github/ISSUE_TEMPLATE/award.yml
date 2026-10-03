@@ -1,0 +1,30 @@
+name: "🏆 Award"
+description: Posts an award as news; awards to Prof. Sarkar also go to Honors & Awards. Duplicates are detected. Applied automatically for lab members.
+title: "[Award] "
+body:
+  - type: input
+    id: award
+    attributes: { label: Award, placeholder: "Best Paper Award" }
+    validations: { required: true }
+  - type: input
+    id: recipient
+    attributes: { label: Recipient, description: "Name as on the website, or Soumik Sarkar" }
+    validations: { required: true }
+  - type: input
+    id: org
+    attributes: { label: Awarding organization / event }
+  - type: input
+    id: year
+    attributes: { label: Year }
+  - type: input
+    id: date
+    attributes: { label: Date (optional), placeholder: "2026-10-03" }
+  - type: textarea
+    id: details
+    attributes: { label: Details (optional) }
+  - type: input
+    id: link
+    attributes: { label: Link (optional) }
+  - type: textarea
+    id: photo
+    attributes: { label: Photo (optional) }
