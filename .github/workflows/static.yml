@@ -1,9 +1,12 @@
-# Build the Astro site and deploy it to GitHub Pages.
+# Build the Astro site (including the CV PDF) and deploy it to GitHub Pages.
 name: Deploy site to Pages
 
 on:
   push:
     branches: ["main"]
+  workflow_run:
+    workflows: ["Update publications"]
+    types: [completed]
   workflow_dispatch:
 
 permissions:
@@ -17,16 +20,20 @@ concurrency:
 
 jobs:
   build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: npm
       - run: npm ci
+      - run: npx playwright install --with-deps chromium
       - run: npx astro check
-      - run: npm run build
+      - run: npm run build   # astro build + scripts/render-cv-pdf.mjs
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

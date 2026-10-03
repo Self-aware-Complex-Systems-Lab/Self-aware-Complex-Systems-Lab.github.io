@@ -33,6 +33,11 @@ const talks = sec('Invited Talks');
         <h2 class="font-bold text-base mb-2">Contact Information</h2>
         <ul class="space-y-1">{contact.map((i) => <li set:html={withLinks(i.text, i.links)} />)}</ul>
       </div>
+      <a href="/cv/Soumik_Sarkar_CV.pdf" class="mt-4 flex items-center justify-center gap-2 rounded bg-cardinal px-4 py-2.5 text-white no-underline hover:bg-cardinal-dark hover:text-white font-semibold">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M12 3v12m0 0l-4-4m4 4l4-4M5 21h14"/></svg>
+        Download CV (PDF)
+      </a>
+      <a href="/cv/" class="mt-2 block text-center text-sm">View CV online</a>
     </div>
     <div>
       <h2 class="text-2xl font-bold">Dr. Soumik Sarkar</h2>

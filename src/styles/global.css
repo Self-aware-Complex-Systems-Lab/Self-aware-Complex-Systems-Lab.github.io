@@ -2,7 +2,7 @@
 
 @theme {
   --font-sans: "Source Sans 3", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
-  --font-serif: "Source Serif 4", ui-serif, Georgia, serif;
+  --font-serif: "Source Serif 4 Variable", "Source Serif 4", ui-serif, Georgia, serif;
   --color-cardinal: #9e1b32;   /* Iowa State cardinal, darkened slightly for AA contrast on white */
   --color-cardinal-dark: #7c1527;
   --color-gold: #f1be48;

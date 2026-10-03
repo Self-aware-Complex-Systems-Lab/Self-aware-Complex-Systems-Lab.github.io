@@ -1,0 +1,41 @@
+# Weekly: fetch new publications from OpenAlex + Crossref (by ORCID), commit them, and let the deploy workflow rebuild
+# the site and the CV PDF. Can also be run by hand from the Actions tab.
+name: Update publications
+
+on:
+  schedule:
+    - cron: "17 11 * * 1"   # Mondays 11:17 UTC (~6 AM in Ames)
+  workflow_dispatch:
+  push:
+    branches: ["main"]
+    paths: ["scripts/update_publications.py", ".github/workflows/update-publications.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: "update-publications"
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Fetch and merge new publications
+        run: python scripts/update_publications.py | tee update.log
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add src/data/publications-added.json src/data/publication-removals.json src/data/people-publications.json
+          if git diff --staged --quiet; then
+            echo "No new publications."
+          else
+            n=$(grep -c '^+ ' update.log || true)
+            git commit -m "Auto-update publications (+${n}) from OpenAlex/Crossref"
+            git push
+          fi

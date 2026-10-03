@@ -65,6 +65,12 @@ const latest = publications.filter((p) => p.category !== 'preprints' && p.year)
           <span class="self-start rounded bg-cardinal text-white text-xs font-semibold px-2 py-0.5">{p.badge}{p.year ? ` · ${p.year}` : ''}</span>
           <a href={p.url ?? '/publications/'} rel="noopener" class="mt-2 font-semibold leading-snug no-underline hover:underline">{p.displayTitle ?? p.title}</a>
           <p class="mt-1 text-sm text-muted">{authorsShort(p.authors)}</p>
+          {(p.projectPage || p.code) && (
+            <p class="mt-2 flex gap-3 text-sm">
+              {p.projectPage && <a href={p.projectPage} rel="noopener">Project page</a>}
+              {p.code && <a href={p.code} rel="noopener">Code</a>}
+            </p>
+          )}
         </li>
       ))}
     </ul>

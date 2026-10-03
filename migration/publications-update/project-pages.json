@@ -1,0 +1,314 @@
+[
+  {
+    "pubKey": "archived:1",
+    "title": "In-context adaptation of VLMs for few-shot cell detection in optical microscopy",
+    "projectPage": "https://scslabisu.github.io/Micro-OD/",
+    "code": "https://github.com/shrn2/VLM_Det",
+    "evidence": "Project page (source repo SCSLabISU/Micro-OD) is titled 'In-Context Adaptation of VLMs for Few-Shot Cell Detection in Optical Microscopy' with authors Ganguly, Biswas, Rade, ..., Soumik Sarkar; its Code button links github.com/tre3x/VLM_Det, which redirects to shrn2/VLM_Det (Shreyan Ganguly's account).",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:4",
+    "title": "Procedural generation of 3D maize plant architecture from LiDAR data",
+    "projectPage": null,
+    "code": "https://github.com/baskargroup/ProceduralMaize3D",
+    "evidence": "README is titled 'Procedural Generation of 3D Maize Plant Architecture from LIDAR Data' and describes the PSO + NURBS-Diff method.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:11",
+    "title": "3D multiphase heterogeneous microstructure generation using conditional latent diffusion models",
+    "projectPage": null,
+    "code": "https://github.com/baskargroup/MicroGen3D",
+    "evidence": "README describes MicroGen3D as 'a conditional latent diffusion model framework for generating high-resolution, 3D multiphase microstructures'. That matches the paper (arXiv 2503.10711) from the same Baskar group/SCSLab team, but the README does not quote the paper title.",
+    "confidence": "medium"
+  },
+  {
+    "pubKey": "archived:12",
+    "title": "Benchmarking scientific machine-learning approaches for flow prediction around complex geometries",
+    "projectPage": null,
+    "code": "https://github.com/baskargroup/GeometryMatters",
+    "evidence": "README says it is the code for 'Geometry Matters: Benchmarking Scientific ML Approaches for Flow Prediction around Complex Geometries' (Rabeh, Herron, Balu, Sarkar, Hegde, Krishnamurthy, Ganapathysubramanian). This entry is the journal version of that work (Communications Engineering 2025).",
+    "confidence": "medium"
+  },
+  {
+    "pubKey": "archived:19",
+    "title": "Evaluating neural radiance fields for 3D plant geometry reconstruction in field conditions",
+    "projectPage": null,
+    "code": "https://github.com/idealab-isu/Plant-NeRFs",
+    "evidence": "The GitHub repo description is the paper title, 'Evaluating Neural Radiance Fields (NeRFs) for 3D Plant Geometry Reconstruction in Field Conditions'. Anushrut Jignasu's site also lists the paper (arXiv 2402.10344).",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:20",
+    "title": "Biotrove: A large curated image dataset enabling ai for biodiversity",
+    "projectPage": "https://baskargroup.github.io/BioTrove/",
+    "code": "https://github.com/baskargroup/BioTrove",
+    "evidence": "Project page shows 'BioTrove: A Large Curated Image Dataset Enabling AI for Biodiversity' (Yang, Feuer, ..., Md Zahid Hasan, ..., Soumik Sarkar, ..., NeurIPS 2024) and links the code repo, whose README is headed with the same title. Zahid Hasan's site links both.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:25",
+    "title": "Latent diffusion models for structural component design",
+    "projectPage": null,
+    "code": "https://github.com/ethanherron/GenStructures",
+    "evidence": "README is titled 'Latent Diffusion Models for Structural Component Design' (first author Ethan Herron's repo).",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:37",
+    "title": "Class‐specific data augmentation for plant stress classification",
+    "projectPage": null,
+    "code": "https://github.com/nasla-96/Class-specific-Data-Augmentation-for-Plant-Stress-Classification",
+    "evidence": "README: 'Code for: Class-specific Data Augmentation for Plant Stress Classification, The Plant Phenome Journal (2024)', with the ppj2.20112 DOI.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:45",
+    "title": "The impact of market orientation and brand storytelling on Shark Tank evaluations – a B2B and large language modeling perspective",
+    "projectPage": "https://tracfintech.github.io/PitchEval/",
+    "code": null,
+    "evidence": "Linked from tirtho149.github.io. The page title and heading are 'The impact of market orientation and brand storytelling on Shark Tank evaluations - a B2B and large language modeling perspective' (Jayashankar, Roy, Chattopadhyay, Arshad, Sarkar; J. Business & Industrial Marketing). It links a dataset but no code.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:61",
+    "title": "Nurbs-diff: A differentiable programming module for nurbs",
+    "projectPage": null,
+    "code": "https://github.com/anjanadev96/NURBS_Diff",
+    "evidence": "README is 'NURBS-Diff: A Differentiable NURBS Layer for Machine Learning CAD Applications' (ISU IDEA Lab; Balu and Shah as collaborators). That is the earlier title of the same arXiv work (2104.14547), now 'NURBS-Diff: A Differentiable Programming Module for NURBS'. idealab-isu/NURBSDiff is a newer pure-PyTorch reimplementation.",
+    "confidence": "medium"
+  },
+  {
+    "pubKey": "archived:62",
+    "title": "Deep learning for live cell shape detection and automated afm navigation",
+    "projectPage": null,
+    "code": "https://github.com/jaydeepradeJD/AFM_YOLOv3",
+    "evidence": "README cites 'Deep Learning for Live Cell Shape Detection and Automated AFM Navigation', Rade, Zhang, Sarkar, Krishnamurthy, Ren, Sarkar, Bioengineering 2022.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:67",
+    "title": "A modular vision language navigation and manipulation framework for long horizon compositional tasks in indoor environment",
+    "projectPage": null,
+    "code": "https://github.com/Homagn/MOVILAN",
+    "evidence": "Homagni Saha's MOVILAN repo ('Modular and simple vision language navigation framework'). Its README links the paper, arXiv 2101.07891 ('A modular vision language navigation and manipulation framework for long horizon compositional tasks in indoor environment').",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:222",
+    "title": "Leveraging vision language models for specialized agricultural tasks",
+    "projectPage": "https://agllms.github.io/AgEval",
+    "code": "https://github.com/arbab-ml/AgEval",
+    "evidence": "Project page is titled 'Leveraging Vision Language Models for Specialized Agricultural Tasks' (Arshad, Jubery, Roy, ..., Soumik Sarkar; WACV 2025) and links arbab-ml/AgEval. The arXiv 2407.19617 abstract also cites that repo. Both are linked from arbabarshad.com.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:223",
+    "title": "Conversational LLM-based decision support for defect classification in AFM images",
+    "projectPage": null,
+    "code": "https://github.com/idealab-isu/AFM-LLM-Defect-Guidance",
+    "evidence": "README is titled 'Conversational LLM-Based Decision Support for Defect Classification in AFM Images'. A Hugging Face Space demo is listed at jrrade/AFM-Defect-Detection-and-LLM-Guidance.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:225",
+    "title": "RLS3: RL-Based Synthetic Sample Selection to Enhance Spatial Reasoning in Vision-Language Models for Indoor Autonomous Perception",
+    "projectPage": "https://zahid-isu.github.io/rls3/",
+    "code": "https://github.com/zahid-isu/rls3",
+    "evidence": "The README heading is 'RLS3: RL-Based Synthetic Sample Selection to Enhance Spatial Reasoning in Vision-Language Models for Indoor Autonomous Perception (ICCPS 2025)' and it gives the ACM citation. The project page carries the RLS3 title and DOI 10.1145/3716550.3722033, but still contains leftover template text from the BioTrove page. Both are linked from Zahid Hasan's site.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:226",
+    "title": "SC-NeRF: NeRF-based Point Cloud Reconstruction using a Stationary Camera for Agricultural Applications",
+    "projectPage": null,
+    "code": "https://github.com/kibonku/Stationary3DApp",
+    "evidence": "The repo description by first author Kibon Ku is the paper title, 'NeRF-based Point Cloud Reconstruction using a Stationary Camera for Agricultural Applications'. baskargroup/SC-NeRF also exists but has no README or description.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:227",
+    "title": "Dimat: Decentralized iterative merging-and-training for deep learning models",
+    "projectPage": null,
+    "code": "https://github.com/nsaadati/DIMAT",
+    "evidence": "README: 'DIMAT: Decentralized Iterative Merging and Training for Deep Learning Models (CVPR 2024)', links arXiv 2404.08079; Hugging Face Papers also lists this repo for the arXiv paper.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:228",
+    "title": "GENESIS-RL: GEnerating natural edge-cases with systematic integration of safety considerations and reinforcement learning",
+    "projectPage": "https://hjy77.github.io/GENESIS-RL/",
+    "code": null,
+    "evidence": "Project page is titled 'GENESIS-RL: GEnerating Natural Edge-cases with Systematic Integration of Safety considerations and Reinforcement Learning' (Hsin-Jung Yang, Beck, Hasan, Beyazit, Chakraborty, Wongpiromsarn, Sarkar). Its Code button points to github.com/hjy77/CarlaScenGenRL, which returns 404, so no code is recorded. The hjy77/GENESIS-RL repo holds only the page source.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:235",
+    "title": "MDPGT: momentum-based decentralized policy gradient tracking",
+    "projectPage": null,
+    "code": "https://github.com/xylee95/MD-PGT",
+    "evidence": "README: 'Repository for implementing and reproducing the results for the paper MDPGT: Momentum-based Decentralized Policy Gradient Tracking' (arXiv 2112.02813), in the repo of SCSLab alum Xian Yeow Lee.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:240",
+    "title": "Generative design of material microstructures for organic solar cells using diffusion models",
+    "projectPage": null,
+    "code": "https://github.com/ethanherron/GenOPVSolarCells",
+    "evidence": "README is titled 'Generative Design of Material Microstructures for Organic Solar Cells using Diffusion Models' and links the same OpenReview paper (f9Lk1G9q-G-).",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:305",
+    "title": "Towards large reasoning models for agriculture",
+    "projectPage": "https://baskargroup.github.io/Ag_reasoning/",
+    "code": "https://github.com/AIIRA-ISU/AgReason",
+    "evidence": "The arXiv 2505.19259 abstract links the project page. The page is titled 'Towards Large Reasoning Models for Agriculture' (Zaremehrjerdi, Ganguly, Rairdin, ..., Soumik Sarkar) and its Code button links AIIRA-ISU/AgReason, whose repo description is 'Towards Large Reasoning Models for Agriculture: Dataset and Benchmark'.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:306",
+    "title": "Find the fruit: Designing a zero-shot sim2real deep rl planner for occlusion aware plant manipulation",
+    "projectPage": "https://hjy77.github.io/find_the_fruit/",
+    "code": "https://github.com/nitesh-subedi/Find_the_Fruit",
+    "evidence": "Project page 'Find the Fruit: Zero-Shot Sim2Real Deep RL Planner for Occlusion Aware Plant Manipulation' (Subedi, Yang, Jha, Sarkar; ICRA 2026) links arXiv 2505.16547 and its Code button links nitesh-subedi/Find_the_Fruit.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:314",
+    "title": "Flowbench: A large scale benchmark for flow simulation over complex geometries",
+    "projectPage": "https://baskargroup.bitbucket.io/",
+    "code": "https://github.com/baskargroup/flowbench-tools",
+    "evidence": "The flowbench-tools README says 'This is the repository for the FlowBench' dataset (10k+ flow simulations over complex geometries, training code for FNO, CNO and DeepONet) and calls baskargroup.bitbucket.io the 'project website'. The bitbucket site is a JavaScript app titled 'Flowbench'. Neither quotes the full paper title.",
+    "confidence": "medium"
+  },
+  {
+    "pubKey": "archived:315",
+    "title": "Latent safety-constrained policy approach for safe offline reinforcement learning",
+    "projectPage": null,
+    "code": "https://github.com/PrajwalKoirala/LSPC-Safe-Offline-RL",
+    "evidence": "README: 'LSPC - Safe Offline RL [ICLR 2025]. Paper: Latent Safety-Constrained Policy Approach for Safe Offline Reinforcement Learning', arXiv 2412.08794.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:316",
+    "title": "Fawac: Feasibility informed advantage weighted regression for persistent safety in offline reinforcement learning",
+    "projectPage": null,
+    "code": "https://github.com/PrajwalKoirala/FAWAC-CDC",
+    "evidence": "Repo by co-author Prajwal Koirala, described as 'Feasibility Informed Advantage Weighted Actor-Critic for Safe Offline Reinforcement Learning'. That is the FAWAC method, but the wording differs from the listed title ('...Regression for Persistent Safety...') and the README gives no paper link.",
+    "confidence": "medium"
+  },
+  {
+    "pubKey": "archived:317",
+    "title": "Geometry matters: benchmarking scientific ml approaches for flow prediction around complex geometries",
+    "projectPage": null,
+    "code": "https://github.com/baskargroup/GeometryMatters",
+    "evidence": "README names the paper 'Geometry Matters: Benchmarking Scientific ML Approaches for Flow Prediction around Complex Geometries' with the same author list and links arXiv 2501.01453.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:318",
+    "title": "AgGym: An agricultural biotic stress simulation environment for ultra-precision management planning",
+    "projectPage": null,
+    "code": "https://github.com/SCSLabISU/AgGym",
+    "evidence": "The arXiv 2409.00735 abstract ('AgGym: An agricultural biotic stress simulation environment...') links github.com/SCSLabISU/AgGym, and the README describes the AgGym simulator. Mkhosravi91/AgGym-website exists but is not deployed (GitHub Pages returns 404).",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:319",
+    "title": "STITCH: Surface reconstrucTion using Implicit neural representations with Topology Constraints and persistent Homology",
+    "projectPage": null,
+    "code": "https://github.com/idealab-isu/stitch",
+    "evidence": "README expands STITCH as 'Surface reconstrucTion using Implicit neural representations with Topology Constraints and persistent Homology', which is the paper title. The repo description says the same.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:323",
+    "title": "Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos",
+    "projectPage": null,
+    "code": "https://github.com/zahid-isu/DriveCLIP",
+    "evidence": "README is headed 'Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos' (IEEE link) and holds the DriveCLIP code. Zahid Hasan's site links it.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "added:0",
+    "title": "WeedNet: a foundation model-based global-to-local AI approach for weed species identification and classification",
+    "projectPage": null,
+    "code": "https://github.com/ttayanlade/WeedsRepo",
+    "evidence": "README: 'This is the repo for the paper WeedNet: A Foundation Model-Based Global-to-Local AI Approach for Real-Time Weed Species Identification and Classification' (arXiv 2505.18930, Shen, Ayanlade, ..., Sarkar). This entry is the published Nature Communications version of the same work.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "added:7",
+    "title": "SAGE: Scalable Agentic Grounded Evaluation for Crop Disease Diagnosis",
+    "projectPage": "https://sage-dataset.github.io/",
+    "code": "https://github.com/tirtho149/SAGE",
+    "evidence": "The arXiv 2605.09768 abstract links sage-dataset.github.io. The page is titled 'SAGE: Scalable Agentic Grounded Evaluation for Crop Disease Diagnosis' (Arshad, Roy, ..., Soumik Sarkar) and its Code button links tirtho149/SAGE. tirtho149.github.io links the page.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "added:8",
+    "title": "ADKO: Agentic Decentralized Knowledge Optimization",
+    "projectPage": null,
+    "code": "https://github.com/lucasrillo/adko",
+    "evidence": "README: 'code and experiment artifacts for Agentic Decentralized Knowledge Optimization (ADKO)'. The repo belongs to SCSLab member Lucas Nerone Rillo.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "added:11",
+    "title": "Neural 3D reconstruction and immersive VR visualization of row crops across phenological growth stages",
+    "projectPage": "https://idealab-isu.github.io/Neural-3D-Reconstruction-and-Immersive-VR-Visualization-of-Row-Crops/",
+    "code": "https://github.com/idealab-isu/Neural-3D-Reconstruction-and-Immersive-VR-Visualization-of-Row-Crops",
+    "evidence": "Both the project page and the README are titled 'Neural 3D Reconstruction and Immersive VR Visualization of Row Crops Across Phenological Growth Stages'. The README calls it the 'official implementation ... for our published paper'.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "added:14",
+    "title": "LCLA: Language-Conditioned Latent Alignment for Vision-Language Navigation",
+    "projectPage": "https://nitesh-subedi.github.io/LCLA-website/",
+    "code": "https://github.com/nitesh-subedi/LCLA",
+    "evidence": "Project page 'LCLA: Language-Conditioned Latent Alignment for Vision-Language Navigation' (Subedi, Haroon, Tetteh, Koirala, Fleming, Sarkar) links arXiv 2602.07629, and its Code button links nitesh-subedi/LCLA.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:95",
+    "title": "Differentiable spline approximations",
+    "projectPage": null,
+    "code": "https://github.com/idealab-isu/DSA",
+    "evidence": "Repo description 'Differentiable Spline Approximations', links arXiv 2110.01532 (same title). Pre-2022.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:158",
+    "title": "LLNet: A deep autoencoder approach to natural low-light image enhancement",
+    "projectPage": null,
+    "code": "https://github.com/kglore/llnet_color",
+    "evidence": "Kin Gwn Lore's repo: 'Official implementation for color version of: LLNet: A deep autoencoder approach to natural low-light image enhancement'. It covers the color extension, not necessarily the original code. Pre-2022.",
+    "confidence": "medium"
+  },
+  {
+    "pubKey": "archived:160",
+    "title": "Collaborative deep learning in fixed topology networks",
+    "projectPage": null,
+    "code": "https://github.com/SCSLabISU/CDSGD",
+    "evidence": "SCSLabISU/CDSGD README: placeholder for Consensus Based Distributed SGD, 'see the paper: Collaborative Deep Learning in Fixed Topology Networks' (Jiang, Balu, Hegde, Sarkar). Pre-2022.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:266",
+    "title": "An explainable deep machine vision framework for plant stress phenotyping",
+    "projectPage": null,
+    "code": "https://github.com/SCSLabISU/xPLNet",
+    "evidence": "The SCSLabISU/xPLNet description is 'An explainable Deep Machine Vision framework for Plant Stress Phenotyping', which is the paper title. sghosal93/xPlNet-code_and_data-Access says the same. Pre-2022.",
+    "confidence": "high"
+  },
+  {
+    "pubKey": "archived:337",
+    "title": "Nurbs-diff: A differentiable nurbs layer for machine learning CAD applications",
+    "projectPage": null,
+    "code": "https://github.com/anjanadev96/NURBS_Diff",
+    "evidence": "README title exactly 'NURBS-Diff: A Differentiable NURBS Layer for Machine Learning CAD Applications'. Pre-2022.",
+    "confidence": "high"
+  }
+]

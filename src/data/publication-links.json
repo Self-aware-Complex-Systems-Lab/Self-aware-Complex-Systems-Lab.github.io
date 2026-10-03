@@ -1,0 +1,113 @@
+{
+ "_note": "Project pages and code per publication key (high-confidence matches from migration/publications-update/project-pages.json). Edit freely.",
+ "links": {
+  "archived:1": {
+   "projectPage": "https://scslabisu.github.io/Micro-OD/",
+   "code": "https://github.com/shrn2/VLM_Det"
+  },
+  "archived:4": {
+   "code": "https://github.com/baskargroup/ProceduralMaize3D"
+  },
+  "archived:19": {
+   "code": "https://github.com/idealab-isu/Plant-NeRFs"
+  },
+  "archived:20": {
+   "projectPage": "https://baskargroup.github.io/BioTrove/",
+   "code": "https://github.com/baskargroup/BioTrove"
+  },
+  "archived:25": {
+   "code": "https://github.com/ethanherron/GenStructures"
+  },
+  "archived:37": {
+   "code": "https://github.com/nasla-96/Class-specific-Data-Augmentation-for-Plant-Stress-Classification"
+  },
+  "archived:45": {
+   "projectPage": "https://tracfintech.github.io/PitchEval/"
+  },
+  "archived:62": {
+   "code": "https://github.com/jaydeepradeJD/AFM_YOLOv3"
+  },
+  "archived:67": {
+   "code": "https://github.com/Homagn/MOVILAN"
+  },
+  "archived:222": {
+   "projectPage": "https://agllms.github.io/AgEval",
+   "code": "https://github.com/arbab-ml/AgEval"
+  },
+  "archived:223": {
+   "code": "https://github.com/idealab-isu/AFM-LLM-Defect-Guidance"
+  },
+  "archived:225": {
+   "projectPage": "https://zahid-isu.github.io/rls3/",
+   "code": "https://github.com/zahid-isu/rls3"
+  },
+  "archived:226": {
+   "code": "https://github.com/kibonku/Stationary3DApp"
+  },
+  "archived:227": {
+   "code": "https://github.com/nsaadati/DIMAT"
+  },
+  "archived:228": {
+   "projectPage": "https://hjy77.github.io/GENESIS-RL/"
+  },
+  "archived:235": {
+   "code": "https://github.com/xylee95/MD-PGT"
+  },
+  "archived:240": {
+   "code": "https://github.com/ethanherron/GenOPVSolarCells"
+  },
+  "archived:305": {
+   "projectPage": "https://baskargroup.github.io/Ag_reasoning/",
+   "code": "https://github.com/AIIRA-ISU/AgReason"
+  },
+  "archived:306": {
+   "projectPage": "https://hjy77.github.io/find_the_fruit/",
+   "code": "https://github.com/nitesh-subedi/Find_the_Fruit"
+  },
+  "archived:315": {
+   "code": "https://github.com/PrajwalKoirala/LSPC-Safe-Offline-RL"
+  },
+  "archived:317": {
+   "code": "https://github.com/baskargroup/GeometryMatters"
+  },
+  "archived:318": {
+   "code": "https://github.com/SCSLabISU/AgGym"
+  },
+  "archived:319": {
+   "code": "https://github.com/idealab-isu/stitch"
+  },
+  "archived:323": {
+   "code": "https://github.com/zahid-isu/DriveCLIP"
+  },
+  "added:0": {
+   "code": "https://github.com/ttayanlade/WeedsRepo"
+  },
+  "added:7": {
+   "projectPage": "https://sage-dataset.github.io/",
+   "code": "https://github.com/tirtho149/SAGE"
+  },
+  "added:8": {
+   "code": "https://github.com/lucasrillo/adko"
+  },
+  "added:11": {
+   "projectPage": "https://idealab-isu.github.io/Neural-3D-Reconstruction-and-Immersive-VR-Visualization-of-Row-Crops/",
+   "code": "https://github.com/idealab-isu/Neural-3D-Reconstruction-and-Immersive-VR-Visualization-of-Row-Crops"
+  },
+  "added:14": {
+   "projectPage": "https://nitesh-subedi.github.io/LCLA-website/",
+   "code": "https://github.com/nitesh-subedi/LCLA"
+  },
+  "archived:95": {
+   "code": "https://github.com/idealab-isu/DSA"
+  },
+  "archived:160": {
+   "code": "https://github.com/SCSLabISU/CDSGD"
+  },
+  "archived:266": {
+   "code": "https://github.com/SCSLabISU/xPLNet"
+  },
+  "archived:337": {
+   "code": "https://github.com/anjanadev96/NURBS_Diff"
+  }
+ }
+}

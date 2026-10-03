@@ -72,3 +72,19 @@ test('mobile menu opens', async ({ page, isMobile }) => {
   await page.click('#nav-toggle');
   await expect(page.locator('#site-nav a[href="/alumni/"]')).toBeVisible();
 });
+
+test('CV page and PDF are published', async ({ page, request }) => {
+  const res = await page.goto('/cv/');
+  expect(res?.status()).toBe(200);
+  await expect(page.locator('h1')).toContainText('Soumik Sarkar');
+  const pdf = await request.get('/cv/Soumik_Sarkar_CV.pdf');
+  expect(pdf.status()).toBe(200);
+  expect((await pdf.body()).subarray(0, 5).toString()).toBe('%PDF-');
+});
+
+test('no external runtime resources (site is self-contained)', async ({ page }) => {
+  const external: string[] = [];
+  page.on('request', (r) => { const u = new URL(r.url()); if (!['localhost', '127.0.0.1'].includes(u.hostname) && !u.protocol.startsWith('data')) external.push(r.url()); });
+  for (const p of ['/', '/people/', '/principal-investigator/', '/publications/', '/cv/']) await page.goto(p, { waitUntil: 'networkidle' });
+  expect(external).toEqual([]);
+});

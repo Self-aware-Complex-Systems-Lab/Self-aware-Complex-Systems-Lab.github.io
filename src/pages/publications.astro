@@ -56,6 +56,12 @@ const years = [...new Set(all.map((p) => p.year).filter(Boolean))].sort((a, b) =
           {p.citationsAsOfArchive && <span> · {p.citationsAsOfArchive}</span>}
           {p.doi && <span> · DOI: <a href={`https://doi.org/${p.doi}`} rel="noopener">{p.doi}</a></span>}
         </p>
+        {(p.projectPage || p.code) && (
+          <p class="mt-2 flex flex-wrap gap-2 text-sm">
+            {p.projectPage && <a href={p.projectPage} rel="noopener" class="rounded border border-cardinal px-2.5 py-0.5 no-underline">Project page</a>}
+            {p.code && <a href={p.code} rel="noopener" class="rounded border border-line px-2.5 py-0.5 no-underline text-ink hover:border-cardinal">Code</a>}
+          </p>
+        )}
       </li>
     ))}
   </ol>
