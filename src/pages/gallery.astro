@@ -3,11 +3,14 @@ import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
 import curated from '../data/gallery.json';
 import uploads from '../data/gallery-uploads.json';
+import { pubByKey } from '../lib/publications';
 
 type Item = { src: string; size: number[]; caption: string; date: string | null; category: string; link: string | null;
-  credit: string; alt?: string; added?: string };
+  credit: string; alt?: string; added?: string; paperKey?: string | null };
 const CATEGORIES = ['Lab life', 'Conferences & events', 'Talks & keynotes', 'Graduations & defenses', 'Awards', 'Field work & robots', 'Outreach'];
-const monthKey = (d: string | null) => { const t = d ? Date.parse(`1 ${d}`) : NaN; return Number.isNaN(t) ? 0 : t; };
+const SEASON: Record<string, string> = { Spring: 'April', Summer: 'July', Fall: 'October', Winter: 'January' };
+const monthKey = (d: string | null) => { if (!d) return 0; const s = d.replace(/^(Spring|Summer|Fall|Winter)/, (m) => SEASON[m]); const t = Date.parse(`1 ${s}`); return Number.isNaN(t) ? 0 : t; };
+const paperOf = (k?: string | null) => (k ? pubByKey.get(k) : undefined);
 // Newest first; photos without a date go last.
 const items: Item[] = [...(uploads as Item[]), ...(curated as Item[])].sort((a, b) => monthKey(b.date) - monthKey(a.date));
 const cats = CATEGORIES.filter((c) => items.some((i) => i.category === c));
@@ -31,6 +34,7 @@ const cats = CATEGORIES.filter((c) => items.some((i) => i.category === c));
             <p class="text-ink">{g.caption}</p>
             <p class="mt-1 text-xs text-muted">
               {g.date && <span>{g.date} · </span>}{g.credit}{g.link && <span> · <a href={g.link} rel="noopener">More</a></span>}
+              {paperOf(g.paperKey) && <span> · <a href={paperOf(g.paperKey)!.projectPage ?? paperOf(g.paperKey)!.url ?? '/publications/'} rel="noopener">Paper</a></span>}
             </p>
           </figcaption>
         </figure>

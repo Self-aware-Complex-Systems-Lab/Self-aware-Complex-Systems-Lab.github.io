@@ -72,6 +72,24 @@
    "venue": "NIPS 2017 Symposium on Interpretable Machine Learning",
    "year": 2017,
    "evidence": "arXiv comment: 'Presented at NIPS 2017 Symposium…'"
+  },
+  "archived:318": {
+   "category": "journals",
+   "venue": "Computers and Electronics in Agriculture, Vol. 246, 111479",
+   "year": 2026,
+   "evidence": "Sarkar post https://www.linkedin.com/feed/update/urn:li:activity:7433295391141449728/ (also TrAC repost); link lnkd.in/gdGy2DEr -> sciencedirect pii S0168169926000748; Crossref doi 10.1016/j.compag.2026.111479, same author list as the listed arXiv 2409.00735"
+  },
+  "archived:323": {
+   "category": "journals",
+   "venue": "IEEE Transactions on Intelligent Transportation Systems, Vol. 25, pp. 11602-11616",
+   "year": 2024,
+   "evidence": "Zahid Hasan post https://www.linkedin.com/feed/update/urn:li:activity:7183223315627491330/ ('published in the IEEE Transactions on Intelligent Transportation Systems'); link lnkd.in/gk_jmbP9 -> doi 10.1109/TITS.2024.3381175, confirmed via Crossref"
+  },
+  "archived:223": {
+   "category": "journals",
+   "venue": "IEEE Open Journal of Instrumentation and Measurement, IEEE (2025)",
+   "year": 2025,
+   "evidence": "venue is a journal (IEEE Open Journal of Instrumentation and Measurement); was filed under conferences"
   }
  }
 }

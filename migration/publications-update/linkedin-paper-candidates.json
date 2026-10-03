@@ -1,0 +1,108 @@
+{
+  "missing": [
+    {
+      "title": "Predicting mild cognitive impairment using naturalistic driving and trip destination modeling",
+      "authors": "Souradeep Chattopadhyay and Guillermo Basulto-Elias and Jun Ha Chang and Matthew Rizzo and Shauna Hallmark and Anuj Sharma and Soumik Sarkar",
+      "venue": "Transportation Research Interdisciplinary Perspectives, Vol. 38, 102091",
+      "year": 2026,
+      "category": "journals",
+      "url": "https://doi.org/10.1016/j.trip.2026.102091",
+      "doi": "10.1016/j.trip.2026.102091",
+      "evidence": "Post https://www.linkedin.com/feed/update/urn:li:activity:7467226702155284480/ ('accepted for publication at Transportation Research Interdisciplinary Perspectives'); verified via Crossref record for doi 10.1016/j.trip.2026.102091",
+      "sarkarIsAuthor": true
+    },
+    {
+      "title": "Bidirectional linear recurrent models for sequence-level multisource fusion",
+      "authors": "Qisai Liu and Zhanhong Jiang and Md Zahid Hasan and Joshua R. Waite and Chao Liu and Aditya Balu and Soumik Sarkar",
+      "venue": "Information Fusion, Vol. 126, 103601",
+      "year": 2026,
+      "category": "journals",
+      "url": "https://doi.org/10.1016/j.inffus.2025.103601",
+      "doi": "10.1016/j.inffus.2025.103601",
+      "evidence": "Posts https://www.linkedin.com/feed/update/urn:li:activity:7379192844818984960/ (BLUR accepted in Information Fusion) and https://www.linkedin.com/feed/update/urn:li:activity:7379198470798176256/ (Sarkar share, article link sciencedirect pii S1566253525006736); verified via Crossref (issue dated Feb 2026; online 2025)",
+      "sarkarIsAuthor": true
+    },
+    {
+      "title": "FUSE: First-Order and Second-Order Unified Synthesis in Stochastic Optimization",
+      "authors": "Zhanhong Jiang and Md Zahid Hasan and Aditya Balu and Joshua R. Waite and Genyi Huang and Soumik Sarkar",
+      "venue": "2025 IEEE Conference on Artificial Intelligence (CAI), pp. 783-788",
+      "year": 2025,
+      "category": "conferences",
+      "url": "https://doi.org/10.1109/CAI64502.2025.00140",
+      "doi": "10.1109/CAI64502.2025.00140",
+      "evidence": "Post https://www.linkedin.com/feed/update/urn:li:activity:7325928455374548993/ (IEEE CAI 2025; link lnkd.in/gHX4JSQK -> arxiv.org/abs/2503.04204); verified via arXiv 2503.04204 and Crossref record for the IEEE CAI paper",
+      "sarkarIsAuthor": true
+    },
+    {
+      "title": "Can Pretrained Vision-Language Embeddings Alone Guide Robot Navigation?",
+      "authors": "Nitesh Subedi and Adam Haroon and Shreyan Ganguly and Samuel T. K. Tetteh and Prajwal Koirala and Cody Fleming and Soumik Sarkar",
+      "venue": "Robotics: Science and Systems (RSS) 2025 Workshop on Robot Planning in the Era of Foundation Models (FM4RoboPlan)",
+      "year": 2025,
+      "category": "conferences",
+      "url": "https://arxiv.org/abs/2506.14507",
+      "doi": null,
+      "evidence": "Post https://www.linkedin.com/feed/update/urn:li:activity:7348003936512962560/ (workshop paper at RSS 2025; link lnkd.in/dR5KTyVz -> arxiv.org/abs/2506.14507); verified via arXiv abstract page (comment: 'Accepted to RSS 2025 Workshop on Robot Planning in the Era of Foundation Models (FM4RoboPlan)')",
+      "sarkarIsAuthor": true
+    },
+    {
+      "title": "Zero-shot Sim-to-Real Transfer for Reinforcement Learning-based Visual Servoing of Soft Continuum Arms",
+      "authors": "Hsin-Jung Yang and Mahsa Khosravi and Benjamin Walt and Girish Krishnan and Soumik Sarkar",
+      "venue": "Proceedings of the 7th Annual Learning for Dynamics & Control Conference (L4DC 2025), PMLR 283, pp. 1300-1312",
+      "year": 2025,
+      "category": "conferences",
+      "url": "https://proceedings.mlr.press/v283/yang25b.html",
+      "doi": null,
+      "evidence": "Post https://www.linkedin.com/feed/update/urn:li:activity:7249556038071304192/ (Khosravi presented 'Model-Free Control of Soft Continuum Arms Using Visual Servoing and Soft Actor-Critic' at MLCAS 2024; the MLCAS talk was a presentation, the archival paper on the same SAC visual-servoing / sim-to-real work is this L4DC paper); verified via PMLR proceedings page and arXiv 2504.16916 (journal_ref PMLR 283:1300-1312)",
+      "sarkarIsAuthor": true
+    }
+  ],
+  "venueUpdates": [
+    {
+      "key": "archived:318",
+      "title": "AgGym: An agricultural biotic stress simulation environment for ultra-precision management planning",
+      "venue": "Computers and Electronics in Agriculture, Vol. 246, 111479",
+      "year": 2026,
+      "category": "journals",
+      "evidence": "Sarkar post https://www.linkedin.com/feed/update/urn:li:activity:7433295391141449728/ (also TrAC repost); link lnkd.in/gdGy2DEr -> sciencedirect pii S0168169926000748; Crossref doi 10.1016/j.compag.2026.111479, same author list as the listed arXiv 2409.00735"
+    },
+    {
+      "key": "archived:323",
+      "title": "Vision-Language Models can Identify Distracted Driver Behavior from Naturalistic Videos",
+      "venue": "IEEE Transactions on Intelligent Transportation Systems, Vol. 25, pp. 11602-11616",
+      "year": 2024,
+      "category": "journals",
+      "evidence": "Zahid Hasan post https://www.linkedin.com/feed/update/urn:li:activity:7183223315627491330/ ('published in the IEEE Transactions on Intelligent Transportation Systems'); link lnkd.in/gk_jmbP9 -> doi 10.1109/TITS.2024.3381175, confirmed via Crossref"
+    },
+    {
+      "key": "added:14",
+      "title": "LCLA: Language-Conditioned Latent Alignment for Vision-Language Navigation",
+      "venue": "Conference on Robot Learning (CoRL 2026)",
+      "year": 2026,
+      "category": "conferences",
+      "evidence": "Nitesh Subedi post https://www.linkedin.com/feed/update/urn:li:activity:7501801242931679232/ ('LCLA is going to CoRL 2026') and the AIIRA org post https://www.linkedin.com/feed/update/urn:li:share:7501801241560133632/ ('accepted at #CORL2026'). Not confirmed by a primary source yet: the arXiv 2602.07629 v2 record and the project page nitesh-subedi.github.io/LCLA-website give no venue, and the CoRL 2026 proceedings are not out (conference Nov 9-12, 2026). Re-check before publishing."
+    }
+  ],
+  "excluded": [
+    {"title": "FROST: Filtering Reasoning Outliers with Attention for Efficient Reasoning (ICLR 2026)", "reason": "Shared by Zahid Hasan, but the arXiv 2601.19001 authors are Luo, Jiang, Hasan, Chen and Soumalya Sarkar (RTX), not Soumik Sarkar. The post does not call it SCSLab work."},
+    {"title": "Towards Financial World Modeling: An Open Efficiency Question (AXIOM workshop, NeurIPS 2026)", "reason": "Authors are Tirtho Roy, Nilutpaul Sarker Yash, Ushashi Bhattacharjee and Adrito Roy, with no Sarkar. The post describes it as a class project, not SCSLab work."},
+    {"title": "When Do Engineered Features Beat Raw Prices? (WM@Booth 2026)", "reason": "Workshop presentation by Tirtho Roy. No primary record was found, and nothing shows Sarkar authorship or SCSLab attribution."},
+    {"title": "AI-driven artifact removal and image restoration in Atomic Force Microscopy via structured mask-guided inpainting (Micron, 2026)", "reason": "The Crossref record (10.1016/j.micron.2026.104121) lists Zhang, Biswas, Rade, Shukla, Balu, Krishnamurthy, Anwesha Sarkar and Ren, with no Soumik Sarkar."},
+    {"title": "Slice-100K: A Multimodal Dataset for Extrusion-based 3D Printing (NeurIPS 2024)", "reason": "Sarkar is not among the arXiv 2407.04180 authors (Jignasu et al.)."},
+    {"title": "Implicit vascular geometries for Lagrangian/particle-based simulation (bioRxiv 10.64898/2026.06.07.730719)", "reason": "Aditya Balu preprint with CU Boulder. The post's contributor list has no Sarkar."},
+    {"title": "Biology-informed neural networks learn nonlinear representations from omics data to improve genomic prediction and interpretability (arXiv 2510.14970)", "reason": "Bayer work (Kontolati, Gladstone, Davis, Pickering), with no Sarkar."},
+    {"title": "A Hierarchical Agentic Framework for Autonomous Drone-Based Visual Inspection (PHM 2025)", "reason": "Hitachi America R&D paper (Herron, Lee, Sin, Gonzalez, Farahat, Gupta), with no Sarkar."},
+    {"title": "Highway crash detection and risk estimation using deep learning (Accident Analysis & Prevention, 2020)", "reason": "The Crossref authors are Huang, Wang and Sharma, with no Sarkar."},
+    {"title": "NoTeS-Bank; FASTER: A Font-Agnostic Scene Text Editing and Rendering Framework (WACV 2025); GlobalDoc (WACV 2025); Hybrid Classical-Quantum Learning for Vectorised Handwritten Sketches (ICPR 2026)", "reason": "Alloy Das / Computer Vision Center work, with no Sarkar."},
+    {"title": "From Clutter to Clarity: Visual Recognition through Foveated Object-Centric Learning (FocL); Encoding Hierarchical Information in Neural Networks Helps in Subpopulation Shift", "reason": "Amitangshu Mukherjee's Purdue work (Roy lab), with no Sarkar."},
+    {"title": "RFdiffusion2 / de novo metallohydrolase preprints", "reason": "Baker lab (UW) work shared by Koushik Nagasubramanian, with no Sarkar."},
+    {"title": "Adjoint Sampling / Adjoint Schrodinger Bridge Sampler (FAIR)", "reason": "Aaron Havens's Meta FAIR internship work, with no Sarkar."},
+    {"title": "Mutation-based Fault Localization of Deep Neural Networks (ASE 2023)", "reason": "Arbab Arshad's software-engineering paper from a different group, with no Sarkar."},
+    {"title": "Human-Centered AI for Teacher Educators: Designing Professional Learning for Critical AI Literacy (Computers and Education Open)", "reason": "Evrim Baran's group (TrAC org post), with no Sarkar."},
+    {"title": "Deep reinforcement learning-based longitudinal control strategy for automated vehicles at signalised intersection (EAAI)", "reason": "IIT Kanpur paper in the TrAC org feed, with no Sarkar."},
+    {"title": "AIVO paper on coordinating large AI-institute research teams", "reason": "AIVO / NSF AI Institutes project-manager paper (AIIRA org feed), with no Sarkar."},
+    {"title": "AI and AFM-Assisted Structure Prediction of Protein Complexes (NVIDIA GTC 2025 poster)", "reason": "Industry-conference poster, not a publication."},
+    {"title": "Communication-efficient Decentralized Deep Learning (NeurIPS 2022 DMLW workshop)", "reason": "Workshop version of DSMA, which is already listed as the journal paper 'Dominating Set Model Aggregation for communication-efficient decentralized deep learning' (archived:30, Neural Networks 2024)."},
+    {"title": "On designing interatomic potentials (force-fields) for high-entropy alloys using deep 3D CNN (Computational Materials Science letter, 2021)", "reason": "Treated as already listed: archived:91 'Neural-network model for force prediction in multi-principal-element alloys' (Comput. Mater. Sci. 198, 2021) has the same team (Sharma, Singh, Sarkar, Johnson) and year."},
+    {"title": "Mahsa Khosravi IROS 2023 presentation", "reason": "The post names no paper, and no IROS 2023 paper by Khosravi and Sarkar could be identified."}
+  ]
+}
