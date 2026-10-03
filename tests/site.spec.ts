@@ -1,0 +1,69 @@
+import { test, expect } from '@playwright/test';
+import AxeBuilder from '@axe-core/playwright';
+import { people } from '../src/lib/people';
+import pubs from '../src/data/publications.json' with { type: 'json' };
+import added from '../src/data/publications-added.json' with { type: 'json' };
+
+const PAGES = ['/', '/principal-investigator/', '/research/', '/people/', '/publications/', '/alumni/', '/gallery/', '/contact/'];
+
+for (const path of PAGES) {
+  test.describe(path, () => {
+    test('loads, has title + h1, no horizontal scroll, no broken images', async ({ page }) => {
+      const res = await page.goto(path);
+      expect(res?.status()).toBe(200);
+      await expect(page.locator('h1')).toHaveCount(1);
+      await expect(page).toHaveTitle(/SCSLab/);
+      // force lazy images to load
+      await page.evaluate(async () => {
+        document.querySelectorAll('img[loading="lazy"]').forEach((i) => ((i as HTMLImageElement).loading = 'eager'));
+        await Promise.all([...document.images].map((i) => (i.complete ? null : new Promise((r) => { i.onload = i.onerror = r; }))));
+      });
+      const broken = await page.evaluate(() => [...document.images].filter((i) => !i.complete || i.naturalWidth === 0).map((i) => i.src));
+      expect(broken).toEqual([]);
+      const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
+      expect(overflow).toBeLessThanOrEqual(0);
+    });
+
+    test('no serious accessibility violations', async ({ page }) => {
+      await page.goto(path);
+      const r = await new AxeBuilder({ page }).withTags(['wcag2a', 'wcag2aa']).analyze();
+      const serious = r.violations.filter((v) => v.impact === 'serious' || v.impact === 'critical');
+      expect(serious.map((v) => `${v.id}: ${v.nodes.length} × ${v.nodes[0]?.target}`)).toEqual([]);
+    });
+
+    test('internal links resolve', async ({ page, request }) => {
+      await page.goto(path);
+      const hrefs = await page.evaluate(() => [...new Set([...document.querySelectorAll('a[href^="/"]')].map((a) => (a as HTMLAnchorElement).getAttribute('href')!.split('#')[0]))]);
+      for (const h of hrefs) expect((await request.get(h)).status(), h).toBe(200);
+    });
+  });
+}
+
+test('every person is rendered with their own photo', async ({ page }) => {
+  const seen = new Map<string, string>();
+  for (const path of ['/people/', '/alumni/']) {
+    await page.goto(path);
+    const cards = await page.$$eval('article.person', (els) => els.map((e) => ({ name: (e as HTMLElement).dataset.name!, img: e.querySelector('img')?.getAttribute('src') ?? null })));
+    for (const c of cards) seen.set(c.name, c.img ?? '');
+  }
+  for (const p of people) expect(seen.get(p.name), p.name).toBe(p.photo);
+  expect(seen.size).toBe(people.length);
+});
+
+test('publications: all listed, search and filters work', async ({ page }) => {
+  await page.goto('/publications/');
+  await expect(page.locator('li.pub')).toHaveCount(pubs.length + added.length);
+  await page.fill('#pub-q', 'InsectNet');
+  await expect(page.locator('li.pub:visible')).toHaveCount(1);
+  await page.fill('#pub-q', '');
+  await page.click('button[data-tab="preprints"]');
+  await expect(page.locator('li.pub:visible')).toHaveCount([...pubs, ...added].filter((p) => p.category === 'preprints').length);
+});
+
+test('mobile menu opens', async ({ page, isMobile }) => {
+  test.skip(!isMobile, 'mobile only');
+  await page.goto('/');
+  await expect(page.locator('#site-nav a[href="/alumni/"]')).toBeHidden();
+  await page.click('#nav-toggle');
+  await expect(page.locator('#site-nav a[href="/alumni/"]')).toBeVisible();
+});

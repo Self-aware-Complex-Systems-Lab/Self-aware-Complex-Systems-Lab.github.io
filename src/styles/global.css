@@ -16,7 +16,7 @@
 html { scroll-behavior: smooth; }
 body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); }
 h1, h2, h3 { font-family: var(--font-serif); letter-spacing: -0.01em; }
-a { color: var(--color-cardinal); text-underline-offset: 3px; overflow-wrap: anywhere; }
+a { color: var(--color-cardinal); text-decoration: underline; text-decoration-thickness: 1px; text-underline-offset: 3px; overflow-wrap: anywhere; }
 img { max-width: 100%; }
 a:hover { color: var(--color-cardinal-dark); }
 :focus-visible { outline: 3px solid var(--color-gold); outline-offset: 2px; }

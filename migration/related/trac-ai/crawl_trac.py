@@ -21,8 +21,9 @@ HOST = "trac-ai.iastate.edu"; BASE = f"https://{HOST}/"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 MAX_PAGES = 300; DELAY = 1.0; DISK_CAP = 150 * 1024 * 1024
 SKIP_RE = re.compile(r"/(wp-admin|wp-login|wp-json|feed|xmlrpc|wp-content|wp-includes|my-bookings|cart|checkout)(/|$)|"
-                     r"\.(pdf|docx?|xlsx?|pptx?|zip|jpe?g|png|gif|svg|webp|mp4|ics)$|/events/(month|list|day|week|photo|map)/|"
-                     r"/events/\d{4}-\d{2}", re.I)
+                     r"\.(pdf|docx?|xlsx?|pptx?|zip|jpe?g|png|gif|svg|webp|mp4|ics)$|"
+                     # The Events Calendar generates unbounded date/view permutations; skip them
+                     r"/events/(.+/)?(month|list|day|week|photo|map|summary|today)/|/events/(.+/)?\d{4}-\d{2}(-\d{2})?/", re.I)
 S = requests.Session(); S.headers["User-Agent"] = UA
 
 EXTRACT_JS = r"""
@@ -126,6 +127,13 @@ def main():
             if SKIP_RE.search(urlparse(url).path) or not allowed(url): skipped.append(url); continue
             print(f"[{len(inventory)+1}] {url}", file=sys.stderr)
             rec = {"url": url, "slug": slug(url)}
+            cached = PAGES / rec["slug"] / "page.json"
+            if cached.exists():  # resume support: reuse an already-archived page
+                rec = json.loads(cached.read_text())
+                for l in rec["links"]["internal"]:
+                    n = norm(l["href"])
+                    if n and n not in seen and n not in queue: queue.append(n)
+                inventory.append(rec); continue
             try:
                 resp = page.goto(url, wait_until="domcontentloaded", timeout=60000)
                 try: page.wait_for_load_state("networkidle", timeout=20000)

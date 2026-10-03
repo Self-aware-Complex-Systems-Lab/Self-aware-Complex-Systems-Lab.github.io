@@ -1,6 +1,6 @@
 ---
 import PersonCard from './PersonCard.astro';
-import people from '../data/people.json';
+import { people } from '../lib/people';
 import { slug } from '../lib/site';
 interface Props { categories: string[]; compactFrom?: string[]; }
 const { categories, compactFrom = [] } = Astro.props;
