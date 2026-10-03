@@ -3,7 +3,8 @@ import Base from '../layouts/Base.astro';
 import home from '../data/page-home.json';
 import assets from '../data/assets.json';
 import { people } from '../lib/people';
-import { publications } from '../lib/publications';
+import { publications, pubByKey } from '../lib/publications';
+import featuredData from '../data/featured-publications.json';
 import { CURRENT_CATEGORIES, ALUMNI_CATEGORIES, withLinks } from '../lib/site';
 
 const about = home.find((s) => s.heading === 'About Us')!;
@@ -14,6 +15,8 @@ const nCurrent = people.filter((p) => CURRENT_CATEGORIES.includes(p.category ?? 
 const nAlumni = people.filter((p) => ALUMNI_CATEGORIES.includes(p.category ?? '')).length;
 // Recently accepted / published work: journal and conference papers only, newest first.
 const when = (p: (typeof publications)[number]) => p.date ?? `${p.year ?? 0}-00-00`;
+const featured = featuredData.featured.map((f) => ({ ...pubByKey.get(f.key)!, badge: f.badge, displayTitle: (f as { displayTitle?: string }).displayTitle }));
+const authorsShort = (a: string | null) => { const l = (a ?? '').split(/\s+and\s+/).map((x) => x.trim()).filter(Boolean); return l.length > 4 ? `${l.slice(0, 3).join(', ')}, et al.` : l.join(', '); };
 const latest = publications.filter((p) => p.category !== 'preprints' && p.year)
   .sort((a, b) => when(b).localeCompare(when(a))).slice(0, 6);
 ---
@@ -51,12 +54,18 @@ const latest = publications.filter((p) => p.category !== 'preprints' && p.year)
     <a href="/publications/" class="bg-white border border-line rounded-lg p-5 no-underline text-ink hover:border-cardinal"><span class="block text-3xl font-bold text-cardinal">{publications.length}</span>publications</a>
   </section>
 
-  <section class="mt-14">
-    <div class="flex items-baseline justify-between gap-4"><h2 class="text-2xl font-bold">Recent publications</h2><a href="/publications/" class="text-sm">All publications →</a></div>
-    <ul class="mt-4 divide-y divide-line bg-white border border-line rounded-lg">
-      {latest.map((p) => (
-        <li class="p-4"><a href={p.url ?? '#'} class="font-semibold no-underline">{p.title}</a>
-          <span class="block text-sm text-muted">{p.venue} ({p.year})</span></li>
+  <section class="mt-14" aria-labelledby="featured">
+    <div class="flex items-baseline justify-between gap-4">
+      <h2 id="featured" class="text-2xl font-bold">Featured publications</h2>
+      <a href="/publications/" class="text-sm">All publications →</a>
+    </div>
+    <ul class="mt-5 grid grid-cols-1 md:grid-cols-2 gap-4">
+      {featured.map((p) => (
+        <li class="bg-white border border-line rounded-lg p-5 flex flex-col">
+          <span class="self-start rounded bg-cardinal text-white text-xs font-semibold px-2 py-0.5">{p.badge}{p.year ? ` · ${p.year}` : ''}</span>
+          <a href={p.url ?? '/publications/'} rel="noopener" class="mt-2 font-semibold leading-snug no-underline hover:underline">{p.displayTitle ?? p.title}</a>
+          <p class="mt-1 text-sm text-muted">{authorsShort(p.authors)}</p>
+        </li>
       ))}
     </ul>
   </section>

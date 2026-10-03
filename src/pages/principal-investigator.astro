@@ -5,6 +5,7 @@ import page from '../data/page-principal-investigator.json';
 import assets from '../data/assets.json';
 import { withLinks } from '../lib/site';
 import videos from '../data/talks-video.json';
+import recentFunding from '../data/funding-recent.json';
 
 const sec = (h: string) => page.find((s) => s.heading === h)?.items ?? [];
 const profile = sec('Personal Profile');
@@ -44,6 +45,9 @@ const talks = sec('Invited Talks');
 
   <section class="mt-14" id="funding">
     <h2 class="text-2xl font-bold mb-5">Research Funding</h2>
+    <h3 class="font-bold text-lg mb-3">Recent grants</h3>
+    <ol class="space-y-3 mb-8">{recentFunding.grants.map((g) => <li class="bg-white border border-line rounded-lg p-4 text-[0.95rem]">{g.text}</li>)}</ol>
+    <h3 class="font-bold text-lg mb-3">Earlier grants</h3>
     <ol class="space-y-3">{funding.map((f) => <li class="bg-white border border-line rounded-lg p-4 text-[0.95rem]">{f}</li>)}</ol>
   </section>
 

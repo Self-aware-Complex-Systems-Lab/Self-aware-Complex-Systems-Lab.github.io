@@ -44,3 +44,6 @@ From `migration/people-web-search.json`, 2026-10-03:
 - Hsin-Jung Yang: Scholar profile verified at Intel. He is still listed as a current Doctoral Student.
 
 Pages that show historical roles carry an archival note saying they are reproduced as listed on 2026-10-03.
+
+## TrAC website (archived 2026-10-03)
+- COALESCE: the lab PI page lists $7,000,000 (NSF and USDA-NIFA, 4/15/2021–3/31/2026), and a 2025 TrAC news story also says $7 million; the TrAC federal-projects grant card shows $5,000,000 (Apr 2021 – Mar 2026). The site keeps the lab page's figure.

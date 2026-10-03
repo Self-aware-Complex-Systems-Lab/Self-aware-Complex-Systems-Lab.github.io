@@ -1,0 +1,47 @@
+{
+ "_note": "Publications highlighted on the home page. Edit freely: key is 'archived:<index in publications.json>' or 'added:<index in publications-added.json>'.",
+ "featured": [
+  {
+   "key": "added:0",
+   "badge": "Nature Communications"
+  },
+  {
+   "key": "added:15",
+   "badge": "IEEE TNNLS"
+  },
+  {
+   "key": "archived:226",
+   "badge": "CVPR 2025"
+  },
+  {
+   "key": "archived:222",
+   "badge": "WACV 2025"
+  },
+  {
+   "key": "archived:3",
+   "badge": "PNAS Nexus"
+  },
+  {
+   "key": "archived:12",
+   "badge": "Communications Engineering"
+  },
+  {
+   "key": "archived:13",
+   "badge": "Trends in Plant Science"
+  },
+  {
+   "key": "archived:20",
+   "badge": "NeurIPS 2024",
+   "displayTitle": "BioTrove: A Large Curated Image Dataset Enabling AI for Biodiversity"
+  },
+  {
+   "key": "archived:227",
+   "badge": "CVPR 2024",
+   "displayTitle": "DIMAT: Decentralized Iterative Merging-and-Training for Deep Learning Models"
+  },
+  {
+   "key": "archived:18",
+   "badge": "Trends in Plant Science"
+  }
+ ]
+}

@@ -1,0 +1,71 @@
+{
+ "_note": "Recent grants from trac-ai.iastate.edu (archived 2026-10-03, migration/related/trac-ai/funding-sarkar.json).",
+ "grants": [
+  {
+   "text": "Agentic Autonomous UGA Navigation and Plant Manipulation Framework (as Co-PI) sponsored by the Translational AI Center seed fund ($20,000, 2026)",
+   "start": "2026",
+   "source": "https://trac-ai.iastate.edu/research/projects/seed-fund-projects/",
+   "kind": "Co-PI"
+  },
+  {
+   "text": "DAISY: Decentralized Agentic Intelligence System for Scientific Inquiry (as PI) sponsored by DOE ($250,000, Jul 2026 – Mar 2027)",
+   "start": "Jul 2026",
+   "source": "https://trac-ai.iastate.edu/research/projects/federal-funded-projects/",
+   "kind": "PI"
+  },
+  {
+   "text": "COURAG: Towards Safety and Trustworthiness via Conformal Outlier detection and Uncertainty- and Rulebook-Aware Generative Reinforcement Learning (as Co-PI) sponsored by the Translational AI Center seed fund ($20,000, 2025)",
+   "start": "2025",
+   "source": "https://trac-ai.iastate.edu/research/projects/seed-fund-projects/",
+   "kind": "Co-PI"
+  },
+  {
+   "text": "Transforming digital marketing strategies through agentic AI and LLMs: a small business to investor approach (as Co-PI) sponsored by the Translational AI Center seed fund ($20,000, 2025)",
+   "start": "2025",
+   "source": "https://trac-ai.iastate.edu/research/projects/seed-fund-projects/",
+   "kind": "Co-PI"
+  },
+  {
+   "text": "BIO-SHIELD: BIOlogical threat Surveillance through Holistic Information fusion for EarLy warning and Decision support (as PI) sponsored by DoD ($500,000, Dec 2025 – Aug 2026)",
+   "start": "Dec 2025",
+   "source": "https://trac-ai.iastate.edu/research/projects/federal-funded-projects/",
+   "kind": "PI"
+  },
+  {
+   "text": "Planning: AI-Ready Cyber-Agriculture Systems Testbed (AI-AgARENA) (as PI) sponsored by NSF ($200,000, Aug 2025 – Jul 2027)",
+   "start": "Aug 2025",
+   "source": "https://trac-ai.iastate.edu/research/projects/federal-funded-projects/",
+   "kind": "PI"
+  },
+  {
+   "text": "A feasibility study of the development of a predictive analysis tool to determine risks to global agriculture and food security Phase 2 (as PI) sponsored by DefenseWerx ($196,000, Mar 2025 – Jan 2026)",
+   "start": "Mar 2025",
+   "source": "https://trac-ai.iastate.edu/research/projects/federal-funded-projects/",
+   "kind": "PI"
+  },
+  {
+   "text": "AI-based real-time atomic force microscopy analysis for structural and translational DNA research (as Co-PI) sponsored by the Translational AI Center seed fund ($20,000, 2024)",
+   "start": "2024",
+   "source": "https://trac-ai.iastate.edu/research/projects/seed-fund-projects/",
+   "kind": "Co-PI"
+  },
+  {
+   "text": "Simulation-based edge-case generation using reinforcement learning (as Co-PI) sponsored by the Translational AI Center seed fund ($20,000, 2024)",
+   "start": "2024",
+   "source": "https://trac-ai.iastate.edu/research/projects/seed-fund-projects/",
+   "kind": "Co-PI"
+  },
+  {
+   "text": "A feasibility study of the development of a predictive analysis tool to determine risks to global agriculture and food security (as PI) ($50,000, Jun 2024 – Dec 2024)",
+   "start": "Jun 2024",
+   "source": "https://trac-ai.iastate.edu/research/projects/federal-funded-projects/",
+   "kind": "PI"
+  },
+  {
+   "text": "Feedback Learning for Machine Perception with System-Level Objectives (as Co-PI) sponsored by the Translational AI Center seed fund ($20,000, 2022)",
+   "start": "2022",
+   "source": "https://trac-ai.iastate.edu/research/projects/seed-fund-projects/",
+   "kind": "Co-PI"
+  }
+ ]
+}

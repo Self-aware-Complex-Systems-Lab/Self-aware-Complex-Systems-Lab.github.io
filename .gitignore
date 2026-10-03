@@ -7,3 +7,6 @@ __pycache__/
 test-results/
 playwright-report/
 migration/linkedin/session.json
+migration/related/trac-ai/images/
+migration/related/trac-ai/pages/
+migration/related/trac-ai/__pycache__/
