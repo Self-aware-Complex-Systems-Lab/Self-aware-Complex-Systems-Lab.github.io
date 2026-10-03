@@ -1,0 +1,11 @@
+{
+ "_note": "Hand-confirmed duplicates (merged into publication-removals.json by migration/scripts/dedupe_pubs.py).",
+ "removals": [
+  {
+   "key": "archived:342",
+   "reason": "preprint of a published paper",
+   "keptTitle": "Algorithmically-consistent deep learning frameworks for structural topology optimization (Engineering Applications of Artificial Intelligence 106, 104483, 2021)",
+   "evidence": "arXiv journal_ref: 'Engineering Applications of Artificial Intelligence, 2021, Volume 106, 104483'"
+  }
+ ]
+}

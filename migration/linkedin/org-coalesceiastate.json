@@ -1,6 +1,84 @@
 [
  {
   "org": "coalesceiastate",
+  "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485702660428505088/",
+  "timestamp": "2026-07-22T14:29:51+00:00",
+  "text": "Proud to be part of the #Genesismission inaugural cohort of projects. Can't wait to get started on our project \"DAISY: Decentralized Agentic Intelligence System for Scientific Inquiry\" with a great team Chinmay Hegde Baskar Ganapathysubramanian Ravi Madduri KIBAEK KIM Iowa State University New York University Argonne National Laboratory TrAC - Translational AI Center U.S. Department of Energy Office of Science\n\nHere is my challenge coin! 👇\n… more",
+  "links": [
+   {
+    "text": "#Genesismission",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23genesismission&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "Chinmay Hegde",
+    "href": "https://www.linkedin.com/in/chinmay-hegde-8a2a153/"
+   },
+   {
+    "text": "Baskar Ganapathysubramanian",
+    "href": "https://www.linkedin.com/in/baskar-ganapathysubramanian-5b22a51a6/"
+   },
+   {
+    "text": "Ravi Madduri",
+    "href": "https://www.linkedin.com/in/madduri/"
+   },
+   {
+    "text": "KIBAEK KIM",
+    "href": "https://www.linkedin.com/in/kibaekkim/"
+   },
+   {
+    "text": "Iowa State University",
+    "href": "https://www.linkedin.com/school/iowastateu/"
+   },
+   {
+    "text": "New York University",
+    "href": "https://www.linkedin.com/school/new-york-university/"
+   },
+   {
+    "text": "Argonne National Laboratory",
+    "href": "https://www.linkedin.com/company/argonne-national-laboratory/"
+   },
+   {
+    "text": "TrAC - Translational AI Center",
+    "href": "https://www.linkedin.com/company/traciastate/"
+   },
+   {
+    "text": "U.S. Department of Energy Office of Science",
+    "href": "https://www.linkedin.com/showcase/office-of-science/"
+   }
+  ],
+  "header": "Feed post |  | COALESCE |  | 2mo | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-7485702660428505088-1.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "a3fdd540b1a18f613f346ff5fa097a1571abf537161e9989dc6f8221572bc7bc",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-7485702660428505088-2.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "e56f7f129e120ff107b926255fbd41fd06398ca62c5dfde6c5ddf5d07fd8a04e",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-7485702660428505088-3.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "36a0554a836df1f3beb38de502de31107187067cf757eda2f81420ad2dd84d86",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7462175983345762306/",
   "timestamp": "2026-05-18T16:23:14+00:00",
   "text": "Excited to be part of this great lineup at #cvpr2026 Ag-Vision workshop! Looking forward to share some our Agentic visual reasoning works for #Agriculture. Join us. AIIRA - AI Institute For Resilient Agriculture COALESCE TrAC - Translational AI Center Iowa State University \n… more",
@@ -67,6 +145,106 @@
  },
  {
   "org": "coalesceiastate",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7420869315559714816/",
+  "timestamp": "2026-01-24T16:45:17+00:00",
+  "text": "After a successful run last year, we’re excited to bring back the Agriculture-Vision Workshop at #CVPR2026. Join us! Focus this year is on Foundation Models in Ag. AIIRA - AI Institute For Resilient Agriculture, COALESCE, TrAC - Translational AI Center\n… more",
+  "links": [
+   {
+    "text": "#CVPR2026",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23cvpr2026&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "AIIRA - AI Institute For Resilient Agriculture",
+    "href": "https://www.linkedin.com/company/aiira/"
+   },
+   {
+    "text": "COALESCE",
+    "href": "https://www.linkedin.com/company/coalesceiastate/"
+   },
+   {
+    "text": "TrAC - Translational AI Center",
+    "href": "https://www.linkedin.com/company/traciastate/"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | Soumik Sarkar | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-7420869315559714816-1.jpg",
+    "size": [
+     800,
+     800
+    ],
+    "sha256": "dce84e357df9b51d2500a0c8815362119ebf57213e5fadf77c3f0c84312d79ea",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7409322201134440449/",
+  "timestamp": "2025-12-23T20:01:11+00:00",
+  "text": "Excited to share that we are one of the teams at Iowa State University developing early warning system for biological threats on US agriculture under the DARPA Ag × BTO program. Stay tuned for exciting progress in the new year! Baskar Ganapathysubramanian Asheesh Singh Arti Singh TrAC - Translational AI Center \n… more",
+  "links": [
+   {
+    "text": "Iowa State University",
+    "href": "https://www.linkedin.com/school/iowastateu/"
+   },
+   {
+    "text": "Baskar Ganapathysubramanian",
+    "href": "https://www.linkedin.com/in/baskar-ganapathysubramanian-5b22a51a6/"
+   },
+   {
+    "text": "Asheesh Singh",
+    "href": "https://www.linkedin.com/in/asheesh-singh-b11701293/"
+   },
+   {
+    "text": "Arti Singh",
+    "href": "https://www.linkedin.com/in/arti-singh-isu/"
+   },
+   {
+    "text": "TrAC - Translational AI Center",
+    "href": "https://www.linkedin.com/company/traciastate/"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | Soumik Sarkar | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-7409322201134440449-1.jpg",
+    "size": [
+     800,
+     800
+    ],
+    "sha256": "a8679c930e2b4b26e84cc9fd02c43bc394bcb3c5416fe5733a91ed46f58d6501",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7382874641201074176/",
+  "timestamp": "2025-10-11T20:28:01+00:00",
+  "text": "We are honored to be a part of this wonderful opportunity! World Food Prize Foundation",
+  "links": [
+   {
+    "text": "World Food Prize Foundation",
+    "href": "https://www.linkedin.com/company/the-world-food-prize-foundation/"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | AIIRA - AI Institute For Resilient Agriculture | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-7382874641201074176-1.jpg",
+    "size": [
+     800,
+     670
+    ],
+    "sha256": "1ae75989ebc0b337de97fa5e9e917bf3fdc0bd1ed6f6ca0569d4acf69a51904d",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
   "url": null,
   "timestamp": null,
   "text": "LCLA is going to CoRL 2026! 🎉\n\nWhat if a robot could have the strong control skills of a privileged policy, while also seeing and understanding the world through vision and language?\n\nThat is the idea we explore with LCLA (Language Conditioned Latent Alignment), to bring these two capabilities together through latent alignment.\n\nReally enjoyed working on this with Adam Haroon, Samuel Tetteh, and Prajwal Koirala.\n\nSpecial thanks to Dr. Cody Fleming and my advisor Dr. Soumik Sarkar for their guidance and support throughout. \n\nMore to come from LCLA!\n\nPreprint: https://lnkd.in/gN9NG4Sg\nProject page: https://lnkd.in/grYUvEnn\n\n#CoRL2026 #RobotLearning #Robotics #EmbodiedAI\n… more",
@@ -93,11 +271,11 @@
    },
    {
     "text": "https://lnkd.in/gN9NG4Sg",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgN9NG4Sg&urlhash=aFex&mt=9fH1ZMIHtG6h8_3JnMgqYmvgiclexvOT1UQf5mgjFQDBNlH6MjSNzzc_g3QnN0VKrkiYr5nsFVQzKnE3HMBecM4pIkXaFoOreKS65qkSu8fN41IrkMLOE-FkZg&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgN9NG4Sg&urlhash=aFex&mt=Ye4EkyMPQoNC07vA12BXSMb85eZCXl9TlRH4ZP9i2S9sceDtPPx1vhjQr-a2hxIPZMSq1cQleAb1thfx9ipK6cxaT0_64TttLuYXygB0mux2e165TcovpltHkA&isSdui=true"
    },
    {
     "text": "https://lnkd.in/grYUvEnn",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgrYUvEnn&urlhash=l6VG&mt=g2KoxEhznwbx2617srRo2siqRmjMohgFIOo4zeuJmISSUPEuC_aLrpEGywQKcusAmpnz4t4rrldjfwUM97knSKb-H9B3zzURgjtzEa9jguKLyeh5aizk0RE6NQ&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgrYUvEnn&urlhash=l6VG&mt=8iV_SUF2FOpnS8R_NFVpI7EWsQJBuNgbLUo0IxEPOi5hJYCfx2th-1IYX7GYuJNnZG4aN73sLqQID3qV7K8086JyMjlDLBEKQipH1wOxNbHkuSJ7ZXWWzt5_8w&isSdui=true"
    },
    {
     "text": "#CoRL2026",
@@ -154,7 +332,7 @@
    },
    {
     "text": "https://lnkd.in/gsX8MhcC",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgsX8MhcC&urlhash=JFI_&mt=QGc0Snd8acP2seYBcxej9bLkq3DICSWsDAIDcW308-UezK5_Pvj35mypkn25NtmpqTe7lT3aUvTK3wylk6tb-tgepVyXfYCk9fwjmAqwPG8w3e8E52pf7rqQow&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgsX8MhcC&urlhash=JFI_&mt=P2MJEjYudyM0LZB-acgiZZFCZM1Y4HOUBYxXcw95tSLjJDk0etXIZgipdqeKhPIcub5w1n3jBqrewTFWgTickmXGtI6y8sFAnyqm77kTlPU0vREn5G9ZsqxZGA&isSdui=true"
    }
   ],
   "header": "Feed post |  | COALESCE reposted this |  | TrAC - Translational AI Center | ",
@@ -168,15 +346,15 @@
   "links": [
    {
     "text": "https://lnkd.in/gRyWUw2w",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgRyWUw2w&urlhash=cERM&mt=NYbJf_rl9H-QPqHwKGT3s0PxrkJRRPtQ7l9LReRvdmnaS1T0uVYzyGDEa9HJVDLtryCJKRYD3dQtEwVPAkpnItT0MxPTfLQpbQuBJZP_r0Rik-PR3VQINMNa9w&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgRyWUw2w&urlhash=cERM&mt=foCYjE35-CYUgWJdjzHu9jy88L8dlEX1MhE0MS_ctsFXFM5Eh0ctuhsj7CQfIDSlny7Z5eSSPHsbsPuM3yN286mCcbpwd198H9RCCGse-7C034SiuSHxqe5svw&isSdui=true"
    },
    {
     "text": "https://lnkd.in/gxkj45U8",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fgxkj45U8&urlhash=0phn&mt=C7eCztkFosAugjTLsGmoZ09f4Znufim1OifqCvQOIj2eOH1pDOeCOBvAMnc4zk9xLLkduutfuOLMgktqMkFPETlNbOsVMM6gNANwBbiBEOWt0ApLZZfDOqADpw&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fgxkj45U8&urlhash=0phn&mt=ebAj7zCzkP8_ufNAlN3JqQaxl2z4Qs0e5H1-viUkHA9aCFGqCSjg-x5K3Vot4kIUTGU4jjjegQ2lGt1Oai2Gf3ipuXwRm5MWflEZR84-gI6bKOX475wO8trcWg&isSdui=true"
    },
    {
     "text": "https://lnkd.in/gABb4hh4",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgABb4hh4&urlhash=xyBz&mt=12VpSTV3BjioaE_ynZJdO8ywaDefmfmOkG0Jqlw-zaOljqm1MRdpr6K0H60LCG9CqfJ-nQH7ndt-p1nSitngV3WuMNSmA66NSA9erGNT5k_kMSpTQWxstrt8Hg&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgABb4hh4&urlhash=xyBz&mt=ieQPzSaC2NCQtHyeicq4xaMNomA8rtqswI8PXTNo0NsmWIhwW-O0Ke9wdQKHrcav5zTT-ylDgas-YncDpC8tyxW2IrIPPAwEoDUnY3Ug8lOQZfW3sR87eRsg7g&isSdui=true"
    },
    {
     "text": "#ArtificialIntelligence",
@@ -264,7 +442,7 @@
   "links": [
    {
     "text": "https://lnkd.in/gF5MhSuZ",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgF5MhSuZ&urlhash=znff&mt=iUaIf6P7S6b3oa-Vv4Ts7lGDgEKGJ8cUlBJ_iHw5Yrm24C7r2EIquD7z6o-JGUIxRiF0z1WzWx_RJ8Nz1HkOXzFnyygizuJ8zSZ-m2NX70aMUS_nbHxCjYM5Ug&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgF5MhSuZ&urlhash=znff&mt=cbTKjHDl0KDCvXMulTegsx5gCwPCxub5AvtDx9JaImDcZLhfm0qt-L7un8-sN-7xgx86bmYkSWOxztNZmJLS4p88pP3jl8fq0jqFPKjE-cqrT0v1QZrs-TIz-w&isSdui=true"
    },
    {
     "text": "#AI",
@@ -314,7 +492,7 @@
    },
    {
     "text": "https://lnkd.in/g96SmTnU",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg96SmTnU&urlhash=fXG9&mt=VtZ6qCHzE07fQJPyw0ThpwhfEt4wuPolkqAo4Qoot9DqVyh15YmjYK68V1U4_UgaRhrNJOkNSIRG4D0LKki15DceUtTw21h2Xs2-M87cbiKPGdiLIVuSd7vOYg&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg96SmTnU&urlhash=fXG9&mt=s6tlWyc0iOK3e2SXqeGPRDXr_41XYaN4Tq2N4fPmm6VT0KLgPhddLTZ9Lit2I7wqcBcbj-7uX7nsnzjON-E4s-n-y7AH3A9GYz5QXiY3zxuCgOVi1lXNBc2jGA&isSdui=true"
    },
    {
     "text": "#ICRA2026",
@@ -358,7 +536,7 @@
   "links": [
    {
     "text": "https://lnkd.in/gDgqR5bT",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgDgqR5bT&urlhash=lHih&mt=PU3WEck-YKV6246ELNzfDuLpdPJtHSWp5MhaeD51rxo9AeeNIkYR4FKAyQPj8lnKaPG2rOpxZLxTqDSIY1Ekuxdk3ybbHUuRSXjQkFnkaFq3P4nxnd9_3W4XLQ&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgDgqR5bT&urlhash=lHih&mt=tzkVrGmeNbcAdzhTPTwsGaYTcTpNekEXrOh0LgOtkGHeBB4eAcPinwdMsSgV-aTn1yVVpUjy1Vs-ixy4eL68kOUTsev4iSK7IBrHV0BltKxVMMGqkitp8bD2ZQ&isSdui=true"
    },
    {
     "text": "Md Hasibul Hasan Hasib",
@@ -386,7 +564,7 @@
    },
    {
     "text": "https://lnkd.in/gCSbssBJ",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgCSbssBJ&urlhash=B6Fz&mt=tHRZuySFejsRzcavcHm4sBVGALIgCur_N7V8i-YtsKxLW5ZBcQQnY676XuwhseHtfHXXPkbbc0Yc00t16bHfHqWGLyhYm8YQybBktPDhhI5TO-MRaNPu8-Ft8w&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgCSbssBJ&urlhash=B6Fz&mt=ZOXOHDv3-04OA0bLrlhN3UdeG4uKTYrlbTJFsprZNUnjYa8e8l2GgHaC_8GJWmABJWJkQ78Lo-z4fT5_PO_bVvI6hR-LV2WlvKa7guaz4BqYL2akvqAM_ueA5w&isSdui=true"
    },
    {
     "text": "#plant_science",
@@ -450,7 +628,7 @@
   "links": [
    {
     "text": "https://lnkd.in/gkfuHHDU",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgkfuHHDU&urlhash=AJS5&mt=0KNjfKDoJN7892bQ3V1NzUZXtcQ-cgeXX_yRJwbO_9LikqELpu2eQdTUWP6FIpjh8MeTpWEmZPClkpMzz635b71zwhwFx2WHEbqeGK8aEdcw6qhKQ4ojSNjJbQ&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgkfuHHDU&urlhash=AJS5&mt=0fFH3T1SbM-YWePX21WvwOw_OVvzS0O_Di18W9P0SJAMZLjk6wmAjx9sowHJWA1bk3Eoalj1r4e4QDNOtgXtDpM5osPBEwtuTvurQ2nUrr-sboB5VwZ9XAoRkw&isSdui=true"
    },
    {
     "text": "John Deere",
@@ -482,11 +660,11 @@
   "links": [
    {
     "text": "https://lnkd.in/ePrfqnQe",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FePrfqnQe&urlhash=VLBS&mt=ydXko6fI6ZiEOFCBQEyRF_EDp8DizMrc7itNlBPj-seeg-GTE8AH8ad3PQ6ePKX5ETDVVBLtQ0SDxI778Rr2EgMZVT1rVodEs8Q_1JYQvaZ_GWTsCQQ_ZByHnA&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FePrfqnQe&urlhash=VLBS&mt=3ZVlVedNoD0cp6ApU15Dsr-rMm5dGqvxqp6g40Gb6GZY6cpRGn5IwG0e1evWZlPDO3wNxXnl9e4Jvs7JEwLv_DEdoO-vQz609SyzPVBq0M1z3asj4VJd8aHIpg&isSdui=true"
    },
    {
     "text": "https://lnkd.in/ej5vv6AJ",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fej5vv6AJ&urlhash=r_ef&mt=C6M64Fn7NeO7BvJiLfIdOdhts_ATpnWR3rsu4YXlwuPXJb_E5i6qUtqwxohuswRTHr59nz8CnHEhIHG7ErpYT79noZJkiZlIvQ8edVOsPNDXu68C0RzC8PFHOg&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fej5vv6AJ&urlhash=r_ef&mt=LGm42oq958RKDh-hOEzjyjJKmV0K9hlWvvamaaJDR3ODfapnfkoroV3jekwaHmkxNkZeHYDDJbpBbD47XnxNDArVujRl52BhlZKqcs7wSJ55VtUEHM8k6mjbxA&isSdui=true"
    },
    {
     "text": "#AI4Ag",
@@ -602,7 +780,7 @@
    },
    {
     "text": "https://lnkd.in/grhmc4VZ",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fgrhmc4VZ&urlhash=ekjM&mt=tcVQY8D09A7YF8vANmAMmoBC0oWsGQEopNgLxtnCdXxA0xovwwmwAaKxMK4g5HZ661IuvzECfaV4DmJsEBdOmeQil3XX_mt0qZUQ7L9lJ0DA05wO6Dv8mJEIXQ&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fgrhmc4VZ&urlhash=ekjM&mt=2ge5qM_DdNXQjVXdTFmzkNAbuJE4rrOwb4o49MZ6B8kKO7CmDF8xlQ96FzTcLby2TnxUHbqPcM0rXQBJoA3YWD2svDjVuBwVajr2kUfZiNz7AVZryDBhhNP5sQ&isSdui=true"
    }
   ],
   "header": "Feed post |  | COALESCE reposted this |  | Soumik Sarkar | ",
@@ -616,7 +794,7 @@
   "links": [
    {
     "text": "https://lnkd.in/gtYy3zus",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgtYy3zus&urlhash=LfYA&mt=gLEMWbLBcLwwW4tPueTUJS_vOW4TmOXUXcdTak9hRQ1f2Jeshmqi03xQEWF7FLtW7nEikCKRyyShXVdF4O8VQTTHKFBQYbk88FU2behgtHa1jGUAqlypvYdqAA&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgtYy3zus&urlhash=LfYA&mt=lJOMRg_b84XI_wR_m5E926LN0T38YmTXFR3KZM2vNdCAiPMmg5sfe72eMKA2QBty2HA74QXzaCkiREvjPu1wMquNZ2rs0JdiSzAD0B5GRzg-3gWhfbdlZV3Ypw&isSdui=true"
    },
    {
     "text": "Zhanhong Jiang",
@@ -692,6 +870,716 @@
      189
     ],
     "sha256": "4f3b5de4a0f03232e2ace73b46315850962af5c1211892ba939119a4d5785938",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
+  "url": null,
+  "timestamp": null,
+  "text": "Designing #AI-based, ultra-precision management prescriptions to address biotic and abiotic stresses in crop #agriculture requires high-fidelity, customizable simulators — often referred to as #digitaltwins. While substantial progress has been made in simulating abiotic stresses and their impacts, modeling the propagation and consequences of biotic stresses remains a significant challenge.\n\nOur #AgGym framework takes an important step toward closing this gap by introducing a modular environment for simulating the development and spread of biotic stresses, along with estimating corresponding yield losses both with and without chemical interventions. AgGym also functions as an open-source Gym environment, providing researchers with a flexible platform to customize it for various crops and biotic stresses, and evaluate diverse management strategies under varying environmental conditions using algorithmic approaches such as #RL.\n\nCheck out our new paper: https://lnkd.in/gdGy2DEr\n\nmahsa khosravi, Matthew Carroll, Russell Tan, Liza Van der Laan, Joscif Raigne, Daren Mueller, Arti Singh, Aditya Balu, Baskar Ganapathysubramanian, Asheesh Singh\n\nCOALESCE, AIIRA - AI Institute For Resilient Agriculture, TrAC - Translational AI Center, Iowa State University\n… more",
+  "links": [
+   {
+    "text": "#AI",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#agriculture",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23agriculture&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#digitaltwins",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23digitaltwins&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#AgGym",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23aggym&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#RL",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23rl&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "https://lnkd.in/gdGy2DEr",
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgdGy2DEr&urlhash=wHGq&mt=92Y8x53UjluD06sFl9D04A02eh7efSmdC5cXFkYGEq1ETYMtH8cd93NsHJVBOp667E3h4JXq0V19db3kHBTTNnxpOVrkWoTbbierQ8-mKghnmLv4l-PIh1HYyw&isSdui=true"
+   },
+   {
+    "text": "mahsa khosravi",
+    "href": "https://www.linkedin.com/in/mahsa-kh/"
+   },
+   {
+    "text": "Matthew Carroll",
+    "href": "https://www.linkedin.com/in/carroll-matthew/"
+   },
+   {
+    "text": "Russell Tan",
+    "href": "https://www.linkedin.com/in/russelltkl/"
+   },
+   {
+    "text": "Liza Van der Laan",
+    "href": "https://www.linkedin.com/in/liza-vanderlaan/"
+   },
+   {
+    "text": "Joscif Raigne",
+    "href": "https://www.linkedin.com/in/joscif-raigne-a39152144/"
+   },
+   {
+    "text": "Daren Mueller",
+    "href": "https://www.linkedin.com/in/daren-mueller-b2b72443/"
+   },
+   {
+    "text": "Arti Singh",
+    "href": "https://www.linkedin.com/in/arti-singh-isu/"
+   },
+   {
+    "text": "Aditya Balu",
+    "href": "https://www.linkedin.com/in/aditya-balu/"
+   },
+   {
+    "text": "Baskar Ganapathysubramanian",
+    "href": "https://www.linkedin.com/in/baskar-ganapathysubramanian-5b22a51a6/"
+   },
+   {
+    "text": "Asheesh Singh",
+    "href": "https://www.linkedin.com/in/asheesh-singh-b11701293/"
+   },
+   {
+    "text": "COALESCE",
+    "href": "https://www.linkedin.com/company/coalesceiastate/"
+   },
+   {
+    "text": "AIIRA - AI Institute For Resilient Agriculture",
+    "href": "https://www.linkedin.com/company/aiira/"
+   },
+   {
+    "text": "TrAC - Translational AI Center",
+    "href": "https://www.linkedin.com/company/traciastate/"
+   },
+   {
+    "text": "Iowa State University",
+    "href": "https://www.linkedin.com/school/iowastateu/"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | Soumik Sarkar | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-1.jpg",
+    "size": [
+     800,
+     338
+    ],
+    "sha256": "53b2f17283556c42907cd620007dbdb88481394c7e7d981564ff29a2ba5e8369",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
+  "url": null,
+  "timestamp": null,
+  "text": "Sharing a new publication from my Ph.D. work. We looked at the use of transformer models to predict soybean yield and seed composition traits from historical Uniform Soybean Test data. This was a continuation of the previous work that was led by Tryambak and John. \n\nThank you to all the authors on this paper: Timilehin Ayanlade, Qisai Liu, Tryambak Gangopadhyay, Johnathon Shook, Arti Singh, Baskar Ganapathysubramanian, Soumik Sarkar, and Asheesh Singh.\n\nhttps://lnkd.in/gTjwdxvY\n… more",
+  "links": [
+   {
+    "text": "Timilehin Ayanlade",
+    "href": "https://www.linkedin.com/in/timilehin-ayanlade/"
+   },
+   {
+    "text": "Qisai Liu",
+    "href": "https://www.linkedin.com/in/qisai/"
+   },
+   {
+    "text": "Johnathon Shook",
+    "href": "https://www.linkedin.com/in/johnathon-shook-371430270/"
+   },
+   {
+    "text": "Arti Singh",
+    "href": "https://www.linkedin.com/in/arti-singh-isu/"
+   },
+   {
+    "text": "Baskar Ganapathysubramanian",
+    "href": "https://www.linkedin.com/in/baskar-ganapathysubramanian-5b22a51a6/"
+   },
+   {
+    "text": "Soumik Sarkar",
+    "href": "https://www.linkedin.com/in/soumik-sarkar-448b2619/"
+   },
+   {
+    "text": "Asheesh Singh",
+    "href": "https://www.linkedin.com/in/asheesh-singh-b11701293/"
+   },
+   {
+    "text": "https://lnkd.in/gTjwdxvY",
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgTjwdxvY&urlhash=qcot&mt=JS8AZ-Gnt3HMG4M6T4rGtL0Z5IwBHkjxZ3o4igvNy9VTICdZo8VfN0aWPl_V3OHWQzPYuYA9YeSOQavqZR4rh_CkO9Zhsn2jU99Y_XFppvP6IDh9OcLecimY6w&isSdui=true"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | Liza Van der Laan | ",
+  "images": []
+ },
+ {
+  "org": "coalesceiastate",
+  "url": null,
+  "timestamp": null,
+  "text": "Iowa State University researchers are building a nationwide, community‑powered platform to strengthen agricultural biosecurity.\n\nAgri‑Ecoblitz, selected for seed funding through our Fall 2025 Building Biosecurity Research and Innovation Roundtable program, will combine advanced sensing, machine learning, and large‑scale crowdsourcing to detect emerging pests, weeds, and diseases in real time. By engaging farmers, 4H youth, schools, and citizen scientists, the project will generate the high‑quality datasets needed to train next‑generation AI tools.\n\nThe project is led by Arti Singh (PI, Agronomy) with the core research team including Baskar Ganapathysubramanian (Iowa State University - Mechanical Engineering), Soumik Sarkar (Mechanical Engineering), Alenka Krek Poplin (Community & Regional Planning), Daren Mueller (Plant Pathology, Entomology & Microbiology), Wesley Everman (Agronomy — Weed Science), Aditya Balu (Data Analytics/Mechanical Engineering), and Lisa Schulte Moore (Natural Resource Ecology & Management).\n\nWith $60,000 in seed support, the Agri‑Ecoblitz team will enhance Iowa State’s InsectNet, WeedNet, and DiseaseNet platforms, and develop a new Midwest biodiversity app—helping the U.S. stay ahead of agricultural threats amplified by climate change, global trade, and invasive species.\n\nThis work advances our aspiration to be a trusted partner for proactive and innovative solutions.\n\nMore details:\n🔗 https://lnkd.in/ectVBTxJ\n#IowaStateResearch #IowaStateInnovates #Biosecurity #AIinAg\n… more",
+  "links": [
+   {
+    "text": "Arti Singh",
+    "href": "https://www.linkedin.com/in/arti-singh-isu/"
+   },
+   {
+    "text": "Baskar Ganapathysubramanian",
+    "href": "https://www.linkedin.com/in/baskar-ganapathysubramanian-5b22a51a6/"
+   },
+   {
+    "text": "Iowa State University - Mechanical Engineering",
+    "href": "https://www.linkedin.com/company/iowa-state-university-mechanical-engineering/"
+   },
+   {
+    "text": "Soumik Sarkar",
+    "href": "https://www.linkedin.com/in/soumik-sarkar-448b2619/"
+   },
+   {
+    "text": "Alenka Krek Poplin",
+    "href": "https://www.linkedin.com/in/alenka-krek-poplin-583965/"
+   },
+   {
+    "text": "Daren Mueller",
+    "href": "https://www.linkedin.com/in/daren-mueller-b2b72443/"
+   },
+   {
+    "text": "Wesley Everman",
+    "href": "https://www.linkedin.com/in/wesleyeverman/"
+   },
+   {
+    "text": "Aditya Balu",
+    "href": "https://www.linkedin.com/in/aditya-balu/"
+   },
+   {
+    "text": "Lisa Schulte Moore",
+    "href": "https://www.linkedin.com/in/lisa-schulte-moore-856b5b21/"
+   },
+   {
+    "text": "https://lnkd.in/ectVBTxJ",
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FectVBTxJ&urlhash=j283&mt=qYpuRD8ONu89TaAFGqLa5lc4tCUWasAOaCxePo83h5tCN0SRsQ0qZqNaG6WDb4JuqNLBzEHLj90TgqLOGU2eOOcVQQIXYf66f4APgTxGDStXXw9KzF-EXH8_2g&isSdui=true"
+   },
+   {
+    "text": "#IowaStateResearch",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23iowastateresearch&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#IowaStateInnovates",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23iowastateinnovates&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#Biosecurity",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23biosecurity&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#AIinAg",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23aiinag&origin=HASH_TAG_FROM_FEED"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | Iowa State Research | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-1.jpg",
+    "size": [
+     639,
+     360
+    ],
+    "sha256": "29a9253ad9e79a0bab7828e13970b96fd6b1cfcb0ce5e4e655ad869a0f0fee24",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
+  "url": null,
+  "timestamp": null,
+  "text": "Great #cvpr2026 so far! Had a chance to sit next to OpenCV founder Gary Bradski for a panel along with Jason Corso, Girish Chowdhary, and Shenlong Wang, and shared our recent work on #agentic visual reasoning for #agriculture in the Vision for Agriculture workshop. Thanks Chris Padwick, Ripudaman Singh Arora, Paula Ramos, PhD for the invitation. Good job, Tirtho Roy on presenting your first poster at a major venue! Happy to see and reconnect with many friends and former students Yasaman Esfandiari. And for some reason, there are too many autonomous semi-trucks here this year 😊 TrAC - Translational AI Center, AIIRA - AI Institute For Resilient Agriculture, COALESCE, Iowa State University\n… more",
+  "links": [
+   {
+    "text": "#cvpr2026",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23cvpr2026&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "OpenCV",
+    "href": "https://www.linkedin.com/company/opencv/"
+   },
+   {
+    "text": "Gary Bradski",
+    "href": "https://www.linkedin.com/in/garybradski/"
+   },
+   {
+    "text": "Jason Corso",
+    "href": "https://www.linkedin.com/in/jason-corso/"
+   },
+   {
+    "text": "Girish Chowdhary",
+    "href": "https://www.linkedin.com/in/girishchowdhary/"
+   },
+   {
+    "text": "Shenlong Wang",
+    "href": "https://www.linkedin.com/in/shenlong-wang-3496023b/"
+   },
+   {
+    "text": "#agentic",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23agentic&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#agriculture",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23agriculture&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "Chris Padwick",
+    "href": "https://www.linkedin.com/in/chris-padwick-75b5761/"
+   },
+   {
+    "text": "Ripudaman Singh Arora",
+    "href": "https://www.linkedin.com/in/rsarora/"
+   },
+   {
+    "text": "Paula Ramos, PhD",
+    "href": "https://www.linkedin.com/in/paula-ramos-phd/"
+   },
+   {
+    "text": "Tirtho Roy",
+    "href": "https://www.linkedin.com/in/tirtho-roy-apon/"
+   },
+   {
+    "text": "Yasaman Esfandiari",
+    "href": "https://www.linkedin.com/in/yasesf/"
+   },
+   {
+    "text": "TrAC - Translational AI Center",
+    "href": "https://www.linkedin.com/company/traciastate/"
+   },
+   {
+    "text": "AIIRA - AI Institute For Resilient Agriculture",
+    "href": "https://www.linkedin.com/company/aiira/"
+   },
+   {
+    "text": "COALESCE",
+    "href": "https://www.linkedin.com/company/coalesceiastate/"
+   },
+   {
+    "text": "Iowa State University",
+    "href": "https://www.linkedin.com/school/iowastateu/"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | Soumik Sarkar | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-1.jpg",
+    "size": [
+     480,
+     360
+    ],
+    "sha256": "a2d4cee72972b8858c22a3d54cb9ca1af950f092955e14fdf25a4da24886ef3d",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-2.jpg",
+    "size": [
+     480,
+     480
+    ],
+    "sha256": "35dc262901c0f69b6bec8092e243762f1d3eb5480d0b23cb785c9938a5f34eb0",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-3.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "059a29fec2e9cdc143852e97dcf39f6a2e3701facfdf66b18d78e6461694dc01",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-4.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "8656d533daf5aeb01287492d42da7e58924d981560141af88b0eee427e666a28",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-5.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "99d4345b9dbafe9bc224885959cf953fe4cae0e7ebe69a7c0a6448303fbb0e3a",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-6.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "92fff90520494d6566e2eb153c4d9d1d23bd4abdfa6599eed5603ee3a65daef3",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
+  "url": null,
+  "timestamp": null,
+  "text": "🎉 That’s a wrap on TrAC’s first Statewide High School AI Hackathon!\n\nWe were blown away by the creativity and innovation showcased in the presentations from Winterset, Johnston, Ames, and Marshalltown High Schools. The talent and enthusiasm from these students highlight an exciting future for AI.\n\n👏 Congratulations to all participating teams!\n\n🏆 1st Place – Ames High School\nNoah Shin, Allen Cal, Anirudh M., and Claire Wan\n\n🥈 2nd Place\nMarshalltown High School – Keyla Castellanos\nJohnston High School – Mayank B., Satya T.\n\n🥉 3rd Place – Winterset High School\nJudiah Her, Abe H., Max B., and Cru H.\n\nA special thank you to Iowa State University Provost Jason Keith and Iowa 4-H Youth Development | Iowa State University Extension and Outreach Student Innovation Center - Iowa State University, Amazon Web Services (AWS) for sponsoring this statewide event.\n\n\nWe also sincerely thank our judges — Anuj Sharma Evrim Baran Abram Anders — for their time and expertise.\n\n🙏 We appreciate all the support that made this event possible and look forward to building on this success in future Highschool AI Hackathons!\n\n\n#AI #Hackathon #STEMEducation #IowaState #Innovation #FutureTalent #TrAC.\n… more",
+  "links": [
+   {
+    "text": "Jason Keith",
+    "href": "https://www.linkedin.com/in/jason-keith-803a4011/"
+   },
+   {
+    "text": "Iowa 4-H Youth Development | Iowa State University Extension and Outreach",
+    "href": "https://www.linkedin.com/company/iowa-4-h-youth-development/"
+   },
+   {
+    "text": "Amazon Web Services (AWS)",
+    "href": "https://www.linkedin.com/company/amazon-web-services/"
+   },
+   {
+    "text": "Anuj Sharma",
+    "href": "https://www.linkedin.com/in/anuj-sharma-link/"
+   },
+   {
+    "text": "Evrim Baran",
+    "href": "https://www.linkedin.com/in/evrimbaran/"
+   },
+   {
+    "text": "Abram Anders",
+    "href": "https://www.linkedin.com/in/adanders/"
+   },
+   {
+    "text": "#AI",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#Hackathon",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23hackathon&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#STEMEducation",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23stemeducation&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#IowaState",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23iowastate&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#Innovation",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23innovation&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#FutureTalent",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23futuretalent&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#TrAC",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23trac&origin=HASH_TAG_FROM_FEED"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | TrAC - Translational AI Center | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-1.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "4dafcf58a0285cef2dbba892ce05c83b07ac2e56cec2f32d5a99e68b3f680e21",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-2.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "b7f76308dfaa83d23e6bbfd17e7b2564c8da80515c03975273885d21c5fa0a4c",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-3.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "a17821702af20b3d3775fa054117b7791b792acad8122c3684afefa5aaf15839",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-4.jpg",
+    "size": [
+     480,
+     360
+    ],
+    "sha256": "17a4c6ee53775a1ac8916225c9c331b0c771bc1fff4fcf8d73c66bb3312fde1c",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
+  "url": null,
+  "timestamp": null,
+  "text": "A nicely produced video from The Washington Post highlighting our #AI for #agriculture research. Many thanks to David Burns for the excellent coverage. TrAC - Translational AI Center, AIIRA - AI Institute For Resilient Agriculture, COALESCE, Iowa State University https://lnkd.in/gK_VPAxi\n… more",
+  "links": [
+   {
+    "text": "The Washington Post",
+    "href": "https://www.linkedin.com/company/washingtonpost/"
+   },
+   {
+    "text": "#AI",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#agriculture",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23agriculture&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "TrAC - Translational AI Center",
+    "href": "https://www.linkedin.com/company/traciastate/"
+   },
+   {
+    "text": "AIIRA - AI Institute For Resilient Agriculture",
+    "href": "https://www.linkedin.com/company/aiira/"
+   },
+   {
+    "text": "COALESCE",
+    "href": "https://www.linkedin.com/company/coalesceiastate/"
+   },
+   {
+    "text": "Iowa State University",
+    "href": "https://www.linkedin.com/school/iowastateu/"
+   },
+   {
+    "text": "https://lnkd.in/gK_VPAxi",
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgK_VPAxi&urlhash=1RLW&mt=BNQR9rYX6PTbVirotOg6kUuSSqqCOs5USVDYgmiIEryczFWdHMrxIZ_HXS8fg7xZjTCDgfImBOjz7j6vU9WJ_L2VrcGJzMu2KTsw8812wF4oM4x2NPeJBh3_7g&isSdui=true"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | Soumik Sarkar | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-1.jpg",
+    "size": [
+     160,
+     120
+    ],
+    "sha256": "c58e2e5db73a2563b09613954be07f3e5a9ef8cafd1c2cd592b0305294d3d104",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
+  "url": null,
+  "timestamp": null,
+  "text": "A great day representing Iowa State University at the Iowa State Capitol and highlighting our #AI4Agriculture research and workforce development efforts. Grateful to be joined by our good friend and key stakeholder Jeff Frank, a farmer leader with the Iowa Soybean Association, as we continue to champion practical AI adoption in agriculture. Arti Singh, Asheesh Singh, Baskar Ganapathysubramanian, Nicole Hayungs, AIIRA - AI Institute For Resilient Agriculture, COALESCE, TrAC - Translational AI Center\n… more",
+  "links": [
+   {
+    "text": "Iowa State University",
+    "href": "https://www.linkedin.com/school/iowastateu/"
+   },
+   {
+    "text": "#AI4Agriculture",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23ai4agriculture&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "Iowa Soybean Association",
+    "href": "https://www.linkedin.com/company/iowa-soybean-association/"
+   },
+   {
+    "text": "Arti Singh",
+    "href": "https://www.linkedin.com/in/arti-singh-isu/"
+   },
+   {
+    "text": "Asheesh Singh",
+    "href": "https://www.linkedin.com/in/asheesh-singh-b11701293/"
+   },
+   {
+    "text": "Baskar Ganapathysubramanian",
+    "href": "https://www.linkedin.com/in/baskar-ganapathysubramanian-5b22a51a6/"
+   },
+   {
+    "text": "Nicole Hayungs",
+    "href": "https://www.linkedin.com/in/nicole-hayungs-98413146/"
+   },
+   {
+    "text": "AIIRA - AI Institute For Resilient Agriculture",
+    "href": "https://www.linkedin.com/company/aiira/"
+   },
+   {
+    "text": "COALESCE",
+    "href": "https://www.linkedin.com/company/coalesceiastate/"
+   },
+   {
+    "text": "TrAC - Translational AI Center",
+    "href": "https://www.linkedin.com/company/traciastate/"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | Soumik Sarkar | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-1.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "bf2c24cee8e1b38d4a834e9d8d485f89b6a041676084797e6c6684f1f8dac740",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-2.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "7781594876dc1c3c015116970fdb40736202646cb166ba48c887e2d0c2e64af8",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-3.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "ccf63455dfc3d3303b5347e50d9ca5eaff2921661c5e34a2568e04bdc6a13700",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-4.jpg",
+    "size": [
+     480,
+     640
+    ],
+    "sha256": "93019c029e47a78add1a5992a4529ac1d0416d85d9e7ba39e9ea77c8c6624e7f",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
+  "url": null,
+  "timestamp": null,
+  "text": "🚀 Paper accepted at ICRA 2026!\n\nExcited to share that our paper “Find the Fruit: Zero-Shot Sim2Real RL for Occlusion-Aware Plant Manipulation” has been accepted to ICRA 🎉🌱\n\nTL;DR — what we show:\n• 🍃 Robots must find fruit before grasping — occlusion is the real bottleneck\n• 🧠 We train an end-to-end RL policy entirely in simulation to actively manipulate plants and reveal hidden fruit\n• 🔧 Uses a decoupled architecture: RL for high-level kinematic planning + compliant low-level control for safe interaction\n• 🌍 Achieves zero-shot sim-to-real transfer using a generic deformable plant model (no plant-specific reconstruction)\n• ✅ Reaches up to 86.7% success in real-world fruit exposure across plants with different stiffness and morphology\n\nKey takeaway:\nBy framing fruit discovery as an interactive manipulation task and separating planning from contact execution, a single policy can robustly uncover occluded targets and transfer directly from simulation to real hardware; without re-tuning or plant-specific modeling.\n\n📄 Paper: https://lnkd.in/g96SmTnU\n🎥 Video below ⬇️ shows the policy uncovering fruit in real plants, zero-shot\n\nHuge thanks to my co-authors Hsin-Jung Yang and Devesh Jha, and especially to my advisor Soumik Sarkar, for their constant guidance, patience, and countless discussions and iterations that made this work possible.\n\n#ICRA2026 #Robotics #ReinforcementLearning #Sim2Real #Manipulation #AgRobotics 🌱🤖\n… more",
+  "links": [
+   {
+    "text": "https://lnkd.in/g96SmTnU",
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg96SmTnU&urlhash=fXG9&mt=KIFdKihX7l7JSHth7L9-6lC8XgoMarPLV-cu_kob-QwZgruwe_QF-VUmlWZl7LPzAUAdT3gRn-qpu-YygHQ7GUjG4Lq20eQu72mELY_XNsMt0mdMzbNBBV6XaA&isSdui=true"
+   },
+   {
+    "text": "Hsin-Jung Yang",
+    "href": "https://www.linkedin.com/in/hsinjyang/"
+   },
+   {
+    "text": "Devesh Jha",
+    "href": "https://www.linkedin.com/in/deveshjha/"
+   },
+   {
+    "text": "Soumik Sarkar",
+    "href": "https://www.linkedin.com/in/soumik-sarkar-448b2619/"
+   },
+   {
+    "text": "#ICRA2026",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23icra2026&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#Robotics",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23robotics&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#ReinforcementLearning",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23reinforcementlearning&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#Sim2Real",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23sim2real&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#Manipulation",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23manipulation&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "#AgRobotics",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23agrobotics&origin=HASH_TAG_FROM_FEED"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | Nitesh Subedi | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-1.jpg",
+    "size": [
+     640,
+     360
+    ],
+    "sha256": "400eed26cac563f0d49d2605b27d91d045f5fc5f5a5a062398ef8fbf6f053a7c",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "coalesceiastate",
+  "url": null,
+  "timestamp": null,
+  "text": "It was a great experience visiting Kansas State University this week and delivering a keynote at the K-State AI Symposium! I discussed our vision for #AI-enabled Cyber-Agricultural Systems to dramatically reduce input costs in agriculture and increase profitability. Thanks to Ajay Sharda and Pascal Hitzler for the invitation and your kind hospitality! TrAC - Translational AI Center, COALESCE, AIIRA - AI Institute For Resilient Agriculture, Iowa State University \n… more",
+  "links": [
+   {
+    "text": "Kansas State University",
+    "href": "https://www.linkedin.com/school/kansas-state-university/"
+   },
+   {
+    "text": "#AI",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23ai&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "Ajay Sharda",
+    "href": "https://www.linkedin.com/in/ajsharda/"
+   },
+   {
+    "text": "Pascal Hitzler",
+    "href": "https://www.linkedin.com/in/pascalhitzler/"
+   },
+   {
+    "text": "TrAC - Translational AI Center",
+    "href": "https://www.linkedin.com/company/traciastate/"
+   },
+   {
+    "text": "COALESCE",
+    "href": "https://www.linkedin.com/company/coalesceiastate/"
+   },
+   {
+    "text": "AIIRA - AI Institute For Resilient Agriculture",
+    "href": "https://www.linkedin.com/company/aiira/"
+   },
+   {
+    "text": "Iowa State University",
+    "href": "https://www.linkedin.com/school/iowastateu/"
+   }
+  ],
+  "header": "Feed post |  | COALESCE reposted this |  | Soumik Sarkar | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-1.jpg",
+    "size": [
+     480,
+     360
+    ],
+    "sha256": "daea80ca979cf0cfba7a0f06fb6441c8c655920a1d570e97a8105051a1d8efca",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-2.jpg",
+    "size": [
+     480,
+     360
+    ],
+    "sha256": "0d4d254f17748e03a6867f28eba853aa398b16f043892acc570d9614f421acf1",
     "status": "ok"
    }
   ]

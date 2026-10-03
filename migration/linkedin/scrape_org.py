@@ -57,7 +57,15 @@ async def main():
                     seen[k] = it
             stale = stale + 1 if len(seen) == before else 0
             print(f"{SLUG}: {len(seen)}", flush=True)
-            await p.evaluate("window.scrollBy(0, 2500)")
+            # the new layout lazy-loads inside a list: bring the last card into view, then try "Show more"
+            await p.evaluate("""() => { const c = document.querySelectorAll('[role="listitem"][componentkey^="update-card"]');
+                                         if (c.length) c[c.length - 1].scrollIntoView({block: 'end'}); window.scrollBy(0, 1200); }""")
+            await p.wait_for_timeout(2500)
+            more = p.get_by_role("button", name=re.compile(r"show more", re.I))
+            if await more.count():
+                try: await more.first.click(timeout=2000)
+                except Exception: pass
+            await p.mouse.wheel(0, 3000)
             await p.wait_for_timeout(3500)
     posts = []
     for it in seen.values():

@@ -124,6 +124,48 @@
  },
  {
   "org": "aiira",
+  "url": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7445154756504944640/",
+  "timestamp": "2026-04-01T17:06:58+00:00",
+  "text": "More great insights from a great person! We're excited to share your first paper Shambhavi Joshi!",
+  "links": [
+   {
+    "text": "Shambhavi Joshi",
+    "href": "https://www.linkedin.com/in/joshi-shambhavi/"
+   }
+  ],
+  "header": "Feed post |  | AIIRA - AI Institute For Resilient Agriculture |  | 5mo | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-aiira-7445154756504944640-1.jpg",
+    "size": [
+     681,
+     353
+    ],
+    "sha256": "4cd5b34ba3489c7cff6f75a7859488f7ad2d80df7e5d74dfa0bc043a1b950618",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-aiira-7445154756504944640-2.jpg",
+    "size": [
+     800,
+     455
+    ],
+    "sha256": "4608aad84b7f06cd441cc8cf6c9d31d549fa086bbd3074a5e6dcee313f3d2fb0",
+    "status": "ok"
+   },
+   {
+    "file": "migration/linkedin/images/org-aiira-7445154756504944640-3.jpg",
+    "size": [
+     800,
+     383
+    ],
+    "sha256": "a19cf18aec45088dc6ae6d036eb02f207dfb071d3555149923e21320d38b7e80",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "aiira",
   "url": "https://www.linkedin.com/feed/update/urn:li:share:7433295387735621632/",
   "timestamp": "2026-02-27T23:42:04+00:00",
   "text": "It’s great seeing what our fellow TrAC - Translational AI Center teams have accomplished!",
@@ -163,6 +205,30 @@
   ],
   "header": "Feed post |  | AIIRA - AI Institute For Resilient Agriculture |  | 7mo | ",
   "images": []
+ },
+ {
+  "org": "aiira",
+  "url": "https://www.linkedin.com/feed/update/urn:li:share:7382874641201074176/",
+  "timestamp": "2025-10-11T20:28:01+00:00",
+  "text": "We are honored to be a part of this wonderful opportunity! World Food Prize Foundation",
+  "links": [
+   {
+    "text": "World Food Prize Foundation",
+    "href": "https://www.linkedin.com/company/the-world-food-prize-foundation/"
+   }
+  ],
+  "header": "Feed post |  | AIIRA - AI Institute For Resilient Agriculture |  | 11mo | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-aiira-7382874641201074176-1.jpg",
+    "size": [
+     800,
+     670
+    ],
+    "sha256": "1ae75989ebc0b337de97fa5e9e917bf3fdc0bd1ed6f6ca0569d4acf69a51904d",
+    "status": "ok"
+   }
+  ]
  },
  {
   "org": "aiira",
@@ -292,7 +358,7 @@
    },
    {
     "text": "https://lnkd.in/gWtVm-k7",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgWtVm-k7&urlhash=ZYNj&mt=UwFRXALnfne7f04JZeN9_0WEq3sJ0lEGHfD3Xb_8KhaCF5Qlabr6l7bFyxvrPM5Nf5pfZguDmPh8mId8LWms1SuAy9N443CAmkn3oSUo9xqwtRrsfg9gUU4FPQ&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgWtVm-k7&urlhash=ZYNj&mt=PXrhP5h_fgLhlUZOegHgUGIfhuD_XNavjDRubqMH-10k5K1Zb6GYjumrGESFEnb3a7HS_WenWtMqsInEhDpaYtoJtjgNA1afuD_8dMgzcBU25fTAAqWceB4F9w&isSdui=true"
    },
    {
     "text": "#IowaStateUniversity",
@@ -318,7 +384,7 @@
   "links": [
    {
     "text": "https://lnkd.in/gPHr5W6X",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgPHr5W6X&urlhash=C6T-&mt=75PbgdZxbSP8AZnp8uB1xcyu8qirJSTJL1NqnOHAhLzjTZXZnTBGF7EWLs_AjHycR-ivEfyi_U4CiWxCy6SopbROCgse9xUeNF-I8FFWsi_B6-G1KiMkM2t0SQ&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgPHr5W6X&urlhash=C6T-&mt=hjvQBkcruXuSmjQFN27dEPx1B4XFak0PZgTFdZmLdyw8uVCyHoCVphCGXe3PCdwrd0nHaacH5oHyRgr0IOCyyMLhviNp1RDzbVjHHS4cb2pR9F1erLtHS4YVPA&isSdui=true"
    },
    {
     "text": "Baskar Ganapathysubramanian",
@@ -340,7 +406,7 @@
   "links": [
    {
     "text": "https://lnkd.in/gsJSfKxb",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgsJSfKxb&urlhash=mTvT&mt=W1-N_eaSomm2HNngbTtFl7QuscZlPuGJsA8eFpQqLayzO8NiMt7UOk1cWSRXpAK7SJ9sh1DFArr0Bgn3IT6dGNvfuM7RbJIFgcmUnuNwj2HCLiONZtuq49XZRg&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgsJSfKxb&urlhash=mTvT&mt=dx65oscbB7FlodOwAo5HYnrrg2i7A76kWCiGqNWYyuWVmE5yk97kvqJ_TTVmMtMSRJKlcRuu1Dkgk6-3Yh9s22nTb1c_Ohipe_eIdD5ZPSQ--t1-eanhZsV7Ow&isSdui=true"
    },
    {
     "text": "Kevin Dalmeijer",
@@ -496,7 +562,7 @@
    },
    {
     "text": "https://lnkd.in/g5ZCdtV6",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg5ZCdtV6&urlhash=SGUl&mt=SVpuHJsIYvMSeQoziat-Hyez4Yio3RMoGTNG28E7Tcz-EQk9vlt3_W9YZgVvgcVQ-pjf7iWIgrxzGDa2koLKAo-GuiZ-IV2xCNWCw3Bk5SnRDIaM121woNAqYQ&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2Fg5ZCdtV6&urlhash=SGUl&mt=BGn8mLtZb6zdVmTvDlENbzb4mq-tsd2iAN1Wt4VITw0Az_OSjFjP-cHRWI3nA2YnL3mesF2NyR6BiGzKLlNuvV3MJVDRfafPkHcn-vzUfWEL45lKIjQAbXkThg&isSdui=true"
    },
    {
     "text": "#MMLI",
@@ -584,7 +650,7 @@
    },
    {
     "text": "https://lnkd.in/gTjwdxvY",
-    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgTjwdxvY&urlhash=qcot&mt=YzWG4wEEj2tzmyuyEoKX_yDLLWqG7E47lSxeaYGn5VVrc1xvD-I29JlemEurbrPnRIYr2IQujWciFx03N9pwgZqSN1Di5HXuwa22Xr8_Ako8zBnYKUVUT8llgQ&isSdui=true"
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgTjwdxvY&urlhash=qcot&mt=ireqXo5Adg3M3PUPnFyik56cQEJI1jG-jHfhtWpvZFTMfokl9aPtNzYr6v-NEG3BgeV6RkLm2r3623ZBEzZz763yVO3Upg2BovF78Imu-XvpD9GvL259htDfxg&isSdui=true"
    }
   ],
   "header": "Feed post |  | AIIRA - AI Institute For Resilient Agriculture reposted this |  | Liza Van der Laan | ",
@@ -617,5 +683,121 @@
     "status": "ok"
    }
   ]
+ },
+ {
+  "org": "aiira",
+  "url": null,
+  "timestamp": null,
+  "text": "AIIRA in the News! It is wonderful to see Arti Singh and her team's research highlighted and shared so broadly. Check out the PESTID app for yourself! - https://lnkd.in/gvR7Zie4\n\nhttps://lnkd.in/dJQuBMJa\n… more",
+  "links": [
+   {
+    "text": "Arti Singh",
+    "href": "https://www.linkedin.com/in/arti-singh-isu/"
+   },
+   {
+    "text": "https://lnkd.in/gvR7Zie4",
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgvR7Zie4&urlhash=WdDK&mt=UgoMo2vZcYKMv9dnIts8uJvS6rMy3J4cGOtOh2Nc3SHYjHxCJ94jQaGhkZwVMO3hbG68ajjLFQ56t3R9bIc4cbkL3ZzAtk5BmgNgXNRzUku52SuX_Ne-rc9Irg&isSdui=true"
+   },
+   {
+    "text": "https://lnkd.in/dJQuBMJa",
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FdJQuBMJa&urlhash=rYYB&mt=A41mZid5LDm9tbUeqdAWuFi4lHZ11bLGjVHi_VVpseH5QAlA1fHNP0ZIyh1bysFrcvJZEm2HIo5ShHE5HUIMykRWB0AgQSILBUmo92VHpu9FN2ZbMwaKGYtMdg&isSdui=true"
+   }
+  ],
+  "header": "Feed post |  | AIIRA - AI Institute For Resilient Agriculture |  | 5mo | ",
+  "images": []
+ },
+ {
+  "org": "aiira",
+  "url": null,
+  "timestamp": null,
+  "text": "Baskar Ganapathysubramanian and Matthew Carroll joined a panel at The Gazette's Iowa Ideas Conference to explore how AI can deliver actionable insights to farmers. \n\n\nWatch the full discussion here: https://lnkd.in/duiEgDiC\n\nGazette Grace Nieland\n… more",
+  "links": [
+   {
+    "text": "Baskar Ganapathysubramanian",
+    "href": "https://www.linkedin.com/in/baskar-ganapathysubramanian-5b22a51a6/"
+   },
+   {
+    "text": "Matthew Carroll",
+    "href": "https://www.linkedin.com/in/carroll-matthew/"
+   },
+   {
+    "text": "https://lnkd.in/duiEgDiC",
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FduiEgDiC&urlhash=qJiH&mt=HJNALbeSbl_hhGPAYLctSElFpO9AdCqwCIBpI1Rh4D_McryF4-HYTgsDxEl8uSQfwLBqwNLoXo401NOG1PvFPjWH_awOLuOimrNuZlekcpGX6EDiwXxiTjOi2Q&isSdui=true"
+   },
+   {
+    "text": "Gazette",
+    "href": "https://www.linkedin.com/company/gazette-news/"
+   },
+   {
+    "text": "Grace Nieland",
+    "href": "https://www.linkedin.com/in/grace-nieland-4920981a2/"
+   }
+  ],
+  "header": "Feed post |  | AIIRA - AI Institute For Resilient Agriculture reposted this |  | TrAC - Translational AI Center | ",
+  "images": [
+   {
+    "file": "migration/linkedin/images/org-aiira-ED_RELEVANCE-1.jpg",
+    "size": [
+     160,
+     198
+    ],
+    "sha256": "929055dea6ee20ef26e1aa8119a32713eaa8dac6db2b1031fdf34ad424c4e68b",
+    "status": "ok"
+   }
+  ]
+ },
+ {
+  "org": "aiira",
+  "url": null,
+  "timestamp": null,
+  "text": "🌽 Thrilled to be part of this year’s Side Event lineup for the 2025 Borlaug Dialogue! This October, we'll be in Des Moines, Iowa, to spotlight Public-Private Partnerships to Advance AI in Agriculture Under the theme SOILutions for Security, we’ll explore bold ideas and actionable partnerships. \n\n🎤Don’t miss it! #FoodPrize25 World Food Prize Foundation\n\nRegister: https://lnkd.in/gNue2BVJ\n\nAsheesh Singh Baskar Ganapathysubramanian Soumik Sarkar Melissa Neuendorf Steven Johnson Matthew Carroll Aditya Balu Jason Henderson\n… more",
+  "links": [
+   {
+    "text": "#FoodPrize25",
+    "href": "https://www.linkedin.com/search/results/all/?keywords=%23foodprize25&origin=HASH_TAG_FROM_FEED"
+   },
+   {
+    "text": "World Food Prize Foundation",
+    "href": "https://www.linkedin.com/company/the-world-food-prize-foundation/"
+   },
+   {
+    "text": "https://lnkd.in/gNue2BVJ",
+    "href": "https://www.linkedin.com/safety/go/?url=https%3A%2F%2Flnkd%2Ein%2FgNue2BVJ&urlhash=IMdo&mt=8LIrfbH9PAD-eHcGJerMMR7YAXPLeCVnumfjt-RFqj2-1utlcbwG_omrAzFQ1NnoefRgxHjtAWQnv-E-4K0C6yo0UWDCOE0sp64L-_DPWq7Aa6HYQLUl3gBc0A&isSdui=true"
+   },
+   {
+    "text": "Asheesh Singh",
+    "href": "https://www.linkedin.com/in/asheesh-singh-b11701293/"
+   },
+   {
+    "text": "Baskar Ganapathysubramanian",
+    "href": "https://www.linkedin.com/in/baskar-ganapathysubramanian-5b22a51a6/"
+   },
+   {
+    "text": "Soumik Sarkar",
+    "href": "https://www.linkedin.com/in/soumik-sarkar-448b2619/"
+   },
+   {
+    "text": "Melissa Neuendorf",
+    "href": "https://www.linkedin.com/in/melissa-neuendorf-67b6555/"
+   },
+   {
+    "text": "Steven Johnson",
+    "href": "https://www.linkedin.com/in/lstevenjohnson/"
+   },
+   {
+    "text": "Matthew Carroll",
+    "href": "https://www.linkedin.com/in/carroll-matthew/"
+   },
+   {
+    "text": "Aditya Balu",
+    "href": "https://www.linkedin.com/in/aditya-balu/"
+   },
+   {
+    "text": "Jason Henderson",
+    "href": "https://www.linkedin.com/in/jason-henderson-502a9113/"
+   }
+  ],
+  "header": "Feed post |  | AIIRA - AI Institute For Resilient Agriculture reposted this |  | TrAC - Translational AI Center | ",
+  "images": []
  }
 ]

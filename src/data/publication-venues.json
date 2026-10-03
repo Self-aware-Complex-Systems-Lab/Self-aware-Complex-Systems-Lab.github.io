@@ -1,0 +1,77 @@
+{
+ "_note": "Venue updates for papers first listed as preprints. Evidence = the paper's own arXiv record or project page. scripts/check_preprint_venues.py finds new candidates.",
+ "venues": {
+  "added:7": {
+   "category": "conferences",
+   "venue": "CVPR 2026 Workshop on Emerging Directions in Data for Multimodal Foundation Models (DataMFM)",
+   "year": 2026,
+   "evidence": "arXiv journal_ref + project page sage-dataset.github.io: 'Accepted CVPR 2026 Workshop…'"
+  },
+  "archived:306": {
+   "category": "conferences",
+   "venue": "IEEE International Conference on Robotics and Automation (ICRA 2026), in press",
+   "year": 2026,
+   "evidence": "project page hjy77.github.io/find_the_fruit: 'ICRA 2026 — In Press'"
+  },
+  "archived:313": {
+   "category": "conferences",
+   "venue": "5th Modeling, Estimation and Control Conference (MECC 2025)",
+   "year": 2025,
+   "evidence": "arXiv comment: 'accepted at the 5th Modeling, Estimation and Control Conference (MECC 2025)'"
+  },
+  "archived:315": {
+   "category": "conferences",
+   "venue": "International Conference on Learning Representations (ICLR 2025)",
+   "year": 2025,
+   "evidence": "arXiv journal_ref: 'International Conference on Learning Representations (ICLR), 2025'"
+  },
+  "archived:328": {
+   "category": "conferences",
+   "venue": "Machine Learning for Structural Biology Workshop, NeurIPS 2022",
+   "year": 2022,
+   "evidence": "arXiv comment"
+  },
+  "archived:349": {
+   "category": "conferences",
+   "venue": "NeurIPS 2019 Workshop on Visually Grounded Interaction and Language",
+   "year": 2019,
+   "evidence": "arXiv comment"
+  },
+  "archived:350": {
+   "category": "conferences",
+   "venue": "Beyond First Order Methods in Machine Learning Workshop, NeurIPS 2019",
+   "year": 2019,
+   "evidence": "arXiv comment: 'Accepted in … workshop … (NeurIPS 2019)'"
+  },
+  "archived:351": {
+   "category": "conferences",
+   "venue": "CVPR 2019 Workshop on Deep Learning for Geometric Shape Understanding",
+   "year": 2019,
+   "evidence": "arXiv comment"
+  },
+  "archived:359": {
+   "category": "conferences",
+   "venue": "Machine Learning for Molecules and Materials Workshop, NeurIPS 2018",
+   "year": 2018,
+   "evidence": "arXiv comment: 'Presenting in … NeurIPS 2018 Workshop'"
+  },
+  "archived:364": {
+   "category": "conferences",
+   "venue": "Deep Reinforcement Learning Workshop, NeurIPS 2018",
+   "year": 2018,
+   "evidence": "arXiv comment"
+  },
+  "archived:367": {
+   "category": "conferences",
+   "venue": "NIPS 2017 Symposium on Interpretable Machine Learning",
+   "year": 2017,
+   "evidence": "arXiv comment: 'Presented at NIPS 2017 Symposium…'"
+  },
+  "archived:368": {
+   "category": "conferences",
+   "venue": "NIPS 2017 Symposium on Interpretable Machine Learning",
+   "year": 2017,
+   "evidence": "arXiv comment: 'Presented at NIPS 2017 Symposium…'"
+  }
+ }
+}

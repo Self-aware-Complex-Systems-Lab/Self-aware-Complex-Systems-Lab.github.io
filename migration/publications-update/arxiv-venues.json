@@ -1,0 +1,86 @@
+[
+ {
+  "key": "archived:313",
+  "title": "Data-driven Kinematic Modeling in Soft Robots: System Identification and Uncertainty Quantification",
+  "arxiv": "2507.07370",
+  "journalRef": null,
+  "comment": "6 pages; 6 figures; accepted at the 5th Modeling, Estimation and Control Conference (MECC 2025)"
+ },
+ {
+  "key": "archived:315",
+  "title": "Latent safety-constrained policy approach for safe offline reinforcement learning",
+  "arxiv": "2412.08794",
+  "journalRef": "International Conference on Learning Representations (ICLR), 2025",
+  "comment": null
+ },
+ {
+  "key": "archived:328",
+  "title": "3d reconstruction of protein complex structures using synthesized multi-view afm images",
+  "arxiv": "2211.14662",
+  "journalRef": null,
+  "comment": "5 apges, 8 figures, Machine Learning for Structural Biology Workshop, NeurIPS 2022"
+ },
+ {
+  "key": "archived:342",
+  "title": "Physics-consistent deep learning for structural topology optimization.",
+  "arxiv": "2012.05359",
+  "journalRef": "Engineering Applications of Artificial Intelligence, 2021, Volume 106,104483",
+  "comment": "29 pages, 28 figures, 9 tables"
+ },
+ {
+  "key": "archived:349",
+  "title": "A perspective on multi-agent communication for information fusion",
+  "arxiv": "1911.03743",
+  "journalRef": null,
+  "comment": "NeuRIPS 2019, Workshop on Visually Grounded Interaction and Language, Vancouver, CA"
+ },
+ {
+  "key": "archived:350",
+  "title": "On higher-order moments in adam",
+  "arxiv": "1910.06878",
+  "journalRef": null,
+  "comment": "Accepted in Beyond First Order Methods in Machine Learning workshop in 33rd Conference on Neural Information Processing Systems (NeurIPS 2019), Vancouver, Canada"
+ },
+ {
+  "key": "archived:351",
+  "title": "Multi-Level 3D CNN for Learning Multi-Scale Spatial Features",
+  "arxiv": "1805.12254",
+  "journalRef": null,
+  "comment": "CVPR 2019 workshop on Deep Learning for Geometric Shape Understanding"
+ },
+ {
+  "key": "archived:359",
+  "title": "3D Deep Learning with voxelized atomic configurations for modeling atomistic potentials in complex solid-solution alloys",
+  "arxiv": "1811.09724",
+  "journalRef": null,
+  "comment": "Presenting in Machine Learning for Molecules and Materials NeurIPS 2018 Workshop"
+ },
+ {
+  "key": "archived:364",
+  "title": "Flow Shape Design for Microfluidic Devices Using Deep Reinforcement Learning",
+  "arxiv": "1811.12444",
+  "journalRef": null,
+  "comment": "Neurips 2018 Deep RL workshop"
+ },
+ {
+  "key": "archived:367",
+  "title": "A forward-backward approach for visualizing information flow in deep networks",
+  "arxiv": "1711.06221",
+  "journalRef": null,
+  "comment": "Presented at NIPS 2017 Symposium on Interpretable Machine Learning"
+ },
+ {
+  "key": "archived:368",
+  "title": "Learning and visualizing localized geometric features using 3d-cnn: An application to manufacturability analysis of drilled holes",
+  "arxiv": "1711.04851",
+  "journalRef": null,
+  "comment": "Presented at NIPS 2017 Symposium on Interpretable Machine Learning"
+ },
+ {
+  "key": "added:7",
+  "title": "SAGE: Scalable Agentic Grounded Evaluation for Crop Disease Diagnosis",
+  "arxiv": "2605.09768",
+  "journalRef": "CVPR 2026 Workshop on Emerging Directions in Data for Multimodal Foundation Models",
+  "comment": null
+ }
+]
