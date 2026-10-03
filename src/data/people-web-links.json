@@ -1,5 +1,5 @@
 {
- "_note": "High-confidence links found by web search on 2026-10-03 (not part of the original site). Evidence per link in migration/people-web-search.json.",
+ "_note": "High-confidence links found by web search on 2026-10-03 (people-web-search.json, current-members-github.json hold the evidence).",
  "links": {
   "Dr. Soumik Sarkar": [
    {
@@ -27,12 +27,36 @@
    {
     "type": "github",
     "url": "https://github.com/zahid-isu"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/zahid-isu",
+    "label": "LinkedIn"
+   },
+   {
+    "type": "x",
+    "url": "https://x.com/ZahidHasan62182",
+    "label": "X"
+   },
+   {
+    "type": "cv",
+    "url": "https://zahid-isu.github.io/uploads/Resume_Zahid_Hasan_2026u.pdf",
+    "label": "CV"
    }
   ],
   "Hsin-Jung Yang": [
    {
     "type": "scholar",
     "url": "https://scholar.google.com/citations?user=K5WYa34AAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/hjy77"
+   },
+   {
+    "type": "other",
+    "url": "https://hjy77.github.io/GENESIS-RL/",
+    "label": "GENESIS-RL project page"
    }
   ],
   "Timilehin Ayanlade": [
@@ -43,12 +67,34 @@
    {
     "type": "other",
     "url": "https://news.engineering.iastate.edu/2026/04/01/we-should-all-think-like-entrepreneurs-timilehin-ayanlade-engineering-ai-innovations-in-cyber-agriculture-systems/"
+   },
+   {
+    "type": "homepage",
+    "url": "https://ttayanlade.github.io/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/ttayanlade"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/timilehin-ayanlade/",
+    "label": "LinkedIn"
+   },
+   {
+    "type": "cv",
+    "url": "https://ttayanlade.github.io/data/timilehin_ayanlade_cv.pdf",
+    "label": "CV"
    }
   ],
   "Mahsa Khosravi": [
    {
     "type": "scholar",
     "url": "https://scholar.google.com/citations?user=Rbi2WL4AAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/Mkhosravi91"
    }
   ],
   "Qisai Liu": [
@@ -67,12 +113,49 @@
    {
     "type": "github",
     "url": "https://github.com/nitesh-subedi"
+   },
+   {
+    "type": "homepage",
+    "url": "https://nitesh-subedi.github.io/"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/nitesh-subedi",
+    "label": "LinkedIn"
+   },
+   {
+    "type": "cv",
+    "url": "https://nitesh-subedi.github.io/NIteshCV-3.pdf",
+    "label": "CV"
+   },
+   {
+    "type": "other",
+    "url": "https://nitesh-subedi.github.io/LCLA-website/",
+    "label": "LCLA project page"
    }
   ],
   "Shreyan Ganguly": [
    {
     "type": "scholar",
     "url": "https://scholar.google.com/citations?user=hevENGEAAAAJ&hl=en"
+   },
+   {
+    "type": "homepage",
+    "url": "https://shrn2.github.io/me/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/shrn2"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/shreyan-ganguly-467882191/",
+    "label": "LinkedIn"
+   },
+   {
+    "type": "cv",
+    "url": "https://drive.google.com/file/d/1J_M2ANGzuL5oxJrgugg4zNf9cXD5_vIL/view?usp=sharing",
+    "label": "CV"
    }
   ],
   "Yongyun Song": [
@@ -89,6 +172,10 @@
    {
     "type": "faculty-page",
     "url": "https://www.cs.iastate.edu/people/sanjeda-akter"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/Sanjeeda-Jeba"
    }
   ],
   "Tirtho Roy": [
@@ -107,6 +194,11 @@
    {
     "type": "other",
     "url": "https://www.researchgate.net/profile/Tirtho-Roy"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/tirtho-roy-apon",
+    "label": "LinkedIn"
    }
   ],
   "Seyed Vahid Mirnezami": [
@@ -424,6 +516,55 @@
     "type": "scholar",
     "url": "https://scholar.google.com/citations?user=_a8sHdMAAAAJ&hl=en"
    }
+  ],
+  "Alloy Das": [
+   {
+    "type": "homepage",
+    "url": "https://alloydas.github.io/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/alloydas"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=JnO0s1AAAAAJ",
+    "label": "Google Scholar"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/alloy-das-a512a916b",
+    "label": "LinkedIn"
+   },
+   {
+    "type": "orcid",
+    "url": "https://orcid.org/0000-0002-4502-4984",
+    "label": "ORCID"
+   },
+   {
+    "type": "cv",
+    "url": "https://alloydas.github.io/cv/",
+    "label": "CV"
+   }
+  ],
+  "Lucas Nerone Rillo": [
+   {
+    "type": "github",
+    "url": "https://github.com/lucasrillo"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/lucas-rillo/",
+    "label": "LinkedIn"
+   }
   ]
+ },
+ "interests": {
+  "Zahid Hasan": "Human-centric AI in Autonomous Systems; Computer Vision & Multimodal Learning; Generative AI-based Multi-agent Workflows; Optimized Finetuning (Speed & Scale) of AI Foundation Models",
+  "Timilehin Ayanlade": "Machine Learning for Multimodal Understanding in Cyber-Agricultural Systems; deployment of ML models in agricultural high-throughput pipelines; robustness, explainability, and trustworthiness of deployed models",
+  "Nitesh Subedi": "Reinforcement learning for robotic manipulation, robot navigation using LLMs and VLMs, and model predictive control (robot learning, autonomous navigation, vision-language models)",
+  "Shreyan Ganguly": "LLM/VLM evaluation, speech + EEG distillation, ag/biomed agents",
+  "Alloy Das": "Computer vision, multi-modal representation learning, and agricultural AI",
+  "Tirtho Roy": "Agentic vision-language systems for cyber-agriculture (M.S. thesis); end-to-end systems spanning agriculture, healthcare, and finance: agriculture, biology & health informatics, optimization & geometry"
  }
 }

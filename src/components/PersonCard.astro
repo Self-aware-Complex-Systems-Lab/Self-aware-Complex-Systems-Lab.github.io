@@ -2,7 +2,7 @@
 import { slug, linkify } from '../lib/site';
 import corrections from '../data/link-corrections.json';
 import web from '../data/people-web-links.json';
-const LABEL: Record<string, string> = { homepage: 'Homepage', scholar: 'Google Scholar', github: 'GitHub', 'faculty-page': 'Faculty page', other: 'Profile' };
+const LABEL: Record<string, string> = { homepage: 'Homepage', scholar: 'Google Scholar', github: 'GitHub', 'faculty-page': 'Faculty page', cv: 'CV', linkedin: 'LinkedIn', x: 'X', orcid: 'ORCID', researchgate: 'ResearchGate', other: 'Profile' };
 interface Person {
   name: string; category: string | null; contactEmailAsListed: string | null;
   lines: string[]; links: { label: string; href: string }[]; photo: string | null; photoManifestId: string | null;
@@ -16,7 +16,8 @@ const hidden = new Set(corrections.hide.filter((h) => h.person === p.name).map((
 const links = p.links.filter((l) => !hidden.has(l.href));
 const norm = (u: string) => u.replace(/^https?:\/\/(www\.|[a-z]{2}\.)?/, '').replace(/[/?#].*hl=en$/, '').replace(/\/$/, '');
 const known = new Set(links.map((l) => norm(l.href)));
-const found = ((web.links as Record<string, { type: string; url: string }[]>)[p.name] ?? []).filter((l) => !known.has(norm(l.url)));
+const found = ((web.links as Record<string, { type: string; url: string; label?: string }[]>)[p.name] ?? []).filter((l) => !known.has(norm(l.url)));
+const interests = (web.interests as Record<string, string>)[p.name];
 ---
 <article id={slug(p.name)} class="person bg-white border border-line rounded-lg overflow-hidden flex flex-col sm:flex-row scroll-mt-6"
   data-name={p.name} data-photo-id={p.photoManifestId}>
@@ -39,11 +40,12 @@ const found = ((web.links as Record<string, { type: string; url: string }[]>)[p.
             <div class="prose-lab mt-2">{long.map((l) => <p set:html={linkify(l)} />)}</div></details>
         : <div class="prose-lab mt-3 text-[0.95rem]">{long.map((l) => <p set:html={linkify(l)} />)}</div>
     )}
+    {interests && <p class="mt-3 text-sm"><span class="font-semibold">Research interests:</span> {interests}</p>}
     {((p.contactEmailAsListed && p.contactEmailAsListed !== 'N/A') || links.length > 0 || found.length > 0) && (
       <p class="mt-3 text-sm flex flex-wrap gap-x-4 gap-y-1">
         {p.contactEmailAsListed && p.contactEmailAsListed !== 'N/A' && <span class="text-muted">{p.contactEmailAsListed}</span>}
         {links.map((l) => <a href={l.href} rel="noopener">{l.label}</a>)}
-        {found.map((l) => <a href={l.url} rel="noopener" data-web-link>{LABEL[l.type] ?? 'Profile'}</a>)}
+        {found.map((l) => <a href={l.url} rel="noopener" data-web-link>{l.type === 'other' && l.label ? l.label : (LABEL[l.type] ?? 'Profile')}</a>)}
       </p>
     )}
   </div>
