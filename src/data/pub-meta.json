@@ -1,0 +1,899 @@
+{
+ "source": "OpenAlex corresponding_author_ids",
+ "collected": "2026-10-03",
+ "byTitle": {
+  "llnetadeepautoencoderapproachtonaturallowlightimageenhancement": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.patcog.2016.06.008"
+  },
+  "machinelearningforhighthroughputstressphenotypinginplants": {
+   "corresponding": [
+    "Arti Singh",
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.1016/j.tplants.2015.10.015"
+  },
+  "deeplearningforplantstressphenotypingtrendsandfutureperspectives": {
+   "corresponding": [
+    "Asheesh Kumar Singh",
+    "Soumik Sarkar",
+    "Arti Singh",
+    "Arti Singh"
+   ],
+   "doi": "10.1016/j.tplants.2018.07.004"
+  },
+  "plantdiseaseidentificationusingexplainable3ddeeplearningonhyperspectralimages": {
+   "corresponding": [
+    "Asheesh K. Singh",
+    "Soumik Sarkar",
+    "Arti Singh",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1186/s13007-019-0479-8"
+  },
+  "challengesandopportunitiesinmachineaugmentedplantstressphenotyping": {
+   "corresponding": [
+    "Arti Singh"
+   ],
+   "doi": "10.1016/j.tplants.2020.07.010"
+  },
+  "cropyieldpredictionintegratinggenotypeandweathervariablesusingdeeplearning": {
+   "corresponding": [
+    "Soumik Sarkar",
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.1371/journal.pone.0252402"
+  },
+  "arealtimephenotypingframeworkusingmachinelearningforplantstressseverityratinginsoybean": {
+   "corresponding": [
+    "Arti Singh",
+    "Asheesh Kumar Singh",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1186/s13007-017-0173-7"
+  },
+  "aweaklysuperviseddeeplearningframeworkforsorghumheaddetectionandcounting": {
+   "corresponding": [
+    "Soumik Sarkar",
+    "Wei Guo"
+   ],
+   "doi": "10.34133/2019/1525874"
+  },
+  "anadaptivespatiotemporalfeaturelearningapproachforfaultdiagnosisincomplexsystems": {
+   "corresponding": [
+    "Chao Liu"
+   ],
+   "doi": "10.1016/j.ymssp.2018.07.048"
+  },
+  "hyperspectralbandselectionusinggeneticalgorithmandsupportvectormachinesforearlyidentificationofcharcoalrotdiseaseinsoybeanstems": {
+   "corresponding": [
+    "Arti Singh",
+    "Arti Singh",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1186/s13007-018-0349-9"
+  },
+  "uasbasedplantphenotypingforresearchandbreedingapplications": {
+   "corresponding": [
+    "Arti Singh",
+    "Asheesh Kumar Singh",
+    "Asheesh Kumar Singh",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.34133/2021/9840192"
+  },
+  "computervisionandmachinelearningenabledsoybeanrootphenotypingpipeline": {
+   "corresponding": [
+    "Arti Singh",
+    "Baskar Ganapathysubramanian",
+    "Asheesh Kumar Singh",
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.1186/s13007-019-0550-5"
+  },
+  "trafficcongestiondetectionfromcameraimagesusingdeepconvolutionneuralnetworks": {
+   "corresponding": [
+    "Pranamesh Chakraborty"
+   ],
+   "doi": "10.1177/0361198118777631"
+  },
+  "machinelearningapproachforprescriptiveplantbreeding": {
+   "corresponding": [
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.1038/s41598-019-53451-4"
+  },
+  "reviewandcomparativeevaluationofsymbolicdynamicfilteringfordetectionofanomalypatterns": {
+   "corresponding": [
+    "Asok Kumar Ray"
+   ],
+   "doi": "10.1007/s11760-008-0061-8"
+  },
+  "computervisionandmachinelearningforrobustphenotypingingenomewidestudies": {
+   "corresponding": [
+    "Arti Singh",
+    "Baskar Ganapathysubramanian",
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.1038/srep44048"
+  },
+  "occupancysensinginbuildingsareviewofdataanalyticsapproaches": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.enbuild.2019.02.030"
+  },
+  "aphysicsinformedfeatureweightingmethodforbearingfaultdiagnostics": {
+   "corresponding": [
+    "Chao Kun Hu"
+   ],
+   "doi": "10.1016/j.ymssp.2023.110171"
+  },
+  "learninglocalizedfeaturesin3dcadmodelsformanufacturabilityanalysisofdrilledholes": {
+   "corresponding": [
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.1016/j.cagd.2018.03.024"
+  },
+  "interpretabledeeplearningforguidedmicrostructurepropertyexplorationsinphotovoltaics": {
+   "corresponding": [
+    "Soumik Sarkar",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1038/s41524-019-0231-y"
+  },
+  "reinforcementlearningappliedtowastewatertreatmentprocesscontroloptimizationapproacheschallengesandpathforward": {
+   "corresponding": [
+    "Henry C. Croll"
+   ],
+   "doi": "10.1080/10643389.2023.2183699"
+  },
+  "soybeanrootsystemarchitecturetraitstudythroughgenotypicphenotypicandshapebasedclusters": {
+   "corresponding": [
+    "Arti Singh",
+    "Baskar Ganapathysubramanian",
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.34133/2020/1925495"
+  },
+  "algorithmicallyconsistentdeeplearningframeworksforstructuraltopologyoptimization": {
+   "corresponding": [
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.1016/j.engappai.2021.104483"
+  },
+  "systematicperformanceevaluationofreinforcementlearningalgorithmsappliedtowastewatertreatmentcontroloptimization": {
+   "corresponding": [
+    "Henry C. Croll"
+   ],
+   "doi": "10.1021/acs.est.3c00353"
+  },
+  "automateddetectionofpartqualityduringtwophotonlithographyviadeeplearning": {
+   "corresponding": [
+    "Brian Giera"
+   ],
+   "doi": "10.1016/j.addma.2020.101444"
+  },
+  "fastinversedesignofmicrostructuresviagenerativeinvariancenetworks": {
+   "corresponding": [
+    "Baskar Ganapathysubramanian",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1038/s43588-021-00045-8"
+  },
+  "agraphpolicynetworkapproachforvoltvarcontrolinpowerdistributionsystems": {
+   "corresponding": [
+    "Yübo Wang"
+   ],
+   "doi": "10.1016/j.apenergy.2022.119530"
+  },
+  "multimodalsensorfusionframeworkforresidentialbuildingoccupancydetection": {
+   "corresponding": [
+    "Sin Yong Tan"
+   ],
+   "doi": "10.1016/j.enbuild.2021.111828"
+  },
+  "multisensorandmultitemporalhighthroughputphenotypingformonitoringandearlydetectionofwaterlimitingstressinsoybean": {
+   "corresponding": [
+    "Arti Singh",
+    "Arti Singh",
+    "Soumik Sarkar",
+    "Asheesh K. Singh"
+   ],
+   "doi": "10.1002/ppj2.70009"
+  },
+  "latentdiffusionmodelsforstructuralcomponentdesign": {
+   "corresponding": [
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.1016/j.cad.2024.103707"
+  },
+  "unifiedcontrolofdiverseactionsinawastewatertreatmentactivatedsludgesystemusingreinforcementlearningformultiobjectiveoptimization": {
+   "corresponding": [
+    "Henry C. Croll"
+   ],
+   "doi": "10.1016/j.watres.2024.122179"
+  },
+  "deeplearningbased3dmultigridtopologyoptimizationofmanufacturabledesigns": {
+   "corresponding": [
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.1016/j.engappai.2023.107033"
+  },
+  "genomicandphenomicpredictionforsoybeanseedyieldproteinandoil": {
+   "corresponding": [
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.1101/2024.11.01.621550"
+  },
+  "benchmarkingscientificmachinelearningapproachesforflowpredictionaroundcomplexgeometries": {
+   "corresponding": [
+    "Adarsh Krishnamurthy",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1038/s44172-025-00513-3"
+  },
+  "deeplearningforflowsculptinginsightsintoefficientlearningusingscientificsimulationdata": {
+   "corresponding": [
+    "Soumik Sarkar",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1038/srep46368"
+  },
+  "multivariateexplorationofnonintrusiveloadmonitoringviaspatiotemporalpatternnetwork": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.apenergy.2017.12.026"
+  },
+  "adeeplearningframeworkfordesignandanalysisofsurgicalbioprostheticheartvalves": {
+   "corresponding": [
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.1038/s41598-019-54707-9"
+  },
+  "linkedreadtechnologyforassemblinglargecomplexandpolyploidgenomes": {
+   "corresponding": [
+    "Patrick S. Schnable"
+   ],
+   "doi": "10.1186/s12864-018-5040-z"
+  },
+  "predictingcountyscalemaizeyieldswithpubliclyavailabledata": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1038/s41598-020-71898-8"
+  },
+  "anovelmultirobotsystemforplantphenotyping": {
+   "corresponding": [
+    "Sourabh Bhattacharya"
+   ],
+   "doi": "10.3390/robotics7040061"
+  },
+  "faulttolerantoptimalcontrolofabuildinghvacsystem": {
+   "corresponding": [
+    "Sorin C. Bengea"
+   ],
+   "doi": "10.1080/23744731.2015.1057085"
+  },
+  "bridgedamagedetectionusingspatiotemporalpatternsextractedfromdensesensornetwork": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1088/1361-6501/28/1/014011"
+  },
+  "highthroughputphenotypinginsoybean": {
+   "corresponding": [
+    "Arti Singh",
+    "Arti Singh",
+    "Arti Singh"
+   ],
+   "doi": "10.1007/978-3-030-73734-4_7"
+  },
+  "usingmachinelearningtodevelopafullyautomatedsoybeannoduleacquisitionpipelinesnap": {
+   "corresponding": [
+    "Arti Singh",
+    "Baskar Ganapathysubramanian",
+    "Asheesh Kumar Singh",
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.1101/2020.10.12.336156"
+  },
+  "howusefulisactivelearningforimagebasedplantphenotyping": {
+   "corresponding": [
+    "Soumik Sarkar",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1002/ppj2.20020"
+  },
+  "automatedtrichomecountinginsoybeanusingadvancedimageprocessingtechniques": {
+   "corresponding": [
+    "Arti Singh"
+   ],
+   "doi": "10.1002/aps3.11375"
+  },
+  "deeplearningbasedphenotypingforgenomewideassociationstudiesofsuddendeathsyndromeinsoybean": {
+   "corresponding": [
+    "Asheesh Kumar Singh",
+    "Soumik Sarkar",
+    "Arti Singh",
+    "Arti Singh"
+   ],
+   "doi": "10.3389/fpls.2022.966244"
+  },
+  "anunsupervisedanomalydetectionapproachusingenergybasedspatiotemporalgraphicalmodeling": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1080/23335777.2017.1386717"
+  },
+  "3dconvolutionalselectiveautoencoderforinstabilitydetectionincombustionsystems": {
+   "corresponding": [
+    "Soumalya Sarkar",
+    "Soumik Sarkar",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.egyai.2021.100067"
+  },
+  "robustdeepreinforcementlearningfortrafficsignalcontrol": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1007/s42421-020-00029-6"
+  },
+  "deeplearningforlivecellshapedetectionandautomatedafmnavigation": {
+   "corresponding": [
+    "Anwesha Sarkar"
+   ],
+   "doi": "10.3390/bioengineering9100522"
+  },
+  "fewshotdeeplearningforafmforcecurvecharacterizationofsinglemoleculeinteractions": {
+   "corresponding": [
+    "Anwesha Sarkar"
+   ],
+   "doi": "10.1016/j.patter.2022.100672"
+  },
+  "plantphenotypingwithlimitedannotationdoingmorewithless": {
+   "corresponding": [
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1002/ppj2.20051"
+  },
+  "rootcauseanalysisfortimeseriesanomaliesviaspatiotemporalgraphicalmodelingindistributedcomplexsystems": {
+   "corresponding": [
+    "Chao Liu"
+   ],
+   "doi": "10.1016/j.knosys.2020.106527"
+  },
+  "canopyfingerprintsforcharacterizingthreedimensionalpointclouddataofsoybeancanopies": {
+   "corresponding": [
+    "Asheesh Kumar Singh",
+    "Asheesh Kumar Singh",
+    "Arti Singh",
+    "Arti Singh",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.3389/fpls.2023.1141153"
+  },
+  "energypredictionusingspatiotemporalpatternnetworks": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.apenergy.2017.08.225"
+  },
+  "firsttrimesterpredictionofpretermbirthinpatientplasmawithmachinelearningguidedramanspectroscopyandmetabolomics": {
+   "corresponding": [
+    "Rizia Bardhan"
+   ],
+   "doi": "10.1021/acsami.3c04260"
+  },
+  "selfsupervisedlearningimprovesclassificationofagriculturallyimportantinsectpestsinplants": {
+   "corresponding": [
+    "Asheesh Kumar Singh",
+    "Arti Singh",
+    "Arti Singh"
+   ],
+   "doi": "10.1002/ppj2.20079"
+  },
+  "3dreconstructionofplantsusingprobabilisticvoxelcarving": {
+   "corresponding": [
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.2139/ssrn.4436133"
+  },
+  "neufenetneuralfiniteelementsolutionswiththeoreticalboundsforparametricpdes": {
+   "corresponding": [
+    "Adarsh Krishnamurthy",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1007/s00366-024-01955-7"
+  },
+  "predictingtheonsetofpreeclampsiabylongitudinalmonitoringofmetabolicchangesthroughoutpregnancywithramanspectroscopy": {
+   "corresponding": [
+    "Rizia Bardhan"
+   ],
+   "doi": "10.1002/btm2.10595"
+  },
+  "apythagoreanfuzzyapproachtoevaluatethechallengestoimplementingcirculareconomyintheglassmanufacturingindustryimplicationsforsustainabledevelopment": {
+   "corresponding": [
+    "A.B.M. Mainul Bari"
+   ],
+   "doi": "10.1016/j.rineng.2024.102911"
+  },
+  "metabolicresponsetosmallmoleculetherapyincolorectalcancertrackedwithramanspectroscopyandmetabolomics": {
+   "corresponding": [
+    "Rizia Bardhan"
+   ],
+   "doi": "10.1002/ange.202410919"
+  },
+  "plotlevelsatelliteimagerycansubstituteforuavsinassessingmaizephenotypesacrossmultistatefieldtrials": {
+   "corresponding": [
+    "James C. Schnable",
+    "Baskar Ganapathysubramanian",
+    "Patrick S. Schnable"
+   ],
+   "doi": "10.1002/ppp3.10613"
+  },
+  "diagnosisofpregnancydisorderinthefirsttrimesterpatientplasmawithramanspectroscopyandproteinanalysis": {
+   "corresponding": [
+    "Rizia Bardhan"
+   ],
+   "doi": "10.1002/btm2.10691"
+  },
+  "digitaltwinsfortheplantsciences": {
+   "corresponding": [
+    "Baskar Ganapathysubramanian",
+    "Soumik Sarkar",
+    "Arti Singh",
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.1016/j.tplants.2024.12.013"
+  },
+  "persistentmonitoringofinsectpestsonstickytrapsthroughhierarchicaltransferlearningandslicingaidedhyperinference": {
+   "corresponding": [
+    "Asheesh K. Singh",
+    "Arti Singh",
+    "Arti Singh",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.3389/fpls.2024.1484587"
+  },
+  "multimodalaiforultraprecisionagriculture": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1007/978-981-97-7762-4_13"
+  },
+  "robustsoybeanseedyieldestimationusinghighthroughputgroundrobotvideos": {
+   "corresponding": [
+    "Arti Singh",
+    "Arti Singh",
+    "Soumik Sarkar",
+    "Asheesh Kumar Singh",
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.3389/fpls.2025.1554193"
+  },
+  "3dmultiphaseheterogeneousmicrostructuregenerationusingconditionallatentdiffusionmodels": {
+   "corresponding": [
+    "Adarsh Krishnamurthy",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1039/d5dd00159e"
+  },
+  "astudyofnaturalrobustnessofdeepreinforcementlearningalgorithmstowardsadversarialperturbations": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.aiopen.2024.08.005"
+  },
+  "multisensorinformationfusionforfaultdetectioninaircraftgasturbineengines": {
+   "corresponding": [
+    "Asok Kumar Ray"
+   ],
+   "doi": "10.1177/0954410012468391"
+  },
+  "deeplearningforautomatedocclusionedgedetectioninrgbdframes": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1007/s11265-016-1209-3"
+  },
+  "pirm2018challengeonspectralimagesuperresolutionmethodsandresults": {
+   "corresponding": [
+    "Mehrdad Shoeiby"
+   ],
+   "doi": "10.1007/978-3-030-11021-5_22"
+  },
+  "deployingfouriercoefficientstounravelsoybeancanopydiversity": {
+   "corresponding": [
+    "Arti Singh",
+    "Arti Singh",
+    "Asheesh Kumar Singh",
+    "Asheesh Kumar Singh",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.3389/fpls.2016.02066"
+  },
+  "generalizationofhilberttransformforsymbolicanalysisofnoisysignals": {
+   "corresponding": [
+    "Asok Kumar Ray"
+   ],
+   "doi": "10.1016/j.sigpro.2008.12.009"
+  },
+  "adeeplearningframeworkforcausalshapetransformation": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.neunet.2017.12.003"
+  },
+  "deeplearningalgorithmsfordetectingcombustioninstabilities": {
+   "corresponding": [
+    "Tryambak Gangopadhyay"
+   ],
+   "doi": "10.1007/978-981-15-0536-2_13"
+  },
+  "acompositediscretizationschemeforsymbolicidentificationofcomplexsystems": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.sigpro.2016.01.018"
+  },
+  "multifidelitymachinelearningmodelsforstructurepropertymappingoforganicelectronics": {
+   "corresponding": [
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1016/j.commatsci.2022.111599"
+  },
+  "distributeddecisionpropagationinmobileagentproximitynetworks": {
+   "corresponding": [
+    "Asok Kumar Ray"
+   ],
+   "doi": "10.1080/00207179.2013.782511"
+  },
+  "apassivitybasedpowershapingcontrolofbuildinghvacsystems": {
+   "corresponding": [
+    "Venkatesh Chinde",
+    "Krishna Chaitanya Kosaraju",
+    "Atul G. Kelkar",
+    "Ramkrishna Pasumarthy",
+    "Soumik Sarkar",
+    "N. M. Singh"
+   ],
+   "doi": "10.1115/1.4036885"
+  },
+  "interpretabledeeplearningformonitoringcombustioninstability": {
+   "corresponding": [
+    "Tryambak Gangopadhyay",
+    "Sin Yong Tan",
+    "Anthony C. LoCurto",
+    "James  B. Michael",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.ifacol.2020.12.839"
+  },
+  "deepreinforcementlearningforroboticcontrolwithmultifidelitymodels": {
+   "corresponding": [
+    "David Felipe Leguizamo",
+    "Hsin-Jung Yang",
+    "Xian Yeow Lee",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.ifacol.2022.11.183"
+  },
+  "aiguidedmeasurementoflivecellsusingafm": {
+   "corresponding": [
+    "Anwesha Sarkar"
+   ],
+   "doi": "10.1016/j.ifacol.2021.11.193"
+  },
+  "dominatingsetmodelaggregationforcommunicationefficientdecentralizeddeeplearning": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.2139/ssrn.4431899"
+  },
+  "communityperceptiontowardstourismdevelopmentintheindiansundarbanscasestudyofjharkhaliisland": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.17577/ijertv8is120278"
+  },
+  "pathplanningingpsdeniedenvironmentsviacollectiveintelligenceofdistributedsensornetworks": {
+   "corresponding": [
+    "Asok Kumar Ray"
+   ],
+   "doi": "10.1080/00207179.2015.1110754"
+  },
+  "trafficdynamicsexplorationandincidentdetectionusingspatiotemporalgraphicalmodeling": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1007/s42421-019-00003-x"
+  },
+  "physicsawaremachinelearningsurrogatesforrealtimemanufacturingdigitaltwin": {
+   "corresponding": [
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.1016/j.mfglet.2022.08.013"
+  },
+  "anlstmbasedapproachtodetecttransitiontoleanblowoutinswirlstabilizeddumpcombustionsystems": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.egyai.2023.100334"
+  },
+  "amodularvisionlanguagenavigationandmanipulationframeworkforlonghorizoncompositionaltasksinindoorenvironment": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.3389/frobt.2022.930486"
+  },
+  "segmentationofnaturalimagesbasedonsuperpixelandgraphmerging": {
+   "corresponding": [
+    "Sanjoy Kumar Saha"
+   ],
+   "doi": "10.1049/cvi2.12008"
+  },
+  "onconsensusoptimalitytradeoffsincollaborativedeeplearning": {
+   "corresponding": [
+    "Zhanhong Jiang"
+   ],
+   "doi": "10.3389/frai.2021.573731"
+  },
+  "neuralpdesolversforirregulardomains": {
+   "corresponding": [
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.2139/ssrn.4421567"
+  },
+  "aframeworkforpredictingplacementofagraduateusingmachinelearningtechniques": {
+   "corresponding": [
+    "Amrut Ranjan Jena"
+   ],
+   "doi": "10.1007/978-981-16-4301-9_15"
+  },
+  "reinforcementlearningoptimizationofawaterresourcerecoveryfacilityevaluatingtheimpactofrewardfunctiondesignonagenttrainingcontroloptimizationandtreatmentrisk": {
+   "corresponding": [
+    "Henry C. Croll"
+   ],
+   "doi": "10.1016/j.jwpe.2024.106658"
+  },
+  "afastsaddlepointdynamicalsystemapproachtorobustdeeplearning": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.neunet.2021.02.021"
+  },
+  "grangercausalitybasedhierarchicaltimeseriesclusteringforstateestimation": {
+   "corresponding": [
+    "Sin Yong Tan",
+    "Homagni Saha",
+    "Margarite Jacoby",
+    "Gregor P. Henze",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.ifacol.2020.12.324"
+  },
+  "statisticalestimationofmultipleparametersviasymbolicdynamicfiltering": {
+   "corresponding": [
+    "Asok Kumar Ray"
+   ],
+   "doi": "10.1016/j.sigpro.2008.11.018"
+  },
+  "multiresolution3dcnnforlearningmultiscalespatialfeaturesincadmodels": {
+   "corresponding": [
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.1016/j.cagd.2021.102038"
+  },
+  "generativesemanticdomainadaptationforperceptioninautonomousdriving": {
+   "corresponding": [
+    "Amitangshu Mukherjee"
+   ],
+   "doi": "10.1007/s42421-022-00057-4"
+  },
+  "digitalassistancesinremoteoperationsforitertestblanketsystemreplacementanexperimentalvalidation": {
+   "corresponding": [
+    "Olivier David"
+   ],
+   "doi": "10.1016/j.fusengdes.2023.113425"
+  },
+  "assessingphenotypicdiversityandsensorbasedmetricsfordroughtresponseinsoybean": {
+   "corresponding": [
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.1002/csc2.70098"
+  },
+  "transformermodeltodeterminespatiotemporalrelationshipsofvariablesandinterpretabilityforsoybeanseedyieldoilandproteinprediction": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.3389/frai.2026.1750108"
+  },
+  "hierarchicalsymbolicdynamicfilteringofstreamingnonstationarytimeseriesdata": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.sigpro.2018.04.025"
+  },
+  "interpretabledeepattentionmodelformultivariatetimeseriespredictioninbuildingenergysystems": {
+   "corresponding": [
+    "Tryambak Gangopadhyay"
+   ],
+   "doi": "10.1007/978-3-030-61725-7_13"
+  },
+  "thestochasticaugmentedlagrangianmethodfordomainadaptation": {
+   "corresponding": [
+    "Chao Liu"
+   ],
+   "doi": "10.1016/j.knosys.2021.107593"
+  },
+  "eventtriggereddecisionpropagationinproximitynetworks": {
+   "corresponding": [
+    "Kushal Mukherjee"
+   ],
+   "doi": "10.3389/frobt.2014.00015"
+  },
+  "generalisedgossipbasedsubgradientmethodfordistributedoptimisation": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1080/00207179.2017.1387288"
+  },
+  "ahighfidelityresidentialbuildingoccupancydetectiondataset": {
+   "corresponding": [
+    "Margarite Jacoby"
+   ],
+   "doi": "10.1038/s41597-021-01055-x"
+  },
+  "twophotonlithographyadditivemanufacturingvideodatasetofparametersweepoflightdosagesphotocurableresinsandstructures": {
+   "corresponding": [
+    "Brian Giera"
+   ],
+   "doi": "10.1016/j.dib.2020.106119"
+  },
+  "selfsupervisedagriculturalinsectpestclassification": {
+   "corresponding": [
+    "Soumyashree Kar"
+   ],
+   "doi": "10.1002/essoar.10508841.2"
+  },
+  "anovelmultirobotsystemfordistributedphenotyping": {
+   "corresponding": [
+    "Sourabh Bhattacharya"
+   ],
+   "doi": "10.20944/preprints201807.0614.v1"
+  },
+  "acomprehensivestudyonsoybeanyieldpredictionusingsoilandhyperspectralreflectancedata": {
+   "corresponding": [
+    "Asheesh Kumar Singh",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.20944/preprints202310.1232.v2"
+  },
+  "treecompositionmappingandenvironmentalroleofsmallnaturalareasindenseurbansettingcasestudyofjadavpuruniversitycampusinindia": {
+   "corresponding": [
+    "Suchandra Bardhan"
+   ],
+   "doi": "10.36808/if/2019/v145i3/144454"
+  },
+  "susrurireflections": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.31274/3d9ea6a4.29d4d6d9"
+  },
+  "47plantphenomicsandartificialintelligencetogleaninformationfromplantsensingtechnologies": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1093/jas/skac064.022"
+  },
+  "fewshotdeeplearningforafmcharacterizationofsinglemoleculeinteractions": {
+   "corresponding": [
+    "Anwesha Sarkar"
+   ],
+   "doi": "10.2139/ssrn.4152104"
+  },
+  "nappnannualconferenceabstractgenomewideassociationstudyofsuddendeathsyndromeinsoybeanusingdeeplearningbasedphenotyping": {
+   "corresponding": [
+    "Ashlyn M. Rairdin"
+   ],
+   "doi": "10.22541/au.166497104.42473667/v1"
+  },
+  "virtualsimulatorfortheiteragilerobottransporterwithaninversekinematicalgorithmconsideringjointlimitsandcollisionavoidance": {
+   "corresponding": [
+    "Chang-Hwan Choi"
+   ],
+   "doi": "10.2139/ssrn.4909876"
+  },
+  "classifyingcognitivedeclineinolderdriversfrombehavioronadverseroadsdetectedusingcomputervision": {
+   "corresponding": [
+    "Shauna L. Hallmark"
+   ],
+   "doi": "10.4236/jtts.2025.151008"
+  },
+  "sewingthefutureofcottonamultiomicsstudycombiningnanomechanicstranscriptomicsandphenotypictraits": {
+   "corresponding": [
+    "Anwesha Sarkar"
+   ],
+   "doi": "10.1101/2025.05.12.653486"
+  },
+  "decafdecentralizedconsensusandfactorizationforlowrankadaptationoffoundationmodels": {
+   "corresponding": [
+    "Nastaran Saadati"
+   ],
+   "doi": "10.1016/j.neunet.2026.108992"
+  },
+  "automatedseizuredetectioninanimaleegsignals": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1101/2025.11.04.686618"
+  },
+  "incontextadaptationofvlmsforfewshotcelldetectioninopticalmicroscopy": {
+   "corresponding": [
+    "Anwesha Sarkar",
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.3389/frai.2026.1761903"
+  },
+  "aggymanagriculturalbioticstresssimulationenvironmentforultraprecisionmanagementplanning": {
+   "corresponding": [
+    "Arti Singh",
+    "Arti Singh",
+    "Asheesh Kumar Singh",
+    "Asheesh Kumar Singh",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.compag.2026.111479"
+  },
+  "neural3dreconstructionandimmersivevrvisualizationofrowcropsacrossphenologicalgrowthstages": {
+   "corresponding": [
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.1016/j.atech.2026.102024"
+  },
+  "sewingthefutureofcottonanintegratedomicsstudycombiningnanomechanicstranscriptomicsandphenotypictraits": {
+   "corresponding": [
+    "Soumik Sarkar",
+    "Anwesha Sarkar"
+   ],
+   "doi": "10.1016/j.cpb.2026.100626"
+  },
+  "drivingasascreeningaidscenariobasedcognitiveassessmentinolderdriversfromdrivingvideo": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.ait.2026.100067"
+  },
+  "deeplearninganddynamicmodedecompositionforcharacterizingcombustioninstability": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1007/978-3-031-88574-7_12"
+  },
+  "soybeanvarietydevelopmentusingaerialimageryandmachinelearningenabledphenomicassistedselection": {
+   "corresponding": [
+    "Arti Singh",
+    "Arti Singh",
+    "Asheesh K. Singh",
+    "Asheesh K. Singh"
+   ],
+   "doi": "10.1002/csc2.70341"
+  },
+  "weednetafoundationmodelbasedglobaltolocalaiapproachforweedspeciesidentificationandclassification": {
+   "corresponding": [
+    "Asheesh Kumar Singh",
+    "Asheesh Kumar Singh",
+    "Soumik Sarkar",
+    "Arti Singh",
+    "Arti Singh"
+   ],
+   "doi": "10.1038/s41467-026-78044-4"
+  }
+ }
+}

@@ -86,6 +86,31 @@ def crossref_items():
     return out
 
 
+def refresh_metadata():
+    """Citation metrics + corresponding authors for the vita (src/data/scholar-metrics.json, src/data/pub-meta.json)."""
+    authors = get_json(f"https://api.openalex.org/authors?filter=orcid:{ORCID}&per-page=25")["results"]
+    main_author = max(authors, key=lambda a: a.get("works_count", 0))
+    st = main_author.get("summary_stats") or {}
+    (D / "scholar-metrics.json").write_text(json.dumps({
+        "source": "OpenAlex", "author": main_author["id"], "collected": dt.date.today().isoformat(),
+        "citations": main_author.get("cited_by_count"), "hIndex": st.get("h_index"), "i10Index": st.get("i10_index"),
+        "works": main_author.get("works_count")}, indent=1) + "\n")
+    meta, cursor = {}, "*"
+    while cursor:
+        d = get_json(f"https://api.openalex.org/works?filter=authorships.author.orcid:{ORCID}&per-page=200&cursor={cursor}"
+                     "&select=id,title,doi,authorships,corresponding_author_ids,publication_year")
+        for w in d["results"]:
+            if not w.get("title"): continue
+            ids = set(w.get("corresponding_author_ids") or [])
+            corr = [a["author"]["display_name"] for a in w.get("authorships", []) if a["author"]["id"] in ids or a.get("is_corresponding")]
+            if corr:
+                meta[norm(w["title"]).replace(" ", "")] = {"corresponding": corr, "doi": (w.get("doi") or "").replace("https://doi.org/", "") or None}
+        cursor = d["meta"].get("next_cursor") if d["results"] else None
+    (D / "pub-meta.json").write_text(json.dumps({"source": "OpenAlex corresponding_author_ids", "collected": dt.date.today().isoformat(),
+                                                  "byTitle": meta}, indent=1, ensure_ascii=False) + "\n")
+    return f"metrics + corresponding authors for {len(meta)} works"
+
+
 def main():
     archived = json.loads((D / "publications.json").read_text())
     added_path = D / "publications-added.json"
@@ -125,6 +150,10 @@ def main():
     # Re-key-sensitive derived data: duplicates and per-person lists
     for script in ("migration/scripts/dedupe_pubs.py", "migration/scripts/person_pubs.py"):
         subprocess.run([sys.executable, str(ROOT / script)], check=True, capture_output=True)
+    try:
+        report["metadata"] = refresh_metadata()
+    except Exception as e:
+        report["metadata"] = f"failed: {e!r}"
     print(json.dumps(report))
     for p in new:
         print(f"+ [{p['category']}] {p.get('year')} {p['title'][:100]}")

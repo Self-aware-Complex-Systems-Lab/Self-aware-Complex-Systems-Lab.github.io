@@ -1,5 +1,5 @@
 ---
-import { slug, linkify } from '../lib/site';
+import { slug, linkify, redirectHref } from '../lib/site';
 import corrections from '../data/link-corrections.json';
 import web from '../data/people-web-links.json';
 import profiles from '../data/people-profiles.json';
@@ -36,7 +36,7 @@ const interests = pr?.researchInterests ?? webMeta.interests[p.name] ?? null;
 const hidden = new Set(corrections.hide.filter((h) => h.person === p.name).map((h) => h.href));
 const relabel = new Map(((corrections as { relabel?: { person: string; label: string; newLabel: string }[] }).relabel ?? [])
   .filter((r) => r.person === p.name).map((r) => [r.label, r.newLabel]));
-const links = p.links.filter((l) => !hidden.has(l.href)).map((l) => ({ ...l, label: relabel.get(l.label) ?? l.label }));
+const links = p.links.filter((l) => !hidden.has(l.href)).map((l) => ({ ...l, href: redirectHref(l.href), label: relabel.get(l.label) ?? l.label }));
 const norm = (u: string) => u.replace(/^https?:\/\/(www\.|[a-z]{2}\.)?/, '').replace(/[/?#].*hl=en$/, '').replace(/\/$/, '');
 const known = new Set(links.map((l) => norm(l.href)));
 const found = (webMeta.links[p.name] ?? []).filter((l) => !known.has(norm(l.url)));

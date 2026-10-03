@@ -38,6 +38,11 @@ export const linkify = (t: string) =>
     .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;')
     .replace(/(https?:\/\/[^\s,)]+[^\s,).])/g, '<a href="$1" rel="noopener">$1</a>');
 
+import corrections from '../data/link-corrections.json' with { type: 'json' };
+/** Old link targets that now point somewhere better (e.g. the Drive CV -> the auto-updated vita). */
+export const redirectHref = (href: string) =>
+  ((corrections as { redirect?: { from: string; to: string }[] }).redirect ?? []).find((r) => r.from === href)?.to ?? href;
+
 const esc = (t: string) => t.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
 /** Render archived text with its original hyperlinks re-attached to the original anchor text. */
@@ -47,7 +52,7 @@ export function withLinks(text: string, links: { href: string; text: string }[] 
   for (const l of links) {
     if (!l.text || used.has(l.text) || l.href.includes('sites.google.com/view/scslab-isu/principal-investigator#')) continue;
     used.add(l.text);
-    html = html.replace(esc(l.text), `<a href="${l.href}" rel="noopener">${esc(l.text)}</a>`);
+    html = html.replace(esc(l.text), `<a href="${redirectHref(l.href)}" rel="noopener">${esc(l.text)}</a>`);
   }
   return links.length ? html : linkify(text);
 }

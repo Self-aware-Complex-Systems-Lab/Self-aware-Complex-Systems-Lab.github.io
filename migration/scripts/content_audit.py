@@ -43,6 +43,7 @@ def page_text(path):
 def main():
     corrections = json.loads((ROOT / "src/data/link-corrections.json").read_text())["hide"]
     hidden = {h["href"] for h in corrections}
+    hidden |= {r["from"] for r in json.loads((ROOT / "src/data/link-corrections.json").read_text()).get("redirect", [])}  # intentionally redirected
     site = {p: page_text(p) for ps in MAP.values() for p in ps}
     all_text = " ".join(t for _, t in site.values())
     all_hrefs = {a["href"] for s, _ in site.values() for a in s.find_all("a", href=True)}

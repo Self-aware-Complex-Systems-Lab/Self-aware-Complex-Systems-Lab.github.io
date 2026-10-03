@@ -34,5 +34,12 @@
    "newLabel": "Google Scholar",
    "reason": "The original 'LinkedIn' link points to his Google Scholar profile."
   }
+ ],
+ "redirect": [
+  {
+   "from": "https://drive.google.com/file/d/1XF7n5DnlxqGOor1XoZZhnwiol-jekpyc/view",
+   "to": "/cv/Soumik_Sarkar_CV.pdf",
+   "reason": "Old 2023 CV on Google Drive; the website now generates an always-current Faculty Vita."
+  }
  ]
 }
