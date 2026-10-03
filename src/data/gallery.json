@@ -1,0 +1,380 @@
+[
+ {
+  "src": "/assets/gallery/lab-group-photo-storefront.jpg",
+  "size": [
+   1280,
+   693
+  ],
+  "caption": "Lab group photo",
+  "date": null,
+  "category": "Lab life",
+  "link": null,
+  "credit": "SCSLab",
+  "alt": "Lab group photo (home page header image)",
+  "source": "original site"
+ },
+ {
+  "src": "/assets/gallery/lab-group-photo-outdoor-sculpture.jpg",
+  "size": [
+   6000,
+   4000
+  ],
+  "caption": "Lab group photo outdoors",
+  "date": null,
+  "category": "Lab life",
+  "link": null,
+  "credit": "SCSLab",
+  "alt": "Lab group photo outdoors (home page section background)",
+  "source": "original site"
+ },
+ {
+  "src": "/assets/gallery/lab-celebration.jpg",
+  "size": [
+   1100,
+   681
+  ],
+  "caption": "Lab members celebrating with a cake",
+  "date": null,
+  "category": "Lab life",
+  "link": null,
+  "credit": "SCSLab",
+  "alt": "Lab members celebrating with a cake (home page section background)",
+  "source": "original site"
+ },
+ {
+  "src": "/assets/gallery/lab-group-photo-indoor.jpg",
+  "size": [
+   1066,
+   800
+  ],
+  "caption": "Lab group photo indoors",
+  "date": null,
+  "category": "Lab life",
+  "link": null,
+  "credit": "SCSLab",
+  "alt": "Lab group photo indoors (home page section background)",
+  "source": "original site"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7470572643738644480-2.jpg",
+  "size": [
+   480,
+   360
+  ],
+  "caption": "Summer AI+X researchers at Iowa State University, posing on the Iowa State University sign with the Campanile behind them.",
+  "date": "June 2026",
+  "category": "Outreach",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7470572643738644480/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Eleven young people standing on the curved Iowa State University stone sign, with the Campanile clock tower and trees behind.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7470572643738644480-3.jpg",
+  "size": [
+   480,
+   365
+  ],
+  "caption": "Summer AI+X researchers at Iowa State University, shared with wishes for their summer research accomplishments.",
+  "date": "June 2026",
+  "category": "Outreach",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7470572643738644480/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Group of thirteen people seated on wide indoor stairs in a modern building.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7468805740057546752-2.jpg",
+  "size": [
+   480,
+   360
+  ],
+  "caption": "Presenting recent work on agentic visual reasoning for agriculture at the Vision for Agriculture workshop at CVPR 2026; the slide shows the SAGE image and symptoms dataset.",
+  "date": "June 2026",
+  "category": "Talks & keynotes",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7468805740057546752/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Speaker at a podium beside a projected slide titled \"SAGE: image + symptoms Dataset\".",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7468805740057546752-3.jpg",
+  "size": [
+   480,
+   480
+  ],
+  "caption": "Panel at CVPR 2026; the post names fellow panelists Gary Bradski, Jason Corso, Girish Chowdhary and Shenlong Wang.",
+  "date": "June 2026",
+  "category": "Talks & keynotes",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7468805740057546752/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Five panelists seated at a long table with microphones in a conference room.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7468805740057546752-4.jpg",
+  "size": [
+   480,
+   640
+  ],
+  "caption": "Tirtho Roy presented his first poster at a major venue, CVPR 2026 in Denver, Colorado; the poster is on SAGE, scalable agentic grounded evaluation for crop disease diagnosis.",
+  "date": "June 2026",
+  "category": "Conferences & events",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7468805740057546752/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Two smiling men wearing conference badges in front of an Iowa State University research poster at CVPR.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7408252358117208064-2.jpg",
+  "size": [
+   480,
+   639
+  ],
+  "caption": "Hooding of new PhDs Dr. Ashutosh Nirala and Dr. Ibne Farabi Shihab at Iowa State University commencement.",
+  "date": "December 2025",
+  "category": "Awards",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7408252358117208064/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Two new doctoral graduates in cardinal Iowa State gowns standing with their advisor in blue academic regalia in an arena.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7355845271928410113-2.jpg",
+  "size": [
+   1280,
+   960
+  ],
+  "caption": "Group photo shared with thanks to Chris Cournoyer for her support and encouragement.",
+  "date": "July 2025",
+  "category": "Outreach",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7355845271928410113/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Large group of about twenty-five students and staff posing in an ornate room with wood-paneled doors and green walls.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7283127246301642752-2.jpg",
+  "size": [
+   1280,
+   960
+  ],
+  "caption": "Provost Jason Keith visits the Translational AI Center (TrAC) at Iowa State University to share his vision for AI research and education.",
+  "date": "January 2025",
+  "category": "Conferences & events",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7283127246301642752/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Six people standing in front of a projection screen showing the Translational AI Center logo.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7282848798924546048-2.jpg",
+  "size": [
+   480,
+   640
+  ],
+  "caption": "A field robot in corn plots, shared with a post about a new data resource for the Ag-AI community.",
+  "date": "January 2025",
+  "category": "Field work & robots",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7282848798924546048/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Woman smiling in a cornfield next to a wheeled field robot carrying a sensor box, with people under a tent behind.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7249661450137321472-2.jpg",
+  "size": [
+   480,
+   640
+  ],
+  "caption": "Opening of the Sixth International Workshop on Machine Learning for Cyber-Agricultural Systems (MLCAS 2024) at the Nebraska Innovation Campus Conference Center.",
+  "date": "October 2024",
+  "category": "Talks & keynotes",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7249661450137321472/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Speaker at a podium beneath a large screen titled \"Sixth International Workshop on Machine Learning for Cyber-Agricultural Systems (MLCAS2024)\" with sponsor logos.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7249661450137321472-3.jpg",
+  "size": [
+   480,
+   360
+  ],
+  "caption": "MLCAS 2024 drew more than 150 attendees, six invited speakers and 30+ contributed talks and posters.",
+  "date": "October 2024",
+  "category": "Conferences & events",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7249661450137321472/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Wide view of a full conference hall with attendees at round tables facing a presenter and twin screens.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7249661450137321472-4.jpg",
+  "size": [
+   480,
+   640
+  ],
+  "caption": "A talk at MLCAS 2024 on the Ag-ML competition for corn yield prediction from satellite data, which drew 66 teams from 15 countries.",
+  "date": "October 2024",
+  "category": "Talks & keynotes",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7249661450137321472/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Speaker with a microphone below a slide showing a world map of competition participants.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7249661450137321472-6.jpg",
+  "size": [
+   480,
+   360
+  ],
+  "caption": "Panel discussion \"Translating AI-Ag Research into Practice\" at MLCAS 2024.",
+  "date": "October 2024",
+  "category": "Conferences & events",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7249661450137321472/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Panelists seated at the front of a hall below a projected slide listing panel members with photos.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7249661450137321472-7.jpg",
+  "size": [
+   480,
+   360
+  ],
+  "caption": "A certificate presentation at MLCAS 2024 at the Nebraska Innovation Campus Conference Center.",
+  "date": "October 2024",
+  "category": "Awards",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7249661450137321472/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Young man holding a certificate beside a presenter speaking into a microphone at a podium.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7194564754013659136-2.jpg",
+  "size": [
+   1280,
+   1706
+  ],
+  "caption": "Hooding of Dr. Xian Yeow Lee, Dr. Sin Yong Tan and Dr. Russell Tan at the Iowa State University Spring 2024 commencement ceremony.",
+  "date": "May 2024",
+  "category": "Awards",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7194564754013659136/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Three new doctoral graduates in cardinal gowns and their advisor in blue regalia in front of flowers and Iowa State banners.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7181775613148442625-2.jpg",
+  "size": [
+   480,
+   320
+  ],
+  "caption": "A \"Women in Ag and AI\" presentation at the inaugural TrAC Day at Iowa State University.",
+  "date": "April 2024",
+  "category": "Conferences & events",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7181775613148442625/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Presenter with a microphone below a large screen reading \"WIAA Women in Ag and AI\" in a glass-walled atrium.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7181775613148442625-3.jpg",
+  "size": [
+   480,
+   302
+  ],
+  "caption": "Students, faculty and industry partners at the inaugural TrAC Day at Iowa State University.",
+  "date": "April 2024",
+  "category": "Conferences & events",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7181775613148442625/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Audience seated on a large indoor staircase listening to a speaker in a modern atrium.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/7181775613148442625-5.jpg",
+  "size": [
+   480,
+   320
+  ],
+  "caption": "Poster session at the inaugural TrAC Day at Iowa State University.",
+  "date": "April 2024",
+  "category": "Conferences & events",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7181775613148442625/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Four attendees viewing research posters mounted along a window wall.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/6986746719384346624-2.jpg",
+  "size": [
+   480,
+   640
+  ],
+  "caption": "Plenary talk at MLCAS 2022, organized by TrAC at Iowa State; the post thanks John Deere CTO Jahmy Hindman for his plenary talk.",
+  "date": "October 2022",
+  "category": "Talks & keynotes",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:6986746719384346624/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Speaker at an ISU Alumni Center podium in front of a slide on feeding 9.7 billion people by 2050.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/6986746719384346624-3.jpg",
+  "size": [
+   480,
+   360
+  ],
+  "caption": "Attendees at MLCAS 2022, the Fourth International Workshop on Machine Learning for Cyber-Agricultural Systems, at Iowa State University.",
+  "date": "October 2022",
+  "category": "Conferences & events",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:6986746719384346624/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Ballroom with attendees at round tables facing a speaker and two screens showing the workshop title.",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/6986746719384346624-4.jpg",
+  "size": [
+   480,
+   360
+  ],
+  "caption": "Startup Round Table at MLCAS 2022.",
+  "date": "October 2022",
+  "category": "Conferences & events",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:6986746719384346624/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Three panelists seated at a table with a moderator standing beside a screen reading \"MLCAS 2022 Startup Round Table\".",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/6461549646568316928-2.jpg",
+  "size": [
+   1280,
+   960
+  ],
+  "caption": "Keynote speech at AFITA/WCCA 2018 at IIT Bombay, Mumbai, India, on October 25, 2018.",
+  "date": "October 2018",
+  "category": "Talks & keynotes",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:6461549646568316928/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Speaker in a suit on stage in front of an AFITA/WCCA 2018 banner, with a slide reading \"What are the challenges?\".",
+  "source": "linkedin"
+ },
+ {
+  "src": "/assets/gallery/linkedin/6442914126116331520-2.jpg",
+  "size": [
+   1280,
+   960
+  ],
+  "caption": "Demonstrating a deep learning iPhone app for soybean disease detection at the 2018 Farm Progress Show, with U.S. Secretary of Agriculture Sonny Perdue.",
+  "date": "September 2018",
+  "category": "Outreach",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:6442914126116331520/",
+  "credit": "Photo: Soumik Sarkar via LinkedIn",
+  "alt": "Iowa State team in red shirts at a table of soybean leaf images, talking with a visitor in a cap inside an exhibit tent.",
+  "source": "linkedin"
+ }
+]

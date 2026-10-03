@@ -1,0 +1,3 @@
+# GitHub usernames (one per line) allowed to publish photos through the gallery form,
+# in addition to repository owners, organization members and collaborators.
+tirtho149

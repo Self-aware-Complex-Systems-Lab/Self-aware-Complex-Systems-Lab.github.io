@@ -1,18 +1,48 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
-import assets from '../data/assets.json';
+import curated from '../data/gallery.json';
+import uploads from '../data/gallery-uploads.json';
+
+type Item = { src: string; size: number[]; caption: string; date: string | null; category: string; link: string | null;
+  credit: string; alt?: string; added?: string };
+const CATEGORIES = ['Lab life', 'Talks & keynotes', 'Conferences & events', 'Field work & robots', 'Awards', 'Outreach'];
+const monthKey = (d: string | null) => { const t = d ? Date.parse(`1 ${d}`) : NaN; return Number.isNaN(t) ? 0 : t; };
+// Newest first; photos without a date go last.
+const items: Item[] = [...(uploads as Item[]), ...(curated as Item[])].sort((a, b) => monthKey(b.date) - monthKey(a.date));
+const cats = CATEGORIES.filter((c) => items.some((i) => i.category === c));
 ---
-<Base title="Gallery" description="Photographs of SCSLab members and lab events.">
+<Base title="Gallery" description="Photos of SCSLab members, talks, conferences, field work and events.">
   <PageHeader title="Gallery" kicker="Lab life" />
-  <ul class="grid sm:grid-cols-2 gap-5">
-    {assets.gallery.map((g) => (
-      <li>
+  <div role="tablist" aria-label="Photo category" class="mb-6 flex flex-wrap gap-2">
+    <button role="tab" data-cat="all" aria-selected="true" class="gal-tab rounded-full border border-line px-3 py-1 text-sm aria-selected:bg-cardinal aria-selected:text-white aria-selected:border-cardinal">All ({items.length})</button>
+    {cats.map((c) => (
+      <button role="tab" data-cat={c} aria-selected="false" class="gal-tab rounded-full border border-line px-3 py-1 text-sm aria-selected:bg-cardinal aria-selected:text-white aria-selected:border-cardinal">
+        {c} ({items.filter((i) => i.category === c).length})
+      </button>
+    ))}
+  </div>
+  <ul class="columns-1 sm:columns-2 lg:columns-3 gap-5 [column-fill:_balance]">
+    {items.map((g) => (
+      <li class="gal-item mb-5 break-inside-avoid" data-cat={g.category}>
         <figure class="bg-white border border-line rounded-lg overflow-hidden">
-          <a href={g.src}><img src={g.src} alt={g.caption} loading="lazy" width={g.size[0]} height={g.size[1]} class="w-full aspect-[4/3] object-cover" data-gallery={g.manifestId} /></a>
-          <figcaption class="p-3 text-sm text-muted">{g.caption}</figcaption>
+          <a href={g.src} class="block"><img src={g.src} alt={g.alt ?? g.caption} loading="lazy" decoding="async" width={g.size[0]} height={g.size[1]} class="w-full h-auto" /></a>
+          <figcaption class="p-3 text-sm">
+            <p class="text-ink">{g.caption}</p>
+            <p class="mt-1 text-xs text-muted">
+              {g.date && <span>{g.date} · </span>}{g.credit}{g.link && <span> · <a href={g.link} rel="noopener">More</a></span>}
+            </p>
+          </figcaption>
         </figure>
       </li>
     ))}
   </ul>
+  <script>
+    const tabs = [...document.querySelectorAll<HTMLButtonElement>('.gal-tab')];
+    const items = [...document.querySelectorAll<HTMLElement>('.gal-item')];
+    tabs.forEach((t) => t.addEventListener('click', () => {
+      tabs.forEach((x) => x.setAttribute('aria-selected', String(x === t)));
+      items.forEach((i) => { i.hidden = t.dataset.cat !== 'all' && i.dataset.cat !== t.dataset.cat; });
+    }));
+  </script>
 </Base>

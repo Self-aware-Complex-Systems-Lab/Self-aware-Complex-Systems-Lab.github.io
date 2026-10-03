@@ -3,6 +3,7 @@
 // `npm run build` renders this page; scripts/render-cv-pdf.mjs prints it to /cv/Soumik_Sarkar_CV.pdf.
 import pi from '../data/page-principal-investigator.json';
 import recentFunding from '../data/funding-recent.json';
+import awardsData from '../data/awards.json';
 import { publications } from '../lib/publications';
 import { people } from '../lib/people';
 import '@fontsource-variable/source-serif-4/opsz.css';
@@ -25,12 +26,7 @@ const outreach = sec('Outreach').map((i) => i.text);
 const talks = sec('Invited Talks').map((i) => i.text);
 
 // Awards stated in the official biography.
-const awards = [
-  'ASME Dynamic Systems and Control Division (DSCD) Rudolf Kalman Best Paper Award, 2021',
-  'NSF CAREER Award, 2019',
-  'Air Force Office of Scientific Research (AFOSR) Young Investigator Program Award, 2017',
-  'NSF CISE Research Initiation Initiative (CRII) Award, 2015',
-];
+const awards = awardsData.awards.map((a) => a.text);
 
 // "First Middle Last" -> "F. M. Last"; the PI's name is bolded.
 const initials = (n: string) => {

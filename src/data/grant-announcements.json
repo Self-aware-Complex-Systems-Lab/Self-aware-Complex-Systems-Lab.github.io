@@ -1,0 +1,25 @@
+{
+ "_note": "LinkedIn announcement links for grants on the PI page (matched in migration/linkedin/curation.json).",
+ "grants": [
+  {
+   "grantPrefix": "CPS: Medium: Collaborative Research: Active Shooter Tracking",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:6609889807738949632/",
+   "date": "2019-12-09"
+  },
+  {
+   "grantPrefix": "Context-aware learning for inverse design in photovoltaics (",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:6602705070914101251/",
+   "date": "2019-11-19"
+  },
+  {
+   "grantPrefix": "Big Data for Sustainable Cities & Decision Making (as Co-PI)",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:6169133806063214593/",
+   "date": "2016-08-10"
+  },
+  {
+   "grantPrefix": "Neural-Symbolic approach to Real-time Decision-making in Com",
+   "url": "https://www.linkedin.com/feed/update/urn:li:activity:6191969737178632192/",
+   "date": "2016-10-12"
+  }
+ ]
+}

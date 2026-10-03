@@ -1,0 +1,61 @@
+# Publishes photos submitted through the "📷 Add photos to the website gallery" issue form.
+name: Gallery upload
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: gallery-upload
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: startsWith(github.event.issue.title, '[Photo]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the submitter is allowed
+        id: auth
+        env:
+          ASSOC: ${{ github.event.issue.author_association }}
+          LOGIN: ${{ github.event.issue.user.login }}
+        run: |
+          if [[ "$ASSOC" == "OWNER" || "$ASSOC" == "MEMBER" || "$ASSOC" == "COLLABORATOR" ]] || grep -qxi "$LOGIN" .github/gallery-uploaders.txt; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "ok=false" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Explain why the submission was not published
+        if: steps.auth.outputs.ok != 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh issue comment ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY" --body "Thanks! Only lab members can publish photos automatically. A maintainer will review this submission."
+      - uses: actions/setup-python@v5
+        if: steps.auth.outputs.ok == 'true'
+        with:
+          python-version: "3.12"
+      - name: Add photos to the gallery
+        if: steps.auth.outputs.ok == 'true'
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: |
+          pip install --quiet pillow
+          python scripts/gallery_from_issue.py
+      - name: Commit and report
+        if: steps.auth.outputs.ok == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/assets/gallery/uploads src/data/gallery-uploads.json
+          git commit -m "Gallery: photos from #${{ github.event.issue.number }}"
+          git push
+          { cat gallery-result.md; echo; echo "They will appear on https://self-aware-complex-systems-lab.github.io/gallery/ in a few minutes."; } > comment.md
+          gh issue comment ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY" --body-file comment.md
+          gh issue close ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY"

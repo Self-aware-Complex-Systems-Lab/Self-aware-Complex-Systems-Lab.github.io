@@ -5,7 +5,7 @@ on:
   push:
     branches: ["main"]
   workflow_run:
-    workflows: ["Update publications"]
+    workflows: ["Update publications", "Gallery upload"]
     types: [completed]
   workflow_dispatch:
 

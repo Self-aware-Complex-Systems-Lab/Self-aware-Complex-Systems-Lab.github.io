@@ -1,0 +1,55 @@
+name: "📷 Add photos to the website gallery"
+description: Upload photos (from your phone or computer) with a caption. They appear on the lab website automatically.
+title: "[Photo] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Tap **Attach files** (or drag photos) into the box below. Add as many photos as you like for one event.
+        Location data is removed from photos automatically. The site updates a few minutes after you press **Submit**.
+  - type: textarea
+    id: photos
+    attributes:
+      label: Photos
+      description: Attach one or more photos here.
+      placeholder: Tap here, then use "Attach files" / the paperclip to add photos.
+    validations:
+      required: true
+  - type: textarea
+    id: caption
+    attributes:
+      label: Caption
+      description: What is happening and who is in the photo? (One or two sentences.)
+      placeholder: "e.g. Nitesh Subedi presenting LCLA at CVPR 2026, Nashville."
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: When was it taken? (Month and year is enough.)
+      placeholder: "June 2026"
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      options:
+        - Lab life
+        - Talks & keynotes
+        - Conferences & events
+        - Field work & robots
+        - Awards
+        - Outreach
+    validations:
+      required: true
+  - type: input
+    id: link
+    attributes:
+      label: Related link (optional)
+      description: News story, paper, event page or LinkedIn post.
+      placeholder: "https://..."
+  - type: input
+    id: credit
+    attributes:
+      label: Photo credit
+      value: "Photo: Soumik Sarkar"
