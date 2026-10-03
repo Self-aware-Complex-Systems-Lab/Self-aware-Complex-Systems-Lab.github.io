@@ -340,23 +340,5 @@
   "source": "OpenAlex (fetched 2026-10-03)",
   "openalex": "https://openalex.org/W7167850176",
   "relatedArchivedEntry": null
- },
- {
-  "category": "conferences",
-  "categoryLabel": "Conference Proceedings",
-  "number": null,
-  "title": "Foundation Model Efficient Fine-Tuning in Centralized and Federated Settings",
-  "authors": "Nastaran Saadati and Zhanhong Jiang and Aditya Balu and Chao Liu and Chinmay Hegde and Soumik Sarkar",
-  "venue": null,
-  "year": 2025,
-  "date": "2025-12-08",
-  "type": "conference-paper",
-  "citationsAsOfArchive": null,
-  "url": "https://doi.org/10.1109/bigdata66926.2025.11400875",
-  "doi": "10.1109/bigdata66926.2025.11400875",
-  "addedAfterArchive": true,
-  "source": "OpenAlex (fetched 2026-10-03)",
-  "openalex": "https://openalex.org/W7134184717",
-  "relatedArchivedEntry": null
  }
 ]
