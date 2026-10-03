@@ -189,10 +189,16 @@ export function buildVita() {
   const cur = grants.blocks.find((b) => b.heading === CUR)!;
   let next = allGrants.length;
   let addedFunds = 0;
-  const parsed = recentFunding.grants.map((g) => {
-    const m2 = g.text.match(/^(.*?) \(as (.*?)\)(?: sponsored by (.*?))? \((\$[\d,]+)(?:, (.*?))?\)$/);
-    return m2 ? { title: m2[1], role: m2[2], agency: m2[3] ?? '', total: m2[4], dates: m2[5] ?? '' } : null;
-  }).filter((x): x is NonNullable<typeof x> => !!x);
+  const piFunding = (piPage.find((s2) => s2.heading === 'Research Funding')?.items ?? []).map((i) => i.text)
+    .reduce<string[]>((acc, t) => { if (/^\(\$/.test(t) && acc.length) acc[acc.length - 1] += ' ' + t; else acc.push(t); return acc; }, []);
+  const parseGrant = (text: string) => {
+    const m2 = text.match(/^(.*?) \((?:as )?(.*?)\)\s*(?:sponsored by (.*?))?\s*\((\$[\d,]+)(?:,\s*(.*?))?\)\s*$/);
+    return m2 ? { title: m2[1].trim(), role: m2[2], agency: (m2[3] ?? '').trim(), total: m2[4], dates: (m2[5] ?? '').trim() } : null;
+  };
+  const startYear = (d: string) => { const y = d.match(/(19|20)\d{2}/); return y ? Number(y[0]) : 0; };
+  const parsed = [...recentFunding.grants.map((g) => parseGrant(g.text)),
+                  ...piFunding.map(parseGrant).filter((g) => g && startYear(g.dates) >= VITA_YEAR)]   // the vita covers everything earlier
+    .filter((x): x is NonNullable<typeof x> => !!x);
   for (const g of parsed.reverse()) {
     if (allGrants.some((o) => sim(norm(o.title), norm(g.title)) >= 0.8)) continue;
     addedFunds += Number(g.total.replace(/[$,]/g, ''));
@@ -234,10 +240,22 @@ export function buildVita() {
   const gh = sup.blocks.find((b) => /^Graduated/.test(b.heading ?? ''));
   if (gh) gh.heading = `Graduated (${phd(grad)} PhD – ${phd(curSup.items)} at the current rank, ${ms(grad)} MS – ${ms(curSup.items)} at the current rank)`;
 
+  const fundingM = Number(totalM);
   const today = new Date();
   return {
+    honors: honors.items,
+    facts: { publications: J.total + C.total + K.total, fundingM },
     meta: <VitaMeta>{ ...vita.meta, date: `${String(today.getMonth() + 1).padStart(2, '0')}/${String(today.getDate()).padStart(2, '0')}/${today.getFullYear()}` },
     sections,
     stats: { journalsAdded: J.added, conferencesAdded: K.added, chaptersAdded: C.added, talksAdded: newTalks.length },
   };
+}
+
+let _facts: { publications: number; fundingM: number } | null = null;
+/** Replace the headline numbers in a biography sentence with the vita's live totals. */
+export function liveBio(t: string) {
+  _facts ??= buildVita().facts;
+  const f = _facts;
+  return t.replace(/more than \d+ peer-reviewed publications/, `more than ${Math.floor(f.publications / 50) * 50} peer-reviewed publications`)
+          .replace(/about \$\d+M (in )?research funding/, (_m, inn) => `about $${Math.round(f.fundingM)}M ${inn ?? ''}research funding`);
 }

@@ -8,6 +8,15 @@ import videos from '../data/talks-video.json';
 import recentFunding from '../data/funding-recent.json';
 import grantAnn from '../data/grant-announcements.json';
 import awardsData from '../data/awards.json';
+import { buildVita } from '../lib/vita';
+const vitaNow = buildVita();
+// Honors: the full list from the (auto-updated) vita, with announcement links where we have them.
+const words = (t: string) => new Set(t.toLowerCase().match(/[a-z0-9]{3,}/g) ?? []);
+const linkFor = (h: string) => awardsData.awards.find((a) => { if (!a.url) return false; const A = words(a.text), H = words(h); let n = 0; H.forEach((w) => A.has(w) && n++); return n / Math.min(A.size, H.size) >= 0.6; })?.url ?? null;
+const honors = vitaNow.honors.map((h) => ({ text: h, url: linkFor(h) }));
+// Keep the biography's headline numbers in step with the vita.
+const roundDown = (n: number, step: number) => Math.floor(n / step) * step;
+const liveBio = (t: string) => t.replace(/more than \d+ peer-reviewed publications/, `more than ${roundDown(vitaNow.facts.publications, 50)} peer-reviewed publications`).replace(/about \$\d+M (in )?research funding/, (_m, inn) => `about $${Math.round(vitaNow.facts.fundingM)}M ${inn ?? ''}research funding`);
 const announcement = (t: string) => grantAnn.grants.find((g) => t.startsWith(g.grantPrefix))?.url;
 
 const sec = (h: string) => page.find((s) => s.heading === h)?.items ?? [];
@@ -47,14 +56,14 @@ const talks = sec('Invited Talks');
       <ul class="mt-2 text-muted space-y-0.5">{titles.map((i) => <li set:html={withLinks(i.text, i.links)} />)}</ul>
       <h3 class="mt-6 font-bold">Education</h3>
       <ul class="mt-1 space-y-0.5">{degrees.map((i) => <li>{i.text}</li>)}</ul>
-      <div class="prose-lab mt-6">{bio.map((i) => <p>{i.text}</p>)}</div>
+      <div class="prose-lab mt-6">{bio.map((i) => <p>{liveBio(i.text)}</p>)}</div>
     </div>
   </section>
 
   <section class="mt-14" id="awards">
     <h2 class="text-2xl font-bold mb-5">Honors &amp; Awards</h2>
     <ul class="grid grid-cols-1 md:grid-cols-2 gap-3">
-      {awardsData.awards.map((a) => (
+      {honors.map((a) => (
         <li class="bg-white border border-line rounded-lg p-4 text-[0.95rem] border-l-4 border-l-gold">
           {a.text}{a.url && <> <a href={a.url} rel="noopener" class="whitespace-nowrap text-sm">Announcement →</a></>}
         </li>

@@ -5,6 +5,7 @@ import web from '../data/people-web-links.json';
 import profiles from '../data/people-profiles.json';
 import personPubs from '../data/people-publications.json';
 import { pubByKey } from '../lib/publications';
+import { liveBio } from '../lib/vita';
 
 const LABEL: Record<string, string> = {
   homepage: 'Homepage', scholar: 'Google Scholar', github: 'GitHub', 'faculty-page': 'Faculty page', cv: 'CV',
@@ -29,7 +30,7 @@ const displayName = pr?.name ?? p.name;
 // The current role is shown in the 'Now' chip, so drop a trailing '· now …' from the headline.
 const headline = pr?.headline ? (pr.currentPosition ? pr.headline.replace(/\s*[·|;,]\s*(now|currently)\b.*$/i, '') : pr.headline) : null;
 const education = pr ? [...pr.education, ...(pr.affiliation ?? [])] : short;
-const bio = pr ? pr.bio : long;
+const bio = (pr ? pr.bio : long).map(liveBio);
 const webMeta = web as unknown as { links: Record<string, { type: string; url: string; label?: string }[]>; interests: Record<string, string> };
 const interests = pr?.researchInterests ?? webMeta.interests[p.name] ?? null;
 
