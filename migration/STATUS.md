@@ -1,9 +1,8 @@
 # Migration status (resume point for the /loop)
-- [x] Phase 1 crawl: 6 pages (home, team-contact, principal-investigator, publications, research, media). Wayback CDX + nav agree; no sitemap. Snapshots in migration/archive/.
-- [x] Publications: 384 parsed from embed (222 J / 83 C / 79 P) == source tirtho149/scs publications.json. src/data/publications.json
-- [x] New pubs: 20 candidates (OpenAlex ORCID 0000-0002-6775-9199 + sarkar_papers/_works.json) in migration/publications-update/candidates.json — user asked to add these; dedupe-check then merge as "added after archive".
-- [ ] Phase 2 image recovery (scripts/recover_images.py) — signed URLs, w1280 is max served size
-- [ ] Phase 3 content → src/data/*.json (people from DOM blocks)
-- [ ] Phase 4 Astro site
-- [ ] Phase 5 image audit / Phase 6 content audit / Phase 7 tests+deploy prep / Phase 8 reports
-Deploy target: NOT tirtho149/scs (that is the pubs data repo used by the live embed). Ask user before creating/pushing a new repo.
+Live: https://self-aware-complex-systems-lab.github.io/ (push to main deploys; user authorized pushes to this repo)
+- [x] Phases 1–8 done: crawl, images (114/114 verified), content (0 discrepancies), Astro site, 53 Playwright tests, README, MIGRATION_REPORT.md
+- [x] Owner requests: no migration wording on site, black header w/ original logo, comma authors, no New badges, 3 indep. students -> alumni (people-overrides.json), Souradeep re-sync
+- [ ] PENDING background: TrAC site archive -> migration/related/trac-ai/ ; then add new SCSLab-relevant images/details (owner asked)
+- [ ] PENDING background: current members' GitHub/personal sites -> migration/current-members-github.json ; then show links (+ position/interests) on People cards
+- [ ] LinkedIn: needs user to run `.venv/bin/python migration/linkedin/create_session.py` (manual login), then scrape_pi.py
+After each change: npm run build && npx playwright test && content_audit.py, commit, push.
