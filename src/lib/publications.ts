@@ -16,3 +16,9 @@ export const publications: Pub[] = [
 ]
   .filter(({ k }) => !hidden.has(k))
   .map(({ p }) => ({ ...p, title: p.title.replace(/\s+/g, ' ').trim() }));
+
+/** Look up a publication by its stable key ("added:3", "archived:120"). */
+export const pubByKey = new Map<string, Pub>([
+  ...(added as Pub[]).map((p, i) => [`added:${i}`, p] as const),
+  ...(archived as Pub[]).map((p, i) => [`archived:${i}`, p] as const),
+].map(([k, p]) => [k, { ...p, title: p.title.replace(/\s+/g, ' ').trim() }]));

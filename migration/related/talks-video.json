@@ -1,0 +1,98 @@
+[
+  {
+    "title": "Panel: Digital Agriculture and AI (2025 K-State AI Symposium)",
+    "url": "https://ksu.zoom.us/rec/share/o0W5719dU0VqBEqfovvmIjd6l0E7B9hgV77maGbvsIU0FUAAlvuzkJn-GRFvk1Rg.oaBc9idncCTJiSd1?startTime=1760471296000",
+    "platform": "Zoom (cloud recording)",
+    "channel": "Kansas State University AI Symposium",
+    "date": "2025-10-14",
+    "event": "2025 K-State AI Symposium, Hale Library, Kansas State University",
+    "role": "panel",
+    "duration": null,
+    "evidence": "K-State symposium page (https://www.k-state.edu/ai-symposium/about/past/2025-ai-symposium/) lists Soumik Sarkar, director of the Translational AI Center at Iowa State, as a panelist on 'Digital Agriculture and AI' (chair Ajay Sharda), with this recording link. The recording needs the passcode posted on that page (19$1Whs). The startTime in the URL is Oct 14 2025, 2:48 pm CDT.",
+    "youtubeId": null
+  },
+  {
+    "title": "Keynote: Role of AI in Cyber-Agricultural Systems (2025 K-State AI Symposium)",
+    "url": "https://ksu.zoom.us/rec/share/o0W5719dU0VqBEqfovvmIjd6l0E7B9hgV77maGbvsIU0FUAAlvuzkJn-GRFvk1Rg.oaBc9idncCTJiSd1?startTime=1760465427000",
+    "platform": "Zoom (cloud recording)",
+    "channel": "Kansas State University AI Symposium",
+    "date": "2025-10-14",
+    "event": "2025 K-State AI Symposium, Hale Library, Kansas State University",
+    "role": "keynote",
+    "duration": null,
+    "evidence": "K-State symposium page (https://www.k-state.edu/ai-symposium/about/past/2025-ai-symposium/) lists the keynote 'Role of AI in Cyber-Agricultural Systems' by Soumik Sarkar (director, Translational AI Center, Iowa State), with this recording link. The recording needs the passcode posted on that page (19$1Whs). The startTime in the URL is Oct 14 2025, 1:10 pm CDT. The page text also says Oct 15, but the recording timestamp and other listings give Oct 14.",
+    "youtubeId": null
+  },
+  {
+    "title": "221109 NSF CPS Day2 11:00 - Panel CPS Career",
+    "url": "https://www.youtube.com/watch?v=22_vj9XrtbI",
+    "platform": "YouTube",
+    "channel": "Jacob WorldWide",
+    "date": "2022-11-09",
+    "event": "NSF Cyber-Physical Systems (CPS) PI Meeting 2022, Day 2",
+    "role": "panel",
+    "duration": "59:30",
+    "evidence": "The video description gives 'Panel: Broadening Participation in Computing (BPC) / Session Chair: Peng Wei / Panelists: Allyson Kennedy (NSF), Michelle Rogers (NSF), Soumik Sarkar (Iowa State Uniiversity), Jinyuan Stella Sun'. The date comes from the title prefix 221109. Uploaded 2022-11-18.",
+    "youtubeId": "22_vj9XrtbI"
+  },
+  {
+    "title": "221108 NSF CPS Day 1 10:15 Panel CPS Frontier",
+    "url": "https://www.youtube.com/watch?v=Oz31JXzwc0g",
+    "platform": "YouTube",
+    "channel": "Jacob WorldWide",
+    "date": "2022-11-08",
+    "event": "NSF Cyber-Physical Systems (CPS) PI Meeting 2022, Day 1",
+    "role": "panel",
+    "duration": "55:17",
+    "evidence": "The video description gives 'CPS Frontier Panel / Session Chair: David Corman (NSF) / Panelists: Brandon Lucia (CMU), Meeko Oishi (UNM), Ricardo Sanfelice (UCSC), Soumik Sarkar (Iowa State University)'. This matches 'Future of Cyber-Physical Systems - Challenges and Opportunities, NSF CPS PI Meeting, Nov 2022' in his invited-talks list. The date comes from the title prefix 221108. Uploaded 2022-11-18.",
+    "youtubeId": "Oz31JXzwc0g"
+  },
+  {
+    "title": "Soumik Sarkar - Role of Interpretable Machine Learning in Cyber-Agricultural Systems",
+    "url": "https://www.youtube.com/watch?v=evQKlzihgaU",
+    "platform": "YouTube",
+    "channel": "PhenoRob",
+    "date": "2022-03-31",
+    "event": "DIGICROP 2022, International Conference on Digital Technologies for Sustainable Crop Production (virtual, March 28-30, 2022)",
+    "role": "invited talk",
+    "duration": "6:29",
+    "evidence": "He is named in the title. The description cites DIGICROP 2022, and the conference page https://2022.digicrop.de/invited-talk-soumik-sarkar/ lists it as his invited talk. It also appears in his invited-talks list (DIGICROP, March 2022). The date is the upload date.",
+    "youtubeId": "evQKlzihgaU"
+  },
+  {
+    "title": "Cyber-Agricultural Systems: An opportunity for international collaboration - Soumik Sarkar",
+    "url": "https://www.youtube.com/watch?v=1zJqXuH0sic",
+    "platform": "YouTube",
+    "channel": "國網中心NCHC (Taiwan National Center for High-performance Computing)",
+    "date": "2022-02-28",
+    "event": "NSF-MOST Workshop on CPS & Smart and Connected Communities (US-Taiwan), 2022",
+    "role": "invited talk",
+    "duration": "4:00",
+    "evidence": "He is named in the title. The title is identical to 'Cyber-Agricultural Systems: An opportunity for international collaboration, NSF-MOST Workshop on CPS & SCC, March 2022' in his invited-talks list. It is posted by Taiwan's NCHC, the MOST side of that workshop. The description is empty. The date is the upload date (Pacific time).",
+    "youtubeId": "1zJqXuH0sic"
+  },
+  {
+    "title": "Online Robust Policy Learning in Presence of Unknown Adversaries",
+    "url": "https://www.youtube.com/watch?v=J81yK075v60",
+    "platform": "YouTube",
+    "channel": "Aaron H. (Aaron Havens)",
+    "date": "2018-11-23",
+    "event": "NeurIPS 2018, Montreal (paper video)",
+    "role": "other",
+    "duration": "2:58",
+    "evidence": "The video description gives 'Authors: Aaron Havens, Zhanhong Jiang, Soumik Sarkar, Iowa State University. Neurips, Montreal 2018 ... Presenter: Dr. Soumik Sarkar.' It is a short paper-presentation video uploaded by his co-author. The date is the upload date.",
+    "youtubeId": "J81yK075v60"
+  },
+  {
+    "title": "Traffic sensor health monitoring using spatiotemporal graphical modeling",
+    "url": "https://www.youtube.com/watch?v=nLxE0lbp4NQ",
+    "platform": "YouTube",
+    "channel": "KDD2017 video",
+    "date": "2018-01-15",
+    "event": "KDD 2017 (Halifax), 2nd ACM SIGKDD Workshop on Machine Learning for Prognostics and Health Management",
+    "role": "other",
+    "duration": "20:58",
+    "evidence": "The video description lists 'Author: Soumik Sarkar, Department of Computer Science, Iowa State University' and the paper's abstract (I-35 Iowa traffic sensors). The same talk is on his VideoLectures.NET author page (https://videolectures.net/soumik_sarkar/, kdd2017 workshops, posted 2017-12-01). The talk was recorded in August 2017. The date is the YouTube upload date.",
+    "youtubeId": "nLxE0lbp4NQ"
+  }
+]
