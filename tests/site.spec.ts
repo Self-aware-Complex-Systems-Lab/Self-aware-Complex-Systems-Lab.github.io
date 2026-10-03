@@ -76,7 +76,8 @@ test('mobile menu opens', async ({ page, isMobile }) => {
 test('CV page and PDF are published', async ({ page, request }) => {
   const res = await page.goto('/cv/');
   expect(res?.status()).toBe(200);
-  await expect(page.locator('h1')).toContainText('Soumik Sarkar');
+  await expect(page.locator('h1')).toHaveText('FACULTY VITA');
+  await expect(page.locator('.meta')).toContainText('Name: Soumik Sarkar');
   const pdf = await request.get('/cv/Soumik_Sarkar_CV.pdf');
   expect(pdf.status()).toBe(200);
   expect((await pdf.body()).subarray(0, 5).toString()).toBe('%PDF-');

@@ -1,0 +1,138 @@
+[
+  {
+    "title": "Plant Geometry Reconstruction From Field Data Using Neural Radiance Fields",
+    "authors": "A. Jignasu+, E. Herron+, T. Z. Jubery, J. Afful, A. Balu, B. Ganapathysubramanian, S. Sarkar, A. Krishnamurthy",
+    "venue": "AAAI Workshop on AI for Agriculture and Food Systems, Washington D.C., Feb 14, 2023",
+    "year": 2023,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During current rank at ISU"
+  },
+  {
+    "title": "Deep Reinforcement Learning Exploration in Continuous Latent Space for Molecular Design",
+    "authors": "H.-J. Yang+, C.-H. Yang+, P. Sornberger, R. Duke, C. Risko, B. Ganapathysubramanian, S. Sarkar",
+    "venue": "AAAI Workshop on AI to Accelerate Science and Engineering, Washington D.C., Feb 13, 2023",
+    "year": 2023,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During current rank at ISU"
+  },
+  {
+    "title": "Enhancing System-level Safety in Autonomous Driving via Feedback Learning",
+    "authors": "S. Y. Tan+, W. Fan+, Q. Liu+, T. Wongpiromsarn, S. Sarkar",
+    "venue": "Machine Learning for Autonomous Driving Workshop at NeurIPS, New Orleans, LA, Dec 3, 2022",
+    "year": 2022,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During current rank at ISU"
+  },
+  {
+    "title": "DriveCLIP: Zero-shot transfer for distracted driving activity understanding using CLIP",
+    "authors": "Z. Hasan+, A. Joshi, M. Rahman, A. Venkatachalapathy+, A. Sharma, C. Hegde, S. Sarkar",
+    "venue": "Machine Learning for Autonomous Driving Workshop at NeurIPS, New Orleans, LA, Dec 3, 2022",
+    "year": 2022,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During current rank at ISU"
+  },
+  {
+    "title": "A Conservative Stochastic Contextual Bandit Based Framework for Farming Recommender Systems",
+    "authors": "S. Moothedath, X. Y. Lee+, Z. T. Jubery+, B. Ganapathysubramanian, S. Sarkar",
+    "venue": "AI for Agriculture and Food Systems Workshop in Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), Virtual, February 22 – March 1, 2022",
+    "year": 2022,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During current rank at ISU"
+  },
+  {
+    "title": "Fast Unsupervised Generative Design for Structural Topology Optimization",
+    "authors": "E. Herron+, A. Jignasu+, J. Rade+, X. Y. Lee+, A. Balu, A. Krishnamurthy, S. Sarkar",
+    "venue": "AI for Design and Manufacturing Workshop in Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), Virtual, February 22 – March 1, 2022",
+    "year": 2022,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During current rank at ISU"
+  },
+  {
+    "title": "Adaptive Gradient Tracking In Stochastic Optimization",
+    "authors": "Z. Jiang, X.Y. Lee+, S.Y Tan+, A. Balu+, Y.M. Lee, C. Hegde, S. Sarkar",
+    "venue": "Optimization for Machine Learning Workshop, Neural Information Processing Systems (NeurIPS), Virtual, December 6-12, 2020",
+    "year": 2020,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During current rank at ISU"
+  },
+  {
+    "title": "Solving Linear PDEs with Generative Models",
+    "authors": "A. Joshi+, B. Khara+, S. Sarkar, B. Ganapathysubramanian, C. Hedge",
+    "venue": "ASILOMAR 2020 Conference on Signals, Systems, and Computers, Pacific Grove, CA, November 1-4, 2020",
+    "year": 2020,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During current rank at ISU"
+  },
+  {
+    "title": "Automatic Lane Detection Algorithm For Noisy Naturalistic Driving Data",
+    "authors": "L. Riera+, K. Ozcan+, J. Merickel, M. Rizzo, S. Sarkar, A. Sharma",
+    "venue": "IEEE Intelligent Vehicle Symposium (IV), (Las Vegas), June 23-26, 2020",
+    "year": 2020,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During current rank at ISU"
+  },
+  {
+    "title": "Deep Learning for Dynamic Deformation Simulation of Bioprosthetic Heart Valves",
+    "authors": "A. Balu, K.L. Tan, C. H. Wu, M-C. Hsu, S. Sarkar, A. Krishnamurthy",
+    "venue": "USNCCM 15, Austin, TX, 2019",
+    "year": 2019,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During current rank at ISU"
+  },
+  {
+    "title": "Linking age-related decline to driver behavior at signalized intersections",
+    "authors": "A. Barnwal+, J. Merickel, L. Riera-Garcia+, K. Ozcan+, S. Sarkar, A. Sharma, M. Rizzo",
+    "venue": "2019 Association for the Advancement of Automotive Medicine’s (AAAM) 63rd Annual Scientific Conference, Madrid, Spain, 15 – 18 October 2019",
+    "year": 2019,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During current rank at ISU"
+  },
+  {
+    "title": "A Deep-Learning Framework for Diagnostics and Design of Bioprosthetic Heart Valves",
+    "authors": "A. Balu+, M. Hsu, S. Sarkar, A. Krishnamurthy",
+    "venue": "BMES/FDA conference on Frontiers in Medical Devices : The Role of Digital Evidence to Support Personalized Patient Healthcare, (Washington, DC Metropolitan Area), Mar 19-21, 2019",
+    "year": 2019,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During previous rank at ISU"
+  },
+  {
+    "title": "Machine Learning for Diagnostics and Patient-Specific Design of Bioprosthetic Heart Valves",
+    "authors": "A. Balu+, S. Nallagonda+, F. Xu+, A. Krishnamurthy, M. Hsu, S. Sarkar",
+    "venue": "Integrating Design and Analysis (IGA), (Austin, TX), Oct 10-12, 2018",
+    "year": 2018,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During previous rank at ISU"
+  },
+  {
+    "title": "Incremental Consensus-based Collaborative Deep Learning",
+    "authors": "Z. Jiang+, A. Balu+, C. Hedge, S. Sarkar",
+    "venue": "ICML Workshop on Modern Trends in Nonconvex Optimization for Machine Learning (Spotlight presentation), Stockholm, Sweden, Jul 13-15, 2018",
+    "year": 2018,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During previous rank at ISU"
+  },
+  {
+    "title": "Using deep convolutional networks for occlusion edge detection in RGB-D frames",
+    "authors": "S. Sarkar, V. Venugopalan, K. Reddy, J. Rayde, M. Giering and N. Jaitly",
+    "venue": "IEEE High Performance Extreme Computing Conference (HPEC), (Waltham, MA), Sep 15-17, 2015",
+    "year": 2015,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During previous rank at ISU"
+  },
+  {
+    "title": "Deep learning for flow sculpting in microfluidic platforms",
+    "authors": "K. G. Lore+, M. Davies+, D. Stoecklein+, B. Ganapathysubramanian and S. Sarkar",
+    "venue": "NVIDIA GPU Technical Conference, (Silicon Valley, CA), Mar 17-20, 2015",
+    "year": 2015,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / During previous rank at ISU"
+  },
+  {
+    "title": "Fault-Tolerant optimal control of a large-size, commercial building heating, ventilation and air conditioning system",
+    "authors": "V. Adetola, S. Bengea, F. Borrelli, K. Kang, A. Kelman, F. Leonardi, P. Li, T. Lovett, S. Sarkar, S. Vichik (in alphabetical order)",
+    "venue": "3rd International High Performance Buildings Conference, (West Lafayette, IN), Jul 14-17, 2014",
+    "year": 2014,
+    "category": "conference",
+    "section": "II.A.3 Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted / Prior to ISU appointment"
+  }
+]

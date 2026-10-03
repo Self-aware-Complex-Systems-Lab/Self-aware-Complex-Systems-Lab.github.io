@@ -53,7 +53,7 @@ def openalex_items():
             src = (w.get("primary_location") or {}).get("source") or {}
             st, wt = src.get("type"), w.get("type")
             cat = ("preprints" if wt == "preprint" or st == "repository" else
-                   "conferences" if st == "conference" or wt == "proceedings-article" else "journals")
+                   "conferences" if st == "conference" or wt in ("proceedings-article", "conference-paper") else "journals")
             doi = (w.get("doi") or "").replace("https://doi.org/", "") or None
             venue = re.sub(r"\barXiv\s*\(Cornell University\)", "arXiv", src.get("display_name") or "", flags=re.I) or None  # plain "arXiv"
             out.append({"category": cat, "categoryLabel": LABEL[cat], "number": None, "title": re.sub(r"\s+", " ", w["title"]).strip(),

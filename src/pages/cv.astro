@@ -1,150 +1,106 @@
 ---
-// Curriculum vitae of the PI, generated from the same data files as the website.
-// `npm run build` renders this page; scripts/render-cv-pdf.mjs prints it to /cv/Soumik_Sarkar_CV.pdf.
-import pi from '../data/page-principal-investigator.json';
-import recentFunding from '../data/funding-recent.json';
-import awardsData from '../data/awards.json';
-import { publications } from '../lib/publications';
-import { people } from '../lib/people';
-import '@fontsource-variable/source-serif-4/opsz.css';
+// Prof. Sarkar's FACULTY VITA in Iowa State's format, regenerated on every build (see src/lib/vita.ts).
+// scripts/render-cv-pdf.mjs prints this page to /cv/Soumik_Sarkar_CV.pdf.
+import { buildVita, type Sub, type Block } from '../lib/vita';
 
-const sec = (h: string) => pi.find((s) => s.heading === h)?.items ?? [];
-const profile = sec('Personal Profile');
-const iName = profile.findIndex((i) => i.text === 'Dr. Soumik Sarkar');
-const contact = profile.slice(1, iName).map((i) => i.text).filter((t) => !['Google Scholar', 'CV'].includes(t));
-const after = profile.slice(iName + 1).map((i) => i.text);
-const degrees = after.filter((t) => /^(Ph\.D|M\.S|B\.E)/.test(t));
-const titles = after.filter((t) => t.length < 140 && !degrees.includes(t));
-const bio = after.find((t) => t.length >= 140) ?? '';
-const earlierFunding = sec('Research Funding').reduce<string[]>((acc, i) => {
-  if (/^\(\$/.test(i.text) && acc.length) acc[acc.length - 1] += ' ' + i.text; else acc.push(i.text);
-  return acc;
-}, []);
-const funding = [...recentFunding.grants.map((g) => g.text), ...earlierFunding];
-const teaching = sec('Teaching').map((i) => i.text);
-const outreach = sec('Outreach').map((i) => i.text);
-const talks = sec('Invited Talks').map((i) => i.text);
-
-// Awards stated in the official biography.
-const awards = awardsData.awards.map((a) => a.text);
-
-// "First Middle Last" -> "F. M. Last"; the PI's name is bolded.
-const initials = (n: string) => {
-  const parts = n.replace(/\./g, '. ').split(/\s+/).filter(Boolean);
-  if (parts.length < 2) return n;
-  const last = parts.pop()!;
-  return [...parts.map((p) => (p.length <= 2 && p.endsWith('.') ? p : p[0].toUpperCase() + '.')), last].join(' ');
-};
-const authorHtml = (a: string | null) => {
-  const list = (a ?? '').split(/\s+and\s+|,\s*/).map((x) => x.trim()).filter(Boolean).map(initials);
-  const esc = (s: string) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;');
-  const shown = list.length > 15 ? [...list.slice(0, 12), '…', ...list.slice(-1)] : list;
-  return shown.map((x) => (/^S\. Sarkar$/.test(x) ? `<b>${esc(x)}</b>` : esc(x))).join(', ');
-};
-const byCat = (c: string) => publications.filter((p) => p.category === c)
-  .sort((a, b) => (b.date ?? `${b.year ?? 0}`).localeCompare(a.date ?? `${a.year ?? 0}`));
-const pubSections = [
-  { title: 'Articles in Peer-Reviewed Journals', list: byCat('journals') },
-  { title: 'Peer-Reviewed Conference Proceedings', list: byCat('conferences') },
-  { title: 'Preprints', list: byCat('preprints') },
-];
-const cleanVenue = (v: string | null) => (v ?? '').replace(/\s*\(\d{4}\)\s*$/, '');
-
-const supervised = [
-  { title: 'Postdoctoral Researchers', cats: ['Post Doctoral Students', 'Post-doctorate Alumni'] },
-  { title: 'Graduate Students (Ph.D. and M.S.)', cats: ['Doctoral Students', 'Graduate Alumni'] },
-  { title: "Master's Students", cats: ['Masters Students', 'Masters Alumni'] },
-].map((g) => ({ ...g, list: people.filter((p) => g.cats.includes(p.category ?? '')) }));
-const current = new Set(['Post Doctoral Students', 'Doctoral Students', 'Masters Students']);
-const updated = new Date().toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+const { meta, sections } = buildVita();
+const roman = (id: string) => id.split('-')[0];
+type Numbered = { block: Block; labels: string[] };
+// Number items: continuous across a subsection's blocks unless the original restarted; honour original quirks.
+function numberBlocks(sub: Sub): Numbered[] {
+  let n = 0;
+  return sub.blocks.map((b) => {
+    if (sub.numberingContinues === false) n = 0;
+    if (b.style === 'bullets' || b.style === 'plain') return { block: b, labels: [] };   // only numbered lists advance the counter
+    const labels = b.items.map((_, i) => b.numbers?.[i] ?? String(++n));
+    if (b.numbers) n = Math.max(n, ...b.numbers.map(Number).filter((x) => !Number.isNaN(x)));
+    return { block: b, labels };
+  });
+}
 ---
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Soumik Sarkar · Curriculum Vitae</title>
-  <meta name="description" content="Curriculum vitae of Prof. Soumik Sarkar, Iowa State University." />
+  <title>Soumik Sarkar · Faculty Vita</title>
+  <meta name="description" content="Faculty vita of Prof. Soumik Sarkar, Iowa State University — updated automatically." />
   <style>
-    :root { --ink: #1d2327; --muted: #4b5560; --accent: #9e1b32; }
     * { box-sizing: border-box; }
-    body { margin: 0; background: #fff; color: var(--ink); font: 10.5pt/1.45 "Source Serif 4 Variable", Georgia, serif; }
-    main { max-width: 7.5in; margin: 0 auto; padding: 0.6in 0.2in; }
-    header { border-bottom: 2px solid var(--accent); padding-bottom: 10px; margin-bottom: 14px; }
-    h1 { font-size: 22pt; margin: 0; letter-spacing: -0.01em; }
-    .sub { color: var(--muted); margin-top: 2px; }
-    .contact { margin-top: 6px; font-size: 9.5pt; color: var(--muted); }
-    h2 { font-size: 12.5pt; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; margin: 18px 0 6px;
-         border-bottom: 1px solid #ddd; padding-bottom: 2px; break-after: avoid; }
-    h3 { font-size: 11pt; margin: 10px 0 4px; break-after: avoid; }
-    ul { margin: 0; padding-left: 1.3em; }
-    ol { margin: 0; padding-left: 2.6em; }
-    li { margin: 2px 0; break-inside: avoid; }
-    ol.pubs li { margin: 4px 0; }
-    .muted { color: var(--muted); }
-    .venue { font-style: italic; }
-    a { color: inherit; text-decoration: none; }
-    .download { display: inline-block; margin-top: 8px; font: 600 10pt system-ui, sans-serif; color: #fff; background: var(--accent);
-                padding: 6px 12px; border-radius: 4px; }
-    @media print { .download { display: none; } main { padding: 0; } }
-    @page { size: Letter; margin: 0.7in 0.75in; }
+    body { margin: 0; background: #fff; color: #000; font: 12pt/1.25 "Times New Roman", Tinos, "Liberation Serif", Times, serif; }
+    main { max-width: 6.5in; margin: 0 auto; padding: 0.5in 0.15in 1in; }
+    .title { text-align: center; font-size: 12pt; border-bottom: 1.5px solid #000; padding-bottom: 2px; margin: 0 0 14px; font-weight: normal; letter-spacing: 0.02em; }
+    .meta p { margin: 0; }
+    h2 { font-size: 12pt; font-weight: normal; margin: 18px 0 10px; }
+    h3 { font-size: 12pt; font-weight: normal; margin: 14px 0 10px 0.3in; }
+    h4 { font-size: 12pt; font-weight: normal; margin: 12px 0 10px 0.6in; }
+    .bh { margin: 10px 0 8px 0.6in; }
+    .bh.i { font-style: italic; }
+    ul.plain { list-style: none; margin: 0 0 0 0.6in; padding: 0; }
+    ul.plain li { margin: 0; }
+    ul.bul { margin: 0 0 0 0.6in; padding-left: 0.25in; text-align: justify; }
+    ul.bul li { margin: 0 0 10px; }
+    ol.num { list-style: none; margin: 0 0 0 0.6in; padding: 0; }
+    ol.num li { display: grid; grid-template-columns: 0.32in 1fr; margin: 0 0 10px; break-inside: avoid; text-align: justify; }
+    ol.num li .n { text-align: left; }
+    .grant { margin: 0 0 12px 0.6in; break-inside: avoid; }
+    .grant p { margin: 0; display: grid; grid-template-columns: 1.35in 1fr; }
+    .grant p.gn { display: block; }
+    a { color: #00e; }
+    u { text-decoration-thickness: 1px; }
+    .bar { font-family: system-ui, sans-serif; font-size: 10pt; margin-bottom: 16px; display: flex; gap: 12px; align-items: center; }
+    .bar a { background: #9e1b32; color: #fff; padding: 6px 12px; border-radius: 4px; text-decoration: none; font-weight: 600; }
+    @media print { .bar { display: none; } main { padding: 0; } }
+    @page { size: Letter; margin: 1in 1in 0.9in; }
   </style>
 </head>
 <body>
 <main>
-  <header>
-    <h1>Soumik Sarkar, Ph.D.</h1>
-    <div class="sub">{titles.slice(0, 3).map((t) => t.replace(/,\s*https?:\/\/\S+$/, '')).join(' · ')}</div>
-    <div class="contact">{contact.join(' · ')} · Google Scholar: scholar.google.com/citations?user=-rmRjqIAAAAJ</div>
-    <a class="download" href="/cv/Soumik_Sarkar_CV.pdf">Download PDF</a>
-    <span class="muted" style="font-size:9pt;margin-left:8px">Updated {updated}</span>
-  </header>
+  <div class="bar"><a href="/cv/Soumik_Sarkar_CV.pdf">Download PDF</a><span>Updated automatically · {meta.date}</span></div>
+  <h1 class="title">{meta.title}</h1>
+  <div class="meta">
+    <p>Date: {meta.date}</p>
+    <p>Name: {meta.name}</p>
+    <p>Department: {meta.department}</p>
+    <p>Current Rank: {meta.rank}</p>
+  </div>
 
-  <h2>Summary</h2>
-  <p style="margin:0">{bio}</p>
-
-  <h2>Education</h2>
-  <ul>{degrees.map((d) => <li>{d}</li>)}</ul>
-
-  <h2>Appointments and Roles</h2>
-  <ul>{titles.map((t) => <li>{t.replace(/,\s*https?:\/\/\S+$/, '')}</li>)}</ul>
-
-  <h2>Honors and Awards</h2>
-  <ul>{awards.map((a) => <li>{a}</li>)}</ul>
-
-  <h2>Research Funding</h2>
-  <ol>{funding.map((f) => <li>{f}</li>)}</ol>
-
-  <h2>Publications</h2>
-  <p class="muted" style="margin:0 0 4px">{publications.length} publications. Students and postdocs supervised are listed below.</p>
-  {pubSections.map((s) => (
-    <>
-      <h3>{s.title} ({s.list.length})</h3>
-      <ol class="pubs" reversed>
-        {s.list.map((p) => (
-          <li><span set:html={authorHtml(p.authors)} />. “{p.title}.” <span class="venue">{cleanVenue(p.venue)}</span>{p.year ? `, ${p.year}` : ''}.{p.doi && <span class="muted"> doi:{p.doi}</span>}</li>
-        ))}
-      </ol>
-    </>
+  {sections.map((s) => (
+    <section>
+      <h2>{roman(s.id)}. {s.title}</h2>
+      {s.subsections.map((sub) => (
+        <>
+          <h3>{sub.letter}. {sub.title}</h3>
+          {[sub, ...(sub.children ?? [])].map((part, pi) => (
+            <>
+              {pi > 0 && <h4>{part.number}. {part.title}</h4>}
+              {numberBlocks(part).map(({ block: b, labels }) => (
+                <>
+                  {b.heading && <p class:list={['bh', /^(Graduated|Percentage)/.test(b.heading) && 'i']}>{b.heading}</p>}
+                  {b.grants && b.grants.map((g) => (
+                    <div class="grant">
+                      <p class="gn">{g.n}:</p>
+                      <p><span>Investigators:</span><span>{g.investigators}</span></p>
+                      <p><span>Title:</span><span>{g.title}</span></p>
+                      <p><span>Funding agency:</span><span>{g.agency}</span></p>
+                      <p><span>Dates:</span><span>{g.dates}</span></p>
+                      <p><span>Total fund:</span><span>{g.total}</span></p>
+                      <p><span>Role on project:</span><span>{g.role}</span></p>
+                    </div>
+                  ))}
+                  {b.items.length > 0 && (
+                    b.style === 'bullets' ? <ul class="bul">{b.items.map((it) => <li set:html={it} />)}</ul>
+                    : b.style === 'plain' ? <ul class="plain">{b.items.map((it) => <li set:html={it} />)}</ul>
+                    : <ol class="num">{b.items.map((it, i) => <li><span class="n">{labels[i]}.</span><span set:html={it} /></li>)}</ol>
+                  )}
+                </>
+              ))}
+            </>
+          ))}
+        </>
+      ))}
+    </section>
   ))}
-
-  <h2>Invited Talks</h2>
-  <ol reversed>{talks.map((t) => <li>{t}</li>)}</ol>
-
-  <h2>Teaching</h2>
-  <p style="margin:0 0 4px">{teaching[0]}</p>
-  <ul>{teaching.slice(1).map((t) => <li>{t}</li>)}</ul>
-
-  <h2>Mentoring</h2>
-  {supervised.map((g) => (
-    <>
-      <h3>{g.title} ({g.list.length})</h3>
-      <p style="margin:0">{g.list.map((p, i) => <span>{p.name.replace(/^Dr\.\s*/, '')}{current.has(p.category ?? '') ? ' (current)' : ''}{i < g.list.length - 1 ? '; ' : ''}</span>)}</p>
-    </>
-  ))}
-
-  <h2>Outreach</h2>
-  <ul>{outreach.map((t) => <li>{t}</li>)}</ul>
 </main>
 </body>
 </html>

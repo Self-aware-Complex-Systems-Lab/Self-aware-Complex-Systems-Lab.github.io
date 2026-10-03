@@ -22,7 +22,7 @@ await page.goto(`http://localhost:${port}/cv/`, { waitUntil: 'networkidle' });
 await page.pdf({
   path: join(DIST, 'cv', 'Soumik_Sarkar_CV.pdf'), format: 'Letter', printBackground: true, preferCSSPageSize: true,
   displayHeaderFooter: true, headerTemplate: '<span></span>',
-  footerTemplate: '<div style="font-size:8px;width:100%;text-align:center;color:#666">Soumik Sarkar — CV — page <span class="pageNumber"></span> of <span class="totalPages"></span></div>',
+  footerTemplate: '<div style="font-size:11px;width:100%;text-align:center;font-family:Times New Roman,Liberation Serif,serif"><span class="pageNumber"></span></div>',
 });
 await browser.close();
 server.close();

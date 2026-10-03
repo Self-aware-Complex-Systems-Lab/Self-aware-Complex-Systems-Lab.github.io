@@ -1,0 +1,1571 @@
+{
+  "meta": {
+    "title": "FACULTY VITA",
+    "name": "Soumik Sarkar",
+    "department": "Mechanical Engineering",
+    "rank": "Professor",
+    "originalDate": "08/11/2023"
+  },
+  "sections": [
+    {
+      "id": "I",
+      "title": "BACKGROUND, PROFESSIONAL EXPERIENCE AND RECOGNITIONS",
+      "subsections": [
+        {
+          "id": "I.A",
+          "letter": "A",
+          "title": "Education",
+          "numberingContinues": false,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "plain",
+              "items": [
+                "Jadavpur University, India, B.E., Mechanical Engineering, 2006",
+                "Pennsylvania State University, M.S., Mechanical Engineering, 2009",
+                "Pennsylvania State University, M.A., Mathematics, 2009",
+                "Pennsylvania State University, Ph.D., Mechanical Engineering, 2011"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "I.B",
+          "letter": "B",
+          "title": "Academic Appointments",
+          "numberingContinues": false,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "plain",
+              "items": [
+                "Professor, Department of Mechanical Engineering, Iowa State University, July 2023 – now",
+                "Professor (courtesy), Department of Computer Science, Iowa State University, July 2023 – now",
+                "Associate Professor, Department of Mechanical Engineering, Iowa State University, July 2019 – June 2023",
+                "Associate Professor (courtesy), Department of Computer Science, Iowa State University, July 2019 – June 2023",
+                "Assistant Professor, Department of Mechanical Engineering, Iowa State University, August 2014 – June 2019",
+                "Assistant Professor (courtesy), Department of Computer Science, Iowa State University, January 2016 – June 2019"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "I.C",
+          "letter": "C",
+          "title": "Other Professional Employment",
+          "numberingContinues": false,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "plain",
+              "items": [
+                "Director, Translational AI Center (TrAC), Iowa State University, July 2021 - now",
+                "Chief Innovation Officer and Partner, Etalyc LLC., January 2017 - now",
+                "Senior Scientist, Decision Support & Machine Intelligence, United Technologies Research Center, August 2011 – August 2014"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "I.D",
+          "letter": "D",
+          "title": "Honors and Awards (selected)",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Iowa State College of Engineering Mid-career Achievement in Research Award (2023)",
+                "Iowa State College of Agriculture and Life Sciences Team Award (2022)",
+                "ASME DSCD Kalman Best Paper Award (2021)",
+                "Walter W Wilson Faculty Fellow in Engineering, Iowa State University (2020)",
+                "Iowa State University Early Achievement in Research Award (2020)",
+                "NSF CAREER Award (2019)",
+                "Iowa State College of Engineering Early Achievement in Research Award (2019)",
+                "Scholar of Plant Science Institute (PSI), Iowa State University (2018)",
+                "NVIDIA Deep Learning Institute (DLI) University Ambassador (2017)",
+                "AFOSR Young Investigator Program (YIP) award (2017)",
+                "ASHRAE Science and Technology for the Built Environment Best Paper Award (2015)",
+                "NSF CISE Research Initiation Initiative (CRII) award (2015)",
+                "Black & Veatch Faculty Fellowship, Iowa State College of Engineering (2014)"
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "II",
+      "title": "SCHOLARSHIP AND RESEARCH/CREATIVE ACTIVITIES",
+      "subsections": [
+        {
+          "id": "II.A",
+          "letter": "A",
+          "title": "Scholarship",
+          "numberingContinues": false,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "bullets",
+              "items": [
+                "<i>Total of 250 publications including 100 peer reviewed journal papers (84 after joining ISU – 48 at the current rank, 74 with ISU students/postdocs), Total 8 book chapters (6 after joining ISU – 3 at the current rank, 5 with ISU students/postdocs) and 142 peer reviewed conference papers (122 after joining ISU – 66 at the current rank, 107 with ISU students and postdocs).</i>",
+                "<i>My published work received a cumulative 7818 citations with h-index of 41 and i10 index of 117 according to the Google scholar website (data collected on 06/24/2023).</i>",
+                "<i>High impact papers in Proceedings of the National Academy of Sciences (PNAS, IF: 12.78, 100 pctl), Nature Computational Science, Trends in Plant Science (IF:18.31, 98 pctl), Applied Energy (IF: 11.45, 98 pctl), IEEE Transactions on SMC B (IF: 6.22), Scientific Reports (IF: 4.259, 100 pctl), Neural Information Processing Systems (NeurIPS), International Conference on Machine Learning (ICML), International Conference on Computer Vision (ICCV) and Association for the Advancement of Artificial Intelligence (AAAI) conferences (top ML/Vision conferences with acceptance rate ~20%), International Conference on Geometric Modeling and Processing (GMP, acceptance rate < 20%), Supercomputing (acceptance rate ~20%) and International Conference on Cyber Physical Systems (ICCPS, acceptance rate <25%).</i>",
+                "<i>+ denotes graduate students or post-docs, * denotes undergraduate students, # denotes publications during candidate’s graduate study, _ denotes corresponding authorship of the candidate.</i>"
+              ]
+            }
+          ],
+          "children": [
+            {
+              "id": "II.A.1",
+              "number": "1",
+              "title": "Articles in Peer-Reviewed Journals – In Print or Accepted",
+              "numberingContinues": true,
+              "blocks": [
+                {
+                  "heading": "During current rank at ISU",
+                  "style": "numbered",
+                  "items": [
+                    "L. Synan+, S. Ghazvini, S. Uthaman, G. Cutshaw+, C. Y. Lee, J. Waite+, X. Wen+, S. Sarkar, E. Lin, M. Santillan, D. Santillan, and R. Bardhan, \"<i>First Trimester Prediction of Preterm Birth in Patient Plasma with Machine-Learning-Guided Raman Spectroscopy and Metabolomics.</i>\" ACS Applied Materials & Interfaces (2023).",
+                    "S. Kar, K. Nagasubramanian, D. Elango, M. E. Carroll, C. A. Abel, A. Nair, D. S. Mueller, M. E. O'Neal, A. K. Singh, S. Sarkar, B. Ganapathysubramanian, A. Singh \"<i>Self‐supervised learning improves classification of agriculturally important insect pests in plants</i>.\" The Plant Phenome Journal 6, no. 1, 2023.",
+                    "H. C. Croll+, K. Ikuma, S. K. Ong, S. Sarkar, \"<i>Systematic performance evaluation of reinforcement learning algorithms applied to wastewater treatment control optimization</i>,\" Environmental Science & Technology, 2023.",
+                    "T. J. Young+, T. Z. Jubery, C. N. Carley+, M. Carroll, S. Sarkar, A. K. Singh, A. Singh, and B. Ganapathysubramanian. \"“<i>Canopy fingerprints” for characterizing three-dimensional point cloud data of soybean canopies</i>.\" Frontiers in Plant Science 14 (2023).",
+                    "H. C. Croll+, K. Ikuma, S. K. Ong, S. Sarkar, \"<i>Reinforcement learning applied to wastewater treatment process control optimization: Approaches, challenges, and path forward</i>,\" Critical Reviews in Environmental Science and Technology, 2023.",
+                    "H. Lu+, V. P. Nemani+, V. Barzegar, C. Allen, C. Hu, S. Laflamme, S. Sarkar, A. T. Zimmerman, \"<i>A physics-informed feature weighting method for bearing fault diagnostics</i>,\" Mechanical Systems and Signal Processing, Vol. 191, 2023.",
+                    "J. R. Waite+, S. Y. Tan+, H. Saha+, S. Sarkar, A. Sarkar, \"<i>Few-shot deep learning for AFM force curve characterization of single-molecule interactions</i>,\" Patterns, Vol. 4, Issue 1, 2023.",
+                    "A. Rairdin+, F. Fotouhi+, J. Zhang, D. S. Mueller, B. Ganapathysubramanian, A. K. Singh, S. Dutta, <u>S. Sarkar</u> and A. Singh, \"<i>Deep learning-based phenotyping for genome wide association studies of sudden death syndrome in soybean</i>,\" Frontiers in Plant Science, Vol. 13, 2022.",
+                    "A. Balu, S. Sarkar, B. Ganapathysubramanian, A. Krishnamurthy, \"<i>Physics-Aware Machine Learning Surrogates for Real-time Manufacturing Digital Twin</i>,\" Manufacturing Letters, Vol. 34, pp. 71-74, 2022.",
+                    "J. Rade+, J. Zhang+, S. Sarkar, A. Krishnamurthy, J. Ren, and A. Sarkar, \"<i>Deep Learning for Live Cell Shape Detection and Automated AFM Navigation</i>,\" Bioengineering, 9(10), 522, 2022.",
+                    "A. Mukherjee+, A. Joshi+, A. Sharma, C. Hegde, and S. Sarkar, \"<i>Generative Semantic Domain Adaptation for Perception in Autonomous Driving</i>,\" Journal of Big Data Analytics in Transportation, 2022.",
+                    "K. Nagasubramanian+, A.K. Singh, A. Singh, S. Sarkar, and B. Ganapathysubramanian, \" <i>Plant Phenotyping with Limited Annotation: Doing More with Less</i>,\" Plant Phenome Journal, 2022.",
+                    "H. Saha+, F. Fotouhi+, Q. Liu+ and <u>S. Sarkar</u>, \" <i>A modular vision language navigation and manipulation framework for long horizon compositional tasks in indoor environment</i>,\" Frontiers in Robotics and AI: Computational Intelligence in Robotics, 2022.",
+                    "X. Y. Lee+, S. Sarkar, and Y. Wang, \" <i>A Graph Policy Network Approach for Volt-Var Control in Power Distribution Systems</i>,\" Applied Energy, Vol. 323, 2022.",
+                    "C-H. Yang+, B. S. S. Pokuri+, X. Y. Lee+, S. Balakrishnan+, C. Hedge, S. Sarkar, and B. Ganapathysubramanian, \" <i>Multi-fidelity machine learning models for structure-property mapping of organic electronics</i>,\" Computational Materials Science, Vol. 213, 2022.",
+                    "A. Barnwal+, P. Chakraborty+, A. Sharma, L. Riera+, K. Ozcan+, S. Davami, S. Sarkar, M. Rizzo, and J. Merickel, \"<i>Sugar and stops in drivers with insulin-dependent type 1 diabetes</i>,\" Accident Analysis & Prevention, Vol 173, 2022. https://doi.org/10.1016/j.aap.2022.106692",
+                    "S.Y. Tan+, M. Jacobi+, H. Saha+, A. Florita, G. Henze, and <u>S. Sarkar</u>. \"<i>Multimodal Sensor Fusion Framework for Residential Building Occupancy Detection,</i>\" Energy and Buildings, Vol 258, 2022. https://doi.org/10.1016/j.enbuild.2021.111828",
+                    "A. D. Prasad+, A. Balu+, H. Shah+, S. Sarkar, C. Hegde, A. Krishnamurthy. \"<i>NURBS-Diff: A differentiable programming module for NURBS,</i>\" Computer-Aided Design, Vol 146, 2022. https://doi.org/10.1016/j.cad.2022.103199",
+                    "Z. Jiang, C. Liu, Y. M. Lee, C. Hegde, S. Sarkar, and D. Jiang. \"<i>The Stochastic Augmented Lagrangian method for domain adaptation</i>,\" Knowledge-Based Systems, Vol 235, 2022. https://doi.org/10.1016/j.knosys.2021.107593",
+                    "M. Jacoby+, S.Y. Tan+, M. Katanbaf+, A. Saffari+, H. Saha+, Z. Kapetanovic+, J. Garland+, A. Florita, G. Henze, S. Sarkar, J. Smith. \"<i>WHISPER: Wireless Home Identification and Sensing Platform for Energy Reduction,</i>\" Journal of Sensor and Actuator Networks 10(4):71, 2021. https://doi.org/10.3390/jsan10040071",
+                    "M. Jacoby+, S.Y. Tan+, G. Henze, and S. Sarkar. \"<i>A high-fidelity residential building occupancy detection dataset,</i>\" Scientific Data 8, no. 1: 1-14, 2021. https://doi.org/10.1038/s41597-021-01055-x",
+                    "J.R. Rade+, A. Balu+, E. Herron+, J. Pathak, R. Ranade, S. Sarkar, and A. Krishnamurthy, \"<i>Algorithmically-consistent deep learning frameworks for structural topology optimization,</i>\" Engineering Applications of Artificial Intelligence 106: 104483, 2021. https://doi.org/10.1016/j.engappai.2021.104483",
+                    "S. Ghadai+, X.Y. Lee+, A. Balu+, S. Sarkar, and A. Krishnamurthy. \"<i>Multi-resolution 3D CNN for learning multi-scale spatial features in CAD models,</i>\" Computer Aided Geometric Design 91: 102038, 2021. https://doi.org/10.1016/j.cagd.2021.102038",
+                    "Z. Jiang, A. Balu+, C. Hegde, and S. Sarkar. \"<i>On Consensus-Optimality Trade-offs in Collaborative Deep Learning</i>,\" Frontiers in artificial intelligence 4, 2021. https://doi.org/10.3389/frai.2021.573731",
+                    "T.Z. Jubery+, C.N. Carley+, A. Singh, S. Sarkar, B. Ganapathysubramanian, and A.K. Singh, “<i>Using Machine Learning to Develop a Fully Automated Soybean Nodule Acquisition Pipeline (SNAP),</i>” Plant Phenomics, 2021. https://doi.org/10.34133/2021/9834746",
+                    "R. Singh, P. Singh, A. Sharma, O.R. Bingol+, A. Balu+, G. Balasubramanian, A. Krishnamurthy, S. Sarkar, and D.D. Johnson, “<i>Neural-network model for force prediction in multi-principal-element alloys,</i>” Computational Materials Science, 198, p.110693, 2021. https://doi.org/10.1016/j.commatsci.2021.110693",
+                    "L.G. Riera+, M. E. Carroll+, Z. Zhang+, J. Shook+, S. Ghosal+, T. Gao+, A. Singh, S. Bhattacharya, B. Ganapathysubramanian, A. K. Singh, and <u>S. Sarkar</u>, “<i>Deep Multi-view Image Fusion for Soybean Yield Estimation in Breeding Applications,</i>” Plant Phenomics, 2021. https://doi.org/10.34133/2021/9846470",
+                    "W. Guo, M. E. Carroll+, A. Singh, T. L. Swetnam, N. Merchant, S. Sarkar, A. K. Singh, and B. Ganapathysubramanian. \"<i>UAS-Based Plant Phenotyping for Research and Breeding Applications</i>\", Plant Phenomics, 2021. DOI: https://doi.org/10.34133/2021/9840192",
+                    "J. Shook+, T. Gangopadhyay+, L. Wu+, B. Ganapathysubramanian, <u>S. Sarkar</u>, A. K. Singh, “<i>Crop yield prediction integrating genotype and weather variables using deep learning</i>”, PLoS ONE 16(6): e0252402., 2021. DOI: https://doi.org/10.1371/journal.pone.0252402",
+                    "K. Nagasubramanian+, T. Jubery+, F. F. Ardakani+, S.V. Mirnezami+, A.K. Singh, A. Singh, S. Sarkar, B. Ganapathysubramanian, “<i>How useful is active learning for image-based plant phenotyping?</i>”, Plant Phenome Journal. 2021; 4:e20020. https://doi.org/10.1002/ppj2.20020.",
+                    "X. Y. Lee+, J. R. Waite+, C-H Yang+, B. S. S. Pokuri+, A. Joshi+, A. Balu+, C. Hegde, B. Ganapathysubramanian, and <u>S. Sarkar</u>. \"<i>Fast inverse design of microstructures via generative invariance networks</i>\", Nature Computational Science 1, no. 3 (2021): 229-238. DOI: https://doi.org/10.1038/s43588-021-00045-8",
+                    "T. Gangopadhyay+, V. Ramanan+, A. Akintayo+, P. K. Boor*, S. Sarkar, S. R. Chakravarthy, <u>S. Sarkar</u>, “<i>3D Convolutional Selective Autoencoder For Instability Detection in Combustion Systems</i>”, Energy and AI, Vol. 4, June 2021. DOI: https://doi.org/10.1016/j.egyai.2021.100067",
+                    "Y. Esfandiari+, A. Balu+, K. Ebrahimi+, U. Vaidya, N. Elia, and <u>S. Sarkar</u>. \"<i>A fast saddle-point dynamical system approach to robust deep learning</i>\", Neural Networks 139 (2021): 33-44. DOI: https://doi.org/10.1016/j.neunet.2021.02.021",
+                    "C. Liu+, K.G. Lore+, Z. Jiang+, S. Sarkar, “<i>Root-cause analysis for time-series anomalies via spatiotemporal graphical modeling in distributed complex systems</i>”, Knowledge-Based Systems, January 2021, https://doi.org/10.1016/j.knosys.2020.106527",
+                    "K.L. Tan+, A. Sharma, S. Sarkar, “<i>Robust Deep Reinforcement Learning for Traffic Signal Control”,</i> Journal of Big Data Analytics in Transportation, December 2020, DOI: https://doi.org/10.1007/s42421-020-00029-6.",
+                    "Z. Jiang+, C. Liu+, B. Ganapathysubramanian, D. J. Hayes, <u>S. Sarkar</u>, “<i>Predicting county-scale maize yields with publicly available data</i>”, Scientific Reports, September 2020, DOI: https://doi.org/10.1038/s41598-020-71898-8.",
+                    "A. Singh, S. Jones+, B. Ganapathysubramanian, S. Sarkar, D. Mueller, K. Sandhu+, K. Nagasubramanian+, “<i>Challenges and Opportunities in Machine-Augmented Plant Stress Phenotyping</i>”, Trends in Plant Science - Cell Press, August 2020, DOI:https://doi.org/10.1016/j.tplants.2020.07.010.",
+                    "S. V. Mirnezami+, T. Young+, T. Assefa+, S. Prichard, K.Nagasubramanian+, K. Sandhu+, S. Sarkar, S. Sundararajan, M. E. O'Neal, B. Ganaphathysubramanian, A. Singh, “<i>Automated trichome counting in soybean using advanced image‐processing techniques</i>”, Applications in Plant Sciences, 8(7), e11375, 2020.",
+                    "X.Y. Lee+, S. Saha, S. Sarkar, B. Giera, “<i>Companion Journal: Two Photon lithography additive manufacturing: Video dataset of parameter sweep of light dosages, photo-curable resins, and structures</i>”, Data in Brief, August 2020, 106119.",
+                    "X.Y. Lee+, S. Saha, S. Sarkar, B. Giera, “<i>Automated detection of part quality during two-photon lithography via deep learning</i>”, Additive Manufacturing, Volume 36, December 2020, 101444.",
+                    "Kevin G. Falk+, Talukder Zaki Jubery+, Jamie A. O’Rourke+, Arti Singh, Soumik Sarkar, Baskar Ganapathysubramanian, Asheesh K. Singh, “<i>Soybean root system architecture traits study through genotypic, phenotypic and shape-based clusters”</i>, Plant Phenomics, 2020.",
+                    "Z. Jiang, V. Chinde, A. Kohl+, A. G. Kelkar, and S. Sarkar. “<i>Supervisory Control and Distributed Optimization of Building Energy Systems”</i>, in ASME journal of Dynamics, Systems and Control, 2020.",
+                    "H. Saha+, C. Liu, Z. Jiang, and <u>S. Sarkar</u>. “<i>Data-driven performance monitoring of dynamical systems using Granger causal graphical models”</i>, in ASME journal of Dynamics, Systems and Control, 2020.",
+                    "Kevin G. Falk+, Talukder Z. Jubery+, Seyed V. Mirnezami+, Kyle A. Parmley+, Soumik Sarkar, Arti Singh, Baskar Ganapathysubramanian, and Asheesh K. Singh. “<i>Computer vision and machine learning enabled soybean root phenotyping pipeline</i>”, Plant Methods, 16, 5 (2020) doi:10.1186/s13007-019-0550-5.",
+                    "Aditya Balu+, Sahiti Nallagonda+, Fei Xu+, Adarsh Krishnamurthy, Ming-Chen Hsu, and Soumik Sarkar. “<i>A deep learning framework for diagnostics and patient-specific design of bioprosthetic heart valves”,</i> Scientific Reports, 9, 18560 (2019) doi:10.1038/s41598-019-54707-9",
+                    "Kyle Parmley+, Race Higgins+, Baskar Ganapathysubramanian, Soumik Sarkar, and Asheesh Singh, “<i>Machine Learning Approach for Prescriptive Plant Breeding”</i>, Scientific Reports, 9, 17132 (2019) doi:10.1038/s41598-019-53451-4",
+                    "B. S. S. Pokuri+, S. Ghosal+, A. Kokate+, <u>S. Sarkar</u>, B. Ganapathysubramanian, “<i>Interpretable deep learning for guided microstructure-property explorations in photovoltaics</i>”, Nature (npj) Computational Materials 5, 95 (2019) doi:10.1038/s41524-019-0231-y",
+                    "X. Y. Lee+, A. Balu+, D. Stoecklein, B. Ganapathysubramanian, <u>S. Sarkar</u>, “<i>A Case Study of Deep Reinforcement Learning for Engineering Design: Application to Microfluidic Devices for Flow Sculpting</i>”, ASME Journal of Mechanical Design – Special Issue: Machine Learning for Engineering Design), 2019.",
+                    "K. Parmley+, K. Nagasubramanian+, S. Sarkar, B. Ganapathysubramanian, A. K. Singh, “<i>Development of Optimized Phenomic Predictors for Efficient Plant Breeding Decisions using Phenomics Assisted Selection in Soybean Plant Phenomics</i>”, Plant Phenomics (a Science Partner Journal), 2019.",
+                    "K. Nagasubramanian+, S. Jones+, A. K. Singh, S. Sarkar, A. Singh, B. Ganapathysubramanian, “<i>Plant disease identification using explainable 3D deep learning on hyperspectral images</i>”, Plant Methods, 2019."
+                  ]
+                },
+                {
+                  "heading": "During previous rank at ISU",
+                  "style": "numbered",
+                  "items": [
+                    "S. Ghosal+, B. Zheng, S. C. Chapman, A. B. Potgieter, D. R. Jordan, X. Wang, A. K. Singh, A. Singh, M. Hirafuji, S. Ninomiya, B. Ganapathysubramanian, <u>S. Sarkar</u>, W. Guo, “<i>A weakly supervised deep learning framework for sorghum head detection and counting</i>”, Plant Phenomics (a Science Partner Journal), 2019.",
+                    "C. Liu+, M. Zhao, A. Sharma, <u>S. Sarkar</u>, “<i>Traffic Dynamics Exploration and Incident Detection Using Spatiotemporal Graphical Modeling</i>”, Journal of Big Data Analytics in Transportation, Volumes 1, Number 1, Pages 37-55, 2019.",
+                    "H.Saha+, A.R.Florita , G.P.Henze, <u>S.Sarkar</u>, “<i>Occupancy sensing in buildings: A review of data analytics approaches</i>”, Energy and Buildings, Volumes 188–189, Pages 278-285, 2019.",
+                    "T. Han, C. Liu, L. Wu+, S. Sarkar, D. Jiang, “<i>An adaptive spatiotemporal feature learning approach for fault diagnosis in complex systems</i>”, Mechanical Systems and Signal Processing, Volume 117, Pages 170-187, 2019.",
+                    "T. Gao+, H. Emadi+, H. Saha+, J. Zhang+, A. Lofquist+, A. Singh, B. Ganapathysubramanian, S. Sarkar, A. Singh, and S. Bhattacharya. \"<i>A Novel Multirobot System for Plant Phenotyping</i>\" Robotics 7, no. 4 (2018): 61.",
+                    "K. Nagasubramanian+, S. Jones+, S. Sarkar, A. K. Singh, A. Singh, B. Ganapathysubramanian, “<i>Hyperspectral band selection using genetic algorithm and support vector machines for early identification of charcoal rot disease in soybean stems</i>”, Plant Methods, 14:86, 2018.",
+                    "A. Ott, J. C. Schnable, C. Yeh, L. Wu+, C. Liu+, H. Hu, C. L. Dalgard, S. Sarkar and P. S. Schnable, “<i>Linked read technology for assembling large complex and polyploid genomes</i>”, BMC Genomics 19, no. 1 (2018): 651",
+                    "A. K. Singh, B. Ganapathysubramanian, <u>S. Sarkar</u>, and A. Singh. \"<i>Deep Learning for Plant Stress Phenotyping: Trends and Future Perspectives</i>\" Trends in Plant Science, 2018.",
+                    "A. Akintayo+, G. Tylka, A. K. Singh, B. Ganapathysubramanian, A. Singh and <u>S. Sarkar</u>, “<i>A deep learning framework to discern and count microscopic nematode eggs</i>”, Scientific Reports, Article Number: 9145, 2018.",
+                    "L. Wu+, C. Liu+, T. Huang+, A. Sharma, <u>S. Sarkar</u>, “<i>Traffic sensor health monitoring using spatiotemporal graphical modeling</i>”, International Journal of Prognostics and Health Management, Vol 9, 2018.",
+                    "A. Akintayo+ and <u>S. Sarkar</u>, “<i>Hierarchical symbolic dynamic filtering of streaming non-stationary time series data</i>”, Signal Processing, Vol 151, pages 76-88, 2018.",
+                    "S. Ghosal+, D. Blystone+, A. K. Singh, B. Ganapathysubramanian, A. Singh and <u>S. Sarkar</u>, “<i>An explainable deep machine vision framework for plant stress phenotyping</i>”, Proceedings of the National Academy of Sciences (PNAS), Vol 115, No 18, pages 4613-4618, 2018.",
+                    "S. Ghadai+, A. Balu+, S. Sarkar, A. Krishnamurthy, “<i>Learning localized features in 3D CAD models for manufacturability analysis of drilled holes</i>”, Computer Aided Geometric Design, Vol 62, pages 263-275, 2018.",
+                    "P. Chakraborty+, Y. A. Gyamfi, S. Poddar+, V. Ahsani+, A. Sharma and <u>S. Sarkar</u>, “<i>Traffic congestion detection from camera images using deep convolutional neural networks</i>”, Transportation Research Record (TRR): Journal of the Transportation Research Board<i>,</i> No. 18-04687, 2018.",
+                    "T. Huang+, C. Liu+, A. Sharma, <u>S. Sarkar</u>, “<i>Traffic system anomaly detection using spatiotemporal pattern networks</i>”, International Journal of Prognostics and Health Management, Vol 9, pages: 12, 2018.",
+                    "C. Liu+, A. Akintayo+, Z. Jiang+, G.P. Henze, <u>S. Sarkar</u>, “<i>Multivariate exploration of non-intrusive load monitoring via spatiotemporal pattern network</i>”, Applied Energy, Vol 211, pages 1106-1122, 2018.",
+                    "K. G. Lore+, D. Stoecklein+, M. Davies+, B. Ganapathysubramanian and <u>S. Sarkar</u>, “<i>A deep learning framework for causal shape transformation</i>”, Neural Networks, Vol 98, pages 305-317, 2018.",
+                    "Z. Jiang+, K. Mukherjee, <u>S. Sarkar</u>, “<i>Generalized gossip-based subgradient method for distributed optimization</i>”, International Journal of Control, pages 1-17, November 2017.",
+                    "C. Liu+, S. Ghosal+, Z. Jiang+ and <u>S. Sarkar</u>, “<i>An unsupervised anomaly detection approach using energy-based spatiotemporal graphical modeling</i>”, Cyber-Physical Systems, Vol 3, Issues 1-4, 2017.",
+                    "H. Naik+, J. Zhang+, T. Assefa+, A.Lofquist+, S. Sarkar, D. Ackerman+, A. Singh, A. K. Singh, B. Ganapathysubramanian, “<i>A real-time phenotyping framework using machine learning for plant stress severity rating in soybean</i>”, Plant Methods<i>,</i> Vol 13, 2017.",
+                    "J. Zhang+, H. Naik+, T. Assefa+, S. Sarkar, R. V. Chowda Reddy+, A. Singh, B. Ganapathysubramanian, and A. Singh, “<i>Computer vision and machine learning for robust phenotyping in genome-wide studies</i>”, Scientific Reports, Article Number: 44048, 2017.",
+                    "Z. Jiang+, C. Liu+, A. Akintayo+, G. Henze, <u>S. Sarkar</u>, “<i>Energy prediction using spatiotemporal pattern networks</i>”, Applied Energy, Vol 206, pages 1022-1039, 2017.",
+                    "V. Chinde+, K. Krishna+, A. Kelkar, R. Pasumarthy, S. Sarkar, N.M. Singh, “<i>A passivity based power shaping control of building HVAC systems</i>”, Journal of Dynamic Systems, Measurement and Control, Vol 139, Issue 11, 2017.",
+                    "D. Stoecklein+, K. G. Lore+, M. Davies+, B. Ganapathysubramanian and <u>S. Sarkar</u>, “<i>Deep learning for flow sculpting: insights into efficient learning using scientific simulation data</i>”, Scientific Reports, Article number: 46368, 2017.",
+                    "T.Jubery+, J. Shook+, K.Parmley+, J. Zhang+, H. Naik+, R. Higgins+, S. Sarkar, A. Singh, A. K. Singh, B. Ganapathysubramanian, “<i>Deploying Fourier coefficients to unravel soybean canopy diversity</i>”, Frontiers in Plant Science, Vol 7, 2017.",
+                    "C. Liu+, Y. Gong+, S. Laflamme, B. Phares, <u>S. Sarkar</u>. “<i>Bridge damage detection using spatiotemporal patterns extracted from dense sensor network</i>”, Measurement Science and Technology (Special Feature on Dense Sensor Networks for Mesoscale SHM), Vol 61, No. 1, 2017.",
+                    "K. G. Lore+, A. Akintayo+, and <u>S. Sarkar</u>, “<i>LLNet: a deep autoencoder approach to natural low-light image enhancement</i>”, Pattern Recognition, Vol 61, pages 650-662, 2017.",
+                    "<u>S. Sarkar</u>, V. Venugopalan, K. Reddy, J. Rayde, M. Giering and N. Jaitly, “<i>Deep learning for automated occlusion edge detection in RGB-D frames</i>”, Journal of Signal Processing Systems (Special Issue on Dynamic Data-driven Application Systems (DDDAS)), Vol 88, Issue 2, pages 205-217, 2017.",
+                    "A. Akintayo+, K. G. Lore+, S. Sarkar, <u>S. Sarkar</u>. “<i>Prognostics of combustion instabilities from hi-speed flame video using a deep convolutional selective autoencoder</i>”, International Journal of Prognostics and Health Management (Special Issue on Big Data and Analytics), Vol 7, 2016.",
+                    "<u>S. Sarkar</u> and A. Srivastav, “<i>A composite discretization scheme for symbolic identification of complex systems</i>”, Signal Processing, Vol 125, pages 156-170, 2016.",
+                    "A. Singh, B. Ganapathysubramanian, A. K. Singh and S. Sarkar, “<i>Machine learning for high-throughput stress phenotyping in plants</i>”, Trends in Plant Sciences (TIPS), Vol 21, Issue 2, p110-124, 2016.",
+                    "K. G. Lore+, D. Stoecklein+, M. Davies+, B. Ganapathysubramanian and <u>S. Sarkar</u>, “<i>Hierarchical feature extraction for efficient design of microfluidic flow patterns</i>”, Journal of Machine Learning Research, NIPS 2015 workshop on Feature Extraction: Modern Questions and Challenges, pages 213-225, 2015.",
+                    "D. K. Jha+, P. Chattopadhyay+, <u>S. Sarkar</u> and A. Ray, “<i>Path planning in GPS-denied environments via collective intelligence of distributed sensor networks</i>”, International Journal of Control, Vol 89, No. 5, pages 984-999, 2015.",
+                    "S. Bengea, P. Li, S. Sarkar, S. Vichik, V. Adetola, K. Kang, F. Leonardi, T. Lovett, A. Kelman, “<i>Fault-Tolerant optimal control of a building heating, ventilation and air conditioning system</i>”, ASHRAE Journal of Science and Technology for the Built Environment (formerly HVAC&R Research), Vol 21, No. 6, pages 734-751, 2015.",
+                    "S. Sarkar and K. Mukherjee, “<i>Event-triggered decision propagation in proximity networks</i>”, Invited paper for the Inaugural issue of Frontiers in Robotics and AI: Sensor Fusion and Machine Perception, Vol 1, 2014.",
+                    "S. Sarkar, <u>S. Sarkar</u>, N. Virani, A. Ray, M. Yasar, “<i>Sensor fusion for fault detection & classification in distributed physical processes</i>”, Invited paper for the Inaugural issue of <i>Frontiers in</i> Robotics and AI: Sensor Fusion and Machine Perception, Vol 1, 2014."
+                  ]
+                },
+                {
+                  "heading": "Prior to ISU appointment",
+                  "style": "numbered",
+                  "items": [
+                    "S. Sarkar, S. Sarkar, K. Mukherjee, A. Ray, and A. Srivastav, “<i>Multi-sensor information fusion for fault detection in aircraft gas turbine engines</i>”, Proceedings of the I Mech E Part G: Journal of Aerospace Engineering, Vol 227, No. 12, pages 1988-2001, 2013.",
+                    "A. Ray, S. Phoha, and S. Sarkar, “<i>Behavior prediction for decision & control in cognitive autonomous systems</i>”, New Mathematics and Natural Computation: Special Issue on Engineering of the Mind, Cognitive Science and Robotics, Vol 9, No. 3, pages 1-9, 2013.",
+                    "S. Sarkar, K. Mukherjee, S. Sarkar, and A. Ray, “<i>Symbolic dynamic analysis of transient time series for fault detection in gas turbine engines</i>”, Journal of Dynamic Systems, Measurement, and Control, Transactions of the ASME, Vol 135, Issue 1, pages 14506 (6 pages), 2013.",
+                    "S. Sarkar#, K. Mukherjee, and A. Ray, “<i>Distributed decision propagation in proximity networks</i>”, International Journal of Control, Vol. 86, No. 6, pages 1118-1130, 2013.",
+                    "S. Sarkar#, K. Mukherjee, A. Ray, A. Srivastav, and T. Wettergren, “<i>Equilibrium thermodynamics for heterogeneous packet transmission in communication networks</i>”, <i>IEEE</i> Transactions on Systems, Man, and Cybernetics, Part B, Vol 42, No. 4, pages 1083-1093, 2012.",
+                    "S. Sarkar#, K. Mukherjee, X. Jin, and A. Ray, “<i>Optimization of symbolic feature extraction for pattern classification</i>”, Signal Processing, Vol 92, No. 3, pages 625-635, 2012.",
+                    "S. Chakraborty, S. Sarkar#, and A. Ray, “<i>Symbolic identification for fault detection in aircraft gas turbine engines</i>”, Proceedings of the I Mech E Part G: Journal of Aerospace Engineering, Vol 226, No. 4, pages 422-436, 2012.",
+                    "S. Sarkar#, X. Jin, and A. Ray, “<i>Data-driven fault detection in aircraft engines with noisy sensor measurements</i>”, Journal of Engineering for Gas Turbines and Power, Vol 133, No. 8, pages 081602 (10 pages), 2011.",
+                    "X. Jin, Y. Guo, S. Sarkar#, A. Ray, and R.M. Edwards, “<i>Anomaly detection in nuclear power plants via symbolic dynamic filtering</i>”, IEEE Transactions on Nuclear Science, Vol 58, No.1, pages 277-288, 2011.",
+                    "S. Sarkar#, C. Rao and A. Ray, “<i>Statistical estimation of multiple faults in aircraft gas turbine engines</i>”, Proceedings of the I Mech E Part G: Journal of Aerospace Engineering, Vol 223, No.4, pages 415-424, 2009.",
+                    "S. Sarkar#, K. Mukherjee and A. Ray, “<i>Generalization of Hilbert transform for symbolic analysis of noisy signals</i>”, Signal Processing, Vol 89, Issue 6, pages 1245-1251, 2009.",
+                    "C. Rao, K. Mukherjee, S. Sarkar# and A. Ray, “<i>Statistical estimation of multiple parameters via symbolic dynamic filtering</i>”, Signal Processing, in Vol 89, Issue 6, pages 981-988, 2009.",
+                    "C. Rao, A. Ray, S. Sarkar# and M. Yasar, “<i>Review and comparative evaluation of symbolic dynamic filtering for detection of anomaly patterns</i>”, Signal, Image, and Video Processing, Vol 3, Issue 2, pages 101-114, 2009.",
+                    "S. Chakraborty, S. Sarkar#, S. Gupta and A. Ray, “<i>Damage monitoring of refractory wall in a generic entrained-bed slagging gasification system</i>”, Proceedings of the I Mech E Part A: Journal of Power and Energy, Vol 222, No. 8, pages 791-807, 2008.",
+                    "S. Sarkar#, M. Yasar, S. Gupta, A. Ray and K. Mukherjee, “<i>Fault detection and isolation in aircraft gas turbine engines: part II validation on a simulation test bed</i>”, Proceedings of the I Mech E Part G: Journal of Aerospace Engineering, Vol 222, No. 3, pages 319-330, 2008.",
+                    "S. Gupta, A. Ray, S. Sarkar# and M. Yasar, “<i>Fault detection and isolation in aircraft gas turbine engines: part I underlying concept</i>”, Proceedings of the I Mech E Part G: Journal of Aerospace Engineering, Vol 222, No. 3, pages 307-318, 2008."
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "II.A.2",
+              "number": "2",
+              "title": "Articles in Peer-Reviewed Journals – In Review",
+              "numberingContinues": false,
+              "blocks": [],
+              "children": []
+            },
+            {
+              "id": "II.A.3",
+              "number": "3",
+              "title": "Peer-Reviewed Conference Proceedings, Bulletins, or Reports – In Print/Accepted",
+              "numberingContinues": true,
+              "blocks": [
+                {
+                  "heading": "During current rank at ISU",
+                  "style": "numbered",
+                  "items": [
+                    "Z. Hasan+, G. Basulto, K.L. Tan, J. Chang, S. Sarkar, A. Sharma, S. Hallmark, M. Rizzo, J. Merickel, “<i>Roadway weather challenges illuminate real-world driving biomarkers of dementia risk</i>,” Alzheimer’s Association International Conference (AAIC) 2023 Annual Meeting, Amsterdam, Netherlands, July 16-20, 2023.",
+                    "M. Saadati+, S. Chiranjeevi+, A. Balu, T. Z. Jubery, A. K Singh, S. Sarkar, A. Singh, B. Ganapathysubramanian, “<i>Out-of-distribution algorithms for robust insect classification</i>,” AAAI Workshop on AI for Agriculture and Food Systems, Washington D.C., Feb 14, 2023.",
+                    "N. Saleem+, B. Ganapathysubramanian, A. Balu, T. Z. Jubery, S. Sarkar, A. Singh, A. K Singh, “<i>Optimized Class-specific Data Augmentation for Plant Stress Classification</i>,” AAAI Workshop on AI for Agriculture and Food Systems, Washington D.C., Feb 14, 2023.",
+                    "A. Jignasu+, E. Herron+, T. Z. Jubery, J. Afful, A. Balu, B. Ganapathysubramanian, S. Sarkar, A. Krishnamurthy, “<i>Plant Geometry Reconstruction From Field Data Using Neural Radiance Fields</i>,” AAAI Workshop on AI for Agriculture and Food Systems, Washington D.C., Feb 14, 2023.",
+                    "S. Chattopadhyay+, M. E. Carroll, B. Ganapathysubramanian, A. K Singh, S. Sarkar, “<i>Data driven ensemble learning for soybean yield prediction</i>,” AAAI Workshop on AI for Agriculture and Food Systems, Washington D.C., Feb 14, 2023.",
+                    "B. Feuer, A. Joshi, M. Cho, K. Jani, S. Chiranjeevi+, Z. K. Deng, A. Balu, A. K Singh, S. Sarkar, N. Merchant, A. Singh, B. Ganapathysubramanian, C. Hegde, “<i>Zero-Shot Insect Detection via Weak Language Supervision</i>,” AAAI Workshop on AI for Agriculture and Food Systems, Washington D.C., Feb 14, 2023.",
+                    "H.-J. Yang+, C.-H. Yang+, P. Sornberger, R. Duke, C. Risko, B. Ganapathysubramanian, S. Sarkar, “<i>Deep Reinforcement Learning Exploration in Continuous Latent Space for Molecular Design</i>,” AAAI Workshop on AI to Accelerate Science and Engineering, Washington D.C., Feb 13, 2023.",
+                    "Q. Liu+, X. Y. Lee+, S. Sarkar, “<i>A study of natural robustness of deep reinforcement learning algorithm towards adversarial perturbations</i>,” Deep Reinforcement Learning Workshop at NeurIPS, Virtual, Dec 9, 2022.",
+                    "F. Fotouhi+, A. Balu, Z. Jiang, Y. Esfandiari, S. Jahani, S. Sarkar, “<i>Communication-efficient Decentralized Deep Learning</i>,” Decentralization and Trustworthy Machine Learning in Web3: Methodologies, Platforms, and Applications Workshop at NeurIPS, New Orleans, LA, Dec 3, 2022.",
+                    "S. Y. Tan+, W. Fan+, Q. Liu+, T. Wongpiromsarn, S. Sarkar, “<i>Enhancing System-level Safety in Autonomous Driving via Feedback Learning</i>,” Machine Learning for Autonomous Driving Workshop at NeurIPS, New Orleans, LA, Dec 3, 2022.",
+                    "Z. Hasan+, A. Joshi, M. Rahman, A. Venkatachalapathy+, A. Sharma, C. Hegde, S. Sarkar, “<i>DriveCLIP: Zero-shot transfer for distracted driving activity understanding using CLIP</i>,” Machine Learning for Autonomous Driving Workshop at NeurIPS, New Orleans, LA, Dec 3, 2022.",
+                    "E. Herron+, X.Y. Lee+, A. Balu, B. S. S. Pokuri, B. Ganapathysubramanian, S. Sarkar, A. Krishnamurthy, “<i>Generative Design of Material Microstructures for Organic Solar Cells using Diffusion Models</i>,” AI for Accelerated Materials Design Workshop at NeurIPS, New Orleans, LA, Dec 2, 2022.",
+                    "X. Y. Lee+, S. Sarkar, Y. Wang, “<i>A Graph Policy Network Approach for Volt-Var Control in Power Distribution Systems</i>,” Domain-Aware Scientific Reinforcement Learning minisymposium at SIAM Conference on Mathematics of Data Science (MDS22), San Diego, CA, September 26 - 30, 2022.",
+                    "J. Lin, X. Y. Lee+, T. Jubery, S. Moothedath, S. Sarkar, B. Ganapathysubramanian, “<i>Stochastic Conservative Contextual Linear Bandits</i>,” 61st IEEE Conference on Decision and Control (CDC), Cancún, Mexico, Dec. 6-9, 2022.",
+                    "D. Leguizamo+, H-J. Yang+, X.Y. Lee+, <u>S. Sarkar</u>, \" <i>Deep Reinforcement Learning for Robotic Control with Multi-Fidelity Models</i>,\" Modeling, Estimation and Control Conference (MECC), Jersey City, NJ, October 2 - 5, 2022.",
+                    "Z. Jiang, A. Balu, X. Y. Lee+, Y. M. Lee, C. Hegde, and S. Sarkar, “<i>Distributed Online Non-convex Optimization with Composite Regret</i>,” 58th ALLERTON Conference on Communication, Control, and Computing, Champaign, IL, Sept 27-30, 2022.",
+                    "X. Y. Lee+, S. Sarkar, and Y. Wang, \" <i>A Graph Policy Network Approach for Volt-Var Control in Power Distribution Systems</i>,\" Domain-Aware Scientific Reinforcement Learning minisymposium at SIAM Conference on Mathematics of Data Science (MDS22), San Diego, CA, September 26 - 30, 2022.",
+                    "Z Jiang, X. Y. Lee+, S.Y. Tan+, K.L. Tan+, A. Balu, Y.M. Lee, C Hegde, <u>S. Sarkar</u>, “<i>MDPGT: Momentum-based Decentralized Policy Gradient Tracking</i>”, Proceedings of the Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), Virtual, February 22 – March 1, 2022.",
+                    "S. Moothedath, X. Y. Lee+, Z. T. Jubery+, B. Ganapathysubramanian, S. Sarkar, “<i>A Conservative Stochastic Contextual Bandit Based Framework for Farming Recommender Systems</i>”, AI for Agriculture and Food Systems Workshop in Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), Virtual, February 22 – March 1, 2022.",
+                    "M. Cho+, K. Nagasubramanian+, A. K. Singh, A. Singh, B. Ganapathysubramanian, S. Sarkar, C. Hegde, “<i>Privacy-Preserving Deep Models for Plant Stress Phenotyping</i>”, AI for Agriculture and Food Systems Workshop in Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), Virtual, February 22 – March 1, 2022.",
+                    "S. Kar+, K. Nagasubramanian+, D. Elango+, A. Nair, D. S. Mueller, M. E. O’Neal, A. K. Singh, S. Sarkar, B. Ganapathysubramanian, A. Singh, “<i>Self-Supervised Learning Improves Agricultural Pest Classification</i>”, AI for Agriculture and Food Systems Workshop in Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), Virtual, February 22 – March 1, 2022.",
+                    "S. Chiranjeevi+, T. Young+, T. Z. Jubery+, K. Nagasubramanian+, S. Sarkar, A. K. Singh, A. Singh, B. Ganapathysubramanian, “<i>Exploring the use of 3D point cloud data for improved plant stress rating</i>”, AI for Agriculture and Food Systems Workshop in Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), Virtual, February 22 – March 1, 2022.",
+                    "X. Y. Lee+, A. Balu, B. S. S. Pokuri+, A. Krishnamurthy, S. Sarkar, B. Ganapathysubramanian, “<i>Inverse Design of Microstructures via Generative Networks for Organic Solar Cells</i>”, AI for Design and Manufacturing Workshop in Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), Virtual, February 22 – March 1, 2022.",
+                    "E. Herron+, A. Jignasu+, J. Rade+, X. Y. Lee+, A. Balu, A. Krishnamurthy, S. Sarkar, “<i>Fast Unsupervised Generative Design for Structural Topology Optimization</i>”, AI for Design and Manufacturing Workshop in Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), Virtual, February 22 – March 1, 2022.",
+                    "J. Rade+, A. Balu, E. Herron+, A. Jignasu+, S. Botelho, S. Adavani, S. Sarkar, B. Ganapathysubramanian, A. Krishnamurthy, “<i>Multigrid Distributed Deep CNNs for Structural Topology Optimization</i>”, AI for Design and Manufacturing Workshop in Thirty-Fifth AAAI Conference on Artificial Intelligence (AAAI), Virtual, February 22 – March 1, 2022.",
+                    "M. Cho+, A. Balu+, A. Joshi+, A. D. Prasad+, B. Khara+, S. Sarkar, B. Ganapathysubramanian, A. Krishnamurthy, C. Hegde, “<i>Differentiable Spline Approximations</i>”, Neural Information Processing Systems (NeurIPS), Virtual, December 6-14, 2021.",
+                    "Y. Esfandiari+, K. Nagasubramanian+, F. Fotouhi+, P.S. Schnable, B. Ganapathysubramanian, <u>S. Sarkar</u>, “<i>Distributed Deep Learning for Persistent Monitoring of agricultural Field</i>”, AI for Science Workshop in Neural Information Processing Systems (NeurIPS), Virtual, December 6-14, 2021.",
+                    "T. Gangopadhyay+, V. Ramanan+, S.R. Chakravarthy, <u>S. Sarkar</u>, \"<i>Cross-Modal Virtual Sensing for Combustion Instability Monitoring</i>\", Machine Learning and the Physical Sciences Workshop in Neural Information Processing Systems (NeurIPS), Virtual, December 6-14, 2021.",
+                    "X.Y. Lee+, S. Sarkar, and Y. Wang, \"<i>A Graph Policy Network Approach for Volt-Var Control in Power Distribution Systems</i>\", Deep Reinforcement Learning Workshop in Neural Information Processing Systems (NeurIPS), Virtual, December 6-14, 2021.",
+                    "A. Balu+, S. Botelho, B. Khara+, V. Rao, C. Hegde, S. Sarkar, S. Adavani, A. Krishnamurthy, and B. Ganapathysubramanian. \"<i>Distributed Multigrid Neural Solvers on Megavoxel Domain</i>\", Supercomputing (SC'21): Proceedings of the International Conference for High Performance Computing, Networking, Storage and Analysis, Article No.: 49Pages 1–14, November, 2021. https://doi.org/10.1145/3458817.3476218",
+                    "J. Rade+, S. Sarkar, A. Krishnamurthy, J. Ren, A. Sarkar, “<i>AI Guided Measurement of Live Cells Using AFM</i>”, Modeling, Estimation and Control Conference (MECC), (Austin, TX), October 24-27, 2021.",
+                    "S. Ghadai+, X. Y. Lee+, A. Balu+, S. Sarkar, A. Krishnamurthy, “<i>Multi-resolution 3D CNN for Learning Multi-scale Spatial Features in CAD Models</i>”, SIAM Conference on Geometric and Physical Modeling (GD/SPM21), Virtual, Sept 27-29, 2021.",
+                    "Y. Esfandiari+, S. Y. Tan+, Z. Jiang, A. Balu+, E.D. Herron+, C. Hegde, <u>S. Sarkar</u>, “<i>Cross-Gradient Aggregation for Decentralized Learning from Non-IID data</i>”, International Conference on Machine Learning (ICML), Virtual, July 18-24, 2021.",
+                    "A. Saffari+, S. Y. Tan+, M. Katanbaf+, H. Saha+, J. Smith, S. Sarkar, “<i>Battery-Free Camera Occupancy Detection System</i>”, 5th International Workshop on Embedded and Mobile Deep Learning (EMDL), Virtual, June 24-25, 2021.",
+                    "A. Balu+, Z. Jiang, SY. Tan+, C. Hedge, Y. M. Lee, <u>S. Sarkar</u>, “<i>Decentralized Deep Learning Using Momentum-Accelerated Consensus</i>”, IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), (Toronto, Canada), June 6-11, 2021.",
+                    "T. Gangopadhyay+, S. Y. Tan+, Z. Jiang, R. Meng, <u>S. Sarkar</u>, “Spatiotemporal Attention for Multivariate Time Series Prediction and Interpretation”, IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP), (Toronto, Canada), June 6-11, 2021.",
+                    "X.Y. Lee+, Y. Esfandiari+, K.L. Tan+, <u>S. Sarkar</u>, “<i>Query-based Targeted Action-Space Adversarial Policies on Deep Reinforcement Learning Agents</i>”, International Conference on Cyber-Physical Systems (ICCPS), (Nashville, TN), May 19-21, 2021.",
+                    "A. Sarkar, J. Waite+, S. Sarkar, “<i>Deep learning for fast Atomic Force Microscopy data analytics</i>”, 65th Biophysical Society Annual Meeting, Virtual, Feb 22-26, 2021.",
+                    "T. Gangopadhyay+, J. Shook+, A. K. Singh, <u>S. Sarkar</u>, “<i>Interpreting the Impact of Weather on Crop Yield Using Attention</i>”, Workshop on AI for Earth Sciences, Neural Information Processing Systems (NeurIPS), Virtual, December 6-12, 2020.",
+                    "Y. Esfandiari+, S.Y. Tan+, Z. Jiang, A. Balu+, C. Hegde, <u>S. Sarkar</u>, “<i>Local Gradient Aggregation for Decentralized Learning from Non-IID data</i>”, Optimization for Machine Learning Workshop, Neural Information Processing Systems (NeurIPS), Virtual, December 6-12, 2020.",
+                    "M. Cho+, A. Joshi+, X.Y. Lee+, A. Balu+, B. Ganapathysubramanian, S. Sarkar, C. Hegde, “<i>Differentiable Programming for Piecewise Polynomial Functions</i>”, Learning Meets Combinatorial Algorithms Workshop, Neural Information Processing Systems (NeurIPS), Virtual, December 6-12, 2020.",
+                    "Z. Jiang, X.Y. Lee+, S.Y Tan+, A. Balu+, Y.M. Lee, C. Hegde, <u>S. Sarkar</u>, “<i>Adaptive Gradient Tracking In Stochastic Optimization</i>”, Optimization for Machine Learning Workshop, Neural Information Processing Systems (NeurIPS), Virtual, December 6-12, 2020.",
+                    "X.Y. Lee+, Y. Esfandiari+, K.L. Tan+, <u>S. Sarkar</u>, “<i>Targeted Query-based Action-Space Adversarial Policies on Deep Reinforcement Learning Agents</i>”, Deep Reinforcement Learning Workshop, Neural Information Processing Systems (NeurIPS), Virtual, December 6-12, 2020.",
+                    "T. Gangopadhyay+, S. Y. Tan+, Z. Jiang, <u>S. Sarkar</u>, “<i>Interpretable Deep Attention Model for Multivariate Time Series Prediction in Building Energy Systems</i>”, International Conference on Dynamic Data Driven Application Systems (DDDAS), (Boston, MA), October 2-4, 2020.",
+                    "B. Giera, X. Y. Lee+, S. Saha, S. Sarkar, “<i>Automated Detection of Part Quality During Two Photon Lithography via Deep Learning</i>”, Annual International Solid Freeform Fabrication Symposium (SFF Symp 2020), Austin, TX, August 17-19, 2020.",
+                    "A. Joshi+, B. Khara+, S. Sarkar, B. Ganapathysubramanian, C. Hedge, “<i>Solving Linear PDEs with Generative Models”, ASILOMAR 2020 Conference on Signals</i>, <i>Systems, and Computers</i>, Pacific Grove, CA, November 1-4, 2020.",
+                    "A. Balu+, S. Ghadai+, S. Sarkar, A. Krishnamurthy, “<i>Orthogonal Distance Fields Representation For Machine-Learning Based Manufacturability Analysis”</i>, ASME 2020 International Design Engineering Technical Conferences and Computers and Information in Engineering Conference (IDETC-CIE), St. Louis, MO, August 16-19, 2020.",
+                    "L. Riera+, K. Ozcan+, J. Merickel, M. Rizzo, S. Sarkar, A. Sharma, “<i>Automatic Lane Detection Algorithm For Noisy Naturalistic Driving Data”</i>, IEEE Intelligent Vehicle Symposium (IV), (Las Vegas), June 23-26, 2020.",
+                    "S.Y. Tan+, H. Saha+, M. Jacoby+, A.R. Florita, G.P. Henze, <u>S. Sarkar</u>, “<i>Granger Causality-based Hierarchical Time Series Clustering for State Estimation”</i>, IFAC World Congress, (Berlin, Germany), July 12-17, 2020.",
+                    "T. Gangopadhyay+, S. Y. Tan+, A. Locurto+, J. B. Michael, <u>S. Sarkar</u>, “<i>Interpretable Deep Learning for Monitoring Combustion Instability”</i>, IFAC World Congress, (Berlin, Germany), July 12-17, 2020.",
+                    "K. L. Tan+, Y. Esfandiari+, X. Y. Lee+, Aakanksha+, <u>S. Sarkar</u>, “<i>Robustifying Reinforcement Learning Agents via Action Space Adversarial Training</i>”, Proceedings of American Control Conference (ACC), (Denver, CO), Jul 1-3, 2020.",
+                    "X.Y. Lee+, S. Ghadai+, K.L. Tan+, C. Hedge, <u>S. Sarkar</u>, “<i>Spatiotemporally Constrained Action Space Attacks on Deep Reinforcement Learning Agents</i>”, Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence (AAAI), New York, NY, Feb 7-12, 2020.",
+                    "A. Joshi+, M. Cho+, V. Shah+, B. Pokuri+, S. Sarkar, B. Ganapathysubramanian, C. Hedge, “<i>InvNet: Encoding Geometric and Statistical Invariances in Deep Generative Models</i>”, Proceedings of the Thirty-Third AAAI Conference on Artificial Intelligence (AAAI), New York, NY, Feb 7-12, 2020.",
+                    "Y. Esfandiari+, K. Ebrahimi+, A. Balu+, U. Vaidya, N. Elia and <u>S. Sarkar</u>, “<i>A Saddle-Point Dynamical System Approach for Robust Deep Learning</i>”, SafeAI workshop at the Thirty-Third AAAI Conference on Artificial Intelligence (AAAI), New York, NY, Feb 7, 2020.",
+                    "T. Gangopadhyay+, S. Y. Tan+, A. Locurto+, J. B. Michael, <u>S. Sarkar</u>, “<i>An Explainable Framework using Deep Attention Models for Sequential Data in Combustion Systems</i>”, NeurIPS Workshop on Machine Learning and the Physical Sciences, Vancouver, Canada, Dec 13-14, 2019.",
+                    "Z. Jiang, A. Balu+, S.Y. Tan+, Y.M. Lee, C. Hedge, <u>S. Sarkar</u>, “<i>On Higher-order Moments in Adam</i>”, NeurIPS Workshop on Beyond First Order Methods in Machine Learning, Vancouver, Canada, Dec 13-14, 2019.",
+                    "A. Mukherjee+, A. Joshi+, S. Sarkar, C. Hegde, “<i>Semantic Domain Adaptation for Deep Classifiers via GAN-based Data Augmentation</i>”, NeurIPS Workshop on Machine Learning for Autonomous Driving, Vancouver, Canada, Dec 13-14, 2019.",
+                    "A. Joshi+, V. Shah+, S. Ghosal+, B. S. S. Pokuri+, S. Sarkar, B. Ganapathysubramanian, C. Hegde, “<i>Generative Models for Solving Nonlinear Partial Differential Equations</i>”, NeurIPS Workshop on Machine Learning and the Physical Sciences, Vancouver, Canada, Dec 13-14, 2019.",
+                    "H. Saha+, V. Venkataraman, A. Speranzon, <u>S. Sarkar</u>, “<i>A perspective on multi-agent communication for information fusion</i>”, NeurIPS Workshop on Visually Grounded Interaction and Language, Vancouver, Canada, Dec 13-14, 2019.",
+                    "X.Y. Lee+, S. Ghadai+, K.L. Tan+, C. Hedge, <u>S. Sarkar</u>, “<i>Spatiotemporally Constrained Action Space Attacks on Deep Reinforcement Learning Agents</i>”, NeurIPS Workshop on Deep Reinforcement Learning, Vancouver, Canada, Dec 13-14, 2019.",
+                    "T. Gangopadhyay+, J. Shook+, A. K. Singh+, <u>S. Sarkar</u>, “<i>Deep Time Series Attention Models for Crop Yield Prediction and Insights</i>”, NeurIPS Workshop on Machine Learning and the Physical Sciences, Vancouver, Canada, Dec 13-14, 2019.",
+                    "A. Joshi+, A. Mukherjee+, S. Sarkar, C. Hegde, “<i>Semantic Adversarial Attacks: Parametric Transformations That Fool Deep Classifiers</i>”, International Conference on Computer Vision (ICCV), Seoul, South Korea, Oct 27 – Nov 2, 2019.",
+                    "A. Balu, K.L. Tan, C. H. Wu, M-C. Hsu, S. Sarkar, A. Krishnamurthy, “Deep Learning for Dynamic Deformation Simulation of Bioprosthetic Heart Valves”, USNCCM 15, Austin, TX, 2019.",
+                    "A. Barnwal+, J. Merickel, L. Riera-Garcia+, K. Ozcan+, S. Sarkar, A. Sharma, M. Rizzo, “<i>Linking age-related decline to driver behavior at signalized intersections”</i>, 2019 Association for the Advancement of Automotive Medicine’s (AAAM) 63rd Annual Scientific Conference, Madrid, Spain, 15 – 18 October 2019.",
+                    "K.L. Tan+, S. Poddar+, <u>S. Sarkar</u>, A. Sharma, “<i>Deep Reinforcement Learning for Adaptive Traffic Signal Control</i>”, Proceedings of ASME 2019 Dynamic Systems and Control Conference (DSCC), (Park City, Utah), Oct 8-11, 2019.",
+                    "S.Y. Tan+, H. Saha+, A.R. Florita, G.P. Henze, <u>S. Sarkar</u>, “<i>A flexible framework for building occupancy detection using spatiotemporal pattern networks</i>”, Proceedings of American Control Conference (ACC), (Philadelphia, PA), Jul 10-12, 2019."
+                  ]
+                },
+                {
+                  "heading": "During previous rank at ISU",
+                  "style": "numbered",
+                  "items": [
+                    "A. Mukherjee+, A. Joshi+, S. Sarkar, C. Hegde, \"<i>Attribute-Controlled Traffic Data Augmentation Using Conditional Generative Models</i>\", Vision for All Seasons: Bad Weather and Nighttime workshop at IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR), (Long Beach, CA), Jun 16-20, 2019.",
+                    "S. Ghadai+, X. Y. Lee+, A. Balu+, S. Sarkar, A. Krishnamurthy, \"<i>Multi-level 3D CNN for Learning Multi-scale Spatial Features</i>'', Deep Learning for Geometric Shape Understanding workshop at IEEE Computer Society Conference on Computer Vision and Pattern Recognition (CVPR), (Long Beach, CA), Jun 16-20, 2019.",
+                    "A. Balu+, M. Hsu, S. Sarkar, A. Krishnamurthy, “<i>A Deep-Learning Framework for Diagnostics and Design of Bioprosthetic Heart Valves”,</i> BMES/FDA conference on Frontiers in Medical Devices : The Role of Digital Evidence to Support Personalized Patient Healthcare, (Washington, DC Metropolitan Area), Mar 19-21, 2019.",
+                    "R. Singh+, A. Sharma+, O. Bingol+, A. Balu+, G. Balasubramanian, D. D. Johnson and <u>S. Sarkar</u>, “<i>3D Deep Learning with voxelized atomic configurations for modeling atomistic potentials in complex solid-solution alloys</i>”, Workshop on Machine Learning for Molecules and Materials (MLMM) at Proceedings of Advances in Neural Information Processing Systems (NeurIPS), (Montreal, Canada), Dec 3-8, 2018.",
+                    "B.S.S. Pokuri+, S. Ghosal+, A. Kokate+, B. Ganapathysubramanian, <u>S. Sarkar</u>, “<i>Interpretable deep learning for guided structure-property explorations in photovoltaics”</i>, Workshop on Machine Learning for Molecules and Materials (MLMM) at Proceedings of Advances in Neural Information Processing Systems (NeurIPS), (Montreal, Canada), Dec 3-8, 2018.",
+                    "X. Lee+, A. Balu+, D. Stoecklein, B. Ganapathysubramanian, <u>S. Sarkar</u>, “<i>Flow Shape Design for Microfluidic Devices Using Deep Reinforcement Learning</i>”, Deep Reinforcement Learning Workshop at Proceedings of Advances in Neural Information Processing Systems (NeurIPS), (Montreal, Canada), Dec 3-8, 2018.",
+                    "R. Singh+, V. Shah+, B. Pokuri+, S. Sarkar, B. Ganapathysubramanian, C. Hegde, “<i>Physics-aware Deep Generative Models for Creating Synthetic Microstructures”</i>, Workshop on Machine Learning for Molecules and Materials (MLMM) at Proceedings of Advances in Neural Information Processing Systems (NeurIPS), (Montreal, Canada), Dec 3-8, 2018.",
+                    "T. Gangopadhyay+, S. Y. Tan+, G. Huang+, <u>S. Sarkar</u>, “<i>Temporal Attention and Stacked LSTMs for Multivariate Time Series Prediction”</i>, Workshop on Modeling and decision-making in the spatiotemporal domain at Proceedings of Advances in Neural Information Processing Systems (NeurIPS), (Montreal, Canada), Dec 3-8, 2018.",
+                    "A. Havens, Z. Jiang+, <u>S. Sarkar</u>, “<i>Online Robust Policy Learning in the Presence of Unknown Adversaries”</i>, Proceedings of Advances in Neural Information Processing Systems (NeurIPS), (Montreal, Canada), Dec 3-8, 2018.",
+                    "A. Balu+, S. Nallagonda+, F. Xu+, A. Krishnamurthy, M. Hsu, S. Sarkar, “<i>Machine Learning for Diagnostics and Patient-Specific Design of Bioprosthetic Heart Valves”</i>, Integrating Design and Analysis (IGA), (Austin, TX), Oct 10-12, 2018.",
+                    "H. Saha+, C. Liu+, Z. Jiang+, and <u>S. Sarkar</u>, “<i>Exploring granger causality in dynamical systems modeling and performance monitoring</i>”, Proceedings of Conference on Decision and Control, (Miami, FL), Dec 17-19, 2018.",
+                    "T. Gangopadhyay+, A. Locurto+, P. Boor+, J. B. Michael, <u>S. Sarkar</u>, “<i>Characterizing Combustion Instability Using Deep Convolutional Neural Networks</i>”, Proceedings of ASME Dynamic Systems and Control Conference, (Atlanta, Georgia), Oct 1-3, 2018.",
+                    "Z. Jiang+, A. Balu+, C. Hedge, <u>S. Sarkar</u>, “<i>Incremental Consensus-based Collaborative Deep Learning</i>”, ICML Workshop on Modern Trends in Nonconvex Optimization for Machine Learning (Spotlight presentation), Stockholm, Sweden, Jul 13-15, 2018.",
+                    "L. Wu+, V.Chinde+, H. Sharma+, U.Passe, <u>S. Sarkar</u>, “<i>A Data-driven approach towards integration of microclimate conditions for predicting building energy performance</i>”, 5th International High Performance Buildings Conference, (West Lafayette, IN), Jul 9-12, 2018.",
+                    "A. Locurto+, T. Gangopadhyay+, P. Boor*, S. Sarkar, J. B. Michael, “<i>Mode decomposition and convolutional neural network analysis of thermoacoustic instabilities in a Rijke tube</i>”, 2018 Spring Technical Meeting, Central States Section of The Combustion Institute, (Minneapolis, MN), May 20-22, 2018.",
+                    "Z. Jiang+, K. Mukherjee, <u>S. Sarkar</u>, “<i>On consensus-disagreement tradeoff in distributed optimization</i>”, Proceedings of American Control Conference (ACC), (Milwaukee, WI), Jun 27-29, 2018.",
+                    "C. Liu+, Z. Jiang+, A. Akintayo+, G. P. Henze, <u>S. Sarkar</u>, “<i>Building energy disaggregation using spatiotemporal pattern network</i>”, Proceedings of American Control Conference (ACC), (Milwaukee, WI), Jun 27-29, 2018.",
+                    "Z. Jiang+, T. Wilkie+, <u>S. Sarkar</u>, “<i>Hierarchical optimization for building energy systems</i>”, Proceedings of American Control Conference (ACC), (Milwaukee, WI), Jun 27-29, 2018.",
+                    "P. Chakraborty+, Y. A. Gyamfi, S. Poddar+, V. Ahsani+, A. Sharma and S. Sarkar, “<i>Traffic congestion detection from camera images using deep convolutional neural networks</i>”, Transportation Research Board 97th Annual Meeting, (Washington, D.C.), Jan 7-11, 2018.",
+                    "S. Poddar+, K. Ozcan+, P. Chakraborty+, V. Ahsani+, A. Sharma and S. Sarkar, “<i>Comparison of machine learning algorithms to determine traffic congestion from camera images</i>”, Transportation Research Board 97th Annual Meeting, (Washington, D.C.), Jan 7-11, 2018.",
+                    "Z. Jiang+, A. Balu+, C. Hegde, <u>S. Sarkar</u>, “<i>Collaborative deep learning in fixed topology networks</i>”, Proceedings of Advances in Neural Information Processing Systems (NIPS), (Long Beach, CA), Dec 4-9, 2017.",
+                    "A. Balu+, T. V. Nguyen+, A. Kokate+, C. Hegde, <u>S. Sarkar</u>, “<i>A forward-backward approach for visualizing information flow in deep networks</i>”, Symposium on Interpretable Machine Learning at NIPS<i>,</i> (Long Beach, CA), Dec 4-9, 2017.",
+                    "K. Nagasubramanian+, S. Jones+, A. K. Singh, A. Singh, B. Ganapathysubramanian, <u>S. Sarkar</u>, “<i>Explaining hyperspectral imagingbased plant disease identification: 3D CNN and saliency map</i>”, <i>NIPS Workshop on Interpreting, Explaining and Visualizing Deep Learning ... now what?</i> (Long Beach, CA), Dec 4-9, 2017.",
+                    "S. Ghosal+, D. Blystone+, A. K. Singh, B. Ganapathysubramanian, A. Singh and <u>S. Sarkar</u>, “<i>Interpretable deep learning applied to plant stress phenotyping</i>”, Symposium on Interpretable Machine Learning at NIPS, (Long Beach, CA), Dec 4-9, 2017.",
+                    "S. Ghadai+, A. Balu+, A. Krishnamurthy, <u>S. Sarkar</u>, “<i>Learning and visualizing localized geometric features using 3D-CNN: an application to manufacturability analysis of drilled holes</i>”, Symposium on Interpretable Machine Learning at NIPS, (Long Beach, CA), Dec 4-9, 2017.",
+                    "C. Liu+, K. G. Lore+, <u>S. Sarkar</u>, “<i>Root-cause analysis for time-series anomalies via spatiotemporal causal graphical modeling</i>”, Proceedings of IEEE Conference on Decision and Control (CDC), (Melbourne, Australia), Dec 12-15, 2017.",
+                    "L. Wu+, C. Liu+, T. Huang+, A. Sharma, <u>S. Sarkar</u>, “<i>Traffic sensor health monitoring using spatiotemporal graphical modeling</i>”, Proceedings of the 2nd ACM SIGKDD Workshop on Machine Learning for Prognostics & Health Management, (Halifax, NS, Canada), Aug 13-17, 2017.",
+                    "T. Huang+, C. Liu+, A. Sharma, <u>S. Sarkar</u>, “<i>Traffic system anomaly detection using spatiotemporal pattern networks</i>”, Proceedings of the 2nd ACM SIGKDD Workshop on Machine Learning for Prognostics & Health Management, (Halifax, NS, Canada), Aug 13-17, 2017.",
+                    "S. Ghosal+, A. Akintayo+, P. K. Boor+, <u>S. Sarkar</u>, “<i>High speed video-based health monitoring using 3D deep learning</i>”, Proceedings of the Dynamic Data Driven Application Systems (DDDAS), (Cambridge, MA), Aug 7-9, 2017.",
+                    "H. Saha+, T. Gao+, H. Emadi+, Z. Jiang+, A. Singh, B. Ganapathysubramanian, S. Sarkar, A. Singh, S. Bhattacharya, “<i>Autonomous mobile sensing platform for spatiotemporal plant phenotyping</i>”, Proceedings of ASME 2017 Dynamic Systems and Control Conference (DSCC)<i>,</i> (Tysons, VA), Oct 11-13, 2017.",
+                    "Z. Jiang+, K Mukherjee and <u>S. Sarkar</u>, “<i>Convergence and noise effect analysis for generalized gossip-based distributed optimization</i>”, Proceedings of the American Control Conference (ACC), (Seattle, WA), May 24-26, 2017",
+                    "C. Liu+, B. Huang+, M. Zhao+, S. Sarkar, U. Vaidya, A. Sharma, “<i>Data driven exploration of traffic network system dynamics using high resolution probe data</i>”, Proceedings of IEEE Conference on Decision and Control (CDC), (Las Vegas, NV), Dec 12-14, 2016.",
+                    "S. Ghosal+, V. Ramanan+, S. Sarkar, S. R. Chakravarthy, <u>S. Sarkar</u>, “<i>Detection and analysis of combustion instability from high-speed flame images using dynamic mode decomposition</i>”, Proceedings of ASME 2016 Dynamic Systems and Control Conference (DSCC)<i>,</i> (Minneapolis, MN), Oct 12-14, 2016.",
+                    "C. Liu+, Y. Gong+, S. Laflamme, B. Phares, <u>S. Sarkar</u>, “<i>Damage detection of bridge network with spatiotemporal pattern network</i>”, Proceedings of ASME 2016 Dynamic Systems and Control Conference (DSCC), (Minneapolis, MN), Oct 12-14, 2016.",
+                    "V. Chawla+, M.H. Hsiang+, A. Akintayo+, D. Hayes, P. Schnable, B. Ganapathysubramanian, <u>S. Sarkar</u>, “<i>A bayesian network approach to county-level corn yield prediction using historical data and expert-knowledge</i>”, Proceedings of the 22nd ACM SIGKDD Workshop on Data Science for Food, Energy and Water, (San Francisco, CA), Aug 13-17, 2016.",
+                    "A. Akintayo+, N. Lee +, V. Chawla+, M. Mullaney, C. Marett, A. K. Singh, A. Singh, G. Tylka, B. Ganapathysubramanian, <u>S. Sarkar</u>, “<i>An end-to-end convolutional selective autoencoder approach to soybean cyst nematode eggs detection</i>”, Proceedings of the 22nd ACM SIGKDD Workshop on Data Science for Food, Energy and Water, (San Francisco, CA), Aug 13-17, 2016.",
+                    "A. Akintayo,+K. G. Lore+, S. Sarkar, <u>S. Sarkar</u>, “<i>Early detection of combustion instabilities using deep convolutional selective autoencoders on hi-speed flame video</i>”, Proceedings of the 22nd ACM SIGKDD Workshop on Machine Learning for Prognostics & Health Management, (San Francisco, CA). Aug 13-17, 2016.",
+                    "S. Ghosal+, C. Liu+, U. Passe, S. He+, <u>S. Sarkar</u>, “<i>Data-driven persistent monitoring of Indoor Air Systems</i>”, Proceedings of the ASHRAE IAQ 2016 Defining Indoor Air Quality: Policy, Standards and Best Practices, (Alexandria, VA), Sep 12-14, 2016.",
+                    "V. Chinde+, A. Kohl*, Z. Jiang+, A. Kelkar, <u>S. Sarkar</u>, “<i>A VOLTTRON based implementation of supervisory control using generalized gossip for building energy systems</i>”, Proceedings in the 4th International High Performance Buildings Conference, (West Lafayette, IN), Jul 11-14, 2016.",
+                    "K. G. Lore+, N. Sweet+, K. Kumar+, N. Ahmed and <u>S. Sarkar</u>, “<i>Deep value of information estimators for collaborative human-machine information gathering</i>”, ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS), (Vienna, Austria), Apr 11-14, 2016.",
+                    "C. Liu+, S. Ghosal+, Z. Jiang+ and <u>S. Sarkar</u>, “<i>An unsupervised spatiotemporal graphical modeling approach to anomaly detection in distributed CPS</i>”, ACM/IEEE International Conference on Cyber-Physical Systems (ICCPS), (Vienna, Austria), Apr 11-14, 2016.",
+                    "Z. Jiang+, V. Chinde+, A. Kohl*, <u>S. Sarkar</u>, A. Kelkar, “<i>Scalable supervisory control of building energy systems using generalized gossip</i>”, Proceedings of the American Control Conference (ACC), (Boston, MA), Jul 6-8, 2016.",
+                    "V. Chinde+, K. C. Kosaraju, A. Kelkar, R. Pasumarthy, S. Sarkar and N. M. Singh, “<i>Building HVAC systems control using power shaping approach</i>”, Proceedings of the American Control Conference (ACC), (Boston, MA), Jul 6-8, 2016.",
+                    "S. Sarkar, D. K. Jha+, K. G. Lore+, A. Ray and <u>S. Sarkar</u>, “<i>Multi-modal spatiotemporal fusion using neural-symbolic causal modeling for early detection of combustion instability</i>”, Proceedings of the American Control Conference (ACC), (Boston, MA), Jul 6-8, 2016.",
+                    "K. G. Lore+, <u>S. Sarkar</u> and D. K. Jha+, “<i>Topology control of mobile sensor networks using information space feedback</i>”, Proceedings of the American Control Conference (ACC), (Boston, MA), Jul 6-8, 2016.",
+                    "S. Sarkar, K. G. Lore+ and <u>S. Sarkar</u>, “<i>Early detection of combustion instability by neural-symbolic analysis of hi-speed video</i>”, NIPS Workshop on Cognitive Computation: Integrating Neural and Symbolic Approaches, (Montreal, Canada), Dec 7-12, 2015.",
+                    "Z. Jiang+, <u>S. Sarkar</u> and K. Mukherjee, “<i>On distributed optimization using generalized gossip</i>”, Proceedings of Conference on Decision and Control (CDC), (Osaka, Japan), Dec 15-18, 2015.",
+                    "S. Sarkar, K. G. Lore+, <u>S. Sarkar</u>, V. Ramanan, S. Chakravarthy and A. Ray, “<i>Early detection of combustion instability from hi-speed flame images via deep learning and symbolic time series analysis</i>”, Proceedings of Annual Conference of the Prognostics and Health Management (PHM) Society, (San Diego, CA), Oct 18-24, 2015.",
+                    "Z. Jiang+ and <u>S. Sarkar</u>, “<i>Understanding wind turbine interactions using spatiotemporal pattern network</i>”, Proceedings of ASME Dynamical Systems and Control Conference (DSCC), (Columbus, OH), Oct 28-30, 2015.",
+                    "V. Chinde+, J. Heylmun*, A. Kohl*, Z. Jiang+ and <u>S. Sarkar</u>, “<i>Comparative evaluation of control-oriented zone temperature prediction modeling strategies in buildings</i>”, Proceedings of ASME Dynamical Systems and Control Conference (DSCC), (Columbus, OH), Oct 28-30, 2015.",
+                    "<u>S. Sarkar</u>, V. Venugopalan, K. Reddy, J. Rayde, M. Giering and N. Jaitly, “<i>Using deep convolutional networks for occlusion edge detection in RGB-D frames</i>”, IEEE High Performance Extreme Computing Conference (HPEC), (Waltham, MA), Sep 15-17, 2015.",
+                    "A. Akintayo+, <u>S. Sarkar</u>, “<i>A symbolic dynamic filtering approach to unsupervised hierarchical feature extraction from time-Series data</i>”, Proceedings of American Control Conference (ACC), (Chicago, IL), Jul 1-3, 2015.",
+                    "P. Chattopadhyay+, D. K. Jha+, <u>S. Sarkar</u> and A. Ray, “<i>Path planning in GPS-denied environments: a collective intelligence approach</i>”, Proceedings of American Control Conference (ACC), (Chicago, IL), Jul 1-3, 2015.",
+                    "K. G. Lore+, M. Davies+, D. Stoecklein+, B. Ganapathysubramanian and <u>S. Sarkar</u>, “<i>Deep learning for flow sculpting in microfluidic platforms</i>”, NVIDIA GPU Technical Conference, (Silicon Valley, CA), Mar 17-20, 2015.",
+                    "R. Georgescu, K. Reddy, N. Trcka, M. Chen, P. Quimby, P. O’Neill, T. Khawaja, D. Hestand, L. Bertuccelli, S. Sarkar, O. Erdinc and M. Giering, “<i>Scalable human-in-the-loop decision support”,</i> IEEE Aerospace Conference, (Big Sky, MT), Mar 7-14, 2015.",
+                    "S. Krishnamurthy, S. Sarkar, A. Tewari, “<i>Scalable anomaly detection and isolation in cyber-physical systems using bayesian networks</i>”, Proceedings of ASME Dynamical Systems and Control Conference (DSCC), (San Antonio, TX), Oct 22-24, 2014."
+                  ]
+                },
+                {
+                  "heading": "Prior to ISU appointment",
+                  "style": "numbered",
+                  "items": [
+                    "R. Khire, F. Leonardi, P. Quimby, <u>S. Sarkar</u> (in alphabetical order), “<i>A novel human machine interface for advanced building controls and diagnostics</i>”, 3rd International High Performance Buildings Conference, (West Lafayette, IN), Jul 14-17, 2014.",
+                    "V. Adetola, S. Bengea, F. Borrelli, K. Kang, A. Kelman, F. Leonardi, P. Li, T. Lovett, S. Sarkar, S. Vichik (in alphabetical order), “<i>Fault-Tolerant optimal control of a large-size, commercial building heating, ventilation and air conditioning system</i>”, 3rd International High Performance Buildings Conference, (West Lafayette, IN), Jul 14-17, 2014.",
+                    "S. Sarkar, N. Virani, M. Yasar, A. Ray, and S. Sarkar, “<i>Spatiotemporal information fusion for fault detection in shipboard auxiliary systems</i>”, Proceedings of American Control Conference (ACC), (Washington, D.C.), Jun 17-19, 2013.",
+                    "<u>S. Sarkar</u>, A. Srivastav, and M. Shashanka, “<i>Maximally bijective discretization for data-driven modeling of complex systems</i>”, Proceedings of American Control Conference (ACC), (Washington, D.C.), Jun 17-19, 2013.",
+                    "S. Sarkar, K. Mukherjee, S. Sarkar, and A. Ray, “<i>Symbolic transient time-series analysis for fault detection in aircraft gas turbine engines</i>”, Proceedings of American Control Conference (ACC), (Montreal, Canada), Jul 27-29, 2012.",
+                    "S. Sarkar#, K. Mukherjee, and A. Ray, “<i>Distributed decision propagation in mobile agent networks</i>”, Proceedings of American Control Conference (ACC), (Montreal, Canada), Jul 27-29, 2012.",
+                    "S. Sarkar#, D. S. Singh, A. Srivastav, and A. Ray, “<i>Semantic sensor fusion for fault diagnosis in aircraft gas turbine engines</i>”, Proceedings of American Control Conference (ACC), (San Francisco, CA), Jun 29- Jul 1, 2011.",
+                    "D. S. Singh, S. Sarkar#, S. Gupta, and A. Ray, “<i>Optimal partitioning of ultrasonic data for fatigue damage detection</i>”, Proceedings of American Control Conference (ACC), (San Francisco, CA), Jun 29- Jul 1, 2011.",
+                    "S. Sarkar#, K. Mukherjee, A. Srivastav, and A. Ray, “<i>Distributed decision propagation in mobile agent network</i>s”, Proceedings of Conference on Decision and Control (CDC), (Atlanta, GA), Dec 15-17, 2010.",
+                    "S. Sarkar#, K. Mukherjee, X. Jin, and A. Ray, “<i>Optimization of time-series data partitioning for parameter identification</i>”, Proceedings of ASME Dynamic Systems and Control Conference (DSCC), (Cambridge, MA), Sep 13-15, 2010.",
+                    "S. Sarkar#, K. Mukherjee, A. Srivastav, and A. Ray, “<i>Critical phenomena and finite-size scaling in communication networks</i>”, Proceedings of American Control Conference (ACC), (Baltimore, MD), Jun 30 - Jul 2, 2010.",
+                    "S. Chakraborty, S. Sarkar#, A. Ray and S. Phoha, “<i>Symbolic identification for anomaly detection in aircraft gas turbine engines</i>”, Proceedings of American Control Conference (ACC), (Baltimore, MD), Jun 30 – Jul 2, 2010.",
+                    "X. Jin, S. Sarkar#, K. Mukherjee and A. Ray, “<i>Suboptimal partitioning of time-series data for anomaly detection</i>”, Proceedings of Conference on Decision and Control (CDC), (Shanghai, China), Dec 15-18, 2009.",
+                    "S. Sarkar#, K. Mukherjee, A. Srivastav, and A. Ray, “<i>Understanding phase transition in communication networks to enable robust and resilient control</i>”, Proceedings of American Control Conference (ACC), (St. Louis, MO), Jun 10-12, 2009.",
+                    "S. Sarkar#, K. Mukherjee and A. Ray, “<i>Symbolic analysis of time series signals using generalized hilbert transform</i>”, Proceedings of American Control Conference (ACC), (St. Louis, MO), Jun 10-12, 2009.",
+                    "S. Sarkar#, C. Rao and A. Ray, “<i>Estimation of multiple faults in aircraft gas turbine engines</i>”, Proceedings of American Control Conference (ACC), (St. Louis, MO), Jun 10-12, 2009.",
+                    "C. Rao, S. Sarkar#, A. Ray, and M. Yasar, “<i>Comparative evaluation of symbolic dynamic filtering for detection of anomaly patterns</i>”, Proceedings of American Control Conference (ACC), (Seattle, WA), Jun 11-13, 2008.",
+                    "C. Rao, K. Mukherjee, S. Sarkar#, and A. Ray, “<i>Estimation of multiple parameters in dynamical systems</i>”, Proceedings of American Control Conference (ACC), (Seattle, WA), Jun 11-13, 2008.",
+                    "S. Sarkar#, K. Mukherjee, A. Ray, and M. Yasar, “<i>Fault diagnosis and isolation in aircraft gas turbine engines</i>”, Proceedings of American Control Conference (ACC<i>)</i>, (Seattle, WA), Jun 11-13, 2008.",
+                    "S. Chakraborty, S. Sarkar#, and A. Ray, “<i>Symbolic identification and anomaly detection in complex dynamical systems</i>”, Proceedings of American Control Conference (ACC), (Seattle, WA), Jun 11-13, 2008."
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "II.A.2b",
+              "number": "2",
+              "title": "Books and Book Chapters (Listed are all book chapters)",
+              "numberingContinues": true,
+              "blocks": [
+                {
+                  "heading": "During current rank at ISU",
+                  "style": "numbered",
+                  "items": [
+                    "A. K. Singh, A. Singh, S. Sarkar, B. Ganapathysubramainan et. al., “<i>High-Throughput Phenotyping in Soybean</i>”, High-throughput Crop Phenotyping (part of a book series on Advanced Concepts and strategies in Plant Sciences (ACSPS)), Springer-Nature, 2021.",
+                    "T. Gangopadhyay+, S. Y. Tan+, Z. Jiang+, <u>S. Sarkar</u>, “<i>Interpretable Deep Attention Model for Multivariate Time Series Prediction in Building Energy Systems</i>”, Dynamic Data Driven Application Systems, Springer, 2020.",
+                    "T. Gangopadhyay+, A. Locurto+, J. B. Michael, <u>S. Sarkar</u>, “<i>Deep Learning Algorithms for Detecting Combustion Instabilities</i>”, Dynamics and Control of Energy Systems, Springer, 2020."
+                  ]
+                },
+                {
+                  "heading": "During previous rank at ISU",
+                  "style": "numbered",
+                  "items": [
+                    "A. Balu+, S. Ghadai+, G. Young+, S. Sarkar, A. Krishnamurthy, “<i>A Machine Learning Framework for Decision Support in Design and Manufacturing</i>”, ASME press, 2019.",
+                    "K. G. Lore+, D. Stoecklein+, M. Davies+, B. Ganapathysubramanian and <u>S. Sarkar</u>, “<i>Deep learning for engineering big data analytics</i>”, Big Data Analytics: From Planning to Performance, CRC Press, Taylor & Francis Group, USA 2017.",
+                    "<u>S. Sarkar</u>, Z. Jiang+, A. Akintayo+, S. Krishnamurthy and A. Tewari, “<i>Probabilistic graphical modeling of distributed cyber-physical systems</i>”, Cyber-Physical Systems: Foundations, Principles and Applications, Elsevier, 2016."
+                  ]
+                },
+                {
+                  "heading": "Prior to ISU appointment",
+                  "style": "numbered",
+                  "items": [
+                    "S. Sarkar, S. Sarkar, and A. Ray, “<i>Data-enabled health management of complex industrial systems</i>”, Fault Detection: Classification, Techniques and Role in Industrial Systems, Nova Science Publishers, December 2013.",
+                    "A. Srivastav, A. Tewari, B. Dong, S. Sarkar, and M. Gorbounov, “<i>Localized uncertainty quantification for baseline building energy modeling</i>”, Automated Diagnostics for Facility Equipment, Systems, and Whole Buildings, Fairmont Press, 2014."
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "II.A.3b",
+              "number": "3",
+              "title": "Formally Invited Seminars and Presentations",
+              "numberingContinues": true,
+              "blocks": [
+                {
+                  "heading": null,
+                  "style": "bullets",
+                  "items": [
+                    "<i>50 invited talks (47 after joining ISU – 22 at the current rank) at various universities, academic conferences, companies and government labs.</i>"
+                  ]
+                },
+                {
+                  "heading": "During current rank at ISU",
+                  "style": "numbered",
+                  "items": [
+                    "<i>Facets of Decentralized Deep Learning</i>, 9th Midwest Workshop on Control and Game Theory at the University of Minnesota Twin Cities in Minneapolis, MN, USA, April 2023.",
+                    "<i>Digital Twins in Agriculture</i>, Digital Twin Event at BASF, November 2022.",
+                    "<i>Future of Cyber-Physical Systems - Challenges and Opportunities</i>, NSF CPS PI Meeting Workshop, November 2022.",
+                    "<i>The New Paradigm of Cyber-Agricultural Systems</i>, Keynote address in Asia-Pacific Federation for Information Technology in Agriculture/World Congress on Computers in Agriculture (APFITA/WCCA), November 2022",
+                    "<i>AIOT for Sustainable Agriculture</i>, Smart Agriculture session, IEEE 8th World Forum on Internet of Things (WF-IoT), November 2022",
+                    "<i>AIIRA: AI Institute for Resilient Agriculture</i>, IoT4Ag Seeds of Innovation Series, August 2022",
+                    "<i>Vision for Cyber-Ag Systems: AIIRA, COALESCE and beyond</i>, ABE Faculty Retreat, University of Florida, August 2022",
+                    "<i>A cyber physical systems approach to sustainable agriculture</i>, Computing-Enabled Networked Physical Systems (CNPS) interagency working group (IWG) Meeting, June 2022.",
+                    "<i>Facets of Deep Learning in Cyber-Agricultural Systems</i>, Syngenta, May 2022.",
+                    "<i>Cyber-Agricultural Systems: An opportunity for international collaboration</i>, NSF-MOST Workshop on Cyber Physical Systems (CPS) & Smart and Connected Communities (SCC), March 2022.",
+                    "<i>Plant Phenomics and Artificial Intelligence to Glean Information from Plant Sensing Technologies</i>, Genetics, Genomics and Bioinformatics Symposium, ASAS Midwest Section Meeting, March 2022.",
+                    "<i>Role of Interpretable Machine Learning in Cyber-agricultural Systems</i>, International Conference on Digital Technologies for Sustainable Crop Production (DIGICROP), March 2022.",
+                    "<i>Deep Learning for Topology Optimization</i>, CVPR Tutorial on Distributed Deep Learning on HPC servers for Large Scale Computer Vision Applications topology optimization, June 2021.",
+                    "<i>A cyber physical systems approach to agricultural sustainability</i>, Japanese Society of Agricultural Informatics (JSAI) Annual Conference, May 2021.",
+                    "<i>A hands-on introduction to Deep Learning</i>, Midwest Big Data Summer School, Ames, IA, May 2021.",
+                    "<i>Physics-aware Machine Learning for Inverse Design</i>, Honeywell, May 2021.",
+                    "<i>Next Big Research Challenges in CPS,</i> NSF Invited Workshop, April 2021.",
+                    "<i>Building Trust in Deep Learning based Combustion Instability Detection</i>, International Indo-US online workshop on Application of Machine Learning and Dynamical Systems Approach for Early Detection and Control of Combustion Instabilities, January 2021.",
+                    "<i>A cyber physical systems approach to agricultural sustainability</i>, Workshop on Data Science for Agriculture and Natural Resource Management (DSANRM2020), 8th International Conference on Big Data Analytics (BDA2020), December 2020.",
+                    "<i>Machine Learning for Cyber-Physical Systems</i>, Pennsylvania State University, University Park, PA, October 2019.",
+                    "<i>Artificial Intelligence and Machine Learning for Engineering Design and Simulations</i>, ISU CoMFRE Annual Meeting, Ames, IA, October 2019.",
+                    "<i>Deep Learning for Engineering Design and Simulations</i>, Michigan Technological University, Houghton, MI, October 2019."
+                  ]
+                },
+                {
+                  "heading": "During previous rank at ISU",
+                  "style": "numbered",
+                  "items": [
+                    "<i>Deep Learning in digital agriculture: From microscopy to canopy</i>, Corteva Agriscience, Johnston, IA, June 2019.",
+                    "<i>Nuts and Bolts of Deep Learning</i>, Midwest Big Data Summer School, Ames, IA, May 2019.",
+                    "<i>Deep Learning for Combustion Instability Diagnostics</i>, 17th International Conference on Numerical Combustion, Aachen, Germany, May 2019.",
+                    "<i>Deep Learning for Cyber-Agricultural Analytics</i>, JST/NSF Big Data areas Joint PI Meeting, Kyoto, Japan, March 2019.",
+                    "<i>Deep learning for Agricultural analytics</i>, Keynote address in Asia-Pacific Federation for Information Technology in Agriculture/World Congress on Computers in Agriculture (AFITA/WCCA), IIT Bombay, Mumbai, India, October 2018.",
+                    "<i>Deep learning in cyber-enabled design and manufacturing</i>, Georgia Institute of Technology, Atlanta, GA, October 2018.",
+                    "<i>Robustifying Deep Reinforcement Learning agents under adversarial attacks</i>, Honeywell, Minneapolis, MN, September 2018.",
+                    "<i>Probabilistic Graphical Modeling for Building Energy Disaggregation</i>, Intelligent Buildings Operations workshop, Purdue University, West Lafayette, IN, July 2018.",
+                    "<i>Machine Learning Approaches for Building Analytics</i>, Intelligent Buildings Operations workshop, Purdue University, West Lafayette, IN, July 2018.",
+                    "<i>Engineering analytics with machine learning: Roles of supervised, semi-supervised and unsupervised models</i>, Tsinghua University, Beijing, China, July 2018.",
+                    "<i>Engineering analytics with deep learning: a few success stories</i>, NVIDIA Corporate Headquarters, Santa Clara, CA, February 2018.",
+                    "<i>A multi-scale data assimilation framework for layered sensing and hierarchical control of disease spread in field crops</i>, 2nd US-JAPAN (NSF-JST) Workshop on Collaborative Global Research on Applying Information Technology, Tokyo, December 2017.",
+                    "<i>A multi-scale data assimilation framework for layered sensing and hierarchical control of disease spread in field crops</i>, NSF CPS PI meeting, Washington DC, November 2017.",
+                    "<i>Applied deep learning</i>, Midwest Big Data Summer School, Ames, IA, July 2017.",
+                    "<i>Spatiotemporal graphical modeling for complex energy systems</i>, National Renewable Energy Laboratory (NREL), Golden, CO, April 2017.",
+                    "<i>Spatiotemporal graphical modeling for complex cyber-physical systems</i>, Department of Statistics, Iowa State University, Ames, IA, February 2017.",
+                    "<i>Engineering analytics with deep learning</i>, ExxonMobil Research and Engineering, Annandale, NJ, December 2016.",
+                    "<i>A deep autoencoder approach to natural low-light image enhancement</i>, Rockwell Collins Inc., Cedar Rapids, IA, May 2016.",
+                    "<i>Spatiotemporal graphical modeling for complex cyber-physical systems</i>, University of Colorado Boulder, CO, March 2016.",
+                    "<i>Solving hard engineering problems with deep learning</i>, Department of Mechanical Engineering, Washington State University, WA, March 2016.",
+                    "<i>Machine learning for plant phenotypic decision-making</i>, Phenotype Prediction: Image Acquisition and Analysis, Ames, IA, February 2016.",
+                    "<i>Solving hard engineering problems with deep learning</i>, Department of Computer Science, Iowa State University, Ames, IA, September 2015.",
+                    "<i>Research activities at Iowa State in dynamics, control and decision-making: From aerospace to building energy systems</i>, United Technologies Research Center, East Hartford, CT, March 2015.",
+                    "<i>Unsupervised aspects in autonomous perception & decision-making</i>, US Army Research Laboratory, Adelphi, MD, February 2015.",
+                    "<i>Learning, inference and decision making in human-cyber-physical Systems</i>, Department of Mechanical Engineering, Iowa State University, Ames, IA, January 2014."
+                  ]
+                },
+                {
+                  "heading": "Prior to ISU appointment",
+                  "style": "numbered",
+                  "items": [
+                    "<i>Autonomous perception and decision-making in complex cyber-physical systems</i>, Department of Mechanical Engineering, Missouri University of Science & Technology, Rolla, MO, January 2013.",
+                    "<i>Health monitoring of human-engineered complex systems: A cyber-physical approach</i>, Indian Institute of Science, Bangalore, India, June 2011.",
+                    "<i>Autonomous perception and decision-making in complex cyber-physical systems</i>, United Technologies Research Center, East Hartford, CT, April 2011."
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "II.A.4",
+              "number": "4",
+              "title": "Contributed Presentations",
+              "numberingContinues": true,
+              "blocks": [
+                {
+                  "heading": null,
+                  "style": "numbered",
+                  "items": [
+                    "<i>RGBD occlusion detection via deep convolutional neural networks</i>, NVIDIA GPU Technical Conference, San Jose, CA, March 2015.",
+                    "<i>Data-driven component level fault detection in aircraft gas turbine engines</i>, Propulsion Controls and Diagnostic Workshop, Cleveland, OH USA, December 2009.",
+                    "<i>Statistical estimation of multiple faults in aircraft gas turbine engines</i>, NASA Aviation Safety Technical Conference, Denver, CO USA, October 2008."
+                  ]
+                }
+              ],
+              "children": []
+            },
+            {
+              "id": "II.A.5",
+              "number": "5",
+              "title": "Other Scholarly Contributions",
+              "numberingContinues": true,
+              "blocks": [
+                {
+                  "heading": null,
+                  "style": "numbered",
+                  "items": [
+                    "<u>S. Sarkar</u>, D. Vrabie, M. Krucinski, L. Bertuccelli, T. Lovett, S. Mijanovic, “<i>From smart homes to green cities: role of intelligent diagnostics and control in energy efficient buildings</i>”, Dynamic Systems & Control Magazine, ASME Mechanical Engineering, December 2013."
+                  ]
+                }
+              ],
+              "children": []
+            }
+          ]
+        },
+        {
+          "id": "II.B",
+          "letter": "B",
+          "title": "Patents, Disclosures, and Technology Transfer",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "G. Henze, J. Smith, S. Sarkar, A. Florita, M. Jacoby, M. Nezhad, A. Saffari and S. Y. Tan, US Provisional Patent Application # 63/180,643 – <i>Wireless Home Identification and Sensing Platform for Energy Reduction</i>, filed May 13, 2021.",
+                "M. J. Giering, K. K. Reddy, V. Venugopalan, S. Sarkar, Multi-modal sensor data fusion for perception systems US Patent (Granted), US11422546B2",
+                "M. J. Giering, M. Shashanka, S. Sarkar, V. Venugopalan, <i>Sensor data fusion for prognostics and health monitoring</i>, International Patent Application WO2016100814A1, US Patent (Granted), US11340602B2, August 23, 2022.",
+                "S. Bengea, V. Adetola, M. Krucinski, S. Sarkar, A. Srivastav, T. Lovett, K. Mukherjee, A. Ghosh, M. Chen and P. Li, <i>Automated functional tests for diagnostics and control</i>, International Patent Application WO2016076946A2, China Patent (Granted), CN107111286B, November 19, 2021."
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "II.C",
+          "letter": "C",
+          "title": "Funded Grants and Contracts",
+          "numberingContinues": false,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "bullets",
+              "items": [
+                "<i>Total 39 federal, state and industry grants (11 as PI) from a variety of sources including NSF, USDA-NIFA, AFOSR, DARPA, NIH, DOT, and ARPA-E</i>",
+                "<i>Total funding of approximately $53.2M of which approximately $7.5M was allocated to the Sarkar research group</i>"
+              ]
+            },
+            {
+              "heading": "Percentage of fund for my lab mentioned in parenthesis",
+              "style": "plain",
+              "grants": [],
+              "items": []
+            },
+            {
+              "heading": "During previous rank at ISU",
+              "style": "plain",
+              "grants": [
+                {
+                  "n": "Grant 1",
+                  "investigators": "Soumik Sarkar (ISU ME)",
+                  "title": "A Knowledge Representation and Information Fusion Framework for Decision Making in Complex Cyber-Physical Systems",
+                  "agency": "NSF",
+                  "dates": "05/15/2015 – 04/30/2018",
+                  "total": "$208,406.00 (100%)",
+                  "role": "PI"
+                },
+                {
+                  "n": "Grant 2",
+                  "investigators": "Atul Kelkar (ISU ME), Soumik Sarkar (ISU ME)",
+                  "title": "Agent-based systems approach to building HVAC control",
+                  "agency": "Iowa Energy Center",
+                  "dates": "01/01/2015 – 06/30/2016",
+                  "total": "$103,830.00 (50%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 3",
+                  "investigators": "Namrata Vaswani (ISU ECPE), Soumik Sarkar (ISU ME)",
+                  "title": "Novel Machine Learning based methods for low-light image/video denoising (Phase I & II)",
+                  "agency": "Regents Innovation Fund and Rockwell Collins Inc.",
+                  "dates": "01/01/2015 – 06/30/2016",
+                  "total": "$200,000.00 (50%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 4",
+                  "investigators": "Arti Singh (ISU Agronomy), Soumik Sarkar (ISU ME) and others",
+                  "title": "Using Engineering tools to identify and quantify biotic and abiotic stress in soybean for customable agriculture production",
+                  "agency": "Iowa Soybean Association",
+                  "dates": "10/01/2015 – 09/30/2018",
+                  "total": "$185,590 (12%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 5",
+                  "investigators": "Carolyn J. Lawrence-Dill (ISU GDCB), Soumik Sarkar (ISU ME) and others",
+                  "title": "Data-Driven Discoveries for Agricultural Innovation",
+                  "agency": "Iowa State University",
+                  "dates": "10/01/2015 – 09/30/2018",
+                  "total": "$750,000 (7%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 6",
+                  "investigators": "Soumik Sarkar (ISU ME)",
+                  "title": "A Neural-Symbolic approach to Real-time Decision-making in Complex Aerospace Systems",
+                  "agency": "AFOSR (Young Investigator Program)",
+                  "dates": "04/28/2017 – 10/27/2020",
+                  "total": "$360,000 (100%)",
+                  "role": "PI"
+                },
+                {
+                  "n": "Grant 7",
+                  "investigators": "Adarsh Krishnamurthy (ISU ME), Soumik Sarkar (ISU ME)",
+                  "title": "CM: Machine-Learning Driven Decision Support in Design for Manufacturability",
+                  "agency": "NSF",
+                  "dates": "09/01/2016 – 08/31/2021",
+                  "total": "$491,175 (50%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 8",
+                  "investigators": "Soumik Sarkar (ISU ME), Baskar G (ISU ME), Asheesh Singh (ISU Agronomy), Arti Singh (ISU Agronomy)",
+                  "title": "A multi-scale data assimilation framework for layered sensing and hierarchical control of disease spread in field crops",
+                  "agency": "USDA-NIFA/NSF",
+                  "dates": "03/01/2017 – 02/29/2021",
+                  "total": "$990,471 (25%)",
+                  "role": "PI"
+                },
+                {
+                  "n": "Grant 9",
+                  "investigators": "Sourabh Bhattacharya (ISU ME), Soumik Sarkar (ISU ME), Baskar G (ISU ME), Asheesh Singh (ISU Agronomy), Arti Singh (ISU Agronomy)",
+                  "title": "Saliency-driven robotic networks for spatiotemporal plant phenotyping",
+                  "agency": "USDA-NIFA/NSF",
+                  "dates": "12/15/2016 – 12/14/2020",
+                  "total": "$820,021 (20%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 10",
+                  "investigators": "Anuj Sharma (ISU CCEE), Soumik Sarkar (ISU ME) and others",
+                  "title": "PFI: BIC- A Smart Service System for Traffic Incident Management Enabled by Large-data Innovations (TIMELI)",
+                  "agency": "NSF",
+                  "dates": "09/01/2016 – 08/31/2020",
+                  "total": "$1,000,000 (13%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 11",
+                  "investigators": "Ulrike Passe (ISU ME), Soumik Sarkar (ISU ME) and others",
+                  "title": "Big Data for Sustainable Cities & Decision Making",
+                  "agency": "Iowa State University",
+                  "dates": "08/01/2016 – 07/31/2019",
+                  "total": "$375,000 (15%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 12",
+                  "investigators": "Thomas Chiou (ISU CNDE), Soumik Sarkar (ISU ME) and Leonard Bond (ISU CNDE)",
+                  "title": "Thermal Image Reconstruction and Synthesis: Phase I Feasibility Study",
+                  "agency": "Pratt & Whitney",
+                  "dates": "11/01/2016 – 01/31/2017",
+                  "total": "$25,000 (11%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 13",
+                  "investigators": "Gregor Henze (UC Boulder), Soumik Sarkar (ISU ME), Anthony Florita (NREL) and Josh Smith (UW)",
+                  "title": "Battery-free RFID Sensor Network with Spatiotemporal Pattern Network Based Data Fusion System for Human Presence Sensing",
+                  "agency": "ARPA-E",
+                  "dates": "06/01/2018 - 02/28/2022",
+                  "total": "$2,000,000 (18%)",
+                  "role": "PI (ISU)"
+                },
+                {
+                  "n": "Grant 14",
+                  "investigators": "Anuj Sharma (ISU CCEE), Soumik Sarkar (ISU ME), Chinmay Hegde (ISU ECPE)",
+                  "title": "Predicting Driving Safety in Advancing Age",
+                  "agency": "University of Nebraska Medical Center (original award from NIH)",
+                  "dates": "05/01/2017 - 08/31/2018",
+                  "total": "$94,639 (30%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 15",
+                  "investigators": "Matt Rizzo (University of Nebraska Medical Center), Anuj Sharma (ISU CCEE), Soumik Sarkar (ISU ME), Chinmay Hegde (ISU ECPE)",
+                  "title": "Modeling multidimensional risk in real-world driver with diabetes",
+                  "agency": "Toyota",
+                  "dates": "06/01/2018 - 02/28/2021",
+                  "total": "$198,664 (33%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 16",
+                  "investigators": "Anuj Sharma (ISU CCEE), Soumik Sarkar (ISU ME)",
+                  "title": "Automating Near Miss Crash Detection Using Existing Traffic Cameras",
+                  "agency": "Iowa DOT",
+                  "dates": "07/01/2017 - 12/31/2018",
+                  "total": "$49,991 (30%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 17",
+                  "investigators": "Atul Kelkar (ISU ME), Soumik Sarkar (ISU ME)",
+                  "title": "Multiagent based mixed centralized and decentralized control of building energy systems",
+                  "agency": "Iowa Energy Center",
+                  "dates": "11/10/2014-4/30/2015",
+                  "total": "$4,922 (50%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 18",
+                  "investigators": "Soumik Sarkar (ISU ME)",
+                  "title": "PSI Scholar award",
+                  "agency": "Iowa State Plant Science Institute",
+                  "dates": "1/1/2018-12/31/2023",
+                  "total": "$450,000 (100%)",
+                  "role": "PI"
+                },
+                {
+                  "n": "Grant 19",
+                  "investigators": "Sarah Ryan (ISU IMSE), and others, Soumik Sarkar (ISU ME)",
+                  "title": "NRT-INFEWS: The DataFEWSion Traineeship Program for Innovations at the Nexus of Food Production, Renewable Energy and Water Quality",
+                  "agency": "NSF",
+                  "dates": "9/1/2018-8/31/2023",
+                  "total": "$2,907,236 (0%)",
+                  "role": "Senior Personnel"
+                },
+                {
+                  "n": "Grant 20",
+                  "investigators": "Soumik Sarkar (ISU ME), Adarsh Krishnamurthy (ISU ME)",
+                  "title": "Fast Topology Optimization and Shape Style Transfer Using Machine Learning",
+                  "agency": "ANSYS",
+                  "dates": "9/1/2018-05/15/2020",
+                  "total": "$80,000 (50%)",
+                  "role": "PI"
+                },
+                {
+                  "n": "Grant 21",
+                  "investigators": "Chinmay Hegde (ISU ECPE), Soumik Sarkar (ISU ME), Baskar G (ISU ME)",
+                  "title": "PALM: Physics-Aware Learning for Microstructure Design",
+                  "agency": "DARPA",
+                  "dates": "12/21/2018-06/20/2020",
+                  "total": "$785,000 (33%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 22",
+                  "investigators": "Soumik Sarkar (ISU ME)",
+                  "title": "CAREER: Robustifying Machine Learning for Cyber-Physical Systems",
+                  "agency": "NSF",
+                  "dates": "3/1/2019 – 2/29/2024",
+                  "total": "$511,620 (100%)",
+                  "role": "PI"
+                },
+                {
+                  "n": "Grant 23",
+                  "investigators": "Soumik Sarkar (ISU ME), Baskar G, Asheesh Singh, Arti Singh",
+                  "title": "International Workshop on ML for Cyber-Ag Systems (MLCAS)",
+                  "agency": "USDA-NIFA",
+                  "dates": "10/30/2018 – 10/31/2020",
+                  "total": "$50,000 (25%)",
+                  "role": "PI"
+                }
+              ],
+              "items": []
+            },
+            {
+              "heading": "During current rank at ISU",
+              "style": "plain",
+              "grants": [
+                {
+                  "n": "Grant 24",
+                  "investigators": "Arti Singh (ISU Agronomy), Soumik Sarkar (ISU ME), Baskar G (ISU ME), Asheesh Singh (ISU Agronomy), Daren Mueller (ISU Agronomy), Nirav Merchant (U of Arizona)",
+                  "title": "FACT: A Scalable Cyber Ecosystem for Acquisition, Curation, and Analysis of Multispectral UAV Image Data",
+                  "agency": "USDA-NIFA",
+                  "dates": "9/1/2019 – 8/31/2023",
+                  "total": "$499,845 (15%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 25",
+                  "investigators": "Subhadeep Chakraborty (UTK), Soumik Sarkar (ISU ME), Michael Olson (UTK), Stephen Gilbert (ISU IMSE), Joanne Marshall (ISU)",
+                  "title": "CPS: Medium: Collaborative Research: Active Shooter Tracking & Evacuation Routing for Survival (ASTERS)",
+                  "agency": "NSF",
+                  "dates": "9/1/2019 – 8/31/2023",
+                  "total": "$1,199,678 (17%)",
+                  "role": "PI (ISU)"
+                },
+                {
+                  "n": "Grant 26",
+                  "investigators": "Anuj Sharma (ISU CCEE), Soumik Sarkar (ISU ME)",
+                  "title": "Deep Insight - Deep-net driven approach to estimate driver state from naturalistic data",
+                  "agency": "DOT – Federal Highway Administration (FHWA)",
+                  "dates": "9/1/2019 – 8/31/2022",
+                  "total": "$1,354,417 (11%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 27",
+                  "investigators": "Baskar Ganapathysubramanian (ISU ME), Soumik Sarkar (ISU ME), Adarsh Krishnamurthy, NYU, Stanford, NREL",
+                  "title": "Context-aware learning for inverse design in photovoltaics",
+                  "agency": "ARPA-E",
+                  "dates": "3/1/2020 – 2/28/2022",
+                  "total": "$2,000,000 (15%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 28",
+                  "investigators": "Shauna Hallmark (ISU Intrans), Anuj Sharma (ISU CCEE), Soumik Sarkar (ISU ME) and others",
+                  "title": "Monitoring real-world driver behavior for classification and early prediction of Alzheimer’s disease",
+                  "agency": "UNMC (Originally from NIH)",
+                  "dates": "06/01/2020 - 02/28/2025",
+                  "total": "$1,036,538 (25%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 29",
+                  "investigators": "Asheesh Singh, Soumik Sarkar (ISU ME), others",
+                  "title": "SCC-IRG Track 2: Smart Integrated Farm Network for Rural Agricultural Communities (SIRAC)",
+                  "agency": "NSF",
+                  "dates": "10/1/2020 - 9/30/2023",
+                  "total": "$1,499,830 (14%)",
+                  "role": "Senior Personnel"
+                },
+                {
+                  "n": "Grant 30",
+                  "investigators": "Chad Risko (U Kentucky), Baskar G, Soumik Sarkar (ISU ME), others",
+                  "title": "RII Track-2 FEC: Data-Enabled Discovery and Design to Transform Liquid-Based Energy Storage (D3TaLES)",
+                  "agency": "NSF",
+                  "dates": "9/1/2020 - 8/31/2024",
+                  "total": "$1,989,220 (10%)",
+                  "role": "Senior Personnel"
+                },
+                {
+                  "n": "Grant 31",
+                  "investigators": "Rizia Bardhan, Soumik Sarkar (ISU ME), Jonathan Mochel",
+                  "title": "Multiplexed Immunomarker Screening to Enable Patient-Tailored Immunotherapies",
+                  "agency": "Congressionally Directed Medical Research Programs (CDMRP)",
+                  "dates": "9/1/2020 - 8/31/2022",
+                  "total": "$587,996 (6%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 32",
+                  "investigators": "Soumik Sarkar (ISU ME) and others",
+                  "title": "CPS: Frontier: Collaborative Research: COALESCE: COntext Aware LEarning for Sustainable CybEr-Agricultural Systems",
+                  "agency": "NSF and USDA-NIFA",
+                  "dates": "4/15/2021 - 3/31/2026",
+                  "total": "$7,000,000 (10%)",
+                  "role": "PI"
+                },
+                {
+                  "n": "Grant 33",
+                  "investigators": "Baskar G, Soumik Sarkar (ISU ME) and others",
+                  "title": "AI Institute for Resilient Agriculture (AIIRA)",
+                  "agency": "NSF and USDA-NIFA",
+                  "dates": "9/1/2021 - 8/31/2026",
+                  "total": "$20,000,000 (5%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 34",
+                  "investigators": "Baskar G, Soumik Sarkar (ISU ME) and others",
+                  "title": "LEAP-HI: AI-Optimized 3D Printing of Super-Soft Materials for Personalized Sensing",
+                  "agency": "NSF",
+                  "dates": "8/1/2021 - 7/31/2026",
+                  "total": "$2,000,000 (15%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 35",
+                  "investigators": "Soumik Sarkar (ISU ME) and others",
+                  "title": "Translational AI Center (TrAC)",
+                  "agency": "Iowa State University",
+                  "dates": "07/01/2021 – 06/30/2024",
+                  "total": "$450,000 (0%)",
+                  "role": "PI"
+                },
+                {
+                  "n": "Grant 36",
+                  "investigators": "Anuj Sharma (ISU CCEE), Soumik Sarkar (ISU ME) and others",
+                  "title": "Navigation System for Snowplows in Low Visibility Situations",
+                  "agency": "Iowa Department of Transportation",
+                  "dates": "09/01/2021 – 10/31/2023",
+                  "total": "$355,429 (20%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 37",
+                  "investigators": "Anuj Sharma, Shauna H (ISU CCEE), Soumik Sarkar (ISU ME)",
+                  "title": "Developing Mechanisms to Detect Driver Risk From Driver State in Diabetes",
+                  "agency": "Toyota Motors",
+                  "dates": "07/01/2022 – 12/31/2023",
+                  "total": "$271,989 (30%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 38",
+                  "investigators": "Jessica Bell, Soumik Sarkar (ISU ME) and others",
+                  "title": "AI Institute for Resilient Agriculture International Collaborations",
+                  "agency": "NSF",
+                  "dates": "12/01/2022 – 11/30/2024",
+                  "total": "$300,000 (0%)",
+                  "role": "Co-PI"
+                },
+                {
+                  "n": "Grant 39",
+                  "investigators": "Adarsh K, Baskar G, Soumik Sarkar (ISU ME), Manimaran G (ISU EE)",
+                  "title": "Secure Digital Twin Incorporating Physics-Aware Machine Learning for Additive Manufacturing",
+                  "agency": "UI Labs",
+                  "dates": "09/01/2022 – 08/31/2023",
+                  "total": "$75,000 (25%)",
+                  "role": "Co-PI"
+                }
+              ],
+              "items": []
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "II.D",
+          "letter": "D",
+          "title": "Pending Grants and Contracts",
+          "numberingContinues": false,
+          "blocks": [],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "II-T",
+      "title": "TEACHING AND STUDENT MENTORING",
+      "subsections": [
+        {
+          "id": "II-T.A",
+          "letter": "A",
+          "title": "Instruction for ISU",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Spring 2023: ME 592 – “Data Analytics and Machine Learning for Cyber-physical Systems Applications”, 3 Credits, No Lab, Section 1 - 17 students, Section 2 – 8 students, no TA",
+                "Spring 2022: ME 592 – “Data Analytics and Machine Learning for Cyber-physical Systems Applications”, 3 Credits, No Lab, Section 1 - 18 students, Section 2 – 13 students, no TA",
+                "Fall 2021: ME 280X – “Design and Analysis of Cyber-Physical Systems”, 3 Credits, No Lab, 11 students, no TA",
+                "Spring 2021: ME 592 – “Data Analytics and Machine Learning for Cyber-physical Systems Applications”, 3 Credits, No Lab, 20 students, no TA",
+                "Spring 2020: ME 421 – “System Dynamics and Control”, 4 Credits, Lab, 65 students, 1 TA",
+                "Spring 2020: ME 160 – “Mechanical Engineering Problem Solving with Computer applications”, 3 Credits, No Lab, 31 students, 0.5 Grader",
+                "Spring 2019: ME 592X – “Data Analytics and Machine Learning for Cyber-physical Systems Applications”, 3 Credits, No Lab, 37 students, no TA",
+                "Spring 2019: ME 160 – “Mechanical Engineering Problem Solving with Computer Applications”, 3 Credits, No Lab, 36 students, 0.2 TA and 0.3 Grader",
+                "Spring 2018: ME 592X – “Data Analytics and Machine Learning for Cyber-physical Systems Applications”, 3 Credits, No Lab, 30 students, no TA",
+                "Fall 2017: ME 421 (2 sections) – “System Dynamics and Control”, 4 Credits, Lab, 147 students, 4 TAs and 1 UTA",
+                "Spring 2017: ME 592X – “Data Analytics and Machine Learning for Cyber-physical Systems Applications”, 3 Credits, No Lab, 26 students, no TA",
+                "Fall 2016: ME 370 – “Engineering Measurements”, 3 Credits, Lab, 104 students, 1 TA and 1 Grader",
+                "Fall 2016: GrSt 565 – “Responsible conduct of Research”, 1 Credit, No Lab, 14 students, no TA",
+                "Spring 2016: ME 160 – “Mechanical Engineering Problem Solving with Computer Applications”, 3 Credits, No Lab, 35 students, 0.5 TA and 1 Grader",
+                "Fall 2015: ME 160 – “Mechanical Engineering Problem Solving with Computer Applications”, 3 Credits, No Lab, 35 students, 0.5 TA and 1 Grader",
+                "Spring 2015: ME 421 – “System Dynamics and Control”, 4 Credits, Lab, 83 students, 2.5 TAs and 1 Grader",
+                "Fall 2014: ME 421 – “System Dynamics and Control”, 4 Credits, Lab, 63 students, 2.5 TAs and 1 Grader"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "II-T.B",
+          "letter": "B",
+          "title": "Curricular Development Activity for ISU",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Led the development of new ISU Engineering Undergraduate Minor on Cyber-Physical Systems (CPS). Developing a new course for the minor: ME 280X: Design and Analysis of Cyber-Physical Systems",
+                "Developed new experimental graduate course ME 592 – “Data Analytics and Machine Learning for Cyber-physical Systems Applications”",
+                "Member of the CDC for Dynamic Systems and Control related courses in ME (2015-now)",
+                "Member of the CDC for Thermal and Fluid related courses in ME (2015-16)"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "II-T.C",
+          "letter": "C",
+          "title": "Supervision of Students as Major Professor",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": "Graduated (18 PhD – 15 at the current rank, 9 MS – 4 at the current rank)",
+              "style": "numbered",
+              "items": []
+            },
+            {
+              "heading": "During previous rank at ISU",
+              "style": "numbered",
+              "items": [
+                "Kin G. Lore, MS, January 2015 – December 2016, “Deep Learning for Decision Making and Complex Autonomous Systems”, now at the United Technologies Research Center (UTRC).",
+                "Kundan Kumar, MS, (Adarsh Krishnamurthy, co-advisor), May 2015 – December 2016, “Interactive Data Visualization for Road Traffic System”.",
+                "Vikas Chawla, MS, (Baskar Ganapathysubramanian, co-advisor), May 2015 – December 2016, “Bayesian network approach to county-level corn yield prediction using historical data and expert knowledge”.",
+                "Adedotun Akintayo, PhD, (Baskar Ganapathysubramanian, co-advisor), August 2014 – December 2017, “Hierarchical feature extraction from spatiotemporal data for cyber-physical system analytics”, now at Intel.",
+                "Shuo Wang, PhD, (Anuj Sharma, co-advisor), August 2014 – May 2018, “Traffic speed prediction using big data enabled deep learning”, now at NVIDIA.",
+                "Linjiang Wu, MS, August 2016 – May 2018, “Spatiotemporal graphical modeling for cyber-physical systems”, now at Ford.",
+                "Apurva Kokate, MS, August 2016 – May 2018, “A study of Interpretability mechanisms for Deep Networks”, now at Kingland.",
+                "Zhanhong Jiang, PhD, August 2014 – June 2018, “Distributed Optimization for Control and Learning”, now at Johnson Controls."
+              ]
+            },
+            {
+              "heading": "During current rank at ISU",
+              "style": "numbered",
+              "items": [
+                "Zhisheng Zhang, MS, August 2017 – July 2019, “Deep learning for field-based automated high-throughput plant phenotyping”, now an Image data scientist at Bayer Crop Science.",
+                "Sambuddha Ghosal, PhD, August 2015 – August 2019, “Deep learning for human engineered systems: weak supervision, interpretability and knowledge embedding”, now Postdoc at MIT Media Lab.",
+                "Truong Tran, MS, (Baskar Ganapathysubramanian, co-advisor), August 2017 – July 2019, “Applying Computer Vision in Plants for Detection of Diseases”.",
+                "Aditya Balu, PhD, (Adarsh Krishnamurthy, co-advisor) August 2016 – May 2020, “Deep learning and GPU-accelerated algorithms for computer-aided engineering”, now Postdoc at Iowa State.",
+                "Amitangshu Mukherjee, MS, August 2018 – May 2020, “Adversarial machine learning”. now PhD student at Purdue University.",
+                "Sambit Ghadai, PhD, (Adarsh Krishnamurthy, co-advisor) August 2016 – July 2020, “A Cybermanufacturing Framework Incorporating Deep Learning and Multi-resolution Voxel Representations”, now Scientist at Intel.",
+                "Jaydeep Rade, MS, (Adarsh Krishnamurthy, co-advisor) January 2019 – December 2020, “Deep Learning Accelerated Topology Optimization”, now PhD student at Iowa State.",
+                "Homagni Saha, PhD, August 2016 – May 2021, “Information fusion for decision-making”, now Scientist at Danfoss.",
+                "Yasaman Esfandiari, PhD, August 2018– December 2021, “Robust and Scalable Deep Learning for Cyber-physical Systems”, now Scientist at HRL Labs.",
+                "Tryambak Gangopadhyay, PhD, August 2017 – March 2022, “Trustworthy Deep Learning for Cyber-Physical Systems”, now Scientist at Amazon.",
+                "Xian Lee, PhD, August 2017 – March 2022, “Deep learning for robust and efficient design in cyber-physical systems”, now Scientist at Hitachi.",
+                "Arya Ketabchi Haghighat, PhD, (Anuj Sharma, co-advisor), January 2016 – March 2022, “Transportation Safety Enhancement by Implementing Computer Vision Based Models in Intelligent Transportation Systems”, now Scientist at HRL Labs.",
+                "Koushik Nagasubramanian, PhD, (Baskar Ganapathysubramanian, co-advisor) August 2016 – August 2022, “Plant phenotyping with limited annotation: Doing more with less”, now Scientist at Bayer Crop Science.",
+                "Luis G. Riera, PhD, August 2017 – December 2022, “Deep Learning for Autonomous Perception and Decision-making”, now Scientist at Data61, CSIRO.",
+                "Sin Yong Tan, PhD, August 2017 – December 2022, “Multimodal sensor fusion and multisource distributed learning in cyber-physical systems”, now Scientist at Musco Lighting.",
+                "Kai Liang Tan, PhD, January 2018 – December 2022, “Deep Learning for Decision Making in Cyber-Physical Systems” now Scientist at Intel.",
+                "Archana Venkatachalapathy, PhD, (Anuj Sharma, co-advisor) August 2016 – December 2022, “Investigating the relation between user physiology and traffic environment to identify its impact on their road behavior”, now Scientist at Walmart.",
+                "Matthew E Carroll, PhD, (Asheesh K. Singh, co-advisor) August 2017 - December 2022, “Development of digital phenotyping methods for breeding applications in stress phenotyping, spatial adjustments, and end season yield prediction”, now Scientist at Iowa Soybean Association.",
+                "Fateme Fotouhi, PhD, (Arti Singh, co-advisor) August 2019 – July 2023, “Deep Learning for Autonomous Intelligent Agents”, now Scientist at Canon."
+              ]
+            },
+            {
+              "heading": "In progress",
+              "style": "numbered",
+              "items": [
+                "Ethan Herron, PhD, (Adarsh Krishnamurthy, co-advisor) May 2020 – August 2024, work in progress – degree expected August 2024.",
+                "Joshua Waite, PhD, January 2020 – December 2024, work in progress – degree expected December 2024.",
+                "Souradeep Chattopadhyay, PhD, January 2021– December 2024, work in progress – degree expected December 2024.",
+                "Jesse Lane, PhD, August 2020 – May 2023, work in progress – degree expected May 2023.",
+                "Qisai Liu, PhD, August 2020 – May 2025, work in progress – degree expected May 2025.",
+                "Jiale Feng, PhD, July 2021 – December 2023, work in progress – degree expected December 2023.",
+                "Hsin-Jung Yang, PhD, August 2021 – May 2025, work in progress – degree expected May 2025.",
+                "Zahid Hasan, PhD, July 2021 – May 2025, work in progress – degree expected May 2025.",
+                "Timilehin Ayanlade, PhD, January 2022 – December 2025, work in progress – degree expected December 2025.",
+                "Mahsa Khosravi, PhD, May 2022 – August 2026, work in progress – degree expected August 2026.",
+                "Nastaran Saadati, PhD, August 2022 – May 2027, work in progress - degree expected May 2027.",
+                "Adele Haghighat, PhD, August 2022 – May 2025, work in progress – degree expected May 2025.",
+                "Muhammad Arshad, PhD, January 2023 – December 2027, work in progress – degree expected December 2027."
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "II-T.D",
+          "letter": "D",
+          "title": "Service on Graduate Student Committees",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Hamid Emadi, (2021) PhD, ME, committee member (Major professor: Sourabh Bhattacharya)",
+                "Venkatesh Chinde, (2018) PhD, ME, committee member (Major professor: Atul Kelkar)",
+                "Venkatesh Chinde, (2015) MS, ECPE, committee member (Major professor: Atul Kelkar)",
+                "Nicholas Haberl, (2016) MS, ME, committee member (Major professor: Song-Charng Kong)",
+                "Ryan Ogren, (2015), MS, ME, committee member (Major professor: Song-Charng Kong)",
+                "Spencer Pfeifer, (2017) PhD, ME, committee member (Major professor: Baskar Ganapathysubramanian)",
+                "Subhrajit Sinha, (2018) PhD, ECPE, committee member (Major professor: Umesh Vaidya)",
+                "Nigel Lee, (2016) MS, ME, committee member (Major professor: Baskar Ganapathysubramanian)",
+                "Hsiang Sing Naik, (2016), MS, ME, committee member (Major professor: Baskar Ganapathysubramanian)",
+                "Arvind Ranganathan, (2016), MS, CCEE, committee member (Major professor: Anuj Sharma)",
+                "Gavin Young, (2017) MS, ME, committee member (Major professor: Adarsh Krishnamurthy)",
+                "Nikita Tiwari, (2017) MS, CCEE, committee member (Major professor: Anuj Sharma)",
+                "David Peiffer, (2017) MS, IE, committee member (Major professor: Matt Frank)",
+                "Abhinav Prakash, (2018) MS, CS, committee member (Major professor: Anuj Sharma)",
+                "Yi Liu, (2017) MS, ME, committee member (Major professor: Song-Charng Kong)",
+                "Ashton Archer, (2017) MS, ME, committee member (Major professor: Theodore Heindel)",
+                "Balaji Pokuri, (2018), PhD, ME, committee member (Major professor: Baskar Ganapathysubramanian)",
+                "Seyyed-Shaho Alaviani, (2019), PhD, EE, committee member (Major professor: Nicola Elia)",
+                "Sahiti Nallagonda, (2018), MS, ME, committee member (Major professor: Ming-Chen Hsu)",
+                "Zehui Jiang, (2018), PhD, Economics, committee member (Major professor: Dermot Hayes)",
+                "Julie Bothell, (2020), PhD, ME, committee member (Major professor: Theodore Heindel)",
+                "Ryan Ogren, (2019), PhD, ME, committee member (Major professor: Song-Charng Kong)",
+                "Tingting Huang, (2018), PhD, CCEE, committee member (Major professor: Anuj Sharma)",
+                "Revanth Somayajula, (2018), MS, CS, committee member (Major professor: Anuj Sharma)",
+                "Vamsi Krishna, (2018), MS, CS, committee member (Major professor: Anuj Sharma)",
+                "Kyle Parmley, (2018), PhD, Agronomy, committee member (Major professor: Asheesh Singh)",
+                "Lakshay Ahuja, (2018), MS, CS, committee member (Major professor: Anuj Sharma)",
+                "Shruti Sahu, (2018), MS, CS, committee member (Major professor: Baskar Ganapathysubramanian)",
+                "Gulnihal Kucuksayacigil, (2018), PhD, EE, committee member (Major professor: Nicola Elia)",
+                "Himanshu Sharma, (2019), PhD, ME, committee member (Major professor: Baskar Ganapathysubramanian)",
+                "Onur Bingol, (2019), PhD, ME, committee member (Major professor: Adarsh Krishnamurthy)",
+                "Tianshuang Gao, (degree expected in 2022), PhD, ME, committee member (Major professor: Sourabh Bhattacharya)",
+                "Xin Huang, (2018), MS, ME, committee member (Major professor: Adarsh Krishnamurthy)",
+                "Holly Baiotto, (2020), MS, ME, committee member (Major professor: Eliot Winer)",
+                "Varsha Mouli, (2020), MS, CS, committee member (Major professor: Anuj Sharma)",
+                "Tongge Huang (2020), PhD, CE, committee member (Major professor: Anuj Sharma)",
+                "Yi Liu (2022), PhD, ME, committee member (Major professor: Juan Ren)",
+                "Soumyabrata Talukder (degree expected in 2023), PhD, EE, committee member (Major professor: Ratnesh Kumar)",
+                "Sangeeth Balakrishnan (2019), MS, ME, committee member (Major professor: Baskar Ganapathysubramanian)",
+                "Jonathan Shook (2021), PhD, Plant Breeding, committee member (Major professor: Asheesh Singh)",
+                "Clayton Carley (degree expected in 2022), PhD, Plant Breeding, committee member (Major professor: Asheesh Singh)",
+                "Keivan Ebrahimi (2019), PhD, EE, committee member (Major professor: Umesh Vaidya)",
+                "Vesal Ahsani (2019), PhD, CE, committee member (Major professor: Anuj Sharma)",
+                "Thanh Nguyen (2020), PhD, EE, committee member (Major professor: Chinmay Hegde)",
+                "Saeed Arabi (2022), PhD, CE, committee member (Major professor: Anuj Sharma)",
+                "Rahul Singh (2019), MS, CS, committee member (Major professor: Samik Basu)",
+                "Adam Kohl (degree expected in 2022), PhD, ME, committee member (Major professor: Eliot Winer)",
+                "Anthony Locurto (degree expected in 2022), PhD, ME, committee member (Major professor: James Michael)",
+                "Archana Venkatachalapathy (2019), MS, CE, committee member (Major professor: Anuj Sharma)",
+                "Biswajit Khara (degree expected in 2023), PhD, ME, committee member (Major professor: Baskar Ganapathysubramanian)",
+                "Yanchao Wang (degree expected in 2023), PhD, ABE, committee member (Major professor: Matthew Darr)",
+                "Ashirwad Barnwal (2022), PhD, CE, committee member (Major professor: Anuj Sharma)",
+                "Sriramjee Singh (2022), PhD, Economics, committee member (Major professor: Dermot Hayes)",
+                "Atousa Zarindast (degree expected in 2023), PhD, CE, committee member (Major professor: Anuj Sharma)",
+                "Harman Singh Sangha (degree expected in 2023), PhD, ABE, committee member (Major professor: Matthew Darr)",
+                "Anjana Deva Prasad (2021), MS, ME, committee member (Major professor: Adarsh Krishnamurthy)",
+                "Hao Lu (degree expected in 2023), PhD, ME, committee member (Major professor: Chao Hu)",
+                "Manoj Rajanna (degree expected in 2023), PhD, ME, committee member (Major professor: Ming-Chen Hsu)",
+                "Smrithi Ajit (degree expected in 2023), PhD, CE, committee member (Major professor: Jonathan Wood)",
+                "Harshil Shah (2021), PhD, ME, committee member (Major professor: Adarsh Krishnamurthy)",
+                "Matthew Carroll (degree expected in 2022), PhD, Agronomy, committee member (Major professor: Asheesh Singh)",
+                "Michael Poole (2021), MS, HCI, committee member (Major professor: Stephen Gilbert)",
+                "Amit Singh (2021), MS, ME, committee member (Major professor: Beiwen Li)",
+                "Shengwen Xie (2021), PhD, ME, committee member (Major professor: Juan Ren)",
+                "Arian Jafari (2020), PhD, ME, committee member (Major professor: Adarsh Krishnamurthy)",
+                "Subhadipto Poddar (2020), PhD, CE, committee member (Major professor: Anuj Sharma)",
+                "Mayur-Shivaji Patil (2020), MS, ME, committee member (Major professor: Juan Ren)",
+                "Seyed Mirnezami (2019), PhD, ME, committee member (Major professor: Baskar Ganapathysubramanian)",
+                "Viraj Shah (2019), MS, EE, committee member (Major professor: Chinmay Hegde)"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "II-T.E",
+          "letter": "E",
+          "title": "Supervision of Post-Doctoral Students and Professional Staff",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Chao Liu, August 2015 – August 2017, Project: Spatiotemporal graphical modeling, currently Research Assistant Professor, Tsinghua University.",
+                "Adedotun Akintayo, March 2018 – June 2018, Project: Deep learning for traffic analytics, currently Scientist at Intel.",
+                "Onur Bingol, September 2019 – March 2020, Project: Deep learning for autonomous systems.",
+                "Aditya Balu, December 2021 – now, Data Scientist at Translational AI Center (TrAC)"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "II-T.F",
+          "letter": "F",
+          "title": "Supervision of Independent Study and Undergraduate Research",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Kin G. Lore, August 2014 – December 2014, Deep Learning for designing microfluidic channels (Undergraduate Research)",
+                "Mannooj Chandrasekaran, November 2014 – December 2014, Multi-agent planning for environment monitoring (Undergraduate Research)",
+                "Jeffrey Heylmun, January 2015 – May 2015, Semi-parametric modeling of building zones for supervisory controls (Independent Study)",
+                "Adam Kohl, January 2015 – December 2015, Data-driven model learning for building supervisory controls (Independent Study)",
+                "Adrian Chan, January 2015 – May 2015, Mobile sensor networks (Independent study)",
+                "Abdulrahman Alnagar, Summer 2015, Building diagnostics (REU)",
+                "Sohail Suryavanshi, August 2015 – December 2015, Cyber-physical security (Undergraduate Research)",
+                "Hsiang Sing Naik, May 2016 – August 2016, Bayesian Networks (Graduate Independent Study)",
+                "Seyed Vahid Mirnezami, August 2016 – December 2016, Machine Learning (Graduate Independent Study)",
+                "Balaji Pokuri, August 2016 – December 2016, Machine Learning (Graduate Independent Study)",
+                "Minhao Wang, August 2016 – December 2016, Deep Autoencoders (Independent Study)",
+                "Hunter Kelderman, January 2016 – May 2016, VOLLTTRON platform (Undergraduate Research)",
+                "Timothy Wilkie, August 2016 – December 2017, Distributed Optimization (Undergraduate Research)",
+                "Himanshu Sharma, August 2017 – December 2017, Machine Learning (Graduate Independent Study)",
+                "Zhisheng Zhang, January 2017 – May 2017, Robotics (Undergraduate Independent Study)",
+                "Paige Boor, January 2017 – May 2020, Combustion diagnostics (Undergraduate Honors Research)",
+                "Kai Liang Tan, August 2017 – December 2017, Self-driving cars (Undergraduate Independent Study)",
+                "Aaron Havens, August 2017 – December 2017, Tracking and control (Undergraduate Independent Study)",
+                "Matthew Hopkins, June 2017 – July 2017, Robotics (High School student internship)",
+                "Haley Primrose, June 2017 – July 2017, Robotics (High School student internship)",
+                "Peggy Reichard, June 2017 – July 2017, robotics in STEM education (High School teacher internship)",
+                "Genyi Huang, June 2018 – July 2018, Time series analysis (Undergraduate Research)",
+                "Aakanksha, June 2019 – July 2019, Deep Reinforcement Learning (Undergraduate Research)",
+                "Briton Bauerly, May 2019 – December 2020, Robotic Perception (Undergraduate Research)",
+                "Ethan Herron, January 2020 – April 2020, Design and Manufacturing (Undergraduate Research)",
+                "Qisai Liu, January 2020 – August 2020, Robotics (Undergraduate Research)",
+                "Mason Drees, August 2020 – May 2021, Cyber-Physical Systems (Undergraduate Research)",
+                "Felipe Leguizamo, September 2021 – now, Reinforcement Learning (Undergraduate Research)",
+                "Yingying Huang, September 2021 – May 2022, Reinforcement Learning (Undergraduate Honors Program Research)"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "II-T.G",
+          "letter": "G",
+          "title": "Non-ISU Instruction (e.g. Short Courses, Workshops, Training)",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Short course on Robust Machine Learning: Attacks and Defenses (at Iowa State, August – September, 2018)",
+                "NVIDIA Deep Learning Institute workshop (at Iowa State, November 2018)"
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "III",
+      "title": "INSTITUTIONAL SERVICE",
+      "subsections": [
+        {
+          "id": "III.A",
+          "letter": "A",
+          "title": "University-Level Service",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Founder and Director of Translational AI Center (July 2021 - now)",
+                "Data Science Curriculum Coordination Committee (January 2020 - now)",
+                "Member of the Data-driven Science Initiative (DDSI) Faculty steering committee (August 2015 – June 2017)"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "III.B",
+          "letter": "B",
+          "title": "College-Level Service",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Member of the college level data science curriculum brainstorming group (August 2017 - now)"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "III.C",
+          "letter": "C",
+          "title": "Department-Level Service",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Member of the 5-year Strategic Planning committee (2021)",
+                "Member of the Faculty search committee (2018-19)",
+                "Member of the Graduate Education committee (2016-18)",
+                "Member of the Faculty search committee (2015-16)",
+                "Member of the ME 5-year strategic planning committee (2015)",
+                "Member of the curriculum development committee (CDC) for Dynamic Systems and Control related courses in ME (2015-now)",
+                "Member of the CDC for Thermal and Fluid related courses in ME (2014-15)"
+              ],
+              "numbers": [
+                "1",
+                "2",
+                "2",
+                "3",
+                "4",
+                "5",
+                "6"
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "IV",
+      "title": "PROFESSIONAL SERVICE",
+      "subsections": [
+        {
+          "id": "IV.A",
+          "letter": "A",
+          "title": "Editorial and Review Service for Manuscripts",
+          "numberingContinues": false,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Associate Editor, Frontiers in Robotics and AI: Sensor Fusion and Machine Perception (April 2014 - present)",
+                "Editorial Board Member, Journal of Big Data Analytics in Transportation, Springer Nature (July 2018 - present)",
+                "Associate Editor, Plant Phenomics, a Science partner journal (September 2018 - present)",
+                "Associate Editor, Indian Control Conference (ICC) 2019",
+                "Organizing Committee member, Modeling, Estimation and Control Conference (MECC) 2021",
+                "Guest Editor, special issue on Image Analysis and Machine Learning for Cyber-Agricultural Systems, Plant Phenomics, a Science Partner Journal, 2020"
+              ],
+              "numbers": [
+                "1",
+                "2",
+                "3",
+                "4",
+                "5",
+                "5"
+              ]
+            },
+            {
+              "heading": "Reviewer",
+              "style": "numbered",
+              "items": [
+                "International Journal of Control",
+                "Aerospace Science and Technology",
+                "International Journal of Prognostics and Health Management",
+                "International Journal of Information Technology and Decision Making",
+                "Journal of Aerospace Engineering (I Mech E Part G)",
+                "International Journal of Distributed Sensor Networks",
+                "American Control Conference (ACC)",
+                "Conference on Decision & Control (CDC)",
+                "ASME Turbo Expo (Gas Turbine Technical Congress & Exposition)",
+                "Annual Conference of the PHM Society",
+                "European Conference of the PHM Society",
+                "Neurocomputing (Elsevier)",
+                "Information Sciences (Elsevier)",
+                "Signal Processing (Elsevier)",
+                "Journal of Advances in Information Fusion",
+                "AIAA Journal",
+                "IEEE Transactions on Industrial Informatics",
+                "Applied Energy (Elsevier)",
+                "Journal of Signal Processing Systems (Springer)",
+                "Sensors",
+                "ASME Dynamic Systems and Control Conference (DSCC)",
+                "IEEE Transactions on Control Systems Technology",
+                "Neural Information and Processing Systems (NeurIPS) conference",
+                "Building and Environment",
+                "IEEE Transactions on Automatic Control",
+                "Book Chapter for “Industrial Internet of Things: Cybermanufacturing Systems”",
+                "Physica A",
+                "International Conference on Learning Representation (ICLR)",
+                "International Conference on Machine Learning (ICML)",
+                "Pattern Recognition",
+                "Knowledge Discovery and Data mining (KDD) conference",
+                "Energy and Buildings",
+                "Computers and Electronics in Agriculture (Elsevier)",
+                "Asia-Pacific Federation for Information Technology in Agriculture (AFITA)/ World Congress on Computers in Agriculture (WCCA)",
+                "IEEE Conference on Computer Vision and Pattern Recognition (CVPR)",
+                "Plant Phenomics, a <i>Science</i> Partner Journal",
+                "ASME Journal of Mechanical Design",
+                "Nature Machine Intelligence",
+                "Patterns",
+                "IEEE Transactions on Multimedia",
+                "IEEE Transactions on Control of Network Systems",
+                "Combustion Science and Technology",
+                "IEEE Transactions on Intelligent Transportation Systems",
+                "Association for the Advancement of Artificial Intelligence (AAAI) Conference",
+                "Modeling, Estimation and Control Conference (MECC)"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "IV.B",
+          "letter": "B",
+          "title": "Service to Professional Societies",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Member, Mechatronics Technical Committee, ASME Dynamical Systems and Control Division (August 2013 – July 2016)"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "IV.C",
+          "letter": "C",
+          "title": "Grant Review Activities",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "NSF Cyber Physical Systems Program review panelist (2021)",
+                "NSF AI Institute Program review panelist (2021)",
+                "NSF Cyber Physical Systems Program review panelist (2020)",
+                "NSF CIVIC Program review panelist (2020)",
+                "NSF Cyber Physical Systems Program ad-hoc reviewer (2019)",
+                "NSF Cyber Physical Systems Program review panelist (2018)",
+                "Austrian Science Fund Wittgenstein Award review panelist (2018)",
+                "NSF Cyber Physical Systems Program review panelist (2017)",
+                "DOE Building Technology Office (BTO) BENEFIT Program review panelist (2017)",
+                "NSF Cyber Physical Systems Program review panelist (2016)"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "IV.D",
+          "letter": "D",
+          "title": "Government, Educational, or Corporate Advisory Committees",
+          "numberingContinues": false,
+          "blocks": [],
+          "children": []
+        },
+        {
+          "id": "IV.E",
+          "letter": "E",
+          "title": "Other Professional Service",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Organizing committee member, Human-machine Interaction workshop, UTRC 2012",
+                "Chair, Annual College of Engineering Research Symposium, Penn State 2010",
+                "Vice-president, Engineering Graduate Student Council, Penn State 2008-09",
+                "Full Member, Sigma Xi, The Scientific Research Society (2013-15)",
+                "Member, American Society of Mechanical Engineers (ASME) 2008 - now",
+                "Member, Institute of Electrical and Electronics Engineers (IEEE) 2008 - now"
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    },
+    {
+      "id": "V",
+      "title": "OUTREACH, COMMUNITY ENGAGEMENT AND OTHER ACTIVITIES",
+      "subsections": [
+        {
+          "id": "V.A",
+          "letter": "A",
+          "title": "Outreach Activities",
+          "numberingContinues": true,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "numbered",
+              "items": [
+                "Organizer of the workshop Fourth International workshop on Machine learning in Cyber-agriculture systems, MLCAS IV, Ames, IA, October, 2022.",
+                "Organizer of the workshop Third International workshop on Machine learning in Cyber-agriculture systems, MLCAS III, Virtual, November, 2021.",
+                "Organizer of the workshop Second International workshop on Machine learning in Cyber-agriculture systems, MLCAS II, Ames, IA, September, 2019.",
+                "Organizer, CPS-Ag workshop at NSF CPS PI meeting 2018",
+                "Organizer of the workshop (First International workshop on Machine learning in Cyber-agriculture systems – MLCAS I), Asia-Pacific Federation for Information Technology in Agriculture (AFITA)/ World Congress on Computers in Agriculture (WCCA), October 2018",
+                "Program committee member, Smart Farming workshop at CPS-Week 2018",
+                "Organizer of the workshop (Machine Learning for Prognostics and Health Management), ACM SIGKDD 2017 Conference on Knowledge Discovery & Data Mining, August 2017",
+                "Organizer of the workshop (Machine Learning for Prognostics and Health Management), ACM SIGKDD 2016 Conference on Knowledge Discovery & Data Mining, August 2016",
+                "Organizer of the workshop (Collaborative Sensing, Learning, and Control in Human-Machine Systems), American Control Conference, July 2016",
+                "Organizer and Invited session chair (Nonlinear Time-series Analysis for Intelligent Decision-making), American Control Conference, July 2015",
+                "Invited to workshop panel on Advanced Controls for Buildings to Grid Integration at the Pacific Northwest National Lab (PNNL), Seattle, WA, March 2015"
+              ]
+            }
+          ],
+          "children": []
+        },
+        {
+          "id": "V.B",
+          "letter": "B",
+          "title": "Community Engagement Activities",
+          "numberingContinues": false,
+          "blocks": [
+            {
+              "heading": null,
+              "style": "plain",
+              "items": [
+                "Sustained effort and leadership since 2016 in building a thriving research community of Cyber-Agricultural systems (CAS) which is poised to have significant societal impact in terms of sustainability and food security. Engaging farmers and other stakeholders with CAS researchers via establishing the MLCAS event is a key contribution in this regard."
+              ]
+            }
+          ],
+          "children": []
+        }
+      ]
+    }
+  ]
+}
