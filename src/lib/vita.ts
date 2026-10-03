@@ -206,7 +206,9 @@ export function buildVita() {
   }
   const every = grants.blocks.flatMap((b) => b.grants ?? []);
   const asPI = every.filter((g) => /^(PI|Lead PI)\b/i.test(g.role.trim())).length;
-  const totalM = (53.2 + addedFunds / 1e6).toFixed(1);
+  // Total = sum of every grant's "Total fund" (the 2023 vita's own $53.2M is the same sum for its 39 grants).
+  const totalM = (every.reduce((n, g) => n + (Number((g.total.match(/\$([\d,]+)/)?.[1] ?? '0').replace(/,/g, '')) || 0), 0) / 1e6).toFixed(1);
+  void addedFunds;
   grants.blocks[0].items[0] = `<i>Total ${every.length} federal, state and industry grants (${asPI} as PI) from a variety of sources including NSF, USDA-NIFA, AFOSR, DARPA, NIH, DOT, DOE, DoD and ARPA-E</i>`;
   grants.blocks[0].items[1] = `<i>Total funding of approximately $${totalM}M (approximately $7.5M allocated to the Sarkar research group as of 08/2023)</i>`;
 
@@ -257,5 +259,5 @@ export function liveBio(t: string) {
   _facts ??= buildVita().facts;
   const f = _facts;
   return t.replace(/more than \d+ peer-reviewed publications/, `more than ${Math.floor(f.publications / 50) * 50} peer-reviewed publications`)
-          .replace(/about \$\d+M (in )?research funding/, (_m, inn) => `about $${Math.round(f.fundingM)}M ${inn ?? ''}research funding`);
+          .replace(/about \$[\d.]+M (in )?research funding/, (_m, inn) => `about $${f.fundingM.toFixed(1)}M ${inn ?? ''}research funding`);
 }

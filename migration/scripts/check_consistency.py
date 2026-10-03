@@ -57,7 +57,9 @@ check(not notin, f"all {len(current_phd)} current Ph.D. students are 'in progres
 # 6b. PI biography numbers agree on the PI page and the People card
 pi_n = re.search(r"more than (\d+) peer-reviewed", txt(pi)); pe_n = re.search(r"more than (\d+) peer-reviewed", txt(people_p))
 check(pi_n and pe_n and pi_n.group(1) == pe_n.group(1), f"biography publication count same on PI page ({pi_n and pi_n.group(1)}) and People card ({pe_n and pe_n.group(1)})")
-fund_pi = re.search(r"about \$(\d+)M", txt(pi)); fund_pe = re.search(r"about \$(\d+)M", txt(people_p))
+fund_pi = re.search(r"about \$([\d.]+)M", txt(pi)); fund_pe = re.search(r"about \$([\d.]+)M", txt(people_p))
+fund_cv = re.search(r"Total funding of approximately \$([\d.]+)M", cv)
+check(fund_pi and fund_cv and fund_pi.group(1) == fund_cv.group(1), f"funding total same in biography (${fund_pi and fund_pi.group(1)}M) and CV (${fund_cv and fund_cv.group(1)}M)")
 check(fund_pi and fund_pe and fund_pi.group(1) == fund_pe.group(1), f"biography funding same on PI page and People card (${fund_pi and fund_pi.group(1)}M / ${fund_pe and fund_pe.group(1)}M)")
 # 7. CV / PI page numbers
 bio = txt(pi)

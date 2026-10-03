@@ -16,7 +16,7 @@ const linkFor = (h: string) => awardsData.awards.find((a) => { if (!a.url) retur
 const honors = vitaNow.honors.map((h) => ({ text: h, url: linkFor(h) }));
 // Keep the biography's headline numbers in step with the vita.
 const roundDown = (n: number, step: number) => Math.floor(n / step) * step;
-const liveBio = (t: string) => t.replace(/more than \d+ peer-reviewed publications/, `more than ${roundDown(vitaNow.facts.publications, 50)} peer-reviewed publications`).replace(/about \$\d+M (in )?research funding/, (_m, inn) => `about $${Math.round(vitaNow.facts.fundingM)}M ${inn ?? ''}research funding`);
+const liveBio = (t: string) => t.replace(/more than \d+ peer-reviewed publications/, `more than ${roundDown(vitaNow.facts.publications, 50)} peer-reviewed publications`).replace(/about \$[\d.]+M (in )?research funding/, (_m, inn) => `about $${vitaNow.facts.fundingM.toFixed(1)}M ${inn ?? ''}research funding`);
 const announcement = (t: string) => grantAnn.grants.find((g) => t.startsWith(g.grantPrefix))?.url;
 
 const sec = (h: string) => page.find((s) => s.heading === h)?.items ?? [];
