@@ -1,0 +1,741 @@
+[
+ {
+  "name": "Chao Liu",
+  "category": "Post-doctorate Alumni",
+  "emailAsListed": "cliu5 (@) iastate.edu",
+  "lines": [
+   "Ph.D. Power Engineering and Engineering Thermophysics, Tsinghua University, 2013",
+   "B.E. Thermal and Power Engineering, Huazhong University of Science and Technology, 2008",
+   "Chao joined the lab in August 2015. His research interests mainly focus on two areas- one is diagnosis, prognosis, and health monitoring, with experiences in feature extraction and selection, fault identification, and remaining useful life prediction by physical model and statistical model; the other is structure dynamics, with experiences in dynamics of structures and rotor systems, development of finite element method applied in dynmics of cracked rotor system, and experimental study on rotor systems.",
+   "He is currently working as an Assistant Professor in the Department of Thermal Engineering, Tsinghua University."
+  ],
+  "originalLinks": [
+   {
+    "label": "Google Scholar",
+    "href": "https://scholar.google.com/citations?user=WISfoo8AAAAJ&hl=en"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "faculty-page",
+    "url": "https://www.depe.tsinghua.edu.cn/depeen/info/1297/1357.htm"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=WISfoo8AAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "faculty-page",
+    "url": "https://www.depe.tsinghua.edu.cn/depeen/info/1297/1357.htm",
+    "confidence": "high",
+    "evidence": "Tsinghua DEPE faculty page: PhD Tsinghua 2008-2013, B.E. HUST 2004-2008, postdoc ISU Mechanical Engineering 2015-2017; email cliu5@tsinghua.edu.cn. Now Associate Professor (since Dec 2022)."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=WISfoo8AAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Existing link confirmed: Tsinghua DEPE, verified tsinghua.edu.cn, top collaborator Soumik Sarkar."
+   }
+  ],
+  "webSearchNotes": "Existing Scholar link still current. Lab bio says Assistant Professor; he is now Associate Professor (since Dec 2022).",
+  "githubFinding": null
+ },
+ {
+  "name": "Onur Rauf Bingol",
+  "category": "Post-doctorate Alumni",
+  "emailAsListed": "orbingol (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2019",
+   "M.S. Information Systems, Middle East Technical University, 2014",
+   "M.S. Metallurgical and Materials Engineering, Middle East Technical University, 2010",
+   "B.S. Metallurgical and Materials Engineering, Middle East Technical University, 2007",
+   "Onur joined SCS lab in Fall 2019 semester as a Postdoctoral Researcher. During his Ph.D. studies, he has developed a variety of open-source software libraries for computer graphics and computational mechanics, and shared on GitHub. His research interests include computer graphics, computational geometry, high performance computing and robotics.",
+   "He is currently working at Palo Alto Research Center (PARC)."
+  ],
+  "originalLinks": [
+   {
+    "label": "Personal Website",
+    "href": "https://onurraufbingol.com/"
+   },
+   {
+    "label": "LinkedIn",
+    "href": "https://www.linkedin.com/in/onurraufbingol/"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://onurraufbingol.com/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/orbingol"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://onurraufbingol.com/",
+    "confidence": "high",
+    "evidence": "Existing link, live (copyright 2018-2026 Onur Rauf Bingol); links GitHub orbingol."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/orbingol",
+    "confidence": "high",
+    "evidence": "Linked from onurraufbingol.com; username matches ISU email orbingol; hosts NURBS-Python (Bingol & Krishnamurthy, ISU)."
+   },
+   {
+    "type": "other",
+    "url": "https://www.researchgate.net/scientific-contributions/Onur-Rauf-Bingol-2119839591",
+    "confidence": "medium",
+    "evidence": "ResearchGate author page in search results; not fetched."
+   }
+  ],
+  "webSearchNotes": "No Google Scholar profile found. Existing links current.",
+  "githubFinding": null
+ },
+ {
+  "name": "Aditya Balu",
+  "category": "Post-doctorate Alumni",
+  "emailAsListed": "baditya (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2020",
+   "B.E. Hons. Mechanical Engineering, Birla Institute of Technology and Sciences, Pilani, 2014",
+   "Aditya Balu was a Ph.D. student at Iowa State University under joint supervision of Dr. Adarsh Krishnamurthy and Dr. Soumik Sarkar. He received his undergraduate degree in 2014 from Birla Institute of Technology and Sciences, Pilani. Previously, he worked at FMC Technologies Inc. for two years. His research interests include Design for Manufacturing, Machine Learning and High Performance Computing applications to solve Engineering problems."
+  ],
+  "originalLinks": [
+   {
+    "label": "Personal Website",
+    "href": "https://adityabalu.mystrikingly.com/"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://adityabalu.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=GNuXi6oAAAAJ"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/adityabalu"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://adityabalu.github.io/",
+    "confidence": "high",
+    "evidence": "Site: Data Scientist, Translational AI Center, ISU; PhD ISU 2016-2020 advised by Adarsh Krishnamurthy and Soumik Sarkar; B.E. BITS Pilani."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=GNuXi6oAAAAJ",
+    "confidence": "high",
+    "evidence": "Linked from adityabalu.github.io."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/adityabalu",
+    "confidence": "high",
+    "evidence": "Linked from adityabalu.github.io."
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://tads.research.iastate.edu/dr-aditya-balu",
+    "confidence": "medium",
+    "evidence": "ISU TADS page in search results; not fetched."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/aditya-balu/",
+    "confidence": "medium",
+    "evidence": "Search result 'Aditya Balu - Data Scientist - Iowa State University'; not fetched."
+   }
+  ],
+  "webSearchNotes": "Existing link adityabalu.mystrikingly.com returns 403 to fetch (still indexed); adityabalu.github.io appears to be the current homepage.",
+  "githubFinding": null
+ },
+ {
+  "name": "Joshua Waite",
+  "category": "Post-doctorate Alumni",
+  "emailAsListed": "jrwaite (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering & Computer Engineering, Iowa State University, 2024",
+   "B.S. Mechanical Engineering, Iowa State University, 2019",
+   "Joshua Waite completed his Ph.D. at Iowa State University in 2024 under the supervision of Dr. Soumik Sarkar. He served as a Postdoctoral Research Associate with the Translational AI Center (TrAC), working on applied AI research across computer vision, multimodal AI, agentic AI systems, and simulation-based decision support.",
+   "He is currently working as a Data Scientist at TrAC"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=skX2i7kAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=skX2i7kAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Scholar 'Joshua R. Waite': Data Scientist, Translational AI Center, ISU; verified iastate.edu; top coauthor Soumik Sarkar."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/jrwaite/",
+    "confidence": "medium",
+    "evidence": "Search result 'Joshua Waite - TrAC - Translational AI Center'; slug matches email jrwaite; not fetched."
+   }
+  ],
+  "webSearchNotes": "A different Scholar profile (8Gf_fUYAAAAJ, Duke, turbine flutter) is a different person - excluded. No homepage/GitHub found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Kin Gwn Lore",
+  "category": "Graduate Alumni",
+  "emailAsListed": "kglore (@) iastate.edu",
+  "lines": [
+   "M.S. Mechanical Engineering, Iowa State University, 2016",
+   "B.S. Mechanical Engineering, Iowa State University, 2014",
+   "Kin has worked on multi-agent systems and implemented machine learning algorithms to solve physical engineering problems. His projects were on network topology control in multi-agent proximity networks, application of Deep Learning models for microfluidic pillar sculpting, low-light image denoising, decision making in cyber-physical systems, and in prognostics and health monitoring. He has a burning passion in creativity - from making digital arts and playing musical instruments to video editing and programming.",
+   "He graduated from SCS lab in December 2016 and is currently working in United Technologies Research Center at East Hartford, CT, USA."
+  ],
+  "originalLinks": [
+   {
+    "label": "Personal Website",
+    "href": "https://kglore.weebly.com/"
+   },
+   {
+    "label": "Google Scholar",
+    "href": "https://scholar.google.com/citations?user=rVWjsIoAAAAJ&hl=en&oi=ao"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://github.com/kglore/kglore"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/kglore"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=rVWjsIoAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://github.com/kglore/kglore",
+    "confidence": "high",
+    "evidence": "README 'Kin Gwn Lore's Personal Page': ISU M.S. thesis 2017, ISU Research Excellence Award 2016; lists Raytheon Technologies Research Center."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/kglore",
+    "confidence": "high",
+    "evidence": "Username matches ISU email kglore; hosts personal page repo."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=rVWjsIoAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Existing link confirmed: frequent coauthor Soumik Sarkar, LLNet paper; now verified deloitte.com email."
+   }
+  ],
+  "webSearchNotes": "Existing link kglore.weebly.com returns 404 (dead); kingwn.weebly.com is labeled 'Outdated'. Current employer per Scholar: Deloitte (theorg.com: Data Science Manager, Deloitte Danmark).",
+  "githubFinding": null
+ },
+ {
+  "name": "Kundan Kumar",
+  "category": "Graduate Alumni",
+  "emailAsListed": "kkumar (@) iastate.edu",
+  "lines": [
+   "M.S. Department of Computer Science, Iowa State University, 2016",
+   "B. Tech. Electronics and Communications Engineering, 2012",
+   "A mysterious student who shows up in the lab only late at night and on the weekends. Even his profile picture seems mysterious!"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://kundan-kumarr.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=1zDpIJkAAAAJ&hl=en"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/kundan-kumar-0"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://kundan-kumarr.github.io/",
+    "confidence": "high",
+    "evidence": "Linked as homepage from Scholar profile below."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=1zDpIJkAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "PhD CS Iowa State, verified iastate.edu; includes 2016 ICCPS paper 'Deep value of information estimators...' with Lore and Sarkar; linked from ISU CS profile."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/kundan-kumarr",
+    "confidence": "medium",
+    "evidence": "Same handle as homepage kundan-kumarr.github.io; not fetched."
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/kundan-kumar-0",
+    "confidence": "high",
+    "evidence": "ISU CS PhD profile: M.S. CS Iowa State, B.E. ECE; advisor Ravikumar Gelli; links Scholar 1zDpIJkAAAAJ."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/kundan-kumarr/",
+    "confidence": "medium",
+    "evidence": "Search result 'Kundan Kumar - PhD in Computer Science ... Iowa State'; not fetched."
+   }
+  ],
+  "webSearchNotes": "After the 2016 M.S. he continued to a PhD in ISU CS (advisor R. Gelli).",
+  "githubFinding": null
+ },
+ {
+  "name": "Vikas Chawla",
+  "category": "Graduate Alumni",
+  "emailAsListed": "vchawla (@) iastate.edu",
+  "lines": [
+   "M.S. Computer Science, Iowa State University, 2016",
+   "He is currently working in Twilio as a Senior Software Engineer."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "Searches for name + Twilio/Iowa State only returned the SCSLab team page itself. No homepage, Scholar or GitHub could be tied to him.",
+  "githubFinding": null
+ },
+ {
+  "name": "Adedotun Akintayo",
+  "category": "Graduate Alumni",
+  "emailAsListed": "akintayo (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2017",
+   "M.S. Control Systems, University of Sheffield, United Kingdom, 2014",
+   "B.E. Mechanical Engineering, Ahmadu Bello University, Zaria, Nigeria, 2009",
+   "Adedotun was a Ph.D. Student in the Mechanical Engineering department. He became a member to Dr. Soumik Sarkar's lab in the Fall of 2014. His research interests are in data and systems modelling, computational intelligence, active energy controls in buildings, optimization and combinatorics. He likes to drive around town, interact with people and read.",
+   "He graduated from SCSlab in December 2017 and is currently working in Intel as a Graphics Software Engineer at Folsom, CA."
+  ],
+  "originalLinks": [
+   {
+    "label": "Google Scholar",
+    "href": "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en",
+    "confidence": "high",
+    "evidence": "Profile name Adedotun Akintayo; top paper LLNet with K.G. Lore and S. Sarkar; co-authors Soumik Sarkar, Zhanhong Jiang. Affiliation now The Boeing Company (site says Intel; outdated)."
+   },
+   {
+    "type": "homepage",
+    "url": "https://dotunakintayo.weebly.com/",
+    "confidence": "medium",
+    "evidence": "Linked as homepage from his verified-by-content Scholar profile; page itself only shows 'Dotun Akintayo' with Publications/Research sections, no ISU text seen."
+   }
+  ],
+  "webSearchNotes": "Existing Scholar link is correct for him. Current employer per Scholar: Boeing (not Intel).",
+  "githubFinding": null
+ },
+ {
+  "name": "Linjiang Wu",
+  "category": "Graduate Alumni",
+  "emailAsListed": "lwu26 (@) iastate.edu",
+  "lines": [
+   "M.S. Mechanical Engineering, Iowa State University, 2018",
+   "B.S. Automotive Engineering, Wuhan University of Technology, 2012",
+   "Linjiang has worked on graphical modeling for cyber-physical systems for engineering problems. His studies are traffic sensor health monitoring, building energy consumption analysis and prediction, and application of Deep Learning techniques for feature extracting and fault detection. He has a passion for automotive engineering and is a well-versed automotive engineer.",
+   "He graduated from SCS lab in May 2018 and is currently working in Hi-Lex Controls Inc. at Rochester Hills, MI, USA."
+  ],
+  "originalLinks": [
+   {
+    "label": "Google Scholar",
+    "href": "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=UwkVywQAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=UwkVywQAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Profile name Linjiang Wu, Sr. System Engineer at Continental (verified continental-corporation.com); co-authored with Soumik Sarkar: 'An adaptive spatiotemporal feature learning approach for fault diagnosis in complex systems' (2019) and crop yield prediction (2021)."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/linjiang-wu/",
+    "confidence": "medium",
+    "evidence": "Appeared in search results as 'Linjiang Wu - Sr. System Design Engineer (Head-Up ...)', consistent with Scholar's AR-HUD/Continental role; not fetched."
+   }
+  ],
+  "webSearchNotes": "CONFLICT: existing Scholar link (kiTENtllKw4C) is Adedotun Akintayo's profile, not his. Correct one is UwkVywQAAAAJ. Now at Continental, not Hi-Lex.",
+  "githubFinding": null
+ },
+ {
+  "name": "Apurva Kokate",
+  "category": "Graduate Alumni",
+  "emailAsListed": "N/A",
+  "lines": [
+   "M.S. Computer Science, Iowa State University, 2018",
+   "B.E. Computer Engineering, University of Mumbai, Mumbai, 2016",
+   "Apurva joined the lab in Spring 2017. She has a passion for Computer Science and is deeply rooted in solving puzzles and developing programs. She focuses herself on the use of technology with a responsible, ethical stand. She hopes to contributing in making machines more intelligent and taking A.I to the next level. In the lab, she hopes to learn and use Machine Learning techniques.",
+   "She graduated from SCS lab in May 2018 and is currently working in Kingland Systems as a Software Designer."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=ujVlricAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=ujVlricAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Profile lists her 2018 Iowa State University thesis 'A study of interpretability mechanisms for deep networks' and papers co-authored with Soumik Sarkar (forward-backward visualization; photovoltaics microstructure). Now verified oregonstate.edu (PhD at Oregon State)."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/apurva-kokate/",
+    "confidence": "medium",
+    "evidence": "Search result 'Apurva Kokate - Oregon State University', consistent with Scholar profile; not fetched. Note a different Apurva Kokate (IDFC FIRST Bank) also exists."
+   }
+  ],
+  "webSearchNotes": "Appears to have later done a PhD at Oregon State (dissertation on hybrid modeling for environmental systems); the Kingland Systems role is likely outdated.",
+  "githubFinding": null
+ },
+ {
+  "name": "Venkatesh Chinde",
+  "category": "Graduate Alumni",
+  "emailAsListed": "vchinde (@) iastate.edu",
+  "lines": [
+   "M.S. Electrical and Computer Engineering, Iowa State University, 2015",
+   "M.Tech. Electrical and Electronics Engineering, VJTI, 2010",
+   "B.S. Electrical and Electronics Engineering, Auroras Engineering College, 2008",
+   "Venkatesh was a Ph.D. student from the Mechanical Engineering department. His research interests are on building control systems, distributed optimization, diffusion maps, passivity-based control, flatness-based control and feedback linearization. He likes badminton, tennis, and cooking."
+  ],
+  "originalLinks": [
+   {
+    "label": "Personal Website",
+    "href": "https://venkateshchinde.weebly.com/"
+   },
+   {
+    "label": "Google Scholar",
+    "href": "https://scholar.google.com/citations?user=M217XvAAAAAJ&hl=en&oi=ao"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://venkateshchinde.weebly.com/"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.nrel.gov/research/staff/venkatesh-chinde.html"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://venkateshchinde.weebly.com/",
+    "confidence": "high",
+    "evidence": "Page names Venkatesh Chinde, PhD Mechanical Engineering Iowa State (math minor), now Research Engineer at NREL."
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.nrel.gov/research/staff/venkatesh-chinde.html",
+    "confidence": "high",
+    "evidence": "NREL staff page: Ph.D. ME with math minor Iowa State, M.S. EE Iowa State, M.Tech VJTI, B.Tech Auroras Engineering College; matches degrees exactly."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=M217XvAAAAAJ&hl=en",
+    "confidence": "medium",
+    "evidence": "Profile name Venkatesh Chinde, building HVAC MPC papers (co-authors at NREL/PNNL); no affiliation listed. Field matches NREL page; no direct ISU/Sarkar text seen."
+   }
+  ],
+  "webSearchNotes": "Existing links still valid. Now at NREL (LinkedIn search snippet says 'National Laboratory of the Rockies', NREL's new name).",
+  "githubFinding": null
+ },
+ {
+  "name": "Shuo Wang",
+  "category": "Graduate Alumni",
+  "emailAsListed": "N/A",
+  "lines": [
+   "Ph.D. Civil Engineering, Iowa State University, 2018",
+   "M.S. Civil Engineering, University of Nebraska-Lincoln, 2014",
+   "Shuo is currently working as Senior Systems Engineer in NVIDIA at Santa Clara, CA"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?hl=en&user=r0UjaNUAAAAJ"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?hl=en&user=r0UjaNUAAAAJ",
+    "confidence": "high",
+    "evidence": "Verified nvidia.com email; frequent co-author Anuj Sharma (Iowa State civil/transportation); 'Highway crash detection and risk estimation using deep learning' (ISU TIMELI work). Matches ISU Civil PhD + NVIDIA from the site details."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/wkelongws-shuowang/",
+    "confidence": "medium",
+    "evidence": "Search result titled 'Shuo Wang - Senior Systems Engineer at NVIDIA', matching the site's details; not fetched."
+   }
+  ],
+  "webSearchNotes": "Common name. Accepted only the profile tied to NVIDIA + Anuj Sharma (ISU).",
+  "githubFinding": null
+ },
+ {
+  "name": "Zhanhong Jiang",
+  "category": "Graduate Alumni",
+  "emailAsListed": "zhjiang (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2018",
+   "M.S. Mechanical Engineering, Chinese Academy of Sciences, 2014",
+   "B.E. Mechanical Engineering, Shenzhen University, 2011",
+   "Zhanhong joined the lab since Fall 2014. His research interests mainly focus on the areas of cyber-physical systems, multi-agent systems, system dynamics, and optimization. His hobbies in daily life include playing tennis, cooking, and reading.",
+   "He graduated from SCS lab in December 2018 and is currently working as Data Scientist in Johnson Controls, Milwaukee, WI, USA."
+  ],
+  "originalLinks": [
+   {
+    "label": "Google Scholar",
+    "href": "https://scholar.google.com/citations?user=zRRvPRMAAAAJ&hl=en"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=zRRvPRMAAAAJ&hl=en"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://trac-ai.iastate.edu/profiles/zhanhong-jiang/"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=zRRvPRMAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Scientist at TrAC, Iowa State; verified iastate.edu; top co-author Soumik Sarkar."
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://trac-ai.iastate.edu/profiles/zhanhong-jiang/",
+    "confidence": "high",
+    "evidence": "TrAC (Iowa State) profile, Data Scientist, email zhjiang@iastate.edu (matches username)."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/starkjiang",
+    "confidence": "medium",
+    "evidence": "GitHub name Zhanhong Jiang, affiliated with Iowa State; hosts TrAC short-course repos (from search result)."
+   }
+  ],
+  "webSearchNotes": "Existing Scholar link valid. He's back at ISU TrAC (no longer Johnson Controls).",
+  "githubFinding": null
+ },
+ {
+  "name": "Sambuddha Ghosal",
+  "category": "Graduate Alumni",
+  "emailAsListed": "sghosal (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2019",
+   "M.S Computer Science, Iowa State University, 2019",
+   "M.S. Mechanical Engineering, Iowa State University, 2017",
+   "B.E. Mechanical Engineering, Jadavpur University, 2015",
+   "Sambuddha joined the lab in Fall 2015. His research interests are control systems, cyber physical systems, dynamics and optimization, deep learning & machine learning. Recent works include: Anomaly detection in large scale cyber physical systems and application of sparsity promoting dynamic mode decomposition to detect characteristic features and dynamics of complex fluid flows (for eg, combustion flames) from snapshot data. He has interests in playing the piano, playing chess, biking and shooting.",
+   "He graduated from SCS lab in July 2019 and is currently a post doctorate at MIT, Cambridge, MA, USA."
+  ],
+  "originalLinks": [
+   {
+    "label": "Google Scholar",
+    "href": "https://scholar.google.com/citations?hl=en&user=gsQYjWcAAAAJ"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?hl=en&user=gsQYjWcAAAAJ"
+   },
+   {
+    "type": "homepage",
+    "url": "https://www.media.mit.edu/people/sghosal/overview/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/sghosal93"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?hl=en&user=gsQYjWcAAAAJ",
+    "confidence": "high",
+    "evidence": "Name Sambuddha Ghosal, Senior Research Data Scientist @ Bayer R&D / MIT, verified mit.edu; plant stress phenotyping papers with Ganapathysubramanian/Singh (ISU)."
+   },
+   {
+    "type": "homepage",
+    "url": "https://www.media.mit.edu/people/sghosal/overview/",
+    "confidence": "high",
+    "evidence": "MIT Media Lab profile: postdoc with Pratik Shah; Ph.D. Iowa State University, May 2019. Linked as homepage from Scholar."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/sghosal93",
+    "confidence": "high",
+    "evidence": "GitHub name Sambuddha Ghosal, 'Postdoc @ MIT', links to MIT Media Lab page; hosts xPlNet plant-stress and photovoltaics CNN repos (ISU papers)."
+   }
+  ],
+  "webSearchNotes": "Existing Scholar link valid. Now Senior Research Data Scientist at Bayer R&D.",
+  "githubFinding": null
+ },
+ {
+  "name": "Truong Tran",
+  "category": "Graduate Alumni",
+  "emailAsListed": "txtran (@) iastate.edu",
+  "lines": [
+   "M.S. Mechanical Engineering, Iowa State University, 2019",
+   "B.E. Mechanical Engineering, Hanoi University of Science and Technology, 2017",
+   "Erasmus Mundus Scholar, 2015 - 2016",
+   "Truong joined the lab Fall 2017. His research Interests are Computer Vision, Robotics and Software Engineering. He has experience working with embedded computersion system (using C++ with Qt framework) as well as hardware accelerated Machine Learning using GPU clusters (using Tensorflow) and mobile device (using Apple CoreML) . His current work involves applying Machine Learning in Plant Science and 3D reconstruction of Plant using mobile device. In his free time, Truong enjoy Photography and reading novel.",
+   "He graduated from SCS lab in December 2019 and is currently a Security Analyst at VinCSS."
+  ],
+  "originalLinks": [
+   {
+    "label": "Linkedin",
+    "href": "https://vn.linkedin.com/in/truong-tran-62643194"
+   }
+  ],
+  "webLinksShown": [],
+  "webSearchEvidence": [
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/truong-tran-62643194/",
+    "confidence": "medium",
+    "evidence": "Same slug as existing link; search result title now 'Truong Tran - FPT Software'. Not fetched."
+   }
+  ],
+  "webSearchNotes": "No homepage/Scholar/GitHub found that ties to ISU. Existing LinkedIn slug confirmed in search results; headline suggests he moved from VinCSS to FPT Software.",
+  "githubFinding": null
+ },
+ {
+  "name": "Zhisheng Zhang",
+  "category": "Graduate Alumni",
+  "emailAsListed": "zhisheng (@) iastate.edu",
+  "lines": [
+   "M.S. Mechanical Engineering, Iowa State University, 2019",
+   "B.S Mechanical Engineering, Iowa State University, 2016",
+   "Zhisheng joined the lab Spring 2017. His research interests are deep learning and machine learning application to engineering problems. He is currently working on the deep learning application for plant science and agricultural which is based on object classification, localization, and detection.",
+   "He graduated from SCS lab in July 2019 and is currently working in Bayer Crop Science as a Image Data Scientist, St. Louis, MO."
+  ],
+  "originalLinks": [
+   {
+    "label": "Linkedin",
+    "href": "https://vn.linkedin.com/in/truong-tran-62643194"
+   }
+  ],
+  "webLinksShown": [],
+  "webSearchEvidence": [
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/zszhang/",
+    "confidence": "low",
+    "evidence": "Search for 'Zhisheng Zhang Bayer Iowa State deep learning plant' returned 'Zhisheng Zhang - Machine Learning Engineer'; not fetched, so ISU tie not confirmed."
+   }
+  ],
+  "webSearchNotes": "CONFLICT: existing link on the site is Truong Tran's LinkedIn (truong-tran-62643194), a copy-paste error; drop it. No Scholar/homepage found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Ameya Joshi",
+  "category": "Graduate Alumni",
+  "emailAsListed": "ameya (@) iastate.edu",
+  "lines": [
+   "B.E. Electrical and Electronics Engineering, BITS Pilani, 2014",
+   "Ameya is a Ph.D. student in the Department of Electrical and Computer Engineering at Iowa State University jointly supervised by Prof. Soumik Sarkar and Prof. Chinmay Hegde. He received his undergraduate degree in Electrical and Electronics Engineering from Birla Institute of Technology and Science, Pilani in 2014. He has previously worked at SigTuple technologies, Bengaluru. His research interests include robust machine learning with applications in medicine and manufacturing, distributed learning and cyber-physical systems.",
+   "He moved to New York University in January 2020 to continue his Ph.D. studies."
+  ],
+  "originalLinks": [
+   {
+    "label": "Personal Website",
+    "href": "https://ameya005.github.io/"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://ameya005.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.co.in/citations?user=jZgsp_sAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/ameya005"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://ameya005.github.io/",
+    "confidence": "high",
+    "evidence": "Page states PhD NYU Tandon 2023 (advisor Chinmay Hegde), previously ISU PhD student under Hegde and Soumik Sarkar, BITS Pilani 2014. Now Research Scientist at Extend AI."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.co.in/citations?user=jZgsp_sAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Linked from his homepage."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/ameya005",
+    "confidence": "high",
+    "evidence": "Linked from his homepage."
+   }
+  ],
+  "webSearchNotes": "Existing homepage link valid.",
+  "githubFinding": null
+ }
+]

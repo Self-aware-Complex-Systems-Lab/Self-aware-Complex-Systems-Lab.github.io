@@ -1,8 +1,7 @@
 import { test, expect } from '@playwright/test';
 import AxeBuilder from '@axe-core/playwright';
 import { people } from '../src/lib/people';
-import pubs from '../src/data/publications.json' with { type: 'json' };
-import added from '../src/data/publications-added.json' with { type: 'json' };
+import { publications } from '../src/lib/publications';
 
 const PAGES = ['/', '/principal-investigator/', '/research/', '/people/', '/publications/', '/alumni/', '/gallery/', '/contact/'];
 
@@ -50,14 +49,20 @@ test('every person is rendered with their own photo', async ({ page }) => {
   expect(seen.size).toBe(people.length);
 });
 
+test('publications: no duplicate titles', async ({ page }) => {
+  await page.goto('/publications/');
+  const titles = await page.$$eval('li.pub > p:first-child', (els) => els.map((e) => e.textContent!.toLowerCase().replace(/[^a-z0-9]/g, '')));
+  expect(titles.length - new Set(titles).size).toBe(0);
+});
+
 test('publications: all listed, search and filters work', async ({ page }) => {
   await page.goto('/publications/');
-  await expect(page.locator('li.pub')).toHaveCount(pubs.length + added.length);
+  await expect(page.locator('li.pub')).toHaveCount(publications.length);
   await page.fill('#pub-q', 'InsectNet');
   await expect(page.locator('li.pub:visible')).toHaveCount(1);
   await page.fill('#pub-q', '');
   await page.click('button[data-tab="preprints"]');
-  await expect(page.locator('li.pub:visible')).toHaveCount([...pubs, ...added].filter((p) => p.category === 'preprints').length);
+  await expect(page.locator('li.pub:visible')).toHaveCount(publications.filter((p) => p.category === 'preprints').length);
 });
 
 test('mobile menu opens', async ({ page, isMobile }) => {

@@ -1,0 +1,1094 @@
+[
+ {
+  "name": "Dr. Soumik Sarkar",
+  "category": "Principal Investigator",
+  "emailAsListed": "soumiks (@) iastate.edu",
+  "lines": [
+   "2019A Black Engineering",
+   "Iowa State University",
+   "Ames, IA 50011",
+   "515-294-5212",
+   "Professor",
+   "Director, Translational AI Center (TrAC), Iowa State University, https://trac-ai.iastate.edu/",
+   "Associate Director, AI Institute for Resilient Agriculture (AIIRA), https://aiira.iastate.edu/",
+   "Plant Science Institute Faculty Scholar",
+   "Department of Mechanical Engineering",
+   "Department of Computer Science",
+   "Human Computer Interaction Graduate Program",
+   "Ph.D. Mechanical Engineering, Penn State University, 2011",
+   "M.S. Mechanical Engineering, Penn State University, 2009",
+   "M.S. Mathematics, Penn State University, 2009",
+   "B.E. Mechanical Engineering, Jadavpur University, 2006",
+   "Dr. Soumik Sarkar received his Ph.D. in Mechanical Engineering from Penn State in 2011. Currently he is a Professor of Mechanical Engineering and Computer Science, and the Director of the Translational AI Center at Iowa State. He also serves as the Associate Director of the USDA-NIFA sponsored AI Institute for Resilient Agriculture (AIIRA). Dr. Sarkar’s research interests include Machine Learning and Decision & Control with applications to Cyber-Physical Systems such as energy, transportation, design & manufacturing and agriculture systems. He co‐authored more than 250 peer-reviewed publications and received about $55M research funding during his tenure at Iowa State. He won the ASME DSCD Rudolf Kalman Best Paper Award in 2021. Dr. Sarkar is a recipient of the prestigious NSF CISE Career Initiation Initiative (CRII) award in 2015, Young Investigator award from the US Air Force Office of Scientific Research (AFOSR) in 2017 and the NSF CAREER award in 2019."
+  ],
+  "originalLinks": [
+   {
+    "label": "Google Scholar",
+    "href": "https://scholar.google.com/citations?user=-rmRjqIAAAAJ&hl=en"
+   },
+   {
+    "label": "CV",
+    "href": "https://drive.google.com/file/d/1XF7n5DnlxqGOor1XoZZhnwiol-jekpyc/view"
+   },
+   {
+    "label": "https://trac-ai.iastate.edu/",
+    "href": "https://trac-ai.iastate.edu/"
+   },
+   {
+    "label": "https://aiira.iastate.edu/",
+    "href": "https://aiira.iastate.edu/"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=-rmRjqIAAAAJ&hl=en"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/soumik-sarkar"
+   },
+   {
+    "type": "homepage",
+    "url": "https://sites.google.com/view/scslab-isu/home"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=-rmRjqIAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Top search hit for 'Soumik Sarkar Iowa State'; same ID as existing link (still current)."
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/soumik-sarkar",
+    "confidence": "high",
+    "evidence": "ISU Computer Science people page for Soumik Sarkar (search result)."
+   },
+   {
+    "type": "homepage",
+    "url": "https://sites.google.com/view/scslab-isu/home",
+    "confidence": "high",
+    "evidence": "SCSLab Google Site with 'Principal Investigator' page; lists soumiks@iastate.edu, 515-294-5212, Professor of ME & CS, Director TrAC."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/soumik-sarkar-448b2619",
+    "confidence": "medium",
+    "evidence": "Appeared in search results titled 'Soumik Sarkar - Iowa State University' (not fetched)."
+   }
+  ],
+  "webSearchNotes": "Existing scholar link still current. Old lab site web.me.iastate.edu/soumiks returned 'Request Rejected' when fetched; the Google Site appears to be the current lab site.",
+  "githubFinding": {
+   "name": "Dr. Soumik Sarkar",
+   "github_url": null,
+   "personal_site_url": null,
+   "position_as_stated": null,
+   "interests_as_stated": null,
+   "other_links": [],
+   "confidence": "low",
+   "evidence": "No GitHub account could be tied to him. Accounts named Soumik Sarkar (soumiks, soumiks4, sarkarsoumik, Soum-ik) show no ISU/SCSLab link; 'soumiks' matches his email username but holds only formal-verification/openclaw repos with no bio, so it was rejected. Lab code lives in the org github.com/SCSLabISU (AgGym, AgGym-Env, Micro-OD, xPLNet, CDSGD, FBI...)."
+  }
+ },
+ {
+  "name": "Souradeep Chattopadhyay",
+  "category": "Post Doctoral Students",
+  "emailAsListed": "soura (@) iastate.edu",
+  "lines": [
+   "PhD, Mechanical engieering Iowa State University, 2026",
+   "M.S. Statistics, Iowa State University, 2024",
+   "M.S. Statistics, University of Calcutta, 2016",
+   "B.S. Statistics, University of Calcutta, 2014",
+   "Souradeep is currently a Post-Doc and joined the lab in Spring 2021. He is interested in machine learning, especially unsupervised learning methods and their applications across domains. He has a deep interest in astronomy and, over the past two years, has published papers analyzing astronomical data using machine learning methods. His hobbies include singing and reading, his favorite author being Dan Brown. He is also an ardent fan of Sherlock Holmes."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "Three searches; only the SCSLab team page and a ResearchGate soybean-yield paper surfaced. No Scholar/homepage/GitHub found that could be tied to him (results were other Chattopadhyays).",
+  "githubFinding": {
+   "name": "Souradeep Chattopadhyay",
+   "github_url": null,
+   "personal_site_url": null,
+   "position_as_stated": null,
+   "interests_as_stated": null,
+   "other_links": [],
+   "confidence": "low",
+   "evidence": "Nothing found. Candidates Souradeep858 (full-stack web dev) and soura07 (B.Tech ECE 2025, Cloud & AI engineer) are different people despite soura07 matching his email username."
+  }
+ },
+ {
+  "name": "Zahid Hasan",
+  "category": "Doctoral Students",
+  "emailAsListed": "zahid (@) iastate.edu",
+  "lines": [
+   "B.S. Electrical Engineering, Bangladesh University of Engineering and Technology, 2018",
+   "Zahid is a Ph.D. student in the Department of Electrical and Computer Engineering, Iowa State University. He joined Dr. Soumik's lab in the Summer 2021 semester. His research interest includes Machine Learning, Deep Learning and Cyber-Physical System design. He is currently working on deep learning and computer vision in intelligent driving applications. His hobbies include cycling, soccer, table tennis, hiking, and photography."
+  ],
+  "originalLinks": [
+   {
+    "label": "LinkedIn",
+    "href": "https://www.linkedin.com/in/zahid-isu/"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://zahid-isu.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=m9QYJ_cAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/zahid-isu"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/zahid-isu",
+    "label": "LinkedIn"
+   },
+   {
+    "type": "x",
+    "url": "https://x.com/ZahidHasan62182",
+    "label": "X"
+   },
+   {
+    "type": "cv",
+    "url": "https://zahid-isu.github.io/uploads/Resume_Zahid_Hasan_2026u.pdf",
+    "label": "CV"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://zahid-isu.github.io/",
+    "confidence": "high",
+    "evidence": "Page: 'Md Zahid Hasan', GRA at ISU Self-aware Complex System Lab, advisors Soumik Sarkar & Baskar Ganapathysubramanian, BUET EEE 2014-2018, email zahid@iastate.edu."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=m9QYJ_cAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Linked from homepage; verified iastate.edu email; coauthors Soumik Sarkar, Baskar Ganapathysubramanian."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/zahid-isu",
+    "confidence": "high",
+    "evidence": "Linked from homepage zahid-isu.github.io."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/zahid-isu/",
+    "confidence": "high",
+    "evidence": "Same as existing link; appeared in search titled 'Md Zahid Hasan - Machine Learning Research Assistant - Iowa State University'."
+   }
+  ],
+  "webSearchNotes": "Full name Md Zahid Hasan.",
+  "githubFinding": {
+   "name": "Zahid Hasan",
+   "github_url": "https://github.com/zahid-isu",
+   "personal_site_url": "https://zahid-isu.github.io/",
+   "position_as_stated": "Graduate Research Assistant, Self-aware Complex System Lab, Department of Electrical and Computer Engineering, Iowa State University (Ph.D. EE 2021-2026; Agentic AI Research Intern, Corteva Agriscience, March 2026-present)",
+   "interests_as_stated": "Human-centric AI in Autonomous Systems; Computer Vision & Multimodal Learning; Generative AI-based Multi-agent Workflows; Optimized Finetuning (Speed & Scale) of AI Foundation Models",
+   "other_links": [
+    {
+     "label": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=m9QYJ_cAAAAJ&hl=en"
+    },
+    {
+     "label": "LinkedIn",
+     "url": "https://www.linkedin.com/in/zahid-isu"
+    },
+    {
+     "label": "X",
+     "url": "https://x.com/ZahidHasan62182"
+    },
+    {
+     "label": "CV",
+     "url": "https://zahid-isu.github.io/uploads/Resume_Zahid_Hasan_2026u.pdf"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "GitHub profile company 'Iowa State University', blog zahid-isu.github.io; site names SCSLab, Dr. Soumik Sarkar, email zahid@iastate.edu."
+  }
+ },
+ {
+  "name": "Hsin-Jung Yang",
+  "category": "Doctoral Students",
+  "emailAsListed": "hjy (@) iastate.edu",
+  "lines": [
+   "M.S. Applied Mechanics, National Taiwan University, 2020",
+   "B.S. Engineering Science and Ocean Engineering, National Taiwan University, 2018",
+   "Hsin-Jung is currently a Ph.D. student in the Department of Mechanical Engineering at Iowa State University. He joined the Self-aware Complex Systems Laboratory in Fall 2021 and his research interests include machine learning, deep learning, mechatronics, and robotics. His other interests include hiking and photography."
+  ],
+  "originalLinks": [
+   {
+    "label": "LinkedIn",
+    "href": "https://www.linkedin.com/in/hsinjungyang/"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=K5WYa34AAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/hjy77"
+   },
+   {
+    "type": "other",
+    "url": "https://hjy77.github.io/GENESIS-RL/",
+    "label": "GENESIS-RL project page"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=K5WYa34AAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Profile 'Hsin-Jung Yang' with SCSLab papers: 'Deep RL for robotic control with multi-fidelity models', 'Persistent monitoring of insect-pests on sticky traps...', 'Find the fruit: zero-shot sim2real RL...'. Now verified at intel.com."
+   },
+   {
+    "type": "other",
+    "url": "https://openreview.net/profile?id=~Hsin-Jung_Yang1",
+    "confidence": "medium",
+    "evidence": "OpenReview profile titled 'Hsin-Jung Yang - PhD student, Iowa State University' (fetch blocked by bot check)."
+   }
+  ],
+  "webSearchNotes": "Scholar now shows Intel affiliation, so he may have graduated/moved to Intel. A different profile 'Hsin-Jung (Randy) Yang' (5wa1GKEAAAAJ) exists and is NOT him. Existing LinkedIn not re-checked.",
+  "githubFinding": {
+   "name": "Hsin-Jung Yang",
+   "github_url": "https://github.com/hjy77",
+   "personal_site_url": null,
+   "position_as_stated": null,
+   "interests_as_stated": null,
+   "other_links": [
+    {
+     "label": "GENESIS-RL project page",
+     "url": "https://hjy77.github.io/GENESIS-RL/"
+    },
+    {
+     "label": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=K5WYa34AAAAJ&hl=en"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "hjy77 (prefix matches ISU username hjy) hosts repos find_the_fruit, zero_shot_soft_arm, Insect_Detection_YOLOv8 and GENESIS-RL, all matching his SCSLab papers; the GENESIS-RL page lists Hsin-Jung Yang (Iowa State) as first author with Soumik Sarkar and is linked from Zahid Hasan's site. Profile has no name/bio; hjy77.github.io root is an empty placeholder, so no personal site. Scholar link is from the earlier search."
+  }
+ },
+ {
+  "name": "Timilehin Ayanlade",
+  "category": "Doctoral Students",
+  "emailAsListed": "ayanlade (@) iastate.edu",
+  "lines": [
+   "B.E. Agricultural Engineering, Federal University of Technology, Akure, Nigeria, 2019",
+   "Timilehin Ayanlade is a Ph.D. student in Mechanical Engineering. He joined the Self-aware Complex Systems Laboratory in Spring 2022. He holds a B.E. degree in Agricultural Engineering. His main research interests include machine learning, deep learning, and computer vision. He will focus on machine learning and deep learning in his Ph.D. thesis. He is also interested in playing chess, reading books, and public speaking."
+  ],
+  "originalLinks": [
+   {
+    "label": "LinkedIn",
+    "href": "https://www.linkedin.com/in/timilehin-ayanlade"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=SI6VhjMAAAAJ&hl=en"
+   },
+   {
+    "type": "other",
+    "url": "https://news.engineering.iastate.edu/2026/04/01/we-should-all-think-like-entrepreneurs-timilehin-ayanlade-engineering-ai-innovations-in-cyber-agriculture-systems/"
+   },
+   {
+    "type": "homepage",
+    "url": "https://ttayanlade.github.io/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/ttayanlade"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/timilehin-ayanlade/",
+    "label": "LinkedIn"
+   },
+   {
+    "type": "cv",
+    "url": "https://ttayanlade.github.io/data/timilehin_ayanlade_cv.pdf",
+    "label": "CV"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=SI6VhjMAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Graduate student at Iowa State, verified iastate.edu; papers on soybean/maize phenotyping, 'Multi-modal AI for ultra-precision agriculture'."
+   },
+   {
+    "type": "other",
+    "url": "https://news.engineering.iastate.edu/2026/04/01/we-should-all-think-like-entrepreneurs-timilehin-ayanlade-engineering-ai-innovations-in-cyber-agriculture-systems/",
+    "confidence": "high",
+    "evidence": "ISU Engineering News feature on him (2026)."
+   },
+   {
+    "type": "other",
+    "url": "https://timilehin-ayanlade.medium.com/",
+    "confidence": "medium",
+    "evidence": "Medium blog by Timilehin Ayanlade writing about ISU student organization."
+   }
+  ],
+  "webSearchNotes": "No personal homepage found. Existing LinkedIn kept.",
+  "githubFinding": {
+   "name": "Timilehin Ayanlade",
+   "github_url": "https://github.com/ttayanlade",
+   "personal_site_url": "https://ttayanlade.github.io/",
+   "position_as_stated": "PhD student at the Self Aware Complex Systems Laboratory at the Translational AI Center in Iowa State University, working with Professor Soumik Sarkar",
+   "interests_as_stated": "Machine Learning for Multimodal Understanding in Cyber-Agricultural Systems; deployment of ML models in agricultural high-throughput pipelines; robustness, explainability, and trustworthiness of deployed models",
+   "other_links": [
+    {
+     "label": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=SI6VhjMAAAAJ&hl=en"
+    },
+    {
+     "label": "LinkedIn",
+     "url": "https://www.linkedin.com/in/timilehin-ayanlade/"
+    },
+    {
+     "label": "CV",
+     "url": "https://ttayanlade.github.io/data/timilehin_ayanlade_cv.pdf"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "GitHub name Timilehin Ayanlade, repo ttayanlade.github.io; site states SCSLab/TrAC with Prof. Soumik Sarkar and links github.com/ttayanlade."
+  }
+ },
+ {
+  "name": "Mahsa Khosravi",
+  "category": "Doctoral Students",
+  "emailAsListed": "mahsak (@) iastate.edu",
+  "lines": [
+   "M.S. Industrial Engineering, University of Tehran, Tehran, Iran, 2015",
+   "B.S. Industrial Engineering, Semnan University of Science and Technology, Semnan, Iran 2013",
+   "Mahsa Khosravi is a Ph.D. student in Industrial Engineering and joined the Self-aware Complex Systems in Summer 2021. Her M.S. degree was in the field of cancer diagnosis and recurrence prediction using machine learning. Her main research interests include Reinforcement learning, machine learning, deep learning, and robotics. She is also interested in playing the piano, reading books, and rock climbing."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=Rbi2WL4AAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/Mkhosravi91"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=Rbi2WL4AAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Iowa State, verified iastate.edu; RL/robotics; papers AgGym, 'Enhancing PPO with trajectory-aware hybrid policies' (SCSLab work)."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/mahsa-kh/",
+    "confidence": "medium",
+    "evidence": "Search result titled 'mahsa khosravi - PhD Candidate | Reinforcement Learning' (not fetched)."
+   }
+  ],
+  "webSearchNotes": "No personal homepage found.",
+  "githubFinding": {
+   "name": "Mahsa Khosravi",
+   "github_url": "https://github.com/Mkhosravi91",
+   "personal_site_url": null,
+   "position_as_stated": null,
+   "interests_as_stated": null,
+   "other_links": [
+    {
+     "label": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=Rbi2WL4AAAAJ&hl=en"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "Mkhosravi91 is the sole contributor to SCSLabISU/AgGym and SCSLabISU/AgGym-Env (her AgGym paper) and owns AgGym-paper, AgGym-website, softarmAutoencoder (her soft continuum arm work), Ag-Planning. Profile has no name/bio and no Pages site. A different account, mahsakhosravi1992 (name 'mahsa khosravi', unrelated Persian-named repos, no ISU tie), was rejected."
+  }
+ },
+ {
+  "name": "Qisai Liu",
+  "category": "Doctoral Students",
+  "emailAsListed": "supersai (@) iastate.edu",
+  "lines": [
+   "B.S. Mechanical Engineering, Iowa State University, 2020",
+   "Qisai is currently a Ph.D. student at Iowa State University. In summer 2019, he had two internship experiences related to robotics and manufacturing. He enjoys working on machine learning and robotics related problems."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=iNYmolkAAAAJ"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=iNYmolkAAAAJ",
+    "confidence": "high",
+    "evidence": "Iowa State, verified iastate.edu; frequent coauthors S. Sarkar, Z. Jiang, J.R. Waite; combustion DL work (ISU ME)."
+   },
+   {
+    "type": "other",
+    "url": "https://www.alphaxiv.org/@qisai-liu",
+    "confidence": "medium",
+    "evidence": "alphaXiv profile: CS PhD student at ISU, top collaborator Soumik Sarkar; links the Scholar profile above."
+   }
+  ],
+  "webSearchNotes": "No personal homepage or GitHub found. Now described as a CS PhD student.",
+  "githubFinding": {
+   "name": "Qisai Liu",
+   "github_url": null,
+   "personal_site_url": null,
+   "position_as_stated": null,
+   "interests_as_stated": null,
+   "other_links": [
+    {
+     "label": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=iNYmolkAAAAJ"
+    },
+    {
+     "label": "LinkedIn",
+     "url": "https://www.linkedin.com/in/qisai/"
+    }
+   ],
+   "confidence": "low",
+   "evidence": "No GitHub/github.io found (GitHub login 'qisai' and similar have no ISU tie). LinkedIn /in/qisai is linked for 'Qisai Liu' as co-author on Zahid Hasan's RLS3 project page (zahid-isu.github.io/rls3); not fetched."
+  }
+ },
+ {
+  "name": "Nastaran Saadati",
+  "category": "Doctoral Students",
+  "emailAsListed": "nsaadati (@) iastate.edu",
+  "lines": [
+   "B.S. Marine Engineering, Sharif University of Technology, Tehran, Iran",
+   "Nastaran is a Ph.D. student in Mechanical Engineering, who joined Dr. Sarkar’s lab in the Fall 2022. Her current research interests are in machine learning, deep learning, robotics and control. She is also interested in reading books, hiking and watching movies."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "github",
+    "url": "https://github.com/nsaadati"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "github",
+    "url": "https://github.com/nsaadati",
+    "confidence": "high",
+    "evidence": "Username matches ISU email nsaadati; hosts repo nsaadati/DIMAT, her CVPR 2024 paper with SCSLab."
+   }
+  ],
+  "webSearchNotes": "No Scholar profile or homepage found. ZoomInfo suggests an internship at Musco Lighting.",
+  "githubFinding": {
+   "name": "Nastaran Saadati",
+   "github_url": "https://github.com/nsaadati",
+   "personal_site_url": null,
+   "position_as_stated": null,
+   "interests_as_stated": null,
+   "other_links": [],
+   "confidence": "high",
+   "evidence": "Login matches ISU email username nsaadati; hosts nsaadati/DIMAT, the official code for the SCSLab CVPR 2024 paper DIMAT. Profile has no name/bio; nsaadati.github.io is 404."
+  }
+ },
+ {
+  "name": "Nitesh Subedi",
+  "category": "Doctoral Students",
+  "emailAsListed": "nitesh (@) iastate.edu",
+  "lines": [
+   "B.E. in Mechanical Engineering, Tribhuvan University, 2022",
+   "Nitesh is currently a Ph.D. student in Mechanical Engineering. He joined the research lab in the summer of 2024. His research focuses on the control of dual-arm robots and drones using Reinforcement Learning (RL) and Model Predictive Control (MPC). Nitesh is particularly interested in Deep Reinforcement Learning and its applications in enhancing the efficiency and performance of robotic systems. He aims to advance the field of intelligent robotics through innovative approaches and practical applications."
+  ],
+  "originalLinks": [
+   {
+    "label": "iastate.edu",
+    "href": "http://iastate.edu/"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "github",
+    "url": "https://github.com/nitesh-subedi"
+   },
+   {
+    "type": "homepage",
+    "url": "https://nitesh-subedi.github.io/"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/nitesh-subedi",
+    "label": "LinkedIn"
+   },
+   {
+    "type": "cv",
+    "url": "https://nitesh-subedi.github.io/NIteshCV-3.pdf",
+    "label": "CV"
+   },
+   {
+    "type": "other",
+    "url": "https://nitesh-subedi.github.io/LCLA-website/",
+    "label": "LCLA project page"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "github",
+    "url": "https://github.com/nitesh-subedi",
+    "confidence": "high",
+    "evidence": "Repos include Find_the_Fruit (SCSLab 'Find the fruit' sim2real RL paper), ros2_mpc (MPC local planner), IsaacLab; matches his RL/MPC robotics research."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/nitesh-subedi/",
+    "confidence": "medium",
+    "evidence": "Search result titled 'Nitesh Subedi - Graduate Research Assistant - Iowa State University' (not fetched)."
+   }
+  ],
+  "webSearchNotes": "Existing link http://iastate.edu/ is just the university root, not personal. No Scholar profile found (a University of Oklahoma namesake exists).",
+  "githubFinding": {
+   "name": "Nitesh Subedi",
+   "github_url": "https://github.com/nitesh-subedi",
+   "personal_site_url": "https://nitesh-subedi.github.io/",
+   "position_as_stated": "Ph.D. researcher in Mechanical Engineering at Iowa State University and a Graduate Research Assistant",
+   "interests_as_stated": "Reinforcement learning for robotic manipulation, robot navigation using LLMs and VLMs, and model predictive control (robot learning, autonomous navigation, vision-language models)",
+   "other_links": [
+    {
+     "label": "LinkedIn",
+     "url": "https://www.linkedin.com/in/nitesh-subedi"
+    },
+    {
+     "label": "CV",
+     "url": "https://nitesh-subedi.github.io/NIteshCV-3.pdf"
+    },
+    {
+     "label": "LCLA project page",
+     "url": "https://nitesh-subedi.github.io/LCLA-website/"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "Site lists email nitesh@iastate.edu (matches username), Iowa State ME PhD, Find the Fruit (ICRA 2026, SCSLab); links github.com/nitesh-subedi, which hosts Find_the_Fruit."
+  }
+ },
+ {
+  "name": "Shreyan Ganguly",
+  "category": "Doctoral Students",
+  "emailAsListed": "shreyang(@)iastate.edu",
+  "lines": [
+   "B.E. in Construction Engineering, Jadavpur University, 2023",
+   "Shreyan is a Ph.D. student in the Mechanical Engineering department at Iowa State University. He joined the Self-aware Complex Systems Laboratory in the fall of 2024. He has previously contributed to research projects focused on image classification, shot boundary detection, automated speech recognition, and deployed deep learning model for semantic search. His research interests include leveraging artificial intelligence to automate complex engineering workflows, with a particular focus on machine vision, deep learning, and computer graphics. He also enjoys playing the guitar, exploring computer games, photography, and hiking."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=hevENGEAAAAJ&hl=en"
+   },
+   {
+    "type": "homepage",
+    "url": "https://shrn2.github.io/me/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/shrn2"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/shreyan-ganguly-467882191/",
+    "label": "LinkedIn"
+   },
+   {
+    "type": "cv",
+    "url": "https://drive.google.com/file/d/1J_M2ANGzuL5oxJrgugg4zNf9cXD5_vIL/view?usp=sharing",
+    "label": "CV"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=hevENGEAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "PhD student at Iowa State, verified iastate.edu; papers DeCAF, 'Towards large reasoning models for agriculture' (SCSLab), BLeafNet."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/shreyan-ganguly-467882191/",
+    "confidence": "medium",
+    "evidence": "Search result titled 'Shreyan Ganguly - Ph.D. student at Iowa State University' (not fetched)."
+   }
+  ],
+  "webSearchNotes": "No personal homepage found. An OhioLINK ETD by a 'Ganguly, Shreyan' is a different person.",
+  "githubFinding": {
+   "name": "Shreyan Ganguly",
+   "github_url": "https://github.com/shrn2",
+   "personal_site_url": "https://shrn2.github.io/me/",
+   "position_as_stated": "PhD @ Iowa State; Research Assistant, Mechanical Engineering (Iowa State)",
+   "interests_as_stated": "LLM/VLM evaluation, speech + EEG distillation, ag/biomed agents",
+   "other_links": [
+    {
+     "label": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=hevENGEAAAAJ&hl=en"
+    },
+    {
+     "label": "LinkedIn",
+     "url": "https://www.linkedin.com/in/shreyan-ganguly-467882191/"
+    },
+    {
+     "label": "CV",
+     "url": "https://drive.google.com/file/d/1J_M2ANGzuL5oxJrgugg4zNf9cXD5_vIL/view?usp=sharing"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "GitHub shrn2: name Shreyan Ganguly, bio 'AI, PhD student', Ames, Iowa; sole contributor to SCSLabISU/Micro-OD; repo shrn2/me serves the site, which lists shreyang@iastate.edu (matches username) and his Scholar. The site's own GitHub button points to github.com/tre3x, which now 404s (likely an old handle). Note: shreyan.dev is a different person (Shreyan Bhowmick), despite the site's 'shreyan.dev' header text."
+  }
+ },
+ {
+  "name": "Alloy Das",
+  "category": "Doctoral Students",
+  "emailAsListed": "alloydas(@)iastate.edu",
+  "lines": [
+   "B.E. Information Technology ,Burdwan University,2022",
+   "Alloy Das is a PhD student in the Department of Mechanical Engineering at Iowa State University, where he joined the Self-Aware Complex Systems Laboratory in Fall 2025. His current research focuses on the intersection of artificial intelligence, computer vision, and intelligent systems, exploring how learning-based models can enable machines to perceive, reason, and adapt within complex environments. Alloy’s broader interests span autonomous systems, machine perception, and adaptive intelligence, with an emphasis on bridging human-like cognition and robust machine design."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://alloydas.github.io/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/alloydas"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=JnO0s1AAAAAJ",
+    "label": "Google Scholar"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/alloy-das-a512a916b",
+    "label": "LinkedIn"
+   },
+   {
+    "type": "orcid",
+    "url": "https://orcid.org/0000-0002-4502-4984",
+    "label": "ORCID"
+   },
+   {
+    "type": "cv",
+    "url": "https://alloydas.github.io/cv/",
+    "label": "CV"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "other",
+    "url": "https://buruni.academia.edu/AlloyDas",
+    "confidence": "medium",
+    "evidence": "Academia.edu profile under Burdwan University (buruni) with his pre-ISU papers; matches B.E. Burdwan University."
+   }
+  ],
+  "webSearchNotes": "No Scholar/homepage/GitHub found.",
+  "githubFinding": {
+   "name": "Alloy Das",
+   "github_url": "https://github.com/alloydas",
+   "personal_site_url": "https://alloydas.github.io/",
+   "position_as_stated": "PhD Student, Department of Mechanical Engineering, Iowa State University, SCSLab, advised by Prof. Soumik Sarkar",
+   "interests_as_stated": "Computer vision, multi-modal representation learning, and agricultural AI",
+   "other_links": [
+    {
+     "label": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=JnO0s1AAAAAJ"
+    },
+    {
+     "label": "LinkedIn",
+     "url": "https://www.linkedin.com/in/alloy-das-a512a916b"
+    },
+    {
+     "label": "ORCID",
+     "url": "https://orcid.org/0000-0002-4502-4984"
+    },
+    {
+     "label": "CV",
+     "url": "https://alloydas.github.io/cv/"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "Login matches ISU username alloydas; site names SCSLab and Prof. Soumik Sarkar, ISU ME PhD since Aug 2025, and links github.com/alloydas."
+  }
+ },
+ {
+  "name": "Lucas Nerone Rillo",
+  "category": "Doctoral Students",
+  "emailAsListed": null,
+  "lines": [
+   "Lucas is a PhD student in Computer Science at Iowa State University. He joined the lab in Fall 2025, and his research interests include Reinforcement Learning and Agentic AI."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "github",
+    "url": "https://github.com/lucasrillo"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/lucas-rillo/",
+    "label": "LinkedIn"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/lucasnerone/",
+    "confidence": "low",
+    "evidence": "Search result 'Lucas Nerone - CHC Helicopter'; search snippet mentions aviation background and Iowa State, but not verified."
+   },
+   {
+    "type": "other",
+    "url": "https://arxiv.org/abs/2605.07863",
+    "confidence": "medium",
+    "evidence": "ADKO: Agentic Decentralized Knowledge Optimization (2026) lists Lucas Nerone Rillo with SCSLab coauthors (e.g., Saadati)."
+   }
+  ],
+  "webSearchNotes": "No homepage or Scholar found.",
+  "githubFinding": {
+   "name": "Lucas Nerone Rillo",
+   "github_url": "https://github.com/lucasrillo",
+   "personal_site_url": "https://lucasrillo.github.io/LucasNeroneRillo.github.io/",
+   "position_as_stated": "Computer Science Undergraduate Student at Iowa State University (page dated 2024, outdated)",
+   "interests_as_stated": null,
+   "other_links": [
+    {
+     "label": "LinkedIn",
+     "url": "https://www.linkedin.com/in/lucas-rillo/"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "GitHub name 'Lucas Nerone Rillo'; repos adko (code for ADKO, SCSLab paper) and AgGym (fork of SCSLabISU/AgGym). The Pages site is a 2024 class-activity portfolio ('Activity04 Portfolio and Github Web Pages'), not a research homepage; its GitHub button points to github.com/LucasNeroneRillo, which now 404s (renamed to lucasrillo)."
+  }
+ },
+ {
+  "name": "Henry Kim",
+  "category": "Doctoral Students",
+  "emailAsListed": null,
+  "lines": [
+   "B.E. in Computer Science and Engineering, Chungnam National University, 2024",
+   "Henry Kim is a Ph.D. student in Computer Science at Iowa State University. He joined the Self-aware Complex Systems Lab in Summer 2026. He holds a B.E. degree in Computer Science and Engineering. His research interests include robotics, deep reinforcement learning, and computer vision. He also has industry experience in robotics, UAV systems, and deep learning through his previous internship."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/henryhskim/",
+    "confidence": "medium",
+    "evidence": "Search result: Henry Kim, Chungnam National University education, 'Software Engineering Intern @ EpiSci, ML and Robotics Enthusiast' (EpiSci = UAV autonomy; matches the UAV internship in his bio). Not fetched."
+   }
+  ],
+  "webSearchNotes": "Common name; no Scholar/homepage/GitHub could be tied to him. ISU CS people page lists a Henry Kim (Robotics and Autonomous Systems PhD).",
+  "githubFinding": {
+   "name": "Henry Kim",
+   "github_url": null,
+   "personal_site_url": null,
+   "position_as_stated": null,
+   "interests_as_stated": null,
+   "other_links": [],
+   "confidence": "low",
+   "evidence": "Common name; no GitHub or github.io could be tied to Chungnam National University/ISU/SCSLab."
+  }
+ },
+ {
+  "name": "Manas Sewatkar",
+  "category": "Doctoral Students",
+  "emailAsListed": null,
+  "lines": [
+   "Manas is a PhD in Computer Science at Iowa State University working with Reinforcement Learning and Computer Vision."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/manas-chandrashekhar-sewatkar-33599b325/",
+    "confidence": "medium",
+    "evidence": "Search result titled 'Manas Chandrashekhar Sewatkar - MS AI @ Iowa State University' (not fetched); headline says MS, not PhD."
+   },
+   {
+    "type": "other",
+    "url": "https://www.researchgate.net/profile/Manas-Sewatkar",
+    "confidence": "low",
+    "evidence": "ResearchGate profile, Pune Institute of Computer Technology; unique name but no ISU link on the page itself."
+   }
+  ],
+  "webSearchNotes": "No Scholar/homepage/GitHub found.",
+  "githubFinding": {
+   "name": "Manas Sewatkar",
+   "github_url": "https://github.com/Ganu3010",
+   "personal_site_url": null,
+   "position_as_stated": "Graduate Student studying Artificial Intelligence with interests in Robotics and Smart Agriculture",
+   "interests_as_stated": "Visual Servoing for Autonomous Agricultural Robots; Closed Loop RL for Robotic Navigation; GPS-Denied Autonomous Navigation",
+   "other_links": [
+    {
+     "label": "LinkedIn",
+     "url": "https://www.linkedin.com/in/manas-chandrashekhar-sewatkar-33599b325/"
+    }
+   ],
+   "confidence": "medium",
+   "evidence": "Profile name Manas Sewatkar (unique name); README links the LinkedIn whose search-result headline is 'MS AI @ Iowa State University', and the ag-robotics/RL focus fits the lab. The GitHub profile itself does not mention Iowa State or SCSLab."
+  }
+ },
+ {
+  "name": "Yongyun Song",
+  "category": "Doctoral Students",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University,Department of Computer Science",
+   "Yongyun is a Ph. D in a computer science at iowa state university. He joined the lab in Summer 2026 and his research interests include robotics, 3D reconstruction, and large language models"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/yongyun-song"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/yongyun-song",
+    "confidence": "high",
+    "evidence": "ISU Computer Science directory profile: PhD student, CS dept, research in computer vision/robotics/3D reconstruction (matches lab bio). No personal site/Scholar linked."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/yongyunsong/",
+    "confidence": "medium",
+    "evidence": "Search-result title 'YONGYUN SONG - Iowa State University'; not fetched."
+   }
+  ],
+  "webSearchNotes": "No personal homepage, Scholar, or GitHub found.",
+  "githubFinding": {
+   "name": "Yongyun Song",
+   "github_url": "https://github.com/yongyun-iastate",
+   "personal_site_url": null,
+   "position_as_stated": null,
+   "interests_as_stated": null,
+   "other_links": [],
+   "confidence": "medium",
+   "evidence": "Login 'yongyun-iastate' combines his given name with the ISU domain; it holds only forks of SLAM / 3D semantic reconstruction / ROS perception repos (Kimera, rtabmap, Khronos, Grounded-SAM-2), which match his stated computer vision/robotics/3D reconstruction research. There is no name or bio, and the account dates from 2023, before his Summer 2026 start, so it should be confirmed with him."
+  }
+ },
+ {
+  "name": "Sanjeda Akter",
+  "category": "Masters Students",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Computer Science",
+   "B.S. in Computer Science and Engineering, BRAC University, 2023",
+   "Sanjeda joined the lab in Summer 2025 and is currently a master’s student researcher focusing on Large Language Models and Reinforcement Learning."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=suaj_dAAAAAJ&hl=en"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/sanjeda-akter"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/Sanjeeda-Jeba"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=suaj_dAAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Scholar profile: Iowa State University, verified iastate.edu email, interests RL/DL/LLM (matches lab bio); coauthors Ibne Farabi Shihab, Anuj Sharma (ISU). Sarkar not listed as coauthor."
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/sanjeda-akter",
+    "confidence": "high",
+    "evidence": "ISU CS directory entry, email sanjeda@iastate.edu."
+   },
+   {
+    "type": "other",
+    "url": "https://orcid.org/0009-0007-8276-3878",
+    "confidence": "medium",
+    "evidence": "ORCID appeared in search alongside ISU/BRAC results; not fetched."
+   }
+  ],
+  "webSearchNotes": "No personal homepage or GitHub found.",
+  "githubFinding": {
+   "name": "Sanjeda Akter",
+   "github_url": "https://github.com/Sanjeeda-Jeba",
+   "personal_site_url": null,
+   "position_as_stated": null,
+   "interests_as_stated": null,
+   "other_links": [
+    {
+     "label": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=suaj_dAAAAAJ&hl=en"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "GitHub name 'Sanjeda Akter', location Ames, IA; repos ag-advisor-agentic-ai (AgAdvisor, the lab's agricultural agentic assistant), ME592-Final-Project / ME-592-Spring2025 (ISU course), slurm-workshop-2026. Her al-folio fork has no live Pages site (404). A different account, San624461 (Sanjeda Akter, MERN developer in Brooklyn), was rejected."
+  }
+ },
+ {
+  "name": "Harshada Anavkar",
+  "category": "Masters Students",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Mechanical Engineering",
+   "B.Tech IIT Kharagpur 2025",
+   "Harshada joined the lab in Fall 2025 as a Master’s student. Her research interests lie at the intersection of Machine Learning and Mechanics."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "Only data-broker (RocketReach) hits confirming ISU GTA / IIT Kharagpur 2021-2025; another Harshada Anavkar publishes e-commerce/AI papers (different person likely). Nothing accepted.",
+  "githubFinding": {
+   "name": "Harshada Anavkar",
+   "github_url": null,
+   "personal_site_url": null,
+   "position_as_stated": null,
+   "interests_as_stated": null,
+   "other_links": [],
+   "confidence": "low",
+   "evidence": "No GitHub/github.io found; GitHub user search for 'harshada'/'anavkar' gave no account tied to IIT Kharagpur or ISU."
+  }
+ },
+ {
+  "name": "Tirtho Roy",
+  "category": "Masters Students",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University,",
+   "Department of Mechanical Engineering.",
+   "Tirtho is a concurrent B.S. in Data Science/M.S. in Mechanical Engineering student at Iowa State University. He joined the lab in Summer 2024, and his research interests include Cyber-Agricultural Systems and FinTech."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://tirtho149.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=v1y3XMUAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/tirtho149"
+   },
+   {
+    "type": "other",
+    "url": "https://www.researchgate.net/profile/Tirtho-Roy"
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/tirtho-roy-apon",
+    "label": "LinkedIn"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://tirtho149.github.io/",
+    "confidence": "high",
+    "evidence": "Personal site: researcher at Iowa State University, TrAC with Prof. Soumik Sarkar; email tirtho@iastate.edu."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=v1y3XMUAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Linked from tirtho149.github.io."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/tirtho149",
+    "confidence": "high",
+    "evidence": "Linked from tirtho149.github.io."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/tirtho-roy-apon",
+    "confidence": "high",
+    "evidence": "Linked from tirtho149.github.io (not fetched)."
+   },
+   {
+    "type": "other",
+    "url": "https://www.researchgate.net/profile/Tirtho-Roy",
+    "confidence": "high",
+    "evidence": "ResearchGate linked from tirtho149.github.io."
+   }
+  ],
+  "webSearchNotes": "",
+  "githubFinding": {
+   "name": "Tirtho Roy",
+   "github_url": "https://github.com/tirtho149",
+   "personal_site_url": "https://tirtho149.github.io/",
+   "position_as_stated": "Forward-Deployed Engineer (FDE) · AI Researcher, Translational AI Center (TrAC), Iowa State University; pursuing a B.S. in Data Science and an M.S. in Mechanical Engineering, research at TrAC with Prof. Soumik Sarkar",
+   "interests_as_stated": "Agentic vision-language systems for cyber-agriculture (M.S. thesis); end-to-end systems spanning agriculture, healthcare, and finance: agriculture, biology & health informatics, optimization & geometry",
+   "other_links": [
+    {
+     "label": "Google Scholar",
+     "url": "https://scholar.google.com/citations?user=v1y3XMUAAAAJ&hl=en"
+    },
+    {
+     "label": "LinkedIn",
+     "url": "https://www.linkedin.com/in/tirtho-roy-apon"
+    },
+    {
+     "label": "ResearchGate",
+     "url": "https://www.researchgate.net/profile/Tirtho-Roy"
+    }
+   ],
+   "confidence": "high",
+   "evidence": "Given by the user; GitHub profile 'Tirtho Roy', '@Iowa state University'; site states TrAC with Prof. Soumik Sarkar, email tirtho@iastate.edu, and links github.com/tirtho149."
+  }
+ },
+ {
+  "name": "Nikhil Bhattacharya",
+  "category": "Research Students on Independent Studies",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Software Engineering",
+   "Agricultural Data Curation"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "Only SCSLab team page surfaced. Skipped after one search.",
+  "githubFinding": {
+   "name": "Nikhil Bhattacharya",
+   "github_url": null,
+   "personal_site_url": null,
+   "position_as_stated": null,
+   "interests_as_stated": null,
+   "other_links": [],
+   "confidence": "low",
+   "evidence": "GitHub user search for the full name returned nothing; no web hits beyond the SCSLab team page."
+  }
+ }
+]

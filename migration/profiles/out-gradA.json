@@ -1,0 +1,938 @@
+[
+ {
+  "name": "Chao Liu",
+  "headline": "Postdoctoral Researcher 2015–2017 · now Associate Professor, Tsinghua University",
+  "education": [
+   "Ph.D., Power Engineering and Engineering Thermophysics, Tsinghua University, 2013",
+   "B.E., Thermal and Power Engineering, Huazhong University of Science and Technology, 2008"
+  ],
+  "bio": [
+   "Chao joined the lab in August 2015 as a Postdoctoral Researcher in the Department of Mechanical Engineering and stayed until August 2017. His research focused on two areas. The first was diagnosis, prognosis, and health monitoring, including feature extraction and selection, fault identification, and remaining useful life prediction using physical and statistical models. The second was structural dynamics, including the dynamics of structures and rotor systems, finite element methods for the dynamics of cracked rotor systems, and experimental studies of rotor systems.",
+   "He is now an Associate Professor in the Department of Energy and Power Engineering at Tsinghua University, a rank he has held since December 2022."
+  ],
+  "researchInterests": "Rotating machinery dynamics, structural health monitoring, fault diagnosis and prognosis, finite element analysis, machine learning",
+  "joined": "Fall 2015",
+  "currentPosition": "Associate Professor, Department of Energy and Power Engineering, Tsinghua University",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Associate Professor since December 2022, Department of Energy and Power Engineering, Tsinghua University",
+    "url": "https://www.depe.tsinghua.edu.cn/depeen/info/1297/1357.htm"
+   },
+   {
+    "fact": "Postdoctoral researcher, Department of Mechanical Engineering, Iowa State University, Aug 2015 – Aug 2017",
+    "url": "https://www.depe.tsinghua.edu.cn/depeen/info/1297/1357.htm"
+   },
+   {
+    "fact": "Research interests (rotating machinery dynamics, structural health monitoring, fault diagnosis/prognosis, FEA, machine learning)",
+    "url": "https://www.depe.tsinghua.edu.cn/depeen/info/1297/1357.htm"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Ph.D. Power Engineering and Engineering Thermophysics, Tsinghua University, 2013",
+    "edited": "Ph.D., Power Engineering and Engineering Thermophysics, Tsinghua University, 2013",
+    "reason": "format"
+   },
+   {
+    "original": "two areas- one is",
+    "edited": "two areas. The first was",
+    "reason": "grammar/punctuation"
+   },
+   {
+    "original": "dynmics",
+    "edited": "dynamics",
+    "reason": "typo"
+   },
+   {
+    "original": "with experiences in",
+    "edited": "including",
+    "reason": "grammar"
+   },
+   {
+    "original": "He is currently working as an Assistant Professor in the Department of Thermal Engineering, Tsinghua University.",
+    "edited": "He is now an Associate Professor in the Department of Energy and Power Engineering at Tsinghua University, a rank he has held since December 2022.",
+    "reason": "updated from own site"
+   },
+   {
+    "original": "(no end date)",
+    "edited": "stayed until August 2017",
+    "reason": "updated from own site"
+   }
+  ],
+  "notes": "Lab site said Assistant Professor, Department of Thermal Engineering; the Tsinghua faculty page now says Associate Professor (since Dec 2022), Department of Energy and Power Engineering (the department's current name). The faculty page calls his HUST degree a B.S.; the lab site's B.E. is kept."
+ },
+ {
+  "name": "Onur Rauf Bingol",
+  "headline": "Postdoctoral Researcher 2019 · now Senior Software Engineer",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2019",
+   "M.S., Information Systems, Middle East Technical University, 2014",
+   "M.S., Metallurgical and Materials Engineering, Middle East Technical University, 2010",
+   "B.S., Metallurgical and Materials Engineering, Middle East Technical University, 2007"
+  ],
+  "bio": [
+   "Onur joined the SCS Lab in Fall 2019 as a Postdoctoral Researcher. During his Ph.D., he developed a variety of open-source software libraries for computer graphics and computational mechanics, which he shared on GitHub. His research interests include computer graphics, computational geometry, high-performance computing, and robotics.",
+   "After the lab, he worked at Palo Alto Research Center (PARC). His personal website describes him as a senior software engineer focused on computational geometry, simulation, digital twins, HPC and GPU programming, and robotics."
+  ],
+  "researchInterests": "Computational geometry, computer graphics, simulation, digital twins, high-performance computing, robotics",
+  "joined": "Fall 2019",
+  "currentPosition": null,
+  "project": null,
+  "sources": [
+   {
+    "fact": "Describes himself as a senior software engineer with a Ph.D.; focus on computational geometry, simulations, HPC and GPU programming",
+    "url": "https://onurraufbingol.com/cv/"
+   },
+   {
+    "fact": "Works on computational geometry, computer graphics, simulation, digital twins, and robotics",
+    "url": "https://onurraufbingol.com/"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Ph.D. Mechanical Engineering, Iowa State University, 2019",
+    "edited": "Ph.D., Mechanical Engineering, Iowa State University, 2019",
+    "reason": "format (all degree lines)"
+   },
+   {
+    "original": "joined SCS lab in Fall 2019 semester",
+    "edited": "joined the SCS Lab in Fall 2019",
+    "reason": "grammar"
+   },
+   {
+    "original": "he has developed ... and shared on GitHub",
+    "edited": "he developed ..., which he shared on GitHub",
+    "reason": "grammar/tense"
+   },
+   {
+    "original": "high performance computing",
+    "edited": "high-performance computing",
+    "reason": "format"
+   },
+   {
+    "original": "He is currently working at Palo Alto Research Center (PARC).",
+    "edited": "After the lab, he worked at Palo Alto Research Center (PARC).",
+    "reason": "current employer not confirmed by own site; kept as past fact"
+   },
+   {
+    "original": "(none)",
+    "edited": "senior software engineer; digital twins, GPU programming",
+    "reason": "updated from own site"
+   }
+  ],
+  "notes": "His site and CV do not name a current employer, so currentPosition is null. The PARC role comes from the lab site and may be out of date (PARC became part of SRI in 2023). The CV lists Ph.D. years as 2015–2019."
+ },
+ {
+  "name": "Aditya Balu",
+  "headline": "Ph.D. 2020, Postdoc 2020–2021 · now Data Scientist, Translational AI Center, Iowa State University",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2020",
+   "B.E. (Hons.), Mechanical Engineering, Birla Institute of Technology and Science, Pilani, 2014"
+  ],
+  "bio": [
+   "Aditya completed his Ph.D. at Iowa State University in 2020 under the joint supervision of Dr. Adarsh Krishnamurthy and Dr. Soumik Sarkar, then stayed on as a Postdoctoral Research Associate from May 2020 to December 2021. He received his undergraduate degree from Birla Institute of Technology and Science, Pilani, in 2014, and worked at FMC Technologies (now TechnipFMC) for two years before graduate school. His research interests included design for manufacturing, machine learning, and high-performance computing applied to engineering problems.",
+   "He is now a Data Scientist at the Translational AI Center (TrAC) at Iowa State University, working on physics-informed machine learning, GPU computing, neural PDE solvers, decentralized learning, and scientific machine learning."
+  ],
+  "researchInterests": "Physics-informed machine learning, scientific machine learning, neural PDE solvers, GPU computing, decentralized learning, design for manufacturing",
+  "joined": null,
+  "currentPosition": "Data Scientist, Translational AI Center (TrAC), Iowa State University",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current position: Data Scientist, Translational AI Center (TrAC), Iowa State University",
+    "url": "https://adityabalu.github.io/"
+   },
+   {
+    "fact": "Postdoctoral Research Associate, Iowa State University, May 2020 – Dec 2021",
+    "url": "https://adityabalu.github.io/"
+   },
+   {
+    "fact": "FMC Technologies (now TechnipFMC), July 2014 – July 2016",
+    "url": "https://adityabalu.github.io/"
+   },
+   {
+    "fact": "Research interests: physics-informed ML, GPU computing, neural PDE solvers, decentralized learning, scientific ML",
+    "url": "https://adityabalu.github.io/"
+   }
+  ],
+  "changes": [
+   {
+    "original": "B.E. Hons. Mechanical Engineering, Birla Institute of Technology and Sciences, Pilani, 2014",
+    "edited": "B.E. (Hons.), Mechanical Engineering, Birla Institute of Technology and Science, Pilani, 2014",
+    "reason": "format/typo (institute name)"
+   },
+   {
+    "original": "Aditya Balu was a Ph.D. student at Iowa State University under joint supervision of",
+    "edited": "Aditya completed his Ph.D. at Iowa State University in 2020 under the joint supervision of",
+    "reason": "grammar; reflects completed degree listed on lab site"
+   },
+   {
+    "original": "FMC Technologies Inc.",
+    "edited": "FMC Technologies (now TechnipFMC)",
+    "reason": "updated from own site"
+   },
+   {
+    "original": "Design for Manufacturing, Machine Learning and High Performance Computing applications to solve Engineering problems",
+    "edited": "design for manufacturing, machine learning, and high-performance computing applied to engineering problems",
+    "reason": "capitalization/grammar"
+   },
+   {
+    "original": "(none)",
+    "edited": "Postdoc May 2020 – Dec 2021; now Data Scientist at TrAC",
+    "reason": "updated from own site"
+   }
+  ],
+  "notes": "His homepage lists the Ph.D. as 'Mechanical & Computer Engineering' (2016–2020); the lab site says Mechanical Engineering, and that is kept. The lab link adityabalu.mystrikingly.com returns 403; adityabalu.github.io is the current homepage."
+ },
+ {
+  "name": "Joshua Waite",
+  "headline": "Ph.D. 2024, Postdoc · now Data Scientist, Translational AI Center, Iowa State University",
+  "education": [
+   "Ph.D., Mechanical Engineering and Computer Engineering, Iowa State University, 2024",
+   "B.S., Mechanical Engineering, Iowa State University, 2019"
+  ],
+  "bio": [
+   "Joshua completed his Ph.D. at Iowa State University in 2024 under the supervision of Dr. Soumik Sarkar. He then served as a Postdoctoral Research Associate with the Translational AI Center (TrAC), working on applied AI research across computer vision, multimodal AI, agentic AI systems, and simulation-based decision support.",
+   "He is now a Data Scientist at TrAC."
+  ],
+  "researchInterests": "Computer vision, multimodal AI, agentic AI systems, simulation-based decision support, machine learning",
+  "joined": null,
+  "currentPosition": "Data Scientist, Translational AI Center (TrAC), Iowa State University",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current position: Data Scientist, Translational AI Center, Iowa State University (verified iastate.edu)",
+    "url": "https://scholar.google.com/citations?user=skX2i7kAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Ph.D. Mechanical Engineering & Computer Engineering",
+    "edited": "Ph.D., Mechanical Engineering and Computer Engineering",
+    "reason": "format"
+   },
+   {
+    "original": "Joshua Waite completed",
+    "edited": "Joshua completed",
+    "reason": "style (first name, consistent with other profiles)"
+   },
+   {
+    "original": "He is currently working as a Data Scientist at TrAC",
+    "edited": "He is now a Data Scientist at TrAC.",
+    "reason": "punctuation; confirmed by own Scholar profile"
+   }
+  ],
+  "notes": "Confirmed by his Scholar header. A different Scholar profile (8Gf_fUYAAAAJ, Duke) belongs to someone else."
+ },
+ {
+  "name": "Kin Gwn Lore",
+  "headline": "M.S. 2016 · now AI/ML Specialist, Deloitte",
+  "education": [
+   "M.S., Mechanical Engineering, Iowa State University, 2016",
+   "B.S., Mechanical Engineering, Iowa State University, 2014"
+  ],
+  "bio": [
+   "Kin worked on multi-agent systems and applied machine learning to physical engineering problems. His projects covered network topology control in multi-agent proximity networks, deep learning for microfluidic pillar sculpting, low-light image enhancement (LLNet), decision-making in cyber-physical systems, and prognostics and health monitoring. He received the Iowa State University Graduate College Research Excellence Award in 2016. Outside research, he has a passion for creative work, from digital art and music to video editing and programming.",
+   "He graduated from the SCS Lab in December 2016 and joined United Technologies Research Center (later Raytheon Technologies Research Center) in East Hartford, CT, where he became a Principal Research Engineer in AI/ML. He is now an AI/ML Specialist at Deloitte."
+  ],
+  "researchInterests": "Machine learning, computer vision, low-light image enhancement, anomaly detection, predictive maintenance",
+  "joined": null,
+  "currentPosition": "AI/ML Specialist, Deloitte",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current affiliation: AI/ML Specialist at Deloitte (verified deloitte.com email)",
+    "url": "https://scholar.google.com/citations?user=rVWjsIoAAAAJ&hl=en"
+   },
+   {
+    "fact": "Principal Research Engineer (AI/ML), Raytheon Technologies Research Center",
+    "url": "https://github.com/kglore/kglore"
+   },
+   {
+    "fact": "Research Excellence Award, Iowa State University Graduate College, 2016",
+    "url": "https://github.com/kglore/kglore"
+   },
+   {
+    "fact": "Research interests (low-light enhancement, anomaly detection, computer vision, predictive maintenance)",
+    "url": "https://github.com/kglore/kglore"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Kin has worked on",
+    "edited": "Kin worked on",
+    "reason": "tense (alumni)"
+   },
+   {
+    "original": "application of Deep Learning models",
+    "edited": "deep learning",
+    "reason": "capitalization/concision"
+   },
+   {
+    "original": "low-light image denoising",
+    "edited": "low-light image enhancement (LLNet)",
+    "reason": "updated from own site/Scholar (paper title)"
+   },
+   {
+    "original": "He has a burning passion in creativity - from making digital arts and playing musical instruments",
+    "edited": "he has a passion for creative work, from digital art and music",
+    "reason": "grammar/phrasing"
+   },
+   {
+    "original": "graduated from SCS lab ... and is currently working in United Technologies Research Center at East Hartford, CT, USA.",
+    "edited": "graduated from the SCS Lab in December 2016 and joined United Technologies Research Center (later Raytheon Technologies Research Center) in East Hartford, CT ... He is now an AI/ML Specialist at Deloitte.",
+    "reason": "updated from own site"
+   },
+   {
+    "original": "(none)",
+    "edited": "Research Excellence Award 2016",
+    "reason": "updated from own site"
+   }
+  ],
+  "notes": "CONFLICT: his GitHub README still lists Principal Research Engineer at Raytheon Technologies Research Center, but his Scholar header (verified deloitte.com) says AI/ML Specialist at Deloitte. Deloitte is used as the more recent role; please confirm. The README gives the M.S. year as 2017 (thesis); the lab site says 2016 / graduated Dec 2016, which is kept. The weebly link is dead; use github.com/kglore/kglore."
+ },
+ {
+  "name": "Kundan Kumar",
+  "headline": "M.S. 2016 · Ph.D. 2026, Computer Science, Iowa State University",
+  "education": [
+   "Ph.D., Computer Science (minor in Statistics), Iowa State University, 2026",
+   "M.S., Computer Science, Iowa State University, 2016",
+   "B.Tech., Electronics and Communication Engineering, 2012"
+  ],
+  "bio": [
+   "A mysterious student who showed up in the lab only late at night and on weekends. Even his profile picture was mysterious!",
+   "After his M.S., Kundan stayed at Iowa State for a Ph.D. in Computer Science with a minor in Statistics, advised by Dr. Christopher Quinn and Dr. Ravikumar Gelli, and defended his dissertation in June 2026. He is now an AI Safety Research Fellow at Algoverse, working on AI evaluations, adversarial robustness, scalable oversight, and LLM reasoning and agents."
+  ],
+  "researchInterests": "AI safety and alignment, adversarial robustness, LLM reasoning and agents, autonomous perception and control",
+  "joined": null,
+  "currentPosition": "AI Safety Research Fellow, Algoverse",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Ph.D. in Computer Science (Statistics minor), Iowa State University; dissertation defended June 2026; advised by Dr. Christopher Quinn and Dr. Ravikumar Gelli",
+    "url": "https://kundan-kumarr.github.io/"
+   },
+   {
+    "fact": "Current position: AI Safety Research Fellow @ Algoverse",
+    "url": "https://kundan-kumarr.github.io/"
+   },
+   {
+    "fact": "Research interests (AI safety/alignment, robustness, LLM agents, autonomous perception and control)",
+    "url": "https://kundan-kumarr.github.io/"
+   },
+   {
+    "fact": "Homepage tied to him via Scholar profile (verified iastate.edu, includes 2016 ICCPS paper with Lore and Sarkar)",
+    "url": "https://scholar.google.com/citations?user=1zDpIJkAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "M.S. Department of Computer Science, Iowa State University, 2016",
+    "edited": "M.S., Computer Science, Iowa State University, 2016",
+    "reason": "format"
+   },
+   {
+    "original": "B. Tech. Electronics and Communications Engineering, 2012",
+    "edited": "B.Tech., Electronics and Communication Engineering, 2012",
+    "reason": "format"
+   },
+   {
+    "original": "shows up ... seems mysterious",
+    "edited": "showed up ... was mysterious",
+    "reason": "tense (alumni)"
+   },
+   {
+    "original": "(none)",
+    "edited": "Ph.D. 2026 and current Algoverse fellowship",
+    "reason": "updated from own site"
+   }
+  ],
+  "notes": "His ISU CS profile lists the bachelor's as B.E. in ECE; the lab site's B.Tech. is kept, and the institution is unknown. The homepage does not mention Sarkar; the link to him is through the Scholar profile and the 2016 ICCPS paper."
+ },
+ {
+  "name": "Vikas Chawla",
+  "headline": "M.S. 2016 · Senior Software Engineer, Twilio",
+  "education": [
+   "M.S., Computer Science, Iowa State University, 2016"
+  ],
+  "bio": [
+   "Vikas completed his M.S. in Computer Science at Iowa State University in 2016. He went on to work at Twilio as a Senior Software Engineer."
+  ],
+  "researchInterests": null,
+  "joined": null,
+  "currentPosition": "Senior Software Engineer, Twilio",
+  "project": null,
+  "sources": [],
+  "changes": [
+   {
+    "original": "M.S. Computer Science, Iowa State University, 2016",
+    "edited": "M.S., Computer Science, Iowa State University, 2016",
+    "reason": "format"
+   },
+   {
+    "original": "He is currently working in Twilio as a Senior Software Engineer.",
+    "edited": "He went on to work at Twilio as a Senior Software Engineer.",
+    "reason": "grammar; added a lead sentence from the education line"
+   }
+  ],
+  "notes": "No own site found. The current position comes only from the lab site and was not verified."
+ },
+ {
+  "name": "Adedotun Akintayo",
+  "headline": "Ph.D. 2017 · now The Boeing Company",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2017",
+   "M.S., Control Systems, University of Sheffield, United Kingdom, 2014",
+   "B.E., Mechanical Engineering, Ahmadu Bello University, Zaria, Nigeria, 2009"
+  ],
+  "bio": [
+   "Adedotun was a Ph.D. student in the Department of Mechanical Engineering and joined Dr. Soumik Sarkar's lab in Fall 2014. His research interests included data and systems modeling, computational intelligence, active energy control in buildings, optimization, and combinatorics. He likes driving around town, meeting people, and reading.",
+   "He graduated from the SCS Lab in December 2017 and worked at Intel as a Graphics Software Engineer in Folsom, CA. He is now with The Boeing Company."
+  ],
+  "researchInterests": "Applied machine and deep learning for complex systems analysis, data and systems modeling, building energy control, optimization",
+  "joined": "Fall 2014",
+  "currentPosition": "The Boeing Company",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current affiliation: The Boeing Company",
+    "url": "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en"
+   },
+   {
+    "fact": "Research interests: applied machine and deep learning for complex systems analysis",
+    "url": "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Ph.D. Mechanical Engineering, Iowa State University, 2017",
+    "edited": "Ph.D., Mechanical Engineering, Iowa State University, 2017",
+    "reason": "format (all degree lines)"
+   },
+   {
+    "original": "was a Ph.D. Student in the Mechanical Engineering department. He became a member to Dr. Soumik Sarkar's lab in the Fall of 2014.",
+    "edited": "was a Ph.D. student in the Department of Mechanical Engineering and joined Dr. Soumik Sarkar's lab in Fall 2014.",
+    "reason": "grammar"
+   },
+   {
+    "original": "His research interests are in data and systems modelling ... active energy controls in buildings",
+    "edited": "His research interests included data and systems modeling ... active energy control in buildings",
+    "reason": "tense/spelling"
+   },
+   {
+    "original": "He likes to drive around town, interact with people and read.",
+    "edited": "He likes driving around town, meeting people, and reading.",
+    "reason": "grammar"
+   },
+   {
+    "original": "graduated from SCSlab ... and is currently working in Intel as a Graphics Software Engineer at Folsom, CA.",
+    "edited": "graduated from the SCS Lab in December 2017 and worked at Intel as a Graphics Software Engineer in Folsom, CA. He is now with The Boeing Company.",
+    "reason": "updated from own Scholar profile"
+   }
+  ],
+  "notes": "The lab site said Intel; his Scholar header now says The Boeing Company (no job title given, no verified email). Intel is kept as a past role. The Scholar profile is tied to him by LLNet and co-authors Sarkar, Lore, Jiang, and Liu."
+ },
+ {
+  "name": "Linjiang Wu",
+  "headline": "M.S. 2018 · now Sr. System Engineer (Architect), Continental",
+  "education": [
+   "M.S., Mechanical Engineering, Iowa State University, 2018",
+   "B.S., Automotive Engineering, Wuhan University of Technology, 2012"
+  ],
+  "bio": [
+   "Linjiang worked on graphical modeling of cyber-physical systems for engineering problems. His studies covered traffic sensor health monitoring, building energy consumption analysis and prediction, and deep learning for feature extraction and fault detection. He has a passion for automotive engineering and is an experienced automotive engineer.",
+   "He graduated from the SCS Lab in May 2018 and worked at Hi-Lex Controls Inc. in Rochester Hills, MI. He is now a Sr. System Engineer (Architect) at Continental, working on AR head-up displays."
+  ],
+  "researchInterests": "AR head-up displays, machine learning, data mining, fault diagnosis",
+  "joined": null,
+  "currentPosition": "Sr. System Engineer (Architect), Continental",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current position: Sr. System Engineer (Architect), verified continental-corporation.com email",
+    "url": "https://scholar.google.com/citations?user=UwkVywQAAAAJ&hl=en"
+   },
+   {
+    "fact": "Research interests: AR head-up display, machine learning, data mining",
+    "url": "https://scholar.google.com/citations?user=UwkVywQAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Linjiang has worked on graphical modeling for cyber-physical systems",
+    "edited": "Linjiang worked on graphical modeling of cyber-physical systems",
+    "reason": "tense/grammar"
+   },
+   {
+    "original": "His studies are traffic sensor health monitoring",
+    "edited": "His studies covered traffic sensor health monitoring",
+    "reason": "grammar"
+   },
+   {
+    "original": "application of Deep Learning techniques for feature extracting",
+    "edited": "deep learning for feature extraction",
+    "reason": "grammar/capitalization"
+   },
+   {
+    "original": "is a well-versed automotive engineer",
+    "edited": "is an experienced automotive engineer",
+    "reason": "phrasing"
+   },
+   {
+    "original": "is currently working in Hi-Lex Controls Inc. at Rochester Hills, MI, USA.",
+    "edited": "worked at Hi-Lex Controls Inc. in Rochester Hills, MI. He is now a Sr. System Engineer (Architect) at Continental, working on AR head-up displays.",
+    "reason": "updated from own Scholar profile"
+   }
+  ],
+  "notes": "CONFLICT: the lab site's Scholar link (kiTENtllKw4C) is Adedotun Akintayo's profile. His own is UwkVywQAAAAJ (co-authored with Sarkar on fault diagnosis and crop yield). Hi-Lex is kept as a past role; Continental is current per Scholar."
+ },
+ {
+  "name": "Apurva Kokate",
+  "headline": "M.S. 2018 · now Oregon State University",
+  "education": [
+   "M.S., Computer Science, Iowa State University, 2018",
+   "B.E., Computer Engineering, University of Mumbai, 2016"
+  ],
+  "bio": [
+   "Apurva joined the lab in Spring 2017. She has a passion for computer science, especially solving puzzles and developing programs, and cares about using technology responsibly and ethically. She hoped to help make machines more intelligent and to push AI forward. In the lab, she worked with machine learning techniques; her M.S. thesis was \"A study of interpretability mechanisms for deep networks\" (2018).",
+   "She graduated from the SCS Lab in May 2018 and worked at Kingland Systems as a Software Designer. She is now affiliated with Oregon State University."
+  ],
+  "researchInterests": "Machine learning, interpretability of deep networks",
+  "joined": "Spring 2017",
+  "currentPosition": "Oregon State University",
+  "project": null,
+  "sources": [
+   {
+    "fact": "M.S. thesis 'A study of interpretability mechanisms for deep networks', Iowa State University, 2018",
+    "url": "https://scholar.google.com/citations?user=ujVlricAAAAJ&hl=en"
+   },
+   {
+    "fact": "Current affiliation: Oregon State University (verified oregonstate.edu)",
+    "url": "https://scholar.google.com/citations?user=ujVlricAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "B.E. Computer Engineering, University of Mumbai, Mumbai, 2016",
+    "edited": "B.E., Computer Engineering, University of Mumbai, 2016",
+    "reason": "format (redundant city)"
+   },
+   {
+    "original": "is deeply rooted in solving puzzles",
+    "edited": "especially solving puzzles",
+    "reason": "phrasing"
+   },
+   {
+    "original": "She focuses herself on the use of technology with a responsible, ethical stand.",
+    "edited": "cares about using technology responsibly and ethically",
+    "reason": "grammar"
+   },
+   {
+    "original": "She hopes to contributing in making machines more intelligent and taking A.I to the next level.",
+    "edited": "She hoped to help make machines more intelligent and to push AI forward.",
+    "reason": "grammar/tense"
+   },
+   {
+    "original": "In the lab, she hopes to learn and use Machine Learning techniques.",
+    "edited": "In the lab, she worked with machine learning techniques; her M.S. thesis was ... (2018).",
+    "reason": "tense; thesis title from own Scholar profile"
+   },
+   {
+    "original": "is currently working in Kingland Systems as a Software Designer.",
+    "edited": "worked at Kingland Systems as a Software Designer. She is now affiliated with Oregon State University.",
+    "reason": "updated from own Scholar profile"
+   }
+  ],
+  "notes": "Her Scholar header says only 'Oregon State University' and gives no role. Earlier search notes suggest a Ph.D. there, but her own page does not confirm it, so no degree was added. Kingland Systems is likely an outdated role. A different Apurva Kokate (IDFC FIRST Bank) also exists."
+ },
+ {
+  "name": "Venkatesh Chinde",
+  "headline": "Ph.D., Mechanical Engineering · now Research Engineer, NREL",
+  "education": [
+   "Ph.D., Mechanical Engineering (minor in Mathematics), Iowa State University",
+   "M.S., Electrical and Computer Engineering, Iowa State University, 2015",
+   "M.Tech., Electrical and Electronics Engineering, VJTI, 2010",
+   "B.S., Electrical and Electronics Engineering, Auroras Engineering College, 2008"
+  ],
+  "bio": [
+   "Venkatesh was a Ph.D. student in the Department of Mechanical Engineering. His research interests included building control systems, distributed optimization, diffusion maps, passivity-based control, flatness-based control, and feedback linearization. He enjoys badminton, tennis, and cooking.",
+   "He completed his Ph.D. in Mechanical Engineering, with a minor in Mathematics, at Iowa State University and is now a Research Engineer at the National Renewable Energy Laboratory (NREL)."
+  ],
+  "researchInterests": "Building control systems, distributed optimization, passivity-based control, flatness-based control, feedback linearization",
+  "joined": null,
+  "currentPosition": "Research Engineer, National Renewable Energy Laboratory (NREL)",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Ph.D., Mechanical Engineering with a minor in Mathematics, Iowa State University",
+    "url": "https://venkateshchinde.weebly.com/"
+   },
+   {
+    "fact": "Current position: Research Engineer at NREL",
+    "url": "https://venkateshchinde.weebly.com/"
+   }
+  ],
+  "changes": [
+   {
+    "original": "M.S. Electrical and Computer Engineering, Iowa State University, 2015",
+    "edited": "M.S., Electrical and Computer Engineering, Iowa State University, 2015",
+    "reason": "format (all degree lines)"
+   },
+   {
+    "original": "was a Ph.D. student from the Mechanical Engineering department",
+    "edited": "was a Ph.D. student in the Department of Mechanical Engineering",
+    "reason": "grammar"
+   },
+   {
+    "original": "His research interests are on",
+    "edited": "His research interests included",
+    "reason": "grammar/tense"
+   },
+   {
+    "original": "(none)",
+    "edited": "Ph.D. (minor in Mathematics) completed; Research Engineer at NREL",
+    "reason": "updated from own site"
+   }
+  ],
+  "notes": "His homepage gives no Ph.D. year, so none was added. The NREL staff page (nrel.gov) could not be reached for a second check. Earlier notes say the NREL staff page lists his bachelor's as B.Tech.; the lab site's B.S. is kept. NREL may have been renamed (a LinkedIn snippet says 'National Laboratory of the Rockies'), but this was not verified."
+ },
+ {
+  "name": "Shuo Wang",
+  "headline": "Ph.D. 2018 · Senior Systems Engineer, NVIDIA",
+  "education": [
+   "Ph.D., Civil Engineering, Iowa State University, 2018",
+   "M.S., Civil Engineering, University of Nebraska–Lincoln, 2014"
+  ],
+  "bio": [
+   "Shuo completed his Ph.D. in Civil Engineering at Iowa State University in 2018. He works on intelligent transportation systems, smart cities, and intelligent video analysis, and is now a Senior Systems Engineer at NVIDIA in Santa Clara, CA."
+  ],
+  "researchInterests": "Intelligent transportation systems, smart city, intelligent video analysis",
+  "joined": null,
+  "currentPosition": "Senior Systems Engineer, NVIDIA",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current employer NVIDIA (verified nvidia.com email)",
+    "url": "https://scholar.google.com/citations?hl=en&user=r0UjaNUAAAAJ"
+   },
+   {
+    "fact": "Research interests: intelligent transportation systems, smart city, intelligent video analysis",
+    "url": "https://scholar.google.com/citations?hl=en&user=r0UjaNUAAAAJ"
+   }
+  ],
+  "changes": [
+   {
+    "original": "M.S. Civil Engineering, University of Nebraska-Lincoln, 2014",
+    "edited": "M.S., Civil Engineering, University of Nebraska–Lincoln, 2014",
+    "reason": "format"
+   },
+   {
+    "original": "Shuo is currently working as Senior Systems Engineer in NVIDIA at Santa Clara, CA",
+    "edited": "... is now a Senior Systems Engineer at NVIDIA in Santa Clara, CA.",
+    "reason": "grammar/punctuation"
+   },
+   {
+    "original": "(none)",
+    "edited": "research interests sentence",
+    "reason": "updated from own Scholar profile"
+   }
+  ],
+  "notes": "The Scholar header confirms NVIDIA but gives no title; 'Senior Systems Engineer' comes from the lab site. It is a common name; the profile is accepted on NVIDIA plus co-author Anuj Sharma (ISU)."
+ },
+ {
+  "name": "Zhanhong Jiang",
+  "headline": "Ph.D. 2018 · now Data Scientist, Translational AI Center, Iowa State University",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2018",
+   "M.S., Mechanical Engineering, Chinese Academy of Sciences, 2014",
+   "B.E., Mechanical Engineering, Shenzhen University, 2011"
+  ],
+  "bio": [
+   "Zhanhong joined the lab in Fall 2014. His research focused on cyber-physical systems, multi-agent systems, system dynamics, and optimization. In his free time, he enjoys tennis, cooking, and reading.",
+   "He graduated from the SCS Lab in December 2018 and worked as a Data Scientist at Johnson Controls in Milwaukee, WI. He has since returned to Iowa State University as a Data Scientist at the Translational AI Center (TrAC), working on distributed optimization and machine learning."
+  ],
+  "researchInterests": "Distributed optimization, machine learning, cyber-physical systems, multi-agent systems",
+  "joined": "Fall 2014",
+  "currentPosition": "Data Scientist, Translational AI Center (TrAC), Iowa State University",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current position: Data Scientist, Translational AI Center, Iowa State University",
+    "url": "https://trac-ai.iastate.edu/profiles/zhanhong-jiang/"
+   },
+   {
+    "fact": "Scholar header: Scientist at TrAC, verified iastate.edu; interests distributed optimization and machine learning",
+    "url": "https://scholar.google.com/citations?user=zRRvPRMAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Ph.D. Mechanical Engineering, Iowa State University, 2018",
+    "edited": "Ph.D., Mechanical Engineering, Iowa State University, 2018",
+    "reason": "format (all degree lines)"
+   },
+   {
+    "original": "Zhanhong joined the lab since Fall 2014.",
+    "edited": "Zhanhong joined the lab in Fall 2014.",
+    "reason": "grammar"
+   },
+   {
+    "original": "His research interests mainly focus on the areas of",
+    "edited": "His research focused on",
+    "reason": "concision/tense"
+   },
+   {
+    "original": "His hobbies in daily life include playing tennis, cooking, and reading.",
+    "edited": "In his free time, he enjoys tennis, cooking, and reading.",
+    "reason": "phrasing"
+   },
+   {
+    "original": "is currently working as Data Scientist in Johnson Controls, Milwaukee, WI, USA.",
+    "edited": "worked as a Data Scientist at Johnson Controls in Milwaukee, WI. He has since returned to Iowa State University as a Data Scientist at TrAC ...",
+    "reason": "updated from own TrAC profile/Scholar"
+   }
+  ],
+  "notes": "The TrAC profile title is 'Data Scientist'; the Scholar header says 'Scientist at TrAC'. The TrAC profile is used. Johnson Controls is kept as a past role."
+ },
+ {
+  "name": "Sambuddha Ghosal",
+  "headline": "Ph.D. 2019 · now Senior Research Data Scientist, Bayer R&D",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2019",
+   "M.S., Computer Science, Iowa State University, 2019",
+   "M.S., Mechanical Engineering, Iowa State University, 2017",
+   "B.E., Mechanical Engineering, Jadavpur University, 2015"
+  ],
+  "bio": [
+   "Sambuddha joined the lab in Fall 2015. His research interests included control systems, cyber-physical systems, dynamics and optimization, and deep and machine learning. His work included anomaly detection in large-scale cyber-physical systems and the use of sparsity-promoting dynamic mode decomposition to extract characteristic features and dynamics of complex fluid flows (e.g., combustion flames) from snapshot data. His doctoral work led to a first-author paper in the Proceedings of the National Academy of Sciences (PNAS). He enjoys playing piano and chess, biking, and shooting.",
+   "He graduated from the SCS Lab in 2019 and was a Postdoctoral Associate at the MIT Media Lab, advised by Dr. Pratik Shah. He is now a Senior Research Data Scientist at Bayer R&D."
+  ],
+  "researchInterests": "Machine learning, deep learning, computer vision, generative AI, neural network interpretability",
+  "joined": "Fall 2015",
+  "currentPosition": "Senior Research Data Scientist, Bayer R&D",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current position: Senior Research Data Scientist @ Bayer R&D",
+    "url": "https://scholar.google.com/citations?hl=en&user=gsQYjWcAAAAJ"
+   },
+   {
+    "fact": "Former Postdoctoral Associate, MIT Media Lab, advised by Dr. Pratik Shah",
+    "url": "https://www.media.mit.edu/people/sghosal/overview/"
+   },
+   {
+    "fact": "First-author PNAS publication from doctoral work",
+    "url": "https://www.media.mit.edu/people/sghosal/overview/"
+   },
+   {
+    "fact": "Research interests: machine learning, GenAI, deep learning, computer vision",
+    "url": "https://scholar.google.com/citations?hl=en&user=gsQYjWcAAAAJ"
+   }
+  ],
+  "changes": [
+   {
+    "original": "M.S Computer Science, Iowa State University, 2019",
+    "edited": "M.S., Computer Science, Iowa State University, 2019",
+    "reason": "format"
+   },
+   {
+    "original": "His research interests are control systems, cyber physical systems, dynamics and optimization, deep learning & machine learning.",
+    "edited": "His research interests included control systems, cyber-physical systems, dynamics and optimization, and deep and machine learning.",
+    "reason": "grammar/tense"
+   },
+   {
+    "original": "Recent works include: Anomaly detection in large scale cyber physical systems and application of sparsity promoting dynamic mode decomposition to detect",
+    "edited": "His work included anomaly detection in large-scale cyber-physical systems and the use of sparsity-promoting dynamic mode decomposition to extract",
+    "reason": "grammar/hyphenation"
+   },
+   {
+    "original": "(for eg, combustion flames)",
+    "edited": "(e.g., combustion flames)",
+    "reason": "format"
+   },
+   {
+    "original": "He has interests in playing the piano, playing chess, biking and shooting.",
+    "edited": "He enjoys playing piano and chess, biking, and shooting.",
+    "reason": "phrasing"
+   },
+   {
+    "original": "He graduated from SCS lab in July 2019 and is currently a post doctorate at MIT, Cambridge, MA, USA.",
+    "edited": "He graduated from the SCS Lab in 2019 and was a Postdoctoral Associate at the MIT Media Lab, advised by Dr. Pratik Shah. He is now a Senior Research Data Scientist at Bayer R&D.",
+    "reason": "updated from own pages"
+   },
+   {
+    "original": "(none)",
+    "edited": "PNAS first-author paper",
+    "reason": "updated from own site"
+   }
+  ],
+  "notes": "The lab site says he graduated in July 2019; his MIT page says Ph.D. May 2019, so the month was dropped. The MIT page also says the Ph.D. had a minor in Electrical Engineering (not added to the degree line). Bayer is confirmed only by his Scholar header (verified mit.edu email)."
+ },
+ {
+  "name": "Truong Tran",
+  "headline": "M.S. 2019, Mechanical Engineering",
+  "education": [
+   "M.S., Mechanical Engineering, Iowa State University, 2019",
+   "B.E., Mechanical Engineering, Hanoi University of Science and Technology, 2017"
+  ],
+  "bio": [
+   "Truong joined the lab in Fall 2017. His research interests were computer vision, robotics, and software engineering. He has experience with embedded computer vision systems (C++ with the Qt framework) and with hardware-accelerated machine learning on GPU clusters (TensorFlow) and mobile devices (Apple Core ML). In the lab, he applied machine learning to plant science and worked on 3D reconstruction of plants using mobile devices. He was an Erasmus Mundus Scholar in 2015–2016. In his free time, Truong enjoys photography and reading novels.",
+   "He graduated from the SCS Lab in December 2019 and went on to work as a Security Analyst at VinCSS."
+  ],
+  "researchInterests": "Computer vision, robotics, software engineering, machine learning for plant science",
+  "joined": "Fall 2017",
+  "currentPosition": "Security Analyst, VinCSS",
+  "project": null,
+  "sources": [],
+  "changes": [
+   {
+    "original": "Erasmus Mundus Scholar, 2015 - 2016",
+    "edited": "He was an Erasmus Mundus Scholar in 2015–2016.",
+    "reason": "moved from degree list to bio (not a degree)"
+   },
+   {
+    "original": "Truong joined the lab Fall 2017. His research Interests are",
+    "edited": "Truong joined the lab in Fall 2017. His research interests were",
+    "reason": "grammar/capitalization/tense"
+   },
+   {
+    "original": "embedded computersion system",
+    "edited": "embedded computer vision systems",
+    "reason": "typo"
+   },
+   {
+    "original": "Tensorflow ... Apple CoreML) .",
+    "edited": "TensorFlow ... Apple Core ML)",
+    "reason": "capitalization/spacing"
+   },
+   {
+    "original": "His current work involves applying Machine Learning in Plant Science and 3D reconstruction of Plant using mobile device.",
+    "edited": "In the lab, he applied machine learning to plant science and worked on 3D reconstruction of plants using mobile devices.",
+    "reason": "grammar/tense"
+   },
+   {
+    "original": "Truong enjoy Photography and reading novel.",
+    "edited": "Truong enjoys photography and reading novels.",
+    "reason": "grammar"
+   },
+   {
+    "original": "is currently a Security Analyst at VinCSS",
+    "edited": "went on to work as a Security Analyst at VinCSS",
+    "reason": "tense (unverified current role)"
+   }
+  ],
+  "notes": "No own site found. Earlier search notes say his LinkedIn headline now reads 'FPT Software' (not fetched), so the VinCSS role, taken from the lab site, may be out of date."
+ },
+ {
+  "name": "Zhisheng Zhang",
+  "headline": "M.S. 2019 · Image Data Scientist, Bayer Crop Science",
+  "education": [
+   "M.S., Mechanical Engineering, Iowa State University, 2019",
+   "B.S., Mechanical Engineering, Iowa State University, 2016"
+  ],
+  "bio": [
+   "Zhisheng joined the lab in Spring 2017. His research interests were deep learning and machine learning applications to engineering problems. In the lab, he worked on deep learning for plant science and agriculture, based on object classification, localization, and detection.",
+   "He graduated from the SCS Lab in July 2019 and went on to work at Bayer Crop Science in St. Louis, MO, as an Image Data Scientist."
+  ],
+  "researchInterests": "Deep learning, machine learning, object detection for plant science and agriculture",
+  "joined": "Spring 2017",
+  "currentPosition": "Image Data Scientist, Bayer Crop Science",
+  "project": null,
+  "sources": [],
+  "changes": [
+   {
+    "original": "B.S Mechanical Engineering",
+    "edited": "B.S., Mechanical Engineering",
+    "reason": "format"
+   },
+   {
+    "original": "Zhisheng joined the lab Spring 2017. His research interests are",
+    "edited": "Zhisheng joined the lab in Spring 2017. His research interests were",
+    "reason": "grammar/tense"
+   },
+   {
+    "original": "He is currently working on the deep learning application for plant science and agricultural which is based on",
+    "edited": "In the lab, he worked on deep learning for plant science and agriculture, based on",
+    "reason": "grammar/tense"
+   },
+   {
+    "original": "is currently working in Bayer Crop Science as a Image Data Scientist, St. Louis, MO.",
+    "edited": "went on to work at Bayer Crop Science in St. Louis, MO, as an Image Data Scientist.",
+    "reason": "grammar (a/an)"
+   }
+  ],
+  "notes": "CONFLICT: the lab site's only link (vn.linkedin.com/in/truong-tran-62643194) is Truong Tran's LinkedIn, a copy-paste error; drop it. No own site found, and the current role, taken from the lab site, was not verified."
+ },
+ {
+  "name": "Ameya Joshi",
+  "headline": "Former Ph.D. Student · Ph.D. NYU 2023 · now at Extend AI",
+  "education": [
+   "Ph.D., New York University (Tandon School of Engineering), 2023",
+   "B.E. (Hons.), Electrical and Electronics Engineering, Birla Institute of Technology and Science, Pilani (Goa), 2014"
+  ],
+  "bio": [
+   "Ameya was a Ph.D. student in the Department of Electrical and Computer Engineering at Iowa State University, jointly supervised by Prof. Soumik Sarkar and Prof. Chinmay Hegde. He received his undergraduate degree in Electrical and Electronics Engineering from Birla Institute of Technology and Science, Pilani, in 2014, and previously worked at SigTuple Technologies in Bengaluru on learning-based systems for medical images. His research interests included robust machine learning with applications in medicine and manufacturing, distributed learning, and cyber-physical systems.",
+   "He moved to New York University in January 2020 to continue his Ph.D. with Prof. Hegde and completed it in 2023. He now builds vision-language models and multimodal agentic systems at Extend AI."
+  ],
+  "researchInterests": "Robust deep learning, generative models with structured constraints, vision-language models, multimodal agentic systems",
+  "joined": null,
+  "currentPosition": "Extend AI (vision-language models and multimodal agentic systems)",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Ph.D. from NYU Tandon, 2023, advised by Dr. Chinmay Hegde",
+    "url": "https://ameya005.github.io/"
+   },
+   {
+    "fact": "Currently building VLMs and multimodal agentic systems at Extend AI",
+    "url": "https://ameya005.github.io/"
+   },
+   {
+    "fact": "Bachelor's (Hons.) in EEE from BITS Pilani, Goa, 2014",
+    "url": "https://ameya005.github.io/"
+   },
+   {
+    "fact": "SigTuple work on learning-based systems for medical images",
+    "url": "https://ameya005.github.io/"
+   },
+   {
+    "fact": "Research interests: robust learning of deep models, generative models with structured constraints",
+    "url": "https://ameya005.github.io/"
+   }
+  ],
+  "changes": [
+   {
+    "original": "B.E. Electrical and Electronics Engineering, BITS Pilani, 2014",
+    "edited": "B.E. (Hons.), Electrical and Electronics Engineering, Birla Institute of Technology and Science, Pilani (Goa), 2014",
+    "reason": "format; Hons. and Goa campus from own site"
+   },
+   {
+    "original": "Ameya is a Ph.D. student",
+    "edited": "Ameya was a Ph.D. student",
+    "reason": "tense (alumni)"
+   },
+   {
+    "original": "SigTuple technologies, Bengaluru",
+    "edited": "SigTuple Technologies in Bengaluru on learning-based systems for medical images",
+    "reason": "capitalization; detail from own site"
+   },
+   {
+    "original": "His research interests include",
+    "edited": "His research interests included",
+    "reason": "tense"
+   },
+   {
+    "original": "to continue his Ph.D. studies.",
+    "edited": "to continue his Ph.D. with Prof. Hegde and completed it in 2023. He now builds vision-language models and multimodal agentic systems at Extend AI.",
+    "reason": "updated from own site"
+   },
+   {
+    "original": "(none)",
+    "edited": "Ph.D., New York University (Tandon School of Engineering), 2023",
+    "reason": "updated from own site"
+   }
+  ],
+  "notes": "His homepage gives no job title at Extend AI; earlier evidence said 'Research Scientist', but this could not be confirmed, so no title is given. The Ph.D. field at NYU is not stated on his homepage. His site gives the ISU Ph.D. years as 2018–2019."
+ }
+]

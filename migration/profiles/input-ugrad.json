@@ -1,0 +1,454 @@
+[
+ {
+  "name": "Minhao Wang",
+  "category": "Independent Study Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Mechanical Engineering",
+   "Deep Learning for Image Processing"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "Only SCSLab team pages and an unrelated-looking LinkedIn (SCADA specialist) surfaced; common name, no verifiable profile.",
+  "githubFinding": null
+ },
+ {
+  "name": "Timothy Wilkie",
+  "category": "Independent Study Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Mathematics",
+   "Distributed Optimization"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "No results tied to ISU Math / distributed optimization. Skipped after one search.",
+  "githubFinding": null
+ },
+ {
+  "name": "Seyed Vahid Mirnezami",
+  "category": "Independent Study Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Mechanical Engineering",
+   "Image Processing, Machine Learning, analyzing plant images data"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=vOkiZmAAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=vOkiZmAAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Scholar: Iowa State University, verified iastate.edu; coauthors Baskar Ganapathysubramanian and S. Sarkar; papers on soybean root phenotyping (matches 'analyzing plant images data')."
+   },
+   {
+    "type": "other",
+    "url": "https://www.researchgate.net/profile/Seyed-Vahid-Mirnezami",
+    "confidence": "medium",
+    "evidence": "ResearchGate in search results: Research Assistant, ME dept, Iowa State; not fetched."
+   }
+  ],
+  "webSearchNotes": "No homepage or GitHub found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Bukhari Mohamed",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Roosevelt High School",
+   "High School RA, CBiRC Young Engineers and Scientists Program",
+   "Image Processing for Predictive Plant Phenotyping"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "High-school RA; one search, nothing identifiable.",
+  "githubFinding": null
+ },
+ {
+  "name": "Jeffrey Heylmun",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "B.S. Mechanical Engineering",
+   "Iowa State University, 2015",
+   "Undergraduate RA",
+   "Control-oriented Modelling for Building Zone Temperatures"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [
+   {
+    "type": "github",
+    "url": "https://github.com/jheylmun",
+    "confidence": "medium",
+    "evidence": "GitHub profile 'Jeff Heylmun', location Ames, IA, repos include ME557 coursework and OpenQBMM/OpenFOAM (Iowa State CFD work). Distinctive name; theorg/aggregator bios list B.S. Mechanical Engineering, Iowa State 2011-2015, matching the listed degree."
+   },
+   {
+    "type": "other",
+    "url": "https://www.researchgate.net/profile/Jeff-Heylmun",
+    "confidence": "medium",
+    "evidence": "ResearchGate profile for Jeff Heylmun; Iowa State CFD publications (with R.O. Fox). Did not fetch."
+   }
+  ],
+  "webSearchNotes": "Later did a Ph.D. in CFD at Iowa State (2015-2019); now Research Development Lead at Synthetik Applied Technologies (blastFoam). No personal homepage found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Adrian Kang Wei Chan",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "B.S. Mechanical Engineering",
+   "Iowa State University, 2015",
+   "Undergraduate RA",
+   "Information Topology Control in Networked Systems"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/adrianchan2/",
+    "confidence": "low",
+    "evidence": "Search result titled 'Adrian Chan Kang Wei' (sg.linkedin.com). Exact name match, but the snippet showed no Iowa State tie. Not fetched."
+   }
+  ],
+  "webSearchNotes": "No homepage or scholar profile found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Adam Kohl",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "B.S. Mechanical Engineering",
+   "Iowa State University, 2015",
+   "Undergraduate RA",
+   "Control-oriented Modelling for Building Zone Temperatures using VOLTTRON"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [
+   {
+    "type": "other",
+    "url": "https://www.researchgate.net/profile/Adam-Kohl",
+    "confidence": "medium",
+    "evidence": "Search snippet: affiliated with Iowa State Mechanical Engineering. Adam Kohl co-authored the VOLTTRON building-energy supervisory-control paper with Chinde, Jiang, Kelkar and Sarkar (2016) and the ASME DSMC 2021 Kalman Best Paper. Matches the listed project."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/adam-kohl-8265aa80/",
+    "confidence": "medium",
+    "evidence": "Search result 'Adam Kohl - Virtual Reality Applications Center' (ISU VRAC); the snippet mentions the building-energy optimization paper. Not fetched."
+   }
+  ],
+  "webSearchNotes": "No personal homepage or Scholar profile found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Xuehan Liu",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "B.S Statistics and Mathematics",
+   "Iowa State University, 2016",
+   "Undergraduate RA",
+   "Mathematical Modelling of Amyotrophic Lateral Sclerosis (ALS)"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "Two searches found nothing tied to Iowa State or ALS modeling.",
+  "githubFinding": null
+ },
+ {
+  "name": "Abdulrahman Alnagar",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Deparment of Electrical Engineering",
+   "Undergraduate RA, REU Student",
+   "Anomaly Detection for Smart Buildings"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "Only unrelated ZoomInfo entries (a pharmacist and others). Nothing tied to ISU or the REU.",
+  "githubFinding": null
+ },
+ {
+  "name": "Haley Primrose",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Nevada High School",
+   "High School RA",
+   "Haley was here at our lab through the summer Y.E.S program to learn and work on the manufacturing project where she aims to make the Sawyer robot reach into the 3D printer station and retrieve printed pieces autonomously. As of now, she wants to join Iowa State as a Computer engineering major after graduating high school."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "High-school RA; one search, nothing.",
+  "githubFinding": null
+ },
+ {
+  "name": "Matthew Hopkins",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Abraham Lincoln High School",
+   "High School RA",
+   "Matthew was here at our lab through the summer Y.E.S program for 6 weeks to learn more about his interests in engineering. He is working on the Turtle-BOT, programming and testing RGB color values for automated color detection via the bot's vision system as it moves. He is interested in robotics and wants to join a program at Iowa State that will help him build, program and test robotic systems in future."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "High-school RA with a very common name; one search, nothing.",
+  "githubFinding": null
+ },
+ {
+  "name": "Aaron Havens",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "B.S Mechanical Engineering",
+   "Iowa State University, 2017",
+   "Undergraduate RA",
+   "Online robust policy learning in the presence of unknown adversaries"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://aaronhavens.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=HBAXF6YAAAAJ"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/AaronHavens"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://aaronhavens.github.io/",
+    "confidence": "high",
+    "evidence": "Fetched page: 'earned his Bachelors in Mechanical Engineering at Iowa State University, Ames, Iowa'; lists 'Online robust policy learning in the presence of unknown adversaries' (Havens, Jiang, Sarkar, NeurIPS 2018), the same project the input lists. Now a postdoc at Meta FAIR after a UIUC ECE Ph.D."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=HBAXF6YAAAAJ",
+    "confidence": "high",
+    "evidence": "Linked directly from aaronhavens.github.io."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/AaronHavens",
+    "confidence": "high",
+    "evidence": "Linked directly from aaronhavens.github.io."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/aaron-havens-1bb529a9",
+    "confidence": "high",
+    "evidence": "Linked directly from aaronhavens.github.io. Not fetched."
+   }
+  ],
+  "webSearchNotes": "Current: postdoctoral researcher, Meta FAIR.",
+  "githubFinding": null
+ },
+ {
+  "name": "Balaji S Sarath Pokuri",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Mechanical Engineering",
+   "Phase Field Modeling, High performance computing (HPC), Finite Element Method (FEM), Machine learning – Deep Learning"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=cy4PLJYAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=cy4PLJYAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Search result: Scholar profile titled exactly 'Balaji S Sarath Pokuri', verified email at iastate.edu, interests material science / machine learning / optimization. Matches the listed ISU ME interests (phase field, HPC, ML). WebFetch returned 404 (Scholar blocks bots), so the profile itself was not seen."
+   }
+  ],
+  "webSearchNotes": "Full name Balaji Sesha Sarath Pokuri (Baskar Ganapathysubramanian group). No personal homepage found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Paige K Boor",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Mechanical Engineering",
+   "She is an undergraduate honors student who joined the lab in Spring 2017. She hopes to learn more about Machine Learning."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "Two searches, nothing identifiable.",
+  "githubFinding": null
+ },
+ {
+  "name": "Genyi Huang",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Statistics",
+   "LSTM and Attention models for time series prediction problems"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=PdFsrLkAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=PdFsrLkAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Search result: Scholar profile 'Genyi Huang' lists 'Temporal Attention and Stacked LSTMs for Multivariate Time Series Prediction' (2018, co-authors Gangopadhyay, Tan, Sarkar), which matches the listed SCSLab project 'LSTM and Attention models for time series prediction'. Interests AI/Deep Learning/Statistics. Verified email at oracle.com (current employer)."
+   }
+  ],
+  "webSearchNotes": "Currently a Data Scientist at Oracle, per the Scholar email domain. No homepage found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Mason Drees",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Mechanical Engineering",
+   "Undergraduate RA",
+   "Mason is currently an undergraduate student majoring in Mechanical Engineering and minoring in Computer Science. He joined the lab in fall 2020. His research interests include reinforcement learning applications in robotics."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/mason-drees-4a90a8199/",
+    "confidence": "medium",
+    "evidence": "Search snippet: B.S. Mechanical Engineering, Iowa State 2018-2022, minors in Computer Science and Cyber-Physical Systems (matches the ME major / CS minor in the input). Now a robotics programmer/EDP engineer at John Deere. Not fetched."
+   }
+  ],
+  "webSearchNotes": "No homepage or scholar found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Aakanksha",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Amity University",
+   "Department of Mechanical Engineering",
+   "Aakanksha is final year undergraduate at Amity University, Noida pursuing Bachelor of Technology in Computer Science. She joined the lab in Summer 2019 and is working on problems involving reinforcement learning. Her research interests include machine learning, deep learning for object detection and computer vision."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "Single-name person. Found an 'Aakanksha' at Cohere (NYU MS; linkedin.com/in/aakanksha97, openreview ~Aakanksha2) but saw nothing tying her to Amity University or ISU (the OpenReview profile was behind a bot check). Left out as unverified.",
+  "githubFinding": null
+ },
+ {
+  "name": "Briton R Bauerly",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Mechanical Engineering",
+   "Briton is currently an undergraduate ME student who joined the lab in summer 2019. His research interests are robotics applications for deep learning and his other interests include 3D printing, tennis, and film."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/briton-bauerly/",
+    "confidence": "medium",
+    "evidence": "Search snippet: Briton Bauerly attended Iowa State University, robotics/automation background (Intramotev autonomous rail, now Software Engineer at First Orion). Very distinctive name. Not fetched."
+   }
+  ],
+  "webSearchNotes": "No homepage or scholar found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Yingying Huang",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Mechanical Engineering",
+   "Yingying joined the lab in Fall 2021 and is currently working on robotics applications as an undergraduate honors student."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [],
+  "webSearchEvidence": [],
+  "webSearchNotes": "Two searches. Only other Yingying Huangs (PolyU, a TikTok Ph.D.), none tied to ISU ME. Nothing accepted.",
+  "githubFinding": null
+ },
+ {
+  "name": "David Leguizamo",
+  "category": "Undergraduate Alumni",
+  "emailAsListed": null,
+  "lines": [
+   "Iowa State University",
+   "Department of Mechanical Engineering",
+   "Undergraduate RA",
+   "David joined the lab in Fall 2021 and is currently working on robotics applications."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=_a8sHdMAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=_a8sHdMAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Search result: Scholar profile 'David Felipe Leguizamo', verified email at iastate.edu, paper 'Deep reinforcement learning for robotic control with multi-fidelity models' (2022, with S. Sarkar), the SCSLab robotics work."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/dfleguizamo/",
+    "confidence": "high",
+    "evidence": "Search snippet: Felipe Leguizamo, Undergraduate Research Assistant at Iowa State Sep 2021-Dec 2022, trained RL models for robotic-arm end-effector guidance (matches 'joined Fall 2021, robotics applications'). Now a GNC Engineer at Boeing. Not fetched."
+   }
+  ],
+  "webSearchNotes": "Goes by Felipe; full name David Felipe Leguizamo.",
+  "githubFinding": null
+ }
+]

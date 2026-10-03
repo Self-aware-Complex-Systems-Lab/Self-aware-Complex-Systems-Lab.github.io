@@ -1,0 +1,891 @@
+[
+ {
+  "name": "Amitangshu Mukherjee",
+  "headline": "M.S. 2020 · now Ph.D. Candidate, Electrical and Computer Engineering, Purdue University",
+  "education": [
+   "M.S., Computer Engineering, Iowa State University, 2020",
+   "B.Tech., Applied Electronics and Instrumentation Engineering, Heritage Institute of Technology, Kolkata, 2016"
+  ],
+  "bio": [
+   "Amitangshu was a graduate student in the Department of Electrical and Computer Engineering at Iowa State University, jointly supervised by Prof. Chinmay Hegde and Prof. Soumik Sarkar. During his undergraduate studies, he completed industrial internships at Indian Oil Corporation Ltd. and Siemens India Pvt. Ltd., and in summer 2015 he was a summer research intern at the New Jersey Institute of Technology. He joined Dr. Soumik Sarkar's lab in Fall 2018, where his research interests included deep learning, computer vision, generative modeling, and adversarial learning, with applications to autonomous vehicles. His other interests include traveling, playing soccer and table tennis, hiking, and reading comics.",
+   "He graduated with an M.S. in Computer Engineering in Fall 2019 and is now a Ph.D. candidate in Electrical and Computer Engineering at Purdue University, working with Prof. Kaushik Roy in the Nano(Neuro) Electronics Research Laboratory. His current research focuses on scene understanding, robust deep learning, and multimodal models."
+  ],
+  "researchInterests": "Scene understanding, robust deep learning, multimodal models",
+  "joined": "Fall 2018",
+  "currentPosition": "Ph.D. Candidate, Electrical and Computer Engineering, Purdue University",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Ph.D. candidate in ECE at Purdue, working with Prof. Kaushik Roy at the Nano(Neuro) Electronics Lab",
+    "url": "https://amitangshu1013.github.io/"
+   },
+   {
+    "fact": "M.S. in Computer Engineering from Iowa State; worked with Prof. Chinmay Hegde and Prof. Soumik Sarkar",
+    "url": "https://amitangshu1013.github.io/"
+   },
+   {
+    "fact": "B.Tech. field is Applied Electronics & Instrumentation Engineering, Heritage Institute of Technology, Kolkata",
+    "url": "https://amitangshu1013.github.io/"
+   },
+   {
+    "fact": "Research interests: scene understanding, robust deep learning, multimodal models",
+    "url": "https://amitangshu1013.github.io/"
+   }
+  ],
+  "changes": [
+   {
+    "original": "M.S. Electrical and Computer Engineering, Iowa State University, 2020",
+    "edited": "M.S., Computer Engineering, Iowa State University, 2020",
+    "reason": "updated from own site (degree field is Computer Engineering; matches the lab text's later line)"
+   },
+   {
+    "original": "B.TECH, Electronics and Instrumentation Engineering, Heritage Institute of Technology, 2016",
+    "edited": "B.Tech., Applied Electronics and Instrumentation Engineering, Heritage Institute of Technology, Kolkata, 2016",
+    "reason": "format; field name and city updated from own site"
+   },
+   {
+    "original": "Amitangshu is a Ph.D. student in the Department of Electrical and Computer Engineering, Iowa State University",
+    "edited": "Amitangshu was a graduate student in the Department of Electrical and Computer Engineering at Iowa State University",
+    "reason": "past tense for alumni; he left ISU with an M.S., not a Ph.D."
+   },
+   {
+    "original": "Generative Modelling ... travelling",
+    "edited": "generative modeling ... traveling",
+    "reason": "spelling/capitalization consistency"
+   },
+   {
+    "original": "currently pursuing his Ph.D. in Nanoelectronics Research Laboratory, Purdue University",
+    "edited": "now a Ph.D. candidate in Electrical and Computer Engineering at Purdue University, working with Prof. Kaushik Roy in the Nano(Neuro) Electronics Research Laboratory",
+    "reason": "updated from own site"
+   }
+  ],
+  "notes": "Lab text is internally inconsistent on the M.S. date: heading says 2020, body says he graduated in Fall 2019. Own site gives no year; 2020 heading kept. Original bio called him an ISU Ph.D. student; he actually left ISU with an M.S. and is doing his Ph.D. at Purdue."
+ },
+ {
+  "name": "Sambit Ghadai",
+  "headline": "Ph.D. 2020 · now Graphics Software Engineer, Intel",
+  "education": [
+   "Ph.D., Mechanical Engineering (co-major: Computer Engineering), Iowa State University, 2020",
+   "B.Tech., Industrial and Product Design, NIT Rourkela, 2015"
+  ],
+  "bio": [
+   "Sambit joined the lab in Fall 2016. His research interests included cyber-physical systems, cyber-manufacturing, computational geometry, GPU computing, and visualization. He has a keen interest in playing musical instruments and loves to travel and read.",
+   "He graduated from the SCS Lab in July 2020 and is currently a Graphics Software Engineer at Intel."
+  ],
+  "researchInterests": "Cyber-physical systems, cyber-manufacturing, computational geometry, GPU computing, visualization",
+  "joined": "Fall 2016",
+  "currentPosition": "Graphics Software Engineer, Intel",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Surname spelled 'Ghadai' (own Google Scholar profile, verified iastate.edu, co-authors Krishnamurthy and Sarkar)",
+    "url": "https://scholar.google.com/citations?user=EyIpgmoAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Sambit Gadhai",
+    "edited": "Sambit Ghadai",
+    "reason": "name misspelling; corrected per his own Google Scholar profile"
+   },
+   {
+    "original": "Ph.D. Major: Mechanical Engineering, Iowa State University, 2020 / Comajor: Computer Engineering, Iowa State University, 2020",
+    "edited": "Ph.D., Mechanical Engineering (co-major: Computer Engineering), Iowa State University, 2020",
+    "reason": "format (merged the co-major into one degree line)"
+   },
+   {
+    "original": "B.Tech, Industrial and Product Design, NIT Rourkela, 2015",
+    "edited": "B.Tech., Industrial and Product Design, NIT Rourkela, 2015",
+    "reason": "format"
+   },
+   {
+    "original": "GPU-computing",
+    "edited": "GPU computing",
+    "reason": "spelling"
+   },
+   {
+    "original": "His research interests include",
+    "edited": "His research interests included",
+    "reason": "past tense for alumni"
+   },
+   {
+    "original": "SCS lab",
+    "edited": "the SCS Lab",
+    "reason": "grammar/capitalization"
+   }
+  ],
+  "notes": "Display name changed from 'Gadhai' to 'Ghadai' per his own Scholar profile (also the LinkedIn slug 'sambitghadai', not fetched). Intel role is from the original text; Scholar header still says 'Graduate Student', so it is not independently verified. Any URL slug or image filename using 'gadhai' may need renaming."
+ },
+ {
+  "name": "Homagni Saha",
+  "headline": "Ph.D. 2021 · Computer Vision Engineer, Danfoss Power Solutions (as listed)",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2021",
+   "M.S., Computer Science, Iowa State University, 2021",
+   "M.S., Mechanical Engineering, Iowa State University, 2018",
+   "B.Tech., Mechanical Engineering, NIT Rourkela, 2016"
+  ],
+  "bio": [
+   "Homagni joined the lab in Fall 2016. His research interests included probabilistic graphical modeling, reinforcement learning, and anomaly detection. He has a burning passion for robotics and was the go-to person for any robotics project in the lab. He worked on the design and control of agricultural robots, human-computer interaction for the TurtleBot, and visuomotor control of the one-armed Sawyer robot.",
+   "He graduated from the SCS Lab in May 2021 and then joined Danfoss Power Solutions as a Computer Vision Engineer. His recent work spans vision-language models, multimodal representation learning, efficient ML, robotics, and cyber-physical systems."
+  ],
+  "researchInterests": "Vision-language models, multimodal representation learning, efficient ML, robotics, cyber-physical systems",
+  "joined": "Fall 2016",
+  "currentPosition": "Computer Vision Engineer, Danfoss Power Solutions",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current research interests: Vision_Language, Multimodal_Representation, Efficient_ML, Robotics, Cyber_Physical_Systems; 'PhD (ME,CS), Iowa State University'",
+    "url": "https://scholar.google.com/citations?user=_fZmnRMAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "B.Tech Mechanical Engineering, NIT Rourkela, 2016",
+    "edited": "B.Tech., Mechanical Engineering, NIT Rourkela, 2016",
+    "reason": "format"
+   },
+   {
+    "original": "probabilistic graphical modelling",
+    "edited": "probabilistic graphical modeling",
+    "reason": "spelling consistency"
+   },
+   {
+    "original": "the go-to guy",
+    "edited": "the go-to person",
+    "reason": "tone"
+   },
+   {
+    "original": "human computer interaction for turtlebot, and visuo-motor control in sawyer one handed robot",
+    "edited": "human-computer interaction for the TurtleBot, and visuomotor control of the one-armed Sawyer robot",
+    "reason": "grammar/capitalization"
+   },
+   {
+    "original": "is currently working in Danfoss Power Solutions as a Computer Vision Engineer",
+    "edited": "then joined Danfoss Power Solutions as a Computer Vision Engineer",
+    "reason": "grammar; hedged because the role may be outdated"
+   },
+   {
+    "original": "(none)",
+    "edited": "recent research interests sentence",
+    "reason": "updated from own Scholar profile"
+   }
+  ],
+  "notes": "Danfoss role is from the original text only; his own Scholar and weebly site don't state a current employer. Search snippets suggest he is now at IIT Kharagpur (LinkedIn title, not fetched) and Sessionize lists him as Senior Applied ML Scientist; neither verified on an own site, so not used. The weebly site has no bio info. Original says 'one handed' Sawyer; Sawyer is a single-arm robot, so rendered as 'one-armed'."
+ },
+ {
+  "name": "Jaydeep-Ravindra Rade",
+  "headline": "M.S. 2021 · now Research Scientist – AI, GE Vernova",
+  "education": [
+   "M.S., Electrical Engineering, Iowa State University, 2021",
+   "B.Tech., Electronics Engineering, Veermata Jijabai Technological Institute (VJTI), Mumbai, 2018"
+  ],
+  "bio": [
+   "Jaydeep joined the lab in Spring 2019, co-advised by Dr. Soumik Sarkar and Dr. Adarsh Krishnamurthy. His research interests were deep learning, image processing, and their applications, and he worked on deep learning for topology optimization; his M.S. thesis was titled \"Deep Learning Frameworks for Structural Topology Optimization.\" Outside of academics, he enjoys music, cooking, and traveling.",
+   "He graduated from the SCS Lab in December 2020 and continued as a Ph.D. student in Electrical Engineering at Iowa State University under Dr. Adarsh Krishnamurthy and Dr. Anwesha Sarkar, working on 3D deep learning, including protein structure reconstruction from AFM images. He is currently a Research Scientist – AI at the GE Vernova Advanced Research Center."
+  ],
+  "researchInterests": "Deep learning, computer vision, 3D computer vision, AI for engineering",
+  "joined": "Spring 2019",
+  "currentPosition": "Research Scientist – AI, GE Vernova Advanced Research Center",
+  "project": null,
+  "sources": [
+   {
+    "fact": "M.S. 2021 from Iowa State, thesis 'Deep Learning Frameworks for Structural Topology Optimization', supervised by Krishnamurthy and S. Sarkar",
+    "url": "https://jaydeepradejd.github.io/"
+   },
+   {
+    "fact": "Ph.D. in Electrical Engineering at Iowa State under Krishnamurthy and Anwesha Sarkar, listed as 'Ph.D. Candidate (2025)', i.e. not completed in 2021",
+    "url": "https://jaydeepradejd.github.io/"
+   },
+   {
+    "fact": "B.Tech. in Electronics Engineering, VJTI Mumbai",
+    "url": "https://jaydeepradejd.github.io/"
+   },
+   {
+    "fact": "Research Scientist - AI, GE Vernova Advanced Research Center (verified gevernova.com); interests Deep Learning, Computer Vision, 3D Computer Vision, AI for Engineering",
+    "url": "https://scholar.google.com/citations?user=_HpXM5UAAAAJ"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Ph.D. Electrical Engineering , Iowa State University, 2021",
+    "edited": "(removed from education)",
+    "reason": "incorrect: own homepage shows the 2021 degree is the M.S.; Ph.D. was in progress with expected completion 2025, and completion is not verified"
+   },
+   {
+    "original": "M.S. Electrical Engineering, Iowa State University, 2020",
+    "edited": "M.S., Electrical Engineering, Iowa State University, 2021",
+    "reason": "updated from own site (M.S. in 2021)"
+   },
+   {
+    "original": "B.Tech. Electronics Engineering, Veermata Jijabai Technological Institute, 2018",
+    "edited": "B.Tech., Electronics Engineering, Veermata Jijabai Technological Institute (VJTI), Mumbai, 2018",
+    "reason": "format; city from own site"
+   },
+   {
+    "original": "Jaydeep joined the lab Spring 2019",
+    "edited": "Jaydeep joined the lab in Spring 2019",
+    "reason": "grammar"
+   },
+   {
+    "original": "He currently working in GE Vernova as a Research Scientist.",
+    "edited": "He is currently a Research Scientist – AI at the GE Vernova Advanced Research Center.",
+    "reason": "grammar; title from own Scholar profile"
+   }
+  ],
+  "notes": "Confirmed: the 'Ph.D. ... 2021' line is really his M.S. His homepage says 'M.S. in 2021 from Iowa State University' and 'Ph.D. Candidate (2025)'; the ISU repository holds his M.S. thesis on topology optimization. M.S. year: lab said 2020 and own site says 2021, so 2021 is used (he left the lab Dec 2020, so it was probably conferred around then). Whether he completed the Ph.D. is NOT verified (homepage outdated, Scholar header shows only GE Vernova). If confirmed, add 'Ph.D., Electrical Engineering, Iowa State University, <year>'."
+ },
+ {
+  "name": "Yasaman Esfandiari",
+  "headline": "Ph.D. 2021 · now at HRL Laboratories",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2021",
+   "M.S., Mechanical Engineering, Iowa State University, 2017",
+   "B.S., Mechanical Engineering, Amirkabir University of Technology, Tehran, Iran, 2015"
+  ],
+  "bio": [
+   "Yasaman was a Ph.D. student in Mechanical Engineering and joined the lab in Fall 2018. Her research interests were dynamics and controls, optimization, machine learning, and deep learning. She worked on nonconvex robust optimization in deep neural networks with unknown adversaries. Her other activities include playing piano, reading, and working out.",
+   "She graduated from the SCS Lab in 2021 and is currently working at HRL Laboratories."
+  ],
+  "researchInterests": "Dynamics and controls, optimization, machine learning, deep learning",
+  "joined": "Fall 2018",
+  "currentPosition": "HRL Laboratories",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current affiliation HRL Laboratories (verified hrl.com)",
+    "url": "https://scholar.google.com/citations?user=2zBDS7IAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "M.S. Mechanical Engineering, Iowa State University, Ames, Iowa, 2017",
+    "edited": "M.S., Mechanical Engineering, Iowa State University, 2017",
+    "reason": "format"
+   },
+   {
+    "original": "mechanical engineering",
+    "edited": "Mechanical Engineering",
+    "reason": "capitalization"
+   },
+   {
+    "original": "Her research interests are",
+    "edited": "Her research interests were",
+    "reason": "past tense for alumni"
+   },
+   {
+    "original": "machine learning and deep learning ... reading and working out",
+    "edited": "machine learning, and deep learning ... reading, and working out",
+    "reason": "punctuation (serial comma)"
+   },
+   {
+    "original": "SCS lab",
+    "edited": "the SCS Lab",
+    "reason": "grammar/capitalization"
+   }
+  ],
+  "notes": "Job title (ML Research Scientist) appears only on LinkedIn (not fetched), so it was left out."
+ },
+ {
+  "name": "Koushik Nagasubramanian",
+  "headline": "Ph.D. 2021 · now Deep Learning Scientist, Bayer Crop Science",
+  "education": [
+   "Ph.D., Electrical Engineering, Iowa State University, 2021",
+   "B.Tech., Electronics and Communication Engineering, RNSIT, Bangalore, India, 2015"
+  ],
+  "bio": [
+   "Koushik was a Ph.D. student jointly supervised by Prof. Baskar Ganapathysubramanian and Prof. Soumik Sarkar. After receiving his undergraduate degree in 2015, he worked at Nubesol Technologies, Bangalore, for about seven months. His research interests included machine learning, deep learning, and computer vision, and he worked on deep learning for plant disease prediction.",
+   "He graduated from the SCS Lab in June 2021 and is currently a Deep Learning Scientist at Bayer Crop Science."
+  ],
+  "researchInterests": "Machine learning, deep learning, computer vision",
+  "joined": null,
+  "currentPosition": "Deep Learning Scientist, Bayer Crop Science",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current affiliation Bayer Crop Science (verified bayer.com) confirms the listed employer",
+    "url": "https://scholar.google.com/citations?user=DNivdrsAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "B.Tech, Electronics and Communication Engineering, RNSIT, Bangalore, India, 2015.",
+    "edited": "B.Tech., Electronics and Communication Engineering, RNSIT, Bangalore, India, 2015",
+    "reason": "format"
+   },
+   {
+    "original": "under joint supervision of",
+    "edited": "jointly supervised by",
+    "reason": "grammar"
+   },
+   {
+    "original": "machine Learning",
+    "edited": "machine learning",
+    "reason": "capitalization"
+   },
+   {
+    "original": "for almost seven months",
+    "edited": "for about seven months",
+    "reason": "phrasing"
+   },
+   {
+    "original": "is currently working as a Deep Learning Scientist",
+    "edited": "is currently a Deep Learning Scientist",
+    "reason": "concision"
+   }
+  ],
+  "notes": "Scholar header shows only 'Bayer Crop Science' (no title); the 'Deep Learning Scientist' title is from the original text."
+ },
+ {
+  "name": "Tryambak Gangopadhyay",
+  "headline": "Ph.D. 2021 · now Senior Applied Scientist, Generative AI, Amazon Web Services",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2021",
+   "M.S., Mechanical Engineering, Iowa State University, 2019",
+   "B.E., Mechanical Engineering, Jadavpur University, 2017"
+  ],
+  "bio": [
+   "Tryambak joined Dr. Soumik Sarkar's lab in Fall 2017. His research focused on designing deep learning algorithms for large-scale image/video data, multivariate time-series data, and text data, with applications in healthcare, agriculture, vision, and cyber-physical systems. He also pursued a concurrent master's degree in Computer Science. In summer 2019, as an intern in the Machine Learning group at Lawrence Livermore National Laboratory (LLNL), he developed deep learning fusion models for clinical prediction tasks using electronic health record datasets. His other interests are story writing, reading, sketching, and playing guitar.",
+   "He graduated from the SCS Lab in March 2021 and is currently a Senior Applied Scientist in Generative AI at Amazon Web Services."
+  ],
+  "researchInterests": "Generative AI, machine learning, deep learning, cyber-physical systems",
+  "joined": "Fall 2017",
+  "currentPosition": "Senior Applied Scientist, Generative AI, Amazon Web Services",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Senior Applied Scientist, Generative AI at Amazon AWS (verified amazon.com); interests Generative AI, ML, DL, CPS",
+    "url": "https://scholar.google.com/citations?user=QDv2cHoAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "His research interests include designing of deep learning algorithms",
+    "edited": "His research focused on designing deep learning algorithms",
+    "reason": "grammar; past tense"
+   },
+   {
+    "original": "multivariate time series data ... and different cyber-physical systems",
+    "edited": "multivariate time-series data ... and cyber-physical systems",
+    "reason": "grammar"
+   },
+   {
+    "original": "He is doing a concurrent Masters in Computer Science.",
+    "edited": "He also pursued a concurrent master's degree in Computer Science.",
+    "reason": "grammar; past tense"
+   },
+   {
+    "original": "In 2019, as a summer intern at the Machine Learning group",
+    "edited": "In summer 2019, as an intern in the Machine Learning group",
+    "reason": "grammar"
+   },
+   {
+    "original": "Electronic Health Record datasets",
+    "edited": "electronic health record datasets",
+    "reason": "capitalization"
+   },
+   {
+    "original": "story-writing, reading, drawing sketches",
+    "edited": "story writing, reading, sketching",
+    "reason": "phrasing"
+   },
+   {
+    "original": "is currently working at Amazon",
+    "edited": "is currently a Senior Applied Scientist in Generative AI at Amazon Web Services",
+    "reason": "updated from own Scholar profile"
+   }
+  ],
+  "notes": "Completion of the concurrent CS master's is not verified, so no M.S. CS line was added. The existing LinkedIn link (slug tryambak-gangopadhyay-0ab13568) may be stale; his GitHub links /in/tryambakgangopadhyay/."
+ },
+ {
+  "name": "Bernard Lee Xian Yeow",
+  "headline": "Ph.D. 2022 · now at Hitachi America, Ltd.",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2022",
+   "B.S., Mechanical Engineering, Iowa State University, 2016"
+  ],
+  "bio": [
+   "Xian Yeow received his bachelor's degree in Mechanical Engineering from Iowa State University in 2016 and went on to pursue his Ph.D. at Iowa State. His research interests included applications of deep reinforcement learning and deep generative methods for the robust and efficient design of cyber-physical systems.",
+   "He graduated in May 2022 and is currently working at Hitachi America, Ltd."
+  ],
+  "researchInterests": "Deep reinforcement learning, deep generative methods, robust and efficient design of cyber-physical systems",
+  "joined": null,
+  "currentPosition": "Hitachi America, Ltd.",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current affiliation Hitachi America Ltd. (verified hal.hitachi.com); homepage link matches his LinkedIn on the lab site",
+    "url": "https://scholar.google.com/citations?user=sjAA1AQAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "He pursueding his Ph.D. degree at Iowa State University and his research interests include",
+    "edited": "and went on to pursue his Ph.D. at Iowa State. His research interests included",
+    "reason": "typo/grammar; past tense"
+   },
+   {
+    "original": "cyper-physical systems",
+    "edited": "cyber-physical systems",
+    "reason": "typo"
+   },
+   {
+    "original": "for robust and efficient design",
+    "edited": "for the robust and efficient design",
+    "reason": "grammar"
+   },
+   {
+    "original": "working at Hitachi",
+    "edited": "working at Hitachi America, Ltd.",
+    "reason": "updated from own Scholar profile"
+   }
+  ],
+  "notes": "Scholar profile is under 'Xian Yeow Lee'; display name left unchanged."
+ },
+ {
+  "name": "Russell Kai Liang Tan",
+  "headline": "Ph.D. 2022 · now GPU Software Development Engineer, Intel",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2022",
+   "B.S., Mechanical Engineering, Iowa State University, 2017"
+  ],
+  "bio": [
+   "Kai Liang (Russell) joined the Self-aware Complex Systems Lab in Spring 2018 after receiving his undergraduate degree from Iowa State University in Fall 2017. During his undergraduate studies, he interned at the Bobcat Company and Danfoss Power Solutions. His research interests included using deep learning, reinforcement learning, and computer vision to solve problems in engineering, cyber-physical systems, and autonomous systems. His creativity extends beyond academics to photography, digital art, and strategy video games.",
+   "He graduated from the SCS Lab in August 2022 and is currently a GPU Software Development Engineer at Intel."
+  ],
+  "researchInterests": "Deep learning, reinforcement learning, computer vision",
+  "joined": "Spring 2018",
+  "currentPosition": "GPU Software Development Engineer, Intel",
+  "project": null,
+  "sources": [
+   {
+    "fact": "GPU Software Development Engineer, verified intel.com",
+    "url": "https://scholar.google.com/citations?user=HgGGNSEAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "joined Self-aware Complex Systems Lab Spring 2018",
+    "edited": "joined the Self-aware Complex Systems Lab in Spring 2018",
+    "reason": "grammar"
+   },
+   {
+    "original": "he was an intern for The Bobcat Company",
+    "edited": "he interned at the Bobcat Company",
+    "reason": "grammar"
+   },
+   {
+    "original": "His research interest includes utilizing Deep Learning, Reinforcement Learning and Computer Vision to solve engineering problems",
+    "edited": "His research interests included using deep learning, reinforcement learning, and computer vision to solve problems in engineering",
+    "reason": "grammar/capitalization; past tense"
+   },
+   {
+    "original": "His passion for creativity also goes beyond academics, such as photography, digital arts and playing strategic video games.",
+    "edited": "His creativity extends beyond academics to photography, digital art, and strategy video games.",
+    "reason": "phrasing"
+   },
+   {
+    "original": "is currently working at Intel",
+    "edited": "is currently a GPU Software Development Engineer at Intel",
+    "reason": "updated from own Scholar profile"
+   }
+  ],
+  "notes": "The original 'LinkedIn' link actually points to his Google Scholar profile; relabel it or replace it with his real LinkedIn."
+ },
+ {
+  "name": "Luis G. Riera",
+  "headline": "Ph.D. 2022 · now at CSIRO's Data61",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2022",
+   "M.S., Mechanical Engineering, Iowa State University, 1997",
+   "B.S., Mechanical Engineering, Iowa State University, 1995"
+  ],
+  "bio": [
+   "Luis joined Dr. Sarkar's lab in August 2017. His research interests included deep learning, machine learning, visualization, and self-driving vehicles, including cars, trucks, and tractors. Before joining the lab, Luis worked mainly in project management and business development. His hobbies are go-kart racing, baking, mountain biking, and computers.",
+   "He graduated from the SCS Lab in November 2022 and is currently working at CSIRO's Data61."
+  ],
+  "researchInterests": "Deep learning, machine learning, visualization, self-driving vehicles",
+  "joined": "Fall 2017",
+  "currentPosition": "CSIRO's Data61",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Current affiliation CSIRO (verified csiro.au), consistent with the listed Data61 role",
+    "url": "https://scholar.google.com/citations?user=UtQzjwsAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Self-Driven vehicles, including cars, trucks, tractors, and others",
+    "edited": "self-driving vehicles, including cars, trucks, and tractors",
+    "reason": "grammar/capitalization"
+   },
+   {
+    "original": "His research interests are",
+    "edited": "His research interests included",
+    "reason": "past tense for alumni"
+   },
+   {
+    "original": "Project Management and Business Development",
+    "edited": "project management and business development",
+    "reason": "capitalization"
+   },
+   {
+    "original": "racing Go-Kart, baking, Mount Biking and computers",
+    "edited": "go-kart racing, baking, mountain biking, and computers",
+    "reason": "grammar/spelling"
+   },
+   {
+    "original": "SCS lab",
+    "edited": "the SCS Lab",
+    "reason": "grammar/capitalization"
+   }
+  ],
+  "notes": "His Scholar profile is under 'Luis Riera Garcia'; display name left unchanged. 'Senior Research Scientist' title appears only on LinkedIn (not fetched) and was left out. 'joined' set to Fall 2017 from 'August 2017'."
+ },
+ {
+  "name": "Sin Yong Tan (Evan)",
+  "headline": "Ph.D. 2022 · now AI Scientist, Musco Sports Lighting",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2022",
+   "B.S., Mechanical Engineering, Iowa State University, 2017"
+  ],
+  "bio": [
+   "Sin Yong joined the lab in Fall 2017. He was involved in multiple projects, including the Autonomous Rover project and the Robot and Cop project, and gained hands-on experience with machine learning applications.",
+   "He graduated from the SCS Lab in December 2022 and is currently an AI Scientist at Musco Sports Lighting, LLC."
+  ],
+  "researchInterests": "Machine learning, deep learning, reinforcement learning, multimodal data, computer vision",
+  "joined": "Fall 2017",
+  "currentPosition": "AI Scientist, Musco Sports Lighting, LLC",
+  "project": "Autonomous Rover; Robot and Cop",
+  "sources": [
+   {
+    "fact": "AI Scientist at Musco Sports Lighting, LLC (verified musco.com); interests ML, DL, RL, multimodal data, computer vision",
+    "url": "https://scholar.google.com/citations?user=vCGCNXAAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "He was involved multiple in the Autonomous Rover project, and Robot and Cop project and acquired hands-on experience on Machine Learning applications.",
+    "edited": "He was involved in multiple projects, including the Autonomous Rover project and the Robot and Cop project, and gained hands-on experience with machine learning applications.",
+    "reason": "grammar"
+   },
+   {
+    "original": "working as an AI specialist",
+    "edited": "an AI Scientist",
+    "reason": "updated from own Scholar profile"
+   },
+   {
+    "original": "(none)",
+    "edited": "researchInterests",
+    "reason": "added from own Scholar profile"
+   }
+  ],
+  "notes": "Title changed from 'AI specialist' (lab site) to 'AI Scientist' (own Scholar header)."
+ },
+ {
+  "name": "Fateme Fotouhi Ardakani",
+  "headline": "Ph.D. 2023 · now Computer Vision Research Scientist, Canon",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2023",
+   "M.S., Mechanical Engineering, Shiraz University, 2018",
+   "B.E., Mechanical Engineering, Shiraz University, 2015"
+  ],
+  "bio": [
+   "Fateme joined the lab in Fall 2019. Her M.S. research was in control and vibration. Her main research interests included machine learning, deep learning, biomechanics, nonlinear control, robotics, mechatronics, and optimization. She is also interested in playing piano, reading, and mountain climbing.",
+   "She graduated from the SCS Lab in May 2023 and is currently a Computer Vision Research Scientist at Canon."
+  ],
+  "researchInterests": "Machine learning, deep learning, biomechanics, nonlinear control, robotics, mechatronics, optimization",
+  "joined": "Fall 2019",
+  "currentPosition": "Computer Vision Research Scientist, Canon",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Computer Vision Research Scientist, verified cusa.canon.com (Canon U.S.A.)",
+    "url": "https://scholar.google.com/citations?user=wplmVzIAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "M.S. Mechanical engineering, Shiraz University, 2018",
+    "edited": "M.S., Mechanical Engineering, Shiraz University, 2018",
+    "reason": "capitalization/format"
+   },
+   {
+    "original": "Fateme Fotouhi joined",
+    "edited": "Fateme joined",
+    "reason": "style (first name, as in other profiles)"
+   },
+   {
+    "original": "Her M.S. degree was in the field of control and vibration.",
+    "edited": "Her M.S. research was in control and vibration.",
+    "reason": "concision"
+   },
+   {
+    "original": "and optimizations",
+    "edited": "and optimization",
+    "reason": "grammar"
+   },
+   {
+    "original": "She also interests in playing piano, reading books",
+    "edited": "She is also interested in playing piano, reading",
+    "reason": "grammar"
+   },
+   {
+    "original": "a computer vision research scientist",
+    "edited": "a Computer Vision Research Scientist",
+    "reason": "capitalization of title"
+   }
+  ],
+  "notes": "Scholar email domain suggests Canon U.S.A. specifically; kept 'Canon' as in the original."
+ },
+ {
+  "name": "Jesse Lane",
+  "headline": "Ph.D. 2023 · now Principal Research Engineer, Collins Aerospace",
+  "education": [
+   "Ph.D., Human Computer Interaction, Iowa State University, 2023",
+   "B.S., Computer Science, Iowa State University, 2005",
+   "B.S., Mathematics, Iowa State University, 2005"
+  ],
+  "bio": [
+   "Jesse joined the Self-aware Complex Systems Lab in Fall 2020. His research interests lay at the intersection of causal inference, reinforcement learning, and deep learning. While in the lab, he was a Research Engineer at Collins Aerospace focusing on automatic target recognition and machine learning at the tactical edge. His hobbies are playing guitar and sailing.",
+   "He graduated from the SCS Lab in December 2023 and is now a Principal Research Engineer at Collins Aerospace, working across AI/ML, extended reality (XR), and operations engineering."
+  ],
+  "researchInterests": "Causal inference, reinforcement learning, deep learning",
+  "joined": "Fall 2020",
+  "currentPosition": "Principal Research Engineer, Collins Aerospace",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Ph.D. in Human Computer Interaction from Iowa State University",
+    "url": "https://jesselane.net/"
+   },
+   {
+    "fact": "Principal Research Engineer at Collins Aerospace (a subsidiary of Raytheon Technologies)",
+    "url": "https://jesselane.net/"
+   },
+   {
+    "fact": "Focus areas AI/ML, XR, XOps",
+    "url": "https://jesselane.net/"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Ph.D. Mechanical Engineering, Iowa State University, 2023",
+    "edited": "Ph.D., Human Computer Interaction, Iowa State University, 2023",
+    "reason": "updated from own site"
+   },
+   {
+    "original": "He is currently a Research Engineer at Collins Aerospace",
+    "edited": "While in the lab, he was a Research Engineer at Collins Aerospace",
+    "reason": "past tense; title has since changed"
+   },
+   {
+    "original": "His research interests lie",
+    "edited": "His research interests lay",
+    "reason": "past tense for alumni"
+   },
+   {
+    "original": "(none)",
+    "edited": "now a Principal Research Engineer at Collins Aerospace",
+    "reason": "updated from own site"
+   }
+  ],
+  "notes": "CONFLICT: lab site lists Ph.D. Mechanical Engineering; his own site (jesselane.net) says 'PhD in Human Computer Interaction from Iowa State University'. Own site's version used (ISU's HCI Ph.D. is an interdepartmental program, so both may be compatible if ME was his home department). Year 2023 kept from lab site (own site gives no year)."
+ },
+ {
+  "name": "Jiale Feng",
+  "headline": "Ph.D. 2024, Computer Science",
+  "education": [
+   "Ph.D., Computer Science, Iowa State University, 2024",
+   "B.S., Automation, University of Science and Technology of China, 2014",
+   "B.S., Business Administration, University of Science and Technology of China, 2014"
+  ],
+  "bio": [
+   "Jiale was a Ph.D. student in Computer Science and joined the Self-aware Complex Systems Laboratory in Summer 2021. Before that, he worked for five years in the ARLab at ISU's Virtual Reality Applications Center, mainly on individual projects funded by Collins Aerospace, and he interned at Collins Aerospace in the summers of 2017 and 2018. His research interests included deep learning, computer vision, and computer graphics. In his spare time, he keeps a consistent workout routine and enjoys PC games and movies."
+  ],
+  "researchInterests": "Deep learning, computer vision, computer graphics",
+  "joined": "Summer 2021",
+  "currentPosition": null,
+  "project": null,
+  "sources": [
+   {
+    "fact": "'PhD in Computer Science, Iowa State University' (verified iastate.edu)",
+    "url": "https://scholar.google.com/citations?user=WJ35n5UAAAAJ&hl=en"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Ph.D. Mechanical Engineering, Iowa State University, 2024",
+    "edited": "Ph.D., Computer Science, Iowa State University, 2024",
+    "reason": "internal inconsistency; lab bio and own Scholar header both say Computer Science"
+   },
+   {
+    "original": "He joined the Self-aware Complex Systems Laboratory in Summer 2021. Before that, he worked in ARLab in Virtual Reality Applications Center at ISU for five years, and his main efforts are in individual projects funded by Collins Aerospace.",
+    "edited": "joined the Self-aware Complex Systems Laboratory in Summer 2021. Before that, he worked for five years in the ARLab at ISU's Virtual Reality Applications Center, mainly on individual projects funded by Collins Aerospace",
+    "reason": "grammar; past tense"
+   },
+   {
+    "original": "His research interests include",
+    "edited": "His research interests included",
+    "reason": "past tense for alumni"
+   },
+   {
+    "original": "enjoys playing PC games and watching movies",
+    "edited": "enjoys PC games and movies",
+    "reason": "concision"
+   }
+  ],
+  "notes": "Degree heading said Mechanical Engineering but bio and own Scholar say Computer Science; check. Possibly now at Corteva Agriscience (LinkedIn search title only, not fetched), so currentPosition left null."
+ },
+ {
+  "name": "Ashutosh Kumar Nirala",
+  "headline": "Ph.D. 2025 · now at Meta",
+  "education": [
+   "Ph.D., Computer Science, Iowa State University, 2025",
+   "M.Tech., Computer Science, Indian Institute of Technology Bombay, India, 2013",
+   "B.S., Electronics and Telecommunication, Army Institute of Technology, Pune, India, 2007"
+  ],
+  "bio": [
+   "Ashutosh was a Ph.D. student in the Department of Computer Science at Iowa State University, co-advised by Dr. Soumik Sarkar and Dr. Jin Tian. His research focused on adversarial robustness: developing methods that make deep learning models empirically robust while also providing avenues for their theoretical certification. His dissertation was titled \"Toward Reliable AI: Practical and Certified Defenses for Adversarially Robust Vision Systems.\"",
+   "He graduated from the SCS Lab in December 2025 and is currently working at Meta."
+  ],
+  "researchInterests": "Adversarial robustness, certified defenses, robust vision systems",
+  "joined": null,
+  "currentPosition": "Meta",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Dissertation 'Toward Reliable AI: Practical and Certified Defenses for Adversarially Robust Vision Systems'; co-advised by Sarkar and Jin Tian",
+    "url": "https://aknirala.github.io/"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Ph.D.Computer Science, Iowa State University, 2025",
+    "edited": "Ph.D., Computer Science, Iowa State University, 2025",
+    "reason": "format/spacing"
+   },
+   {
+    "original": "Indian Institute of Technology, Bombay",
+    "edited": "Indian Institute of Technology Bombay",
+    "reason": "format (official name)"
+   },
+   {
+    "original": "Army institute of technology",
+    "edited": "Army Institute of Technology",
+    "reason": "capitalization"
+   },
+   {
+    "original": "is a Ph.D. student ... He is currently working under the supervision of",
+    "edited": "was a Ph.D. student ..., co-advised by",
+    "reason": "past tense for alumni; concision"
+   },
+   {
+    "original": "His primary research resides in the domain of Adversarial Robustness. His endeavors are centered around the development of methodologies that bestow empirical resilience upon deep learning models, while concurrently establishing avenues for their theoretical certification.",
+    "edited": "His research focused on adversarial robustness: developing methods that make deep learning models empirically robust while also providing avenues for their theoretical certification.",
+    "reason": "awkward phrasing"
+   },
+   {
+    "original": "(none)",
+    "edited": "dissertation title",
+    "reason": "added from own site"
+   },
+   {
+    "original": "Decenber",
+    "edited": "December",
+    "reason": "typo"
+   }
+  ],
+  "notes": "Own site still says 'defending Fall 2025' and doesn't mention Meta; Meta is from the original text only. Original B.S. line may really be a B.E./B.Tech. (Indian engineering degree); kept as B.S. since unverified."
+ },
+ {
+  "name": "Ethan Herron",
+  "headline": "Ph.D. 2026, Mechanical Engineering",
+  "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2026",
+   "B.S., Mathematics, Iowa State University, 2020"
+  ],
+  "bio": [
+   "Ethan was a Ph.D. student in Mechanical Engineering and joined the Self-aware Complex Systems Laboratory in Summer 2020, after receiving his B.S. in Mathematics from Iowa State University in Spring 2020. His research interests were machine learning, deep learning, and optimization, and he worked on applying deep learning methods to topology optimization. His other activities include high-powered rocketry, cooking, and various outdoor activities."
+  ],
+  "researchInterests": "Machine learning, deep learning, optimization",
+  "joined": "Summer 2020",
+  "currentPosition": null,
+  "project": null,
+  "sources": [],
+  "changes": [
+   {
+    "original": "Ph.D.Mechanical Engineering, Iowa State University, 2026",
+    "edited": "Ph.D., Mechanical Engineering, Iowa State University, 2026",
+    "reason": "format/spacing"
+   },
+   {
+    "original": "He received his B.S. in Mathematics at Iowa State University in Spring 2020.",
+    "edited": "after receiving his B.S. in Mathematics from Iowa State University in Spring 2020",
+    "reason": "grammar/merge"
+   },
+   {
+    "original": "His current research interests are ... He is currently working on applying deep learning methods for topology optimization.",
+    "edited": "His research interests were ..., and he worked on applying deep learning methods to topology optimization.",
+    "reason": "past tense for alumni"
+   }
+  ],
+  "notes": "No own site found; Scholar still shows 'Graduate Student, Iowa State University'. Possibly now an ML Engineer at Arm (LinkedIn search title only, not fetched), so currentPosition left null. Proofread only."
+ },
+ {
+  "name": "Muhammad Arbab Arshad",
+  "headline": "Ph.D. 2026 · now Software Engineer (AI), Waymo",
+  "education": [
+   "Ph.D., Computer Science, Iowa State University, 2026",
+   "M.S., Computer Engineering, American University of Sharjah, 2021",
+   "B.S., Computer Science, Lahore University of Management Sciences, 2019"
+  ],
+  "bio": [
+   "Arbab was a Ph.D. student in Computer Science at Iowa State University and a research assistant at the AI Institute for Resilient Agriculture (AIIRA). After joining Dr. Soumik Sarkar's lab in Spring 2022, his research centered on 3D reconstruction using neural radiance fields (NeRFs), with applications to soybean plants. He also explored the intersections of machine learning, computer vision, and generative AI, including large language models and MLOps.",
+   "He is currently a Software Engineer (AI) at Waymo."
+  ],
+  "researchInterests": "3D reconstruction, neural radiance fields, computer vision, generative AI, large language models, MLOps",
+  "joined": "Spring 2022",
+  "currentPosition": "Software Engineer (AI), Waymo",
+  "project": null,
+  "sources": [
+   {
+    "fact": "Research Assistant at the AI Institute for Resilient Agriculture (AIIRA); interests at the intersection of LLMs, computer vision, and MLOps",
+    "url": "https://arbabarshad.com/"
+   },
+   {
+    "fact": "Joined Dr. Soumik's lab in Spring 2022; NeRF for soybean plants",
+    "url": "https://www.cs.iastate.edu/people/muhammad-arshad"
+   }
+  ],
+  "changes": [
+   {
+    "original": "Dr. Soumik's lab",
+    "edited": "Dr. Soumik Sarkar's lab",
+    "reason": "format (full name)"
+   },
+   {
+    "original": "3D reconstructions using neural radiance fields (NeRFs), with specific applications on soybean plants",
+    "edited": "3D reconstruction using neural radiance fields (NeRFs), with applications to soybean plants",
+    "reason": "grammar"
+   },
+   {
+    "original": "In addition, He explores",
+    "edited": "He also explored",
+    "reason": "capitalization; past tense"
+   },
+   {
+    "original": "in his work.Currently, he is working as a software engineer(AI) at Waymo",
+    "edited": "He is currently a Software Engineer (AI) at Waymo.",
+    "reason": "spacing/punctuation"
+   },
+   {
+    "original": "(none)",
+    "edited": "AIIRA research assistant; LLMs and MLOps interests",
+    "reason": "added from own site"
+   }
+  ],
+  "notes": "Waymo role is from the original text only; his homepage still lists him as an ISU Ph.D. candidate (and a 2025 Intel internship) and doesn't mention Waymo."
+ }
+]

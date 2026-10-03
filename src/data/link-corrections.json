@@ -1,7 +1,38 @@
 {
  "_note": "Archived links that demonstrably point to a DIFFERENT person. They are hidden on the new site (never deleted from people.json / the archive). Evidence: migration/people-web-search.json and migration/content-review.md.",
  "hide": [
-  {"person": "Linjiang Wu", "href": "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en", "reason": "This Scholar ID is Adedotun Akintayo's profile (same ID is listed for both people)."},
-  {"person": "Zhisheng Zhang", "href": "https://vn.linkedin.com/in/truong-tran-62643194", "reason": "This LinkedIn URL is Truong Tran's profile (copy of the link listed under Truong Tran)."}
+  {
+   "person": "Linjiang Wu",
+   "href": "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en",
+   "reason": "This Scholar ID is Adedotun Akintayo's profile (same ID is listed for both people)."
+  },
+  {
+   "person": "Zhisheng Zhang",
+   "href": "https://vn.linkedin.com/in/truong-tran-62643194",
+   "reason": "This LinkedIn URL is Truong Tran's profile (copy of the link listed under Truong Tran)."
+  },
+  {
+   "person": "Nitesh Subedi",
+   "href": "http://iastate.edu/",
+   "reason": "Generic university homepage, not a personal page (his homepage is listed instead)."
+  },
+  {
+   "person": "Aditya Balu",
+   "href": "https://adityabalu.mystrikingly.com/",
+   "reason": "Dead link (HTTP 403); current homepage adityabalu.github.io is listed."
+  },
+  {
+   "person": "Kin Gwn Lore",
+   "href": "https://kglore.weebly.com/",
+   "reason": "Dead link (HTTP 404)."
+  }
+ ],
+ "relabel": [
+  {
+   "person": "Russell Kai Liang Tan",
+   "label": "LinkedIn",
+   "newLabel": "Google Scholar",
+   "reason": "The original 'LinkedIn' link points to his Google Scholar profile."
+  }
  ]
 }

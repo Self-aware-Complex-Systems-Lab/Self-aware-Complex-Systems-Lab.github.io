@@ -17,6 +17,9 @@
    "externalLinks": 28,
    "missingLinks": [],
    "hiddenAsWrongPerson": [
+    "http://iastate.edu/",
+    "https://adityabalu.mystrikingly.com/",
+    "https://kglore.weebly.com/",
     "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en",
     "https://vn.linkedin.com/in/truong-tran-62643194"
    ]
@@ -53,7 +56,8 @@
  "peopleExpected": 73,
  "peopleMissing": [],
  "profilesWithUnrenderedLines": [],
- "publicationsExpected": 404,
+ "publicationsExpected": 374,
+ "publicationDuplicatesRemoved": 30,
  "publicationsMissing": [],
  "fundingAmountsChecked": 29,
  "fundingMissing": [],

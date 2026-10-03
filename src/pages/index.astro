@@ -3,8 +3,7 @@ import Base from '../layouts/Base.astro';
 import home from '../data/page-home.json';
 import assets from '../data/assets.json';
 import { people } from '../lib/people';
-import pubs from '../data/publications.json';
-import added from '../data/publications-added.json';
+import { publications } from '../lib/publications';
 import { CURRENT_CATEGORIES, ALUMNI_CATEGORIES, withLinks } from '../lib/site';
 
 const about = home.find((s) => s.heading === 'About Us')!;
@@ -13,7 +12,7 @@ const roles = about.items.slice(2);
 const hero = assets.gallery.find((g) => g.manifestId === 'home#002') ?? assets.gallery[0];
 const nCurrent = people.filter((p) => CURRENT_CATEGORIES.includes(p.category ?? '')).length;
 const nAlumni = people.filter((p) => ALUMNI_CATEGORIES.includes(p.category ?? '')).length;
-const latest = [...added, ...pubs].filter((p) => p.year && p.year >= 2026).slice(0, 5);
+const latest = publications.filter((p) => p.year && p.year >= 2026).slice(0, 5);
 ---
 <Base title="SCSLab">
   <section class="grid lg:grid-cols-5 gap-8 items-center">
@@ -46,7 +45,7 @@ const latest = [...added, ...pubs].filter((p) => p.year && p.year >= 2026).slice
   <section class="mt-14 grid sm:grid-cols-3 gap-4 text-center">
     <a href="/people/" class="bg-white border border-line rounded-lg p-5 no-underline text-ink hover:border-cardinal"><span class="block text-3xl font-bold text-cardinal">{nCurrent}</span>members listed</a>
     <a href="/alumni/" class="bg-white border border-line rounded-lg p-5 no-underline text-ink hover:border-cardinal"><span class="block text-3xl font-bold text-cardinal">{nAlumni}</span>alumni listed</a>
-    <a href="/publications/" class="bg-white border border-line rounded-lg p-5 no-underline text-ink hover:border-cardinal"><span class="block text-3xl font-bold text-cardinal">{pubs.length + added.length}</span>publications</a>
+    <a href="/publications/" class="bg-white border border-line rounded-lg p-5 no-underline text-ink hover:border-cardinal"><span class="block text-3xl font-bold text-cardinal">{publications.length}</span>publications</a>
   </section>
 
   <section class="mt-14">

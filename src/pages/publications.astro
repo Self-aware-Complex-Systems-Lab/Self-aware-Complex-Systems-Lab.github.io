@@ -1,13 +1,9 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
-import archived from '../data/publications.json';
-import added from '../data/publications-added.json';
+import { publications } from '../lib/publications';
 
-type Pub = { category: string; categoryLabel: string | null; title: string; authors: string | null; venue: string | null;
-  year: number | null; url: string | null; doi: string | null; citationsAsOfArchive?: string | null; addedAfterArchive?: boolean;
-  relatedArchivedEntry?: string | null; number?: string | null };
-const all: Pub[] = [...(added as Pub[]), ...(archived as Pub[])];
+const all = publications;
 const tabs = [
   { id: 'all', label: 'All' },
   { id: 'journals', label: 'Journal Articles' },

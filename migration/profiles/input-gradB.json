@@ -1,0 +1,749 @@
+[
+ {
+  "name": "Amitangshu Mukherjee",
+  "category": "Graduate Alumni",
+  "emailAsListed": "amimukh (@) iastate.edu",
+  "lines": [
+   "M.S. Electrical and Computer Engineering, Iowa State University, 2020",
+   "B.TECH, Electronics and Instrumentation Engineering, Heritage Institute of Technology, 2016",
+   "Amitangshu is a Ph.D. student in the Department of Electrical and Computer Engineering, Iowa State University under joint supervision of Prof. Chinmay Hegde and Prof. Soumik Sarkar. During his undergraduate days he did a couple of industrial internships at Indian Oil Corporation Ltd and Siemens India Pvt Ltd. He also worked as a summer research intern at New Jersey Institute of Technology in summer 2015. He joined Dr. Soumik Sarkar’s lab in Fall 2018 and his research interests include Deep Learning, Computer Vision, Generative Modelling, Adversarial Learning with applications in the domain of autonomous vehicles. His other interests include travelling, playing soccer and table tennis, hiking and reading comics.",
+   "He graduated with M.S. in Computer Engineering in Fall 2019 and is currently pursuing his Ph.D. in Nanoelectronics Research Laboratory, Purdue University."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://amitangshu1013.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=aK1eTNkAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/Amitangshu1013"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://amitangshu1013.github.io/",
+    "confidence": "high",
+    "evidence": "PhD candidate ECE Purdue; M.S. Computer Engineering Iowa State, worked with Prof. Soumik Sarkar."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=aK1eTNkAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Verified purdue.edu; homepage amitangshu1013.github.io; co-authors Soumik Sarkar and Chinmay Hegde; linked from homepage."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/Amitangshu1013",
+    "confidence": "high",
+    "evidence": "Linked from homepage."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/amitangshu-mukherjee-146837129",
+    "confidence": "high",
+    "evidence": "Linked from homepage."
+   }
+  ],
+  "webSearchNotes": "No existing links; strong finds.",
+  "githubFinding": null
+ },
+ {
+  "name": "Sambit Gadhai",
+  "category": "Graduate Alumni",
+  "emailAsListed": "sambitg (@) iastate.edu",
+  "lines": [
+   "Ph.D. Major: Mechanical Engineering, Iowa State University, 2020",
+   "Comajor: Computer Engineering, Iowa State University, 2020",
+   "B.Tech, Industrial and Product Design, NIT Rourkela, 2015",
+   "Sambit joined the lab in Fall 2016. His research interests include cyber-physical systems, cyber-manufacturing, computational geometry, GPU-computing and visualization. He has a keen interest in playing musical instruments and loves to travel and read.",
+   "He graduated from SCS lab in July 2020 and is currently a Graphics Software Engineer at Intel."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=EyIpgmoAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=EyIpgmoAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Name spelled 'Sambit Ghadai'; verified iastate.edu; co-authors Adarsh Krishnamurthy and Soumik Sarkar; 3D CAD manufacturability papers."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/sambitghadai/",
+    "confidence": "medium",
+    "evidence": "Search result 'Sambit Ghadai - Intel Corporation', matches the Intel role on the site; not fetched."
+   }
+  ],
+  "webSearchNotes": "Name on site is misspelled: correct spelling is 'Sambit Ghadai'.",
+  "githubFinding": null
+ },
+ {
+  "name": "Homagni Saha",
+  "category": "Graduate Alumni",
+  "emailAsListed": "hsaha (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2021",
+   "M.S. Computer Science, Iowa State University, 2021",
+   "M.S. Mechanical Engineering, Iowa State University, 2018",
+   "B.Tech Mechanical Engineering, NIT Rourkela, 2016",
+   "Homagni joined the lab in Fall 2016. His research interests include probabilistic graphical modelling, reinforcement learning, and anomaly detection. He has a burning passion for robotics and is the go-to guy for any robotics project in the lab. He has worked on design and control of agricultural robots, human computer interaction for turtlebot, and visuo-motor control in sawyer one handed robot.",
+   "He graduated from SCS lab in May 2021 and is currently working in Danfoss Power Solutions as a Computer Vision Engineer."
+  ],
+  "originalLinks": [
+   {
+    "label": "Personal Website",
+    "href": "https://homagnisahaandrobotics.weebly.com/"
+   },
+   {
+    "label": "LinkedIn",
+    "href": "https://www.linkedin.com/in/homagni-saha/"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=_fZmnRMAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/Homagn"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=_fZmnRMAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "PhD ME & CS Iowa State, verified iastate.edu; co-authors Soumik Sarkar, Sambuddha Ghosal."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/Homagn",
+    "confidence": "high",
+    "evidence": "GitHub 'Homagn (Homagni Saha)'; also the GitHub linked from his weebly site."
+   },
+   {
+    "type": "homepage",
+    "url": "https://homagnisahaandrobotics.weebly.com/",
+    "confidence": "medium",
+    "evidence": "Existing link; page ('MY DREAMS AND PASSIONS') links to github.com/Homagn; robotics/game projects; looks old and isn't updated."
+   },
+   {
+    "type": "other",
+    "url": "https://sessionize.com/homagni-saha/",
+    "confidence": "medium",
+    "evidence": "Speaker profile: Senior Applied ML Scientist, PhD Iowa State, led CV at Danfoss (matches site)."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/homagni-saha/",
+    "confidence": "medium",
+    "evidence": "Same as existing link; search title now 'Dr. Homagni S. - Indian Institute of Technology, Kharagpur'."
+   }
+  ],
+  "webSearchNotes": "Search snippets suggest he is now Assistant Professor at IIT Kharagpur (unverified beyond LinkedIn title); weebly site is outdated.",
+  "githubFinding": null
+ },
+ {
+  "name": "Jaydeep-Ravindra Rade",
+  "category": "Graduate Alumni",
+  "emailAsListed": "jrrade (@) iastate.edu",
+  "lines": [
+   "Ph.D. Electrical Engineering , Iowa State University, 2021",
+   "M.S. Electrical Engineering, Iowa State University, 2020",
+   "B.Tech. Electronics Engineering, Veermata Jijabai Technological Institute, 2018",
+   "Jaydeep joined the lab Spring 2019 under Dr. Soumik Sarkar and Dr. Adarsh Krishnamurthy. His research interests are deep learning and image processing and its applications. He is currently working on Deep Learning for Topology Optimization. Other than academics, he likes music, cooking and travelling.",
+   "He graduated from SCS lab in December 2020 and worked as a Ph.D. student in the Electrical and Computer Engineering department at Iowa State University under Dr. Adarsh Krishnamurthy and Dr. Anwesha Sarkar.",
+   "He currently working in GE Vernova as a Research Scientist."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://jaydeepradejd.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=_HpXM5UAAAAJ"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/jaydeepradeJD"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://jaydeepradejd.github.io/",
+    "confidence": "high",
+    "evidence": "Page: Jaydeep Rade, Ph.D. candidate in EE at Iowa State under Adarsh Krishnamurthy and Anwesha Sarkar; M.S. ISU 2021, B.Tech VJTI 2018. Links to the Scholar and GitHub below. Page looks outdated (still says Ph.D. candidate, no GE Vernova)."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=_HpXM5UAAAAJ",
+    "confidence": "high",
+    "evidence": "Linked from the homepage; search snippet shows Research Scientist at GE Vernova, PhD/MS EE from ISU, BTech VJTI."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/jaydeepradeJD",
+    "confidence": "high",
+    "evidence": "Linked from the homepage."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/jaydeep-rade-a8965086/",
+    "confidence": "medium",
+    "evidence": "Search result title 'Jaydeep Rade - Research Assistant - Iowa State University'. Not fetched."
+   }
+  ],
+  "webSearchNotes": "The homepage content predates his GE Vernova role.",
+  "githubFinding": null
+ },
+ {
+  "name": "Yasaman Esfandiari",
+  "category": "Graduate Alumni",
+  "emailAsListed": "yasesf (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2021",
+   "M.S. Mechanical Engineering, Iowa State University, Ames, Iowa, 2017",
+   "B.S. Mechanical Engineering, Amirkabir University of Technology, Tehran, Iran, 2015",
+   "Yasaman was a Ph.D. student in mechanical engineering and joined the lab in Fall 2018. Her research interests are dynamics and controls, optimization, machine learning and deep learning. She worked on nonconvex robust optimization in deep neural networks with unknown adversaries. Her other activities include playing piano, reading and working out.",
+   "She graduated from SCS lab in 2021 and is currently working at HRL Laboratories."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=2zBDS7IAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=2zBDS7IAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Affiliation HRL Laboratories, verified hrl.com email; co-authored papers with S. Sarkar, K.L. Tan and X.Y. Lee (action-space adversarial RL, cross-gradient aggregation)."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/yasamanesfandiari/",
+    "confidence": "medium",
+    "evidence": "Search result: 'Yasaman Esfandiari - Machine Learning Research Scientist'; snippet says ML Research Scientist at HRL with an ISU PhD. Not fetched."
+   }
+  ],
+  "webSearchNotes": "No personal homepage found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Koushik Nagasubramanian",
+  "category": "Graduate Alumni",
+  "emailAsListed": "koushikn (@) iastate.edu",
+  "lines": [
+   "Ph.D. Electrical Engineering, Iowa State University, 2021",
+   "B.Tech, Electronics and Communication Engineering, RNSIT, Bangalore, India, 2015.",
+   "Koushik was a Ph.D. student under joint supervision of Prof. Baskar Ganapathysubramanian and Prof. Soumik Sarkar. He received his undergraduate degree in 2015. After that, he worked at Nubesol Technologies, Bangalore for almost seven months. His research interests include machine Learning, deep learning, and computer vision. He worked on using deep learning for plant disease prediction.",
+   "He graduated from SCS lab in June 2021 and is currently working as a Deep Learning Scientist at Bayer Crop Science."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=DNivdrsAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=DNivdrsAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Bayer Crop Science (verified bayer.com) matches the listed employer; papers co-authored with S. Sarkar and B. Ganapathysubramanian (hyperspectral 3D CNN plant disease)."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/koushik-nagasubramanian/",
+    "confidence": "medium",
+    "evidence": "Search result title 'Koushik Nagasubramanian - Bayer'. Not fetched."
+   }
+  ],
+  "webSearchNotes": "No personal homepage found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Tryambak Gangopadhyay",
+  "category": "Graduate Alumni",
+  "emailAsListed": "tryambak (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2021",
+   "M.S. Mechanical Engineering, Iowa State University, 2019",
+   "B.E. Mechanical Engineering, Jadavpur University, 2017",
+   "Tryambak joined Dr. Soumik Sarkar’s lab in Fall 2017. His research interests include designing of deep learning algorithms for large-scale image/video data, multivariate time series data, and text data with applications in healthcare, agriculture, vision, and different cyber-physical systems. He is doing a concurrent Masters in Computer Science. In 2019, as a summer intern at the Machine Learning group of Lawrence Livermore National Laboratory (LLNL), he developed deep learning fusion models for clinical prediction tasks using Electronic Health Record datasets. His other interests are story-writing, reading, drawing sketches and playing guitar.",
+   "He graduated from SCS lab in March 2021 and is currently working at Amazon."
+  ],
+  "originalLinks": [
+   {
+    "label": "LinkedIn",
+    "href": "https://www.linkedin.com/in/tryambak-gangopadhyay-0ab13568/"
+   },
+   {
+    "label": "Google Scholar",
+    "href": "https://scholar.google.com/citations?user=QDv2cHoAAAAJ&hl=en"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=QDv2cHoAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=QDv2cHoAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Same as the existing link; snippet shows Senior Applied Scientist, GenAI at Amazon AWS (verified amazon.com), which matches 'working at Amazon'."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/tryambakganguly",
+    "confidence": "medium",
+    "evidence": "Name 'Tryambak Gangopadhyay', bio 'Generative AI @ AWS', and a link to his LinkedIn. No ISU mention, but the name is rare and the employer matches."
+   },
+   {
+    "type": "other",
+    "url": "https://www.amazon.science/author/tryambak-gangopadhyay",
+    "confidence": "medium",
+    "evidence": "Amazon Science author page for an applied scientist at AWS (from search result only)."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/tryambakgangopadhyay/",
+    "confidence": "medium",
+    "evidence": "Linked from the GitHub profile. This is a different slug from the existing link (tryambak-gangopadhyay-0ab13568), so the existing LinkedIn may be stale."
+   }
+  ],
+  "webSearchNotes": "No personal homepage. The current LinkedIn slug looks like /in/tryambakgangopadhyay/.",
+  "githubFinding": null
+ },
+ {
+  "name": "Bernard Lee Xian Yeow",
+  "category": "Graduate Alumni",
+  "emailAsListed": "xylee (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2022",
+   "B.S. Mechanical Engineering, Iowa State University, 2016",
+   "Xian Yeow received his bachelor’s degree in Mechanical Engineering from Iowa State University in 2016. He pursueding his Ph.D. degree at Iowa State University and his research interests include applications of deep reinforcement learning and deep generative methods for robust and efficient design of cyper-physical systems.",
+   "He graduated in May 2022 and is currently working at Hitachi."
+  ],
+  "originalLinks": [
+   {
+    "label": "LinkedIn",
+    "href": "https://www.linkedin.com/in/bernard-leexy/"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=sjAA1AQAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=sjAA1AQAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Xian Yeow Lee, Hitachi America (verified hal.hitachi.com); homepage field links linkedin.com/in/bernard-leexy (matches the existing link); co-author with Soumik Sarkar."
+   }
+  ],
+  "webSearchNotes": "A second profile ID (Phg5W3EAAAAJ) showed up in search but returned 404, so it was not used. No personal homepage found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Russell Kai Liang Tan",
+  "category": "Graduate Alumni",
+  "emailAsListed": "kailiang (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2022",
+   "B.S. Mechanical Engineering, Iowa State University, 2017",
+   "Kai Liang (Russell) joined Self-aware Complex Systems Lab Spring 2018. He received his undergraduate degree in Fall 2017 from Iowa State University. During his undergraduate degree, he was an intern for The Bobcat Company and Danfoss Power Solutions. His research interest includes utilizing Deep Learning, Reinforcement Learning and Computer Vision to solve engineering problems, cyber-physical systems and autonomous systems. His passion for creativity also goes beyond academics, such as photography, digital arts and playing strategic video games.",
+   "He graduated from SCS lab in August 2022 and is currently working at Intel."
+  ],
+  "originalLinks": [
+   {
+    "label": "LinkedIn",
+    "href": "https://scholar.google.com/citations?user=HgGGNSEAAAAJ&hl=en"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=HgGGNSEAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=HgGGNSEAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Same as the existing link. Snippet: 'Kai Liang Tan (Russell)', GPU Software Development Engineer, verified intel.com; adversarial deep RL papers with the SCSLab group."
+   }
+  ],
+  "webSearchNotes": "No personal homepage found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Luis G. Riera",
+  "category": "Graduate Alumni",
+  "emailAsListed": "lgriera (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2022",
+   "M.S. Mechanical Engineering, Iowa State University, 1997",
+   "B.S. Mechanical Engineering, Iowa State University, 1995",
+   "Luis joined Dr. Sarkar's lab in August 2017. His research interests are in deep learning, machine learning, visualization, Self-Driven vehicles, including cars, trucks, tractors, and others. Before joining the lab, Luis worked mainly in Project Management and Business Development. His hobbies are racing Go-Kart, baking, Mount Biking and computers.",
+   "He graduated from SCS lab in November 2022 and is currently working at CSIRO's Data61."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=UtQzjwsAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=UtQzjwsAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Luis Riera Garcia, CSIRO (verified csiro.au), which matches Data61; papers include 'Deep multiview image fusion for soybean yield estimation' with Soumik Sarkar, Ganapathysubramanian and Ghosal."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/luis-riera-55a93713/",
+    "confidence": "medium",
+    "evidence": "Search snippet: Senior Research Scientist at CSIRO's Data61; PhD, BS and MS from ISU. Not fetched."
+   }
+  ],
+  "webSearchNotes": "No personal homepage found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Sin Yong Tan (Evan)",
+  "category": "Graduate Alumni",
+  "emailAsListed": "tsyong98 (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2022",
+   "B.S. Mechanical Engineering, Iowa State University, 2017",
+   "Sin Yong joined the lab in Fall 2017. He was involved multiple in the Autonomous Rover project, and Robot and Cop project and acquired hands-on experience on Machine Learning applications.",
+   "He graduated from SCS lab in December 2022 and is currently working as an AI specialist at Musco Sports Lighting, LLC."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=vCGCNXAAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=vCGCNXAAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "AI Scientist at Musco Sports Lighting (verified musco.com), which matches the listed employer; co-authors include Soumik Sarkar, Tryambak Gangopadhyay and Homagni Saha."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/sin-yong-tan/",
+    "confidence": "high",
+    "evidence": "Linked as the homepage on the verified Scholar profile above."
+   }
+  ],
+  "webSearchNotes": "No personal homepage or GitHub found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Fateme Fotouhi Ardakani",
+  "category": "Graduate Alumni",
+  "emailAsListed": "fotouhif (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2023",
+   "M.S. Mechanical engineering, Shiraz University, 2018",
+   "B.E. Mechanical Engineering, Shiraz University, 2015",
+   "Fateme Fotouhi joined the lab in Fall 2019. Her M.S. degree was in the field of control and vibration. Her main research interests include machine learning, deep learning, biomechanics, nonlinear control, robotics, mechatronics, and optimizations. She also interests in playing piano, reading books and mountain climbing.",
+   "She graduated from SCS lab in May 2023 and is currently a computer vision research scientist at Canon."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=wplmVzIAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=wplmVzIAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Computer Vision Research Scientist at Canon USA (verified cusa.canon.com); co-authors include S. Sarkar, Esfandiari and Balu."
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://sirac.agron.iastate.edu/people/fateme-fotouhi",
+    "confidence": "medium",
+    "evidence": "ISU SIRAC people page (seen only in search results; probably an old student profile)."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/fotouhif/",
+    "confidence": "high",
+    "evidence": "Search result 'Fateme Fotouhi - Canon USA'; the slug matches her ISU username fotouhif."
+   }
+  ],
+  "webSearchNotes": "Another Scholar ID (3567wYQAAAAJ) showed up in search but returned 404, so it was not used. No personal homepage found.",
+  "githubFinding": null
+ },
+ {
+  "name": "Jesse Lane",
+  "category": "Graduate Alumni",
+  "emailAsListed": "jalane (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2023",
+   "B.S. Computer Science, Iowa State University, 2005",
+   "B.S. Mathematics, Iowa State University, 2005",
+   "Jesse joined the Self-aware Complex Systems Lab in Fall 2020. He is currently a Research Engineer at Collins Aerospace focusing on automatic target recognition and machine learning at the tactical edge. His research interests lie at the intersection of causal inference, reinforcement learning, and deep learning. His hobbies are playing guitar and sailing.",
+   "He graduated from SCS lab in December 2023."
+  ],
+  "originalLinks": [
+   {
+    "label": "LinkedIn",
+    "href": "http://www.linkedin.com/in/jesse-lane-8587a47"
+   }
+  ],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://jesselane.net/"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://jesselane.net/",
+    "confidence": "high",
+    "evidence": "Jesse Lane, PhD, Principal Research Engineer at Collins Aerospace; PhD plus B.S. in Computer Science and Mathematics, all from Iowa State (matches the listed B.S. CS/Math ISU 2005 and Collins Aerospace)."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/jesse-lane-8587a47/",
+    "confidence": "high",
+    "evidence": "Same as the existing link; search title 'Principal Research Engineer - Collins ...'."
+   }
+  ],
+  "webSearchNotes": "The homepage gives his PhD as Human Computer Interaction, while the lab site lists Mechanical Engineering. A second LinkedIn, /in/jesse-lane-ai/ ('Co-Founder'), is unverified and was left out.",
+  "githubFinding": null
+ },
+ {
+  "name": "Jiale Feng",
+  "category": "Graduate Alumni",
+  "emailAsListed": "colour (@) iastate.edu",
+  "lines": [
+   "Ph.D. Mechanical Engineering, Iowa State University, 2024",
+   "B.S. Automation, University of Science and Technology of China, 2014",
+   "B.S. Business Administration, University of Science and Technology of China, 2014",
+   "Jiale was a Ph.D. student in Computer Science. He joined the Self-aware Complex Systems Laboratory in Summer 2021. Before that, he worked in ARLab in Virtual Reality Applications Center at ISU for five years, and his main efforts are in individual projects funded by Collins Aerospace. He interned at Collins Aerospace in the summers of 2017 and 2018. His research interests include deep learning, computer vision, and computer graphics. In his spare time, he keeps a consistent workout routine and enjoys playing PC games and watching movies."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=WJ35n5UAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=WJ35n5UAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Iowa State (verified iastate.edu); papers on probabilistic voxel carving plant 3D reconstruction, soybean yield and active shooter detection, co-authored with Soumik Sarkar."
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/jiale-feng",
+    "confidence": "medium",
+    "evidence": "Search snippet: Ph.D. candidate in ISU CS in SCSLab under Dr. Soumik Sarkar, with the VRAC/Collins Aerospace background. The fetch returned 404, so the page may be gone."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/jiale-feng/",
+    "confidence": "high",
+    "evidence": "Linked as the homepage on the verified Scholar profile; search title 'Software Engineer II @ Corteva Agriscience'."
+   }
+  ],
+  "webSearchNotes": "May now work at Corteva Agriscience (from the LinkedIn search title).",
+  "githubFinding": null
+ },
+ {
+  "name": "Ashutosh Kumar Nirala",
+  "category": "Graduate Alumni",
+  "emailAsListed": "aknirala (@) iastate.edu",
+  "lines": [
+   "Ph.D.Computer Science, Iowa State University, 2025",
+   "M.Tech. Computer Science, Indian Institute of Technology, Bombay, India, 2013",
+   "B.S. Electronics and Telecommunication, Army institute of technology, Pune, India, 2007",
+   "Ashutosh Kumar Nirala is a Ph.D. student in the Department of Computer Science at Iowa State University. He is currently working under the supervision of Dr. Soumik Sarkar and Dr. Jin Tian. His primary research resides in the domain of Adversarial Robustness. His endeavors are centered around the development of methodologies that bestow empirical resilience upon deep learning models, while concurrently establishing avenues for their theoretical certification.",
+   "He graduated from SCS lab in Decenber 2025 and is currently working at Meta."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://aknirala.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=4MJQOyYAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/aknirala"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://aknirala.github.io/",
+    "confidence": "high",
+    "evidence": "PhD candidate in ISU CS advised by Soumik Sarkar and Jin Tian; email aknirala@iastate.edu matches."
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=4MJQOyYAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Linked from the homepage; verified iastate.edu, homepage set to aknirala.github.io; co-authored with S. Sarkar and J. Tian."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/aknirala",
+    "confidence": "high",
+    "evidence": "Linked from the homepage; the username matches his ISU email."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/ashutosh-nirala-6203114a/",
+    "confidence": "high",
+    "evidence": "Linked from the homepage."
+   },
+   {
+    "type": "other",
+    "url": "https://openreview.net/profile?id=~Ashutosh_Kumar_Nirala1",
+    "confidence": "medium",
+    "evidence": "OpenReview profile, seen only in search results."
+   }
+  ],
+  "webSearchNotes": "The homepage still says 'defending Fall 2025' and does not mention Meta.",
+  "githubFinding": null
+ },
+ {
+  "name": "Ethan Herron",
+  "category": "Graduate Alumni",
+  "emailAsListed": "edherron (@) iastate.edu",
+  "lines": [
+   "Ph.D.Mechanical Engineering, Iowa State University, 2026",
+   "B.S. Mathematics, Iowa State University, 2020",
+   "Ethan was a Ph.D. student in Mechanical Engineering and joined the Self-aware Complex Systems Laboratory in Summer 2020. He received his B.S. in Mathematics at Iowa State University in Spring 2020. His current research interests are in machine learning, deep learning, and optimization. He is currently working on applying deep learning methods for topology optimization. His other activities include high-powered rocketry, cooking, and various outdoor activities."
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=JstQ09AAAAAJ&hl=en"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=JstQ09AAAAAJ&hl=en",
+    "confidence": "high",
+    "evidence": "Graduate Student at Iowa State (verified iastate.edu); co-authored with S. Sarkar, J. Rade and A. Balu (topology optimization, cross-gradient aggregation)."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/ethan-herron-9218a1171/",
+    "confidence": "medium",
+    "evidence": "Search result 'Ethan Herron - Machine Learning Engineer at Arm'; snippet ties it to ISU research on topology optimization. Not fetched."
+   }
+  ],
+  "webSearchNotes": "No personal homepage found. The github.io sites that came up (ethan-yws, iethan-h) are not him. May now be at Arm.",
+  "githubFinding": null
+ },
+ {
+  "name": "Muhammad Arbab Arshad",
+  "category": "Graduate Alumni",
+  "emailAsListed": "arbab (@) iastate.edu",
+  "lines": [
+   "Ph.D. Computer Science, Iowa State University, 2026",
+   "M.S. Computer Engineering, American University of Sharjah, 2021",
+   "B.S. Computer Science, Lahore University of Management Sciences, 2019",
+   "Arbab was a Ph.D. student in Computer Science at Iowa State University. Since joining Dr. Soumik's lab in Spring 2022, his research has primarily centered around 3D reconstructions using neural radiance fields (NeRFs), with specific applications on soybean plants. In addition, He explores the intersections of machine learning, computer vision, and generative AI in his work.Currently, he is working as a software engineer(AI) at Waymo"
+  ],
+  "originalLinks": [],
+  "webLinksShown": [
+   {
+    "type": "homepage",
+    "url": "https://arbabarshad.com/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/arbab-ml"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/muhammad-arshad"
+   }
+  ],
+  "webSearchEvidence": [
+   {
+    "type": "homepage",
+    "url": "https://arbabarshad.com/",
+    "confidence": "high",
+    "evidence": "Muhammad Arbab Arshad, ISU CS Ph.D. candidate and AIIRA RA; NeRF plant reconstruction papers co-authored with Soumik Sarkar."
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/arbab-ml",
+    "confidence": "high",
+    "evidence": "Name Muhammad Arbab Arshad; bio says Iowa State Ph.D. student, AIIRA, Ames IA; has a Plant-NeRFs repo; website arbab-ml.github.io."
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/muhammad-arshad",
+    "confidence": "high",
+    "evidence": "ISU CS profile: PhD student who joined Dr. Soumik's lab in Spring 2022, NeRF for soybean, B.S. LUMS."
+   },
+   {
+    "type": "homepage",
+    "url": "https://arbab.dev/",
+    "confidence": "low",
+    "evidence": "Search result titled 'Muhammad Arbab'. Could not fetch it (TLS error on a GitHub Pages custom domain), so it is unverified."
+   },
+   {
+    "type": "linkedin",
+    "url": "https://www.linkedin.com/in/arbab-arshad/",
+    "confidence": "medium",
+    "evidence": "Search result 'Muhammad Arbab Arshad - AIIRA'. Not fetched."
+   }
+  ],
+  "webSearchNotes": "No Google Scholar profile found. Neither homepage mentions Waymo yet.",
+  "githubFinding": null
+ }
+]
