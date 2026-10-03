@@ -20,6 +20,8 @@ PAGES = HERE / "pages"; IMAGES = HERE / "images"
 HOST = "trac-ai.iastate.edu"; BASE = f"https://{HOST}/"
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0 Safari/537.36"
 MAX_PAGES = 300; DELAY = 1.0; DISK_CAP = 150 * 1024 * 1024
+IMG_DISK_CAP = 160 * 1024 * 1024  # hard stop for the image pass after compaction
+SHOT_WIDTH = 1080  # screenshots are downscaled from the 1440px viewport to save disk
 SKIP_RE = re.compile(r"/(wp-admin|wp-login|wp-json|feed|xmlrpc|wp-content|wp-includes|my-bookings|cart|checkout)(/|$)|"
                      r"\.(pdf|docx?|xlsx?|pptx?|zip|jpe?g|png|gif|svg|webp|mp4|ics)$|"
                      # The Events Calendar generates unbounded date/view permutations; skip them
@@ -229,7 +231,7 @@ def download_images(inventory):
     for key, g in groups.items():
         rec = {"key": key, "candidates": g["candidates"], "sourcePages": g["sourcePages"], "alt": sorted(g["alt"]),
                "nearestHeadings": sorted(g["nearestHeadings"]), "kinds": sorted(g["kinds"]), "blockText": g["blockText"]}
-        if dir_size(HERE) > DISK_CAP: rec["status"] = "skipped-disk-cap"; out.append(rec); fails.append({"key": key, "reason": "disk cap"}); continue
+        if dir_size(HERE) > IMG_DISK_CAP: rec["status"] = "skipped-disk-cap"; out.append(rec); fails.append({"key": key, "reason": "disk cap"}); continue
         err = None
         for c in g["candidates"]:
             try:
@@ -265,5 +267,42 @@ def download_images(inventory):
         print("img", rec["status"], rec.get("url", key), file=sys.stderr)
     return out, fails
 
+def compact():
+    """Disk-budget pass: gzip rendered.html (lossless) and downscale screenshots
+    to SHOT_WIDTH px wide (JPEG q70). Idempotent."""
+    import gzip
+    for d in PAGES.iterdir():
+        h = d / "rendered.html"
+        if h.exists():
+            (d / "rendered.html.gz").write_bytes(gzip.compress(h.read_bytes(), 9)); h.unlink()
+        j = d / "screenshot.jpg"
+        if j.exists():
+            im = Image.open(j)
+            if im.width > SHOT_WIDTH:
+                im = im.convert("RGB").resize((SHOT_WIDTH, round(im.height * SHOT_WIDTH / im.width)), Image.LANCZOS)
+                im.save(j, "JPEG", quality=70, optimize=True)
+        pj = d / "page.json"
+        if pj.exists():
+            r = json.loads(pj.read_text()); r["renderedHtml"] = f"pages/{d.name}/rendered.html.gz"; r["screenshot"] = f"pages/{d.name}/screenshot.jpg"
+            pj.write_text(json.dumps(r, indent=1))
+
+def retry_images():
+    """Re-run the image pass for every image not yet ok (after compact())."""
+    inv = json.loads((HERE / "inventory.json").read_text())
+    pages = []
+    for p in inv["pages"]:
+        pj = PAGES / p["slug"] / "page.json"
+        pages.append(json.loads(pj.read_text()) if pj.exists() else p)
+    for f in IMAGES.iterdir(): f.unlink()  # rebuild deterministically (re-downloads the 58 already fetched)
+    images, fails = download_images(pages)
+    inv.update(images=images, imageFailures=fails, imageCount=sum(1 for i in images if i["status"] == "ok"))
+    for p in inv["pages"]:
+        p["renderedHtml"] = f"pages/{p['slug']}/rendered.html.gz"; p["screenshot"] = f"pages/{p['slug']}/screenshot.jpg"
+    inv["diskBytes"] = dir_size(HERE)
+    (HERE / "inventory.json").write_text(json.dumps(inv, indent=1))
+    print("images ok", inv["imageCount"], "failures", len(fails), "bytes", inv["diskBytes"], file=sys.stderr)
+
 if __name__ == "__main__":
-    main()
+    if "--compact" in sys.argv: compact()
+    elif "--retry-images" in sys.argv: retry_images()
+    else: main(); compact()

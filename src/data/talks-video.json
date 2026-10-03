@@ -1,0 +1,72 @@
+[
+ {
+  "title": "Keynote: Role of AI in Cyber-Agricultural Systems, and Panel: Digital Agriculture and AI",
+  "event": "2025 K-State AI Symposium, Kansas State University",
+  "date": "2025-10-14",
+  "url": "https://ksu.zoom.us/rec/share/o0W5719dU0VqBEqfovvmIjd6l0E7B9hgV77maGbvsIU0FUAAlvuzkJn-GRFvk1Rg.oaBc9idncCTJiSd1?startTime=1760471296000",
+  "platform": "Zoom recording",
+  "note": "The recording passcode is posted on the K-State AI Symposium page.",
+  "thumb": null,
+  "duration": null
+ },
+ {
+  "title": "Panel: Broadening Participation in Computing",
+  "event": "NSF Cyber-Physical Systems PI Meeting 2022",
+  "date": "2022-11-09",
+  "url": "https://www.youtube.com/watch?v=22_vj9XrtbI",
+  "platform": "YouTube",
+  "duration": "59:30",
+  "thumb": "/assets/talks/22_vj9XrtbI.jpg",
+  "note": null
+ },
+ {
+  "title": "Panel: CPS Frontier Projects",
+  "event": "NSF Cyber-Physical Systems PI Meeting 2022",
+  "date": "2022-11-08",
+  "url": "https://www.youtube.com/watch?v=Oz31JXzwc0g",
+  "platform": "YouTube",
+  "duration": "55:17",
+  "thumb": "/assets/talks/Oz31JXzwc0g.jpg",
+  "note": null
+ },
+ {
+  "title": "Role of Interpretable Machine Learning in Cyber-Agricultural Systems",
+  "event": "DIGICROP 2022",
+  "date": "2022-03-31",
+  "url": "https://www.youtube.com/watch?v=evQKlzihgaU",
+  "platform": "YouTube",
+  "duration": "6:29",
+  "thumb": "/assets/talks/evQKlzihgaU.jpg",
+  "note": null
+ },
+ {
+  "title": "Cyber-Agricultural Systems: An Opportunity for International Collaboration",
+  "event": "NSF–MOST Workshop on CPS and Smart & Connected Communities, 2022",
+  "date": "2022-02-28",
+  "url": "https://www.youtube.com/watch?v=1zJqXuH0sic",
+  "platform": "YouTube",
+  "duration": "4:00",
+  "thumb": "/assets/talks/1zJqXuH0sic.jpg",
+  "note": null
+ },
+ {
+  "title": "Online Robust Policy Learning in the Presence of Unknown Adversaries",
+  "event": "NeurIPS 2018 (paper video)",
+  "date": "2018-11-23",
+  "url": "https://www.youtube.com/watch?v=J81yK075v60",
+  "platform": "YouTube",
+  "duration": "2:58",
+  "thumb": "/assets/talks/J81yK075v60.jpg",
+  "note": null
+ },
+ {
+  "title": "Traffic Sensor Health Monitoring Using Spatiotemporal Graphical Modeling",
+  "event": "KDD 2017 Workshop on Machine Learning for Prognostics and Health Management",
+  "date": "2018-01-15",
+  "url": "https://www.youtube.com/watch?v=nLxE0lbp4NQ",
+  "platform": "YouTube",
+  "duration": "20:58",
+  "thumb": "/assets/talks/nLxE0lbp4NQ.jpg",
+  "note": null
+ }
+]

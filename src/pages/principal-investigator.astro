@@ -4,6 +4,7 @@ import PageHeader from '../components/PageHeader.astro';
 import page from '../data/page-principal-investigator.json';
 import assets from '../data/assets.json';
 import { withLinks } from '../lib/site';
+import videos from '../data/talks-video.json';
 
 const sec = (h: string) => page.find((s) => s.heading === h)?.items ?? [];
 const profile = sec('Personal Profile');
@@ -56,6 +57,26 @@ const talks = sec('Invited Talks');
       <h2 class="text-2xl font-bold">Outreach</h2>
       <ul class="mt-3 list-disc pl-5 space-y-2">{sec('Outreach').map((i) => <li set:html={withLinks(i.text, i.links)} />)}</ul>
     </div>
+  </section>
+
+  <section class="mt-14" id="videos">
+    <h2 class="text-2xl font-bold">Talks &amp; Videos</h2>
+    <ul class="mt-5 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+      {videos.map((v) => (
+        <li class="bg-white border border-line rounded-lg overflow-hidden flex flex-col">
+          <a href={v.url} rel="noopener" class="block no-underline" aria-label={`Watch: ${v.title}`}>
+            {v.thumb
+              ? <img src={v.thumb} alt="" loading="lazy" width="480" height="360" class="w-full aspect-video object-cover" />
+              : <div class="w-full aspect-video bg-black text-white flex items-center justify-center font-serif text-lg px-4 text-center">{v.event}</div>}
+          </a>
+          <div class="p-4 flex-1">
+            <a href={v.url} rel="noopener" class="font-semibold leading-snug no-underline hover:underline">{v.title}</a>
+            <p class="text-sm text-muted mt-1">{v.event} · {new Date(v.date + 'T00:00:00').toLocaleDateString('en-US', { year: 'numeric', month: 'short' })}{v.duration ? ` · ${v.duration}` : ''}</p>
+            {v.note && <p class="text-xs text-muted mt-1">{v.note}</p>}
+          </div>
+        </li>
+      ))}
+    </ul>
   </section>
 
   <section class="mt-14" id="talks">
