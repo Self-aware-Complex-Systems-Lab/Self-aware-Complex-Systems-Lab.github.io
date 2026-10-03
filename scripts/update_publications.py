@@ -55,9 +55,10 @@ def openalex_items():
             cat = ("preprints" if wt == "preprint" or st == "repository" else
                    "conferences" if st == "conference" or wt == "proceedings-article" else "journals")
             doi = (w.get("doi") or "").replace("https://doi.org/", "") or None
+            venue = re.sub(r"\barXiv\s*\(Cornell University\)", "arXiv", src.get("display_name") or "", flags=re.I) or None  # plain "arXiv"
             out.append({"category": cat, "categoryLabel": LABEL[cat], "number": None, "title": re.sub(r"\s+", " ", w["title"]).strip(),
                         "authors": " and ".join(a["author"]["display_name"] for a in w["authorships"]),
-                        "venue": src.get("display_name"), "year": w.get("publication_year"), "date": w.get("publication_date"),
+                        "venue": venue, "year": w.get("publication_year"), "date": w.get("publication_date"),
                         "type": wt, "citationsAsOfArchive": None, "url": w.get("doi") or (w.get("primary_location") or {}).get("landing_page_url"),
                         "doi": doi, "source": f"OpenAlex (auto, {dt.date.today()})", "openalex": w["id"]})
         cursor = d["meta"].get("next_cursor") if d["results"] else None

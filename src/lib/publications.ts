@@ -30,6 +30,7 @@ export const publications: Pub[] = [
 ]
   .filter(({ k }) => !hidden.has(k))
   .map(({ p, k }) => ({ ...withVenue(k, p), ...LINKS[k], key: k, title: p.title.replace(/\s+/g, ' ').trim() }))
+  .map((p) => ({ ...p, venue: p.venue?.replace(/\barXiv\s*\(Cornell University\)/i, 'arXiv').replace(/,\s*Cornell University(?=\s*\(\d{4}\)|\s*$)/i, '') ?? null }))
   .sort((a, b) => sortKey(b).localeCompare(sortKey(a)));
 
 /** Look up a publication by its stable key ("added:3", "archived:120"). */
