@@ -25,6 +25,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Verify the workflow can push (Settings → Actions → Workflow permissions must be Read and write)
+        run: git push --dry-run origin HEAD:refs/heads/main
       - name: Fetch and merge new publications
         run: python scripts/update_publications.py | tee update.log
       - name: Commit changes
