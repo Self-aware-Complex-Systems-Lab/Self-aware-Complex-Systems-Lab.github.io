@@ -1,0 +1,18 @@
+name: "👤 Profile update"
+description: New photo, role, graduation, bio or links. A maintainer reviews and applies it.
+title: "[Profile] "
+body:
+  - type: input
+    id: person
+    attributes: { label: Your name }
+    validations: { required: true }
+  - type: textarea
+    id: photo
+    attributes: { label: New photo (optional), description: Attach a headshot. }
+  - type: textarea
+    id: changes
+    attributes: { label: What should change? }
+    validations: { required: true }
+  - type: textarea
+    id: links
+    attributes: { label: Links (one per line) }

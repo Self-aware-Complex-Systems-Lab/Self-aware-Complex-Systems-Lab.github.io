@@ -1,0 +1,155 @@
+---
+// Front-end for lab-member contributions. It stores no credentials and writes nothing itself: it collects the details,
+// then opens the matching GitHub issue form pre-filled (members attach photos and submit there, signed in to GitHub).
+// .github/workflows/contributions.yml publishes Photo / News / Publication submissions from lab members automatically.
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import { publications } from '../lib/publications';
+import { people } from '../lib/people';
+
+const titles = publications.map((p) => p.title);
+const names = people.map((p) => p.name.replace(/^Dr\.\s*/, '')).sort();
+const field = 'mt-1 w-full rounded border border-line bg-white px-3 py-2';
+const label = 'block text-sm font-semibold mt-4';
+const PHOTO_KINDS = ['Conference presentation or poster', 'Graduation or thesis defense', 'Award or recognition', 'Talk, keynote or panel',
+  'Lab event or group photo', 'Field work, robots or experiments', 'Outreach or teaching', 'Something else'];
+const NEWS_TYPES = ['Paper accepted', 'Award', 'Thesis defense / graduation', 'Talk or keynote', 'New grant', 'Event', 'Other'];
+---
+<Base title="Contribute" description="Lab members: add photos, news, publications and profile updates to the SCSLab website." noindex>
+  <PageHeader title="Contribute to the website" kicker="For lab members">
+    <p class="mt-4 text-muted max-w-3xl">Fill in the form, then press <b>Continue on GitHub</b>. GitHub opens with everything filled in.
+      Attach photos there (works on your phone) and press <b>Submit</b>. Photos, news and paper updates from lab members go live
+      in a few minutes; profile changes are reviewed first.</p>
+  </PageHeader>
+
+  <div role="tablist" aria-label="What would you like to add?" class="flex flex-wrap gap-2 mb-4">
+    {[['photos', '📷 Photos'], ['news', '📰 News'], ['pub', '📄 Publication'], ['profile', '👤 Profile update']].map(([id, t], i) => (
+      <button role="tab" type="button" data-tab={id} aria-selected={i === 0 ? 'true' : 'false'}
+        class="ctab rounded-full border border-line px-4 py-1.5 aria-selected:bg-cardinal aria-selected:text-white aria-selected:border-cardinal">{t}</button>
+    ))}
+  </div>
+
+  <form class="cpanel bg-white border border-line rounded-lg p-5" data-panel="photos" data-template="gallery-photo.yml" data-prefix="[Photo]">
+    <label class={label}>What is this photo?
+      <select name="kind" class={field}>{PHOTO_KINDS.map((k) => <option>{k}</option>)}</select>
+    </label>
+    <div data-show="Conference presentation or poster">
+      <label class={label}>Which paper? <span class="font-normal text-muted">(start typing — suggestions come from our publication list)</span>
+        <input name="paper" list="papers" class={field} />
+      </label>
+    </div>
+    <div data-show="Graduation or thesis defense">
+      <label class={label}>Who? <input name="people" list="people" class={field} /></label>
+      <label class={label}>Milestone
+        <select name="milestone" class={field}><option>Ph.D. graduation</option><option>Ph.D. thesis defense</option><option>M.S. graduation</option><option>B.S. graduation</option></select>
+      </label>
+    </div>
+    <label class={label}>Event, conference or place <input name="event" class={field} placeholder="e.g. CVPR 2026, Nashville" /></label>
+    <label class={label}>When? <input name="date" type="month" class={field} /></label>
+    <label class={label}>Caption <span class="font-normal text-muted">(a suggestion appears as you fill the form; edit freely)</span>
+      <textarea name="caption" rows="3" class={field} required></textarea>
+    </label>
+    <label class={label}>Related link <span class="font-normal text-muted">(optional)</span><input name="link" type="url" class={field} /></label>
+    <label class={label}>Photo credit <input name="credit" class={field} value="Photo: Soumik Sarkar" /></label>
+    <p class="mt-4 text-sm text-muted">You will attach the photos on the next screen.</p>
+    <button class="mt-3 rounded bg-cardinal px-5 py-2.5 text-white font-semibold">Continue on GitHub →</button>
+  </form>
+
+  <form class="cpanel bg-white border border-line rounded-lg p-5" data-panel="news" data-template="news.yml" data-prefix="[News]" hidden>
+    <label class={label}>Type <select name="type" class={field}>{NEWS_TYPES.map((k) => <option>{k}</option>)}</select></label>
+    <label class={label}>Headline <input name="headline" class={field} required placeholder="e.g. SAGE accepted at the CVPR 2026 DataMFM workshop" /></label>
+    <label class={label}>Details <textarea name="details" rows="3" class={field}></textarea></label>
+    <label class={label}>Date <input name="date" type="date" class={field} required /></label>
+    <label class={label}>Link <span class="font-normal text-muted">(optional)</span><input name="link" type="url" class={field} /></label>
+    <p class="mt-4 text-sm text-muted">You can attach an image on the next screen.</p>
+    <button class="mt-3 rounded bg-cardinal px-5 py-2.5 text-white font-semibold">Continue on GitHub →</button>
+  </form>
+
+  <form class="cpanel bg-white border border-line rounded-lg p-5" data-panel="pub" data-template="publication.yml" data-prefix="[Publication]" hidden>
+    <label class={label}>I want to…
+      <select name="mode" class={field}><option>Update a paper that is already listed</option><option>Add a new paper</option></select>
+    </label>
+    <label class={label}>Paper title <input name="paper" list="papers" class={field} required /></label>
+    <div data-mode="Add a new paper" hidden>
+      <label class={label}>Authors <span class="font-normal text-muted">(comma-separated)</span><input name="authors" class={field} /></label>
+      <label class={label}>Paper link (DOI / arXiv / publisher) <input name="url" type="url" class={field} /></label>
+    </div>
+    <label class={label}>Type <select name="category" class={field}><option>Conference or workshop paper</option><option>Journal article</option><option>Preprint</option></select></label>
+    <label class={label}>Venue <input name="venue" class={field} placeholder="e.g. CVPR 2026 Workshop on …" /></label>
+    <label class={label}>Year <input name="year" type="number" min="2000" max="2100" class={field} /></label>
+    <label class={label}>Project page <span class="font-normal text-muted">(optional)</span><input name="project" type="url" class={field} /></label>
+    <label class={label}>Code <span class="font-normal text-muted">(optional)</span><input name="code" type="url" class={field} /></label>
+    <button class="mt-5 rounded bg-cardinal px-5 py-2.5 text-white font-semibold">Continue on GitHub →</button>
+  </form>
+
+  <form class="cpanel bg-white border border-line rounded-lg p-5" data-panel="profile" data-template="profile.yml" data-prefix="[Profile]" hidden>
+    <label class={label}>Your name <input name="person" list="people" class={field} required /></label>
+    <label class={label}>What should change? <textarea name="changes" rows="5" class={field} required placeholder="New role, graduation, updated bio, research interests…"></textarea></label>
+    <label class={label}>Links <span class="font-normal text-muted">(one per line)</span><textarea name="links" rows="3" class={field}></textarea></label>
+    <p class="mt-4 text-sm text-muted">You can attach a new headshot on the next screen.</p>
+    <button class="mt-3 rounded bg-cardinal px-5 py-2.5 text-white font-semibold">Continue on GitHub →</button>
+  </form>
+
+  <details class="mt-8 text-sm max-w-3xl">
+    <summary class="cursor-pointer text-cardinal font-semibold">First time? What you need</summary>
+    <p class="mt-2">A free GitHub account that the website maintainer has added to the lab’s GitHub organization (or listed as a contributor).
+      Submissions from other accounts are kept for review instead of being published automatically.</p>
+  </details>
+
+  <datalist id="papers">{titles.map((t) => <option value={t} />)}</datalist>
+  <datalist id="people">{names.map((n) => <option value={n} />)}</datalist>
+
+  <script>
+    const REPO = 'https://github.com/Self-aware-Complex-Systems-Lab/Self-aware-Complex-Systems-Lab.github.io';
+    const tabs = [...document.querySelectorAll<HTMLButtonElement>('.ctab')];
+    const panels = [...document.querySelectorAll<HTMLFormElement>('.cpanel')];
+    tabs.forEach((t) => t.addEventListener('click', () => {
+      tabs.forEach((x) => x.setAttribute('aria-selected', String(x === t)));
+      panels.forEach((p) => (p.hidden = p.dataset.panel !== t.dataset.tab));
+    }));
+    const monthLabel = (v: string) => { if (!v) return ''; const [y, m] = v.split('-').map(Number);
+      return new Date(y, m - 1, 1).toLocaleDateString('en-US', { month: 'long', year: 'numeric' }); };
+
+    // Photos: show the fields that fit the kind of photo, and draft a caption.
+    const photos = panels.find((p) => p.dataset.panel === 'photos')!;
+    const caption = photos.querySelector<HTMLTextAreaElement>('[name=caption]')!;
+    caption.addEventListener('input', () => (caption.dataset.touched = '1'));
+    const refresh = () => {
+      const f = new FormData(photos); const kind = String(f.get('kind'));
+      photos.querySelectorAll<HTMLElement>('[data-show]').forEach((d) => (d.hidden = d.dataset.show !== kind));
+      if (caption.dataset.touched) return;
+      const ev = String(f.get('event') || ''), paper = String(f.get('paper') || ''), who = String(f.get('people') || '');
+      caption.value =
+        kind.startsWith('Conference') && (paper || ev) ? `Presenting${paper ? ` “${paper}”` : ''}${ev ? ` at ${ev}` : ''}.` :
+        kind.startsWith('Graduation') && who ? `${who} — ${String(f.get('milestone')).toLowerCase()}${ev ? `, ${ev}` : ''}.` :
+        kind.startsWith('Talk') && ev ? `Talk at ${ev}.` : caption.value;
+    };
+    photos.addEventListener('input', refresh); photos.addEventListener('change', refresh); refresh();
+
+    const pub = panels.find((p) => p.dataset.panel === 'pub')!;
+    pub.querySelector('[name=mode]')!.addEventListener('change', (e) =>
+      pub.querySelectorAll<HTMLElement>('[data-mode]').forEach((d) => (d.hidden = d.dataset.mode !== (e.target as HTMLSelectElement).value)));
+
+    // Hand off to the GitHub issue form, pre-filled (field ids match .github/ISSUE_TEMPLATE/*.yml).
+    panels.forEach((form) => form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const f = new FormData(form); const q = new URLSearchParams({ template: form.dataset.template! });
+      let titleBit = '';
+      const set = (k: string, v: unknown) => { const s = String(v ?? '').trim(); if (s) q.set(k, s); };
+      if (form.dataset.panel === 'photos') {
+        set('kind', f.get('kind')); set('paper', f.get('paper')); set('event', f.get('event'));
+        set('people', f.get('people') ? `${f.get('people')} (${f.get('milestone')})` : ''); set('caption', f.get('caption'));
+        set('date', monthLabel(String(f.get('date') || ''))); set('link', f.get('link')); set('credit', f.get('credit'));
+        set('photos', 'Attach photos here ↓'); titleBit = String(f.get('caption') || '');
+      } else if (form.dataset.panel === 'news') {
+        ['type', 'headline', 'details', 'date', 'link'].forEach((k) => set(k, f.get(k))); titleBit = String(f.get('headline'));
+      } else if (form.dataset.panel === 'pub') {
+        ['mode', 'paper', 'authors', 'category', 'venue', 'year', 'url', 'project', 'code'].forEach((k) => set(k, f.get(k))); titleBit = String(f.get('paper'));
+      } else {
+        ['person', 'changes', 'links'].forEach((k) => set(k, f.get(k))); titleBit = String(f.get('person'));
+      }
+      q.set('title', `${form.dataset.prefix} ${titleBit.slice(0, 80)}`);
+      window.open(`${REPO}/issues/new?${q.toString()}`, '_blank', 'noopener');
+    }));
+  </script>
+</Base>

@@ -35,6 +35,15 @@ def ts(url):
     return dt.datetime.fromtimestamp((int(m.group(1)) >> 22) / 1000, dt.timezone.utc).isoformat(timespec="seconds") if m else None
 
 
+def approx_date(head):
+    """LinkedIn shows relative ages ('2d', '3w', '9mo', '1yr'); convert to an approximate ISO date (scrape day minus age)."""
+    m = re.search(r"\b(\d+)\s*(h|d|w|mo|yr)\b", head or "")
+    if not m: return None
+    n, u = int(m.group(1)), m.group(2)
+    days = {"h": 0, "d": n, "w": 7 * n, "mo": 30 * n, "yr": 365 * n}[u]
+    return (dt.date.today() - dt.timedelta(days=days)).isoformat()
+
+
 def size_of(u):
     m = re.search(r"(?:shrink|scale)_(\d+)(?:_(\d+))?", u)
     return int(m.group(1)) * (int(m.group(2)) if m.group(2) else 1) if m else 0
@@ -74,7 +83,8 @@ async def main():
             if SKIP.search(u): continue
             m = re.search(r"/dms/image/(?:sync/)?v2/([A-Za-z0-9_-]+)/", u)
             if m and (m.group(1) not in best or size_of(u) > size_of(best[m.group(1)])): best[m.group(1)] = u
-        pid = (re.search(r"(\d{15,})", it["url"] or "") or re.search(r"(.{12})$", it["key"])).group(1)
+        m = re.search(r"(\d{15,})", it["url"] or "")
+        pid = m.group(1) if m else hashlib.sha1(it["key"].encode()).hexdigest()[:12]   # unique per card
         files = []
         for n, (mid, u) in enumerate(best.items(), 1):
             try:
@@ -86,7 +96,8 @@ async def main():
             fn = f"org-{SLUG}-{pid}-{n}.{ext}"
             (HERE / "images" / fn).write_bytes(r.content)
             files.append({"file": f"migration/linkedin/images/{fn}", "size": list(im.size), "sha256": hashlib.sha256(r.content).hexdigest(), "status": "ok"})
-        posts.append({"org": SLUG, "url": it["url"], "timestamp": ts(it["url"]), "text": it["text"], "links": it["links"],
+        posts.append({"org": SLUG, "url": it["url"], "timestamp": ts(it["url"]), "approxDate": approx_date(it["head"]),
+                      "text": it["text"], "links": it["links"],
                       "header": it["head"], "images": files})
     posts.sort(key=lambda x: x["timestamp"] or "", reverse=True)
     (HERE / f"org-{SLUG}.json").write_text(json.dumps(posts, indent=1, ensure_ascii=False))

@@ -1,0 +1,33 @@
+name: "📄 Publication update"
+description: Add a new paper, or update a listed one (accepted venue, project page, code). Applied automatically for lab members.
+title: "[Publication] "
+body:
+  - type: dropdown
+    id: mode
+    attributes: { label: I want to…, options: ["Update a paper that is already listed", "Add a new paper"] }
+    validations: { required: true }
+  - type: input
+    id: paper
+    attributes: { label: Paper title, description: Exactly as listed on the website (for updates) or the full title (new paper). }
+    validations: { required: true }
+  - type: input
+    id: authors
+    attributes: { label: Authors (new papers), description: Comma-separated. }
+  - type: dropdown
+    id: category
+    attributes: { label: Type, options: ["Conference or workshop paper", "Journal article", "Preprint"] }
+  - type: input
+    id: venue
+    attributes: { label: Venue, placeholder: "e.g. CVPR 2026 Workshop on …" }
+  - type: input
+    id: year
+    attributes: { label: Year }
+  - type: input
+    id: url
+    attributes: { label: Paper link (DOI / arXiv / publisher) }
+  - type: input
+    id: project
+    attributes: { label: Project page (optional) }
+  - type: input
+    id: code
+    attributes: { label: Code (optional) }

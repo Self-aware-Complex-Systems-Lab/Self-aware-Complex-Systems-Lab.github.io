@@ -1,0 +1,135 @@
+{
+ "gallery": [
+  {
+   "caption": "Soumik Sarkar, Director of TrAC, in Washington, D.C., representing TrAC and Iowa State University at the Genesis Mission Annual Summit.",
+   "date": "July 2026",
+   "category": "Conferences & events",
+   "credit": "Photo: TrAC – Translational AI Center via LinkedIn",
+   "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7485702660428505088/",
+   "file": "migration/linkedin/images/org-traciastate-7485702660428505088-3.jpg",
+   "alt": "Selfie of Soumik Sarkar in front of a Genesis Mission Summit 2026 banner",
+   "names": [
+    "Dr. Soumik Sarkar"
+   ],
+   "org": "traciastate",
+   "approxDate": null
+  },
+  {
+   "caption": "TrAC and Iowa State University represented at the Genesis Mission Summit in Washington, D.C.; the name badges read Soumik Sarkar and Baskar Ganapathysubramanian.",
+   "date": "February 2026",
+   "category": "Conferences & events",
+   "credit": "Photo: TrAC – Translational AI Center via LinkedIn",
+   "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7430050305452716033/",
+   "file": "migration/linkedin/images/org-traciastate-7430050305452716033-2.jpg",
+   "alt": "Two attendees holding Genesis Mission Summit name badges at a table",
+   "names": [],
+   "org": "traciastate",
+   "approxDate": null
+  },
+  {
+   "caption": "Showcasing AI for agriculture research at Iowa State University's day at the Iowa State Capitol, at a table with drones and the Soynomics Team display.",
+   "date": "February 2026",
+   "category": "Outreach",
+   "credit": "Photo: TrAC – Translational AI Center via LinkedIn",
+   "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7425055591754194944/",
+   "file": "migration/linkedin/images/org-traciastate-7425055591754194944-1.jpg",
+   "alt": "Three people with the Cy mascot behind an exhibit table with drones at the Iowa State Capitol",
+   "names": [],
+   "org": "traciastate",
+   "approxDate": null
+  },
+  {
+   "caption": "Representing Iowa State University at the Iowa State Capitol, where the university showcased its work in AI for agriculture.",
+   "date": "February 2026",
+   "category": "Outreach",
+   "credit": "Photo: TrAC – Translational AI Center via LinkedIn",
+   "link": "https://www.linkedin.com/feed/update/urn:li:ugcPost:7425055591754194944/",
+   "file": "migration/linkedin/images/org-traciastate-7425055591754194944-4.jpg",
+   "alt": "Selfie in front of the Iowa State Capitol building",
+   "names": [],
+   "org": "traciastate",
+   "approxDate": null
+  },
+  {
+   "caption": "The 2026 cohort of the REU in Translational Applications of AI to Engineering (REU-TrACE) at Iowa State University.",
+   "date": "July 2026",
+   "category": "Outreach",
+   "credit": "Photo: TrAC – Translational AI Center via LinkedIn",
+   "link": "https://www.linkedin.com/feed/update/urn:li:share:7483769921626120192/",
+   "file": "migration/linkedin/images/org-traciastate-7483769921626120192-1.jpg",
+   "alt": "Group of undergraduate students holding orange notebooks in front of a large W sculpture",
+   "names": [],
+   "org": "traciastate",
+   "approxDate": null
+  },
+  {
+   "caption": "A full house at the kickoff of the Lunch Seminar Series that TrAC launched with Ames National Laboratory on December 18.",
+   "date": "December 2025",
+   "category": "Conferences & events",
+   "credit": "Photo: TrAC – Translational AI Center via LinkedIn",
+   "link": null,
+   "file": "migration/linkedin/images/org-traciastate-ED_RELEVANCE-1.jpg",
+   "alt": "Attendees at long tables watching an Ames National Laboratory presentation",
+   "names": [],
+   "org": "traciastate",
+   "approxDate": "December 2025 (from post text 'December 18' + LinkedIn '9mo'; no timestamp captured)"
+  },
+  {
+   "caption": "Keynote at the K-State AI Symposium at Kansas State University on AI-enabled Cyber-Agricultural Systems to reduce input costs in agriculture and increase profitability.",
+   "date": "October 2025",
+   "category": "Talks & keynotes",
+   "credit": "Photo: COALESCE via LinkedIn",
+   "link": null,
+   "file": "migration/linkedin/images/org-coalesceiastate-ED_RELEVANCE-1.jpg",
+   "alt": "Speaker at a podium in front of a slide titled Cyber-Ag Systems: The Vision",
+   "names": [
+    "Dr. Soumik Sarkar"
+   ],
+   "org": "coalesceiastate",
+   "approxDate": "October 2025 (from src/data/talks-video.json: K-State AI Symposium 2025-10-14; no timestamp captured)"
+  },
+  {
+   "caption": "AIIRA demonstrations for Steven Thomson of USDA NIFA, highlighting 3D reconstruction for digital twins, VLA robotics and flexible manipulators, the PestID bot and gamification of AI in agriculture.",
+   "date": null,
+   "category": "Field work & robots",
+   "credit": "Photo: AIIRA via LinkedIn",
+   "link": null,
+   "file": "migration/linkedin/images/org-aiira-ED_RELEVANCE-2.jpg",
+   "alt": "Group gathered around a laptop during a lab demonstration",
+   "names": [
+    "Dr. Soumik Sarkar"
+   ],
+   "org": "aiira",
+   "approxDate": "August 2026 (approx.: LinkedIn showed '1mo' on Oct 3, 2026; post timestamp/URL not captured)"
+  },
+  {
+   "caption": "A visitor tries a VR headset during AIIRA's showcase for Steven Thomson of USDA NIFA, which included 3D reconstruction for digital twins.",
+   "date": null,
+   "category": "Field work & robots",
+   "credit": "Photo: AIIRA via LinkedIn",
+   "link": null,
+   "file": "migration/linkedin/images/org-aiira-ED_RELEVANCE-3.jpg",
+   "alt": "Man wearing a VR headset",
+   "names": [
+    "Dr. Soumik Sarkar"
+   ],
+   "org": "aiira",
+   "approxDate": "August 2026 (approx.: LinkedIn showed '1mo' on Oct 3, 2026; post timestamp/URL not captured)"
+  },
+  {
+   "caption": "Discussion among potted plants at an outdoor hoop house during AIIRA's showcase of its work for Steven Thomson of USDA NIFA.",
+   "date": null,
+   "category": "Field work & robots",
+   "credit": "Photo: AIIRA via LinkedIn",
+   "link": null,
+   "file": "migration/linkedin/images/org-aiira-ED_RELEVANCE-4.jpg",
+   "alt": "Two men talking beside potted plants inside a hoop house",
+   "names": [
+    "Dr. Soumik Sarkar"
+   ],
+   "org": "aiira",
+   "approxDate": "August 2026 (approx.: LinkedIn showed '1mo' on Oct 3, 2026; post timestamp/URL not captured)"
+  }
+ ],
+ "notes": "Viewed all 66 org-* image files on disk (148 image refs across 152 posts). DATA PROBLEM: 111 posts (79 TrAC, 12 AIIRA, 20 COALESCE) were scraped with url=null/timestamp=null, and their images were all saved as org-<slug>-ED_RELEVANCE-<n>.<ext>, so each filename was overwritten by later posts; only the last writer survives (verified by sha256). Lost images include: REU-TrACE Collins Aerospace visit (5 photos), first Statewide High School AI Hackathon wrap-up (4), TrAC Holiday Lunch (2), CVPR 2026 Day 1 photos 1-2 from Tirtho Roy's post, ICRA 2026 'Find the Fruit' post (Nitesh Subedi, Hsin-Jung Yang), Sarkar Mid-Career Achievement award post, and more. Fix scrape_org.py's pid fallback (re.search(r'(.{12})$', key) yields 'ED_RELEVANCE' for every card) and re-scrape to recover them. Picks with link=null (Lunch Seminar, K-State keynote, AIIRA NIFA visit) have no captured URL; date is null or derived (see approxDate) - a human should find the post URLs. Dates for K-State (talks-video.json) and Lunch Seminar (post text) are not from timestamps. Dedup: org-*-ED_RELEVANCE files from REU 2026 and CVPR posts were hash-identical to existing gallery images (7470572643738644480-2/3, 7468805740057546752-2/3/4) and skipped; org-coalesceiastate-ED_RELEVANCE-5/6 (autonomous trucks at CVPR) equal 7468805740057546752-6/7, previously rejected. Same-image duplicates across org pages (Genesis July coins/selfie, Capitol, AgGym, CORL, CVPR speaker card, World Food Prize flyer, Ag x BTO logo) were counted once. Excluded: Tirtho Roy alone at his CVPR 2026 SAGE poster (org-traciastate-ED_RELEVANCE-3.jpg, near-duplicate of gallery 7468805740057546752-4; post URL unknown), CVPR badge and acknowledgements slide, Genesis challenge coins, Genesis Feb panel/speaker shots (no lab link), second K-State talk photo (near-duplicate), AIIRA Valeria Fonseca Turcios AAEA posts (not lab), Capitol mascot photo and near-duplicate booth shot, AIIRA NIFA lunch photo, all flyers/logos/headshots/paper figures/blank GIF placeholders. Not named in captions: people in Capitol booth, NIFA visit and Feb Genesis photos are not identified by the post text (Feb Genesis names come only from visible badges). Extra field 'org' = source page; 'approxDate' = derived date hint."
+}

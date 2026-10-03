@@ -6,7 +6,7 @@ import uploads from '../data/gallery-uploads.json';
 
 type Item = { src: string; size: number[]; caption: string; date: string | null; category: string; link: string | null;
   credit: string; alt?: string; added?: string };
-const CATEGORIES = ['Lab life', 'Talks & keynotes', 'Conferences & events', 'Field work & robots', 'Awards', 'Outreach'];
+const CATEGORIES = ['Lab life', 'Conferences & events', 'Talks & keynotes', 'Graduations & defenses', 'Awards', 'Field work & robots', 'Outreach'];
 const monthKey = (d: string | null) => { const t = d ? Date.parse(`1 ${d}`) : NaN; return Number.isNaN(t) ? 0 : t; };
 // Newest first; photos without a date go last.
 const items: Item[] = [...(uploads as Item[]), ...(curated as Item[])].sort((a, b) => monthKey(b.date) - monthKey(a.date));

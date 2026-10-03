@@ -10,6 +10,21 @@
    "badge": "IEEE TNNLS"
   },
   {
+   "key": "added:7",
+   "badge": "CVPR 2026 Workshop",
+   "displayTitle": "SAGE: Scalable Agentic Grounded Evaluation for Crop Disease Diagnosis"
+  },
+  {
+   "key": "archived:306",
+   "badge": "ICRA 2026",
+   "displayTitle": "Find the Fruit: Designing a Zero-Shot Sim2Real Deep RL Planner for Occlusion Aware Plant Manipulation"
+  },
+  {
+   "key": "archived:315",
+   "badge": "ICLR 2025",
+   "displayTitle": "Latent Safety-Constrained Policy Approach for Safe Offline Reinforcement Learning"
+  },
+  {
    "key": "archived:226",
    "badge": "CVPR 2025"
   },

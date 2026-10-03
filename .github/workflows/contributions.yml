@@ -1,0 +1,61 @@
+# Applies lab-member submissions from the website's Contribute page (GitHub issue forms):
+# [Photo] / [News] / [Publication] are published automatically for lab members; [Profile] waits for a maintainer.
+name: Contributions
+
+on:
+  issues:
+    types: [opened, edited]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: contributions
+  cancel-in-progress: false
+
+jobs:
+  apply:
+    if: startsWith(github.event.issue.title, '[Photo]') || startsWith(github.event.issue.title, '[News]') || startsWith(github.event.issue.title, '[Publication]') || startsWith(github.event.issue.title, '[Profile]')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check the submitter is a lab member
+        id: auth
+        env:
+          ASSOC: ${{ github.event.issue.author_association }}
+          LOGIN: ${{ github.event.issue.user.login }}
+        run: |
+          if [[ "$ASSOC" == "OWNER" || "$ASSOC" == "MEMBER" || "$ASSOC" == "COLLABORATOR" ]] || grep -qxi "$LOGIN" .github/gallery-uploaders.txt; then
+            echo "ok=true" >> "$GITHUB_OUTPUT"; else echo "ok=false" >> "$GITHUB_OUTPUT"; fi
+      - name: Not a member — leave for review
+        if: steps.auth.outputs.ok != 'true'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: gh issue comment ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY" --body "Thanks! Only lab members are published automatically. A maintainer will review this submission."
+      - uses: actions/setup-python@v5
+        if: steps.auth.outputs.ok == 'true'
+        with: { python-version: "3.12" }
+      - name: Apply the contribution
+        id: apply
+        if: steps.auth.outputs.ok == 'true'
+        env: { GITHUB_TOKEN: "${{ github.token }}" }
+        run: |
+          pip install --quiet pillow
+          set +e; python scripts/contribution_from_issue.py; code=$?; set -e
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+      - name: Commit, comment, close
+        if: steps.auth.outputs.ok == 'true'
+        env: { GH_TOKEN: "${{ github.token }}" }
+        run: |
+          if [[ "${{ steps.apply.outputs.code }}" == "0" ]]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            git add public/assets src/data
+            git commit -m "Contribution #${{ github.event.issue.number }}: ${{ github.event.issue.title }}"
+            git push
+            { cat contribution-result.md; echo; echo "The website updates in about 3 minutes."; } > comment.md
+            gh issue comment ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY" --body-file comment.md
+            gh issue close ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY"
+          else
+            gh issue comment ${{ github.event.issue.number }} --repo "$GITHUB_REPOSITORY" --body-file contribution-result.md
+          fi

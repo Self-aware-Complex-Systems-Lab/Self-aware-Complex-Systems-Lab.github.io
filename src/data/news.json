@@ -1,0 +1,92 @@
+[
+ {
+  "date": "2026-10-02",
+  "type": "Paper accepted",
+  "title": "WeedNet published in Nature Communications",
+  "body": "A foundation model for global-to-local weed species identification, trained on 14 million images spanning 1,593 species.",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7511646083874291712/",
+  "image": null,
+  "source": "Prof. Sarkar's LinkedIn post",
+  "added": "2026-10-03"
+ },
+ {
+  "date": "2026-06-05",
+  "type": "Talk or keynote",
+  "title": "CVPR 2026: panel and workshop talk",
+  "body": "Prof. Sarkar joined a panel with Gary Bradski, Jason Corso, Girish Chowdhary and Shenlong Wang and presented agentic visual reasoning for agriculture at the Vision for Agriculture workshop; Tirtho Roy presented SAGE at the DataMFM workshop.",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7468805740057546752/",
+  "image": null,
+  "source": "Prof. Sarkar's LinkedIn post",
+  "added": "2026-10-03"
+ },
+ {
+  "date": "2026-04-22",
+  "type": "Other",
+  "title": "Dr. Homagni Saha joins IIT Kharagpur",
+  "body": "Lab alumnus Dr. Homagni Saha joins the faculty of IIT Kharagpur.",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7452698888873889792/",
+  "image": null,
+  "source": "Prof. Sarkar's LinkedIn post",
+  "added": "2026-10-03"
+ },
+ {
+  "date": "2026-02-27",
+  "type": "Paper accepted",
+  "title": "AgGym released",
+  "body": "A modular, open-source Gym environment that simulates biotic stress spread and yield loss to evaluate crop-management strategies, including reinforcement learning.",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7433295391141449728/",
+  "image": null,
+  "source": "Prof. Sarkar's LinkedIn post",
+  "added": "2026-10-03"
+ },
+ {
+  "date": "2025-12-28",
+  "type": "New grant",
+  "title": "DARPA Ag × BTO selection",
+  "body": "An Iowa State team led by Prof. Sarkar was selected under the DARPA Ag × BTO program to build an early-warning system for biological threats to U.S. agriculture.",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7410944467828039680/",
+  "image": null,
+  "source": "Prof. Sarkar's LinkedIn post",
+  "added": "2026-10-03"
+ },
+ {
+  "date": "2025-12-20",
+  "type": "Thesis defense / graduation",
+  "title": "Two new Ph.D.s",
+  "body": "Dr. Ashutosh Nirala and Dr. Ibne Farabi Shihab were hooded at the December 2025 commencement.",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7408252358117208064/",
+  "image": null,
+  "source": "Prof. Sarkar's LinkedIn post",
+  "added": "2026-10-03"
+ },
+ {
+  "date": "2025-05-07",
+  "type": "Paper accepted",
+  "title": "ICCPS 2025 paper presented",
+  "body": "Joshua Waite presented work using a reinforcement-learning agent to generate synthetic data that improves the spatial reasoning of vision-language models.",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7325902120128262144/",
+  "image": null,
+  "source": "Prof. Sarkar's LinkedIn post",
+  "added": "2026-10-03"
+ },
+ {
+  "date": "2025-01-15",
+  "type": "Award",
+  "title": "Prof. Sarkar receives the PECASE",
+  "body": "Soumik Sarkar received the Presidential Early Career Award for Scientists and Engineers, nominated by NSF.",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7285413277696696321/",
+  "image": null,
+  "source": "Prof. Sarkar's LinkedIn post",
+  "added": "2026-10-03"
+ },
+ {
+  "date": "2024-10-09",
+  "type": "Event",
+  "title": "MLCAS 2024",
+  "body": "The Sixth International Workshop on Machine Learning for Cyber-Agricultural Systems drew 150+ attendees, six invited speakers and 30+ contributed talks and posters.",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7249661450137321472/",
+  "image": null,
+  "source": "Prof. Sarkar's LinkedIn post",
+  "added": "2026-10-03"
+ }
+]

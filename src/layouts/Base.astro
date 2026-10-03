@@ -7,8 +7,8 @@ import '../styles/global.css';
 import { SITE, NAV } from '../lib/site';
 import assets from '../data/assets.json';
 
-interface Props { title: string; description?: string; }
-const { title, description = `${SITE.name} at ${SITE.university}, directed by Prof. Soumik Sarkar.` } = Astro.props;
+interface Props { title: string; description?: string; noindex?: boolean; }
+const { title, noindex = false, description = `${SITE.name} at ${SITE.university}, directed by Prof. Soumik Sarkar.` } = Astro.props;
 const path = Astro.url.pathname.replace(/\/?$/, '/');
 const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
 ---
@@ -19,6 +19,7 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{title === SITE.short ? `${SITE.short} · ${SITE.name}` : `${title} · ${SITE.short}`}</title>
     <meta name="description" content={description} />
+    {noindex && <meta name="robots" content="noindex" />}
     <link rel="icon" type="image/png" href={assets.logo} />
   </head>
   <body class="min-h-screen flex flex-col">
@@ -60,7 +61,7 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
         </div>
         <div class="sm:text-right">
           <p><a class="text-gold" href="mailto:soumiks@iastate.edu">soumiks@iastate.edu</a> · 515-294-5212 · <a class="text-gold" href="https://github.com/SCSLabISU">GitHub</a></p>
-          <p>&copy; {new Date().getFullYear()} {SITE.name}</p>
+          <p>&copy; {new Date().getFullYear()} {SITE.name} · <a class="text-gold" href="/contribute/">Lab members: contribute</a></p>
         </div>
       </div>
     </footer>

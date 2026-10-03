@@ -1,55 +1,39 @@
-name: "📷 Add photos to the website gallery"
-description: Upload photos (from your phone or computer) with a caption. They appear on the lab website automatically.
+name: "📷 Photos for the website gallery"
+description: Upload photos (phone or computer) with a caption. Published automatically for lab members.
 title: "[Photo] "
 body:
   - type: markdown
     attributes:
-      value: |
-        Tap **Attach files** (or drag photos) into the box below. Add as many photos as you like for one event.
-        Location data is removed from photos automatically. The site updates a few minutes after you press **Submit**.
+      value: "Tap **Attach files** (paperclip) in the Photos box to add one or more photos. Location data is removed automatically."
   - type: textarea
     id: photos
+    attributes: { label: Photos, description: Attach one or more photos here., placeholder: "Attach photos here" }
+    validations: { required: true }
+  - type: dropdown
+    id: kind
     attributes:
-      label: Photos
-      description: Attach one or more photos here.
-      placeholder: Tap here, then use "Attach files" / the paperclip to add photos.
-    validations:
-      required: true
+      label: What is this photo?
+      options: ["Conference presentation or poster", "Graduation or thesis defense", "Award or recognition", "Talk, keynote or panel", "Lab event or group photo", "Field work, robots or experiments", "Outreach or teaching", "Something else"]
+    validations: { required: true }
+  - type: input
+    id: paper
+    attributes: { label: Paper presented (if any), description: Title of the paper or poster. }
+  - type: input
+    id: event
+    attributes: { label: Event / conference / place, placeholder: "e.g. CVPR 2026, Nashville" }
+  - type: input
+    id: people
+    attributes: { label: People in the photo (if relevant), description: "e.g. the graduate, the presenter" }
   - type: textarea
     id: caption
-    attributes:
-      label: Caption
-      description: What is happening and who is in the photo? (One or two sentences.)
-      placeholder: "e.g. Nitesh Subedi presenting LCLA at CVPR 2026, Nashville."
-    validations:
-      required: true
+    attributes: { label: Caption, description: One or two sentences. }
+    validations: { required: true }
   - type: input
     id: date
-    attributes:
-      label: Date
-      description: When was it taken? (Month and year is enough.)
-      placeholder: "June 2026"
-  - type: dropdown
-    id: category
-    attributes:
-      label: Category
-      options:
-        - Lab life
-        - Talks & keynotes
-        - Conferences & events
-        - Field work & robots
-        - Awards
-        - Outreach
-    validations:
-      required: true
+    attributes: { label: Date, placeholder: "June 2026" }
   - type: input
     id: link
-    attributes:
-      label: Related link (optional)
-      description: News story, paper, event page or LinkedIn post.
-      placeholder: "https://..."
+    attributes: { label: Related link (optional), placeholder: "https://..." }
   - type: input
     id: credit
-    attributes:
-      label: Photo credit
-      value: "Photo: Soumik Sarkar"
+    attributes: { label: Photo credit, value: "Photo: Soumik Sarkar" }

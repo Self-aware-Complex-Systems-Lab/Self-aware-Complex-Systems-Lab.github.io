@@ -3,7 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { people } from '../src/lib/people';
 import { publications } from '../src/lib/publications';
 
-const PAGES = ['/', '/principal-investigator/', '/research/', '/people/', '/publications/', '/alumni/', '/gallery/', '/contact/'];
+const PAGES = ['/', '/principal-investigator/', '/research/', '/people/', '/publications/', '/alumni/', '/news/', '/gallery/', '/contact/', '/contribute/'];
 
 for (const path of PAGES) {
   test.describe(path, () => {
@@ -85,6 +85,21 @@ test('CV page and PDF are published', async ({ page, request }) => {
 test('no external runtime resources (site is self-contained)', async ({ page }) => {
   const external: string[] = [];
   page.on('request', (r) => { const u = new URL(r.url()); if (!['localhost', '127.0.0.1'].includes(u.hostname) && !u.protocol.startsWith('data')) external.push(r.url()); });
-  for (const p of ['/', '/people/', '/principal-investigator/', '/publications/', '/cv/']) await page.goto(p, { waitUntil: 'networkidle' });
+  for (const p of ['/', '/people/', '/principal-investigator/', '/publications/', '/news/', '/contribute/', '/cv/']) await page.goto(p, { waitUntil: 'networkidle' });
   expect(external).toEqual([]);
+});
+
+test('contribute form hands off to a prefilled GitHub issue form', async ({ page }) => {
+  await page.goto('/contribute/');
+  await page.evaluate(() => { (window as any).__opened = ''; window.open = ((u: string) => { (window as any).__opened = u; return null; }) as any; });
+  await page.selectOption('[data-panel=photos] [name=kind]', 'Graduation or thesis defense');
+  await page.fill('[data-panel=photos] [name=people]', 'Jane Doe');
+  await page.fill('[data-panel=photos] [name=event]', 'ISU commencement');
+  await expect(page.locator('[data-panel=photos] [name=caption]')).toHaveValue(/Jane Doe — ph\.d\. graduation, ISU commencement\./i);
+  await page.click('[data-panel=photos] button');
+  const url = new URL(await page.evaluate(() => (window as any).__opened));
+  expect(url.pathname).toMatch(/\/issues\/new$/);
+  expect(url.searchParams.get('template')).toBe('gallery-photo.yml');
+  expect(url.searchParams.get('kind')).toBe('Graduation or thesis defense');
+  expect(url.searchParams.get('title')).toMatch(/^\[Photo\] Jane Doe/);
 });
