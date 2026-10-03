@@ -9,6 +9,9 @@ or Awardee/Co-PIs (seed) and gives no full personnel list.
 import json, re
 from pathlib import Path
 from bs4 import BeautifulSoup
+import gzip
+
+def html(slug): return gzip.decompress((HERE / "pages" / slug / "rendered.html.gz").read_bytes()).decode()
 
 HERE = Path(__file__).resolve().parent
 BASE = "https://trac-ai.iastate.edu"
@@ -38,7 +41,7 @@ def term_dates(term):
     return (parts[0], parts[1]) if len(parts) == 2 else (term, None)
 
 recs = []
-soup = BeautifulSoup((HERE / "pages" / FED[0] / "rendered.html").read_text(), "html.parser")
+soup = BeautifulSoup(html(FED[0]), "html.parser")
 for strong in soup.find_all("strong", string=re.compile(r"^PI:")):
     card = strong.find_parent("div").find_parent("div").find_parent("div").find_parent("div")
     title = card.find("div", style=re.compile("font-weight:700")).get_text(" ", strip=True)
@@ -53,7 +56,7 @@ for strong in soup.find_all("strong", string=re.compile(r"^PI:")):
         "amount": f.get("Award"), "term": f.get("Term"), "start": start, "end": end, "status": None, "year": None,
         "awardNumber": None, "descriptionExcerpt": None, "moreInfoUrl": a["href"] if a else None,
         "sourceUrl": FED[1]})
-soup = BeautifulSoup((HERE / "pages" / SEED[0] / "rendered.html").read_text(), "html.parser")
+soup = BeautifulSoup(html(SEED[0]), "html.parser")
 for card in soup.select(".seedgrant-card"):
     f = fields(card)
     pi, co = split_names(f.get("Awardees")), split_names(f.get("Co-PIs"))
@@ -64,6 +67,19 @@ for card in soup.select(".seedgrant-card"):
         "otherPIs": [p for p in pi + co if not SARKAR.search(p)], "amount": f.get("Award"), "term": None,
         "start": None, "end": None, "status": f.get("Status"), "year": f.get("Year"), "awardNumber": None,
         "descriptionExcerpt": None, "moreInfoUrl": None, "sourceUrl": SEED[1]})
+# Narrative mention in a news post (same project as the COALESCE card, different figures; kept separate, verbatim)
+NEWS = f"{BASE}/2025/04/09/engineers-using-digital-twins-to-improve-agriculture-health-manufacturing-and-more/uncategorized/"
+txt = (HERE / "pages" / "2025__04__09__engineers-using-digital-twins-to-improve-agriculture-health-manufacturing-and-more__uncategorized" / "text.txt").read_text()
+q1 = re.search(r"The research is supported by a five-year, \$7 million Cyber-Physical Systems Frontier award[^.]*\.", txt)
+q2 = re.search(r"COALESCE is co-led by Sarkar[^.]*\.", txt)
+q3 = re.search(r"Soumik Sarkar, a professor of mechanical engineering and a principal investigator of COALESCE[^.]*\.", txt)
+if q1:
+    recs.append({"title": "COntext Aware LEarning for Sustainable CybEr-Agricultural Systems (COALESCE)", "listing": "News post (narrative)",
+        "sponsor": "NSF and the USDA's National Institute of Food and Agriculture (jointly funded)", "program": "Cyber-Physical Systems Frontier award",
+        "researchThrust": None, "role": "principal investigator (\"co-led by Sarkar\")", "pi": None, "coPIs": None, "otherPIs": [],
+        "amount": "$7 million", "term": "five-year", "start": None, "end": None, "status": None, "year": None, "awardNumber": None,
+        "descriptionExcerpt": " ".join(m.group(0) for m in (q3, q2, q1) if m), "moreInfoUrl": None, "sourceUrl": NEWS,
+        "note": "Same project as the Federal Funded Projects card (which shows Award: $5,000,000, Apr 2021 – Mar 2026); the news post states $7 million. Both kept verbatim."})
 for r in recs:
     r["mentionsSarkar"] = r["role"] is not None
     if r["listing"] == "Seed Fund Projects":

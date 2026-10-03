@@ -12,7 +12,10 @@ const roles = about.items.slice(2);
 const hero = assets.gallery.find((g) => g.manifestId === 'home#002') ?? assets.gallery[0];
 const nCurrent = people.filter((p) => CURRENT_CATEGORIES.includes(p.category ?? '')).length;
 const nAlumni = people.filter((p) => ALUMNI_CATEGORIES.includes(p.category ?? '')).length;
-const latest = publications.filter((p) => p.year && p.year >= 2026).slice(0, 5);
+// Recently accepted / published work: journal and conference papers only, newest first.
+const when = (p: (typeof publications)[number]) => p.date ?? `${p.year ?? 0}-00-00`;
+const latest = publications.filter((p) => p.category !== 'preprints' && p.year)
+  .sort((a, b) => when(b).localeCompare(when(a))).slice(0, 6);
 ---
 <Base title="SCSLab">
   <section class="grid lg:grid-cols-5 gap-8 items-center">
@@ -49,7 +52,7 @@ const latest = publications.filter((p) => p.year && p.year >= 2026).slice(0, 5);
   </section>
 
   <section class="mt-14">
-    <h2 class="text-2xl font-bold">Recent publications</h2>
+    <div class="flex items-baseline justify-between gap-4"><h2 class="text-2xl font-bold">Recent publications</h2><a href="/publications/" class="text-sm">All publications →</a></div>
     <ul class="mt-4 divide-y divide-line bg-white border border-line rounded-lg">
       {latest.map((p) => (
         <li class="p-4"><a href={p.url ?? '#'} class="font-semibold no-underline">{p.title}</a>

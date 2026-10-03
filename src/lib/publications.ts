@@ -3,6 +3,7 @@ import added from '../data/publications-added.json' with { type: 'json' };
 import removals from '../data/publication-removals.json' with { type: 'json' };
 
 export type Pub = {
+  date?: string | null;
   category: string; categoryLabel: string | null; title: string; authors: string | null; venue: string | null;
   year: number | null; url: string | null; doi: string | null; citationsAsOfArchive?: string | null;
 };
