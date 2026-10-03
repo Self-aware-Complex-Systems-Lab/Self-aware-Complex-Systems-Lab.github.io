@@ -1665,34 +1665,5 @@
     "url": "https://scholar.google.com/citations?user=_a8sHdMAAAAJ&hl=en"
    }
   ]
- },
- "Test Member": {
-  "name": "Test Member",
-  "headline": "Ph.D. 2026",
-  "education": [
-   "Ph.D., Mechanical Engineering, Iowa State University, 2026",
-   "B.S., Mechanical Engineering, Test University, 2025"
-  ],
-  "affiliation": [
-   "Department of Mechanical Engineering, Iowa State University"
-  ],
-  "bio": [
-   "Test Member is a placeholder used to test the website's contribution workflow. This entry will be removed.",
-   "Test successfully defended the Ph.D. thesis in October 2026, with the thesis “Testing Autonomous Website Workflows”. Test is now a Research Scientist at Example Labs."
-  ],
-  "researchInterests": "testing, automation",
-  "joined": "Fall 2026",
-  "currentPosition": "Research Scientist at Example Labs",
-  "project": null,
-  "_sources": [
-   {
-    "fact": "added via contribute form",
-    "url": "issue #1"
-   },
-   {
-    "fact": "Ph.D. thesis defense (2026-10-03)",
-    "url": "issue #2"
-   }
-  ]
  }
 }

@@ -534,16 +534,6 @@
     "url": "https://www.linkedin.com/in/lucas-rillo/",
     "label": "LinkedIn"
    }
-  ],
-  "Test Member": [
-   {
-    "type": "homepage",
-    "url": "https://example.org/test-member"
-   },
-   {
-    "type": "github",
-    "url": "https://github.com/tirtho149"
-   }
   ]
  },
  "interests": {
