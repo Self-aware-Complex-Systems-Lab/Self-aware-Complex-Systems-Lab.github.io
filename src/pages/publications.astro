@@ -1,0 +1,93 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import archived from '../data/publications.json';
+import added from '../data/publications-added.json';
+
+type Pub = { category: string; categoryLabel: string | null; title: string; authors: string | null; venue: string | null;
+  year: number | null; url: string | null; doi: string | null; citationsAsOfArchive?: string | null; addedAfterArchive?: boolean;
+  relatedArchivedEntry?: string | null; number?: string | null };
+const all: Pub[] = [...(added as Pub[]), ...(archived as Pub[])];
+const tabs = [
+  { id: 'all', label: 'All' },
+  { id: 'journals', label: 'Journal Articles' },
+  { id: 'conferences', label: 'Conference Proceedings' },
+  { id: 'preprints', label: 'Preprints' },
+];
+const count = (id: string) => (id === 'all' ? all.length : all.filter((p) => p.category === id).length);
+const years = [...new Set(all.map((p) => p.year).filter(Boolean))].sort((a, b) => b! - a!);
+---
+<Base title="Publications" description="Searchable list of SCSLab journal articles, conference proceedings and preprints.">
+  <PageHeader title="Publications" kicker="Research output">
+    <p class="mt-4 text-muted max-w-3xl">{archived.length} entries migrated from the original site's publication list (last updated there June 22, 2026),
+      plus {added.length} newer entries found in OpenAlex and marked <span class="inline-block rounded bg-gold/30 px-1.5 text-xs font-semibold text-ink">New</span>.
+      Citation counts are as recorded in June 2026.</p>
+  </PageHeader>
+
+  <div class="bg-white border border-line rounded-lg p-4 grid gap-3 md:grid-cols-[1fr_auto] items-end sticky top-0 z-10">
+    <label class="block">
+      <span class="text-sm font-semibold">Search title, author or venue</span>
+      <input id="pub-q" type="search" placeholder="e.g. soybean, reinforcement learning, Balu" class="mt-1 w-full rounded border border-line px-3 py-2" />
+    </label>
+    <label class="block">
+      <span class="text-sm font-semibold">Year</span>
+      <select id="pub-year" class="mt-1 w-full rounded border border-line px-3 py-2 bg-white">
+        <option value="">All years</option>
+        {years.map((y) => <option value={y}>{y}</option>)}
+      </select>
+    </label>
+    <div role="tablist" aria-label="Publication type" class="md:col-span-2 flex flex-wrap gap-2">
+      {tabs.map((t, i) => (
+        <button role="tab" data-tab={t.id} aria-selected={i === 0 ? 'true' : 'false'}
+          class="pub-tab rounded-full border border-line px-3 py-1 text-sm aria-selected:bg-cardinal aria-selected:text-white aria-selected:border-cardinal">
+          {t.label} ({count(t.id)})
+        </button>
+      ))}
+    </div>
+    <p id="pub-count" class="md:col-span-2 text-sm text-muted" aria-live="polite"></p>
+  </div>
+
+  <ol id="pub-list" class="mt-6 space-y-3">
+    {all.map((p) => (
+      <li class="pub bg-white border border-line rounded-lg p-4" data-cat={p.category} data-year={p.year ?? ''}
+          data-text={`${p.title} ${p.authors ?? ''} ${p.venue ?? ''}`.toLowerCase()}>
+        <p class="font-semibold leading-snug">
+          {p.addedAfterArchive && <span class="mr-1 inline-block rounded bg-gold/30 px-1.5 text-xs font-semibold align-middle">New</span>}
+          {p.url ? <a href={p.url} rel="noopener" class="no-underline hover:underline">{p.title}</a> : p.title}
+        </p>
+        {p.authors && <p class="text-sm mt-1">{p.authors}</p>}
+        <p class="text-sm text-muted mt-1">
+          {p.venue ?? p.categoryLabel}{p.year && !(p.venue ?? '').includes(`(${p.year})`) ? ` (${p.year})` : ''}
+          {p.citationsAsOfArchive && <span> · {p.citationsAsOfArchive}</span>}
+          {p.doi && <span> · DOI: <a href={`https://doi.org/${p.doi}`} rel="noopener">{p.doi}</a></span>}
+        </p>
+        {p.relatedArchivedEntry && <p class="text-xs text-muted mt-1">Published version of the archived entry “{p.relatedArchivedEntry}”.</p>}
+      </li>
+    ))}
+  </ol>
+  <p id="pub-empty" class="hidden mt-6 text-muted">No publications match your search.</p>
+
+  <script>
+    const q = document.getElementById('pub-q') as HTMLInputElement;
+    const yr = document.getElementById('pub-year') as HTMLSelectElement;
+    const items = [...document.querySelectorAll<HTMLElement>('.pub')];
+    const tabs = [...document.querySelectorAll<HTMLButtonElement>('.pub-tab')];
+    const out = document.getElementById('pub-count')!;
+    let tab = 'all';
+    function apply() {
+      const terms = q.value.toLowerCase().split(/\s+/).filter(Boolean);
+      let n = 0;
+      for (const el of items) {
+        const ok = (tab === 'all' || el.dataset.cat === tab) && (!yr.value || el.dataset.year === yr.value)
+          && terms.every((t) => el.dataset.text!.includes(t));
+        el.hidden = !ok; if (ok) n++;
+      }
+      out.textContent = `Showing ${n} of ${items.length} publications`;
+      document.getElementById('pub-empty')!.classList.toggle('hidden', n > 0);
+    }
+    tabs.forEach((b) => b.addEventListener('click', () => {
+      tab = b.dataset.tab!; tabs.forEach((x) => x.setAttribute('aria-selected', String(x === b))); apply();
+    }));
+    q.addEventListener('input', apply); yr.addEventListener('change', apply); apply();
+  </script>
+</Base>

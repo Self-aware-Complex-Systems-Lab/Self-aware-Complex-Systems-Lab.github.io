@@ -1,0 +1,24 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import page from '../data/page-principal-investigator.json';
+import { withLinks } from '../lib/site';
+const profile = page.find((s) => s.heading === 'Personal Profile')!.items;
+const contact = profile.slice(1, profile.findIndex((i) => i.text === 'Dr. Soumik Sarkar'));
+---
+<Base title="Contact" description="Contact the Self-aware Complex Systems Laboratory at Iowa State University.">
+  <PageHeader title="Contact" kicker="Get in touch" />
+  <div class="grid md:grid-cols-2 gap-8">
+    <div class="bg-white border border-line rounded-lg p-6">
+      <h2 class="text-xl font-bold">Prof. Soumik Sarkar</h2>
+      <p class="text-muted">Principal Investigator</p>
+      <ul class="mt-4 space-y-1">{contact.map((i) => <li set:html={withLinks(i.text, i.links)} />)}</ul>
+    </div>
+    <div class="bg-white border border-line rounded-lg p-6">
+      <h2 class="text-xl font-bold">Lab members</h2>
+      <p class="mt-2">Contact details for current students are listed on their profiles on the <a href="/people/">People</a> page.</p>
+      <h2 class="text-xl font-bold mt-6">Location</h2>
+      <p class="mt-2">Black Engineering Building, Iowa State University, Ames, Iowa 50011, USA</p>
+    </div>
+  </div>
+</Base>

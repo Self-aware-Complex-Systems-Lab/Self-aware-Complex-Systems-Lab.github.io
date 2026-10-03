@@ -1,0 +1,78 @@
+[
+ {
+  "heading": "About Us",
+  "level": "h2",
+  "items": [
+   {
+    "tag": "p",
+    "text": "In our research group, we develop new machine learning algorithms for autonomous perception and decision-making in complex cyber-physical systems with emphasis on decision frameworks, information fusion, distributed learning and control, multi-agent systems, safety and robustness of learning-enabled cyber-physical systems. Our application areas of interest include complex cyber-physical systems (CPS) frameworks for (a) materials, design, and manufacturing, (b) food, energy, and sustainability, (c) biology, health and quality of life, and (d) autonomy and smart infrastructure. The nature of our research is inherently multi-disciplinary involving machine learning, dynamical systems, information theory, theory of computation, topology and statistical mechanics.",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Dr. Soumik Sarkar serves as the",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Director of the Translational AI Center (TrAC) at Iowa State",
+    "links": [
+     {
+      "href": "https://trac-ai.iastate.edu/",
+      "text": "Translational AI Center (TrAC) at Iowa State"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "Associate Director of the AI Institute for Resilient Agriculture (AIIRA)",
+    "links": [
+     {
+      "href": "https://aiira.iastate.edu/",
+      "text": "AI Institute for Resilient Agriculture (AIIRA)"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "Lead PI for the NSF Cyber-Physical Systems Frontier project COALESCE",
+    "links": [
+     {
+      "href": "https://coalesce.me.iastate.edu/",
+      "text": "COALESCE"
+     }
+    ]
+   },
+   {
+    "tag": "p",
+    "text": "Faculty-in-charge for the Cyber-Physical Systems minor at Iowa State",
+    "links": [
+     {
+      "href": "https://www.engineering.iastate.edu/engineering-minors/cps-minor/",
+      "text": "Cyber-Physical Systems minor at Iowa State"
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "heading": "Sponsors",
+  "level": "h2",
+  "items": []
+ },
+ {
+  "heading": "Regents",
+  "level": "h1",
+  "items": []
+ },
+ {
+  "heading": "Innovation",
+  "level": "h1",
+  "items": []
+ },
+ {
+  "heading": "Funds",
+  "level": "h1",
+  "items": []
+ }
+]

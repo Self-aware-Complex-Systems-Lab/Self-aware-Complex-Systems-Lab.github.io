@@ -1,0 +1,257 @@
+Skip to main content
+Skip to navigation
+SCSLab	
+HomePrincipal InvestigatorTeam & ContactResearchPublicationsMedia
+	
+Principal Investigator
+Personal Profile
+
+Contact Information
+
+2019A Black Engineering
+
+Iowa State University
+
+Ames, IA 50011
+
+515-294-5212
+
+soumiks (@) iastate.edu
+
+Google Scholar
+
+CV
+
+Dr. Soumik Sarkar
+
+Professor
+
+Director, Translational AI Center (TrAC), Iowa State University, https://trac-ai.iastate.edu/
+
+Associate Director, AI Institute for Resilient Agriculture (AIIRA), https://aiira.iastate.edu/
+
+Plant Science Institute Faculty Scholar
+
+Department of Mechanical Engineering
+
+Department of Computer Science
+
+Human Computer Interaction Graduate Program
+
+
+
+
+Ph.D. Mechanical Engineering, Penn State University, 2011
+
+M.S. Mechanical Engineering, Penn State University, 2009
+
+M.S. Mathematics, Penn State University, 2009
+
+B.E. Mechanical Engineering, Jadavpur University, 2006
+
+
+
+
+Dr. Soumik Sarkar received his Ph.D. in Mechanical Engineering from Penn State in 2011. Currently he is a Professor of Mechanical Engineering and Computer Science, and the Director of the Translational AI Center at Iowa State. He also serves as the Associate Director of the USDA-NIFA sponsored AI Institute for Resilient Agriculture (AIIRA). Dr. Sarkar’s research interests include Machine Learning and Decision & Control with applications to Cyber-Physical Systems such as energy, transportation, design & manufacturing and agriculture systems. He co‐authored more than 250 peer-reviewed publications and received about $55M research funding during his tenure at Iowa State. He won the ASME DSCD Rudolf Kalman Best Paper Award in 2021. Dr. Sarkar is a recipient of the prestigious NSF CISE Career Initiation Initiative (CRII) award in 2015, Young Investigator award from the US Air Force Office of Scientific Research (AFOSR) in 2017 and the NSF CAREER award in 2019.
+
+Research Funding
+
+Collaborative Research: DMREF: ML-Enabled Multi-Material Digital-Light Processing of Functional Polymers  (as Co-PI) sponsored by NSF ($800,000, 10/1/2023 - 9/30/2027)
+
+LEAP-HI: AI-Optimized 3D Printing of Super-Soft Materials for Personalized Sensing  (as Co-PI) sponsored by NSF ($2,000,000, 8/1/2021 - 7/31/2026)
+
+AIIRA: AI Institute for Resilient Agriculture (as Co-PI) sponsored by USDA-NIFA ($20,000,000, 9/1/2021 - 8/31/2026)
+
+CPS: Frontier: Collaborative Research: COALESCE: COntext Aware LEarning for Sustainable CybEr-Agricultural Systems (as PI) sponsored by NSF and USDA-NIFA ($7,000,000, 4/15/2021 - 3/31/2026)
+
+SCC-IRG Track 2: Smart Integrated Farm Network for Rural Agricultural Communities (SIRAC) (as Senior Personnel) sponsored by NSF ($1,499,830, 10/1/2020 - 9/30/2023)
+
+RII Track-2 FEC: Data-Enabled Discovery and Design to Transform Liquid-Based Energy Storage (D3TaLES) (as Senior Personnel) sponsored by NSF ($1,989,220, 9/1/2020 - 8/31/2024)
+
+Multiplexed Immunomarker Screening to Enable Patient-Tailored Immunotherapies (as Co-PI) sponsored by Congressionally Directed Medical Research Programs (CDMRP) ($587,996, 9/1/2020 - 8/31/2022)
+
+Context-aware learning for inverse design in photovoltaics (as Co-PI) sponsored by ARPA-E ($2,000,000, 4/15/2020 - 4/14/2022)
+
+CPS: Medium: Collaborative Research: Active Shooter Tracking & Evacuation Routing for Survival (ASTERS) (as ISU PI) sponsored by NSF ($649,982, 10/1/19-9/30/2022)
+
+Deep Insight - Deep-net driven approach to estimate driver state from naturalistic data (as Co-PI) sponsored by DOT – Federal Highway Administration (FHWA) ($1,354,417, 9/1/2019 – 8/31/2023)
+
+Fast Topology Optimization and Shape Style Transfer Using Machine Learning (as PI) sponsored by ANSYS ($75,000, 07/26/2019 – 05/15/2020)
+
+FACT: A Scalable Cyber Ecosystem for Acquisition, Curation, and Analysis of multispectral UAV image data (as Co-PI) sponsored by USDA-NIFA ($500,000, 07/01/2019 - 06/31/2022)
+
+CAREER:  Robustifying  Machine  Learning  for  Cyber-Physical  Systems (PI) sponsored by NSF ($511,620, 03/01/2019 - 02/29/2024)
+
+PALM: Physics-Aware Learning for Microstructure Design – Phase I (as Co-PI) sponsored by DARPA ($400,000, 12/21/2018 - 09/20/2019)
+
+Modeling multidimensional risk in real-world driver with diabetes (as Co-PI)  sponsored by Toyota ($198,664, 06/01/2018 - 02/28/2021)
+
+Battery-free RFID Sensor Network with Spatiotemporal Pattern Network Based Data Fusion System for Human Presence Sensing (as Co-PI) sponsored by ARPA-E ($2,000,000, 06/01/2018 - 05/31/2021)
+
+Predicting Driving Safety in Advancing Age (as Co-PI) sponsored by University of Nebraska Medical Center (original award from NIH) – ($94,639, 05/01/2017 - 08/31/2018)
+
+Neural-Symbolic approach to Real-time Decision-making in Complex Aerospace Systems (as PI) sponsored by AFOSR - Young Investigator Program ($360,000, 5/1/2017 – 4/30/2020)
+
+A multi-scale data assimilation framework for layered sensing and hierarchical control of disease spread in field crops (as PI) sponsored by NSF/USDA-NIFA
+
+($990,471, 3/1/2017 - 2/29/2020)
+
+Saliency-driven robotic networks for Spatiotemporal plant Phenotyping (as Co-PI) sponsored by NSF/USDA-NIFA ($820,021, 12/15/2016 - 12/14/2019)
+
+PFI: BIC- A Smart Service System for Traffic Incident Management Enabled by Large-data Innovations (TIMELI) (as Co-PI) sponsored by NSF ($1,000,000, 09/01/2016 - 08/31/2019)
+
+CM: Machine-Learning Driven Decision Support in Design for Manufacturability (as Co-PI) sponsored by NSF ($415,175, 09/01/2016 - 08/31/2019)
+
+Big Data for Sustainable Cities & Decision Making (as Co-PI) sponsored by Iowa State Presidential Initiative on Interdisciplinary Research ($375,000, 08/01/2016 - 07/31/2019)
+
+D3AI: Data drive discoveries for agricultural innovation (as Co-PI) sponsored by Iowa State Presidential Initiative on Interdisciplinary Research ($750,000, 10/01/2015 - 09/30/2018)
+
+Using Engineering tools to identify and quantify biotic and abiotic stress in soybean for customable agriculture production (as Co-PI) sponsored by Iowa Soybean Association ($185,590, 10/01/2015 – 09/30/2018) 
+
+Novel Machine Learning based methods for low-light image/video denoising (as Co-PI) sponsored by Regents Innovation Fund and Rockwell Collins Inc. ($200,000, 01/01/2015 - 05/31/2017)
+
+A Knowledge Representation and Information Fusion Framework for Decision Making in Complex Cyber-Physical Systems (as PI) sponsored by NSF ($182,906, 05/15/2015 - 05/14/2017)
+
+A Scalable Multi-agent Systems approach to Building HVAC Systems Control for Energy Efficiency (as Co-PI) sponsored by Iowa Energy Center ($100,000, 01/01/2015 - 08/31/2016)
+
+Teaching
+
+Courses taught as instructor at the Department of Mechanical Engineering, Iowa State University, Ames, IA, USA (August 2014 to present):  
+
+Graduate course on Data Analytics and Machine Learning for Cyber-Physical Systems Applications, Spring 2017, Spring 2018
+
+Junior Level Course on Engineering Measurements, Fall 2016
+
+Senior Level Course on System Dynamics and Control, Fall 2014, Spring 2015, Fall 2017
+
+Freshmen Level Course on Mechanical Engineering Problem Solving with Computer Applications, Fall 2015, Spring 2016
+
+Outreach
+
+Supervise undergraduate summer interns in partnership with the Iowa Illinois Nebraska STEM Partnership for Innovation in Research and Education (IINSPIRE) program (an NSF LSAMP alliance among 16 colleges and universities working together to broaden the participation of under-represented minorities in STEM education in the Midwest): http://www.iinspirelsamp.iastate.edu/
+
+Supervise undergraduate summer interns in partnership with the MOSAIC REU site: http://www.me.iastate.edu/mosaic/
+
+Supervise high school students in summer in partnership with the Young Engineers and Scientists (YES) research internship program which is administered by the NSF Engineering Research Center for Biorenewable Chemicals: http://www.cbirc.iastate.edu/education/precollege/young-engineers-and-scientists-program-at-cbirc/
+
+Invited Talks
+
+AI-enabled digital twins for resilient and climate smart agriculture, Artificial Intelligence in Agriculture Conference, A&M Hotel & Conference Center - College Station, Texas, April 2024
+
+AI-enabled digital twins for resilient and climate smart agriculture, Symposium on Application of Cyber-Physical Systems in Agriculture, Taiwan Agricultural Research Institute (TARI), Taichung, Taiwan, March 2024
+
+AI-enabled digital twins for resilient and climate smart agriculture, Workshop on US-India Research Initiatives and Opportunities in Digital Agriculture, 30th IEEE International Conference on High Performance Computing, Data, and Analytics, Goa, India, December 2023
+
+Generative modeling for scientific machine learning, RTX Physics Informed Machine Learning (PIML) workshop, Virtual, November 2023
+
+Cyber-Agricultural Systems in Crop Breeding and Production, Advances and Applications of AI in Crop Breeding and Genetics Symposium, 2023 ASA, CSSA, SSSA International Annual Meeting, October 2023
+
+Generative modeling for scientific machine learning, Scientific Machine Learning for Computational Mechanics (SciML4CM), USNCCM 2023, Albuquerque, NM, July 24, 2023
+
+Facets of Decentralized Deep Learning, 9th Midwest Workshop on Control and Game Theory at the University of Minnesota Twin Cities in Minneapolis, MN, USA, April 2023
+
+Digital Twins in Agriculture, Digital Twin Event at BASF, November 2022.
+
+Future of Cyber-Physical Systems - Challenges and Opportunities, NSF CPS PI Meeting Workshop, November 2022.
+
+The New Paradigm of Cyber-Agricultural Systems, Keynote address in Asia-Pacific Federation for Information Technology in Agriculture/World Congress on Computers in Agriculture (APFITA/WCCA), November 2022
+
+AIOT for Sustainable Agriculture, Smart Agriculture session, IEEE 8th World Forum on Internet of Things (WF-IoT), November  2022
+
+AIIRA: AI Institute for Resilient Agriculture, IoT4Ag Seeds of Innovation Series, August 2022
+
+Vision for Cyber-Ag Systems: AIIRA, COALESCE and beyond, ABE Faculty Retreat, University of Florida, August 2022
+
+A cyber physical systems approach to sustainable agriculture, Computing Enabled Networked Physical Systems (CNPS) interagency working group (IWG) Meeting, June 2022
+
+Facets of Deep Learning in Cyber-Agricultural Systems, Syngenta, May 2022
+
+Cyber-Agricultural Systems: An opportunity for international collaboration, NSF-MOST Workshop on Cyber Physical Systems (CPS) & Smart and Connected Communities (SCC), March 2022.
+
+Plant Phenomics and Artificial Intelligence to Glean Information from Plant Sensing Technologies, Genetics, Genomics and Bioinformatics Symposium, ASAS Midwest Section Meeting, March 2022. 
+
+Role of Interpretable Machine Learning in Cyber-agricultural Systems, International Conference on Digital Technologies for Sustainable Crop Production (DIGICROP), March 2022.
+
+A cyber-physical systems approach to agricultural sustainability, Japanese Society of Agricultural Informatics (JSAI) Annual Conference, May 2021.
+
+A hands-on introduction to Deep Learning, Midwest Big Data Summer School, Ames, IA, May 2021.
+
+Physics-aware Machine Learning for Inverse Design, Honeywell, May 2021.
+
+Next Big Research Challenges in CPS, NSF Invited Workshop, April 2021.
+
+Building Trust in Deep Learning-based Combustion Instability Detection, International Indo-US online workshop on Application of Machine Learning and Dynamical Systems Approach for Early Detection and Control of Combustion Instabilities, January 2021.
+
+A cyber-physical systems approach to agricultural sustainability, Workshop on Data Science for Agriculture and Natural Resource Management (DSANRM2020), 8th International Conference on Big Data Analytics (BDA2020), December 2020.
+
+Machine Learning for Cyber-Physical Systems, Pennsylvania State University, University Park, PA, October 2019
+
+Artificial Intelligence and Machine Learning for Engineering Design and Simulations, ISU CoMFRE Annual Meeting, Ames, IA, October 2019
+
+Deep Learning for Engineering Design and Simulations, Michigan Technological University, Houghton, MI, October 2019
+
+Deep Learning in digital agriculture: From microscopy to canopy, Corteva Agriscience, Johnston, IA, June 2019
+
+Nuts and Bolts of Deep Learning, Midwest Big Data Summer School, Ames, IA, May 2019.
+
+​Deep Learning for Combustion Instability Diagnostics, 17th International Conference on Numerical Combustion, Aachen, Germany, May 2019
+
+Deep Learning for Cyber-Agricultural Analytics, The 3rd US-JAPAN (NSF-JST) Workshop on Collaborative Global Research on Applying Information Technology, Tokyo, March 2019
+
+Deep Learning for Agricultural Analytics, Keynote address in Asia-Pacific Federation for Information Technology in Agriculture/World Congress on Computers in Agriculture (AFITA/WCCA), IIT Bombay, Mumbai, India, October 2018
+
+Deep learning in cyber-enabled design and manufacturing, Georgia Institute of Technology, Atlanta, GA, October 2018
+
+Robustifying Deep Reinforcement Learning agents under adversarial attacks, Honeywell, Minneapolis, MN, September 2018
+
+Probabilistic Graphical Modeling for Building Energy Disaggregation,  Intelligent Buildings Operations workshop, Purdue University, West Lafayette, IN, July 2018
+
+Machine learning Approaches for Building Analytics, Intelligent Buildings Operations workshop, Purdue University, West Lafayette, IN, July 2018
+
+Engineering analytics with machine learning: Roles of supervised, semi-supervised and unsupervised models, Tsinghua University, Beijing, China, July 2018   
+
+Engineering analytics with deep learning: a few success stories, NVIDIA Corporate Headquarters, Santa Clara, CA, February 2018
+
+A multi-scale data assimilation framework for layered sensing and hierarchical control of disease spread in field crops, The 2nd US-JAPAN (NSF-JST) Workshop on Collaborative Global Research on Applying Information Technology, Tokyo, December 2017
+
+A multi-scale data assimilation framework for layered sensing and hierarchical control of disease spread in field crops, NSF CPS PI Meeting, Washington DC, November 2017
+
+​Applied Deep Learning, Midwest Big Data Summer School, Ames, IA, July 2017
+
+​Spatiotemporal Graphical Modeling for Complex Energy Systems, National Renewable Energy Laboratory, Golden, CO, April 2017
+
+Spatiotemporal Graphical Modeling for Complex Cyber-Physical Systems, Department of Statistics, Iowa State University, Ames, IA, February 2017
+
+Engineering Analytics with Deep Learning, ExxonMobil Research and Engineering, Annandale, NJ, December 2016
+
+A Deep Auto-encoder Approach to Natural Low-light Image Enhancement, Rockwell Collins Inc., Cedar Rapids, IA, May 2016
+
+Spatiotemporal Graphical Modeling for Complex Cyber-Physical Systems, University of Colorado Boulder, CO, March 2016
+
+Solving Hard Engineering Problems with Deep Learning, Department of Mechanical Engineering, Washington State University, WA, March 2016
+
+Machine Learning for Plant Phenotypic Decision-making, Phenotype Prediction: Image Acquisition and Analysis, Iowa State University, Ames, IA, February 2016
+
+Solving Hard Engineering Problems with Deep Learning, Department of Computer Science, Iowa State University, Ames, IA, September 2015
+
+RGBD Occlusion Detection via Deep Convolutional Neural Networks, NVIDIA GPU Technical Conference, San Jose, CA, March 2015
+
+Research Activities at Iowa State in Dynamics, Control and Decision-making: From Aerospace to Building Energy Systems, United Technologies Research Center, East Hartford, CT, March 2015
+
+Unsupervised aspects in Autonomous Perception & Decision-making, US Army Research Laboratory, Adelphi, MD, February 2015
+
+Learning, Inference and Decision making in Human-cyber-physical Systems, Iowa State University, Ames, IA, January 2014
+
+Autonomous Perception and Decision making in Complex Cyber-physical Systems, Missouri University of Science & Technology, Rolla, MO, January 2013
+
+Health Monitoring of Human-engineered Complex Systems: A Cyber-physical Approach, Indian Institute of Science, Bangalore, India, June 2011
+
+Autonomous Perception and Decision making in Complex Cyber-physical Systems, United Technologies Research Center, East Hartford, CT, April 2011
+
+Data-driven Component level Fault Detection in Aircraft Gas Turbine Engines, Propulsion Controls and Diagnostic Workshop, Cleveland, OH USA, December 2009
+
+Statistical Estimation of Multiple Faults in Aircraft Gas Turbine Engines, NASA Aviation Safety Technical Conference, Denver, CO USA, October 2008
+
+Page updated
+Google Sites
+Report abuse

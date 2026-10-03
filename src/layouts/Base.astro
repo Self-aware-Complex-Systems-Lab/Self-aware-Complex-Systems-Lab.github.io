@@ -1,0 +1,75 @@
+---
+import '../styles/global.css';
+import { SITE, NAV } from '../lib/site';
+import assets from '../data/assets.json';
+
+interface Props { title: string; description?: string; }
+const { title, description = `${SITE.name} at ${SITE.university}, directed by Prof. Soumik Sarkar.` } = Astro.props;
+const path = Astro.url.pathname.replace(/\/?$/, '/');
+const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title === SITE.short ? `${SITE.short} · ${SITE.name}` : `${title} · ${SITE.short}`}</title>
+    <meta name="description" content={description} />
+    <link rel="icon" type="image/png" href={assets.logo} />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet" />
+  </head>
+  <body class="min-h-screen flex flex-col">
+    <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-2 focus:left-2 bg-white px-3 py-2 rounded z-50">Skip to main content</a>
+    <header class="bg-white border-b border-line">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 flex items-center justify-between gap-4 py-3">
+        <a href="/" class="flex items-center gap-3 no-underline text-ink">
+          <span class="flex h-11 w-14 items-center justify-center rounded bg-cardinal"><img src={assets.logo} alt="" width="505" height="360" class="h-9 w-auto" /></span>
+          <span class="leading-tight">
+            <span class="block font-serif text-lg font-bold">{SITE.short}</span>
+            <span class="block text-xs text-muted">{SITE.name} · {SITE.university}</span>
+          </span>
+        </a>
+        <button id="nav-toggle" class="lg:hidden rounded border border-line px-3 py-2 text-sm" aria-expanded="false" aria-controls="site-nav">Menu</button>
+      </div>
+      <nav id="site-nav" aria-label="Primary" class="hidden lg:block border-t border-line">
+        <ul class="mx-auto max-w-6xl px-4 sm:px-6 flex flex-col lg:flex-row lg:flex-wrap gap-x-1">
+          {NAV.map((n) => (
+            <li>
+              <a href={n.href} aria-current={isActive(n.href) ? 'page' : undefined}
+                 class:list={['block px-3 py-2.5 text-[0.95rem] no-underline border-b-2',
+                   isActive(n.href) ? 'border-cardinal text-cardinal font-semibold' : 'border-transparent text-ink hover:text-cardinal']}>
+                {n.label}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </nav>
+    </header>
+    <main id="main" class="flex-1 mx-auto w-full max-w-6xl px-4 sm:px-6 py-10">
+      <slot />
+    </main>
+    <footer class="bg-ink text-gray-200 text-sm">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6 py-8 grid gap-4 sm:grid-cols-2">
+        <div>
+          <p class="font-semibold text-white">{SITE.name}</p>
+          <p>Department of Mechanical Engineering · {SITE.university} · Ames, IA 50011</p>
+        </div>
+        <div class="sm:text-right">
+          <p>Content migrated from the <a class="text-gold" href={SITE.original}>original Google Sites website</a>, archived {SITE.archivedOn}.</p>
+          <p>Historical statuses and funding are reproduced as originally listed.</p>
+        </div>
+      </div>
+    </footer>
+    <script>
+      const b = document.getElementById('nav-toggle');
+      const n = document.getElementById('site-nav');
+      b?.addEventListener('click', () => {
+        const open = b.getAttribute('aria-expanded') === 'true';
+        b.setAttribute('aria-expanded', String(!open));
+        n?.classList.toggle('hidden', open);
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,51 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import page from '../data/page-research.json';
+import assets from '../data/assets.json';
+import { withLinks, slug } from '../lib/site';
+
+const imgs = assets.research as Record<string, { src: string; manifestId: string; size: number[] }>;
+const capIdx = page.findIndex((s) => s.heading === 'Laboratory capabilties');
+const areas = page.slice(1, capIdx).map((s) => ({ ...s, heading: s.heading.trim() }));
+const caps = page.slice(capIdx + 1);
+const overview = imgs['Research Areas'];
+const imgFor = (h: string) => Object.entries(imgs).find(([k]) => k.trim() === h)?.[1];
+---
+<Base title="Research" description="SCSLab research areas and laboratory capabilities.">
+  <PageHeader title="Research Areas" kicker="Research" />
+  {overview && <img src={overview.src} alt="Overview illustration of SCSLab research areas" width={overview.size[0]} height={overview.size[1]}
+       class="w-full max-h-[28rem] object-contain bg-white border border-line rounded-lg" data-research-image="Research Areas" />}
+
+  <nav aria-label="Research areas" class="mt-8 flex flex-wrap gap-2">
+    {areas.map((a) => <a href={`#${slug(a.heading)}`} class="text-sm rounded-full border border-line bg-white px-3 py-1 no-underline text-ink hover:border-cardinal">{a.heading}</a>)}
+  </nav>
+
+  <div class="mt-10 space-y-6">
+    {areas.map((a) => {
+      const im = imgFor(a.heading);
+      return (
+        <section id={slug(a.heading)} class="bg-white border border-line rounded-lg p-5 sm:p-6 grid md:grid-cols-[14rem_1fr] gap-6 scroll-mt-6">
+          <div>{im && <img src={im.src} alt={`Illustration for ${a.heading}`} loading="lazy" width={im.size[0]} height={im.size[1]} class="w-full h-auto rounded" data-research-image={a.heading} />}</div>
+          <div>
+            <h2 class="text-xl font-bold">{a.heading}</h2>
+            <div class="prose-lab mt-3">{a.items.map((i) => <p set:html={withLinks(i.text, i.links)} />)}</div>
+          </div>
+        </section>
+      );
+    })}
+  </div>
+
+  <section class="mt-14" id="capabilities">
+    <h2 class="text-2xl font-bold">Laboratory capabilities</h2>
+    <p class="text-sm text-muted mt-1">Equipment as listed on the original website (archived 2026-10-03).</p>
+    <div class="mt-5 grid md:grid-cols-2 gap-5">
+      {caps.map((c) => (
+        <div class="bg-white border border-line rounded-lg p-5">
+          <h3 class="font-bold">{c.heading.replace(/:$/, '')}</h3>
+          <ul class="mt-2 list-disc pl-5 text-[0.95rem] space-y-1">{c.items.map((i) => <li>{i.text}</li>)}</ul>
+        </div>
+      ))}
+    </div>
+  </section>
+</Base>

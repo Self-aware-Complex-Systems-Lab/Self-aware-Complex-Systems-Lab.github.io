@@ -1,0 +1,1158 @@
+Skip to main content
+Skip to navigation
+SCSLab	
+HomePrincipal InvestigatorTeam & ContactResearchPublicationsMedia
+	
+Team & Contact
+Principal Investigator
+
+Contact Information
+
+2019A Black Engineering
+
+Iowa State University
+
+Ames, IA 50011
+
+515-294-5212
+
+soumiks (@) iastate.edu
+
+Google Scholar
+
+CV
+
+Dr. Soumik Sarkar
+
+Professor
+
+Director, Translational AI Center (TrAC), Iowa State University, https://trac-ai.iastate.edu/
+
+Associate Director, AI Institute for Resilient Agriculture (AIIRA), https://aiira.iastate.edu/
+
+Plant Science Institute Faculty Scholar
+
+Department of Mechanical Engineering
+
+Department of Computer Science
+
+Human Computer Interaction Graduate Program
+
+
+
+
+Ph.D. Mechanical Engineering, Penn State University, 2011
+
+M.S. Mechanical Engineering, Penn State University, 2009
+
+M.S. Mathematics, Penn State University, 2009
+
+B.E. Mechanical Engineering, Jadavpur University, 2006
+
+
+
+
+Dr. Soumik Sarkar received his Ph.D. in Mechanical Engineering from Penn State in 2011. Currently he is a Professor of Mechanical Engineering and Computer Science, and the Director of the Translational AI Center at Iowa State. He also serves as the Associate Director of the USDA-NIFA sponsored AI Institute for Resilient Agriculture (AIIRA). Dr. Sarkar’s research interests include Machine Learning and Decision & Control with applications to Cyber-Physical Systems such as energy, transportation, design & manufacturing and agriculture systems. He co‐authored more than 250 peer-reviewed publications and received about $55M research funding during his tenure at Iowa State. He won the ASME DSCD Rudolf Kalman Best Paper Award in 2021. Dr. Sarkar is a recipient of the prestigious NSF CISE Career Initiation Initiative (CRII) award in 2015, Young Investigator award from the US Air Force Office of Scientific Research (AFOSR) in 2017 and the NSF CAREER award in 2019.
+
+Post Doctoral Students
+
+Contact Information
+
+soura (@) iastate.edu
+
+Souradeep Chattopadhyay
+
+ Statistics, Iowa State University, 2024
+
+M.S. Statistics, Iowa State University, 2024
+
+M.S. Statistics, University of Calcutta, 2016
+
+B.S. Statistics, University of Calcutta, 2014
+
+
+
+
+Souradeep is currently a Post-Doc and joined the lab in Spring 2021. He is interested in machine learning especially unsupervised learning methods and its applications to various domains. He has a very deep interest in astronomy and over the past two years have published papers which involve analyzing astronomical data using machine learning methods. His hobbies include singing and reading, his favorite author being Dan Brown. He is also an ardent fan of Sherlock Holmes.
+
+Doctoral Students
+
+Contact Information
+
+zahid (@) iastate.edu
+
+LinkedIn
+
+Zahid Hasan
+
+B.S. Electrical Engineering, Bangladesh University of Engineering and Technology, 2018
+
+
+
+
+Zahid is a Ph.D. student in the Department of Electrical and Computer Engineering, Iowa State University. He joined Dr. Soumik's lab in the Summer 2021 semester. His research interest includes Machine Learning, Deep Learning and Cyber-Physical System design. He is currently working on deep learning and computer vision in intelligent driving applications. His hobbies include cycling, soccer, table tennis, hiking, and photography.
+
+
+
+
+Contact Information
+
+hjy (@) iastate.edu
+
+LinkedIn
+
+Hsin-Jung Yang 
+
+M.S. Applied Mechanics, National Taiwan University, 2020
+
+B.S. Engineering Science and Ocean Engineering, National Taiwan University, 2018
+
+
+
+
+Hsin-Jung is currently a Ph.D. student in the Department of Mechanical Engineering at Iowa State University. He joined the Self-aware Complex Systems Laboratory in Fall 2021 and his research interests include machine learning, deep learning, mechatronics, and robotics. His other interests include hiking and photography.
+
+
+
+
+Contact Information
+
+ayanlade (@) iastate.edu
+
+LinkedIn
+
+Timilehin Ayanlade 
+
+B.E. Agricultural Engineering, Federal University of Technology, Akure, Nigeria, 2019
+
+
+
+
+Timilehin Ayanlade is a Ph.D. student in Mechanical Engineering. He joined the Self-aware Complex Systems Laboratory in Spring 2022. He holds a B.E. degree in Agricultural Engineering. His main research interests include machine learning, deep learning, and computer vision. He will focus on machine learning and deep learning in his Ph.D. thesis. He is also interested in playing chess, reading books, and public speaking.
+
+Contact Information
+
+mahsak (@) iastate.edu
+
+Mahsa Khosravi
+
+M.S. Industrial Engineering, University of Tehran, Tehran, Iran, 2015
+
+B.S. Industrial Engineering, Semnan University of Science and Technology, Semnan, Iran 2013
+
+
+
+
+Mahsa Khosravi is a Ph.D. student in Industrial Engineering and joined the Self-aware Complex Systems in Summer 2021. Her M.S. degree was in the field of cancer diagnosis and recurrence prediction using machine learning. Her main research interests include Reinforcement learning, machine learning, deep learning, and robotics. She is also interested in playing the piano, reading books, and rock climbing.
+
+Contact Information
+
+supersai (@) iastate.edu
+
+Qisai Liu
+
+B.S. Mechanical Engineering, Iowa State University, 2020
+
+
+
+
+Qisai is currently a Ph.D. student at Iowa State University. In summer 2019, he had two internship experiences related to robotics and manufacturing. He enjoys working on machine learning and robotics related problems. 
+
+Contact Information
+
+nsaadati (@) iastate.edu
+
+Nastaran Saadati
+
+B.S. Marine Engineering, Sharif University of Technology, Tehran, Iran
+
+
+
+
+Nastaran is a Ph.D. student in Mechanical Engineering, who joined Dr. Sarkar’s lab in the Fall 2022. Her current research interests are in machine learning, deep learning, robotics and control. She is also interested in reading books, hiking and watching movies.
+
+Contact Information
+
+nitesh (@) iastate.edu
+
+
+
+Nitesh Subedi
+
+B.E. in Mechanical Engineering, Tribhuvan University, 2022
+
+
+
+
+Nitesh is currently a Ph.D. student in Mechanical Engineering. He joined the research lab in the summer of 2024. His research focuses on the control of dual-arm robots and drones using Reinforcement Learning (RL) and Model Predictive Control (MPC). Nitesh is particularly interested in Deep Reinforcement Learning and its applications in enhancing the efficiency and performance of robotic systems. He aims to advance the field of intelligent robotics through innovative approaches and practical applications.
+
+Contact Information
+
+shreyang(@)iastate.edu
+
+
+
+Shreyan Ganguly
+
+B.E. in Construction Engineering, Jadavpur University, 2023
+
+
+
+
+Shreyan is a Ph.D. student in the Mechanical Engineering department at Iowa State University. He joined the Self-aware Complex Systems Laboratory in the fall of 2024. He has previously contributed to research projects focused on image classification, shot boundary detection, automated speech recognition, and deployed deep learning model for semantic search. His research interests include leveraging artificial intelligence to automate complex engineering workflows, with a particular focus on machine vision, deep learning, and computer graphics. He also enjoys playing the guitar, exploring computer games, photography, and hiking.
+
+Contact Information
+
+alloydas(@)iastate.edu
+
+
+
+Alloy Das
+
+B.E. Information Technology ,Burdwan University,2022
+
+
+
+
+Alloy Das is a PhD student in the Department of Mechanical Engineering at Iowa State University, where he joined the Self-Aware Complex Systems Laboratory in Fall 2025. His current research focuses on the intersection of artificial intelligence, computer vision, and intelligent systems, exploring how learning-based models can enable machines to perceive, reason, and adapt within complex environments. Alloy’s broader interests span autonomous systems, machine perception, and adaptive intelligence, with an emphasis on bridging human-like cognition and robust machine design.
+
+Lucas Nerone Rillo
+
+Lucas is a PhD student in Computer Science at Iowa State University. He joined the lab in Fall 2025, and his research interests include Reinforcement Learning and Agentic AI.
+
+
+
+
+
+
+
+Henry Kim
+
+
+
+
+B.E. in Computer Science and Engineering, Chungnam National University, 2024
+
+
+
+
+Henry Kim is a Ph.D. student in Computer Science at Iowa State University. He joined the Self-aware Complex Systems Lab in Summer 2026. He holds a B.E. degree in Computer Science and Engineering. His research interests include robotics, deep reinforcement learning, and computer vision. He also has industry experience in robotics, UAV systems, and deep learning through his previous internship.
+
+
+
+
+
+
+
+Manas Sewatkar
+
+
+
+
+Manas is a PhD in Computer Science at Iowa State University working with Reinforcement Learning and Computer Vision.
+
+
+
+
+
+Yongyun Song
+
+
+
+
+Iowa State University,Department of Computer Science
+
+
+
+
+Yongyun is a Ph. D in a computer science at iowa state university. He joined the lab in Summer 2026 and his research interests include robotics, 3D reconstruction, and large language models
+
+
+
+
+Masters Students
+Sanjeda Akter
+
+Iowa State University
+
+Department of Computer Science
+
+B.S. in Computer Science and Engineering, BRAC University, 2023
+
+Sanjeda joined the lab in Summer 2025 and is currently a master’s student researcher focusing on Large Language Models and Reinforcement Learning.
+
+
+
+Harshada Anavkar
+
+Iowa State University
+
+Department of Mechanical Engineering
+
+B.Tech IIT Kharagpur 2025
+
+
+
+
+Harshada joined the lab in Fall 2025 as a Master’s student. Her research interests lie at the intersection of Machine Learning and Mechanics. 
+
+Tirtho Roy
+
+Iowa State University, 
+
+Department of Mechanical Engineering. 
+
+Tirtho is a concurrent B.S. in Data Science/M.S. in Mechanical Engineering student at Iowa State University. He joined the lab in Summer 2024, and his research interests include Cyber-Agricultural Systems and FinTech.
+
+
+
+Research Students on Independent Studies
+
+​Minhao Wang
+
+Iowa State University
+
+Department of Mechanical Engineering
+
+​Deep Learning for Image Processing
+
+Timothy Wilkie
+
+Iowa State University
+
+Department of Mathematics
+
+Distributed Optimization
+
+Seyed Vahid Mirnezami
+
+Iowa State University
+
+Department of Mechanical Engineering
+
+​Image Processing, Machine Learning, analyzing plant images data
+
+Nikhil Bhattacharya
+
+Iowa State University
+
+Department of Software Engineering
+
+​Agricultural Data Curation
+
+Post-doctorate Alumni
+
+Contact Information
+
+cliu5 (@) iastate.edu
+
+Google Scholar
+
+Chao Liu
+
+Ph.D. Power Engineering and Engineering Thermophysics, Tsinghua University, 2013
+
+B.E. Thermal and Power Engineering, Huazhong University of Science and Technology, 2008
+
+
+
+
+Chao joined the lab in August 2015. His research interests mainly focus on two areas- one is diagnosis, prognosis, and health monitoring, with experiences in feature extraction and selection, fault identification, and remaining useful life prediction by physical model and statistical model; the other is structure dynamics, with experiences in dynamics of structures and rotor systems, development of finite element method applied in dynmics of cracked rotor system, and experimental study on rotor systems.
+
+He is currently working as an Assistant Professor in the Department of Thermal Engineering, Tsinghua University.  
+
+Contact Information
+
+orbingol (@) iastate.edu
+
+Personal Website
+
+LinkedIn
+
+Onur Rauf Bingol
+
+Ph.D. Mechanical Engineering, Iowa State University, 2019
+
+M.S. Information Systems, Middle East Technical University, 2014
+
+M.S. Metallurgical and Materials Engineering, Middle East Technical University, 2010
+
+B.S. Metallurgical and Materials Engineering, Middle East Technical University, 2007
+
+
+
+
+Onur joined SCS lab in Fall 2019 semester as a Postdoctoral Researcher. During his Ph.D. studies, he has developed a variety of open-source software libraries for computer graphics and computational mechanics, and shared on GitHub. His research interests include computer graphics, computational geometry, high performance computing and robotics.
+
+He is currently working at Palo Alto Research Center (PARC).
+
+Contact Information
+
+baditya (@) iastate.edu
+
+Personal Website
+
+Aditya Balu
+
+Ph.D. Mechanical Engineering, Iowa State University, 2020
+
+B.E. Hons. Mechanical Engineering, Birla Institute of Technology and Sciences, Pilani, 2014 
+
+
+
+
+Aditya Balu was a Ph.D. student at Iowa State University under joint supervision of Dr. Adarsh Krishnamurthy and Dr. Soumik Sarkar. He received his undergraduate degree in 2014 from Birla Institute of Technology and Sciences, Pilani. Previously, he worked at FMC Technologies Inc. for two years. His research interests include Design for Manufacturing, Machine Learning and High Performance Computing applications to solve Engineering problems. 
+
+Contact Information
+
+jrwaite (@) iastate.edu
+
+Joshua Waite
+
+Ph.D. Mechanical Engineering & Computer Engineering, Iowa State University, 2024
+
+B.S. Mechanical Engineering, Iowa State University, 2019
+
+
+
+
+Joshua Waite completed his Ph.D. at Iowa State University in 2024 under the supervision of Dr. Soumik Sarkar. He served as a Postdoctoral Research Associate with the Translational AI Center (TrAC), working on applied AI research across computer vision, multimodal AI, agentic AI systems, and simulation-based decision support.
+
+
+
+
+He is currently working as a Data Scientist at TrAC
+
+Graduate Alumni
+
+Contact Information
+
+kglore (@) iastate.edu
+
+Personal Website
+
+Google Scholar
+
+Kin Gwn Lore
+
+M.S. Mechanical Engineering, Iowa State University, 2016
+
+B.S. Mechanical Engineering, Iowa State University, 2014
+
+
+
+
+Kin has worked on multi-agent systems and implemented machine learning algorithms to solve physical engineering problems. His projects were on network topology control in multi-agent proximity networks, application of Deep Learning models for microfluidic pillar sculpting, low-light image denoising, decision making in cyber-physical systems, and in prognostics and health monitoring. He has a burning passion in creativity - from making digital arts and playing musical instruments to video editing and programming.
+
+He graduated from ​SCS lab in December 2016 and is currently working in United Technologies Research Center at East Hartford, CT, USA. 
+
+Contact Information
+
+kkumar (@) iastate.edu
+
+Kundan Kumar
+
+M.S. Department of Computer Science, Iowa State University, 2016
+
+B. Tech. Electronics and Communications Engineering, 2012
+
+
+
+
+A mysterious student who shows up in the lab only late at night and on the weekends. Even his profile picture seems mysterious! 
+
+Contact Information
+
+vchawla (@) iastate.edu
+
+Vikas Chawla 
+
+M.S. Computer Science, ​Iowa State University, 2016 
+
+
+
+
+He is currently working in Twilio as a Senior Software Engineer.
+
+Contact Information
+
+akintayo (@) iastate.edu
+
+Google Scholar
+
+Adedotun Akintayo
+
+Ph.D. Mechanical Engineering, Iowa State University, 2017
+
+M.S. Control Systems, University of Sheffield, United Kingdom, 2014
+
+B.E. Mechanical Engineering, Ahmadu Bello University, Zaria, Nigeria, 2009
+
+
+
+
+Adedotun was a Ph.D. Student in the Mechanical Engineering department. He became a member to Dr. Soumik Sarkar's lab in the Fall of 2014. His research interests are in data and systems modelling, computational intelligence, active energy controls in buildings, optimization and combinatorics. He likes to drive around town, interact with people and read.
+
+He graduated from SCSlab in December 2017 and is currently working in Intel as a Graphics Software Engineer at Folsom, CA. 
+
+Contact Information
+
+lwu26 (@) iastate.edu
+
+Google Scholar
+
+Linjiang Wu
+
+M.S. Mechanical Engineering, Iowa State University, 2018
+
+​B.S. Automotive Engineering, Wuhan University of Technology, 2012
+
+
+
+
+Linjiang has worked on graphical modeling for cyber-physical systems for engineering problems. His studies are traffic sensor health monitoring, building energy consumption analysis and prediction, and application of Deep Learning techniques for feature extracting and fault detection.  He has a passion for automotive engineering and is a well-versed automotive engineer.
+
+He graduated from ​SCS lab in May 2018 and is currently working in Hi-Lex Controls Inc. at Rochester Hills, MI, USA.  
+
+Contact Information
+
+N/A
+
+Apurva Kokate
+
+M.S. Computer Science, ​Iowa State University, 2018
+
+​B.E. Computer Engineering, University of Mumbai, Mumbai, 2016
+
+
+
+
+Apurva joined the lab in Spring 2017. She has a passion for Computer Science and is deeply rooted in solving puzzles and developing programs. She focuses herself on the use of technology with a responsible, ethical stand. She hopes to contributing in making machines more intelligent and taking A.I to the next level. In the lab, she hopes to learn and use Machine Learning techniques.
+
+She graduated from SCS lab in May 2018 and is currently working in Kingland Systems as a Software Designer.  
+
+Contact Information
+
+vchinde (@) iastate.edu
+
+Personal Website
+
+Google Scholar
+
+Venkatesh Chinde
+
+M.S. Electrical and Computer Engineering, Iowa State University, 2015
+
+M.Tech. Electrical and Electronics Engineering, VJTI, 2010
+
+B.S. Electrical and Electronics Engineering, Auroras Engineering College, 2008
+
+
+
+
+Venkatesh was a Ph.D. student from the Mechanical Engineering department. His research interests are on building control systems, distributed optimization, diffusion maps, passivity-based control, flatness-based control and feedback linearization. He likes badminton, tennis, and cooking. 
+
+Contact Information
+
+N/A
+
+Shuo Wang
+
+Ph.D. Civil Engineering, Iowa State University, 2018
+
+​​M.S. Civil Engineering, University of Nebraska-Lincoln, 2014
+
+
+
+
+Shuo is currently working as Senior Systems Engineer in NVIDIA at Santa Clara, CA 
+
+Contact Information
+
+zhjiang (@) iastate.edu
+
+Google Scholar
+
+Zhanhong Jiang
+
+Ph.D. Mechanical Engineering, Iowa State University, 2018
+
+M.S. Mechanical Engineering, Chinese Academy of Sciences, 2014
+
+B.E. Mechanical Engineering, Shenzhen University, 2011
+
+
+
+
+Zhanhong  joined the lab since Fall 2014. His research interests mainly focus on the areas of cyber-physical systems, multi-agent systems, system dynamics, and optimization. His hobbies in daily life include playing tennis, cooking, and reading.
+
+He graduated from ​SCS lab in December 2018 and is currently working as Data Scientist in Johnson Controls, Milwaukee, WI, USA. 
+
+Contact Information
+
+sghosal (@) iastate.edu
+
+Google Scholar
+
+Sambuddha Ghosal
+
+Ph.D. Mechanical Engineering, Iowa State University, 2019
+
+M.S Computer Science, Iowa State University, 2019
+
+M.S. Mechanical Engineering, Iowa State University, 2017
+
+B.E. Mechanical Engineering, Jadavpur University, 2015
+
+
+
+
+Sambuddha joined the lab in Fall 2015. His research interests are control systems, cyber physical systems, dynamics and optimization, deep learning & machine learning. Recent works include: Anomaly detection in large scale cyber physical systems and application of sparsity promoting dynamic mode decomposition to detect characteristic features and dynamics of complex fluid flows (for eg, combustion flames) from snapshot data. He has interests in playing the piano, playing chess, biking and shooting.
+
+He graduated from ​SCS lab in July 2019 and is currently a post doctorate at MIT, Cambridge, MA, USA.
+
+Contact Information
+
+txtran (@) iastate.edu
+
+Linkedin
+
+Truong Tran
+
+M.S. Mechanical Engineering, Iowa State University, 2019
+
+B.E. Mechanical Engineering, Hanoi University of Science and Technology, 2017
+
+Erasmus Mundus Scholar, 2015 - 2016
+
+
+
+
+Truong joined the lab Fall 2017. His research Interests are Computer Vision, Robotics and Software Engineering. He has experience working with embedded computersion system (using C++ with Qt framework) as well as hardware accelerated Machine Learning using GPU clusters (using Tensorflow) and mobile device (using Apple CoreML) . His current work involves applying Machine Learning in Plant Science and 3D reconstruction of Plant using mobile device. In his free time, Truong enjoy Photography and reading novel.
+
+​He graduated from SCS lab in December 2019 and is currently a Security Analyst at VinCSS.
+
+Contact Information
+
+zhisheng (@) iastate.edu
+
+Linkedin
+
+Zhisheng Zhang
+
+​​M.S. Mechanical Engineering, Iowa State University, 2019
+
+B.S Mechanical Engineering, Iowa State University, 2016
+
+
+
+
+Zhisheng joined the lab Spring 2017. His research interests are deep learning and machine learning application to engineering problems. He is currently working on the deep learning application for plant science and agricultural which is based on object classification, localization, and detection.
+
+​He graduated from SCS lab in July 2019 and is currently working in Bayer Crop Science as a Image Data Scientist, St. Louis, MO.
+
+Contact Information
+
+ameya (@) iastate.edu
+
+Personal Website
+
+Ameya Joshi
+
+​​B.E. Electrical and Electronics Engineering, BITS Pilani, 2014
+
+
+
+
+​Ameya is a Ph.D. student in the Department of Electrical and Computer Engineering at Iowa State University jointly supervised by Prof. Soumik Sarkar and Prof. Chinmay Hegde. He received his undergraduate degree in Electrical and Electronics Engineering from Birla Institute of Technology and Science, Pilani in 2014. He has previously worked at SigTuple technologies, Bengaluru. His research interests include robust machine learning with applications in medicine and manufacturing, distributed learning and cyber-physical systems.
+
+He moved to New York University in January 2020 to continue his Ph.D. studies.
+
+Contact Information
+
+amimukh (@) iastate.edu
+
+Amitangshu Mukherjee
+
+M.S. Electrical and Computer Engineering, Iowa State University, 2020
+
+B.TECH, Electronics and Instrumentation Engineering, Heritage Institute of Technology, 2016
+
+
+
+
+Amitangshu is a Ph.D. student in the Department of Electrical and Computer Engineering, Iowa State University under joint supervision of Prof. Chinmay Hegde and Prof. Soumik Sarkar. During his undergraduate days he did a couple of industrial internships at Indian Oil Corporation Ltd and Siemens India Pvt Ltd. He also worked as a summer research intern at New Jersey Institute of Technology in summer 2015.  He joined Dr. Soumik Sarkar’s lab in Fall 2018 and his research interests include Deep Learning, Computer Vision, Generative Modelling, Adversarial Learning with applications in the domain of autonomous vehicles. His other interests include travelling, playing soccer and table tennis, hiking and reading comics.
+
+He graduated with M.S. in Computer Engineering in Fall 2019 and is currently pursuing his Ph.D. in Nanoelectronics Research Laboratory, Purdue University.
+
+Contact Information
+
+sambitg (@) iastate.edu
+
+Sambit Gadhai
+
+Ph.D. Major: Mechanical Engineering, Iowa State University, 2020​
+
+         Comajor: Computer Engineering, Iowa State University, 2020
+
+B.Tech, Industrial and Product Design, NIT Rourkela, 2015
+
+
+
+
+​Sambit joined the lab in Fall 2016. His research interests include cyber-physical systems, cyber-manufacturing, computational geometry, GPU-computing and visualization. He has a keen interest in playing musical instruments and loves to travel and read. 
+
+He graduated from SCS lab in July 2020 and is currently a Graphics Software Engineer at Intel.
+
+Contact Information
+
+hsaha (@) iastate.edu
+
+Personal Website
+
+LinkedIn
+
+Homagni Saha
+
+Ph.D. Mechanical Engineering, Iowa State University, 2021
+
+M.S. Computer Science, Iowa State University, 2021
+
+M.S. Mechanical Engineering, Iowa State University, 2018
+
+B.Tech Mechanical Engineering, NIT Rourkela, 2016
+
+
+
+
+Homagni joined the lab in Fall 2016. His research interests include probabilistic graphical modelling, reinforcement learning, and anomaly detection. He has a burning passion for robotics and is the go-to guy for any robotics project in the lab. He has worked on design and control of agricultural robots, human computer interaction for turtlebot, and visuo-motor control in sawyer one handed robot.
+
+He graduated from SCS lab in May 2021 and is currently working in Danfoss Power Solutions as a Computer Vision Engineer.
+
+Contact Information
+
+jrrade (@) iastate.edu
+
+Jaydeep-Ravindra Rade
+
+Ph.D. Electrical Engineering , Iowa State University, 2021
+
+M.S. Electrical Engineering, Iowa State University, 2020
+
+B.Tech. Electronics Engineering, Veermata Jijabai Technological Institute, 2018
+
+
+
+
+Jaydeep joined the lab Spring 2019 under Dr. Soumik Sarkar and Dr. Adarsh Krishnamurthy. His research interests are deep learning and image processing and its applications. He is currently working on Deep Learning for Topology Optimization. Other than academics, he likes music, cooking and travelling. 
+
+He graduated from SCS lab in December 2020 and worked as a Ph.D. student in the Electrical and Computer Engineering department at Iowa State University under Dr. Adarsh Krishnamurthy and Dr. Anwesha Sarkar. 
+
+ He currently working in  GE Vernova as a Research  Scientist.
+
+Contact Information
+
+yasesf​ (@) iastate.edu
+
+Yasaman Esfandiari
+
+Ph.D. Mechanical Engineering, Iowa State University, 2021
+
+​M.S. Mechanical Engineering, Iowa State University, Ames, Iowa, 2017
+
+B.S. Mechanical Engineering, Amirkabir University of Technology, Tehran, Iran, 2015
+
+
+
+
+Yasaman was a Ph.D. student in mechanical engineering and joined the lab in Fall 2018. Her research interests are dynamics and controls, optimization, machine learning and deep learning. She worked on nonconvex robust optimization in deep neural networks with unknown adversaries. Her other activities include playing piano, reading and working out. 
+
+She graduated from SCS lab in 2021 and is currently working at HRL Laboratories.
+
+Contact Information
+
+koushikn (@) iastate.edu
+
+Koushik Nagasubramanian
+
+Ph.D. Electrical Engineering, Iowa State University, 2021
+
+B.Tech, Electronics and Communication Engineering, RNSIT, Bangalore, India, 2015.
+
+
+
+
+Koushik was a Ph.D. student under joint supervision of Prof. Baskar Ganapathysubramanian and Prof. Soumik Sarkar. He received his undergraduate degree in 2015. After that, he worked at Nubesol Technologies, Bangalore for almost seven months. His research interests include machine Learning, deep learning, and computer vision. He worked on using deep learning for plant disease prediction.
+
+He graduated from SCS lab in June 2021 and is currently working as a Deep Learning Scientist at Bayer Crop Science.
+
+Contact Information
+
+tryambak (@) iastate.edu
+
+LinkedIn
+
+Google Scholar
+
+Tryambak Gangopadhyay
+
+Ph.D. Mechanical Engineering, Iowa State University, 2021
+
+M.S. Mechanical Engineering, Iowa State University, 2019
+
+B.E. Mechanical Engineering, Jadavpur University, 2017  
+
+
+
+
+Tryambak joined Dr. Soumik Sarkar’s lab in Fall 2017.  His research interests include designing of deep learning algorithms for large-scale image/video data, multivariate time series data, and text data with applications in healthcare, agriculture, vision, and different cyber-physical systems. He is doing a concurrent Masters in Computer Science. In 2019, as a summer intern at the Machine Learning group of Lawrence Livermore National Laboratory (LLNL), he developed deep learning fusion models for clinical prediction tasks using Electronic Health Record datasets. His other interests are story-writing, reading, drawing sketches and playing guitar.  
+
+He graduated from SCS lab in March 2021 and is currently working at Amazon.
+
+Contact Information
+
+xylee (@) iastate.edu
+
+LinkedIn
+
+Bernard Lee Xian Yeow
+
+Ph.D. Mechanical Engineering, Iowa State University, 2022
+
+B.S. Mechanical Engineering, Iowa State University, 2016
+
+
+
+
+Xian Yeow received his bachelor’s degree in Mechanical Engineering from Iowa State University in 2016. He pursueding his Ph.D. degree at Iowa State University and his research interests include applications of deep reinforcement learning and deep generative methods for robust and efficient design of cyper-physical systems.
+
+He graduated in May 2022 and is currently working at Hitachi.
+
+Contact Information
+
+kailiang (@) iastate.edu
+
+LinkedIn
+
+Russell Kai Liang Tan
+
+Ph.D. Mechanical Engineering, Iowa State University, 2022
+
+B.S. Mechanical Engineering, Iowa State University, 2017
+
+​
+
+Kai Liang (Russell) joined Self-aware Complex Systems Lab Spring 2018. He received his undergraduate degree in Fall 2017 from Iowa State University. During his undergraduate degree, he was an intern for The Bobcat Company and Danfoss Power Solutions. His research interest includes utilizing Deep Learning, Reinforcement Learning and Computer Vision to solve engineering problems, cyber-physical systems and autonomous systems. His passion for creativity also goes beyond academics, such as photography, digital arts and playing strategic video games. 
+
+He graduated from SCS lab in August 2022 and is currently working at Intel. 
+
+Contact Information
+
+lgriera (@) iastate.edu
+
+Luis G. Riera
+
+Ph.D. Mechanical Engineering, Iowa State University, 2022​
+
+M.S. Mechanical Engineering, Iowa State University, 1997
+
+B.S. Mechanical Engineering, Iowa State University, 1995
+
+ 
+
+Luis joined Dr. Sarkar's lab in August 2017.  His research interests are in deep learning, machine learning, visualization, Self-Driven vehicles, including cars, trucks, tractors, and others.  Before joining the lab, Luis worked mainly in Project Management and Business Development. His hobbies are racing Go-Kart, baking, Mount Biking and computers. 
+
+He graduated from SCS lab in November 2022 and is currently working at CSIRO's Data61.
+
+Contact Information
+
+tsyong98 (@) iastate.edu
+
+Sin Yong Tan (Evan)
+
+Ph.D. Mechanical Engineering, Iowa State University, 2022
+
+B.S. Mechanical Engineering, Iowa State University, 2017
+
+
+
+
+Sin Yong joined the lab in Fall 2017. He was involved multiple in the Autonomous Rover project, and Robot and Cop project and acquired hands-on experience on Machine Learning applications.  
+
+He graduated from SCS lab in December 2022 and is currently working as an AI specialist at Musco Sports Lighting, LLC.
+
+Contact Information
+
+fotouhif (@) iastate.edu
+
+Fateme Fotouhi Ardakani
+
+Ph.D. Mechanical Engineering, Iowa State University, 2023
+
+M.S. Mechanical engineering, Shiraz University, 2018
+
+B.E. Mechanical Engineering, Shiraz University, 2015
+
+
+
+
+Fateme Fotouhi joined the lab in Fall 2019. Her M.S. degree was in the field of control and vibration. Her main research interests include machine learning, deep learning, biomechanics, nonlinear control, robotics, mechatronics, and optimizations. She also interests in playing piano, reading books and mountain climbing. 
+
+She graduated from SCS lab in May 2023 and is currently a computer vision research scientist at Canon.
+
+Contact Information
+
+jalane (@) iastate.edu
+
+LinkedIn
+
+Jesse Lane
+
+Ph.D. Mechanical Engineering, Iowa State University, 2023
+
+B.S. Computer Science, Iowa State University, 2005
+
+B.S. Mathematics, Iowa State University, 2005
+
+
+
+
+Jesse joined the Self-aware Complex Systems Lab in Fall 2020. He is currently a Research Engineer at Collins Aerospace focusing on automatic target recognition and machine learning at the tactical edge.  His research interests lie at the intersection of causal inference, reinforcement learning, and deep learning.  His hobbies are playing guitar and sailing.
+
+He graduated from SCS lab in December 2023.
+
+Contact Information
+
+colour (@) iastate.edu
+
+Jiale Feng
+
+Ph.D. Mechanical Engineering, Iowa State University, 2024
+
+B.S. Automation, University of Science and Technology of China, 2014
+
+B.S. Business Administration, University of Science and Technology of China, 2014
+
+
+
+
+Jiale was a Ph.D. student in Computer Science. He joined the Self-aware Complex Systems Laboratory in Summer 2021. Before that, he worked in ARLab in Virtual Reality Applications Center at ISU for five years, and his main efforts are in individual projects funded by Collins Aerospace. He interned at Collins Aerospace in the summers of 2017 and 2018. His research interests include deep learning, computer vision, and computer graphics. In his spare time, he keeps a consistent workout routine and enjoys playing PC games and watching movies.
+
+Contact Information
+
+aknirala (@) iastate.edu
+
+Ashutosh Kumar Nirala
+
+Ph.D.Computer Science, Iowa State University, 2025
+
+M.Tech. Computer Science, Indian Institute of Technology, Bombay, India, 2013
+
+B.S. Electronics and Telecommunication, Army institute of technology, Pune, India, 2007
+
+
+
+
+Ashutosh Kumar Nirala is a Ph.D. student in the Department of Computer Science at Iowa State University. He is currently working under the supervision of Dr. Soumik Sarkar and Dr. Jin Tian. His primary research resides in the domain of Adversarial Robustness. His endeavors are centered around the development of methodologies that bestow empirical resilience upon deep learning models, while concurrently establishing avenues for their theoretical certification.
+
+He graduated from SCS lab in Decenber 2025 and is currently working at Meta.
+
+
+
+
+Contact Information
+
+edherron (@) iastate.edu
+
+Ethan Herron
+
+Ph.D.Mechanical Engineering, Iowa State University, 2026
+
+B.S. Mathematics, Iowa State University, 2020
+
+
+
+
+Ethan was a Ph.D. student in Mechanical Engineering and joined the Self-aware Complex Systems Laboratory in Summer 2020. He received his B.S. in Mathematics at Iowa State University in Spring 2020. His current research interests are in machine learning, deep learning, and optimization. He is currently working on applying deep learning methods for topology optimization. His other activities include high-powered rocketry, cooking, and various outdoor activities. 
+
+Contact Information
+
+arbab (@) iastate.edu
+
+Muhammad Arbab Arshad
+
+Ph.D. Computer Science, Iowa State University, 2026
+
+M.S. Computer Engineering, American University of Sharjah, 2021
+
+B.S. Computer Science, Lahore University of Management Sciences, 2019
+
+
+
+
+Arbab was a Ph.D. student in Computer Science at Iowa State University. Since joining Dr. Soumik's lab in Spring 2022, his research has primarily centered around 3D reconstructions using neural radiance fields (NeRFs), with specific applications on soybean plants. In addition, He explores the intersections of machine learning, computer vision, and generative AI in his work.Currently, he is working as a  software engineer(AI) at Waymo
+
+Undergraduate Alumni
+
+Bukhari Mohamed
+
+Roosevelt High School 
+
+High School RA, CBiRC Young Engineers and Scientists Program
+
+​Image Processing for Predictive Plant Phenotyping 
+
+​Jeffrey Heylmun 
+
+B.S. Mechanical Engineering
+
+Iowa State University, 2015
+
+Undergraduate RA 
+
+Control-oriented Modelling for Building Zone Temperatures 
+
+Adrian Kang Wei Chan
+
+B.S. Mechanical Engineering
+
+​Iowa State University, 2015
+
+Undergraduate RA
+
+Information Topology Control in Networked Systems
+
+​Adam Kohl
+
+B.S. Mechanical Engineering
+
+​Iowa State University, 2015
+
+Undergraduate RA
+
+​Control-oriented Modelling for Building Zone Temperatures using VOLTTRON
+
+​Xuehan Liu
+
+B.S Statistics and Mathematics
+
+​Iowa State University, 2016
+
+Undergraduate RA
+
+Mathematical Modelling of Amyotrophic Lateral Sclerosis (ALS)
+
+​Abdulrahman Alnagar
+
+​Deparment of Electrical Engineering
+
+Undergraduate RA, REU Student
+
+Anomaly Detection for Smart Buildings
+
+Haley Primrose
+
+​Nevada High School
+
+High School RA
+
+​Haley was here at our lab through the summer Y.E.S program to learn and work on the manufacturing project where she aims to make the Sawyer robot reach into the 3D printer station and retrieve printed pieces autonomously. As of now, she wants to join Iowa State as a Computer engineering major after graduating high school.
+
+Matthew Hopkins
+
+​Abraham Lincoln High School
+
+High School RA
+
+Matthew was here at our lab through the summer Y.E.S program for 6 weeks to learn more about his interests in engineering. He is working on the Turtle-BOT, programming and testing RGB color values for automated color detection via the bot's vision system as it moves. He is interested in robotics and wants to join a program at Iowa State that will help him build, program and test robotic systems in future.
+
+Aaron Havens
+
+B.S Mechanical Engineering
+
+Iowa State University, 2017
+
+Undergraduate RA
+
+Online robust policy learning in the presence of unknown adversaries
+
+Balaji S Sarath Pokuri
+
+Iowa State University
+
+Department of Mechanical Engineering
+
+Phase Field Modeling, High performance computing (HPC), Finite Element Method (FEM), Machine learning – Deep Learning
+
+Paige K Boor
+
+Iowa State University
+
+Department of Mechanical Engineering
+
+She is an undergraduate honors student who joined the lab in Spring 2017. She hopes to learn more about Machine Learning.
+
+Genyi Huang 
+
+Iowa State University
+
+Department of Statistics 
+
+LSTM and Attention models for time series prediction problems
+
+Mason Drees
+
+Iowa State University
+
+Department of Mechanical Engineering
+
+Undergraduate RA
+
+Mason is currently an undergraduate student majoring in Mechanical Engineering and minoring in Computer Science. He joined the lab in fall 2020. His research interests include reinforcement learning applications in robotics.
+
+
+
+
+Aakanksha
+
+Amity University
+
+Department of Mechanical Engineering
+
+Aakanksha is final year undergraduate at Amity University, Noida pursuing Bachelor of Technology in Computer Science. She joined the lab in Summer 2019 and is working on problems involving reinforcement learning. Her research interests include machine learning, deep learning for object detection and computer vision.
+
+Briton R Bauerly
+
+Iowa State University
+
+Department of Mechanical Engineering
+
+Briton is currently an undergraduate ME student who joined the lab in summer 2019. His research interests are robotics applications for deep learning and his other interests include 3D printing, tennis, and film.
+
+Yingying Huang
+
+Iowa State University
+
+Department of Mechanical Engineering
+
+Yingying joined the lab in Fall 2021 and is currently working on robotics applications as an undergraduate honors student.
+
+
+
+
+David Leguizamo
+
+Iowa State University
+
+Department of Mechanical Engineering
+
+Undergraduate RA
+
+David joined the lab in Fall 2021 and is currently working on robotics applications.
+
+
+
+Doctoral Students
+Page updated
+Google Sites
+Report abuse

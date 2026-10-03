@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import ArchivalNote from '../components/ArchivalNote.astro';
+import PeopleSections from '../components/PeopleSections.astro';
+import { CURRENT_CATEGORIES } from '../lib/site';
+---
+<Base title="People" description="Principal investigator, postdoctoral researchers, doctoral, master's and independent-study students of SCSLab.">
+  <PageHeader title="People" kicker="Team" />
+  <ArchivalNote />
+  <PeopleSections categories={CURRENT_CATEGORIES} compactFrom={['Research Students on Independent Studies', 'Masters Students']} />
+</Base>

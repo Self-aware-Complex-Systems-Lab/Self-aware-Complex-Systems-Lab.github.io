@@ -1,0 +1,266 @@
+{
+ "research": {
+  "Research Areas": {
+   "src": "/assets/research/research-unnamed.png",
+   "manifestId": "research#002",
+   "size": [
+    1280,
+    1280
+   ]
+  },
+  "Learning And Inference In Cyber-Physical Systems (CPS)": {
+   "src": "/assets/research/research-learning-and-inference-in-cyber-physical-systems-cps.png",
+   "manifestId": "research#003",
+   "size": [
+    291,
+    300
+   ]
+  },
+  "Data Analytics and Machine Learning for Plant Science and Agricultural Applications": {
+   "src": "/assets/research/research-data-analytics-and-machine-learning-for-plant-science-and-ag.png",
+   "manifestId": "research#004",
+   "size": [
+    198,
+    179
+   ]
+  },
+  "Pattern Discovery In Large-Scale Simulation Data": {
+   "src": "/assets/research/research-pattern-discovery-in-large-scale-simulation-data.png",
+   "manifestId": "research#005",
+   "size": [
+    300,
+    300
+   ]
+  },
+  "Decision Support Systems": {
+   "src": "/assets/research/research-decision-support-systems.png",
+   "manifestId": "research#006",
+   "size": [
+    287,
+    300
+   ]
+  },
+  "Smart Buildings and Smart Cities": {
+   "src": "/assets/research/research-smart-buildings-and-smart-cities.png",
+   "manifestId": "research#007",
+   "size": [
+    285,
+    300
+   ]
+  },
+  "Distributed Optimization": {
+   "src": "/assets/research/research-distributed-optimization.png",
+   "manifestId": "research#008",
+   "size": [
+    209,
+    103
+   ]
+  },
+  "Health Monitoring and Prognostics": {
+   "src": "/assets/research/research-health-monitoring-and-prognostics.png",
+   "manifestId": "research#009",
+   "size": [
+    300,
+    300
+   ]
+  },
+  "Image Processing and Enhancement Algorithms": {
+   "src": "/assets/research/research-image-processing-and-enhancement-algorithms.png",
+   "manifestId": "research#010",
+   "size": [
+    250,
+    250
+   ]
+  },
+  "Machine Learning & GPU Accelerated Tools for Manufacturing Processes": {
+   "src": "/assets/research/research-machine-learning-gpu-accelerated-tools-for-manufacturing-pro.png",
+   "manifestId": "research#011",
+   "size": [
+    201,
+    127
+   ]
+  },
+  "Robotics and Self-Driving Cars": {
+   "src": "/assets/research/research-robotics-and-self-driving-cars.jpg",
+   "manifestId": "research#012",
+   "size": [
+    728,
+    806
+   ]
+  }
+ },
+ "sponsors": [
+  {
+   "name": "National Science Foundation (NSF)",
+   "src": "/assets/sponsors/nsf.gif",
+   "manifestId": "home#003",
+   "size": [
+    800,
+    800
+   ]
+  },
+  {
+   "name": "National Institutes of Health (NIH)",
+   "src": "/assets/sponsors/nih.jpg",
+   "manifestId": "home#004",
+   "size": [
+    332,
+    249
+   ]
+  },
+  {
+   "name": "NVIDIA",
+   "src": "/assets/sponsors/nvidia.png",
+   "manifestId": "home#005",
+   "size": [
+    1084,
+    800
+   ]
+  },
+  {
+   "name": "Iowa Energy Center",
+   "src": "/assets/sponsors/iowa-energy-center.png",
+   "manifestId": "home#006",
+   "size": [
+    177,
+    203
+   ]
+  },
+  {
+   "name": "Toyota",
+   "src": "/assets/sponsors/toyota.png",
+   "manifestId": "home#007",
+   "size": [
+    240,
+    210
+   ]
+  },
+  {
+   "name": "DARPA",
+   "src": "/assets/sponsors/darpa.jpg",
+   "manifestId": "home#008",
+   "size": [
+    314,
+    161
+   ]
+  },
+  {
+   "name": "ANSYS",
+   "src": "/assets/sponsors/ansys.png",
+   "manifestId": "home#009",
+   "size": [
+    220,
+    225
+   ]
+  },
+  {
+   "name": "ARPA-E",
+   "src": "/assets/sponsors/arpa-e.jpg",
+   "manifestId": "home#010",
+   "size": [
+    1000,
+    339
+   ]
+  },
+  {
+   "name": "Iowa State University",
+   "src": "/assets/sponsors/iowa-state-university.gif",
+   "manifestId": "home#011",
+   "size": [
+    1083,
+    352
+   ]
+  },
+  {
+   "name": "U.S. DOT Federal Highway Administration",
+   "src": "/assets/sponsors/fhwa.jpg",
+   "manifestId": "home#012",
+   "size": [
+    1077,
+    353
+   ]
+  },
+  {
+   "name": "USDA-NIFA",
+   "src": "/assets/sponsors/usda-nifa.jpg",
+   "manifestId": "home#013",
+   "size": [
+    320,
+    142
+   ]
+  },
+  {
+   "name": "Rockwell Collins",
+   "src": "/assets/sponsors/rockwell-collins.jpg",
+   "manifestId": "home#014",
+   "size": [
+    983,
+    439
+   ]
+  },
+  {
+   "name": "Air Force Office of Scientific Research (AFOSR)",
+   "src": "/assets/sponsors/afosr.png",
+   "manifestId": "home#015",
+   "size": [
+    177,
+    181
+   ]
+  }
+ ],
+ "gallery": [
+  {
+   "caption": "Lab group photo (home page header image)",
+   "src": "/assets/gallery/lab-group-photo-storefront.jpg",
+   "manifestId": "home#002",
+   "size": [
+    1280,
+    693
+   ],
+   "originalPage": "https://sites.google.com/view/scslab-isu/home"
+  },
+  {
+   "caption": "Lab group photo outdoors (home page section background)",
+   "src": "/assets/gallery/lab-group-photo-outdoor-sculpture.jpg",
+   "manifestId": "home#016",
+   "size": [
+    6000,
+    4000
+   ],
+   "originalPage": "https://sites.google.com/view/scslab-isu/home"
+  },
+  {
+   "caption": "Lab members celebrating with a cake (home page section background)",
+   "src": "/assets/gallery/lab-celebration.jpg",
+   "manifestId": "home#017",
+   "size": [
+    1100,
+    681
+   ],
+   "originalPage": "https://sites.google.com/view/scslab-isu/home"
+  },
+  {
+   "caption": "Lab group photo indoors (home page section background)",
+   "src": "/assets/gallery/lab-group-photo-indoor.jpg",
+   "manifestId": "home#018",
+   "size": [
+    1066,
+    800
+   ],
+   "originalPage": "https://sites.google.com/view/scslab-isu/home"
+  }
+ ],
+ "pi": [
+  {
+   "src": "/assets/pi/principal-investigator.png",
+   "manifestId": "principal-investigator#002",
+   "page": "https://sites.google.com/view/scslab-isu/principal-investigator"
+  },
+  {
+   "src": "/assets/pi/soumik-sarkar.png",
+   "manifestId": "team-contact#002",
+   "page": "https://sites.google.com/view/scslab-isu/team-contact"
+  }
+ ],
+ "logo": "/assets/site/site-logo.png"
+}

@@ -1,0 +1,41 @@
+---
+import { slug, linkify } from '../lib/site';
+interface Person {
+  name: string; category: string | null; contactEmailAsListed: string | null;
+  lines: string[]; links: { label: string; href: string }[]; photo: string | null; photoManifestId: string | null;
+}
+interface Props { person: Person; compact?: boolean; }
+const { person: p, compact = false } = Astro.props;
+// Short lines = degrees / affiliations; long lines = biography paragraphs. Order is preserved.
+const short = p.lines.filter((l) => l.length < 140);
+const long = p.lines.filter((l) => l.length >= 140);
+---
+<article id={slug(p.name)} class="person bg-white border border-line rounded-lg overflow-hidden flex flex-col sm:flex-row scroll-mt-6"
+  data-name={p.name} data-photo-id={p.photoManifestId}>
+  {p.photo && (
+    <div class:list={['shrink-0 self-start', compact ? 'sm:w-36' : 'sm:w-48']}>
+      <img src={p.photo} alt={`Photo of ${p.name}`} loading="lazy" decoding="async"
+           class="w-full aspect-square object-cover object-top" data-person-photo={p.name} />
+    </div>
+  )}
+  <div class="p-4 sm:p-5 min-w-0">
+    <h3 class="text-lg font-bold text-ink">{p.name}</h3>
+    {short.length > 0 && (
+      <ul class="mt-1 text-sm text-muted space-y-0.5">
+        {short.map((l) => <li set:html={linkify(l)} />)}
+      </ul>
+    )}
+    {long.length > 0 && (
+      compact
+        ? <details class="mt-3 text-[0.95rem]"><summary class="cursor-pointer text-cardinal text-sm font-semibold">Biography</summary>
+            <div class="prose-lab mt-2">{long.map((l) => <p set:html={linkify(l)} />)}</div></details>
+        : <div class="prose-lab mt-3 text-[0.95rem]">{long.map((l) => <p set:html={linkify(l)} />)}</div>
+    )}
+    {(p.contactEmailAsListed || p.links.length > 0) && (
+      <p class="mt-3 text-sm flex flex-wrap gap-x-4 gap-y-1">
+        {p.contactEmailAsListed && p.contactEmailAsListed !== 'N/A' && <span class="text-muted">{p.contactEmailAsListed}</span>}
+        {p.links.map((l) => <a href={l.href} rel="noopener">{l.label}</a>)}
+      </p>
+    )}
+  </div>
+</article>

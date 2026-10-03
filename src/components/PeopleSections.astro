@@ -1,0 +1,22 @@
+---
+import PersonCard from './PersonCard.astro';
+import people from '../data/people.json';
+import { slug } from '../lib/site';
+interface Props { categories: string[]; compactFrom?: string[]; }
+const { categories, compactFrom = [] } = Astro.props;
+const groups = categories.map((c) => ({ c, list: people.filter((p) => p.category === c) })).filter((g) => g.list.length);
+---
+<nav aria-label="Sections" class="mb-8 flex flex-wrap gap-2">
+  {groups.map((g) => <a href={`#${slug(g.c)}`} class="text-sm rounded-full border border-line bg-white px-3 py-1 no-underline text-ink hover:border-cardinal">{g.c} ({g.list.length})</a>)}
+</nav>
+{groups.map((g) => {
+  const compact = compactFrom.includes(g.c);
+  return (
+    <section id={slug(g.c)} class="mb-12 scroll-mt-6" data-category={g.c}>
+      <h2 class="text-2xl font-bold mb-4">{g.c}</h2>
+      <div class:list={['grid gap-5', compact ? 'md:grid-cols-2' : '']}>
+        {g.list.map((p) => <PersonCard person={p} compact={compact} />)}
+      </div>
+    </section>
+  );
+})}

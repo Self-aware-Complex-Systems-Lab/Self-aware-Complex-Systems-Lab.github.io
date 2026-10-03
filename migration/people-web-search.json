@@ -1,0 +1,1375 @@
+[
+  {
+    "name": "Dr. Soumik Sarkar",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=-rmRjqIAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Top search hit for 'Soumik Sarkar Iowa State'; same ID as existing link (still current)."
+      },
+      {
+        "type": "faculty-page",
+        "url": "https://www.cs.iastate.edu/people/soumik-sarkar",
+        "confidence": "high",
+        "evidence": "ISU Computer Science people page for Soumik Sarkar (search result)."
+      },
+      {
+        "type": "homepage",
+        "url": "https://sites.google.com/view/scslab-isu/home",
+        "confidence": "high",
+        "evidence": "SCSLab Google Site with 'Principal Investigator' page; lists soumiks@iastate.edu, 515-294-5212, Professor of ME & CS, Director TrAC."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/soumik-sarkar-448b2619",
+        "confidence": "medium",
+        "evidence": "Appeared in search results titled 'Soumik Sarkar - Iowa State University' (not fetched)."
+      }
+    ],
+    "notes": "Existing scholar link still current. Old lab site web.me.iastate.edu/soumiks returned 'Request Rejected' when fetched; the Google Site appears to be the current lab site."
+  },
+  {
+    "name": "Souradeep Chattopadhyay",
+    "searched": true,
+    "results": [],
+    "notes": "Three searches; only the SCSLab team page and a ResearchGate soybean-yield paper surfaced. No Scholar/homepage/GitHub found that could be tied to him (results were other Chattopadhyays)."
+  },
+  {
+    "name": "Zahid Hasan",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://zahid-isu.github.io/",
+        "confidence": "high",
+        "evidence": "Page: 'Md Zahid Hasan', GRA at ISU Self-aware Complex System Lab, advisors Soumik Sarkar & Baskar Ganapathysubramanian, BUET EEE 2014-2018, email zahid@iastate.edu."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=m9QYJ_cAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Linked from homepage; verified iastate.edu email; coauthors Soumik Sarkar, Baskar Ganapathysubramanian."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/zahid-isu",
+        "confidence": "high",
+        "evidence": "Linked from homepage zahid-isu.github.io."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/zahid-isu/",
+        "confidence": "high",
+        "evidence": "Same as existing link; appeared in search titled 'Md Zahid Hasan - Machine Learning Research Assistant - Iowa State University'."
+      }
+    ],
+    "notes": "Full name Md Zahid Hasan."
+  },
+  {
+    "name": "Hsin-Jung Yang",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=K5WYa34AAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Profile 'Hsin-Jung Yang' with SCSLab papers: 'Deep RL for robotic control with multi-fidelity models', 'Persistent monitoring of insect-pests on sticky traps...', 'Find the fruit: zero-shot sim2real RL...'. Now verified at intel.com."
+      },
+      {
+        "type": "other",
+        "url": "https://openreview.net/profile?id=~Hsin-Jung_Yang1",
+        "confidence": "medium",
+        "evidence": "OpenReview profile titled 'Hsin-Jung Yang - PhD student, Iowa State University' (fetch blocked by bot check)."
+      }
+    ],
+    "notes": "Scholar now shows Intel affiliation, so he may have graduated/moved to Intel. A different profile 'Hsin-Jung (Randy) Yang' (5wa1GKEAAAAJ) exists and is NOT him. Existing LinkedIn not re-checked."
+  },
+  {
+    "name": "Timilehin Ayanlade",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=SI6VhjMAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Graduate student at Iowa State, verified iastate.edu; papers on soybean/maize phenotyping, 'Multi-modal AI for ultra-precision agriculture'."
+      },
+      {
+        "type": "other",
+        "url": "https://news.engineering.iastate.edu/2026/04/01/we-should-all-think-like-entrepreneurs-timilehin-ayanlade-engineering-ai-innovations-in-cyber-agriculture-systems/",
+        "confidence": "high",
+        "evidence": "ISU Engineering News feature on him (2026)."
+      },
+      {
+        "type": "other",
+        "url": "https://timilehin-ayanlade.medium.com/",
+        "confidence": "medium",
+        "evidence": "Medium blog by Timilehin Ayanlade writing about ISU student organization."
+      }
+    ],
+    "notes": "No personal homepage found. Existing LinkedIn kept."
+  },
+  {
+    "name": "Mahsa Khosravi",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=Rbi2WL4AAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Iowa State, verified iastate.edu; RL/robotics; papers AgGym, 'Enhancing PPO with trajectory-aware hybrid policies' (SCSLab work)."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/mahsa-kh/",
+        "confidence": "medium",
+        "evidence": "Search result titled 'mahsa khosravi - PhD Candidate | Reinforcement Learning' (not fetched)."
+      }
+    ],
+    "notes": "No personal homepage found."
+  },
+  {
+    "name": "Qisai Liu",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=iNYmolkAAAAJ",
+        "confidence": "high",
+        "evidence": "Iowa State, verified iastate.edu; frequent coauthors S. Sarkar, Z. Jiang, J.R. Waite; combustion DL work (ISU ME)."
+      },
+      {
+        "type": "other",
+        "url": "https://www.alphaxiv.org/@qisai-liu",
+        "confidence": "medium",
+        "evidence": "alphaXiv profile: CS PhD student at ISU, top collaborator Soumik Sarkar; links the Scholar profile above."
+      }
+    ],
+    "notes": "No personal homepage or GitHub found. Now described as a CS PhD student."
+  },
+  {
+    "name": "Nastaran Saadati",
+    "searched": true,
+    "results": [
+      {
+        "type": "github",
+        "url": "https://github.com/nsaadati",
+        "confidence": "high",
+        "evidence": "Username matches ISU email nsaadati; hosts repo nsaadati/DIMAT, her CVPR 2024 paper with SCSLab."
+      }
+    ],
+    "notes": "No Scholar profile or homepage found. ZoomInfo suggests an internship at Musco Lighting."
+  },
+  {
+    "name": "Nitesh Subedi",
+    "searched": true,
+    "results": [
+      {
+        "type": "github",
+        "url": "https://github.com/nitesh-subedi",
+        "confidence": "high",
+        "evidence": "Repos include Find_the_Fruit (SCSLab 'Find the fruit' sim2real RL paper), ros2_mpc (MPC local planner), IsaacLab; matches his RL/MPC robotics research."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/nitesh-subedi/",
+        "confidence": "medium",
+        "evidence": "Search result titled 'Nitesh Subedi - Graduate Research Assistant - Iowa State University' (not fetched)."
+      }
+    ],
+    "notes": "Existing link http://iastate.edu/ is just the university root, not personal. No Scholar profile found (a University of Oklahoma namesake exists)."
+  },
+  {
+    "name": "Shreyan Ganguly",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=hevENGEAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "PhD student at Iowa State, verified iastate.edu; papers DeCAF, 'Towards large reasoning models for agriculture' (SCSLab), BLeafNet."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/shreyan-ganguly-467882191/",
+        "confidence": "medium",
+        "evidence": "Search result titled 'Shreyan Ganguly - Ph.D. student at Iowa State University' (not fetched)."
+      }
+    ],
+    "notes": "No personal homepage found. An OhioLINK ETD by a 'Ganguly, Shreyan' is a different person."
+  },
+  {
+    "name": "Alloy Das",
+    "searched": true,
+    "results": [
+      {
+        "type": "other",
+        "url": "https://buruni.academia.edu/AlloyDas",
+        "confidence": "medium",
+        "evidence": "Academia.edu profile under Burdwan University (buruni) with his pre-ISU papers; matches B.E. Burdwan University."
+      }
+    ],
+    "notes": "No Scholar/homepage/GitHub found."
+  },
+  {
+    "name": "Lucas Nerone Rillo",
+    "searched": true,
+    "results": [
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/lucasnerone/",
+        "confidence": "low",
+        "evidence": "Search result 'Lucas Nerone - CHC Helicopter'; search snippet mentions aviation background and Iowa State, but not verified."
+      },
+      {
+        "type": "other",
+        "url": "https://arxiv.org/abs/2605.07863",
+        "confidence": "medium",
+        "evidence": "ADKO: Agentic Decentralized Knowledge Optimization (2026) lists Lucas Nerone Rillo with SCSLab coauthors (e.g., Saadati)."
+      }
+    ],
+    "notes": "No homepage or Scholar found."
+  },
+  {
+    "name": "Henry Kim",
+    "searched": true,
+    "results": [
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/henryhskim/",
+        "confidence": "medium",
+        "evidence": "Search result: Henry Kim, Chungnam National University education, 'Software Engineering Intern @ EpiSci, ML and Robotics Enthusiast' (EpiSci = UAV autonomy; matches the UAV internship in his bio). Not fetched."
+      }
+    ],
+    "notes": "Common name; no Scholar/homepage/GitHub could be tied to him. ISU CS people page lists a Henry Kim (Robotics and Autonomous Systems PhD)."
+  },
+  {
+    "name": "Manas Sewatkar",
+    "searched": true,
+    "results": [
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/manas-chandrashekhar-sewatkar-33599b325/",
+        "confidence": "medium",
+        "evidence": "Search result titled 'Manas Chandrashekhar Sewatkar - MS AI @ Iowa State University' (not fetched); headline says MS, not PhD."
+      },
+      {
+        "type": "other",
+        "url": "https://www.researchgate.net/profile/Manas-Sewatkar",
+        "confidence": "low",
+        "evidence": "ResearchGate profile, Pune Institute of Computer Technology; unique name but no ISU link on the page itself."
+      }
+    ],
+    "notes": "No Scholar/homepage/GitHub found."
+  },
+  {
+    "name": "Yongyun Song",
+    "searched": true,
+    "results": [
+      {
+        "type": "faculty-page",
+        "url": "https://www.cs.iastate.edu/people/yongyun-song",
+        "confidence": "high",
+        "evidence": "ISU Computer Science directory profile: PhD student, CS dept, research in computer vision/robotics/3D reconstruction (matches lab bio). No personal site/Scholar linked."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/yongyunsong/",
+        "confidence": "medium",
+        "evidence": "Search-result title 'YONGYUN SONG - Iowa State University'; not fetched."
+      }
+    ],
+    "notes": "No personal homepage, Scholar, or GitHub found."
+  },
+  {
+    "name": "Sanjeda Akter",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=suaj_dAAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Scholar profile: Iowa State University, verified iastate.edu email, interests RL/DL/LLM (matches lab bio); coauthors Ibne Farabi Shihab, Anuj Sharma (ISU). Sarkar not listed as coauthor."
+      },
+      {
+        "type": "faculty-page",
+        "url": "https://www.cs.iastate.edu/people/sanjeda-akter",
+        "confidence": "high",
+        "evidence": "ISU CS directory entry, email sanjeda@iastate.edu."
+      },
+      {
+        "type": "other",
+        "url": "https://orcid.org/0009-0007-8276-3878",
+        "confidence": "medium",
+        "evidence": "ORCID appeared in search alongside ISU/BRAC results; not fetched."
+      }
+    ],
+    "notes": "No personal homepage or GitHub found."
+  },
+  {
+    "name": "Harshada Anavkar",
+    "searched": true,
+    "results": [],
+    "notes": "Only data-broker (RocketReach) hits confirming ISU GTA / IIT Kharagpur 2021-2025; another Harshada Anavkar publishes e-commerce/AI papers (different person likely). Nothing accepted."
+  },
+  {
+    "name": "Tirtho Roy",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://tirtho149.github.io/",
+        "confidence": "high",
+        "evidence": "Personal site: researcher at Iowa State University, TrAC with Prof. Soumik Sarkar; email tirtho@iastate.edu."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=v1y3XMUAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Linked from tirtho149.github.io."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/tirtho149",
+        "confidence": "high",
+        "evidence": "Linked from tirtho149.github.io."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/tirtho-roy-apon",
+        "confidence": "high",
+        "evidence": "Linked from tirtho149.github.io (not fetched)."
+      },
+      {
+        "type": "other",
+        "url": "https://www.researchgate.net/profile/Tirtho-Roy",
+        "confidence": "high",
+        "evidence": "ResearchGate linked from tirtho149.github.io."
+      }
+    ],
+    "notes": ""
+  },
+  {
+    "name": "Minhao Wang",
+    "searched": true,
+    "results": [],
+    "notes": "Only SCSLab team pages and an unrelated-looking LinkedIn (SCADA specialist) surfaced; common name, no verifiable profile."
+  },
+  {
+    "name": "Timothy Wilkie",
+    "searched": true,
+    "results": [],
+    "notes": "No results tied to ISU Math / distributed optimization. Skipped after one search."
+  },
+  {
+    "name": "Seyed Vahid Mirnezami",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=vOkiZmAAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Scholar: Iowa State University, verified iastate.edu; coauthors Baskar Ganapathysubramanian and S. Sarkar; papers on soybean root phenotyping (matches 'analyzing plant images data')."
+      },
+      {
+        "type": "other",
+        "url": "https://www.researchgate.net/profile/Seyed-Vahid-Mirnezami",
+        "confidence": "medium",
+        "evidence": "ResearchGate in search results: Research Assistant, ME dept, Iowa State; not fetched."
+      }
+    ],
+    "notes": "No homepage or GitHub found."
+  },
+  {
+    "name": "Nikhil Bhattacharya",
+    "searched": true,
+    "results": [],
+    "notes": "Only SCSLab team page surfaced. Skipped after one search."
+  },
+  {
+    "name": "Chao Liu",
+    "searched": true,
+    "results": [
+      {
+        "type": "faculty-page",
+        "url": "https://www.depe.tsinghua.edu.cn/depeen/info/1297/1357.htm",
+        "confidence": "high",
+        "evidence": "Tsinghua DEPE faculty page: PhD Tsinghua 2008-2013, B.E. HUST 2004-2008, postdoc ISU Mechanical Engineering 2015-2017; email cliu5@tsinghua.edu.cn. Now Associate Professor (since Dec 2022)."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=WISfoo8AAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Existing link confirmed: Tsinghua DEPE, verified tsinghua.edu.cn, top collaborator Soumik Sarkar."
+      }
+    ],
+    "notes": "Existing Scholar link still current. Lab bio says Assistant Professor; he is now Associate Professor (since Dec 2022)."
+  },
+  {
+    "name": "Onur Rauf Bingol",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://onurraufbingol.com/",
+        "confidence": "high",
+        "evidence": "Existing link, live (copyright 2018-2026 Onur Rauf Bingol); links GitHub orbingol."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/orbingol",
+        "confidence": "high",
+        "evidence": "Linked from onurraufbingol.com; username matches ISU email orbingol; hosts NURBS-Python (Bingol & Krishnamurthy, ISU)."
+      },
+      {
+        "type": "other",
+        "url": "https://www.researchgate.net/scientific-contributions/Onur-Rauf-Bingol-2119839591",
+        "confidence": "medium",
+        "evidence": "ResearchGate author page in search results; not fetched."
+      }
+    ],
+    "notes": "No Google Scholar profile found. Existing links current."
+  },
+  {
+    "name": "Aditya Balu",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://adityabalu.github.io/",
+        "confidence": "high",
+        "evidence": "Site: Data Scientist, Translational AI Center, ISU; PhD ISU 2016-2020 advised by Adarsh Krishnamurthy and Soumik Sarkar; B.E. BITS Pilani."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=GNuXi6oAAAAJ",
+        "confidence": "high",
+        "evidence": "Linked from adityabalu.github.io."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/adityabalu",
+        "confidence": "high",
+        "evidence": "Linked from adityabalu.github.io."
+      },
+      {
+        "type": "faculty-page",
+        "url": "https://tads.research.iastate.edu/dr-aditya-balu",
+        "confidence": "medium",
+        "evidence": "ISU TADS page in search results; not fetched."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/aditya-balu/",
+        "confidence": "medium",
+        "evidence": "Search result 'Aditya Balu - Data Scientist - Iowa State University'; not fetched."
+      }
+    ],
+    "notes": "Existing link adityabalu.mystrikingly.com returns 403 to fetch (still indexed); adityabalu.github.io appears to be the current homepage."
+  },
+  {
+    "name": "Joshua Waite",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=skX2i7kAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Scholar 'Joshua R. Waite': Data Scientist, Translational AI Center, ISU; verified iastate.edu; top coauthor Soumik Sarkar."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/jrwaite/",
+        "confidence": "medium",
+        "evidence": "Search result 'Joshua Waite - TrAC - Translational AI Center'; slug matches email jrwaite; not fetched."
+      }
+    ],
+    "notes": "A different Scholar profile (8Gf_fUYAAAAJ, Duke, turbine flutter) is a different person - excluded. No homepage/GitHub found."
+  },
+  {
+    "name": "Kin Gwn Lore",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://github.com/kglore/kglore",
+        "confidence": "high",
+        "evidence": "README 'Kin Gwn Lore's Personal Page': ISU M.S. thesis 2017, ISU Research Excellence Award 2016; lists Raytheon Technologies Research Center."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/kglore",
+        "confidence": "high",
+        "evidence": "Username matches ISU email kglore; hosts personal page repo."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=rVWjsIoAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Existing link confirmed: frequent coauthor Soumik Sarkar, LLNet paper; now verified deloitte.com email."
+      }
+    ],
+    "notes": "Existing link kglore.weebly.com returns 404 (dead); kingwn.weebly.com is labeled 'Outdated'. Current employer per Scholar: Deloitte (theorg.com: Data Science Manager, Deloitte Danmark)."
+  },
+  {
+    "name": "Kundan Kumar",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://kundan-kumarr.github.io/",
+        "confidence": "high",
+        "evidence": "Linked as homepage from Scholar profile below."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=1zDpIJkAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "PhD CS Iowa State, verified iastate.edu; includes 2016 ICCPS paper 'Deep value of information estimators...' with Lore and Sarkar; linked from ISU CS profile."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/kundan-kumarr",
+        "confidence": "medium",
+        "evidence": "Same handle as homepage kundan-kumarr.github.io; not fetched."
+      },
+      {
+        "type": "faculty-page",
+        "url": "https://www.cs.iastate.edu/people/kundan-kumar-0",
+        "confidence": "high",
+        "evidence": "ISU CS PhD profile: M.S. CS Iowa State, B.E. ECE; advisor Ravikumar Gelli; links Scholar 1zDpIJkAAAAJ."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/kundan-kumarr/",
+        "confidence": "medium",
+        "evidence": "Search result 'Kundan Kumar - PhD in Computer Science ... Iowa State'; not fetched."
+      }
+    ],
+    "notes": "After the 2016 M.S. he continued to a PhD in ISU CS (advisor R. Gelli)."
+  },
+  {
+    "name": "Vikas Chawla",
+    "searched": true,
+    "results": [],
+    "notes": "Searches for name + Twilio/Iowa State only returned the SCSLab team page itself. No homepage, Scholar or GitHub could be tied to him."
+  },
+  {
+    "name": "Adedotun Akintayo",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en",
+        "confidence": "high",
+        "evidence": "Profile name Adedotun Akintayo; top paper LLNet with K.G. Lore and S. Sarkar; co-authors Soumik Sarkar, Zhanhong Jiang. Affiliation now The Boeing Company (site says Intel; outdated)."
+      },
+      {
+        "type": "homepage",
+        "url": "https://dotunakintayo.weebly.com/",
+        "confidence": "medium",
+        "evidence": "Linked as homepage from his verified-by-content Scholar profile; page itself only shows 'Dotun Akintayo' with Publications/Research sections, no ISU text seen."
+      }
+    ],
+    "notes": "Existing Scholar link is correct for him. Current employer per Scholar: Boeing (not Intel)."
+  },
+  {
+    "name": "Linjiang Wu",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=UwkVywQAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Profile name Linjiang Wu, Sr. System Engineer at Continental (verified continental-corporation.com); co-authored with Soumik Sarkar: 'An adaptive spatiotemporal feature learning approach for fault diagnosis in complex systems' (2019) and crop yield prediction (2021)."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/linjiang-wu/",
+        "confidence": "medium",
+        "evidence": "Appeared in search results as 'Linjiang Wu - Sr. System Design Engineer (Head-Up ...)', consistent with Scholar's AR-HUD/Continental role; not fetched."
+      }
+    ],
+    "notes": "CONFLICT: existing Scholar link (kiTENtllKw4C) is Adedotun Akintayo's profile, not his. Correct one is UwkVywQAAAAJ. Now at Continental, not Hi-Lex."
+  },
+  {
+    "name": "Apurva Kokate",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=ujVlricAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Profile lists her 2018 Iowa State University thesis 'A study of interpretability mechanisms for deep networks' and papers co-authored with Soumik Sarkar (forward-backward visualization; photovoltaics microstructure). Now verified oregonstate.edu (PhD at Oregon State)."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/apurva-kokate/",
+        "confidence": "medium",
+        "evidence": "Search result 'Apurva Kokate - Oregon State University', consistent with Scholar profile; not fetched. Note a different Apurva Kokate (IDFC FIRST Bank) also exists."
+      }
+    ],
+    "notes": "Appears to have later done a PhD at Oregon State (dissertation on hybrid modeling for environmental systems); the Kingland Systems role is likely outdated."
+  },
+  {
+    "name": "Venkatesh Chinde",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://venkateshchinde.weebly.com/",
+        "confidence": "high",
+        "evidence": "Page names Venkatesh Chinde, PhD Mechanical Engineering Iowa State (math minor), now Research Engineer at NREL."
+      },
+      {
+        "type": "faculty-page",
+        "url": "https://www.nrel.gov/research/staff/venkatesh-chinde.html",
+        "confidence": "high",
+        "evidence": "NREL staff page: Ph.D. ME with math minor Iowa State, M.S. EE Iowa State, M.Tech VJTI, B.Tech Auroras Engineering College; matches degrees exactly."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=M217XvAAAAAJ&hl=en",
+        "confidence": "medium",
+        "evidence": "Profile name Venkatesh Chinde, building HVAC MPC papers (co-authors at NREL/PNNL); no affiliation listed. Field matches NREL page; no direct ISU/Sarkar text seen."
+      }
+    ],
+    "notes": "Existing links still valid. Now at NREL (LinkedIn search snippet says 'National Laboratory of the Rockies', NREL's new name)."
+  },
+  {
+    "name": "Shuo Wang",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=r0UjaNUAAAAJ",
+        "confidence": "high",
+        "evidence": "Verified nvidia.com email; frequent co-author Anuj Sharma (Iowa State civil/transportation); 'Highway crash detection and risk estimation using deep learning' (ISU TIMELI work). Matches ISU Civil PhD + NVIDIA from the site details."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/wkelongws-shuowang/",
+        "confidence": "medium",
+        "evidence": "Search result titled 'Shuo Wang - Senior Systems Engineer at NVIDIA', matching the site's details; not fetched."
+      }
+    ],
+    "notes": "Common name. Accepted only the profile tied to NVIDIA + Anuj Sharma (ISU)."
+  },
+  {
+    "name": "Zhanhong Jiang",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=zRRvPRMAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Scientist at TrAC, Iowa State; verified iastate.edu; top co-author Soumik Sarkar."
+      },
+      {
+        "type": "faculty-page",
+        "url": "https://trac-ai.iastate.edu/profiles/zhanhong-jiang/",
+        "confidence": "high",
+        "evidence": "TrAC (Iowa State) profile, Data Scientist, email zhjiang@iastate.edu (matches username)."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/starkjiang",
+        "confidence": "medium",
+        "evidence": "GitHub name Zhanhong Jiang, affiliated with Iowa State; hosts TrAC short-course repos (from search result)."
+      }
+    ],
+    "notes": "Existing Scholar link valid. He's back at ISU TrAC (no longer Johnson Controls)."
+  },
+  {
+    "name": "Sambuddha Ghosal",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?hl=en&user=gsQYjWcAAAAJ",
+        "confidence": "high",
+        "evidence": "Name Sambuddha Ghosal, Senior Research Data Scientist @ Bayer R&D / MIT, verified mit.edu; plant stress phenotyping papers with Ganapathysubramanian/Singh (ISU)."
+      },
+      {
+        "type": "homepage",
+        "url": "https://www.media.mit.edu/people/sghosal/overview/",
+        "confidence": "high",
+        "evidence": "MIT Media Lab profile: postdoc with Pratik Shah; Ph.D. Iowa State University, May 2019. Linked as homepage from Scholar."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/sghosal93",
+        "confidence": "high",
+        "evidence": "GitHub name Sambuddha Ghosal, 'Postdoc @ MIT', links to MIT Media Lab page; hosts xPlNet plant-stress and photovoltaics CNN repos (ISU papers)."
+      }
+    ],
+    "notes": "Existing Scholar link valid. Now Senior Research Data Scientist at Bayer R&D."
+  },
+  {
+    "name": "Truong Tran",
+    "searched": true,
+    "results": [
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/truong-tran-62643194/",
+        "confidence": "medium",
+        "evidence": "Same slug as existing link; search result title now 'Truong Tran - FPT Software'. Not fetched."
+      }
+    ],
+    "notes": "No homepage/Scholar/GitHub found that ties to ISU. Existing LinkedIn slug confirmed in search results; headline suggests he moved from VinCSS to FPT Software."
+  },
+  {
+    "name": "Zhisheng Zhang",
+    "searched": true,
+    "results": [
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/zszhang/",
+        "confidence": "low",
+        "evidence": "Search for 'Zhisheng Zhang Bayer Iowa State deep learning plant' returned 'Zhisheng Zhang - Machine Learning Engineer'; not fetched, so ISU tie not confirmed."
+      }
+    ],
+    "notes": "CONFLICT: existing link on the site is Truong Tran's LinkedIn (truong-tran-62643194), a copy-paste error; drop it. No Scholar/homepage found."
+  },
+  {
+    "name": "Ameya Joshi",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://ameya005.github.io/",
+        "confidence": "high",
+        "evidence": "Page states PhD NYU Tandon 2023 (advisor Chinmay Hegde), previously ISU PhD student under Hegde and Soumik Sarkar, BITS Pilani 2014. Now Research Scientist at Extend AI."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.co.in/citations?user=jZgsp_sAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Linked from his homepage."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/ameya005",
+        "confidence": "high",
+        "evidence": "Linked from his homepage."
+      }
+    ],
+    "notes": "Existing homepage link valid."
+  },
+  {
+    "name": "Amitangshu Mukherjee",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://amitangshu1013.github.io/",
+        "confidence": "high",
+        "evidence": "PhD candidate ECE Purdue; M.S. Computer Engineering Iowa State, worked with Prof. Soumik Sarkar."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=aK1eTNkAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Verified purdue.edu; homepage amitangshu1013.github.io; co-authors Soumik Sarkar and Chinmay Hegde; linked from homepage."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/Amitangshu1013",
+        "confidence": "high",
+        "evidence": "Linked from homepage."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/amitangshu-mukherjee-146837129",
+        "confidence": "high",
+        "evidence": "Linked from homepage."
+      }
+    ],
+    "notes": "No existing links; strong finds."
+  },
+  {
+    "name": "Sambit Gadhai",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=EyIpgmoAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Name spelled 'Sambit Ghadai'; verified iastate.edu; co-authors Adarsh Krishnamurthy and Soumik Sarkar; 3D CAD manufacturability papers."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/sambitghadai/",
+        "confidence": "medium",
+        "evidence": "Search result 'Sambit Ghadai - Intel Corporation', matches the Intel role on the site; not fetched."
+      }
+    ],
+    "notes": "Name on site is misspelled: correct spelling is 'Sambit Ghadai'."
+  },
+  {
+    "name": "Homagni Saha",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=_fZmnRMAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "PhD ME & CS Iowa State, verified iastate.edu; co-authors Soumik Sarkar, Sambuddha Ghosal."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/Homagn",
+        "confidence": "high",
+        "evidence": "GitHub 'Homagn (Homagni Saha)'; also the GitHub linked from his weebly site."
+      },
+      {
+        "type": "homepage",
+        "url": "https://homagnisahaandrobotics.weebly.com/",
+        "confidence": "medium",
+        "evidence": "Existing link; page ('MY DREAMS AND PASSIONS') links to github.com/Homagn; robotics/game projects; looks old and isn't updated."
+      },
+      {
+        "type": "other",
+        "url": "https://sessionize.com/homagni-saha/",
+        "confidence": "medium",
+        "evidence": "Speaker profile: Senior Applied ML Scientist, PhD Iowa State, led CV at Danfoss (matches site)."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/homagni-saha/",
+        "confidence": "medium",
+        "evidence": "Same as existing link; search title now 'Dr. Homagni S. - Indian Institute of Technology, Kharagpur'."
+      }
+    ],
+    "notes": "Search snippets suggest he is now Assistant Professor at IIT Kharagpur (unverified beyond LinkedIn title); weebly site is outdated."
+  },
+  {
+    "name": "Jaydeep-Ravindra Rade",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://jaydeepradejd.github.io/",
+        "confidence": "high",
+        "evidence": "Page: Jaydeep Rade, Ph.D. candidate in EE at Iowa State under Adarsh Krishnamurthy and Anwesha Sarkar; M.S. ISU 2021, B.Tech VJTI 2018. Links to the Scholar and GitHub below. Page looks outdated (still says Ph.D. candidate, no GE Vernova)."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=_HpXM5UAAAAJ",
+        "confidence": "high",
+        "evidence": "Linked from the homepage; search snippet shows Research Scientist at GE Vernova, PhD/MS EE from ISU, BTech VJTI."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/jaydeepradeJD",
+        "confidence": "high",
+        "evidence": "Linked from the homepage."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/jaydeep-rade-a8965086/",
+        "confidence": "medium",
+        "evidence": "Search result title 'Jaydeep Rade - Research Assistant - Iowa State University'. Not fetched."
+      }
+    ],
+    "notes": "The homepage content predates his GE Vernova role."
+  },
+  {
+    "name": "Yasaman Esfandiari",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=2zBDS7IAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Affiliation HRL Laboratories, verified hrl.com email; co-authored papers with S. Sarkar, K.L. Tan and X.Y. Lee (action-space adversarial RL, cross-gradient aggregation)."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/yasamanesfandiari/",
+        "confidence": "medium",
+        "evidence": "Search result: 'Yasaman Esfandiari - Machine Learning Research Scientist'; snippet says ML Research Scientist at HRL with an ISU PhD. Not fetched."
+      }
+    ],
+    "notes": "No personal homepage found."
+  },
+  {
+    "name": "Koushik Nagasubramanian",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=DNivdrsAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Bayer Crop Science (verified bayer.com) matches the listed employer; papers co-authored with S. Sarkar and B. Ganapathysubramanian (hyperspectral 3D CNN plant disease)."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/koushik-nagasubramanian/",
+        "confidence": "medium",
+        "evidence": "Search result title 'Koushik Nagasubramanian - Bayer'. Not fetched."
+      }
+    ],
+    "notes": "No personal homepage found."
+  },
+  {
+    "name": "Tryambak Gangopadhyay",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=QDv2cHoAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Same as the existing link; snippet shows Senior Applied Scientist, GenAI at Amazon AWS (verified amazon.com), which matches 'working at Amazon'."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/tryambakganguly",
+        "confidence": "medium",
+        "evidence": "Name 'Tryambak Gangopadhyay', bio 'Generative AI @ AWS', and a link to his LinkedIn. No ISU mention, but the name is rare and the employer matches."
+      },
+      {
+        "type": "other",
+        "url": "https://www.amazon.science/author/tryambak-gangopadhyay",
+        "confidence": "medium",
+        "evidence": "Amazon Science author page for an applied scientist at AWS (from search result only)."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/tryambakgangopadhyay/",
+        "confidence": "medium",
+        "evidence": "Linked from the GitHub profile. This is a different slug from the existing link (tryambak-gangopadhyay-0ab13568), so the existing LinkedIn may be stale."
+      }
+    ],
+    "notes": "No personal homepage. The current LinkedIn slug looks like /in/tryambakgangopadhyay/."
+  },
+  {
+    "name": "Bernard Lee Xian Yeow",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=sjAA1AQAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Xian Yeow Lee, Hitachi America (verified hal.hitachi.com); homepage field links linkedin.com/in/bernard-leexy (matches the existing link); co-author with Soumik Sarkar."
+      }
+    ],
+    "notes": "A second profile ID (Phg5W3EAAAAJ) showed up in search but returned 404, so it was not used. No personal homepage found."
+  },
+  {
+    "name": "Russell Kai Liang Tan",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=HgGGNSEAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Same as the existing link. Snippet: 'Kai Liang Tan (Russell)', GPU Software Development Engineer, verified intel.com; adversarial deep RL papers with the SCSLab group."
+      }
+    ],
+    "notes": "No personal homepage found."
+  },
+  {
+    "name": "Luis G. Riera",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=UtQzjwsAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Luis Riera Garcia, CSIRO (verified csiro.au), which matches Data61; papers include 'Deep multiview image fusion for soybean yield estimation' with Soumik Sarkar, Ganapathysubramanian and Ghosal."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/luis-riera-55a93713/",
+        "confidence": "medium",
+        "evidence": "Search snippet: Senior Research Scientist at CSIRO's Data61; PhD, BS and MS from ISU. Not fetched."
+      }
+    ],
+    "notes": "No personal homepage found."
+  },
+  {
+    "name": "Sin Yong Tan (Evan)",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=vCGCNXAAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "AI Scientist at Musco Sports Lighting (verified musco.com), which matches the listed employer; co-authors include Soumik Sarkar, Tryambak Gangopadhyay and Homagni Saha."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/sin-yong-tan/",
+        "confidence": "high",
+        "evidence": "Linked as the homepage on the verified Scholar profile above."
+      }
+    ],
+    "notes": "No personal homepage or GitHub found."
+  },
+  {
+    "name": "Fateme Fotouhi Ardakani",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=wplmVzIAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Computer Vision Research Scientist at Canon USA (verified cusa.canon.com); co-authors include S. Sarkar, Esfandiari and Balu."
+      },
+      {
+        "type": "faculty-page",
+        "url": "https://sirac.agron.iastate.edu/people/fateme-fotouhi",
+        "confidence": "medium",
+        "evidence": "ISU SIRAC people page (seen only in search results; probably an old student profile)."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/fotouhif/",
+        "confidence": "high",
+        "evidence": "Search result 'Fateme Fotouhi - Canon USA'; the slug matches her ISU username fotouhif."
+      }
+    ],
+    "notes": "Another Scholar ID (3567wYQAAAAJ) showed up in search but returned 404, so it was not used. No personal homepage found."
+  },
+  {
+    "name": "Jesse Lane",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://jesselane.net/",
+        "confidence": "high",
+        "evidence": "Jesse Lane, PhD, Principal Research Engineer at Collins Aerospace; PhD plus B.S. in Computer Science and Mathematics, all from Iowa State (matches the listed B.S. CS/Math ISU 2005 and Collins Aerospace)."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/jesse-lane-8587a47/",
+        "confidence": "high",
+        "evidence": "Same as the existing link; search title 'Principal Research Engineer - Collins ...'."
+      }
+    ],
+    "notes": "The homepage gives his PhD as Human Computer Interaction, while the lab site lists Mechanical Engineering. A second LinkedIn, /in/jesse-lane-ai/ ('Co-Founder'), is unverified and was left out."
+  },
+  {
+    "name": "Jiale Feng",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=WJ35n5UAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Iowa State (verified iastate.edu); papers on probabilistic voxel carving plant 3D reconstruction, soybean yield and active shooter detection, co-authored with Soumik Sarkar."
+      },
+      {
+        "type": "faculty-page",
+        "url": "https://www.cs.iastate.edu/people/jiale-feng",
+        "confidence": "medium",
+        "evidence": "Search snippet: Ph.D. candidate in ISU CS in SCSLab under Dr. Soumik Sarkar, with the VRAC/Collins Aerospace background. The fetch returned 404, so the page may be gone."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/jiale-feng/",
+        "confidence": "high",
+        "evidence": "Linked as the homepage on the verified Scholar profile; search title 'Software Engineer II @ Corteva Agriscience'."
+      }
+    ],
+    "notes": "May now work at Corteva Agriscience (from the LinkedIn search title)."
+  },
+  {
+    "name": "Ashutosh Kumar Nirala",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://aknirala.github.io/",
+        "confidence": "high",
+        "evidence": "PhD candidate in ISU CS advised by Soumik Sarkar and Jin Tian; email aknirala@iastate.edu matches."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=4MJQOyYAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Linked from the homepage; verified iastate.edu, homepage set to aknirala.github.io; co-authored with S. Sarkar and J. Tian."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/aknirala",
+        "confidence": "high",
+        "evidence": "Linked from the homepage; the username matches his ISU email."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/ashutosh-nirala-6203114a/",
+        "confidence": "high",
+        "evidence": "Linked from the homepage."
+      },
+      {
+        "type": "other",
+        "url": "https://openreview.net/profile?id=~Ashutosh_Kumar_Nirala1",
+        "confidence": "medium",
+        "evidence": "OpenReview profile, seen only in search results."
+      }
+    ],
+    "notes": "The homepage still says 'defending Fall 2025' and does not mention Meta."
+  },
+  {
+    "name": "Ethan Herron",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=JstQ09AAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Graduate Student at Iowa State (verified iastate.edu); co-authored with S. Sarkar, J. Rade and A. Balu (topology optimization, cross-gradient aggregation)."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/ethan-herron-9218a1171/",
+        "confidence": "medium",
+        "evidence": "Search result 'Ethan Herron - Machine Learning Engineer at Arm'; snippet ties it to ISU research on topology optimization. Not fetched."
+      }
+    ],
+    "notes": "No personal homepage found. The github.io sites that came up (ethan-yws, iethan-h) are not him. May now be at Arm."
+  },
+  {
+    "name": "Muhammad Arbab Arshad",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://arbabarshad.com/",
+        "confidence": "high",
+        "evidence": "Muhammad Arbab Arshad, ISU CS Ph.D. candidate and AIIRA RA; NeRF plant reconstruction papers co-authored with Soumik Sarkar."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/arbab-ml",
+        "confidence": "high",
+        "evidence": "Name Muhammad Arbab Arshad; bio says Iowa State Ph.D. student, AIIRA, Ames IA; has a Plant-NeRFs repo; website arbab-ml.github.io."
+      },
+      {
+        "type": "faculty-page",
+        "url": "https://www.cs.iastate.edu/people/muhammad-arshad",
+        "confidence": "high",
+        "evidence": "ISU CS profile: PhD student who joined Dr. Soumik's lab in Spring 2022, NeRF for soybean, B.S. LUMS."
+      },
+      {
+        "type": "homepage",
+        "url": "https://arbab.dev/",
+        "confidence": "low",
+        "evidence": "Search result titled 'Muhammad Arbab'. Could not fetch it (TLS error on a GitHub Pages custom domain), so it is unverified."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/arbab-arshad/",
+        "confidence": "medium",
+        "evidence": "Search result 'Muhammad Arbab Arshad - AIIRA'. Not fetched."
+      }
+    ],
+    "notes": "No Google Scholar profile found. Neither homepage mentions Waymo yet."
+  },
+  {
+    "name": "Bukhari Mohamed",
+    "searched": true,
+    "results": [],
+    "notes": "High-school RA; one search, nothing identifiable."
+  },
+  {
+    "name": "Jeffrey Heylmun",
+    "searched": true,
+    "results": [
+      {
+        "type": "github",
+        "url": "https://github.com/jheylmun",
+        "confidence": "medium",
+        "evidence": "GitHub profile 'Jeff Heylmun', location Ames, IA, repos include ME557 coursework and OpenQBMM/OpenFOAM (Iowa State CFD work). Distinctive name; theorg/aggregator bios list B.S. Mechanical Engineering, Iowa State 2011-2015, matching the listed degree."
+      },
+      {
+        "type": "other",
+        "url": "https://www.researchgate.net/profile/Jeff-Heylmun",
+        "confidence": "medium",
+        "evidence": "ResearchGate profile for Jeff Heylmun; Iowa State CFD publications (with R.O. Fox). Did not fetch."
+      }
+    ],
+    "notes": "Later did a Ph.D. in CFD at Iowa State (2015-2019); now Research Development Lead at Synthetik Applied Technologies (blastFoam). No personal homepage found."
+  },
+  {
+    "name": "Adrian Kang Wei Chan",
+    "searched": true,
+    "results": [
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/adrianchan2/",
+        "confidence": "low",
+        "evidence": "Search result titled 'Adrian Chan Kang Wei' (sg.linkedin.com). Exact name match, but the snippet showed no Iowa State tie. Not fetched."
+      }
+    ],
+    "notes": "No homepage or scholar profile found."
+  },
+  {
+    "name": "Adam Kohl",
+    "searched": true,
+    "results": [
+      {
+        "type": "other",
+        "url": "https://www.researchgate.net/profile/Adam-Kohl",
+        "confidence": "medium",
+        "evidence": "Search snippet: affiliated with Iowa State Mechanical Engineering. Adam Kohl co-authored the VOLTTRON building-energy supervisory-control paper with Chinde, Jiang, Kelkar and Sarkar (2016) and the ASME DSMC 2021 Kalman Best Paper. Matches the listed project."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/adam-kohl-8265aa80/",
+        "confidence": "medium",
+        "evidence": "Search result 'Adam Kohl - Virtual Reality Applications Center' (ISU VRAC); the snippet mentions the building-energy optimization paper. Not fetched."
+      }
+    ],
+    "notes": "No personal homepage or Scholar profile found."
+  },
+  {
+    "name": "Xuehan Liu",
+    "searched": true,
+    "results": [],
+    "notes": "Two searches found nothing tied to Iowa State or ALS modeling."
+  },
+  {
+    "name": "Abdulrahman Alnagar",
+    "searched": true,
+    "results": [],
+    "notes": "Only unrelated ZoomInfo entries (a pharmacist and others). Nothing tied to ISU or the REU."
+  },
+  {
+    "name": "Haley Primrose",
+    "searched": true,
+    "results": [],
+    "notes": "High-school RA; one search, nothing."
+  },
+  {
+    "name": "Matthew Hopkins",
+    "searched": true,
+    "results": [],
+    "notes": "High-school RA with a very common name; one search, nothing."
+  },
+  {
+    "name": "Aaron Havens",
+    "searched": true,
+    "results": [
+      {
+        "type": "homepage",
+        "url": "https://aaronhavens.github.io/",
+        "confidence": "high",
+        "evidence": "Fetched page: 'earned his Bachelors in Mechanical Engineering at Iowa State University, Ames, Iowa'; lists 'Online robust policy learning in the presence of unknown adversaries' (Havens, Jiang, Sarkar, NeurIPS 2018), the same project the input lists. Now a postdoc at Meta FAIR after a UIUC ECE Ph.D."
+      },
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=HBAXF6YAAAAJ",
+        "confidence": "high",
+        "evidence": "Linked directly from aaronhavens.github.io."
+      },
+      {
+        "type": "github",
+        "url": "https://github.com/AaronHavens",
+        "confidence": "high",
+        "evidence": "Linked directly from aaronhavens.github.io."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/aaron-havens-1bb529a9",
+        "confidence": "high",
+        "evidence": "Linked directly from aaronhavens.github.io. Not fetched."
+      }
+    ],
+    "notes": "Current: postdoctoral researcher, Meta FAIR."
+  },
+  {
+    "name": "Balaji S Sarath Pokuri",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=cy4PLJYAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Search result: Scholar profile titled exactly 'Balaji S Sarath Pokuri', verified email at iastate.edu, interests material science / machine learning / optimization. Matches the listed ISU ME interests (phase field, HPC, ML). WebFetch returned 404 (Scholar blocks bots), so the profile itself was not seen."
+      }
+    ],
+    "notes": "Full name Balaji Sesha Sarath Pokuri (Baskar Ganapathysubramanian group). No personal homepage found."
+  },
+  {
+    "name": "Paige K Boor",
+    "searched": true,
+    "results": [],
+    "notes": "Two searches, nothing identifiable."
+  },
+  {
+    "name": "Genyi Huang",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=PdFsrLkAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Search result: Scholar profile 'Genyi Huang' lists 'Temporal Attention and Stacked LSTMs for Multivariate Time Series Prediction' (2018, co-authors Gangopadhyay, Tan, Sarkar), which matches the listed SCSLab project 'LSTM and Attention models for time series prediction'. Interests AI/Deep Learning/Statistics. Verified email at oracle.com (current employer)."
+      }
+    ],
+    "notes": "Currently a Data Scientist at Oracle, per the Scholar email domain. No homepage found."
+  },
+  {
+    "name": "Mason Drees",
+    "searched": true,
+    "results": [
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/mason-drees-4a90a8199/",
+        "confidence": "medium",
+        "evidence": "Search snippet: B.S. Mechanical Engineering, Iowa State 2018-2022, minors in Computer Science and Cyber-Physical Systems (matches the ME major / CS minor in the input). Now a robotics programmer/EDP engineer at John Deere. Not fetched."
+      }
+    ],
+    "notes": "No homepage or scholar found."
+  },
+  {
+    "name": "Aakanksha",
+    "searched": true,
+    "results": [],
+    "notes": "Single-name person. Found an 'Aakanksha' at Cohere (NYU MS; linkedin.com/in/aakanksha97, openreview ~Aakanksha2) but saw nothing tying her to Amity University or ISU (the OpenReview profile was behind a bot check). Left out as unverified."
+  },
+  {
+    "name": "Briton R Bauerly",
+    "searched": true,
+    "results": [
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/briton-bauerly/",
+        "confidence": "medium",
+        "evidence": "Search snippet: Briton Bauerly attended Iowa State University, robotics/automation background (Intramotev autonomous rail, now Software Engineer at First Orion). Very distinctive name. Not fetched."
+      }
+    ],
+    "notes": "No homepage or scholar found."
+  },
+  {
+    "name": "Yingying Huang",
+    "searched": true,
+    "results": [],
+    "notes": "Two searches. Only other Yingying Huangs (PolyU, a TikTok Ph.D.), none tied to ISU ME. Nothing accepted."
+  },
+  {
+    "name": "David Leguizamo",
+    "searched": true,
+    "results": [
+      {
+        "type": "scholar",
+        "url": "https://scholar.google.com/citations?user=_a8sHdMAAAAJ&hl=en",
+        "confidence": "high",
+        "evidence": "Search result: Scholar profile 'David Felipe Leguizamo', verified email at iastate.edu, paper 'Deep reinforcement learning for robotic control with multi-fidelity models' (2022, with S. Sarkar), the SCSLab robotics work."
+      },
+      {
+        "type": "linkedin",
+        "url": "https://www.linkedin.com/in/dfleguizamo/",
+        "confidence": "high",
+        "evidence": "Search snippet: Felipe Leguizamo, Undergraduate Research Assistant at Iowa State Sep 2021-Dec 2022, trained RL models for robotic-arm end-effector guidance (matches 'joined Fall 2021, robotics applications'). Now a GNC Engineer at Boeing. Not fetched."
+      }
+    ],
+    "notes": "Goes by Felipe; full name David Felipe Leguizamo."
+  }
+]

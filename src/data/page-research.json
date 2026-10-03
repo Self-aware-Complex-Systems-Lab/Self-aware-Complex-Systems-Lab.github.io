@@ -1,0 +1,266 @@
+[
+ {
+  "heading": "Research Areas",
+  "level": "h1",
+  "items": []
+ },
+ {
+  "heading": "Learning And Inference In Cyber-Physical Systems (CPS)",
+  "level": "h2",
+  "items": [
+   {
+    "tag": "p",
+    "text": "Modern large-scale cyber-physical systems (e.g., integrated buildings, power plants, aerospace systems) are designed to have strong inter-connectivity among its heterogeneous subsystems. Such complexity together with uncertainties stemming from environment, usage and subsystem heterogeneity make it extremely difficult to monitor, control and perform V&V. Our aim is to alleviate some of these issues by developing a data-driven scalable modeling technique that can reliably capture the characteristics of the sub-systems and their interactions at various spatiotemporal scales.",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Data Analytics and Machine Learning for Plant Science and Agricultural Applications",
+  "level": "h2",
+  "items": [
+   {
+    "tag": "p",
+    "text": "We are interested in developing new data analytics and machine learning tools for analyzing and decision-making in the domain of plant science and agriculture. Examples include crop yield production, automated image analysis for disease detection and analyzing long-term weather, yield and other agricultural data to discover causal patterns. In this area, we are involved in various multi-disciplinary ongoing efforts within Iowa State.",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Pattern Discovery In Large-Scale Simulation Data",
+  "level": "h2",
+  "items": [
+   {
+    "tag": "p",
+    "text": "With the advent of HPC, very large scale simulation studies are abundant for thermo-fluid systems. However, analyzing large data sets generated from such studies become challenging due to the data overload issue. We are interested in developing hierarchical feature extraction algorithms (e.g., Deep Learning models) to discover the patterns in previously simulated data. Such models can then be used to identify new physical phenomena and novel design options via probabilistic inferencing.",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Decision Support Systems",
+  "level": "h2",
+  "items": [
+   {
+    "tag": "p",
+    "text": "We are developing decision frameworks and decision support systems for different applications, such as manufacturing processes and building construction processes. The key challenge is to be able to integrate heterogeneous decision components, capture uncertainties, model uncertainty propagation characteristics and handle missing & conflicting information. Finally, the frameworks need to be scalable and they should preserve the semantics of the underlying systems. In this context, we are also interested in interactive decision support mechanisms and visualization of high-dimensional data. As data overload can be expected in such problems, we are interested in exploring capabilities of “Big Data” platforms to enhance scalability.",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Smart Buildings and Smart Cities",
+  "level": "h1",
+  "items": [
+   {
+    "tag": "p",
+    "text": "Smart Cities and Smart Buildings have been created by using modern information and communication technologies and they are improving the quality and interactivity of urban services while reducing energy and economic costs and ensuring sustainability. As buildings take responsibilities for about two-thirds of the U.S. electrical energy consumption, which represents large economic and environmental losses, smart buildings are essentially the foundation for smart cities. Therefore, energy-efficient building technology is significantly critical and cutting-edge Internet of Things (IoT) solutions enable better data-driven decisions, which result in smart buildings and smart cities. [Read More in From Smart Homes to Green Cities: The Role of Intelligent Diagnostics and Control in Energy Efficient Buildings, ASME Mechanical Engineering Magazine, December 2013] We are interested in developing data-driven performance monitoring and health management tools as well as scalable supervisory control algorithms to increase energy efficiency in both new and existing buildings. We are also interested in developing different novel IoT techniques to ensure the efficiency and sustainability of smart cities.",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Distributed Optimization",
+  "level": "h1",
+  "items": [
+   {
+    "tag": "p",
+    "text": "Many control and machine learning problems can be cast as optimization problems in which some variables of interest are optimized to minimize some cost such as energy cost, time cost, or economic cost (in controls) and error between ground truth and inference results (in machine learning). In large-scale cyber-physical systems, centralized optimization approaches cannot satisfy the requirements of modeling, control, and learning such that the entire pipeline requires efficient distributed optimization algorithms to extend the existing centralized techniques and solve problems effectively. We are interested in the development and analysis of novel distributed optimization algorithms in both deterministic and stochastic multi-agent systems. Specifically, we mainly focus on developing new distributed optimization approaches for minimizing costs in large-scale energy systems and distributed deep learning models for intelligent decision-making and inference processes.",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Health Monitoring and Prognostics",
+  "level": "h1",
+  "items": [
+   {
+    "tag": "p",
+    "text": "The instabilities arising in combustion processes cause significant deterioration and safety issues in various human-engineered systems such as land and air-based gas turbine engines. The oscillations arising as a result of nonlinear coupling between the flame and the acoustic field can cause an intense growth in pressure fluctuations resulting in structural damage and catastrophic failures of the engine. For early detection of combustion instabilities, an end-to-end convolutional selective autoencoder approach is trained to selectively mask stable flame and allow unstable flame image frames. In that process, the model learns to identify and extract rich descriptive and explanatory flame shape features. With such a training scheme, the selective autoencoder is shown to be able to detect subtle instability features as a combustion process makes transition from stable to unstable region.",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "We propose a deep convolutional neural network (CNN) model trained on sequential image frames extracted from hi-speed flame videos by inducing instability in the system following a particular protocol and we attempt to detect the onset of instability in a transient dataset where instability is induced by a different protocol. With the continuous variation of the control parameter, we can successfully detect the critical transition to a state of high combustion instability demonstrating the robustness of our proposed detection framework, which is independent of the combustion inducing protocol. The deep learning models can thus act as early detection frameworks for combustion instabilities that will have a transformative impact on the safety and performance of modern engines.",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Image Processing and Enhancement Algorithms",
+  "level": "h1",
+  "items": [
+   {
+    "tag": "p",
+    "text": "We propose a deep autoencoder-based approach to identify signal features from low-light images and adaptively brighten images without over-amplifying/saturating the lighter parts in images with a high dynamic range. In surveillance, monitoring and tactical reconnaissance, gathering visual information from a dynamic environment and accurately processing such data are essential to making informed decisions and ensuring the success of a mission. Camera sensors are often cost-limited to capture clear images or videos taken in a poorly-lit environment. Many applications aim to enhance brightness, contrast and reduce noise content from the images in an on-board real-time manner. We show that a variant of the stacked-sparse denoising autoencoder can learn to adaptively enhance and denoise from synthetically darkened and noise-added training examples. The model can be applied to images taken from natural low-light environment and/or are hardware-degraded.",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Machine Learning & GPU Accelerated Tools for Manufacturing Processes",
+  "level": "h1",
+  "items": [
+   {
+    "tag": "p",
+    "text": "We propose a 3D Convolutional Neural Network based decision support framework for manufacturability of 3D-CAD models. Manufacturing considerations while designing a part or product is essential due to design-manufacturing process being iterative in nature. Our proposed framework detects features and rules based on the supervised training of a large dataset consisting of both manufacturable and non-manufacturbale primitives. Only deciding a yes or no on the manufacturability of a component is not sufficient in most cases. For this purpose we proposed a 3D-CAD model interpretability algorithm called 3D-GRADCAM that specifies significant areas in a CAD model that are not manufacturable. This kind of decision support is essential for the designer to design a completely manufacturable component without a lot of iterations between the design and manufacturing engineers.",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Video description: https://www.youtube.com/watch?v=CTWF52T0ZvM",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "For more details please follow this link: http://web.me.iastate.edu/adamlab/index.html",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Robotics and Self-Driving Cars",
+  "level": "h1",
+  "items": [
+   {
+    "tag": "p",
+    "text": "The robotic research platform is a robotic arm from Rethink Robotics with 7 degrees of freedom that can hold up to 4 kg of payload and a maximum reach of 1.26 meters. It is equipped with 2 Cognex Vision Systems that can be used for computer vision research such as object detection and localization. Different end effectors may be attached to Sawyer’s arm for different applications such as packaging, machining, molding, and many more.",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Projects that have been performed using Sawyer so far include using reinforcement learning algorithms to detect an object and reach for the object without localization. The object detection task was performed using Sawyer’s vision system with both an edge detection algorithm and a convolutional neural network while the learning was implemented using a Deep-Q Network.",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The self-driving car research platform consists of 2 Neighbourhood Electric Vehicles (NEV) that features a Platform Actuation and Control Module (PACMod) by-wire controller that enables access to the vehicle’s main controls such as acceleration, braking, and steering. The PACMod utilizes a common Controller Area Network (CAN) protocol for data logging and also provides an interface option with the Robot Operating System (ROS) for external computations and processing.",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "The vehicle is equipped with multiple sensors including a GPS/IMU unit, a LiDAR module, and a radar module. Additionally, there are also 2 cameras that are mounted on the vehicle that is connected to NVIDIA's DRIVE PX2 AI platform. The DRIVE PX2 is able to fuse data from multiple sensors, perform localization, mapping, and path planning computations to produce decisions for autonomous driving.",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Laboratory capabilties",
+  "level": "h2",
+  "items": []
+ },
+ {
+  "heading": "Machines dedicated for Deep Learning/GPU computing:",
+  "level": "h2",
+  "items": [
+   {
+    "tag": "p",
+    "text": "Microway Whisperstation, 8 x Intel XEON Skylake 2.10 GHz CPU, 384 GB DDR4 RAM, Nvidia Titan RTX",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Microway Whisperstation, 8 x Intel XEON Skylake 2.10 GHz CPU, 384 GB DDR4 RAM, Nvidia Titan RTX",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Microway Whisperstation, 24 x Intel XEON Ivy Bridge 2.10 GHz CPU, 64 GB DDR3 RAM, Nvidia GTX TITAN Black",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Microway Whisperstation, 24 x Intel XEON Ivy Bridge 2.10 GHz CPU, 64 GB DDR3 RAM, Nvidia GTX TITAN Black",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Microway Whisperstation, 12 x Intel XEON Ivy Bridge 2.10 GHz CPU, 128 GB DDR3 RAM, 4 x Nvidia GTX TITAN X",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Machines for time-series analysis, Bayesian networks, and general computing:",
+  "level": "h2",
+  "items": [
+   {
+    "tag": "p",
+    "text": "16 x Intel Xeon 2.60 GHz CPU, 32 GB DDR3 RAM, Nvidia Quadro K2200",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "16 x Intel Xeon 2.60 GHz CPU, 128 GB DDR3 RAM",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "16 x Intel Xeon 2.60 GHz CPU, 32 GB DDR3 RAM",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "16 x Intel Xeon 2.60 GHz CPU, 32 GB DDR3 RAM",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "16 x Intel Xeon 2.60 GHz CPU, 32 GB DDR3 RAM",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Computing clusters:",
+  "level": "h2",
+  "items": [
+   {
+    "tag": "p",
+    "text": "2 x 24 Core Intel Xeon Silver 4214 CPU, 192GB Memory, Nvidia Titan RTX",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "2 x 24 Core Intel Xeon Silver 4214 CPU, 192GB Memory, Nvidia Titan RTX",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "2 x 16 Core Intel Xeon CPU E5-2620 v4, 128 GB Memory, 4 x Nvidia Titan X",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "2 x 16 Core Intel Xeon CPU E5-2620 v4, 256 GB Memory, 4 x Nvidia Tesla P40",
+    "links": []
+   }
+  ]
+ },
+ {
+  "heading": "Lab Equipment:",
+  "level": "h2",
+  "items": [
+   {
+    "tag": "p",
+    "text": "Turtlebot2 And TurtleBot3",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "3D Printer",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "SAWYER (High-Performance Collaborative Robot)",
+    "links": []
+   },
+   {
+    "tag": "p",
+    "text": "Jetbots with Nvidia Jetson Nanos",
+    "links": []
+   }
+  ]
+ }
+]

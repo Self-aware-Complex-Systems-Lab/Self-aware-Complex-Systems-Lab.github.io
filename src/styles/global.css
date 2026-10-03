@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Source Sans 3", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-serif: "Source Serif 4", ui-serif, Georgia, serif;
+  --color-cardinal: #9e1b32;   /* Iowa State cardinal, darkened slightly for AA contrast on white */
+  --color-cardinal-dark: #7c1527;
+  --color-gold: #f1be48;
+  --color-ink: #1d2327;
+  --color-muted: #4b5560;
+  --color-line: #e3e6ea;
+  --color-paper: #fafaf8;
+}
+
+@layer base {
+html { scroll-behavior: smooth; }
+body { background: var(--color-paper); color: var(--color-ink); font-family: var(--font-sans); }
+h1, h2, h3 { font-family: var(--font-serif); letter-spacing: -0.01em; }
+a { color: var(--color-cardinal); text-underline-offset: 3px; }
+a:hover { color: var(--color-cardinal-dark); }
+:focus-visible { outline: 3px solid var(--color-gold); outline-offset: 2px; }
+.prose-lab p { margin: 0 0 0.9rem; line-height: 1.7; }
+.archival-note { border-left: 3px solid var(--color-gold); background: #fffaf0; }
+}

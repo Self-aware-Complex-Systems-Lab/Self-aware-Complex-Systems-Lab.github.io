@@ -1,0 +1,3625 @@
+{
+ "site": "http://localhost:4321",
+ "total": 114,
+ "summary": {
+  "VERIFIED": 80,
+  "NEEDS-MANUAL-REVIEW": 10,
+  "FAILED": 24
+ },
+ "results": [
+  {
+   "id": "home#000",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sDjyxgONDKd-szNmg3JnHkYquznqzyMg51VJeSEPBbbjMSB_IOAv0IlQWT7EuRgiPN4uQQ_FohU3sSbphSkaO979H2Qpuht428Zw4Vxc7s55h59p4i_boUrvRUb3yjIxdgOdiisO_P0BibOyfBi97FXZofm207583iYgw=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": null,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED (bytes) — not rendered visibly on original (hidden slide / background); visual check in contact sheet"
+  },
+  {
+   "id": "home#001",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sDjyxgONDKd-szNmg3JnHkYquznqzyMg51VJeSEPBbbjMSB_IOAv0IlQWT7EuRgiPN4uQQ_FohU3sSbphSkaO979H2Qpuht428Zw4Vxc7s55h59p4i_boUrvRUb3yjIxdgOdiisO_P0BibOyfBi97FXZofm207583iYgw=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 24,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "NEEDS-MANUAL-REVIEW (bytes identical; rendered crop differs, phash 24)"
+  },
+  {
+   "id": "home#002",
+   "name": "Lab group photo (home page header image)",
+   "group": "gallery",
+   "localFile": "public/assets/gallery/lab-group-photo-storefront.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vVnOD5a24I0xwf4LXO5WgjcLmXW7ELjipAV4OEySCQgicUhI1Ur3bhK6GpNwBDqy1VNJSYUGVjrn9gPalWJ0vSi6WVhKZfoKMHiBCwUdIQ43l-wTIY9oWfskPjrCjIZUn28Dvi6eLzKPWi0a5ZF5UOKInnQDGSoq_9tUfcGWiT7epKry6QAoDUJWXQVAbnJAiG9bLEFBrjdb1Qvetsq-jRGJGNLMp6Nj9e49Y=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/gallery/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "home#003",
+   "name": "National Science Foundation (NSF)",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/nsf.gif",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uxbvxs2JxZtiXsZlSLDjWYnZO4JoNMa_oNW-_fsDQkWtFg14xdbkF8NLyslmw1j495eKvBnj5FO9-30zCDqj8wq5P8AYawnBpzLjVNaYuiLKZ05qtVVPA65FtVnWBr12Pm0nKoBXLpcHBF7XWHINAKbehPdSCtEg8vdwE=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "home#004",
+   "name": "National Institutes of Health (NIH)",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/nih.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uAaTr_7iyNkZOjh_Gq73r4EMRVUE6TdkeVCLlgBqmD1U-O3JHkl2dVwIEFc5jOydOPGnKLOSx9p7PhtLIWgufmQ_pO9k68Hx8jh8BNI8rdBjYtKb32tjpwvBEwp-QsqM5SOP6edINAEh5AuLjsYATp6zB-aRokKUMb_jBGiI8E5Rof3jI1jMcLAU-ssqR3CZlbLr04FNQ89i9x=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 4,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "home#005",
+   "name": "NVIDIA",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/nvidia.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uPsPivg6wv4tMubb1DocADZ_Z7X6A7wzbJF-Ca1GI68hRWgzVeyucmhm6vMSE2z_b2RgfO9HwZFLoMoCgA55e2SboaorALj2YTAfL-MUZTjWLFSvvUnu0-eCw7S2uNGSoM8cjItJM60qR1R261Bn6_r03l05WXg6ffmr-_9H_ZrcGpbhc1diLnpIpRLLEzBLJrN_xedlwE6YEEcEc=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 46,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "NEEDS-MANUAL-REVIEW (bytes identical; rendered crop differs, phash 46)"
+  },
+  {
+   "id": "home#006",
+   "name": "Iowa Energy Center",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/iowa-energy-center.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sQi56Uy7f4rKNNvp7r0skgGtg2tbADy2oPABhnceu5Rr3d2i_ChGlQGAS7gGUDXMlgFJYf3WGe1R6R7ekWVuhThdm7C9jvhKUenutFi4ghlOwoOxivdjCJPewlMjt_yVzTeJ5UC8ZpAxk6ZAVRlE0i_G73RG7DRpcwP-94_b-OXYl5NJvLHxOBY1YEf4Wm3OMTVNafic5DquHhPrk=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 46,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "NEEDS-MANUAL-REVIEW (bytes identical; rendered crop differs, phash 46)"
+  },
+  {
+   "id": "home#007",
+   "name": "Toyota",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/toyota.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vmF4G93X1tdjzBvrc3Wn1miJkGTZPYdMPME7g75MyVpRCcb40PFh9xiSobWYPM0BMnvmCSs6vWKldsfGXRzuQii3SI-R_OiMOzk1wmNr6Q4o6Lo5cs1mwLx-VOim157XnG-uLsy68fS3v_BN7ZY15JbUuE-AOy0JEhtbWkHJqWDn2-veo9rH-UhU5KHZB5Ab9z23g5kkrljGf6IbY=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "home#008",
+   "name": "DARPA",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/darpa.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72viogg1OxiZDQFWOYxs73jigmVvHcHxNx5JGV4fIhQKsC1WmGFJl6OOWc6chGJczuyia_D4BhJrG4OTFOAAccM-zHWKl0liK8x7gFpjz_avOXBYdZpymJ9RUHEkp1Hq0mLOL-TfvxfmjAXlK12jSSe1tyryKOjTL8s-npESPvYBVDLivn-sR0rtSSoPl-QS7JsHt1CSC9l_VdXbZyA=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 6,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "home#009",
+   "name": "ANSYS",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/ansys.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72v5P0aN4-pmqfTn5p6b2ooa0yQExQ2lXaQiR_CKCkrdStbJ5p-0Xu1oHKQtGdwtb3Y1aFF5Wx5Ni3wF6pFiS368yO8_ktudcxtA4Kj4koPzQu7-IjRhZNQDv3vaPHwVZCGVBAzrkvhhuwvfMtY0acX5ZjvoHwEiZ8Tid-hv9av_z182hO3PkLuXeOtR02dDk9D9CEltF6J69MUWNIk=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "home#010",
+   "name": "ARPA-E",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/arpa-e.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72u87yir-HR6W6iWqX48gen7CNoJGmjz8zlkIfVjSXlH7UUWDjGakE39lZod7CxMG5tlAU5BYXOph0loxczTF7_TRMc_kvBODVpMtLL8FtKyktMamH5ZT2zxneyBbssP18rQ9ryHHG8x94-TRYxfXkfd8SgvLtxt6MhXEGgQZY8hHjTeLM91-Zy2fFXAqESkE0bZajh3yEzNoM0x=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "home#011",
+   "name": "Iowa State University",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/iowa-state-university.gif",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sv_4eezWiJpLg_4GnrALStv7A5DHfjdooEwlA8EJk6khaKunnsMRafe07eKpaR-xkhMMN1SGoEdXIt5JgUg5IPx7cXREuCiyUPhqTf_DIRh0iQl5ZP2F5BqUSOwsvy2dnkF1SxkVL92qeVoy3Am_4BLWq9nrihPC2xkMaKB9n9GPx3y0mHixB79z6wqpyYPZyA_B7QTfWCcA0k=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 60,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "NEEDS-MANUAL-REVIEW (bytes identical; rendered crop differs, phash 60)"
+  },
+  {
+   "id": "home#012",
+   "name": "U.S. DOT Federal Highway Administration",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/fhwa.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sUpu2R4k-cJkWamxf2-GMPAeLjjhKtLPeELcYaN0c1MaqqyKCx2liR1SZ6X_zzIZplqjZGW0-lFl-DSs-ZHLrOduAEHxT510bBpIH7CVa_HvX4M5nYbOC8KaM2mvwRtQP02auYumoADoY_ETPJMgm8ToietYY0eyOnu_1ubwDbe5GV9IljgLWx767xWin5vZtDSKLyryfKou8x4c4=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "home#013",
+   "name": "USDA-NIFA",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/usda-nifa.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tKBb1DJmBlh9zdFlipstZ-nDQEIAPgwyg2WAG9F_cIVEp19x3XsU80vZSPTFhk2w9H49o9aoLe2kbgWm8dyQfiWBeuBIqtAb85lTQM1Wg6ndvvkAZ9J0wLnppIsRJbaFpG6n6Spt1JNg8SSel_Rv0Px2qq_XrluKwniFTWAjjJd-zwWWQvr1yRAmR_Hhy0cqfDgg4hvJtZoqg1D7s=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "home#014",
+   "name": "Rockwell Collins",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/rockwell-collins.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72s1Pn8OdIN3S6oEWHv78GaIgluISIq5RRvHJeAGgpAh9uITpo16XftjjbsES8K330xofnWT8g0MFiizjyrMmUY_SPMDPq8ZTn_NFnR30nOwsiiFsLm-UnO5Ovh8r_26vU0JS1Mut8v4Hli63Ne0llfuu4sI_QVWLzZYf3rcvbeXajvHQLGLOpmBYTdOXb2yuSZkx03cT_GmiJkb=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "home#015",
+   "name": "Air Force Office of Scientific Research (AFOSR)",
+   "group": "sponsors",
+   "localFile": "public/assets/sponsors/afosr.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vjkCa5b5CZNBhYNqMDuG8ott8FUABjU9IU3jSRYSVC2VfaNlNtik4ahODnHBEkfHkUoLbE2_5pfEjRzmr5_vLf7X4rnVZ07Ex0OKo_cqbeaPrw4oWLk8HKOZ515TQLfDb9uwfC07aXWH_4Ex-2tn5OXSoTqfVd4-QO_KYVsMZDDA_x3-o-saMAz8i9tOFJH-1ZhmiUkppyhUjvIEk=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 6,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "home#016",
+   "name": "Lab group photo outdoors (home page section background)",
+   "group": "gallery",
+   "localFile": "public/assets/gallery/lab-group-photo-outdoor-sculpture.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72u_9MkPqZzeLLjPHL0ryBsKk49tRX462c6lEjlxsK0ZG4_OjmdWEuQmx2Us5LaYNIm0nIhQY38zkdLxfCiZeOpJD1eqn9KL7gV5SJHLLJy9BjRG0mLIzwIm5fE16bPy3eh7htAUzzgxWjouXMJWfifSTbFbXg2aHbc59Mc=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/gallery/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": "n/a (CSS background: no naturalWidth in DOM)",
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": null,
+    "7_phashDistanceVsOriginalRender": null,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED (bytes) — not rendered visibly on original (hidden slide / background); visual check in contact sheet"
+  },
+  {
+   "id": "home#017",
+   "name": "Lab members celebrating with a cake (home page section background)",
+   "group": "gallery",
+   "localFile": "public/assets/gallery/lab-celebration.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uYMzs23PmlAjkNLVUTod-Pj784KgOvwzcVqFvf4v__LbhmWKj9srHftrxrj2NMaC7mja3aOSAdBGkYvd0VWbqcfYFb8jAcaz5X8H5OuedRuSvnvBDa4Khayau7M9NJO4o_0kCbJkMAVkS2GirBt_0Yl9xd4Bqm21GONuWVrODjb_mJc6VkECSuyc1V=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/gallery/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": "n/a (CSS background: no naturalWidth in DOM)",
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": null,
+    "7_phashDistanceVsOriginalRender": null,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED (bytes) — not rendered visibly on original (hidden slide / background); visual check in contact sheet"
+  },
+  {
+   "id": "home#018",
+   "name": "Lab group photo indoors (home page section background)",
+   "group": "gallery",
+   "localFile": "public/assets/gallery/lab-group-photo-indoor.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sdcXgD41EWizmv9FLpQRfAhS_j-4bUEWENr0jpKw-_4qsqAy6gf9K8tmu1-as3h5LE3MOmagpGdiOP4A9hK7gqliHX7E8vcuMPUFtOWgXF3ihQOeFTtQBhORvch8l_Oyc5Fi-X1EjQGJIHxHofKBWSGHOBZw6IyCmRuZK2xU6a9m-VIPgtL-M9_U3YS4M=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/home",
+   "newPage": "/gallery/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": "n/a (CSS background: no naturalWidth in DOM)",
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": null,
+    "7_phashDistanceVsOriginalRender": null,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED (bytes) — not rendered visibly on original (hidden slide / background); visual check in contact sheet"
+  },
+  {
+   "id": "principal-investigator#000",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sDjyxgONDKd-szNmg3JnHkYquznqzyMg51VJeSEPBbbjMSB_IOAv0IlQWT7EuRgiPN4uQQ_FohU3sSbphSkaO979H2Qpuht428Zw4Vxc7s55h59p4i_boUrvRUb3yjIxdgOdiisO_P0BibOyfBi97FXZofm207583iYgw=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/principal-investigator",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": null,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED (bytes) — not rendered visibly on original (hidden slide / background); visual check in contact sheet"
+  },
+  {
+   "id": "principal-investigator#001",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sDjyxgONDKd-szNmg3JnHkYquznqzyMg51VJeSEPBbbjMSB_IOAv0IlQWT7EuRgiPN4uQQ_FohU3sSbphSkaO979H2Qpuht428Zw4Vxc7s55h59p4i_boUrvRUb3yjIxdgOdiisO_P0BibOyfBi97FXZofm207583iYgw=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/principal-investigator",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 24,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "NEEDS-MANUAL-REVIEW (bytes identical; rendered crop differs, phash 24)"
+  },
+  {
+   "id": "principal-investigator#002",
+   "name": "Principal Investigator",
+   "group": "pi",
+   "localFile": "public/assets/pi/principal-investigator.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uPiQsM-X4ftmtulTsQfiHW-z-L0RxTi_Opj1R1qFz0UOz2oOmBMIZe1mrmv1CoytO9HH4JQujXNTIb0K1YWot_fv9tREVdD6CRSMe_S5DK7bSeHncKlbtYtJyRkbsunaS0fxWTsdEPqUX2MiGPRORXQLbGVy2cDxdIqSdCKM8M7iez1sZL7-60Ky0UUWsdA_dmu2aOiPlQ9Em0PwI=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/principal-investigator",
+   "newPage": "/principal-investigator/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#000",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tUyud9ktlZCfdG_yHcw9S4sYbDLZ0cU5TXTUO_D7sjijqZxEmVNNr87Wf1ep6UCg8os9dvKw6oxZf3JiizMjxy-KBJr4Sij3Q5QpKyEbSV5VPwSiKKzzKo2hfUbKvZszqJt76KFGY6FJW8UqT-szzvkwk0nrfPRD64OY8=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": null,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED (bytes) — not rendered visibly on original (hidden slide / background); visual check in contact sheet"
+  },
+  {
+   "id": "team-contact#001",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tUyud9ktlZCfdG_yHcw9S4sYbDLZ0cU5TXTUO_D7sjijqZxEmVNNr87Wf1ep6UCg8os9dvKw6oxZf3JiizMjxy-KBJr4Sij3Q5QpKyEbSV5VPwSiKKzzKo2hfUbKvZszqJt76KFGY6FJW8UqT-szzvkwk0nrfPRD64OY8=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 24,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "NEEDS-MANUAL-REVIEW (bytes identical; rendered crop differs, phash 24)"
+  },
+  {
+   "id": "team-contact#002",
+   "name": "Dr. Soumik Sarkar",
+   "group": "pi",
+   "localFile": "public/assets/pi/soumik-sarkar.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72t2Hxv3-YCmcm5v_3myWGvn-THPp7Cvs4ytrfa7FeU1Qjfe6lMcJ-o8m1q2Kl4wEeJFSKyVL5sX69N3np0nYq33mrg8wz_OU8flVIlgxcTy96bKePsg8rFwUOzwJJ0nut0f1x66ZVUOqdUnXMqtumQm8tz60EiQnGDFq6uyGgnLhDpJ8PHcuX2Jb2y817J4GdWH_7BHAxn8IYXkZzA=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#003",
+   "name": "Souradeep Chattopadhyay",
+   "group": "team",
+   "localFile": "public/assets/team/souradeep-chattopadhyay.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sguIG-VBIL-sXM3MNdSn7EcEvhAoWj4qCxEXWrnRjQUFC8KSuGSLLXk_rWMHB-PDvUGnPL_yoAlruSvm9ULazVaalIQovFDseQNLiedl6n43QmuIbx49BZaAwtb9vOTacU50FieSRB5clgpNC3jZ2-iV5mELfuV90Ty4LeUN2PAhMrQhPdvhdwLf_a8Hv2XBa9fcqjkyqTUsVpqg7ipn9OS0aed3a_iyQtnX4D=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#004",
+   "name": "Zahid Hasan",
+   "group": "team",
+   "localFile": "public/assets/team/zahid-hasan.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sWYRQembpfXbYrZYhxkeFyn0RqdgHCJr-oJwRp1cKTJdYS45PcWF7WF5wOR0yuZKy1XZISu8kKN3IVtU30uTZFBOPsmAHilM-Utf2eXXbMEA5Y6xx-2_GAArkYL01iHVfs9ZqrSgWBULqPYkqhgIpsB5EQ0XZKYnRGt8P9Yggu55gNZFGbZcVG2B-1jj_uYgJOVRavOWPIvuQtJu2bzIjoWoNdbkFbRFMd_SNp0v0=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#005",
+   "name": "Hsin-Jung Yang",
+   "group": "team",
+   "localFile": "public/assets/team/hsin-jung-yang.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tcEz6mKVshrXd0t-F_Nb73yFVIlOu-41ZBG2o7Namyggc479ra-KPPiyM2jQHP3YITkgjUgzxVeqtBtsP9cZt-flJdCqvFv81_PTdqzuN7G6uyb7G2mCtktxEa5Db14_VMkDWrFjmUM3aXNTeRlDk3SLUjakBjx4ejFvECOYV59ChfUSB5-frezQ3-m6NgVMz7H0K_0f0nhzRb07nMAogAJ_N4jf5Ocy7nC2lIohY=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#006",
+   "name": "Timilehin Ayanlade",
+   "group": "team",
+   "localFile": "public/assets/team/timilehin-ayanlade.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72umDHcXBo-1T71OJ9FFR0t-wRGonxHuKvBB9hIf_pF88K5W7gYRQTy7ei3nOSGjWNzEkFlZlX6fHOijUYOK4TElaUyy1ryEzyi6ryhShlayWnU2eBV9eQRbSpR4Rb06T9_7e5BaWslGVmMp4vlvwe78PmErHuJSoiaYbjMWc7OllEq091OyNvMyrPEUe06rSpWmOEZOp-TZflcCI-QpGiNU437jrswrMjcDq8Z0=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#007",
+   "name": "Mahsa Khosravi",
+   "group": "team",
+   "localFile": "public/assets/team/mahsa-khosravi.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72unFrl549ns15a0wtFoDT5XFn2HbbWGg4oSgZ5530yhTTIllDWh73RuRML6xKSJwZOREtO3s_NV-fkic4XvvhxBXszkbxqG5Qmmmgq92VWUMtzez6DUQAvyyZXHXu46scZTz7-8skytUABEHxmHHntmjhxTNE6HvbdxjsgSbGVylBG5_ly6kPuNPqZvwI9m6rU0g2YEE-7YD_HTZySr3BGMSBTpggQIhxHbjKrrT1o=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#008",
+   "name": "Qisai Liu",
+   "group": "team",
+   "localFile": "public/assets/team/qisai-liu.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72u_5r5ef7FNCy_6VJMGNyGLgglr2IN4QouZkbKrVUu88pLJHw_B2fUg0z_rqw2bVK0rDWP-irVF_0s8yHUYDDE43qtImFDLSSUqxbNUGLgWZBTqMwNZqueRCsIK-yVarUEODr0Qe2A2olhFD79A0XL4OgTUG2AG4UH8nSDEeopB_vwY-hyhBr-ys2pfeolwhgzaiSNSRE967NPkvbo=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#009",
+   "name": "Nastaran Saadati",
+   "group": "team",
+   "localFile": "public/assets/team/nastaran-saadati.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uUVaSWOT4ZFUyF2rgmYyemC8d8mlTTKJf48QUUWfUEerrDiUFkuwY_kOg82i_j6OR1ZZYXAUz0QdewOa5Hc67iFKzjVUQWnblfFyg_LvHzEZig5n1jHgheMsy68Qoqk7slQ2nIdRssVCt6FR9EvhjLnCtFlA9DgRlSPIRx-Tfv3ROVv5cWezTSlzmiXGjKsdee7HlEYou0e3k5ONTmMNh96uwCWoX10e3HhD2z=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#010",
+   "name": "Nitesh Subedi",
+   "group": "team",
+   "localFile": "public/assets/team/nitesh-subedi.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vMy66B_JRqmTKHy7WL8zI6smI59FeCeQ0UUffTOrtbi4HRKOLIsXw3tosKFgcnPLq7cA3VAVcEzHABI77mTe3SgIwfAjbKbBOYg8pAivHITXYzI8KkVcrwMOZq-ltdCt0tkwr48hcg9uy_qgU2a_CuCka0wzPlF3lzVfiioXRrcXNquuYm8pFTnUT2jVXBIxYEuU54YvLfxsKi_Un9jQK0qtw4MMyQDohyOQZr=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#011",
+   "name": "Shreyan Ganguly",
+   "group": "team",
+   "localFile": "public/assets/team/shreyan-ganguly.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tGeYp7c5Zp5f0WDbiHqsulPZPIeRX4eCqyR6sRwl4kJDNO0aUFdt7221UQF-c83vMxh0LcaSZ1xemlRR3_s3qezSBP1pb6rG8m9LhpQisuPLLJ6HG-XX0LvRmOSG6vwhm0a74A6NL_UiHK934r-QjgipRGo5XnerQndV2xejdZnJ6Yt0auFtGhZTV3kGQTAJdJlzRARODELHmvn4MrZkAky7GowNQA5RwkJrmWT9Y=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#012",
+   "name": "Alloy Das",
+   "group": "team",
+   "localFile": "public/assets/team/alloy-das.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sEQXKJWDNyr_8DpcMlmNE_Ns99GOZITrdA1K7iqkFiwzSQie2_2Iw-Sf21nmT041InKpODdEW4zLdllO5wZNht3lxQNLKZUHRkQXVImKkzo6DC3n3QzoMZ8jKW8eAkaojDw4N_0805XcRsCojCRAINebj2GK5PCUoIVHZF7TMNgIXXLNJqv3XBIufunnClW4aTtKV3UU9tkQH9spV9wHo-FC75-HjBrfUDp6XFQNI=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#013",
+   "name": "Lucas Nerone Rillo",
+   "group": "team",
+   "localFile": "public/assets/team/lucas-nerone-rillo.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uSdi6adU8S70IrXb3G0lZ2TqfFdJU2-UESPDGvGxZxZVrWkHJ0VHa6bCRdwX8vsSo3TNl2k8grCPwo_WsCIdK2BJ2JtZ1T9mb_eKQfAB4cJD8jMjtYQsr5ojkM8PixY0kx-7yC69sz1S6bzYfErtZ7gDzP1kkqBjRtiLJ05JkrU01iPYfMo8C11J7oSesZs8qHLItAUrNDidzO4cH4fF6TyLD2hLla20IDCzZ5=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#014",
+   "name": "Henry Kim",
+   "group": "team",
+   "localFile": "public/assets/team/henry-kim.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72swE52PGytPYfdbdEDyIgkIH5_Sa2C0JWbWN5f183CwwPVbgBihGjqH1h2nvU5xBob5Oj46vpjDSDnHUy8-ERcKLVJj5i7uz92xDXzkAXxHIl8X-ryVPBfi7BRlwQL04tlRNgq5kv-VyqqQ9bQRIFkhOw8_Bu0bcWLKrQILyXhjikIuY3ZeRDYtxMqeMVhF7WcdrNVBNzGcVUP8v3RGRe9hXVEA7IHj6z7IfGc5eTY=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#015",
+   "name": "Manas Sewatkar",
+   "group": "team",
+   "localFile": "public/assets/team/manas-sewatkar.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72trH0pdZFGdJ10MSuhPmHLIcYQp6lr75kRviEAX3noSUzVhR8EftqJqfaYSSnnH_pUu_DoD-aUQST073GhaWEmnVUVWfrsO6hvb_VT1Hl8FVdK0Yk9X6xvlUuwigj1vcjPuFk1TRNw0uY2iFCmbRkirvleIZWH5myBetpYaidcsB70NvUnfKBKMzTanltO7A_GPysiS67zEExIMAAm37Pf31ICKSy5PrZn3AybT=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#016",
+   "name": "Yongyun Song",
+   "group": "team",
+   "localFile": "public/assets/team/yongyun-song.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sA1khIuQY08ZHJSzNP2I8jMZ4xst65wYvLXTzEZSO5soBrGdCo9GmZTLQZcHQvoKH3PY-me3Tyrkq4Y5YpZPHft3w65yGYgE4glxRmw3MLeRcSHfqXmjEGPGPh2LpwXrcO1JpNQgcOvHudfBjiHrk1hYF_uLsRlWEVd3x_IXRBHKU4qCEsG-qgZb9oN0ZkeKFfP_P-AlbrmQPZ9rcZqpjs1l3kVbN3p4vw7VFD=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#017",
+   "name": "Sanjeda Akter",
+   "group": "team",
+   "localFile": "public/assets/team/sanjeda-akter.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vvtg7un7rD5lZdhbyHU-SrXzqsxFZM2oRyWzoqDOTMYzOzpxi0pbn2D71fYPIq4SOW8SBsN3blI_sY656IQ1mALlN8_tbefGAHwLomHA6aI1zM0J9dr43W4EmSz-6RNlF_spoKARw5bkKxDh-nJ9QFR3WoRoTNKyBEikFCgUIr3nXlZustB5OXgEI8ZmHhmvzfYA5nsd32SkSCRmMDpArPlWPFmMmwPs1Ycmlr=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#018",
+   "name": "Harshada Anavkar",
+   "group": "team",
+   "localFile": "public/assets/team/harshada-anavkar.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vF39TG5UfOJJXIPB2v7QBeEmDHPynovSB1xfMXn_X8367Fp0o6KHwqig6-pBxi_Cm-EILJWX6HqB2lNmPimjG3Y6jt2tOgESG_BHbzuILz6y2OrfXGbiKHdG5pO5DTcXr5-SpUnhSH22vwDK6HAF05JcRnGwLElZDTxV_Wms6tpxSo_MhXKOitxfDDzoP2134ggD-EMFpkL91YUG6fTvjCnGanhCRde1n9JU0p1vc=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#019",
+   "name": "Tirtho Roy",
+   "group": "team",
+   "localFile": "public/assets/team/tirtho-roy.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72ugMqjHRfeOjc3yFTH9TWizEl_rwPMUMGWg2HOOyRWEQ6MDCJRjjUTisXNmPq4iNWBrI91Wg1x2qyDxO6Q_bbdhUG_zr_3SXsT0Lj0vemeajlKfflsrIBuiCwZm4YGGY5wvuXsnZXu4fJTDkfbgJlfBcJ5h1eyErxwFTbqNLF2gxwuhIxS69QMcwsaFXFZiObx-VKy3k-HJo3VokEsb9Pa38dup-PWnIA3xVg3X82c=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#020",
+   "name": "Minhao Wang",
+   "group": "team",
+   "localFile": "public/assets/team/minhao-wang.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72s3MYXrQFDK8aUApnJe7AsnF_TF0b4gEyZn2pgRMwTJ2_l67pPCQdx_Zj-XRik4KYKaD-YNe9ozaLZg04pk2lSIOnJ3uIb0ycfMFBxM_LV51bKM6no2aCX-qvBLsUTmEFKg73MKaKDkZkeHKyMPb2m6jDu1F43fwWeetXOTVazX-baJfMpxcmdkx6pZEt0pPnRxqyywg-nwkFzzmrs=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#021",
+   "name": "Timothy Wilkie",
+   "group": "team",
+   "localFile": "public/assets/team/timothy-wilkie.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sRctLKbN00LRg6yJ_pGmLvq-zyPGzKMAutAlW42ECOg2rzvLRVF3VxPuZKfikoXNiPqGP2xCc_SnD64k78T-Y_mc51eHOMTBFZhxf8FF3waK_B8Q3FdoHUuCGX1omL7CPHIp6IDkAPGv1zYA570WQgxqrzZoordOD5=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#022",
+   "name": "Seyed Vahid Mirnezami",
+   "group": "team",
+   "localFile": "public/assets/team/seyed-vahid-mirnezami.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72t1OcqTyfE8SMVEm4Ql7QQkGsV3ZInq5TRXRZgaBlHOK8J3I7Ao7_AeA8w8MfY0NL8joK7DIEjK49VEiunP6vXZXkL4mm4ZsbdKuRdTz6Bd3S_BP_7_FsBn0xWAlsHrt6nQX5arcO96Zr46DGO6oRvtSCuMpdf-IqZHdudhpWrncPgw1xEUtSBNR21Q=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#023",
+   "name": "Nikhil Bhattacharya",
+   "group": "team",
+   "localFile": "public/assets/team/nikhil-bhattacharya.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vVPyTR_o3o-L2dNrH-pzy8z3clCCzgn6Vt3KaAl_jEQIS3nzqnA1VnlWb50aVYzSMdQOY1n0tMN-LC_wK7SDhPoNCQygcs7dBPrDixGsHqXuawNVK9_V0L-M22DTsxB-rmi4gekFKXXN4xDq-RGqdp_zK7xoopDthYf0JHG1GBCfBhF1py-pv_9eoFOwNIjeV0wLt9Ydrz11zZurVXw4_Bg6UfNFSLpnmvj7oStnE=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/people/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#024",
+   "name": "Chao Liu",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/chao-liu.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sieK8tIz1V4S4X2WyQH2oJpg7WvlC6E_Ns4HfEQ2o1Y8hy-4TXJT9_sc2mDHQ4se8u4w_kR_Smg7gOKcKJ6ov9T_Hccd36NDsjCzwjSUcn8UlAMIH6372Bcw8zoaFQAzNjYZGC7jboxKTLjj33NZlYBDBEMM1_SxMyRoE=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#025",
+   "name": "Onur Rauf Bingol",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/onur-rauf-bingol.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72s70kLlXJFCOvLak3hJkomHuwzOdz4AyqqQwmMrib4Z5NDbbWSc2HR7GdK2q9I1ALCQLQGs4-7zYPvfdlkLtYAkPk_R8OVDGEbvAcoc1gX5CQbDi48u9iWPOrQToTkGCZt-aP01cE_4ZEA_jJNwLHpe7sLwNjyzSwmd=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#026",
+   "name": "Aditya Balu",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/aditya-balu.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sFqOUgeRMg2ljB2oYC4hLHERQ2kP5g5TsbBZtyixtGCKD0oMoovaLF7vN3fcjWbCkLKOUtZvEed5p694q3MKia_IeqNFC3vYO1JRvejI_DUhXz9jq_SIjluijzddm4H8_miUXykR5boXuCO82r18fE3ZULtQTcXXMAJmrFQvyF0BM9U4Ivd7d5YcCnHJWaQNvMccl9s3ZXmZmzLt0=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#027",
+   "name": "Joshua Waite",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/joshua-waite.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sgvk3s8BJ-gW369UeJmyowYauQ_Pvllu4cxDwCe6YTl5xhFTb-u6mU18nesw76XGVXMxBA410SvmmDl7bJMguw8rDLydg_Lu0b7lJcUvj1udZZV7B1hTU1fl3lHFh_qTxBACuhBEdUG6f-ATM4d-3NVvwRHrZtDL0Hoy0PnE_Irtq6VJVUznOsWfIh61s=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#028",
+   "name": "Kin Gwn Lore",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/kin-gwn-lore.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72u5C_T2SOZNZuNUa64Znoetg8ZEHGZntJMKreofjaGrMg3lRa7vDXJAQRnAW6GjQsFr5e4FarSdpOaLLeBymxEbuC7eE0RvyIn0AKFCntk8SL0XTKHNXVqOmjNDtIg4r4D9wD88b7yzrAJ_ossBGg7NFH-uVrGSsiKFrYI=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#029",
+   "name": "Kundan Kumar",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/kundan-kumar.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vaU4NM37AiwmxZaw8iVJ4mGLxvCWf5l7W6yPTVxMqohj94QxyIv9a3CNrtmV9zs49ccOXHVnLV5P-tnXvVcaEw0JfP1reBVWh4J4tzKqQkpBl2ZExIswm375_ZGya537pO2DNc7pHEQzPjXC9IGBCM0zAxSb1CEPhw3ZDbdR7Dd4vCjwJXkASECtWM2EWv4vqUsVk6ge7GURXc=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#030",
+   "name": "Vikas Chawla",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/vikas-chawla.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uvr7It8tFRlzNkPYLnvN6DvwFEmClPRsm3JCludVF_aFMmEwNbtM1EOIGmCGM0IAXUcBHdEWqU6SOAymwVJWIiT-ncvx9BlsycSuNUYXX6Tq_KQPegzuquG2SddNNpTfmqAYl9vdusziNNoepEaQSAlZYhb_f7fp-og2nnG3-m4GYhmgbVU3mdWE70RrrpJ4dod1dvK9ZsDGZT=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#031",
+   "name": "Adedotun Akintayo",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/adedotun-akintayo.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vNpduIecZWlC3W_2yf4LBlmi7cd7bQ209mjyUToOpiXq8QSA7_fei4AIGx4OKBjLJudqn_4FyT2cY2s803GALiVnVCwe_yRgI4MBY7WGy3dQ3X2k1Tfg9-WxDHXNjKLZ8a6BLsJ3vVS56xKXfgbN8g2Fc__nOYXm0d0I_0KnZMUFT1wzb_MncrJbtd3vIuxWDvn-aS-Sjn-YP19CU=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#032",
+   "name": "Linjiang Wu",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/linjiang-wu.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uCpM7ZKOl3zFQ8h_Ns9qWKRDOUp0rlWKQUT-SYynqzb6Lxe2NPpYBOcSx6mL1d0f2IHTM3A4UyciowjSAxEUnuU5edwDpWuKdMFDbwpiKiybpupLjHtBvx2s8-o_nr7LfC3qCBzK73toN7OQNI_9Iq2swHwABS0Mj2uJ-Li-h0qeEZicaISPWbzoAgZ8h0sO7iauc15y9cvqJHbh0=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#033",
+   "name": "Apurva Kokate",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/apurva-kokate.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tZFtkPqOqjC0x0JGx2kdIEFiFhEn8UQTydx56bYI6WNFC7BwufufLhYBwK8HcsgQmt0TTxWzNY8FkUjQjsdzAavLqJ6mteI7I71SeMmsQ_hjqo47y08S6gIkt4pITM5FZFIpQK8z9lIiGy3--cKTzapOb3a6sTezfcNpQE3yPSNQlbhywIJlxXb9MVJ4OrFIUxfa5_2LRbXZTq12w=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 4,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#034",
+   "name": "Venkatesh Chinde",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/venkatesh-chinde.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72t5Y5vN_91y7p2xo6btpgz4QF5hnPEZfvrEUHbiP-AlcNFo6BaibCxuBc0q20CHjDrJ4L_Kk_AWKVxOU_qlUVMQ-Zuhp34f26vy7zOf2t3RKT2YhTbYmU7ct0Z1Q81dR6DZ8KmdKgcI7BY4_SvyK2eCBIYZsENQTnZFW_U=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#035",
+   "name": "Shuo Wang",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/shuo-wang.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tFCIExrlsvM1_wNyhg3vYtdLzTUUmYCxQJQ6uSpEXr8HTru_Kml5PDDqr9fZ9iBPhbApmQsIgEHaKZocjJBQTIuqGwct-KlWHaWjyhnYBSUYWOTOMv4h2ixFtXBul38tZ-YW1h5RHqZQKGi6KgZeRzvuRkZjd-JrhtuWk2jPY5ZUmMrtoqshK6KF8yVxC2IaCJ1PEXVNn3mefgf9k=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#036",
+   "name": "Zhanhong Jiang",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/zhanhong-jiang.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tW4YwzBRcVPa3hyi2EKZyfjwpN-hxaivUFJvoKLJ8NNY71Gzh3k28syFwZwkOmrZgTinlaTJ4Xo7WbNB4PeES_6cIE0q_NxbrlpNpWlUGOTRH0XGm5G9YaKG2FLTKMshXUsslcTgdlBwaTqmHiM2R_2Yn2g4Q9dagAtdI=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#037",
+   "name": "Sambuddha Ghosal",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/sambuddha-ghosal.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sjIOnXoQ8NXpgtwEbdvlxKFafBYfEEIB_qe794iGrMO8_APiyHIPn3ZG_s7X4zCJHLJIIYzS7HiPbl26O375JcQPw53Z197HBl16OETA_i6Mstm4bT0yvxEkAJj0P4uRdV5QDnf74LZMVRgkP4kAC0UL66iNCAIdQBuos=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#038",
+   "name": "Truong Tran",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/truong-tran.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72st2Ga5UQv5ixniHXoMi1FUNuINddykhify0p2s2PSfHr5rBLeDS9B87gqecIzTCgK7Kn-vmz--Gli7eM3CAqDGuPsKTTpT2RUkp8lpS2dKMGykNZq36XCjN48AsANGLeVAB-qHWcyeZ093tqQlfrEKkJzANu0TKgyc-w8=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#039",
+   "name": "Zhisheng Zhang",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/zhisheng-zhang.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vfByS2x8gpli55Apc9Pzab4ex0j33G1QvdMPCOKBFxITdJ7Kw9cWlF-g1oAtHreIYWjGPDRLuagMMTfv-3jy8cdaCE-tvJImZzhIRrqJZf9mTwR4N8z1Dyx4C8Xf18UepvBC8CgEL1hwIGJ6xLAVwsprrS4eGqNGKHk0HAyK-I-MsUn9hy14kt8h9cn7BMq_EzoxXh0FJtjS1gdlI=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#040",
+   "name": "Ameya Joshi",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/ameya-joshi.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sqv0NmgF25Wh6QStP2hx9W4tYPaC27GXtGWLsYkpG5LyYOn_tsn0cQFJbBUU6FaStdTYivZ5RYEmAKMumChefB_MfRHBDndUsM0Q5iPvHHHyH3E42wrXSxSZDdlVla5XhImFtTZES8UKaCii2IWYaepi7qLIra2lsx6Uc=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#041",
+   "name": "Amitangshu Mukherjee",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/amitangshu-mukherjee.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sy-8YkYymH1qIfCgCxi7F6F-4uXf5TRLl1gOTFbOVzzDBU6BlM8Ikr0Ys4SUQPaLptzlgkLXWW8ub4nMr2i8qXNJHYLBSprL6bwdEo2y_jIlMglnYv5nfGtof4nEy9pl-RUrE8_y78coryGx7BqX1VZurTQ1IWOXHh=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#042",
+   "name": "Sambit Gadhai",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/sambit-gadhai.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uVH1sWioKtE-oAVMLyI9BB1KxgzSjVB-4aAtDhsWdd9dCgo2vB-XhMzi0Ak346stcOL5Wq77Ole8QVSZxaZBc8u3mWBQiLgKJPD2A9VEQ7CP0SFsU9MgogGfj_E4f-otDLBM76tRzFkIi7I8o-WF-fJc203243JGM9=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#043",
+   "name": "Homagni Saha",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/homagni-saha.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vyxTQ9-28TTQIn-dxL3VyqhqHRyL49g6QVEw0anr0VsjY-YwRj2idaP_yfn1WWig1GORihPosxa4CWIDNzDpkwD1ezQhTa4o6CceVNdDhgTzr7Q9y5goIFZsJPAt0Uc-dTafSZr0wLzDr2kvAAmMdpSWtLT-KSItKgi40=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#044",
+   "name": "Jaydeep-Ravindra Rade",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/jaydeep-ravindra-rade.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72s78mNf7FS4dxB5wmlym7b3FT63x-gF3RnUKropBT4Iwv5JqVzv5cOYd9mS4yobvqiohH5L5c5NtZwpTtApJx0jPQ-Tg19sOyIxt2_XKoZzAwtt3-4UH2u0woVoXiz_NI0xWjxGQi4xErremw9WhHeS0-1PRd6CHVgK=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#045",
+   "name": "Yasaman Esfandiari",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/yasaman-esfandiari.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sDX2o_0H80cHyqaa19Ulqf8u-JT32aMHr-O60sjG5CzgG6gTAXadMEC1H1UnyEfD-ztdykqWz8ABg2Dwa0aw9fLdcV9Rn7R4oAycShlHGJcmMv43V2fpzYRh18xG1AZndjU_oqle6iVLnRmZuCzItSRDtlWl-iL97qbMkBalFRPeWIyzynqWZiA5tTqij8NccgKzmsIWlXn5umPfc=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#046",
+   "name": "Koushik Nagasubramanian",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/koushik-nagasubramanian.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72t-5d7H2AwPfmzzNhp-moUJk4tqXleiHktofqu2C-zuROlmqxV5H3F6lEOCTwvWgbhV41VoXvs27HLs9MqDEN7UsWmIz92FA4bciDwxALJqOhBNMxSnMZF_kyeu086d3Y2fn4yYW5IQw8KfAoYYfV-8X2nwUvEQLdu_TytEHrykG22Fzx4yKvUen2l8vzGatXJ5Ynu_SoeqHTbtPs8=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#047",
+   "name": "Tryambak Gangopadhyay",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/tryambak-gangopadhyay.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72u_QwOO6Bp6txyHCl4Hwoc7aRU44fdDpcv_U4Xm7V_gPTeZmIxt07ah-Un55mk2Te2c9dcXnH4xu9hhLZvwfNj64aDN8ZEzkP_zHzmJp_maqj42-9Rzcp2jAEAYlu2bvgRlUCkTL53A0VbGdlTzVq1vCBN5KVmRQz3iCCo_OkrulxaXRZVIextWUaRMDDFYlRznbkAtERQkvlaN1jU=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#048",
+   "name": "Bernard Lee Xian Yeow",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/bernard-lee-xian-yeow.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tGG90026nvhqYaBgDqdn64n7RULuyEuOrDUUZaW6ukKlhoeBwIlOYS2p1-tdRn50GdmxHH7AolagV9RxvbhU5h9kvN069m9ygMf1W3LDHPsW4vTt9VTlMf9ZxfHhotFpyqsskRurVBwNwShKt7GB5evEK5fCqcKfutMS8=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#049",
+   "name": "Russell Kai Liang Tan",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/russell-kai-liang-tan.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vV6GTZwzRFPTYlLfOekQxXt8DN3p7Y-mrZnJFxRmU5EAMaQmkg-RFWt4RXJ7EzDmCSeWYA2lJXYfyh3a5JYcq2kOPavZ7Z2Cq7rLr2ZiLae7nP0ptn5hLta-cz-F-szL_TRlQ25rvAukMUr20Baxf4cVzX9mvOrms1=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#050",
+   "name": "Luis G. Riera",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/luis-g-riera.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tLGm0n6SX1E_eNw-Sx77iGt5owgSry5_6ZoA3lbNeNP7xSrttYHAFzKpyHZS5Ec1sBojpAODs72F28TNjGk3Thfisz5YEZIOim05YeXlFyr3gqc4bgjec2-OpvP8SRWW2qcF-8XyJbwYSyipNhO7iMJ0PJC-_fj-ZGnqNWDFzJToOSbMiS46L3w0hu0sCNiE9hbtLxr4vh4n_kgvM=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#051",
+   "name": "Sin Yong Tan (Evan)",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/sin-yong-tan-evan.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vnjnTkhVtdrCClkoz6TgjSyDYtmwxSwgsdM8szDHO8mNUC4AZkiQQb-_mUeln_tPGyF3EzV3JGjR-_heeNxlZjIYpw83MZcYQKqzubPNxHws35IDjQmOutwnbh1I9f-Pa9rbi6QzSLv8T2Cs8QrSv6u6prznPBHw7AgsniE4MoIZsYJcXZcEpLgcA4Hr9JyOkiEjJLukeYSmio=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#052",
+   "name": "Fateme Fotouhi Ardakani",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/fateme-fotouhi-ardakani.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72v6gL_EUnlQQlo_UNn6mflrScBpScg2u2x-0ZJrY52b9MKj-0UkvpqKaZFmBxQSA4OdEKjSgvUkk_biOxYE_TP9SpsL08yZfEK_PNAUzaKDv7ekorrrDzNjXXPWxaGhlldnrPnGPrBBZlzwX2KMDHTaDcmPKPlmiL5dmWLp9NQyIbWl98oaRYUl8VY7QqiIUGuz76ufSEhqx8BZCUE=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#053",
+   "name": "Jesse Lane",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/jesse-lane.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tbP3JYj2cZpusf3idZcocTQRHPh3J0MDvrsRd3IRRYjVPOSz7KT0dpzC91rLRIzSRPf3ViNtSRpZvjOrdlGJLWN3SLkQ2x5rFkYZp6cOL8QH2BsQDEv5rofRQkhYBX6Bvznxg9gcasU2M6bZahH0koKSygDnKBSAnyQwVFoXtf4j8YEkB1fZ-246yBH-0UiwIeJ16Aj3tZgqZmFisfNZYGgeKhq1uDokt8neVy06M=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#054",
+   "name": "Jiale Feng",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/jiale-feng.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vIz55bLMzwDL3Ffm52mhpNPSKM3tJTnh49TWJS-gnDhBXL7ps6DmLoJvzku5etfTQe-NQUEQm23DC7OXqwl7NR3mk_vdSCI5k0_Oi9yroQnV61D9429LCFLFZGOxYr1X1bqvmOgnD-MlfLtq2PlnSXkAbu8fc_1Pv_P84daRtREVMO-Mc3CHk02kza4_RAx2K21jQ8POPMIj2lek0OsPaERgCS-HMFsrFly_sC=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#055",
+   "name": "Ashutosh Kumar Nirala",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/ashutosh-kumar-nirala.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vp0IdOouermD9SkBb-MqKhl4MIYnoW9Id2h5amAv8p6j-8nGYviNNzBPYmUD33XdkX2eCiXRwegKNiUfnSpxjP8nE107wsU6ZG-BAibfM7IXucStwm7gerND7OgyAyZBRi3VT-JsPG2fxzyT4HxQNVGV_PlOp8esvNWrVmvi6ikvVL9h7pxxdxAA6mGiAOnHlLMTsU1Si_hHCnwCOjT5GdomD1tpHwqjsxN3c03aM=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#056",
+   "name": "Ethan Herron",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/ethan-herron.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tILBfq2haQSRmietd0Q7mrZmK9SsYK6s1_fxLjihMNMn2sIUrCMJjAwRASZRJ4mD8d9DCDswb17JSQmrNy6nf7Dec2kRUovZ89SP_UfleR4mVj5BDQ7MvMzB3JqNLdCBSzWzX0IqQXL65zr2SnKvdknwXD2-YTFlwOcTlmv34sRxGelspFUF9-g-vQnEN7UofwyOPH_RlbmlsEV6g=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#057",
+   "name": "Muhammad Arbab Arshad",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/muhammad-arbab-arshad.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tPkQzx_9UvtoIR6I8Cro0JBM6xRADrC7V6a7D-7IYf_Jx-T4C6wQhNkZDZSEYDfwm2qIL4V3WCTizUeR8eSAFyb4iV7_0EbUq3BeRUmSTjLeHhQt6o_vhImUxi2Nm_t-v2i-Twu8YTpQVYKhuAQsmxDh9nsm6xbp54yAkcWx_vpGUVBTST9urzOsm-_L-NJdBNiSu9VQoqYLGEvuvlggcl5g6kVySXTkmU8_xs=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "team-contact#058",
+   "name": "Bukhari Mohamed",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/bukhari-mohamed.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72u-xIK8NDx9gVHBibRoNLaoONn4x6ZfuSZeijUMDZ7l08Kj48iVgzrZt2qR6i5DWHQoRyeeRhWXPmfbs4BYXVIZ9HoC4El2_QH4C7iRMTK6xxCfGePsNFYH-w0LiKOUckG9J1tOnX2zgAL1JZrKGkIqaxNQwhm6MPUf=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#059",
+   "name": "Jeffrey Heylmun",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/jeffrey-heylmun.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sYAbLNPOrXTtZ5FSa-dQtcfOFaUbRfb2LI-RY4fbJZ8KDFPoqBp0macR0_s3mM-FG6oUEfcJUrEogA6hclYWT4rZFDbl5OXjYRFwd_7cxhVmsFjvybu0WiJiDmVovc5JARpoXfNdLyDNpeeCvX08Kte2kdPMJfFfcBBki3nv9FWt5dm7Tqu-lZO54oEv6-t11qa4_DbGUNIEA95nM=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#060",
+   "name": "Adrian Kang Wei Chan",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/adrian-kang-wei-chan.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tQ6U8nsV-VX5l4V56gTKVONL_4ngqM_4zsgK-2V7-ts1xxILjmeOEIgl7qQoLWDnIYk0Cgw0CufsJI9RpFS5rMLV3agd1r8SB0LicfNu6cy_hgpNl765R7Pl3dYDcq16HWJIaCw3mYOi2NGwvNhB6iZRWDpmzTfi7a=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#061",
+   "name": "Adam Kohl",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/adam-kohl.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vr0tn61eOhr2I3GQf2k_puChW3zvUi67ZSQdBIwN78vuWzmWITn_IlqpQcWB0vwouDxmsleogoD62FcWwonDPbXxSYSrXs_xF17aYcWT2tz_oYKAiJ_gE62WKcnG7gpdPaDFKBZ38dXcoGLLs6fftbOtVoENwZjciQxeY=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#062",
+   "name": "Xuehan Liu",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/xuehan-liu.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72shXTuPQcHnmQ-CKrmxAPVwJYz1B16qOKTfn59mW7Fl7IXPXwqWPqfw6E5zyTvO94NLT30F8ilyUzFQUzut3SamkLcLhxwmjrW0Jm6ILYWqEk_-IkyvoPtJUKGRbNC1yJAZJPlU4BDiTDB1nx8jK9c17WzteimF6fyO_yU=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#063",
+   "name": "Abdulrahman Alnagar",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/abdulrahman-alnagar.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tBn2Pl80VSwP0V1AKXyKFTXZEumi4LNoBPKa-K4LujtqPd3AnbbqSRa_WZYxyc1AGHSC64hsOsd5aUm3biFGGsoI5ICBFZXD9y60rVLaoLIzUrEPIpkf3Sfbz58AxeAJe-WK6JX5ve2NmCMMGOCtEecOPKVA3JOuhq=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#064",
+   "name": "Haley Primrose",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/haley-primrose.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72snnYRTO-iizlipzIk8qz9WCr1-p8Edn7AgJ5SoJq36kgC72YR9peiisswhHoToTRv6FF-y-HV07fstUBxXCeqsOVxmHZfAs4qEJAdodCN367ToULNizoOcvVu5IM5_UOpyBSm6p52Lvwa1tJJuO1uTIM5kKDxBRwlhnojiVVJ4GPYalQlknyoCQCmJQjlfP9bsq9QAwoDq8yWqe8I=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#065",
+   "name": "Matthew Hopkins",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/matthew-hopkins.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vtrUx_jDAFohuJKkwHAkH3diL6zMGO4TP49gY_TJr1zPtrFa7cJwq9m1oFPCkHmt9s1DGN8i5bim8QD8cvvH5MZzSCoXUo6Bs-nKS6Rd3def1m2H6_wGd4bZIazX7GmIoInUmFtl5mxpdPQOo0wW2KNF6DcInkBKFX4ypg7o9sF_sH1AbO-2keTW9IrHvysd-8Z8XxF9uSHm320uQ=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#066",
+   "name": "Aaron Havens",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/aaron-havens.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uLJ6q3NNHpwRsWPxbvphwUl8uhGCvJCbQYNoItJG_0YP14aJ5eWPbKoPy3gi0BEjnTGdtRGe22cVoqvT2cUV6y26HisxEyNjD4LrouJNJ9OtFCpu0zmvuTABvRZaVH77hpxx7W7l-UoX2fampRlSHteNDGfs1FzBEj8odOjlWuesw1wu4rnz5NRDAlRUN_a3oosVOPspc_-zX3=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#067",
+   "name": "Balaji S Sarath Pokuri",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/balaji-s-sarath-pokuri.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uZ32AqIQYgcWqePbzJqr2NXFreGRjDndWa2kLsNpyg7crldfbNrupWwTmfr9_nUPoktjROfNnId4z5we8pSF839OSVuZ9BOQcG7ysPVeRCmto72-aDxyjyd5gKPh8o9xt_tssvSci5p6TxXbKN7ho1xPwPu8sWe0_EoEK4TWewcRUwJh5muSLBegM_UaRa-az-GpBNQukWzfrE3yghekAJPS0Ue0wiJYsH_7Se=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#068",
+   "name": "Paige K Boor",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/paige-k-boor.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72t6XRMJijcD33wYMzgBocXpDUxRaOZ3sM7-6kwI89oAkALho6DAun2v05XzEbG9p5x2zYJkhejJ1k4u1TBQBkrt1bbRtwzeGNWJ1g26V_EdmqsC5pAhcFbw3D29HJoFrtCnAThjLy72wLC4r6DkErPIS7KeI9w59apYqbvSFnBPzlBXBCoLz3oMK4IO1TzQY7eiYUBg0D9lKI2UzwhyMmqSTGsVQxP23dx4mS7epBQ=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#069",
+   "name": "Genyi Huang",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/genyi-huang.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vvJrkk2qXoljDRVBd5TNMwM6ywcRm58D7ZHkS3TbWJteuW4cZAQDKdTg_hNZHcG5qUJ-auZZIBaiwuyr3dWV4CBzUke4f9OwCkQOM8J2FGrt9O_YwV4pww9ffZlQGbS6ynZHrZ9EWOnxaLqcJA_EYUk9CpGAAdg4zDhLtOBw7qsfsBR5T8Mmap9m2sRO5Sa2-Hr8U5VdLMr8qxYPdaWdRQj-r7AmufJx1d3Kty=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 4,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#070",
+   "name": "Mason Drees",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/mason-drees.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sTx9uaC_QSdrGsjUw4aPKr7JARjhQOFrQbRfNk1Q6eQonmIz9xccDCNwbNZYCJXYh2xSV7fyOQtQ8fNeelAWEPVxrm5wLVr0IHq7xsp84kI9T9JS25i6vZlsa4fQ26ch9BHEPfB8yZ9dGbAC0RuLc58W_l4I_lqWs5rmxv2IRbfa3jZuTXBrIyIT5-0bch3PYySYquqzthTaXE7GQJYkAgVyS1Th3l1ubcM1U5jGM=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#071",
+   "name": "Aakanksha",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/aakanksha.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72s6cPW5SrnAKVpsuoH6mesXyJPYQ5I0vvqx6WV2r7C3K0uzs8Q5szLkPRTHZU9dO9qsuqKb7qN-1VR-oTK_0etGdRBs9whsjt2VizDb1NxNm1BYgXgMF-COPkiPJOK_meT5RjcZvhaMaEqYwalnwaJTuWE_2MGIz7xR=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#072",
+   "name": "Briton R Bauerly",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/briton-r-bauerly.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72ssgR7HkN-2bheTQ55z6l3XoJYQkIfa-Fc58ZRNVHbvKIL6VwWoa4ra3r4rqRJZG5SAEAzlk_6-TfnAeavrkEBd-KOXCyXH4X16o5ET9_KM1gO1fEwhebepoW2hWvkNr_3-b9a0XDgaXp1yqllVl-pb83bo5uXt6o1Zivk=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#073",
+   "name": "Yingying Huang",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/yingying-huang.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72sJOoVyM6PbA9j3tR5XpNZ_d5b8BXQzKpb5fDxwZu5Hij2itnJM_GAlKMVxeJSO3rLPFu8EKYvQrdA3RZnIvWUu0h8rs6Z2LMbmxyFaGhLt0nSUMffJfHoN_6J-olIhrEwfBxaq5fUmLM9LLxGc_am-e-kldibY5PFjv7_7wxLhQVJJuNktPDTq0FXHQQVxRh3QvzVziIuaDxfYSRa4cCmeWQsxak3Djb2w29YdKs4=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "team-contact#074",
+   "name": "David Leguizamo",
+   "group": "alumni",
+   "localFile": "public/assets/alumni/david-leguizamo.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vBLkJudboYMqDL6-FtSoHSoYX9WfZD02ANscrgWR1gZ1q2oZ2hy9wDNzT2SZqSGSe5j3LQbbJApqOtvXWqGyaClUBWj47dsnzIhSkYIA7NmQmpICxdnxE-vul0LG9FTPigFBJMYzzdvZhBBfdvO4xoqHCDLkr0X5Rrzq-Uw7JqRxyHo4-5bCSX5YSS3lOg-3jOuiEqImftTlKHyU6Bdp9SnA-nfTliNbQnktiJkH0=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/team-contact",
+   "newPage": "/alumni/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "8b_freshDomNameMatch": false,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "10b_inCorrectPersonCard": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [
+    "8b_freshDomName"
+   ],
+   "status": "FAILED"
+  },
+  {
+   "id": "research#000",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tUyud9ktlZCfdG_yHcw9S4sYbDLZ0cU5TXTUO_D7sjijqZxEmVNNr87Wf1ep6UCg8os9dvKw6oxZf3JiizMjxy-KBJr4Sij3Q5QpKyEbSV5VPwSiKKzzKo2hfUbKvZszqJt76KFGY6FJW8UqT-szzvkwk0nrfPRD64OY8=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": null,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED (bytes) — not rendered visibly on original (hidden slide / background); visual check in contact sheet"
+  },
+  {
+   "id": "research#001",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tUyud9ktlZCfdG_yHcw9S4sYbDLZ0cU5TXTUO_D7sjijqZxEmVNNr87Wf1ep6UCg8os9dvKw6oxZf3JiizMjxy-KBJr4Sij3Q5QpKyEbSV5VPwSiKKzzKo2hfUbKvZszqJt76KFGY6FJW8UqT-szzvkwk0nrfPRD64OY8=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 24,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "NEEDS-MANUAL-REVIEW (bytes identical; rendered crop differs, phash 24)"
+  },
+  {
+   "id": "research#002",
+   "name": null,
+   "group": "research",
+   "localFile": "public/assets/research/research-unnamed.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72s_IxQGfHXOMNuOVdxb8Pe8rszNByPtLh1nlJs-_tgTd1qxg6-0ZAFvm_0LSZ2PE2oAyyJMF_cwtCyCULh8cRF-gBGR0El4fusNW-v7uYrQrf2zBYGHUUfsNWm0EQgCHpVCdM9pYeBOeSViUMsowsPQF0QkOUbBidH5S2FbeYpXHurNs4Sq55ZCfdVHOBw=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/research/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 36,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": true
+   },
+   "failures": [],
+   "status": "NEEDS-MANUAL-REVIEW (bytes identical; rendered crop differs, phash 36)"
+  },
+  {
+   "id": "research#003",
+   "name": "Learning And Inference In Cyber-Physical Systems (CPS)",
+   "group": "research",
+   "localFile": "public/assets/research/research-learning-and-inference-in-cyber-physical-systems-cps.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72uRkpATcbLSNBfxzyTJ9xHSfRX_rcpHLK-HLP4Y4umviZxWl8FDTJBthX2aFitMCNBdDH7UO_phde-UWWwemzVT2sItINRNe3t5BhBXtG-n2-or9GW51HIgIn7_dLAxM4FhkIf2jlPtEJt9ons2bdtf8xWiHWSbYWFSyB1CXRH6dQcQEYzYq3VIfd2-B7rnbNiOCTX-XkP8B5HaeAFIKTAbtwz77tH44sf_JG3b=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/research/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "research#004",
+   "name": "Data Analytics and Machine Learning for Plant Science and Agricultural Applications",
+   "group": "research",
+   "localFile": "public/assets/research/research-data-analytics-and-machine-learning-for-plant-science-and-ag.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72v3jHh0-eAEXWjhgY4qhcDlEZxb-icXTpMspCR22_4KRg4ANhqBi22fNxYLsomlznb5qvab4hjdoD7sYYY7_zt8kVcy6xt9CuOEGYDdnfCJfSgxEH8wk_cmCDe4yXBljqIsWo7dUreh4C3jSY4fEKG6Z02ailnPxnbl28aioPuCuNs8AMbtL35T4diRXYcrsrZjCQO5kd0cDPC2ZZcvCgbmZ2sC-dJtcJwvTPF53AY=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/research/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "research#005",
+   "name": "Pattern Discovery In Large-Scale Simulation Data",
+   "group": "research",
+   "localFile": "public/assets/research/research-pattern-discovery-in-large-scale-simulation-data.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72u736EdGU2DrZmu0yAhajyweS0GWn0JvXBw1Pd7wwtyL6pvwtKn_MXH1THSkJKzhlO6CcSlagIxaE-VHqyDXDepxjXJatno5Iw20H4Z_uIq5_8IFWLrWaE2Q_8D-QtMixmW2cD5U7QMkFqL98SplReBP5VGqItZfaLgoo3em3IXXpyDK8vx4nmmgdUctD0=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/research/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "research#006",
+   "name": "Decision Support Systems",
+   "group": "research",
+   "localFile": "public/assets/research/research-decision-support-systems.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72s59haeqc0d8PECFhsKJ48II97WgvfikAb5s9qWGnhU9hNbiRhG4kl1YCNSJm6nbZyKFUfqsCkMsevNO99iq1q3YYnMDiDGbFRbiJbYHp9905iBaU7Ta8PA0syT89FnZW4rSMTM8yxs0GaCwket72Mg8IT_2i0EhMW9UKvx2pNbMJaGID2xpL96qY4ogkwI31Ci4Q7NnHhdnot7jC88ytOjmGk8wQEFBxYVBUUYvTQ=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/research/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "research#007",
+   "name": "Smart Buildings and Smart Cities",
+   "group": "research",
+   "localFile": "public/assets/research/research-smart-buildings-and-smart-cities.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tENKc3DuLB7jcDS3Cij0_i1lAHGCnYFUT07mia36KFvW7neCvmlRQXDwR7ASp1bR-o6EsQDIi4Y9e3nUv_lSYtsc8-aUUkU-X-l7aVEeN0KdwfXabsrl396C8HWTiHT4c7NKZt6VSJGjxO_ANp95OfZiCofYuk6EABaH-mwuxY3Sh_yuya9m5zROJLzgUi2wYD0KhWPJ2luWGP7tKORMVEpqMLwxW4CKzivWnn=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/research/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "research#008",
+   "name": "Distributed Optimization",
+   "group": "research",
+   "localFile": "public/assets/research/research-distributed-optimization.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tTf2eOFRabyCAMYJwoKOxsDqkFLx-EBBLL-ZAF64EC5YCmBrLxJjwBYMJXTCLUbVTj7dTN1TN6A8tvnWrGog2T8vL2wMWZWp90hSq9ce8E6rluwmbqjxhhSzeDJwMY765QHGcwOGn5xGEzb3KVgutPKUSsT9XwxMPP0f1obnzj-IJAUGM8r218_yOKqF8npkpg24oTtdY95lWgJOtxc7Uca5DRyOUIL97WT7lzZQo=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/research/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "research#009",
+   "name": "Health Monitoring and Prognostics",
+   "group": "research",
+   "localFile": "public/assets/research/research-health-monitoring-and-prognostics.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72twPDerHEgLeDxZoVkca2T5s1jIX64TJywqm4ErlryiZg7TuUdvGkbKE8OiOpJYucgBQ7_Y4cjMDqmkCWherCP1XuzN3m0lcTgWKR88cRY5cSKEk41ePbqbo0fOvyq-kYwlLKroFhRrv2zyHjJLSYeZp33J1DGnAeDzpqWoiUIiGStQkMbbPwKuUVd6SfU=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/research/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "research#010",
+   "name": "Image Processing and Enhancement Algorithms",
+   "group": "research",
+   "localFile": "public/assets/research/research-image-processing-and-enhancement-algorithms.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vLvhDDUidEPTwQK89OR0YyetUbBNMUp38hWs5ySB69sZck_cN9pZuS-1PrxnUF0G4ud9zpBJtbgxg_dBsTOw04nRWfegjFOTIV99p2t-EiIzVmZasJk_oyKqT2GpCNKHmy6bGqGAD2trN2N3RXnzIwctA3eCflwy4rJNyFsBI6V5faKcBn0iWUSa7faMY=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/research/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 0,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "research#011",
+   "name": "Machine Learning & GPU Accelerated Tools for Manufacturing Processes",
+   "group": "research",
+   "localFile": "public/assets/research/research-machine-learning-gpu-accelerated-tools-for-manufacturing-pro.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72u5IiJ33xntgAAfgrzqgA8UAY8qhXTMgn5htB6-tX8GFaYlaRBAvtjTg8fSTjEXuLPuieSDeQTeduIAysnV190XJs6jWhqf2UyK-EyoujCZH23705dof4Ym-61llS0RWLVkeXhYcjvzN5UX7xfWPkkzj_fUqNGs-WaZCK0-RvP5HRkNfPqFI6KK1JDq6mBhdu1H7UJAAg6i28QVhLdAi8x7lwEQkfvfe1zes9xp=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/research/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "research#012",
+   "name": "Robotics and Self-Driving Cars",
+   "group": "research",
+   "localFile": "public/assets/research/research-robotics-and-self-driving-cars.jpg",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tlLniMWM0ODL_nI-s7LgdUdF7XO-QP1sZbmbLmbqyQge0GC45F04fj5VB8vTyllCBVbH33pDzKdYZiIoD6MAO6z0KgqiRbTUydNX4LUs_E0aDJLiARo9u5j7yP_h6puC8cK1J4Jkf93AwH0Gnb8-LNyVL9Fa3ULXb2abgPSJXuvYdJTfzUJ45HCesECCrpZmJ0qWMJ0LS-Rs2NZupY6XWEPNuAXwfDguoKrGWd=w1280",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/research",
+   "newPage": "/research/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 2,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED"
+  },
+  {
+   "id": "publications#000",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tUyud9ktlZCfdG_yHcw9S4sYbDLZ0cU5TXTUO_D7sjijqZxEmVNNr87Wf1ep6UCg8os9dvKw6oxZf3JiizMjxy-KBJr4Sij3Q5QpKyEbSV5VPwSiKKzzKo2hfUbKvZszqJt76KFGY6FJW8UqT-szzvkwk0nrfPRD64OY8=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/publications",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": null,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED (bytes) — not rendered visibly on original (hidden slide / background); visual check in contact sheet"
+  },
+  {
+   "id": "publications#001",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72tUyud9ktlZCfdG_yHcw9S4sYbDLZ0cU5TXTUO_D7sjijqZxEmVNNr87Wf1ep6UCg8os9dvKw6oxZf3JiizMjxy-KBJr4Sij3Q5QpKyEbSV5VPwSiKKzzKo2hfUbKvZszqJt76KFGY6FJW8UqT-szzvkwk0nrfPRD64OY8=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/publications",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 24,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "NEEDS-MANUAL-REVIEW (bytes identical; rendered crop differs, phash 24)"
+  },
+  {
+   "id": "media#000",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vAaVbdZY5tHrOj1Lz7_6R7g5euVeJrCNCBylQvoIdV15UlEjmdv4xrcCCeLLeuSY9MdQzlIOiiDwqTepu98aROh72o0vH8ixBr-DE9rbt3HRnIAnRtKeyxp86hQO_dg2t_ntwXmgRzAenh9IB6ogibI7Nf7_iK0ajvz6A=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/media",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": null,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "VERIFIED (bytes) — not rendered visibly on original (hidden slide / background); visual check in contact sheet"
+  },
+  {
+   "id": "media#001",
+   "name": null,
+   "group": "site",
+   "localFile": "public/assets/site/site-logo.png",
+   "originalImageUrl": "https://sites.google.com/sitesv-images-rt/AMxu72vAaVbdZY5tHrOj1Lz7_6R7g5euVeJrCNCBylQvoIdV15UlEjmdv4xrcCCeLLeuSY9MdQzlIOiiDwqTepu98aROh72o0vH8ixBr-DE9rbt3HRnIAnRtKeyxp86hQO_dg2t_ntwXmgRzAenh9IB6ogibI7Nf7_iK0ajvz6A=w16383",
+   "originalPageUrl": "https://sites.google.com/view/scslab-isu/media",
+   "newPage": "/",
+   "checks": {
+    "1_sourceIdentified": true,
+    "2_downloadOk": true,
+    "3_localExistsNonEmpty": true,
+    "4_decodes": true,
+    "5_dimensionsMatch": true,
+    "6_sha256": {
+     "localEqualsManifest": true,
+     "browserBytesEqualHttpBytes": true
+    },
+    "6b_freshReloadSha256Match": true,
+    "7_phashDistanceVsOriginalRender": 24,
+    "8_referencedByCorrectOwner": true,
+    "9_presentOnNewPage": true,
+    "10_loadsInBrowser": true,
+    "sharedWithOtherPerson": false,
+    "thumbnailSuspect": false,
+    "hostDownscaleCap": false
+   },
+   "failures": [],
+   "status": "NEEDS-MANUAL-REVIEW (bytes identical; rendered crop differs, phash 24)"
+  }
+ ]
+}

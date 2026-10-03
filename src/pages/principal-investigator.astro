@@ -1,0 +1,69 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import ArchivalNote from '../components/ArchivalNote.astro';
+import page from '../data/page-principal-investigator.json';
+import assets from '../data/assets.json';
+import { withLinks } from '../lib/site';
+
+const sec = (h: string) => page.find((s) => s.heading === h)?.items ?? [];
+const profile = sec('Personal Profile');
+const idx = (t: string) => profile.findIndex((i) => i.text === t);
+const contact = profile.slice(1, idx('Dr. Soumik Sarkar'));
+const after = profile.slice(idx('Dr. Soumik Sarkar') + 1);
+const titles = after.filter((i) => i.text.length < 140 && !/^(Ph\.D|M\.S|B\.E)/.test(i.text));
+const degrees = after.filter((i) => /^(Ph\.D|M\.S|B\.E)/.test(i.text));
+const bio = after.filter((i) => i.text.length >= 140);
+// The original splits one grant's amount onto its own paragraph; join for display only (see migration/content-review.md).
+const funding = sec('Research Funding').reduce<string[]>((acc, i) => {
+  if (/^\(\$/.test(i.text) && acc.length) acc[acc.length - 1] += ' ' + i.text; else acc.push(i.text);
+  return acc;
+}, []);
+const teaching = sec('Teaching');
+const photo = assets.pi.find((p) => p.manifestId.startsWith('principal-investigator'))!;
+const talks = sec('Invited Talks');
+---
+<Base title="Principal Investigator" description="Prof. Soumik Sarkar — biography, education, research funding, teaching, outreach and invited talks.">
+  <PageHeader title="Principal Investigator" kicker="Personal Profile" />
+  <section class="grid md:grid-cols-[18rem_1fr] gap-8">
+    <div>
+      <img src={photo.src} alt="Photo of Dr. Soumik Sarkar" width="414" height="407" class="w-full rounded-lg border border-line" data-person-photo="Dr. Soumik Sarkar" />
+      <div class="mt-4 bg-white border border-line rounded-lg p-4 text-sm">
+        <h2 class="font-bold text-base mb-2">Contact Information</h2>
+        <ul class="space-y-1">{contact.map((i) => <li set:html={withLinks(i.text, i.links)} />)}</ul>
+      </div>
+    </div>
+    <div>
+      <h2 class="text-2xl font-bold">Dr. Soumik Sarkar</h2>
+      <ul class="mt-2 text-muted space-y-0.5">{titles.map((i) => <li set:html={withLinks(i.text, i.links)} />)}</ul>
+      <h3 class="mt-6 font-bold">Education</h3>
+      <ul class="mt-1 space-y-0.5">{degrees.map((i) => <li>{i.text}</li>)}</ul>
+      <div class="prose-lab mt-6">{bio.map((i) => <p>{i.text}</p>)}</div>
+    </div>
+  </section>
+
+  <section class="mt-14" id="funding">
+    <h2 class="text-2xl font-bold">Research Funding</h2>
+    <ArchivalNote>Historical funding as listed on the original website (archived 2026-10-03). Amounts, roles and dates are reproduced verbatim and were not independently verified.</ArchivalNote>
+    <ol class="space-y-3">{funding.map((f) => <li class="bg-white border border-line rounded-lg p-4 text-[0.95rem]">{f}</li>)}</ol>
+  </section>
+
+  <section class="mt-14 grid lg:grid-cols-2 gap-10">
+    <div id="teaching">
+      <h2 class="text-2xl font-bold">Teaching</h2>
+      <p class="mt-3">{teaching[0]?.text}</p>
+      <ul class="mt-3 list-disc pl-5 space-y-1">{teaching.slice(1).map((i) => <li>{i.text}</li>)}</ul>
+    </div>
+    <div id="outreach">
+      <h2 class="text-2xl font-bold">Outreach</h2>
+      <ul class="mt-3 list-disc pl-5 space-y-2">{sec('Outreach').map((i) => <li set:html={withLinks(i.text, i.links)} />)}</ul>
+    </div>
+  </section>
+
+  <section class="mt-14" id="talks">
+    <h2 class="text-2xl font-bold">Invited Talks <span class="text-base font-normal text-muted">({talks.length})</span></h2>
+    <ul class="mt-4 divide-y divide-line bg-white border border-line rounded-lg">
+      {talks.map((i) => <li class="px-4 py-2.5 text-[0.95rem]">{i.text}</li>)}
+    </ul>
+  </section>
+</Base>

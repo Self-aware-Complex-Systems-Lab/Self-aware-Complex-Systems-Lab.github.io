@@ -1,0 +1,72 @@
+---
+import Base from '../layouts/Base.astro';
+import home from '../data/page-home.json';
+import assets from '../data/assets.json';
+import people from '../data/people.json';
+import pubs from '../data/publications.json';
+import added from '../data/publications-added.json';
+import { CURRENT_CATEGORIES, ALUMNI_CATEGORIES } from '../lib/site';
+
+const about = home.find((s) => s.heading === 'About Us')!;
+const [intro, servesAs, ...roles] = about.items.map((i) => i.text);
+const hero = assets.gallery.find((g) => g.manifestId === 'home#002') ?? assets.gallery[0];
+const nCurrent = people.filter((p) => CURRENT_CATEGORIES.includes(p.category ?? '')).length;
+const nAlumni = people.filter((p) => ALUMNI_CATEGORIES.includes(p.category ?? '')).length;
+const latest = [...added, ...pubs].filter((p) => p.year && p.year >= 2026).slice(0, 5);
+---
+<Base title="SCSLab">
+  <section class="grid lg:grid-cols-5 gap-8 items-center">
+    <div class="lg:col-span-2">
+      <p class="text-sm font-semibold uppercase tracking-wider text-cardinal">Iowa State University</p>
+      <h1 class="text-4xl sm:text-5xl font-bold leading-tight mt-2">Self-aware Complex Systems Laboratory</h1>
+      <div class="mt-4 h-1 w-16 bg-gold rounded"></div>
+      <p class="mt-5 text-lg text-muted">Machine learning for autonomous perception and decision-making in complex cyber-physical systems.</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="/research/" class="rounded bg-cardinal px-4 py-2 text-white no-underline hover:bg-cardinal-dark hover:text-white">Our research</a>
+        <a href="/publications/" class="rounded border border-cardinal px-4 py-2 no-underline">Publications</a>
+      </div>
+    </div>
+    <figure class="lg:col-span-3">
+      <img src={hero.src} alt="SCSLab members, group photo" width={hero.size[0]} height={hero.size[1]} class="w-full rounded-lg shadow-sm" />
+    </figure>
+  </section>
+
+  <section class="mt-14 grid lg:grid-cols-3 gap-10">
+    <div class="lg:col-span-2">
+      <h2 class="text-2xl font-bold">About Us</h2>
+      <p class="mt-3 leading-relaxed">{intro}</p>
+    </div>
+    <div class="bg-white border border-line rounded-lg p-5">
+      <h2 class="text-lg font-bold">{servesAs.replace(/\s+$/, '')}</h2>
+      <ul class="mt-2 space-y-2 text-[0.95rem]">{roles.map((r) => <li class="border-l-2 border-gold pl-3">{r}</li>)}</ul>
+    </div>
+  </section>
+
+  <section class="mt-14 grid sm:grid-cols-3 gap-4 text-center">
+    <a href="/people/" class="bg-white border border-line rounded-lg p-5 no-underline text-ink hover:border-cardinal"><span class="block text-3xl font-bold text-cardinal">{nCurrent}</span>members listed</a>
+    <a href="/alumni/" class="bg-white border border-line rounded-lg p-5 no-underline text-ink hover:border-cardinal"><span class="block text-3xl font-bold text-cardinal">{nAlumni}</span>alumni listed</a>
+    <a href="/publications/" class="bg-white border border-line rounded-lg p-5 no-underline text-ink hover:border-cardinal"><span class="block text-3xl font-bold text-cardinal">{pubs.length + added.length}</span>publications</a>
+  </section>
+
+  <section class="mt-14">
+    <h2 class="text-2xl font-bold">Recent publications</h2>
+    <ul class="mt-4 divide-y divide-line bg-white border border-line rounded-lg">
+      {latest.map((p) => (
+        <li class="p-4"><a href={p.url ?? '#'} class="font-semibold no-underline">{p.title}</a>
+          <span class="block text-sm text-muted">{p.venue} ({p.year})</span></li>
+      ))}
+    </ul>
+  </section>
+
+  <section class="mt-14" aria-labelledby="sponsors">
+    <h2 id="sponsors" class="text-2xl font-bold">Sponsors</h2>
+    <ul class="mt-5 grid grid-cols-2 sm:grid-cols-4 lg:grid-cols-7 gap-4 items-center">
+      {assets.sponsors.map((s) => (
+        <li class="bg-white border border-line rounded-lg p-3 h-24 flex items-center justify-center">
+          <img src={s.src} alt={s.name} title={s.name} loading="lazy" class="max-h-16 max-w-full object-contain" data-sponsor={s.name} />
+        </li>
+      ))}
+      <li class="bg-white border border-line rounded-lg p-3 h-24 flex items-center justify-center text-center font-serif font-bold leading-tight text-cardinal">Regents<br />Innovation<br />Funds</li>
+    </ul>
+  </section>
+</Base>

@@ -1,0 +1,29 @@
+Skip to main content
+Skip to navigation
+SCSLab	
+HomePrincipal InvestigatorTeam & ContactResearchPublicationsMedia
+	
+About Us
+
+In our research group, we develop new machine learning algorithms for autonomous perception and decision-making in complex cyber-physical systems with emphasis on decision frameworks, information fusion, distributed learning and control, multi-agent systems, safety and robustness of learning-enabled cyber-physical systems. Our application areas of interest include complex cyber-physical systems (CPS) frameworks for (a) materials, design, and manufacturing, (b) food, energy, and sustainability, (c) biology, health and quality of life, and (d) autonomy and smart infrastructure. The nature of our research is inherently multi-disciplinary involving machine learning, dynamical systems, information theory, theory of computation, topology and statistical mechanics.
+
+
+
+
+Dr. Soumik Sarkar serves as the 
+
+Director of the Translational AI Center (TrAC) at Iowa State
+
+Associate Director of the AI Institute for Resilient Agriculture (AIIRA)
+
+Lead PI for the NSF Cyber-Physical Systems Frontier project COALESCE
+
+Faculty-in-charge for the Cyber-Physical Systems minor at Iowa State 
+
+Sponsors
+Regents
+Innovation
+Funds
+Page updated
+Google Sites
+Report abuse

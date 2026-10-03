@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHeader from '../components/PageHeader.astro';
+import ArchivalNote from '../components/ArchivalNote.astro';
+import PeopleSections from '../components/PeopleSections.astro';
+import { ALUMNI_CATEGORIES } from '../lib/site';
+---
+<Base title="Alumni" description="Former postdoctoral, graduate and undergraduate members of SCSLab.">
+  <PageHeader title="Alumni" kicker="Former members" />
+  <ArchivalNote>Alumni records are reproduced from the <a href="https://sites.google.com/view/scslab-isu/team-contact">original Team &amp; Contact page</a> as archived on 2026-10-03. Positions such as “currently working at …” reflect what that page said and may be out of date.</ArchivalNote>
+  <PeopleSections categories={ALUMNI_CATEGORIES} compactFrom={['Graduate Alumni', 'Undergraduate Alumni']} />
+</Base>

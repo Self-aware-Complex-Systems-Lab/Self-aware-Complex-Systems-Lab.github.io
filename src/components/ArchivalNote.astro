@@ -1,0 +1,8 @@
+---
+import { SITE } from '../lib/site';
+interface Props { source?: string; }
+const { source = SITE.original } = Astro.props;
+---
+<aside class="archival-note text-sm text-muted px-4 py-3 rounded-r mb-8">
+  <slot>Reproduced from the <a href={source}>original lab website</a> as archived on {SITE.archivedOn}. Roles, affiliations and statuses are shown as originally listed and have not been independently re-verified.</slot>
+</aside>
