@@ -470,3 +470,9 @@ Every edit made to the original lab-site text, with the reason. Facts added from
 - **Briton R Bauerly**: LinkedIn snippet (not fetched, not an own site) suggests later roles at Intramotev and First Orion; not added.
 - **Yingying Huang**: No own site found; proofread only.
 - **David Leguizamo**: Paper added from the earlier search snippet of his own Scholar profile (Scholar could not be fetched directly) — please confirm. He goes by Felipe (full name David Felipe Leguizamo); display name left unchanged. LinkedIn snippet (not fetched) suggests he is now a GNC Engineer at Boeing; not added.
+
+# Owner updates (2026-10-03)
+- **Hsin-Jung Yang**: defended Ph.D. Summer 2026 → Graduate Alumni; Ph.D. line added; bio in past tense.
+- **Mahsa Khosravi**: defended Ph.D. Fall 2026 → Graduate Alumni; Ph.D. line added; bio in past tense.
+- **Sanjeda Akter**: M.S. 2026, now a Ph.D. student → Masters Alumni.
+- **Minhao Wang, Timothy Wilkie, Seyed Vahid Mirnezami** → Independent Study Alumni (only Nikhil Bhattacharya remains current).

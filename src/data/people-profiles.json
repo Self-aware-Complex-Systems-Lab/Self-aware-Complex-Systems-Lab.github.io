@@ -73,20 +73,26 @@
  },
  "Hsin-Jung Yang": {
   "name": "Hsin-Jung Yang",
-  "headline": "Ph.D. Student, Mechanical Engineering",
+  "headline": "Ph.D., Mechanical Engineering, 2026",
   "education": [
+   "Ph.D., Mechanical Engineering, Iowa State University, 2026",
    "M.S., Applied Mechanics, National Taiwan University, 2020",
    "B.S., Engineering Science and Ocean Engineering, National Taiwan University, 2018"
   ],
   "affiliation": [],
   "bio": [
-   "Hsin-Jung is a Ph.D. student in the Department of Mechanical Engineering at Iowa State University. He joined the Self-aware Complex Systems Laboratory in Fall 2021, and his research interests include machine learning, deep learning, mechatronics, and robotics. His other interests include hiking and photography."
+   "Hsin-Jung completed his Ph.D. in the Department of Mechanical Engineering at Iowa State University, defending in Summer 2026. He joined the Self-aware Complex Systems Laboratory in Fall 2021, where his research focused on machine learning, deep learning, mechatronics, and robotics. His other interests include hiking and photography."
   ],
   "researchInterests": "Machine learning, deep learning, mechatronics, robotics",
   "joined": "Fall 2021",
   "currentPosition": null,
   "project": null,
-  "_sources": []
+  "_sources": [
+   {
+    "fact": "Defended Ph.D. in Summer 2026",
+    "url": "lab owner (2026-10-03)"
+   }
+  ]
  },
  "Timilehin Ayanlade": {
   "name": "Timilehin Ayanlade",
@@ -117,20 +123,26 @@
  },
  "Mahsa Khosravi": {
   "name": "Mahsa Khosravi",
-  "headline": "Ph.D. Student, Industrial Engineering",
+  "headline": "Ph.D., Industrial Engineering, 2026",
   "education": [
+   "Ph.D., Industrial Engineering, Iowa State University, 2026",
    "M.S., Industrial Engineering, University of Tehran, Tehran, Iran, 2015",
    "B.S., Industrial Engineering, Semnan University of Science and Technology, Semnan, Iran, 2013"
   ],
   "affiliation": [],
   "bio": [
-   "Mahsa Khosravi is a Ph.D. student in Industrial Engineering who joined the Self-aware Complex Systems Laboratory in Summer 2021. Her M.S. research focused on cancer diagnosis and recurrence prediction using machine learning. Her main research interests include reinforcement learning, machine learning, deep learning, and robotics. She also enjoys playing the piano, reading books, and rock climbing."
+   "Mahsa Khosravi completed her Ph.D. in Industrial Engineering at Iowa State University, defending in Fall 2026. She joined the Self-aware Complex Systems Laboratory in Summer 2021, where her research centered on reinforcement learning, machine learning, deep learning, and robotics. Her M.S. research focused on cancer diagnosis and recurrence prediction using machine learning. She also enjoys playing the piano, reading books, and rock climbing."
   ],
   "researchInterests": "Reinforcement learning, machine learning, deep learning, robotics",
   "joined": "Summer 2021",
   "currentPosition": null,
   "project": null,
-  "_sources": []
+  "_sources": [
+   {
+    "fact": "Defended Ph.D. in Fall 2026",
+    "url": "lab owner (2026-10-03)"
+   }
+  ]
  },
  "Qisai Liu": {
   "name": "Qisai Liu",
