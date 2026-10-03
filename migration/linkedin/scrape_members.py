@@ -15,7 +15,7 @@ from linkedin_scraper import BrowserManager
 HERE = Path(__file__).parent
 OUT = HERE / "members.json"
 IMG = HERE / "images"
-PER = int(sys.argv[1]) if len(sys.argv) > 1 else 40
+PER = int(sys.argv[1]) if len(sys.argv) > 1 and sys.argv[1].isdigit() else 40
 RELEVANT = re.compile(r"scslab|self[- ]aware|soumik|sarkar|\btrac\b|translational ai|aiira|coalesce|iowa state|\bisu\b|"
                       r"accepted|publish|paper|journal|conference|workshop|proceedings|arxiv|cvpr|neurips|icml|iclr|aaai|icra|iros|"
                       r"wacv|kdd|corl|defen[cs]e|ph\.?d|graduat|award|keynote|talk|poster|preprint", re.I)
@@ -108,4 +108,5 @@ async def main():
     print("MEMBERS_DONE", len(done))
 
 
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())

@@ -844,5 +844,59 @@
   "paperKey": null,
   "people": [],
   "source": "linkedin-members"
+ },
+ {
+  "src": "/assets/gallery/linkedin/member-defense-7501691977697026068-1.jpg",
+  "size": [
+   800,
+   800
+  ],
+  "caption": "Muhammad Arbab Arshad presenting his Ph.D. thesis defense (top), before moving to the Bay Area to join Waymo (bottom).",
+  "date": "September 2026",
+  "category": "Graduations & defenses",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7501691977697026068/",
+  "credit": "Photo: Muhammad Arbab Arshad via LinkedIn",
+  "alt": "Muhammad Arbab Arshad presenting his Ph.D. thesis defense (top), before moving to the Bay Area to join Waymo (bottom).",
+  "paperKey": null,
+  "people": [
+   "Muhammad Arbab Arshad"
+  ],
+  "source": "linkedin-members"
+ },
+ {
+  "src": "/assets/gallery/linkedin/member-defense-7482474791849893888-1.jpg",
+  "size": [
+   800,
+   1066
+  ],
+  "caption": "Souradeep Chattopadhyay after successfully defending his Ph.D. dissertation, “Data-driven modeling and uncertainty quantification for decision support in complex real-world systems,” at Iowa State University.",
+  "date": "July 2026",
+  "category": "Graduations & defenses",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7482474791849893888/",
+  "credit": "Photo: Souradeep Chattopadhyay via LinkedIn",
+  "alt": "Souradeep Chattopadhyay after successfully defending his Ph.D. dissertation, “Data-driven modeling and uncertainty quantification for decisi",
+  "paperKey": null,
+  "people": [
+   "Souradeep Chattopadhyay"
+  ],
+  "source": "linkedin-members"
+ },
+ {
+  "src": "/assets/gallery/linkedin/member-defense-7457575655048704000-1.jpg",
+  "size": [
+   800,
+   600
+  ],
+  "caption": "Souradeep Chattopadhyay presenting “Exploring Geometric Concentration for Quantifying Uncertainty in Scientific Image Caption Generation” at AISTATS 2026 in Tangier, Morocco.",
+  "date": "May 2026",
+  "category": "Conferences & events",
+  "link": "https://www.linkedin.com/feed/update/urn:li:activity:7457575655048704000/",
+  "credit": "Photo: Souradeep Chattopadhyay via LinkedIn",
+  "alt": "Souradeep Chattopadhyay presenting “Exploring Geometric Concentration for Quantifying Uncertainty in Scientific Image Caption Generation” at",
+  "paperKey": null,
+  "people": [
+   "Souradeep Chattopadhyay"
+  ],
+  "source": "linkedin-members"
  }
 ]
