@@ -1,0 +1,63 @@
+{
+ "intentionalOmissions": {
+  "N/A": "contact placeholder 'N/A' is not shown",
+  "Coming Soon": "empty Media page placeholder; its content is the Gallery page"
+ },
+ "pages": {
+  "home": {
+   "textBlocks": 11,
+   "missingBlocks": [],
+   "externalLinks": 4,
+   "missingLinks": [],
+   "hiddenAsWrongPerson": []
+  },
+  "team-contact": {
+   "textBlocks": 353,
+   "missingBlocks": [],
+   "externalLinks": 28,
+   "missingLinks": [],
+   "hiddenAsWrongPerson": [
+    "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en",
+    "https://vn.linkedin.com/in/truong-tran-62643194"
+   ]
+  },
+  "principal-investigator": {
+   "textBlocks": 118,
+   "missingBlocks": [],
+   "externalLinks": 7,
+   "missingLinks": [],
+   "hiddenAsWrongPerson": []
+  },
+  "publications": {
+   "textBlocks": 0,
+   "missingBlocks": [],
+   "externalLinks": 0,
+   "missingLinks": [],
+   "hiddenAsWrongPerson": []
+  },
+  "research": {
+   "textBlocks": 45,
+   "missingBlocks": [],
+   "externalLinks": 0,
+   "missingLinks": [],
+   "hiddenAsWrongPerson": []
+  },
+  "media": {
+   "textBlocks": 1,
+   "missingBlocks": [],
+   "externalLinks": 0,
+   "missingLinks": [],
+   "hiddenAsWrongPerson": []
+  }
+ },
+ "peopleExpected": 73,
+ "peopleMissing": [],
+ "profilesWithUnrenderedLines": [],
+ "publicationsExpected": 404,
+ "publicationsMissing": [],
+ "fundingAmountsChecked": 29,
+ "fundingMissing": [],
+ "brokenInternalLinks": [],
+ "issueCount": 0,
+ "issues": []
+}

@@ -1,7 +1,6 @@
 ---
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
-import ArchivalNote from '../components/ArchivalNote.astro';
 import page from '../data/page-principal-investigator.json';
 import assets from '../data/assets.json';
 import { withLinks } from '../lib/site';
@@ -25,7 +24,7 @@ const talks = sec('Invited Talks');
 ---
 <Base title="Principal Investigator" description="Prof. Soumik Sarkar — biography, education, research funding, teaching, outreach and invited talks.">
   <PageHeader title="Principal Investigator" kicker="Personal Profile" />
-  <section class="grid md:grid-cols-[18rem_1fr] gap-8">
+  <section class="grid md:grid-cols-[18rem_minmax(0,1fr)] gap-8">
     <div>
       <img src={photo.src} alt="Photo of Dr. Soumik Sarkar" width="414" height="407" class="w-full rounded-lg border border-line" data-person-photo="Dr. Soumik Sarkar" />
       <div class="mt-4 bg-white border border-line rounded-lg p-4 text-sm">
@@ -43,8 +42,7 @@ const talks = sec('Invited Talks');
   </section>
 
   <section class="mt-14" id="funding">
-    <h2 class="text-2xl font-bold">Research Funding</h2>
-    <ArchivalNote>Historical funding as listed on the original website (archived 2026-10-03). Amounts, roles and dates are reproduced verbatim and were not independently verified.</ArchivalNote>
+    <h2 class="text-2xl font-bold mb-5">Research Funding</h2>
     <ol class="space-y-3">{funding.map((f) => <li class="bg-white border border-line rounded-lg p-4 text-[0.95rem]">{f}</li>)}</ol>
   </section>
 

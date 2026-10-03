@@ -2,10 +2,8 @@
 import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
 import assets from '../data/assets.json';
-import media from '../data/page-media.json';
-const mediaNote = media[0]?.items.map((i) => i.text).join(' ');
 ---
-<Base title="Gallery" description="Photographs of SCSLab members recovered from the original website.">
+<Base title="Gallery" description="Photographs of SCSLab members and lab events.">
   <PageHeader title="Gallery" kicker="Lab life" />
   <ul class="grid sm:grid-cols-2 gap-5">
     {assets.gallery.map((g) => (
@@ -17,5 +15,4 @@ const mediaNote = media[0]?.items.map((i) => i.text).join(' ');
       </li>
     ))}
   </ul>
-  <p class="mt-8 text-sm text-muted">The original site's <a href="https://sites.google.com/view/scslab-isu/media">Media</a> page contained only the text “{mediaNote}”.</p>
 </Base>

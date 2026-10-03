@@ -1,0 +1,429 @@
+{
+ "_note": "High-confidence links found by web search on 2026-10-03 (not part of the original site). Evidence per link in migration/people-web-search.json.",
+ "links": {
+  "Dr. Soumik Sarkar": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=-rmRjqIAAAAJ&hl=en"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/soumik-sarkar"
+   },
+   {
+    "type": "homepage",
+    "url": "https://sites.google.com/view/scslab-isu/home"
+   }
+  ],
+  "Zahid Hasan": [
+   {
+    "type": "homepage",
+    "url": "https://zahid-isu.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=m9QYJ_cAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/zahid-isu"
+   }
+  ],
+  "Hsin-Jung Yang": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=K5WYa34AAAAJ&hl=en"
+   }
+  ],
+  "Timilehin Ayanlade": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=SI6VhjMAAAAJ&hl=en"
+   },
+   {
+    "type": "other",
+    "url": "https://news.engineering.iastate.edu/2026/04/01/we-should-all-think-like-entrepreneurs-timilehin-ayanlade-engineering-ai-innovations-in-cyber-agriculture-systems/"
+   }
+  ],
+  "Mahsa Khosravi": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=Rbi2WL4AAAAJ&hl=en"
+   }
+  ],
+  "Qisai Liu": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=iNYmolkAAAAJ"
+   }
+  ],
+  "Nastaran Saadati": [
+   {
+    "type": "github",
+    "url": "https://github.com/nsaadati"
+   }
+  ],
+  "Nitesh Subedi": [
+   {
+    "type": "github",
+    "url": "https://github.com/nitesh-subedi"
+   }
+  ],
+  "Shreyan Ganguly": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=hevENGEAAAAJ&hl=en"
+   }
+  ],
+  "Yongyun Song": [
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/yongyun-song"
+   }
+  ],
+  "Sanjeda Akter": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=suaj_dAAAAAJ&hl=en"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/sanjeda-akter"
+   }
+  ],
+  "Tirtho Roy": [
+   {
+    "type": "homepage",
+    "url": "https://tirtho149.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=v1y3XMUAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/tirtho149"
+   },
+   {
+    "type": "other",
+    "url": "https://www.researchgate.net/profile/Tirtho-Roy"
+   }
+  ],
+  "Seyed Vahid Mirnezami": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=vOkiZmAAAAAJ&hl=en"
+   }
+  ],
+  "Chao Liu": [
+   {
+    "type": "faculty-page",
+    "url": "https://www.depe.tsinghua.edu.cn/depeen/info/1297/1357.htm"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=WISfoo8AAAAJ&hl=en"
+   }
+  ],
+  "Onur Rauf Bingol": [
+   {
+    "type": "homepage",
+    "url": "https://onurraufbingol.com/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/orbingol"
+   }
+  ],
+  "Aditya Balu": [
+   {
+    "type": "homepage",
+    "url": "https://adityabalu.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=GNuXi6oAAAAJ"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/adityabalu"
+   }
+  ],
+  "Joshua Waite": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=skX2i7kAAAAJ&hl=en"
+   }
+  ],
+  "Kin Gwn Lore": [
+   {
+    "type": "homepage",
+    "url": "https://github.com/kglore/kglore"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/kglore"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=rVWjsIoAAAAJ&hl=en"
+   }
+  ],
+  "Kundan Kumar": [
+   {
+    "type": "homepage",
+    "url": "https://kundan-kumarr.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=1zDpIJkAAAAJ&hl=en"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/kundan-kumar-0"
+   }
+  ],
+  "Adedotun Akintayo": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en"
+   }
+  ],
+  "Linjiang Wu": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=UwkVywQAAAAJ&hl=en"
+   }
+  ],
+  "Apurva Kokate": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=ujVlricAAAAJ&hl=en"
+   }
+  ],
+  "Venkatesh Chinde": [
+   {
+    "type": "homepage",
+    "url": "https://venkateshchinde.weebly.com/"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.nrel.gov/research/staff/venkatesh-chinde.html"
+   }
+  ],
+  "Shuo Wang": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?hl=en&user=r0UjaNUAAAAJ"
+   }
+  ],
+  "Zhanhong Jiang": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=zRRvPRMAAAAJ&hl=en"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://trac-ai.iastate.edu/profiles/zhanhong-jiang/"
+   }
+  ],
+  "Sambuddha Ghosal": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?hl=en&user=gsQYjWcAAAAJ"
+   },
+   {
+    "type": "homepage",
+    "url": "https://www.media.mit.edu/people/sghosal/overview/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/sghosal93"
+   }
+  ],
+  "Ameya Joshi": [
+   {
+    "type": "homepage",
+    "url": "https://ameya005.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.co.in/citations?user=jZgsp_sAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/ameya005"
+   }
+  ],
+  "Amitangshu Mukherjee": [
+   {
+    "type": "homepage",
+    "url": "https://amitangshu1013.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=aK1eTNkAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/Amitangshu1013"
+   }
+  ],
+  "Sambit Gadhai": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=EyIpgmoAAAAJ&hl=en"
+   }
+  ],
+  "Homagni Saha": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=_fZmnRMAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/Homagn"
+   }
+  ],
+  "Jaydeep-Ravindra Rade": [
+   {
+    "type": "homepage",
+    "url": "https://jaydeepradejd.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=_HpXM5UAAAAJ"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/jaydeepradeJD"
+   }
+  ],
+  "Yasaman Esfandiari": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=2zBDS7IAAAAJ&hl=en"
+   }
+  ],
+  "Koushik Nagasubramanian": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=DNivdrsAAAAJ&hl=en"
+   }
+  ],
+  "Tryambak Gangopadhyay": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=QDv2cHoAAAAJ&hl=en"
+   }
+  ],
+  "Bernard Lee Xian Yeow": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=sjAA1AQAAAAJ&hl=en"
+   }
+  ],
+  "Russell Kai Liang Tan": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=HgGGNSEAAAAJ&hl=en"
+   }
+  ],
+  "Luis G. Riera": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=UtQzjwsAAAAJ&hl=en"
+   }
+  ],
+  "Sin Yong Tan (Evan)": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=vCGCNXAAAAAJ&hl=en"
+   }
+  ],
+  "Fateme Fotouhi Ardakani": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=wplmVzIAAAAJ&hl=en"
+   }
+  ],
+  "Jesse Lane": [
+   {
+    "type": "homepage",
+    "url": "https://jesselane.net/"
+   }
+  ],
+  "Jiale Feng": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=WJ35n5UAAAAJ&hl=en"
+   }
+  ],
+  "Ashutosh Kumar Nirala": [
+   {
+    "type": "homepage",
+    "url": "https://aknirala.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=4MJQOyYAAAAJ&hl=en"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/aknirala"
+   }
+  ],
+  "Ethan Herron": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=JstQ09AAAAAJ&hl=en"
+   }
+  ],
+  "Muhammad Arbab Arshad": [
+   {
+    "type": "homepage",
+    "url": "https://arbabarshad.com/"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/arbab-ml"
+   },
+   {
+    "type": "faculty-page",
+    "url": "https://www.cs.iastate.edu/people/muhammad-arshad"
+   }
+  ],
+  "Aaron Havens": [
+   {
+    "type": "homepage",
+    "url": "https://aaronhavens.github.io/"
+   },
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=HBAXF6YAAAAJ"
+   },
+   {
+    "type": "github",
+    "url": "https://github.com/AaronHavens"
+   }
+  ],
+  "Balaji S Sarath Pokuri": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=cy4PLJYAAAAJ&hl=en"
+   }
+  ],
+  "Genyi Huang": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=PdFsrLkAAAAJ&hl=en"
+   }
+  ],
+  "David Leguizamo": [
+   {
+    "type": "scholar",
+    "url": "https://scholar.google.com/citations?user=_a8sHdMAAAAJ&hl=en"
+   }
+  ]
+ }
+}

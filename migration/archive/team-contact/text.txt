@@ -62,7 +62,7 @@ soura (@) iastate.edu
 
 Souradeep Chattopadhyay
 
- Statistics, Iowa State University, 2024
+ PhD, Mechanical engieering  Iowa State University, 2026
 
 M.S. Statistics, Iowa State University, 2024
 
@@ -73,7 +73,7 @@ B.S. Statistics, University of Calcutta, 2014
 
 
 
-Souradeep is currently a Post-Doc and joined the lab in Spring 2021. He is interested in machine learning especially unsupervised learning methods and its applications to various domains. He has a very deep interest in astronomy and over the past two years have published papers which involve analyzing astronomical data using machine learning methods. His hobbies include singing and reading, his favorite author being Dan Brown. He is also an ardent fan of Sherlock Holmes.
+Souradeep is currently a Post-Doc and joined the lab in Spring 2021. He is interested in machine learning, especially unsupervised learning methods and their applications across domains. He has a deep interest in astronomy and, over the past two years, has published papers analyzing astronomical data using machine learning methods. His hobbies include singing and reading, his favorite author being Dan Brown. He is also an ardent fan of Sherlock Holmes.
 
 Doctoral Students
 

@@ -1,0 +1,7 @@
+{
+ "_note": "Archived links that demonstrably point to a DIFFERENT person. They are hidden on the new site (never deleted from people.json / the archive). Evidence: migration/people-web-search.json and migration/content-review.md.",
+ "hide": [
+  {"person": "Linjiang Wu", "href": "https://scholar.google.com/citations?user=kiTENtllKw4C&hl=en", "reason": "This Scholar ID is Adedotun Akintayo's profile (same ID is listed for both people)."},
+  {"person": "Zhisheng Zhang", "href": "https://vn.linkedin.com/in/truong-tran-62643194", "reason": "This LinkedIn URL is Truong Tran's profile (copy of the link listed under Truong Tran)."}
+ ]
+}

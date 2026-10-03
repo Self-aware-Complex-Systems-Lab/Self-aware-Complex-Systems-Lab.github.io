@@ -1,0 +1,16 @@
+{
+ "reviewedOn": "2026-10-03",
+ "method": "Side-by-side contact sheets (migration/contact-sheets/*.jpg): original element screenshot vs migrated file, inspected by eye. SHA-256 of a fresh re-download from the original page also matched the local file for every item below.",
+ "decisions": {
+  "home#005": "NVIDIA logo — same image; transparent background renders white on original, black in flattened thumbnail. Confirmed.",
+  "home#006": "Iowa Energy Center logo — same; transparency difference only. Confirmed.",
+  "home#011": "Iowa State University wordmark — same; transparency difference only. Confirmed.",
+  "research#002": "Research Areas overview wheel — same image; original screenshot crop is partly covered by the sticky site header. Confirmed.",
+  "home#001": "Site logo in the collapsed mobile header (72x56 render, white on transparent). Same bytes as site/site-logo.png. Confirmed.",
+  "principal-investigator#001": "Site logo, mobile header duplicate. Confirmed.",
+  "team-contact#001": "Site logo, mobile header duplicate. Confirmed.",
+  "research#001": "Site logo, mobile header duplicate. Confirmed.",
+  "publications#001": "Site logo, mobile header duplicate. Confirmed.",
+  "media#001": "Site logo, mobile header duplicate. Confirmed."
+ }
+}

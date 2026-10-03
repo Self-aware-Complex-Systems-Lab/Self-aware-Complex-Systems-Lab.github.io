@@ -27,7 +27,10 @@ assets = json.loads((ROOT / "src/data/assets.json").read_text())
 NAME_JS = r"""() => { const content=[...document.querySelectorAll('img')].filter(i=>!i.closest('header'));
   return [...document.querySelectorAll('img')].map(img => { if (img.closest('header')) return null;
     let block=img, p=img.parentElement; while (p && p!==document.body && content.filter(i=>p.contains(i)).length===1){block=p;p=p.parentElement;}
-    const h=block.querySelector('h1,h2,h3'); return h ? h.innerText.trim() : null; }); }"""
+    const h=block.querySelector('h1,h2,h3'); if (h) return h.innerText.trim();
+    const l=(block.innerText||'').split('\n').map(x=>x.replace(/\u200b/g,'').trim()).find(x=>x && x!=='Contact Information' && !x.includes('@')); return l||null; }); }"""
+_mr = MIG / "manual-image-review.json"
+MANUAL = json.loads(_mr.read_text())["decisions"] if _mr.exists() else {}
 NEW_PAGE = {"team": "/people/", "alumni": "/alumni/", "research": "/research/", "sponsors": "/", "gallery": "/gallery/", "site": "/", "pi": None}
 
 def expected_reference(e):
@@ -149,10 +152,12 @@ def main():
         elif identity_proven and ph is None: status = "VERIFIED (bytes) — not rendered visibly on original (hidden slide / background); visual check in contact sheet"
         elif identity_proven: status = "NEEDS-MANUAL-REVIEW (bytes identical; rendered crop differs, phash %s)" % ph
         else: status = "UNVERIFIED"
+        mr = MANUAL.get(e["id"])
+        if mr and status.startswith("NEEDS-MANUAL-REVIEW"): status = "VERIFIED (manual visual review)"
         e["verificationStatus"] = status
         results.append({"id": e["id"], "name": e["associatedName"], "group": e["group"], "localFile": e.get("localFile"),
                         "originalImageUrl": e["originalImageUrl"], "originalPageUrl": e["originalPageUrl"],
-                        "newPage": page, "checks": c, "failures": fail, "status": status})
+                        "newPage": page, "checks": c, "failures": fail, "status": status, "manualReview": MANUAL.get(e["id"])})
 
     # contact sheets: original render | migrated file, per group
     def sheet(group, rows):

@@ -14,7 +14,7 @@ const groups = categories.map((c) => ({ c, list: people.filter((p) => p.category
   return (
     <section id={slug(g.c)} class="mb-12 scroll-mt-6" data-category={g.c}>
       <h2 class="text-2xl font-bold mb-4">{g.c}</h2>
-      <div class:list={['grid gap-5', compact ? 'md:grid-cols-2' : '']}>
+      <div class:list={['grid grid-cols-1 gap-5', compact ? 'md:grid-cols-2' : '']}>
         {g.list.map((p) => <PersonCard person={p} compact={compact} />)}
       </div>
     </section>

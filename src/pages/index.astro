@@ -5,10 +5,11 @@ import assets from '../data/assets.json';
 import people from '../data/people.json';
 import pubs from '../data/publications.json';
 import added from '../data/publications-added.json';
-import { CURRENT_CATEGORIES, ALUMNI_CATEGORIES } from '../lib/site';
+import { CURRENT_CATEGORIES, ALUMNI_CATEGORIES, withLinks } from '../lib/site';
 
 const about = home.find((s) => s.heading === 'About Us')!;
-const [intro, servesAs, ...roles] = about.items.map((i) => i.text);
+const [intro, servesAs] = about.items.map((i) => i.text);
+const roles = about.items.slice(2);
 const hero = assets.gallery.find((g) => g.manifestId === 'home#002') ?? assets.gallery[0];
 const nCurrent = people.filter((p) => CURRENT_CATEGORIES.includes(p.category ?? '')).length;
 const nAlumni = people.filter((p) => ALUMNI_CATEGORIES.includes(p.category ?? '')).length;
@@ -38,7 +39,7 @@ const latest = [...added, ...pubs].filter((p) => p.year && p.year >= 2026).slice
     </div>
     <div class="bg-white border border-line rounded-lg p-5">
       <h2 class="text-lg font-bold">{servesAs.replace(/\s+$/, '')}</h2>
-      <ul class="mt-2 space-y-2 text-[0.95rem]">{roles.map((r) => <li class="border-l-2 border-gold pl-3">{r}</li>)}</ul>
+      <ul class="mt-2 space-y-2 text-[0.95rem]">{roles.map((r) => <li class="border-l-2 border-gold pl-3" set:html={withLinks(r.text, r.links)} />)}</ul>
     </div>
   </section>
 
