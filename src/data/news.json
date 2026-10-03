@@ -1,5 +1,15 @@
 [
  {
+  "date": "2026-10-03",
+  "type": "New member",
+  "title": "Welcome, Test Member",
+  "body": "Test Member joins the lab as a ph.d. student in the Department of Mechanical Engineering, Fall 2026.",
+  "link": null,
+  "image": null,
+  "issue": 1,
+  "added": "2026-10-03"
+ },
+ {
   "date": "2026-10-02",
   "type": "Paper accepted",
   "title": "WeedNet published in Nature Communications",
