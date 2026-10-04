@@ -1,0 +1,16 @@
+{
+ "kind": "[Photo]",
+ "title": "TrAC Day",
+ "fields": {
+  "What is this photo?": "Conference presentation or poster",
+  "Event / conference / place": "TrAC Day 2026",
+  "Caption": "TrAC Day",
+  "Photo credit": "Photo: Soumik Sarkar",
+  "Date": "April 2026"
+ },
+ "images": {
+  "Photos": [
+   "image-1.jpg"
+  ]
+ }
+}
