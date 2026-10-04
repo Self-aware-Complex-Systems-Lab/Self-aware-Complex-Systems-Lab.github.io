@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /contribute/
+Disallow: /contribute-token/
+
+Sitemap: https://self-aware-complex-systems-lab.github.io/sitemap.xml

@@ -7,9 +7,14 @@ import '../styles/global.css';
 import { SITE, NAV } from '../lib/site';
 import assets from '../data/assets.json';
 
-interface Props { title: string; description?: string; noindex?: boolean; }
-const { title, noindex = false, description = `${SITE.name} at ${SITE.university}, directed by Prof. Soumik Sarkar.` } = Astro.props;
+interface Props { title: string; description?: string; noindex?: boolean; jsonLd?: object; }
+const { title, noindex = false, jsonLd, description = `${SITE.name} at ${SITE.university}, directed by Prof. Soumik Sarkar.` } = Astro.props;
 const path = Astro.url.pathname.replace(/\/?$/, '/');
+// Descriptive, unique titles for search: "Research | <lab> – Iowa State University"; home leads with the lab name.
+const fullTitle = title === SITE.short ? `${SITE.name} (${SITE.short}) | ${SITE.university}` : `${title} | ${SITE.name} – ${SITE.university}`;
+const canonical = new URL(path, SITE.url).href;
+// Link-preview image for social shares: the lab group photo (1280×693, ~1.9:1 like the 1200×630 card size).
+const shareImage = new URL('/assets/gallery/lab-group-photo-storefront.jpg', SITE.url).href;
 const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWith(href));
 ---
 <!doctype html>
@@ -17,9 +22,31 @@ const isActive = (href: string) => (href === '/' ? path === '/' : path.startsWit
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>{title === SITE.short ? `${SITE.short} · ${SITE.name}` : `${title} · ${SITE.short}`}</title>
+    <title>{fullTitle}</title>
     <meta name="description" content={description} />
-    {noindex && <meta name="robots" content="noindex" />}
+    {noindex ? <meta name="robots" content="noindex" /> : <link rel="canonical" href={canonical} />}
+    {SITE.googleVerification && <meta name="google-site-verification" content={SITE.googleVerification} />}
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={SITE.name} />
+    <meta property="og:title" content={fullTitle} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonical} />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content={shareImage} />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="693" />
+    <meta property="og:image:alt" content={`${SITE.name} members, group photo`} />
+    {/* X/Twitter card (LinkedIn, Facebook, Slack, WhatsApp and Teams read the og: tags above) */}
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content={fullTitle} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={shareImage} />
+    <meta name="twitter:image:alt" content={`${SITE.name} members, group photo`} />
+    <meta name="author" content={SITE.name} />
+    <meta name="keywords" content="Self-aware Complex Systems Laboratory, SCSLab, Iowa State University, Soumik Sarkar, machine learning, cyber-physical systems, AI for agriculture, scientific machine learning, autonomous systems" />
+    <meta name="theme-color" content="#000000" />
+    <link rel="apple-touch-icon" href={assets.logo} />
+    {jsonLd && <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />}
     <link rel="icon" type="image/png" href={assets.logo} />
   </head>
   <body class="min-h-screen flex flex-col">

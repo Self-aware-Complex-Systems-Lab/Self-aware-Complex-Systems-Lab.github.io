@@ -3,7 +3,7 @@ import AxeBuilder from '@axe-core/playwright';
 import { people } from '../src/lib/people';
 import { publications } from '../src/lib/publications';
 
-const PAGES = ['/', '/principal-investigator/', '/research/', '/people/', '/publications/', '/alumni/', '/news/', '/gallery/', '/contact/', '/contribute/', '/contribute-token/'];
+const PAGES = ['/', '/principal-investigator/', '/research/', '/people/', '/publications/', '/alumni/', '/news/', '/gallery/', '/contact/', '/people/tirtho-roy/', '/people/russell-kai-liang-tan/', '/contribute/', '/contribute-token/'];
 
 for (const path of PAGES) {
   test.describe(path, () => {
@@ -11,7 +11,7 @@ for (const path of PAGES) {
       const res = await page.goto(path);
       expect(res?.status()).toBe(200);
       await expect(page.locator('h1')).toHaveCount(1);
-      await expect(page).toHaveTitle(/SCSLab/);
+      await expect(page).toHaveTitle(/Self-aware Complex Systems Laboratory/);
       // force lazy images to load
       await page.evaluate(async () => {
         document.querySelectorAll('img[loading="lazy"]').forEach((i) => ((i as HTMLImageElement).loading = 'eager'));

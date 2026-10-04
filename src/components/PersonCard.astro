@@ -1,5 +1,5 @@
 ---
-import { slug, linkify, redirectHref } from '../lib/site';
+import { slug, linkify, redirectHref, personHref } from '../lib/site';
 import corrections from '../data/link-corrections.json';
 import web from '../data/people-web-links.json';
 import profiles from '../data/people-profiles.json';
@@ -19,8 +19,9 @@ interface Profile {
   name: string; headline: string | null; education: string[]; affiliation?: string[]; bio: string[];
   researchInterests: string | null; joined: string | null; currentPosition: string | null; project: string | null;
 }
-interface Props { person: Person; compact?: boolean; }
-const { person: p, compact = false } = Astro.props;
+interface Props { person: Person; compact?: boolean; standalone?: boolean; }
+// standalone: rendered on the member's own page (/people/<slug>/), whose h1 already carries the name.
+const { person: p, compact = false, standalone = false } = Astro.props;
 
 // Proofread, organized profile (src/data/people-profiles.json); falls back to the source lines.
 const pr = (profiles as Record<string, Profile>)[p.name];
@@ -44,6 +45,7 @@ const found = (webMeta.links[p.name] ?? []).filter((l) => !known.has(norm(l.url)
 const email = p.contactEmailAsListed && p.contactEmailAsListed !== 'N/A' ? p.contactEmailAsListed : null;
 const myPubs = ((personPubs as Record<string, string[]>)[p.name] ?? []).map((k) => pubByKey.get(k)!).filter(Boolean);
 const shortVenue = (v: string | null) => (v ?? '').replace(/,\s*(Vol\.|pp\.|\d).*$/, '').replace(/\s*\(\d{4}\)\s*$/, '');
+const pageHref = personHref(p);
 const hasLinks = !!email || links.length > 0 || found.length > 0;
 ---
 <article id={slug(p.name)} class="person bg-white border border-line rounded-lg overflow-hidden flex flex-col sm:flex-row scroll-mt-20"
@@ -55,7 +57,7 @@ const hasLinks = !!email || links.length > 0 || found.length > 0;
     </div>
   )}
   <div class="p-4 sm:p-5 min-w-0 flex-1">
-    <h3 class="text-lg font-bold text-ink">{displayName}</h3>
+    {!standalone && <h3 class="text-lg font-bold text-ink"><a href={pageHref} class="text-ink no-underline hover:underline">{displayName}</a></h3>}
     {headline && <p class="text-[0.95rem] font-semibold text-cardinal">{headline}</p>}
     {(pr?.joined || pr?.currentPosition) && (
       <p class="mt-2 flex flex-wrap gap-2 text-xs">

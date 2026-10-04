@@ -4,6 +4,9 @@ export const SITE = {
   university: 'Iowa State University',
   original: 'https://sites.google.com/view/scslab-isu/home',
   archivedOn: '2026-10-03',
+  url: 'https://self-aware-complex-systems-lab.github.io',
+  // Google Search Console "HTML tag" verification code (content="..." value); empty = no tag.
+  googleVerification: '',
 };
 
 export const NAV = [
@@ -56,3 +59,7 @@ export function withLinks(text: string, links: { href: string; text: string }[] 
   }
   return links.length ? html : linkify(text);
 }
+
+/** Each member's own page (the PI's is /principal-investigator/). */
+export const personHref = (p: { name: string; category: string | null }) =>
+  p.category === 'Principal Investigator' ? '/principal-investigator/' : `/people/${slug(p.name)}/`;

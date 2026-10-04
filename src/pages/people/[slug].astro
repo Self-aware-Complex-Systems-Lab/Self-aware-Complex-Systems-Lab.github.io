@@ -1,0 +1,39 @@
+---
+// One page per member, so a search for "<name> Iowa State" can land on the lab site.
+import Base from '../../layouts/Base.astro';
+import PageHeader from '../../components/PageHeader.astro';
+import PersonCard from '../../components/PersonCard.astro';
+import { people, type Person } from '../../lib/people';
+import { SITE, slug, redirectHref, ALUMNI_CATEGORIES } from '../../lib/site';
+import profiles from '../../data/people-profiles.json';
+import web from '../../data/people-web-links.json';
+import corrections from '../../data/link-corrections.json';
+
+export function getStaticPaths() {
+  return people.filter((p) => p.category !== 'Principal Investigator').map((p) => ({ params: { slug: slug(p.name) }, props: { person: p } }));
+}
+const { person: p } = Astro.props as { person: Person };
+const pr = (profiles as Record<string, { name?: string; headline?: string | null; currentPosition?: string | null }>)[p.name];
+const name = pr?.name ?? p.name;
+const alum = ALUMNI_CATEGORIES.includes(p.category ?? '');
+// Drop a trailing '· now …' from the headline when the current role is stated separately (as PersonCard does).
+const role = (pr?.headline && pr.currentPosition ? pr.headline.replace(/\s*[·|;,]\s*(now|currently)\b.*$/i, '') : pr?.headline) ?? p.category ?? 'Member';
+const description = `${name} — ${role}, ${alum ? 'former member of the' : ''} ${SITE.name} (${SITE.short}), ${SITE.university}, led by Prof. Soumik Sarkar.${pr?.currentPosition ? ` Now: ${pr.currentPosition}.` : ''}`.replace(/\s+/g, ' ');
+const hidden = new Set(corrections.hide.filter((h) => h.person === p.name).map((h) => h.href));
+const webLinks = ((web as unknown as { links: Record<string, { url: string }[]> }).links[p.name] ?? []).map((l) => l.url);
+const sameAs = [...new Set([...p.links.filter((l) => !hidden.has(l.href)).map((l) => redirectHref(l.href)), ...webLinks])]
+  .filter((u) => /^https?:\/\//.test(u) && !/\.(pdf|docx?)$/i.test(u) && !u.includes('sites.google.com/view/scslab-isu'));
+const lab = { '@type': 'ResearchOrganization', name: SITE.name, url: SITE.url + '/' };
+const isu = { '@type': 'CollegeOrUniversity', name: SITE.university, url: 'https://www.iastate.edu/' };
+const jsonLd = {
+  '@context': 'https://schema.org', '@type': 'Person', name, url: `${SITE.url}/people/${slug(p.name)}/`,
+  ...(p.photo ? { image: new URL(p.photo, SITE.url).href } : {}),
+  ...(alum ? { alumniOf: [isu, lab] } : { jobTitle: role, affiliation: [lab, isu] }),
+  ...(sameAs.length ? { sameAs } : {}),
+};
+---
+<Base title={name} description={description} jsonLd={jsonLd}>
+  <PageHeader title={name} kicker={`${p.category} · ${SITE.short}, ${SITE.university}`} />
+  <PersonCard person={p} standalone />
+  <p class="mt-6 text-sm"><a href={alum ? `/alumni/#${slug(p.name)}` : `/people/#${slug(p.name)}`}>← All {alum ? 'alumni' : 'lab members'}</a></p>
+</Base>

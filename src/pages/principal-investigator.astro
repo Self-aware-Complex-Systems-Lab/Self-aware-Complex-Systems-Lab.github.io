@@ -3,7 +3,7 @@ import Base from '../layouts/Base.astro';
 import PageHeader from '../components/PageHeader.astro';
 import page from '../data/page-principal-investigator.json';
 import assets from '../data/assets.json';
-import { withLinks } from '../lib/site';
+import { SITE, withLinks } from '../lib/site';
 import videos from '../data/talks-video.json';
 import recentFunding from '../data/funding-recent.json';
 import grantAnn from '../data/grant-announcements.json';
@@ -36,8 +36,14 @@ const teaching = sec('Teaching');
 const photo = assets.pi.find((p) => p.manifestId.startsWith('principal-investigator'))!;
 const talks = sec('Invited Talks');
 ---
-<Base title="Principal Investigator" description="Prof. Soumik Sarkar — biography, education, research funding, teaching, outreach and invited talks.">
-  <PageHeader title="Principal Investigator" kicker="Personal Profile" />
+<Base title="Prof. Soumik Sarkar"
+  description="Prof. Soumik Sarkar, Iowa State University — Professor of Mechanical Engineering, Director of the Translational AI Center (TrAC) and director of the Self-aware Complex Systems Laboratory (SCSLab). Biography, research funding, teaching and invited talks."
+  jsonLd={{ '@context': 'https://schema.org', '@type': 'Person', name: 'Soumik Sarkar', honorificPrefix: 'Prof.', jobTitle: 'Professor of Mechanical Engineering',
+    url: SITE.url + '/principal-investigator/', image: new URL(photo.src, SITE.url).href, email: 'mailto:soumiks@iastate.edu',
+    worksFor: { '@type': 'CollegeOrUniversity', name: SITE.university, url: 'https://www.iastate.edu/' },
+    affiliation: [{ '@type': 'ResearchOrganization', name: SITE.name, url: SITE.url + '/' }, { '@type': 'Organization', name: 'Translational AI Center (TrAC)', url: 'https://trac-ai.iastate.edu/' }],
+    sameAs: ['https://www.me.iastate.edu/faculty/profile/soumiks/', 'https://scholar.google.com/citations?user=-rmRjqIAAAAJ', 'https://orcid.org/0000-0002-6775-9199'] }}>
+  <PageHeader title="Prof. Soumik Sarkar, Iowa State University" kicker="Principal Investigator · Personal Profile" />
   <section class="grid md:grid-cols-[18rem_minmax(0,1fr)] gap-8">
     <div>
       <img src={photo.src} alt="Photo of Dr. Soumik Sarkar" width="414" height="407" class="w-full rounded-lg border border-line" data-person-photo="Dr. Soumik Sarkar" />
