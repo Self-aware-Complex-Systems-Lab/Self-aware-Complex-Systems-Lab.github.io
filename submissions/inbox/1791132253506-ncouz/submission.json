@@ -1,0 +1,19 @@
+{
+ "kind": "[Photo]",
+ "title": "Lab party",
+ "fields": {
+  "What is this photo?": "Lab event or group photo",
+  "Event / conference / place": "Lab Party",
+  "Caption": "Lab party",
+  "Photo credit": "Photo: Soumik Sarkar"
+ },
+ "images": {
+  "Photos": [
+   "image-1.jpg",
+   "image-2.jpg",
+   "image-3.jpg",
+   "image-4.jpg",
+   "image-5.jpg"
+  ]
+ }
+}
