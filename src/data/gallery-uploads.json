@@ -160,5 +160,23 @@
   "people": null,
   "issue": 1791132557472,
   "added": "2026-10-04"
+ },
+ {
+  "src": "/assets/gallery/uploads/2026-10-04-1791132659389-trac-day-1.jpg",
+  "size": [
+   1500,
+   2000
+  ],
+  "caption": "TrAC Day",
+  "date": "April 2026",
+  "category": "Conferences & events",
+  "link": null,
+  "credit": "Photo: Soumik Sarkar",
+  "alt": "TrAC Day",
+  "paper": null,
+  "event": "TrAC Day 2026",
+  "people": null,
+  "issue": 1791132659389,
+  "added": "2026-10-04"
  }
 ]
