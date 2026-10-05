@@ -1,0 +1,10 @@
+{
+ "kind": "[Profile]",
+ "title": "Henry Kim",
+ "fields": {
+  "Your name": "Henry Kim",
+  "Department": "Computer Science",
+  "Research interests": "Robotics, Deep reinforcement learning, Computer vision"
+ },
+ "images": {}
+}
