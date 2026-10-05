@@ -271,15 +271,22 @@
   "education": [
    "B.E., Computer Science and Engineering, Chungnam National University, 2024"
   ],
-  "affiliation": [],
+  "affiliation": [
+   "Computer Science"
+  ],
   "bio": [
    "Henry Kim is a Ph.D. student in Computer Science at Iowa State University. He joined the Self-aware Complex Systems Laboratory in Summer 2026. His research interests include robotics, deep reinforcement learning, and computer vision. He also has industry experience in robotics, UAV systems, and deep learning from a previous internship."
   ],
-  "researchInterests": "Robotics, deep reinforcement learning, computer vision",
+  "researchInterests": "Robotics, Deep reinforcement learning, Computer vision",
   "joined": "Summer 2026",
   "currentPosition": null,
   "project": null,
-  "_sources": []
+  "_sources": [
+   {
+    "fact": "updated: department, researchInterests",
+    "url": "issue #1791183752139"
+   }
+  ]
  },
  "Manas Sewatkar": {
   "name": "Manas Sewatkar",
