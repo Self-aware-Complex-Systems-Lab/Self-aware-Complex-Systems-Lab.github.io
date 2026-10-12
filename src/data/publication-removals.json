@@ -332,6 +332,17 @@
    "reason": "duplicate entry"
   },
   {
+   "key": "added:44",
+   "title": "Soybean Maturity Prediction using 2D Contour Plots from Drone based Time Series Imagery",
+   "category": "preprints",
+   "year": 2024,
+   "keptKey": "added:46",
+   "keptTitle": "Soybean maturity prediction using two‐dimensional contour plots from drone‐based time series imagery",
+   "keptCategory": "journals",
+   "similarity": 0.919,
+   "reason": "preprint of a published paper"
+  },
+  {
    "key": "archived:342",
    "reason": "preprint of a published paper",
    "keptTitle": "Algorithmically-consistent deep learning frameworks for structural topology optimization (Engineering Applications of Artificial Intelligence 106, 104483, 2021)",
