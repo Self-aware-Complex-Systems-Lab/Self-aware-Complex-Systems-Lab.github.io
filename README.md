@@ -68,6 +68,12 @@ For the same reason the updater never trusts a record because it is named "Soumi
    not accept go in `pendingReview` (undecided) or `doNotTrust` (mixed or different person). Neither list is ever queried.
 4. Push to `main`. Changing the config triggers the updater.
 
+Each weekly run also runs `--check-candidates`. It raises a GitHub Actions **warning** (shown on the run page; GitHub's
+notification settings decide whether you are emailed) for any new same-name record affiliated with Iowa State that is
+not ORCID-linked or listed in the config. That is how a paper like arXiv 2610.12885 gets noticed within a week. The check
+only alerts: it never imports papers or edits the config, and its failure never fails the run. Move a record into
+`pendingReview` to silence its warning while it is undecided.
+
 **Failures and partial runs.** Requests retry 429, 5xx and timeouts up to 3 times, honouring `Retry-After` up to 2 minutes.
 Each run writes a JSON summary (`--summary`, shown on the Actions run page) with every route's success, fetch count,
 unique works, skipped and added entries, metadata outcome and errors:

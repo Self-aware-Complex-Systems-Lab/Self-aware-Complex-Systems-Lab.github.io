@@ -8,6 +8,7 @@ import json
 import sys
 import tempfile
 import unittest
+import unittest.mock
 import urllib.error
 import urllib.parse
 from pathlib import Path
@@ -251,6 +252,30 @@ class RetryTest(unittest.TestCase):
             with self.assertRaises(up.SourceError):
                 up.get_json("https://x", {}, opener=op, sleep=lambda s: None)
             self.assertEqual(len(calls), 1)
+
+
+class CandidateCheckTest(unittest.TestCase):
+    ISU = {"id": "https://openalex.org/I173911158", "display_name": "Iowa State University"}
+
+    def fetch(self, base, params):
+        if params.get("filter", "").startswith("orcid:"):
+            return {"results": [{"id": "https://openalex.org/A5081037761"}]}
+        if "search" in params:
+            rec = lambda i, inst: {"id": f"https://openalex.org/{i}", "display_name": "Soumik Sarkar", "works_count": 1,
+                                   "last_known_institutions": inst, "affiliations": []}
+            return {"results": [rec("A5081037761", [self.ISU]), rec(VERIFIED, [self.ISU]), rec("A5101953320", [self.ISU]),
+                                rec("A1", [self.ISU]), rec("A2", [self.ISU]), rec("A3", [{"id": "https://openalex.org/I9", "display_name": "Elsewhere"}])]}
+        return {"results": [SAME_NAME]}
+
+    def test_only_new_unreviewed_iowa_state_records_are_flagged(self):
+        cfg = dict(config(), doNotTrust=[{"id": "A5101953320"}], pendingReview=[{"id": "A2"}])
+        before = json.dumps(cfg, sort_keys=True)
+        out = io.StringIO()
+        with unittest.mock.patch("sys.stdout", out):
+            flagged = up.check_candidates(fetch=self.fetch, cfg=cfg)
+        self.assertEqual([a["shortId"] for a in flagged], ["A1"])  # not ORCID-linked, verified, doNotTrust, pending or non-ISU
+        self.assertIn("::warning title=Unreviewed OpenAlex author record A1::", out.getvalue())
+        self.assertEqual(json.dumps(cfg, sort_keys=True), before)
 
 
 if __name__ == "__main__":

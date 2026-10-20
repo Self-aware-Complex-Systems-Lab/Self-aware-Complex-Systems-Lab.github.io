@@ -33,6 +33,10 @@ jobs:
       - name: Fetch and merge new publications
         shell: bash   # bash -eo pipefail: a failing updater fails this step despite tee
         run: python scripts/update_publications.py --summary update-summary.json | tee update.log
+      - name: Warn about unreviewed OpenAlex author records (alert only; imports nothing)
+        if: always()
+        continue-on-error: true
+        run: python scripts/update_publications.py --check-candidates
       - name: Run summary
         if: always()
         run: |

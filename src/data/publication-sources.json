@@ -1,5 +1,6 @@
 {
  "_note": "Retrieval settings for scripts/update_publications.py. verifiedOpenAlexAuthorIds is an explicit trust list: every work of these OpenAlex author records is treated as Prof. Sarkar's. Add an ID only after the review in README.md (Automatic updates > Verified OpenAlex author IDs). pendingReview and doNotTrust are never used for retrieval.",
+ "name": "Soumik Sarkar",
  "orcid": "0000-0002-6775-9199",
  "lookbackYears": 3,
  "verifiedOpenAlexAuthorIds": [
@@ -25,6 +26,11 @@
   }
  ],
  "doNotTrust": [
+  {
+   "id": "A5133472864",
+   "seen": "2026-10-19",
+   "reason": "Mixed record named 'S K Nasrin Sultana Raj Sarkar' (Iowa State, no ORCID): a duplicate of the spacecraft-trajectory preprint W7165148028 next to unrelated business papers (e.g. W7165542031 'Agentic Analytics', W7164931389 'Customer Journey Friction in Modern Retail Operations')."
+  },
   {
    "id": "A5101953320",
    "seen": "2026-10-19",

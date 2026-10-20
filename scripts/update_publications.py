@@ -22,6 +22,7 @@ Existing entries are never removed or reordered.
 
     python scripts/update_publications.py [--summary PATH]
     python scripts/update_publications.py --review-candidates   # list unreviewed same-name OpenAlex author records
+    python scripts/update_publications.py --check-candidates    # warn about new unreviewed Iowa State records (weekly)
 """
 import datetime as dt
 import difflib
@@ -330,31 +331,65 @@ def update(data_dir=D, cfg=None, fetch=get_json, today=None, derived=run_derived
     return s
 
 
-def review_candidates(fetch=get_json, cfg=None):
-    """Print same-name OpenAlex author records not yet classified in publication-sources.json, with their recent works.
-    Read-only: deciding to trust one is a maintainer's edit to the config."""
-    cfg = cfg or load_config()
-    known = {a["id"] for k in ("verifiedOpenAlexAuthorIds", "doNotTrust") for a in cfg.get(k, [])}
+IOWA_STATE = "I173911158"  # OpenAlex institution ID
+
+
+def candidates(fetch, cfg, skip=("verifiedOpenAlexAuthorIds", "doNotTrust")):
+    """Same-name OpenAlex author records that are neither ORCID-linked nor listed under `skip` in publication-sources.json."""
+    known = {a["id"] for k in skip for a in cfg.get(k, [])}
     orcid_linked = {short_id(a["id"]) for a in fetch("https://api.openalex.org/authors", {"filter": f"orcid:{cfg['orcid']}", "per-page": 25})["results"]}
-    found = fetch("https://api.openalex.org/authors", {"search": "Soumik Sarkar", "per-page": 50})["results"]
+    found = fetch("https://api.openalex.org/authors", {"search": cfg.get("name", "Soumik Sarkar"), "per-page": 200})["results"]
+    out = []
     for a in found:
         aid = short_id(a["id"])
         if aid in known or aid in orcid_linked:
             continue
+        insts = (a.get("last_known_institutions") or []) + [x.get("institution") or {} for x in a.get("affiliations") or []]
+        out.append(dict(a, shortId=aid, iowaState=any(short_id(i.get("id")) == IOWA_STATE for i in insts)))
+    return out
+
+
+def recent_works(fetch, aid, n=5):
+    return fetch("https://api.openalex.org/works", {"filter": f"authorships.author.id:{aid}", "per-page": n, "sort": "publication_date:desc",
+                                                    "select": "id,title,publication_date,authorships"})["results"]
+
+
+def review_candidates(fetch=get_json, cfg=None):
+    """Print same-name OpenAlex author records not yet classified in publication-sources.json, with their recent works.
+    Read-only: deciding to trust one is a maintainer's edit to the config."""
+    cfg = cfg or load_config()
+    for a in candidates(fetch, cfg):
+        aid = a["shortId"]
         inst = ", ".join(i["display_name"] for i in a.get("last_known_institutions") or [])
         print(f"\n{aid}  {a['display_name']}  orcid={a.get('orcid')}  works={a.get('works_count')}  [{inst}]")
-        works = fetch("https://api.openalex.org/works", {"filter": f"authorships.author.id:{aid}", "per-page": 5, "sort": "publication_date:desc",
-                                                         "select": "id,title,publication_date,authorships"})["results"]
-        for w in works:
+        for w in recent_works(fetch, aid):
             me = [x for x in w["authorships"] if short_id((x.get("author") or {}).get("id")) == aid]
             aff = "; ".join(s for x in me for s in (x.get("raw_affiliation_strings") or []))[:150]
             co = ", ".join(x["author"]["display_name"] for x in w["authorships"][:6])
             print(f"   {short_id(w['id'])} {w.get('publication_date')} {(w.get('title') or '')[:80]}\n      authors: {co}\n      affiliation: {aff}")
 
 
+def check_candidates(fetch=get_json, cfg=None):
+    """Weekly alert: a GitHub Actions warning for each new, unreviewed same-name record affiliated with Iowa State.
+    Records already in pendingReview are not repeated. Nothing is imported and the config is not changed."""
+    cfg = cfg or load_config()
+    new = [a for a in candidates(fetch, cfg, skip=("verifiedOpenAlexAuthorIds", "doNotTrust", "pendingReview")) if a["iowaState"]]
+    for a in new:
+        titles = "; ".join(f"{short_id(w['id'])} {(w.get('title') or '')[:70]}" for w in recent_works(fetch, a["shortId"], 3))
+        print(f"::warning title=Unreviewed OpenAlex author record {a['shortId']}::{a['display_name']} at Iowa State, ORCID {a.get('orcid') or 'none'}, "
+              f"{a.get('works_count')} works ({titles}). Its papers are NOT imported. Review it with "
+              f"'python scripts/update_publications.py --review-candidates' and add it to publication-sources.json "
+              f"(verifiedOpenAlexAuthorIds, pendingReview or doNotTrust).")
+    print(f"{len(new)} new unreviewed Iowa State author record(s) named {cfg.get('name', 'Soumik Sarkar')}")
+    return new
+
+
 def main(argv):
     if "--review-candidates" in argv:
         review_candidates()
+        return 0
+    if "--check-candidates" in argv:
+        check_candidates()
         return 0
     s = update()
     if "--summary" in argv:
