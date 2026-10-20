@@ -1,5 +1,6 @@
-# Weekly: fetch new publications from OpenAlex + Crossref (by ORCID), commit them, and let the deploy workflow rebuild
-# the site and the CV PDF. Can also be run by hand from the Actions tab.
+# Weekly: fetch new publications from OpenAlex + Crossref (ORCID, verified author IDs, per-paper auto-match), commit them, and let
+# the deploy workflow rebuild the site and the CV PDF. Can also be run by hand from the Actions tab.
+# The run fails (and commits nothing) when any publication source fails; see scripts/update_publications.py.
 name: Update publications
 
 on:
@@ -8,7 +9,7 @@ on:
   workflow_dispatch:
   push:
     branches: ["main"]
-    paths: ["scripts/update_publications.py", ".github/workflows/update-publications.yml"]
+    paths: ["scripts/update_publications.py", "src/data/publication-sources.json", ".github/workflows/update-publications.yml"]
 
 permissions:
   contents: write
@@ -27,17 +28,48 @@ jobs:
           python-version: "3.12"
       - name: Verify the workflow can push (Settings → Actions → Workflow permissions must be Read and write)
         run: git push --dry-run origin HEAD:refs/heads/main
+      - name: Updater regression tests (offline)
+        run: python -m unittest discover -s scripts/tests -v
       - name: Fetch and merge new publications
-        run: python scripts/update_publications.py | tee update.log
-      - name: Commit changes
+        shell: bash   # bash -eo pipefail: a failing updater fails this step despite tee
+        run: python scripts/update_publications.py --summary update-summary.json | tee update.log
+      - name: Run summary
+        if: always()
         run: |
+          if [ -f update-summary.json ]; then
+            { echo '```json'; cat update-summary.json; echo '```'; } >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "Updater crashed before writing a summary; see the log above." >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Commit changes
+        shell: bash
+        run: |
+          # Counts and message come from the updater's structured summary, not from log lines.
+          python - > commit-msg.txt <<'EOF'
+          import json
+          s = json.load(open("update-summary.json"))
+          if s["added"]:
+              head = f"Auto-update publications (+{s['added']}) from OpenAlex/Crossref"
+          elif s["status"] == "ok":
+              head = "Refresh publication metadata from OpenAlex (no new publications)"
+          else:
+              head = "Regenerate publication data (no new publications)"
+          print(head + (" [metadata refresh failed]" if s["status"] == "degraded" else ""))
+          print()
+          for p in s.get("addedItems", []):
+              print(f"- {p['key']}: {p['title']} (via {', '.join(p['retrieval'])})")
+          print(f"Metadata: {s['metadata']['detail']}")
+          EOF
+          status=$(python -c 'import json; print(json.load(open("update-summary.json"))["status"])')
+          if [ "$status" = "degraded" ]; then
+            echo "::warning::Publications updated, but the OpenAlex metadata refresh failed (metrics and corresponding authors left unchanged)."
+          fi
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add src/data/publications-added.json src/data/publication-removals.json src/data/people-publications.json src/data/scholar-metrics.json src/data/pub-meta.json
           if git diff --staged --quiet; then
-            echo "No new publications."
+            echo "All sources answered (status: $status); no new publications and no metadata changes."
           else
-            n=$(grep -c '^+ ' update.log || true)
-            git commit -m "Auto-update publications (+${n}) from OpenAlex/Crossref"
+            git commit -F commit-msg.txt
             git push
           fi

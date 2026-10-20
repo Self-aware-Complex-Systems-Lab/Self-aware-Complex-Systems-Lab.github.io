@@ -1,0 +1,32 @@
+{
+ "_note": "Retrieval settings for scripts/update_publications.py. Besides the ORCID, the updater reads works of verifiedOpenAlexAuthorIds (every work of these records is the PI's) and, when autoMatch is true, accepts Iowa State papers naming the PI on any other record after a per-paper check (see auto_match and README.md). excludeAuthorIds blocks a record from auto-match entirely. doNotTrust lists records that must never be trusted wholesale; their papers can still pass the per-paper check.",
+ "name": "Soumik Sarkar",
+ "orcid": "0000-0002-6775-9199",
+ "lookbackYears": 3,
+ "autoMatch": true,
+ "verifiedOpenAlexAuthorIds": [
+  {
+   "id": "A5158521094",
+   "verified": "2026-10-19",
+   "reason": "Author record without an ORCID, created 2026-10-13 for one work. That arXiv preprint lists exactly Zhanhong Jiang (lab alumnus) and Soumik Sarkar, and gives this author's affiliations as Department of Mechanical Engineering and Translational AI Center, Iowa State University. The arXiv author list matches.",
+   "evidence": [
+    "https://openalex.org/W7221554556",
+    "https://arxiv.org/abs/2610.12885",
+    "https://api.openalex.org/authors/A5158521094"
+   ]
+  }
+ ],
+ "excludeAuthorIds": [],
+ "doNotTrust": [
+  {
+   "id": "A5133472864",
+   "seen": "2026-10-19",
+   "reason": "Mixed record named 'S K Nasrin Sultana Raj Sarkar' (Iowa State, no ORCID): a duplicate of the spacecraft-trajectory preprint W7165148028 next to unrelated business papers (e.g. W7165542031 'Agentic Analytics', W7164931389 'Customer Journey Friction in Modern Retail Operations')."
+  },
+  {
+   "id": "A5101953320",
+   "seen": "2026-10-19",
+   "reason": "Mixed record: carries a different ORCID (0000-0002-2613-5291) and combines Iowa State papers by the PI with a social-science book chapter by a Soumik Sarkar at VIT-AP University. Trusting it would import another researcher's work. Individual papers from it (for example W7214069486 and W7167885798 on agricultural resilience) have to be added by hand."
+  }
+ ]
+}
