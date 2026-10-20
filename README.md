@@ -38,9 +38,57 @@ npx playwright test   # page, accessibility (axe), image, link, layout tests (de
 ## Automatic updates
 
 - **Publications**: `.github/workflows/update-publications.yml` runs every Monday (and on demand from the Actions tab).
-  `scripts/update_publications.py` queries OpenAlex and Crossref by Prof. Sarkar's ORCID, appends genuinely new papers to
+  `scripts/update_publications.py` queries OpenAlex and Crossref by Prof. Sarkar's ORCID (plus verified OpenAlex author IDs, see below), appends genuinely new papers to
   `src/data/publications-added.json`, refreshes duplicate detection and each member's publication list, and commits.
   The deploy workflow then rebuilds the site. Requires *Settings → Actions → General → Workflow permissions: Read and write*.
+  Tests (offline, no network): `python -m unittest discover -s scripts/tests -v`.
+
+### Publication updater: sources, verified author IDs, failures
+
+**Why ORCID alone is not enough.** OpenAlex splits one person into several author records. A record that has no ORCID
+is invisible to the ORCID query. *Personalized Federated Direct Preference Optimization via LoRA Adapters* (arXiv 2610.12885)
+was filed under `A5158521094`, a new record with no ORCID, so the ORCID query never returned it.
+
+**Retrieval** (`src/data/publication-sources.json`): the updater takes the union of
+(1) works whose authorship carries the PI's ORCID and (2) works of the IDs in `verifiedOpenAlexAuthorIds`. It
+deduplicates by OpenAlex work ID, then applies the usual lookback, type filters and duplicate rules. Each new entry
+records its route in `retrieval` (e.g. `["openalex-author:A5158521094"]`). Entries are only ever appended, so `added:<i>` keys stay valid.
+
+A verified ID is a trust decision. Every work on that record is imported, with or without affiliation data, because
+older OpenAlex records often lack affiliations. Affiliation is evidence for *verifying* a record, not a filter on its works.
+For the same reason the updater never trusts a record because it is named "Soumik Sarkar" or lists Iowa State.
+`A5101953320` shows why: it has a different ORCID and mixes the PI's Iowa State papers with another researcher's work.
+
+**Adding another verified ID**
+1. `python scripts/update_publications.py --review-candidates` lists same-name OpenAlex records that are not yet
+   classified, with their latest works, co-authors and affiliation strings. It only reads.
+2. Accept a record only when every work on it is the PI's: check the co-authors (lab members, known collaborators),
+   the department (Mechanical Engineering / Translational AI Center, Iowa State), and the paper itself (arXiv/publisher author list).
+3. Add `{"id", "verified", "reason", "evidence": [URLs]}` to `verifiedOpenAlexAuthorIds`. Records you looked at but did
+   not accept go in `pendingReview` (undecided) or `doNotTrust` (mixed or different person). Neither list is ever queried.
+4. Push to `main`. Changing the config triggers the updater.
+
+**Failures and partial runs.** Requests retry 429, 5xx and timeouts up to 3 times, honouring `Retry-After` up to 2 minutes.
+Each run writes a JSON summary (`--summary`, shown on the Actions run page) with every route's success, fetch count,
+unique works, skipped and added entries, metadata outcome and errors:
+- `ok`: all routes and the metadata refresh succeeded. Commit.
+- `degraded`: publications were updated but the optional metrics/corresponding-author refresh failed. Those two files
+  stay unchanged, the commit message says `[metadata refresh failed]`, and the run shows a warning.
+- `partial` / `failed`: a publication route failed, or derived data could not be rebuilt. **Nothing is written**, not
+  even additions from routes that worked, and the workflow fails without committing or deploying. The summary lists
+  the withheld additions. Existing publications are never removed.
+
+The commit message counts additions from the summary: `Auto-update publications (+N) …` when papers were added,
+`Refresh publication metadata …` when only metadata changed. No commit is made when nothing changed.
+
+**Limitations.** OpenAlex rejects keyless *cursor* paging past page 1 (HTTP 401), so the updater pages by page number
+(up to 10,000 results). An optional `OPENALEX_API_KEY` environment variable is used if present but is not required.
+Without a key, requests share a small free daily budget per IP; when it runs out, the run fails visibly and the next
+weekly run retries. Papers that exist only on unverified or mixed records (see `pendingReview` / `doNotTrust`) are not
+imported until someone reviews them. Citation metrics (`scholar-metrics.json`) come from the single largest ORCID-linked
+record. They are *not* summed across fragmented records: h-index and i10 are not additive and the records share works.
+They can therefore slightly undercount. Corresponding authors (`pub-meta.json`) come from OpenAlex's
+`corresponding_author_ids` over the same work union as the publications, never from author order.
 - **CV**: `/cv/` is generated from the site data, and `scripts/render-cv-pdf.mjs` prints it to `/cv/Soumik_Sarkar_CV.pdf`
   on every build, so the CV always matches the latest publications, grants and talks.
 - **Featured papers / project links**: edit `src/data/featured-publications.json` and `src/data/publication-links.json`.

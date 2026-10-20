@@ -1,0 +1,34 @@
+{
+ "_note": "Retrieval settings for scripts/update_publications.py. verifiedOpenAlexAuthorIds is an explicit trust list: every work of these OpenAlex author records is treated as Prof. Sarkar's. Add an ID only after the review in README.md (Automatic updates > Verified OpenAlex author IDs). pendingReview and doNotTrust are never used for retrieval.",
+ "orcid": "0000-0002-6775-9199",
+ "lookbackYears": 3,
+ "verifiedOpenAlexAuthorIds": [
+  {
+   "id": "A5158521094",
+   "verified": "2026-10-19",
+   "reason": "Author record without an ORCID, created 2026-10-13 for one work. That arXiv preprint lists exactly Zhanhong Jiang (lab alumnus) and Soumik Sarkar, and gives this author's affiliations as Department of Mechanical Engineering and Translational AI Center, Iowa State University. The arXiv author list matches.",
+   "evidence": ["https://openalex.org/W7221554556", "https://arxiv.org/abs/2610.12885", "https://api.openalex.org/authors/A5158521094"]
+  }
+ ],
+ "pendingReview": [
+  {
+   "id": "A5153546885",
+   "seen": "2026-10-19",
+   "note": "No ORCID, one work: W7165652017 'Continuous-Time Probabilistic Correctors for Uncertainty-Aware Physics-Based Spacecraft Trajectory...' (arXiv 2606.21021) with Zhanhong Jiang and Cody Harrison Fleming, Iowa State. Not on the site. Looks like the PI but needs a maintainer to confirm.",
+   "evidence": ["https://api.openalex.org/works?filter=authorships.author.id:A5153546885"]
+  },
+  {
+   "id": "A5157881609",
+   "seen": "2026-10-19",
+   "note": "No ORCID, one work: W4293214583 'Plant phenotyping with limited annotation: Doing more with less' (2022, ISU Mechanical Engineering). Already on the site (publications.json), so trusting it would add nothing now.",
+   "evidence": ["https://api.openalex.org/works?filter=authorships.author.id:A5157881609"]
+  }
+ ],
+ "doNotTrust": [
+  {
+   "id": "A5101953320",
+   "seen": "2026-10-19",
+   "reason": "Mixed record: carries a different ORCID (0000-0002-2613-5291) and combines Iowa State papers by the PI with a social-science book chapter by a Soumik Sarkar at VIT-AP University. Trusting it would import another researcher's work. Individual papers from it (for example W7214069486 and W7167885798 on agricultural resilience) have to be added by hand."
+  }
+ ]
+}

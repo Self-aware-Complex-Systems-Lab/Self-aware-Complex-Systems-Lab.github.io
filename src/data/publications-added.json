@@ -814,5 +814,24 @@
   "doi": "10.1016/j.bpj.2025.11.1616",
   "source": "OpenAlex (auto, 2026-10-12)",
   "openalex": "https://openalex.org/W7130570617"
+ },
+ {
+  "category": "preprints",
+  "categoryLabel": "Preprints",
+  "number": null,
+  "title": "Personalized Federated Direct Preference Optimization via LoRA Adapters",
+  "authors": "Zhanhong Jiang and Soumik Sarkar",
+  "venue": "arXiv",
+  "year": 2026,
+  "date": "2026-10-09",
+  "type": "preprint",
+  "citationsAsOfArchive": null,
+  "url": "https://doi.org/10.48550/arxiv.2610.12885",
+  "doi": "10.48550/arxiv.2610.12885",
+  "source": "OpenAlex (auto, 2026-10-19)",
+  "openalex": "https://openalex.org/W7221554556",
+  "retrieval": [
+   "openalex-author:A5158521094"
+  ]
  }
 ]
