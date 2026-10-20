@@ -1,4 +1,4 @@
-# Weekly: fetch new publications from OpenAlex + Crossref (by ORCID and verified OpenAlex author IDs), commit them, and let
+# Weekly: fetch new publications from OpenAlex + Crossref (ORCID, verified author IDs, per-paper auto-match), commit them, and let
 # the deploy workflow rebuild the site and the CV PDF. Can also be run by hand from the Actions tab.
 # The run fails (and commits nothing) when any publication source fails; see scripts/update_publications.py.
 name: Update publications
@@ -33,10 +33,6 @@ jobs:
       - name: Fetch and merge new publications
         shell: bash   # bash -eo pipefail: a failing updater fails this step despite tee
         run: python scripts/update_publications.py --summary update-summary.json | tee update.log
-      - name: Warn about unreviewed OpenAlex author records (alert only; imports nothing)
-        if: always()
-        continue-on-error: true
-        run: python scripts/update_publications.py --check-candidates
       - name: Run summary
         if: always()
         run: |

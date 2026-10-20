@@ -3,8 +3,11 @@
 Sources (public scholarly APIs; settings in src/data/publication-sources.json):
   1. OpenAlex  https://api.openalex.org   (indexes journals, conferences, arXiv and other repositories), two routes:
      - works whose authorship carries Prof. Sarkar's ORCID 0000-0002-6775-9199
-     - works of explicitly verified OpenAlex author IDs. OpenAlex sometimes files a new paper under a fresh author record
-       without an ORCID, and the ORCID route then misses it. These IDs are a reviewed trust list, never discovered automatically.
+     - works of explicitly verified OpenAlex author IDs (src/data/publication-sources.json)
+     - auto-match: OpenAlex sometimes files a new paper under a fresh author record without an ORCID, or under a record
+       mixed with another person's work, and the ORCID route then misses it. Every week the updater also queries Iowa State
+       works naming the PI and accepts a paper only with per-paper evidence (see auto_match): the PI's full name on an
+       authorship affiliated with Iowa State on that paper, plus a co-author who recurs on the PI's ORCID-linked works.
   2. Crossref  https://api.crossref.org   (DOI registrations listing the ORCID)
 Google Scholar offers no API and blocks automated access, so it is not queried; OpenAlex covers the same literature.
 
@@ -22,7 +25,6 @@ Existing entries are never removed or reordered.
 
     python scripts/update_publications.py [--summary PATH]
     python scripts/update_publications.py --review-candidates   # list unreviewed same-name OpenAlex author records
-    python scripts/update_publications.py --check-candidates    # warn about new unreviewed Iowa State records (weekly)
 """
 import datetime as dt
 import difflib
@@ -34,6 +36,7 @@ import socket
 import subprocess
 import sys
 import time
+import unicodedata
 import urllib.error
 import urllib.parse
 import urllib.request
@@ -50,6 +53,8 @@ RETRY_STATUS = {429, 500, 502, 503, 504}
 ATTEMPTS = 4            # per request, so at most 3 retries
 MAX_WAIT = 120          # seconds; a longer Retry-After (e.g. daily budget used up) fails at once instead of waiting
 MAX_PAGES = 50          # per route; 200 works a page
+IOWA_STATE = "I173911158"  # OpenAlex institution ID
+MIN_SHARED = 3          # auto-match: a co-author must appear on at least this many of the PI's ORCID-linked works
 DERIVED = ("publications-added.json", "publication-removals.json", "people-publications.json")
 
 
@@ -146,14 +151,43 @@ def openalex_pages(fetch, filt):
     return list(unique.values())
 
 
-def openalex_routes(fetch, cfg):
-    """Union of the ORCID route and the verified-author-ID route, deduplicated by work ID before conversion.
+def name_key(s):
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode().lower()
+    return " ".join(re.sub(r"[^a-z]", " ", s).split())
+
+
+def auto_match(w, pi, coauthors, exclude):
+    """Is a work found outside the ORCID/verified routes the PI's? Returns (route tag, None) or (None, reason).
+    All of: an authorship whose raw name contains the PI's full name, affiliated with Iowa State on this very paper,
+    not on an excluded author record, and at least one co-author who recurs on the PI's ORCID-linked works."""
+    mine = [a for a in w.get("authorships", []) if pi <= set(name_key(a.get("raw_author_name") or (a.get("author") or {}).get("display_name")).split())]
+    mine = [a for a in mine if short_id((a.get("author") or {}).get("id")) not in exclude]
+    isu = [a for a in mine if any(short_id(i.get("id")) == IOWA_STATE for i in a.get("institutions") or [])]
+    if not isu:
+        return None, "no Iowa State authorship with the PI's name"
+    known = sorted({x["author"]["display_name"] for x in w["authorships"] if not any(x is m for m in mine)
+                    and coauthors.get(name_key(x["author"].get("display_name")), 0) >= MIN_SHARED})
+    if not known:
+        return None, "no co-author shared with the PI's ORCID-linked works"
+    return f"auto-match:{short_id(isu[0]['author'].get('id')) or 'no-author-id'} (Iowa State; co-authors {', '.join(known[:3])})", None
+
+
+def openalex_routes(fetch, cfg, since="0000"):
+    """Union of three OpenAlex routes, deduplicated by work ID before conversion:
+      orcid            works whose authorship carries the PI's ORCID
+      openalex-author  works of explicitly verified author records
+      auto-match       Iowa State works naming the PI on any other author record (new records without an ORCID,
+                       mixed records), each accepted only if auto_match() finds per-paper evidence
     Returns ({work id: (work, routes)}, [route reports])."""
     verified = [a["id"] for a in cfg.get("verifiedOpenAlexAuthorIds", [])]
     routes = [(f"orcid:{cfg['orcid']}", f"authorships.author.orcid:{cfg['orcid']}")]
     if verified:  # one OR-filter query for all verified IDs keeps the call count low
         routes.append(("openalex-author:" + "|".join(verified), "authorships.author.id:" + "|".join(verified)))
-    works, reports = {}, []
+    if cfg.get("autoMatch", True):
+        routes.append(("auto-match", f"raw_author_name.search:{cfg['name']},authorships.institutions.id:{IOWA_STATE},from_publication_date:{since}"))
+    works, reports, coauthors = {}, [], {}
+    pi = set(name_key(cfg["name"]).split())
+    exclude = {a["id"] for a in cfg.get("excludeAuthorIds", [])}
     for route, filt in routes:
         rep = {"source": "OpenAlex", "route": route, "required": True}
         try:
@@ -161,19 +195,41 @@ def openalex_routes(fetch, cfg):
         except (SourceError, KeyError, TypeError) as e:  # KeyError/TypeError: unexpected response shape
             reports.append(dict(rep, ok=False, fetched=None, error=str(e) if isinstance(e, SourceError) else f"unexpected response: {e!r}"))
             continue
+        rejected = []
         for w in got:
             if route.startswith("orcid:"):
                 tags = {route}
+                for k in {name_key(a["author"].get("display_name")) for a in w.get("authorships", [])} - {name_key(cfg["name"])}:
+                    coauthors[k] = coauthors.get(k, 0) + 1
+            elif route == "auto-match":
+                if w["id"] in works:
+                    continue  # already found through a trusted route
+                tag, why = auto_match(w, pi, coauthors, exclude)
+                if not tag:
+                    rejected.append({"openalex": w["id"], "title": w.get("title"), "reason": why})
+                    continue
+                tags = {tag}
             else:  # name the verified ID(s) that actually carry the work
                 ids = {short_id((a.get("author") or {}).get("id")) for a in w.get("authorships", [])}
                 tags = {f"openalex-author:{i}" for i in ids & set(verified)} or {route}
             w0, seen = works.get(w["id"], (w, []))
             works[w["id"]] = (w0, seen + sorted(tags - set(seen)))  # routes in query order: ORCID first
-        reports.append(dict(rep, ok=True, fetched=len(got), error=None))
+        reports.append(dict(rep, ok=True, fetched=len(got), error=None, **({"rejected": rejected} if route == "auto-match" else {})))
     return works, reports
 
 
-def openalex_item(w, routes, today):
+def author_name(a, pi_name):
+    """Display name for the author list. The PI's authorship on another record (e.g. a mixed one) can carry that
+    record's name, so the raw name on the paper decides; "Last, First" display names are turned into "First Last"."""
+    disp, raw = (a.get("author") or {}).get("display_name") or "", a.get("raw_author_name") or ""
+    pi = set(name_key(pi_name).split())
+    if pi <= set(name_key(raw).split()) and not pi <= set(name_key(disp).split()):
+        return pi_name
+    m = re.fullmatch(r"([^,]+),\s*([^,]+)", disp.strip())
+    return f"{m.group(2)} {m.group(1)}" if m else disp
+
+
+def openalex_item(w, routes, today, pi_name="Soumik Sarkar"):
     src = (w.get("primary_location") or {}).get("source") or {}
     st, wt = src.get("type"), w.get("type")
     cat = ("preprints" if wt == "preprint" or st == "repository" else
@@ -181,7 +237,7 @@ def openalex_item(w, routes, today):
     doi = (w.get("doi") or "").replace("https://doi.org/", "") or None
     venue = re.sub(r"\barXiv\s*\(Cornell University\)", "arXiv", src.get("display_name") or "", flags=re.I) or None  # plain "arXiv"
     return {"category": cat, "categoryLabel": LABEL[cat], "number": None, "title": re.sub(r"\s+", " ", w["title"]).strip(),
-            "authors": " and ".join(a["author"]["display_name"] for a in w["authorships"]),
+            "authors": " and ".join(author_name(a, pi_name) for a in w["authorships"]),
             "venue": venue, "year": w.get("publication_year"), "date": w.get("publication_date"),
             "type": wt, "citationsAsOfArchive": None, "url": w.get("doi") or (w.get("primary_location") or {}).get("landing_page_url"),
             "doi": doi, "source": f"OpenAlex (auto, {today})", "openalex": w["id"], "retrieval": routes}
@@ -274,10 +330,11 @@ def update(data_dir=D, cfg=None, fetch=get_json, today=None, derived=run_derived
 
     s = {"status": None, "since": since, "routes": [], "errors": [], "written": False,
          "policy": "additions are written only when every required route succeeds"}
-    works, s["routes"] = openalex_routes(fetch, cfg)
+    works, s["routes"] = openalex_routes(fetch, cfg, since)
     s["openalexUniqueWorks"] = len(works)
-    s["openalexOnlyViaVerifiedIds"] = sum(1 for _, r in works.values() if not any(x.startswith("orcid:") for x in r))
-    streams = [("OpenAlex", [openalex_item(w, r, today) for w, r in works.values() if eligible_openalex(w, since)])]
+    s["openalexOnlyViaVerifiedIds"] = sum(1 for _, r in works.values() if all(x.startswith("openalex-author:") for x in r))
+    s["openalexAutoMatched"] = sum(1 for _, r in works.values() if all(x.startswith("auto-match:") for x in r))
+    streams = [("OpenAlex", [openalex_item(w, r, today, cfg["name"]) for w, r in works.values() if eligible_openalex(w, since)])]
     try:
         streams.append(("Crossref", crossref_items(fetch, cfg, since, today)))
         s["routes"].append({"source": "Crossref", "route": f"orcid:{cfg['orcid']}", "required": True, "ok": True, "fetched": len(streams[-1][1]), "error": None})
@@ -331,9 +388,6 @@ def update(data_dir=D, cfg=None, fetch=get_json, today=None, derived=run_derived
     return s
 
 
-IOWA_STATE = "I173911158"  # OpenAlex institution ID
-
-
 def candidates(fetch, cfg, skip=("verifiedOpenAlexAuthorIds", "doNotTrust")):
     """Same-name OpenAlex author records that are neither ORCID-linked nor listed under `skip` in publication-sources.json."""
     known = {a["id"] for k in skip for a in cfg.get(k, [])}
@@ -369,27 +423,9 @@ def review_candidates(fetch=get_json, cfg=None):
             print(f"   {short_id(w['id'])} {w.get('publication_date')} {(w.get('title') or '')[:80]}\n      authors: {co}\n      affiliation: {aff}")
 
 
-def check_candidates(fetch=get_json, cfg=None):
-    """Weekly alert: a GitHub Actions warning for each new, unreviewed same-name record affiliated with Iowa State.
-    Records already in pendingReview are not repeated. Nothing is imported and the config is not changed."""
-    cfg = cfg or load_config()
-    new = [a for a in candidates(fetch, cfg, skip=("verifiedOpenAlexAuthorIds", "doNotTrust", "pendingReview")) if a["iowaState"]]
-    for a in new:
-        titles = "; ".join(f"{short_id(w['id'])} {(w.get('title') or '')[:70]}" for w in recent_works(fetch, a["shortId"], 3))
-        print(f"::warning title=Unreviewed OpenAlex author record {a['shortId']}::{a['display_name']} at Iowa State, ORCID {a.get('orcid') or 'none'}, "
-              f"{a.get('works_count')} works ({titles}). Its papers are NOT imported. Review it with "
-              f"'python scripts/update_publications.py --review-candidates' and add it to publication-sources.json "
-              f"(verifiedOpenAlexAuthorIds, pendingReview or doNotTrust).")
-    print(f"{len(new)} new unreviewed Iowa State author record(s) named {cfg.get('name', 'Soumik Sarkar')}")
-    return new
-
-
 def main(argv):
     if "--review-candidates" in argv:
         review_candidates()
-        return 0
-    if "--check-candidates" in argv:
-        check_candidates()
         return 0
     s = update()
     if "--summary" in argv:

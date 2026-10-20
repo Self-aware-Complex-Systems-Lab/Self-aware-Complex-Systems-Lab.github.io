@@ -678,6 +678,12 @@
    ],
    "doi": "10.1016/j.neunet.2023.11.057"
   },
+  "roadwayweatherchallengesilluminaterealworlddrivingbiomarkersofdementiarisk": {
+   "corresponding": [
+    "Md. Zahid Hasan"
+   ],
+   "doi": "10.1002/alz.075742"
+  },
   "anlstmbasedapproachtodetecttransitiontoleanblowoutinswirlstabilizeddumpcombustionsystems": {
    "corresponding": [
     "Soumik Sarkar"
@@ -861,6 +867,13 @@
    ],
    "doi": "10.1101/2025.05.12.653486"
   },
+  "timeseriesgwasforirondeficiencychlorosistoleranceinsoybeanusingaerialimagery": {
+   "corresponding": [
+    "Arti Singh",
+    "Asheesh K Singh"
+   ],
+   "doi": "10.1101/2025.05.30.657051"
+  },
   "assessingphenotypicdiversityandsensorbasedmetricsfordroughtresponseinsoybean": {
    "corresponding": [
     "Asheesh Kumar Singh"
@@ -875,12 +888,24 @@
    ],
    "doi": "10.1002/ppj2.70036"
   },
+  "bidirectionallinearrecurrentmodelsforsequencelevelmultisourcefusion": {
+   "corresponding": [
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.inffus.2025.103601"
+  },
   "3dmultiphaseheterogeneousmicrostructuregenerationusingconditionallatentdiffusionmodels": {
    "corresponding": [
     "Adarsh Krishnamurthy",
     "Baskar Ganapathysubramanian"
    ],
    "doi": "10.1039/d5dd00159e"
+  },
+  "impactofacuteglucoseepisodesonadherencetospeedlimitsinthenaturalisticsettingfordriverswithdiabetesanapplicationoflinearquantilemixedmodels": {
+   "corresponding": [
+    "Aparna Joshi"
+   ],
+   "doi": "10.1016/j.trip.2025.101633"
   },
   "weednetafoundationmodelbasedglobaltolocalaiapproachforweedspeciesidentificationandclassification": {
    "corresponding": [
@@ -918,6 +943,21 @@
    ],
    "doi": "10.3389/frai.2026.1761903"
   },
+  "predictingmildcognitiveimpairmentusingnaturalisticdrivingandtripdestinationmodeling": {
+   "corresponding": [
+    "Souradeep Chattopadhyay"
+   ],
+   "doi": "10.1016/j.trip.2026.102091"
+  },
+  "datadrivenkinematicmodelinginsoftrobotssystemidentificationanduncertaintyquantification": {
+   "corresponding": [
+    "Zhanhong Jiang",
+    "Dylan Shah",
+    "Hsin-Jung Yang",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1016/j.ifacol.2025.12.225"
+  },
   "aggymanagriculturalbioticstresssimulationenvironmentforultraprecisionmanagementplanning": {
    "corresponding": [
     "Arti Singh",
@@ -953,6 +993,12 @@
    ],
    "doi": "10.1016/j.ait.2026.100067"
   },
+  "continuoustimeprobabilisticcorrectorsforuncertaintyawarephysicsbasedspacecrafttrajectoryforecasting": {
+   "corresponding": [
+    "Cody Harrison Fleming"
+   ],
+   "doi": "10.2139/ssrn.7019801"
+  },
   "deeplearninganddynamicmodedecompositionforcharacterizingcombustioninstability": {
    "corresponding": [
     "Soumik Sarkar"
@@ -967,6 +1013,13 @@
     "Asheesh K. Singh"
    ],
    "doi": "10.1002/csc2.70341"
+  },
+  "aframeworkforaiintegratedmodelstoassessagriculturalresilience": {
+   "corresponding": [
+    "Suzanne Thornsbury",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.3389/fsufs.2026.1924646"
   }
  }
 }

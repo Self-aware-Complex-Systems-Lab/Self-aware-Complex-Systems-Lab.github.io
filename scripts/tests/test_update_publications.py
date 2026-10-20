@@ -8,7 +8,6 @@ import json
 import sys
 import tempfile
 import unittest
-import unittest.mock
 import urllib.error
 import urllib.parse
 from pathlib import Path
@@ -22,13 +21,17 @@ VERIFIED = "A5158521094"
 UNVERIFIED = "A5153546885"
 
 
+ISU = {"id": "https://openalex.org/I173911158", "display_name": "Iowa State University"}
+ELSEWHERE = {"id": "https://openalex.org/I1", "display_name": "VIT-AP University"}
+
+
 def work(wid, title, author_ids, doi=None, date="2026-10-09", wtype="preprint", source_type="repository"):
     return {"id": f"https://openalex.org/{wid}", "title": title, "doi": f"https://doi.org/{doi}" if doi else None,
             "type": wtype, "publication_year": int(date[:4]), "publication_date": date,
             "primary_location": {"source": {"type": source_type, "display_name": "arXiv (Cornell University)"},
                                  "landing_page_url": f"https://example.org/{wid}"},
-            "authorships": [{"author": {"id": f"https://openalex.org/{a}", "display_name": n},
-                             "institutions": [{"display_name": "Iowa State University"}]} for a, n in author_ids],
+            "authorships": [{"author": {"id": f"https://openalex.org/{a}", "display_name": n}, "raw_author_name": n,
+                             "institutions": [ISU if isu else ELSEWHERE]} for a, n, *flag in author_ids for isu in [flag[0] if flag else True]],
             "corresponding_author_ids": []}
 
 
@@ -41,8 +44,9 @@ SAME_NAME = work("W9", "Spacecraft Trajectory Paper From An Unreviewed Same Name
 class FakeAPI:
     """Answers OpenAlex/Crossref queries from in-memory works, page by page, and records every call."""
 
-    def __init__(self, orcid_works=(), by_author=None, crossref=(), per_page=None, fail=(), authors_fail=False):
+    def __init__(self, orcid_works=(), by_author=None, crossref=(), per_page=None, fail=(), authors_fail=False, isu_name_hits=()):
         self.orcid_works, self.by_author, self.crossref = list(orcid_works), by_author or {}, list(crossref)
+        self.isu_name_hits = list(isu_name_hits)
         self.per_page, self.fail, self.authors_fail, self.calls = per_page, set(fail), authors_fail, []
 
     def __call__(self, base, params):
@@ -61,6 +65,10 @@ class FakeAPI:
             if "orcid" in self.fail:
                 raise up.SourceError("HTTP 429 from openalex")
             rows = self.orcid_works
+        elif filt.startswith("raw_author_name.search:"):
+            if "auto" in self.fail:
+                raise up.SourceError("HTTP 503 from openalex")
+            rows = self.isu_name_hits
         else:
             if "author" in self.fail:
                 raise up.SourceError("HTTP 500 from openalex")
@@ -72,8 +80,14 @@ class FakeAPI:
 
 
 def config(verified=(VERIFIED,)):
-    return {"orcid": PI, "lookbackYears": 3,
+    return {"name": "Soumik Sarkar", "orcid": PI, "lookbackYears": 3,
             "verifiedOpenAlexAuthorIds": [{"id": i, "evidence": ["https://openalex.org/W7221554556"]} for i in verified]}
+
+
+def history(n=3):
+    """ORCID-linked works co-authored with Zhanhong Jiang, so he counts as a recurring co-author (MIN_SHARED)."""
+    return [work(f"WH{i}", f"Older paper {chr(65 + i)} on distributed {['learning', 'control', 'sensing', 'fusion'][i]}",
+                 [("A5000000001", "Zhanhong Jiang"), ("A5081037761", "Soumik Sarkar")], doi=f"10.1000/h{i}", date="2015-01-01") for i in range(n)]
 
 
 class UpdaterTest(unittest.TestCase):
@@ -115,6 +129,35 @@ class UpdaterTest(unittest.TestCase):
         self.assertEqual(target["authors"], "Zhanhong Jiang and Soumik Sarkar")
         self.assertEqual(target["url"], "https://doi.org/10.48550/arxiv.2610.12885")
 
+    def test_auto_match_imports_paper_on_unknown_record_without_any_config(self):
+        s = self.run_update(FakeAPI(orcid_works=history(), isu_name_hits=[TARGET]), cfg=config(verified=()))
+        self.assertEqual(s["status"], "ok")
+        self.assertEqual(s["addedItems"][0]["title"], TARGET["title"])
+        self.assertTrue(s["addedItems"][0]["retrieval"][0].startswith(f"auto-match:{VERIFIED} (Iowa State; co-authors Zhanhong Jiang"))
+
+    def test_auto_match_rejects_without_per_paper_evidence(self):
+        no_isu = work("W10", "Neoliberalism and economic discourse", [("A5101953320", "Soumik Sarkar", False), ("A7", "Zhanhong Jiang")])
+        no_coauthor = work("W11", "Light-active antibiotics", [("A5101872766", "Soumik Sarkar"), ("A8", "Supriya Bhunia")])
+        other_name = work("W12", "Retail customer journeys", [("A5133472864", "S K Nasrin Sultana Raj Sarkar"), ("A7", "Zhanhong Jiang")])
+        excluded = work("W13", "Excluded record paper", [("A5999", "Soumik Sarkar"), ("A7", "Zhanhong Jiang")])
+        cfg = dict(config(verified=()), excludeAuthorIds=[{"id": "A5999"}])
+        s = self.run_update(FakeAPI(orcid_works=history(), isu_name_hits=[no_isu, no_coauthor, other_name, excluded]), cfg=cfg)
+        self.assertEqual(s["added"], 0)
+        reasons = {r["openalex"].rsplit("/", 1)[-1]: r["reason"] for r in s["routes"][1]["rejected"]}
+        self.assertEqual(set(reasons), {"W10", "W11", "W12", "W13"})
+        self.assertIn("co-author", reasons["W11"])
+
+    def test_auto_match_uses_paper_name_not_mixed_record_name(self):
+        mixed = work("W14", "Spacecraft trajectory correctors", [("A5000000001", "Zhanhong Jiang"), ("A5133472864", "S K Nasrin Sultana Raj Sarkar")])
+        mixed["authorships"][1]["raw_author_name"] = "Soumik Sarkar"
+        s = self.run_update(FakeAPI(orcid_works=history(), isu_name_hits=[mixed]), cfg=config(verified=()))
+        self.assertEqual(s["added"], 1)
+        self.assertEqual(self.read("publications-added.json")[-1]["authors"], "Zhanhong Jiang and Soumik Sarkar")
+
+    def test_auto_match_failure_is_a_route_failure(self):
+        s = self.run_update(FakeAPI(orcid_works=history(), isu_name_hits=[TARGET], fail={"auto"}), cfg=config(verified=()))
+        self.assertEqual((s["status"], s["written"]), ("partial", False))
+
     def test_work_returned_by_both_routes_is_added_once(self):
         both = work("W7221554556", TARGET["title"], [(VERIFIED, "Soumik Sarkar"), ("A5081037761", "Soumik Sarkar")], doi="10.48550/arxiv.2610.12885")
         s = self.run_update(FakeAPI(orcid_works=[both], by_author={VERIFIED: [both]}))
@@ -133,7 +176,7 @@ class UpdaterTest(unittest.TestCase):
         works = [work(f"W{i}", t, [("A5081037761", "Soumik Sarkar")], doi=f"10.1000/p{i}", date="2026-01-01") for i, t in enumerate(topics)]
         api = FakeAPI(orcid_works=works, per_page=2)
         s = self.run_update(api, cfg=config(verified=()))
-        self.assertEqual([p["page"] for b, p in api.calls if b == "https://api.openalex.org/works"], [1, 2, 3])
+        self.assertEqual([p["page"] for b, p in api.calls if p.get("filter", "").startswith("authorships.author.orcid:")], [1, 2, 3])
         self.assertEqual(s["added"], 5)
 
     def test_short_page_set_is_a_failure_not_success(self):
@@ -191,7 +234,7 @@ class UpdaterTest(unittest.TestCase):
         self.assertEqual([p["title"] for p in failed["withheld"]], [TARGET["title"]])
         self.assertIn("HTTP 429", failed["errors"][0])
         self.assertEqual({f: (self.d / f).read_text() for f in before}, before)  # nothing written, nothing removed
-        everything = self.run_update(FakeAPI(fail={"orcid", "author", "crossref"}))
+        everything = self.run_update(FakeAPI(fail={"orcid", "author", "auto", "crossref"}))
         self.assertEqual(everything["status"], "failed")
         empty = self.run_update(FakeAPI())
         self.assertEqual((empty["status"], empty["added"], empty["errors"]), ("ok", 0, []))
@@ -252,30 +295,6 @@ class RetryTest(unittest.TestCase):
             with self.assertRaises(up.SourceError):
                 up.get_json("https://x", {}, opener=op, sleep=lambda s: None)
             self.assertEqual(len(calls), 1)
-
-
-class CandidateCheckTest(unittest.TestCase):
-    ISU = {"id": "https://openalex.org/I173911158", "display_name": "Iowa State University"}
-
-    def fetch(self, base, params):
-        if params.get("filter", "").startswith("orcid:"):
-            return {"results": [{"id": "https://openalex.org/A5081037761"}]}
-        if "search" in params:
-            rec = lambda i, inst: {"id": f"https://openalex.org/{i}", "display_name": "Soumik Sarkar", "works_count": 1,
-                                   "last_known_institutions": inst, "affiliations": []}
-            return {"results": [rec("A5081037761", [self.ISU]), rec(VERIFIED, [self.ISU]), rec("A5101953320", [self.ISU]),
-                                rec("A1", [self.ISU]), rec("A2", [self.ISU]), rec("A3", [{"id": "https://openalex.org/I9", "display_name": "Elsewhere"}])]}
-        return {"results": [SAME_NAME]}
-
-    def test_only_new_unreviewed_iowa_state_records_are_flagged(self):
-        cfg = dict(config(), doNotTrust=[{"id": "A5101953320"}], pendingReview=[{"id": "A2"}])
-        before = json.dumps(cfg, sort_keys=True)
-        out = io.StringIO()
-        with unittest.mock.patch("sys.stdout", out):
-            flagged = up.check_candidates(fetch=self.fetch, cfg=cfg)
-        self.assertEqual([a["shortId"] for a in flagged], ["A1"])  # not ORCID-linked, verified, doNotTrust, pending or non-ISU
-        self.assertIn("::warning title=Unreviewed OpenAlex author record A1::", out.getvalue())
-        self.assertEqual(json.dumps(cfg, sort_keys=True), before)
 
 
 if __name__ == "__main__":

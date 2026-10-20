@@ -38,41 +38,43 @@ npx playwright test   # page, accessibility (axe), image, link, layout tests (de
 ## Automatic updates
 
 - **Publications**: `.github/workflows/update-publications.yml` runs every Monday (and on demand from the Actions tab).
-  `scripts/update_publications.py` queries OpenAlex and Crossref by Prof. Sarkar's ORCID (plus verified OpenAlex author IDs, see below), appends genuinely new papers to
+  `scripts/update_publications.py` queries OpenAlex and Crossref by Prof. Sarkar's ORCID (plus Iowa State papers that name him on other OpenAlex author records, see below), appends genuinely new papers to
   `src/data/publications-added.json`, refreshes duplicate detection and each member's publication list, and commits.
   The deploy workflow then rebuilds the site. Requires *Settings → Actions → General → Workflow permissions: Read and write*.
   Tests (offline, no network): `python -m unittest discover -s scripts/tests -v`.
 
-### Publication updater: sources, verified author IDs, failures
+### Publication updater: sources, automatic matching, failures
 
 **Why ORCID alone is not enough.** OpenAlex splits one person into several author records. A record that has no ORCID
 is invisible to the ORCID query. *Personalized Federated Direct Preference Optimization via LoRA Adapters* (arXiv 2610.12885)
 was filed under `A5158521094`, a new record with no ORCID, so the ORCID query never returned it.
 
-**Retrieval** (`src/data/publication-sources.json`): the updater takes the union of
-(1) works whose authorship carries the PI's ORCID and (2) works of the IDs in `verifiedOpenAlexAuthorIds`. It
-deduplicates by OpenAlex work ID, then applies the usual lookback, type filters and duplicate rules. Each new entry
-records its route in `retrieval` (e.g. `["openalex-author:A5158521094"]`). Entries are only ever appended, so `added:<i>` keys stay valid.
+**Retrieval.** Every run takes the union of three OpenAlex searches, deduplicated by OpenAlex work ID, plus Crossref by ORCID.
+Settings live in `src/data/publication-sources.json`.
+1. `orcid`: works whose authorship carries the PI's ORCID.
+2. `openalex-author`: every work of the records in `verifiedOpenAlexAuthorIds`. This is optional; the next search
+   finds such papers anyway.
+3. `auto-match`: Iowa State works naming the PI, whichever author record OpenAlex filed them under. A paper is
+   imported only when **that paper itself** shows all of the following:
+   - an authorship whose raw name contains the PI's full name ("Soumik Sarkar" or "Sarkar, Soumik"),
+   - that authorship is affiliated with Iowa State on this paper,
+   - at least one co-author who appears on 3 or more of the PI's ORCID-linked works (e.g. Zhanhong Jiang,
+     Baskar Ganapathysubramanian), and
+   - the authorship is not on a record listed in `excludeAuthorIds`.
 
-A verified ID is a trust decision. Every work on that record is imported, with or without affiliation data, because
-older OpenAlex records often lack affiliations. Affiliation is evidence for *verifying* a record, not a filter on its works.
-For the same reason the updater never trusts a record because it is named "Soumik Sarkar" or lists Iowa State.
-`A5101953320` shows why: it has a different ORCID and mixes the PI's Iowa State papers with another researcher's work.
+The check is per paper, never per record. The name or Iowa State alone is not enough: same-name records include other
+researchers, and some records mix the PI's papers with someone else's (see `doNotTrust`). Rejected papers and the
+reason for each are listed in the run summary under the `auto-match` route.
 
-**Adding another verified ID**
-1. `python scripts/update_publications.py --review-candidates` lists same-name OpenAlex records that are not yet
-   classified, with their latest works, co-authors and affiliation strings. It only reads.
-2. Accept a record only when every work on it is the PI's: check the co-authors (lab members, known collaborators),
-   the department (Mechanical Engineering / Translational AI Center, Iowa State), and the paper itself (arXiv/publisher author list).
-3. Add `{"id", "verified", "reason", "evidence": [URLs]}` to `verifiedOpenAlexAuthorIds`. Records you looked at but did
-   not accept go in `pendingReview` (undecided) or `doNotTrust` (mixed or different person). Neither list is ever queried.
-4. Push to `main`. Changing the config triggers the updater.
+Each new entry records how it was found in `retrieval`, e.g.
+`["auto-match:A5158521094 (Iowa State; co-authors Zhanhong Jiang)"]`. Entries are only ever appended, so `added:<i>`
+keys stay valid. For an author listed under another person's name on a mixed record, the name printed on the paper
+is used.
 
-Each weekly run also runs `--check-candidates`. It raises a GitHub Actions **warning** (shown on the run page; GitHub's
-notification settings decide whether you are emailed) for any new same-name record affiliated with Iowa State that is
-not ORCID-linked or listed in the config. That is how a paper like arXiv 2610.12885 gets noticed within a week. The check
-only alerts: it never imports papers or edits the config, and its failure never fails the run. Move a record into
-`pendingReview` to silence its warning while it is undecided.
+**If a wrong paper ever gets in**, hide it the usual way: add its key to `src/data/publication-removals-manual.json`.
+It will not be re-added, because known titles and DOIs are skipped. To stop a record from being auto-matched at all,
+add it to `excludeAuthorIds`. `python scripts/update_publications.py --review-candidates` lists same-name records and
+their recent works for inspection.
 
 **Failures and partial runs.** Requests retry 429, 5xx and timeouts up to 3 times, honouring `Retry-After` up to 2 minutes.
 Each run writes a JSON summary (`--summary`, shown on the Actions run page) with every route's success, fetch count,
@@ -90,8 +92,9 @@ The commit message counts additions from the summary: `Auto-update publications 
 **Limitations.** OpenAlex rejects keyless *cursor* paging past page 1 (HTTP 401), so the updater pages by page number
 (up to 10,000 results). An optional `OPENALEX_API_KEY` environment variable is used if present but is not required.
 Without a key, requests share a small free daily budget per IP; when it runs out, the run fails visibly and the next
-weekly run retries. Papers that exist only on unverified or mixed records (see `pendingReview` / `doNotTrust`) are not
-imported until someone reviews them. Citation metrics (`scholar-metrics.json`) come from the single largest ORCID-linked
+weekly run retries. Auto-match only sees papers whose OpenAlex record includes an Iowa State
+affiliation on the PI's authorship and a recurring co-author. A paper with neither (e.g. a sole-author paper with no
+affiliation data) still needs a manual entry. Citation metrics (`scholar-metrics.json`) come from the single largest ORCID-linked
 record. They are *not* summed across fragmented records: h-index and i10 are not additive and the records share works.
 They can therefore slightly undercount. Corresponding authors (`pub-meta.json`) come from OpenAlex's
 `corresponding_author_ids` over the same work union as the publications, never from author order.

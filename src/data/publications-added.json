@@ -833,5 +833,119 @@
   "retrieval": [
    "openalex-author:A5158521094"
   ]
+ },
+ {
+  "category": "preprints",
+  "categoryLabel": "Preprints",
+  "number": null,
+  "title": "Time Series GWAS for Iron Deficiency Chlorosis Tolerance in Soybean using Aerial Imagery",
+  "authors": "Matthew E. Carroll and Ashlyn M. Rairdin and Liza Van der Laan and Antonella Ferela and Sahishnu Hanumolu and Soumik Sarkar and Baskar Ganapathysubramanian and Arti Singh and Arti Singh and Asheesh K Singh and Asheesh K Singh",
+  "venue": "bioRxiv (Cold Spring Harbor Laboratory)",
+  "year": 2025,
+  "date": "2025-06-02",
+  "type": "preprint",
+  "citationsAsOfArchive": null,
+  "url": "https://doi.org/10.1101/2025.05.30.657051",
+  "doi": "10.1101/2025.05.30.657051",
+  "source": "OpenAlex (auto, 2026-10-19)",
+  "openalex": "https://openalex.org/W4411005824",
+  "retrieval": [
+   "auto-match:A5101953320 (Iowa State; co-authors Arti Singh, Asheesh K Singh, Ashlyn M. Rairdin)"
+  ]
+ },
+ {
+  "category": "journals",
+  "categoryLabel": "Journal Articles",
+  "number": null,
+  "title": "Impact of acute glucose episodes on adherence to speed limits in the naturalistic setting for drivers with diabetes: An application of linear quantile mixed models",
+  "authors": "Aparna Joshi and Archana Venkatachalapathy and Jennifer Merickel and Jun Ha Chang and Matthew Rizzo and Soumik Sarkar and Anuj Sharma",
+  "venue": "Transportation Research Interdisciplinary Perspectives",
+  "year": 2025,
+  "date": "2025-09-23",
+  "type": "article",
+  "citationsAsOfArchive": null,
+  "url": "https://doi.org/10.1016/j.trip.2025.101633",
+  "doi": "10.1016/j.trip.2025.101633",
+  "source": "OpenAlex (auto, 2026-10-19)",
+  "openalex": "https://openalex.org/W4414419351",
+  "retrieval": [
+   "auto-match:no-author-id (Iowa State; co-authors Anuj Sharma, Jennifer Merickel, Jun Ha Chang)"
+  ]
+ },
+ {
+  "category": "preprints",
+  "categoryLabel": "Preprints",
+  "number": null,
+  "title": "Neural CDEs as Correctors for Learned Time Series Models",
+  "authors": "Muhammad Bilal Shahid and Zhanhong Jiang and Prajwal Koirala and Soumik Sarkar and Cody Harrison Fleming",
+  "venue": "arXiv",
+  "year": 2025,
+  "date": "2025-12-13",
+  "type": "preprint",
+  "citationsAsOfArchive": null,
+  "url": "https://doi.org/10.48550/arxiv.2512.12116",
+  "doi": "10.48550/arxiv.2512.12116",
+  "source": "OpenAlex (auto, 2026-10-19)",
+  "openalex": "https://openalex.org/W4417447659",
+  "retrieval": [
+   "auto-match:no-author-id (Iowa State; co-authors Cody Harrison Fleming)"
+  ]
+ },
+ {
+  "category": "preprints",
+  "categoryLabel": "Preprints",
+  "number": null,
+  "title": "Continuous-Time Probabilistic Correctors for Uncertainty-Aware Physics-Based Spacecraft Trajectory Forecasting",
+  "authors": "Muhammad  Bilal Shahid and Zhanhong Jiang and Soumik Sarkar and Cody Harrison Fleming",
+  "venue": "SSRN Electronic Journal",
+  "year": 2026,
+  "date": "2026-01-01",
+  "type": "preprint",
+  "citationsAsOfArchive": null,
+  "url": "https://doi.org/10.2139/ssrn.7019801",
+  "doi": "10.2139/ssrn.7019801",
+  "source": "OpenAlex (auto, 2026-10-19)",
+  "openalex": "https://openalex.org/W7166530158",
+  "retrieval": [
+   "auto-match:A5133472864 (Iowa State; co-authors Cody Harrison Fleming, Zhanhong Jiang)"
+  ]
+ },
+ {
+  "category": "preprints",
+  "categoryLabel": "Preprints",
+  "number": null,
+  "title": "AI-integrated models for assessing agricultural resilience",
+  "authors": "Joshua R. Waite and Dana Golden and Brett Indelicato and Kevin Camp and Mojdeh Saadati and Shannon Regan and Patrick S. Schnable and Baskar Ganapathysubramanian and Carlos D. Messina and Suzanne Thornsbury and Soumik Sarkar",
+  "venue": "arXiv",
+  "year": 2026,
+  "date": "2026-07-08",
+  "type": "preprint",
+  "citationsAsOfArchive": null,
+  "url": "https://doi.org/10.48550/arxiv.2607.07759",
+  "doi": "10.48550/arxiv.2607.07759",
+  "source": "OpenAlex (auto, 2026-10-19)",
+  "openalex": "https://openalex.org/W7167885798",
+  "retrieval": [
+   "auto-match:A5101953320 (Iowa State; co-authors Baskar Ganapathysubramanian, Joshua R. Waite, Mojdeh Saadati)"
+  ]
+ },
+ {
+  "category": "journals",
+  "categoryLabel": "Journal Articles",
+  "number": null,
+  "title": "A framework for AI-integrated models to assess agricultural resilience",
+  "authors": "Joshua R. Waite and Dana Golden and Brett Indelicato and Kevin Camp and Mojdeh Saadati and Shannon K. Regan and Patrick S. Schnable and Baskar Ganapathysubramanian and Carlos D. Messina and Suzanne Thornsbury and Soumik Sarkar",
+  "venue": "Frontiers in Sustainable Food Systems",
+  "year": 2026,
+  "date": "2026-09-23",
+  "type": "article",
+  "citationsAsOfArchive": null,
+  "url": "https://doi.org/10.3389/fsufs.2026.1924646",
+  "doi": "10.3389/fsufs.2026.1924646",
+  "source": "OpenAlex (auto, 2026-10-19)",
+  "openalex": "https://openalex.org/W7214069486",
+  "retrieval": [
+   "auto-match:A5101953320 (Iowa State; co-authors Baskar Ganapathysubramanian, Joshua R. Waite, Mojdeh Saadati)"
+  ]
  }
 ]
