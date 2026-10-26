@@ -1,6 +1,6 @@
 {
  "source": "OpenAlex corresponding_author_ids",
- "collected": "2026-10-20",
+ "collected": "2026-10-26",
  "byTitle": {
   "faulttolerantoptimalcontrolofabuildinghvacsystem": {
    "corresponding": [
@@ -236,13 +236,14 @@
    "corresponding": [
     "Asheesh Kumar Singh",
     "Arti Singh",
+    "Arti Singh",
     "Baskar Ganapathysubramanian"
    ],
    "doi": "10.1186/s13007-018-0349-9"
   },
   "plantdiseaseidentificationusingexplainable3ddeeplearningonhyperspectralimages": {
    "corresponding": [
-    "Asheesh K. Singh",
+    "Asheesh Kumar Singh",
     "Soumik Sarkar",
     "Arti Singh",
     "Baskar Ganapathysubramanian"
@@ -641,7 +642,7 @@
   },
   "selfsupervisedlearningimprovesclassificationofagriculturallyimportantinsectpestsinplants": {
    "corresponding": [
-    "Asheesh Kumar Singh",
+    "Asheesh K. Singh",
     "Arti Singh",
     "Arti Singh"
    ],
