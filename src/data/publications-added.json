@@ -947,5 +947,24 @@
   "retrieval": [
    "auto-match:A5101953320 (Iowa State; co-authors Baskar Ganapathysubramanian, Joshua R. Waite, Mojdeh Saadati)"
   ]
+ },
+ {
+  "category": "preprints",
+  "categoryLabel": "Preprints",
+  "number": null,
+  "title": "Estimation of Propagated Risk in LLM-based Multi-Agent Systems",
+  "authors": "Shreyan Ganguly and Souradeep Chattopadhyay and Qisai Liu and Soumik Sarkar",
+  "venue": "arXiv",
+  "year": 2026,
+  "date": "2026-10-23",
+  "type": "preprint",
+  "citationsAsOfArchive": null,
+  "url": "https://doi.org/10.48550/arxiv.2610.33282",
+  "doi": "10.48550/arxiv.2610.33282",
+  "source": "OpenAlex (auto, 2026-11-02)",
+  "openalex": "https://openalex.org/W7223907613",
+  "retrieval": [
+   "auto-match:A5159955747 (Iowa State; co-authors Qisai Liu, Shreyan Ganguly, Souradeep Chattopadhyay)"
+  ]
  }
 ]

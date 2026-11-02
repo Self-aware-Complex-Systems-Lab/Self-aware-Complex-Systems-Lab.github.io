@@ -1,6 +1,6 @@
 {
  "source": "OpenAlex corresponding_author_ids",
- "collected": "2026-10-26",
+ "collected": "2026-11-02",
  "byTitle": {
   "faulttolerantoptimalcontrolofabuildinghvacsystem": {
    "corresponding": [
@@ -46,8 +46,7 @@
   },
   "machinelearningforhighthroughputstressphenotypinginplants": {
    "corresponding": [
-    "Arti Singh",
-    "Asheesh Kumar Singh"
+    "Arti Singh"
    ],
    "doi": "10.1016/j.tplants.2015.10.015"
   },
@@ -83,9 +82,6 @@
   },
   "deployingfouriercoefficientstounravelsoybeancanopydiversity": {
    "corresponding": [
-    "Arti Singh",
-    "Arti Singh",
-    "Asheesh Kumar Singh",
     "Asheesh Kumar Singh",
     "Baskar Ganapathysubramanian"
    ],
@@ -167,12 +163,26 @@
    ],
    "doi": "10.1016/j.cagd.2018.03.024"
   },
+  "anexplainabledeepmachinevisionframeworkforplantstressphenotyping": {
+   "corresponding": [
+    "Arti Singh",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1073/pnas.1716999115"
+  },
   "integratinggenotypeandweathervariablesforsoybeanyieldpredictionusingdeeplearning": {
    "corresponding": [
     "Soumik Sarkar",
     "Asheesh Kumar Singh"
    ],
    "doi": "10.1101/331561"
+  },
+  "adeeplearningframeworktodiscernandcountmicroscopicnematodeeggs": {
+   "corresponding": [
+    "Arti Singh",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.1038/s41598-018-27272-w"
   },
   "trafficcongestiondetectionfromcameraimagesusingdeepconvolutionneuralnetworks": {
    "corresponding": [
@@ -182,9 +192,7 @@
   },
   "deeplearningforplantstressphenotypingtrendsandfutureperspectives": {
    "corresponding": [
-    "Asheesh Kumar Singh",
     "Soumik Sarkar",
-    "Arti Singh",
     "Arti Singh"
    ],
    "doi": "10.1016/j.tplants.2018.07.004"
@@ -234,12 +242,16 @@
   },
   "hyperspectralbandselectionusinggeneticalgorithmandsupportvectormachinesforearlyidentificationofcharcoalrotdiseaseinsoybeanstems": {
    "corresponding": [
-    "Asheesh Kumar Singh",
-    "Arti Singh",
     "Arti Singh",
     "Baskar Ganapathysubramanian"
    ],
    "doi": "10.1186/s13007-018-0349-9"
+  },
+  "developmentofoptimizedphenomicpredictorsforefficientplantbreedingdecisionsusingphenomicassistedselectioninsoybean": {
+   "corresponding": [
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.34133/2019/5809404"
   },
   "plantdiseaseidentificationusingexplainable3ddeeplearningonhyperspectralimages": {
    "corresponding": [
@@ -291,7 +303,6 @@
    "corresponding": [
     "Arti Singh",
     "Baskar Ganapathysubramanian",
-    "Asheesh Kumar Singh",
     "Asheesh Kumar Singh"
    ],
    "doi": "10.1186/s13007-019-0550-5"
@@ -378,6 +389,13 @@
    ],
    "doi": "10.1007/s42421-020-00029-6"
   },
+  "deepmultiviewimagefusionforsoybeanyieldestimationinbreedingapplications": {
+   "corresponding": [
+    "Asheesh Kumar Singh",
+    "Soumik Sarkar"
+   ],
+   "doi": "10.34133/2021/9846470"
+  },
   "segmentationofnaturalimagesbasedonsuperpixelandgraphmerging": {
    "corresponding": [
     "Sanjoy Kumar Saha"
@@ -386,8 +404,6 @@
   },
   "3dconvolutionalselectiveautoencoderforinstabilitydetectionincombustionsystems": {
    "corresponding": [
-    "Soumalya Sarkar",
-    "Soumik Sarkar",
     "Soumik Sarkar"
    ],
    "doi": "10.1016/j.egyai.2021.100067"
@@ -427,8 +443,6 @@
   },
   "uasbasedplantphenotypingforresearchandbreedingapplications": {
    "corresponding": [
-    "Arti Singh",
-    "Asheesh Kumar Singh",
     "Asheesh Kumar Singh",
     "Baskar Ganapathysubramanian"
    ],
@@ -436,19 +450,14 @@
   },
   "usingmachinelearningtodevelopafullyautomatedsoybeannoduleacquisitionpipelinesnap": {
    "corresponding": [
-    "Arti Singh",
     "Baskar Ganapathysubramanian",
-    "Asheesh Kumar Singh",
     "Asheesh Kumar Singh"
    ],
    "doi": "10.34133/2021/9834746"
   },
   "highthroughputphenotypinginsoybean": {
    "corresponding": [
-    "Asheesh Kumar Singh",
-    "Arti Singh",
-    "Arti Singh",
-    "Arti Singh"
+    "Asheesh Kumar Singh"
    ],
    "doi": "10.1007/978-3-030-73734-4_7"
   },
@@ -569,9 +578,7 @@
   },
   "deeplearningbasedphenotypingforgenomewideassociationstudiesofsuddendeathsyndromeinsoybean": {
    "corresponding": [
-    "Asheesh K. Singh",
     "Soumik Sarkar",
-    "Arti Singh",
     "Arti Singh"
    ],
    "doi": "10.3389/fpls.2022.966244"
@@ -611,9 +618,6 @@
   },
   "canopyfingerprintsforcharacterizingthreedimensionalpointclouddataofsoybeancanopies": {
    "corresponding": [
-    "Asheesh Kumar Singh",
-    "Asheesh Kumar Singh",
-    "Arti Singh",
     "Arti Singh",
     "Baskar Ganapathysubramanian"
    ],
@@ -621,7 +625,6 @@
   },
   "neuralpdesolversforirregulardomains": {
    "corresponding": [
-    "Baskar Ganapathysubramanian",
     "Baskar Ganapathysubramanian",
     "Adarsh Krishnamurthy"
    ],
@@ -642,8 +645,6 @@
   },
   "selfsupervisedlearningimprovesclassificationofagriculturallyimportantinsectpestsinplants": {
    "corresponding": [
-    "Asheesh K. Singh",
-    "Arti Singh",
     "Arti Singh"
    ],
    "doi": "10.1002/ppj2.20079"
@@ -697,6 +698,13 @@
    ],
    "doi": "10.1002/aaai.12151"
   },
+  "outofdistributiondetectionalgorithmsforrobustinsectclassification": {
+   "corresponding": [
+    "Arti Singh",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.34133/plantphenomics.0170"
+  },
   "latentdiffusionmodelsforstructuralcomponentdesign": {
    "corresponding": [
     "Adarsh Krishnamurthy"
@@ -712,9 +720,6 @@
   },
   "soybeancanopystressclassificationusing3dpointclouddata": {
    "corresponding": [
-    "Asheesh Kumar Singh",
-    "Asheesh Kumar Singh",
-    "Arti Singh",
     "Arti Singh",
     "Baskar Ganapathysubramanian",
     "Talukder Zaki Jubery"
@@ -739,6 +744,13 @@
     "Rizia Bardhan"
    ],
    "doi": "10.1002/btm2.10691"
+  },
+  "evaluatingneuralradiancefieldsfor3dplantgeometryreconstructioninfieldconditions": {
+   "corresponding": [
+    "Soumik Sarkar",
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.34133/plantphenomics.0235"
   },
   "unifiedcontrolofdiverseactionsinawastewatertreatmentactivatedsludgesystemusingreinforcementlearningformultiobjectiveoptimization": {
    "corresponding": [
@@ -780,8 +792,6 @@
   },
   "persistentmonitoringofinsectpestsonstickytrapsthroughhierarchicaltransferlearningandslicingaidedhyperinference": {
    "corresponding": [
-    "Asheesh K. Singh",
-    "Arti Singh",
     "Arti Singh",
     "Soumik Sarkar"
    ],
@@ -795,18 +805,29 @@
   },
   "multisensorandmultitemporalhighthroughputphenotypingformonitoringandearlydetectionofwaterlimitingstressinsoybean": {
    "corresponding": [
-    "Arti Singh",
-    "Arti Singh",
     "Soumik Sarkar",
     "Asheesh K. Singh"
    ],
    "doi": "10.1002/ppj2.70009"
+  },
+  "theimpactofmarketorientationandbrandstorytellingonsharktankevaluationsab2bandlargelanguagemodelingperspective": {
+   "corresponding": [
+    "Priyanka Jayashankar"
+   ],
+   "doi": "10.1108/jbim-10-2024-0811"
   },
   "multimodalaiforultraprecisionagriculture": {
    "corresponding": [
     "Soumik Sarkar"
    ],
    "doi": "10.1007/978-981-97-7762-4_13"
+  },
+  "insectnetrealtimeidentificationofinsectsusinganendtoendmachinelearningpipeline": {
+   "corresponding": [
+    "Arti Singh",
+    "Baskar Ganapathysubramanian"
+   ],
+   "doi": "10.1093/pnasnexus/pgae575"
   },
   "plotlevelsatelliteimagerycansubstituteforuavsinassessingmaizephenotypesacrossmultistatefieldtrials": {
    "corresponding": [
@@ -833,9 +854,7 @@
   },
   "useofartificialintelligenceinsoybeanbreedingandproduction": {
    "corresponding": [
-    "Asheesh Kumar Singh",
-    "Arti Singh",
-    "Arti Singh"
+    "Asheesh Kumar Singh"
    ],
    "doi": "10.1016/bs.agron.2024.11.003"
   },
@@ -847,10 +866,7 @@
   },
   "robustsoybeanseedyieldestimationusinghighthroughputgroundrobotvideos": {
    "corresponding": [
-    "Arti Singh",
-    "Arti Singh",
     "Soumik Sarkar",
-    "Asheesh Kumar Singh",
     "Asheesh Kumar Singh"
    ],
    "doi": "10.3389/fpls.2025.1554193"
@@ -870,7 +886,6 @@
   },
   "timeseriesgwasforirondeficiencychlorosistoleranceinsoybeanusingaerialimagery": {
    "corresponding": [
-    "Arti Singh",
     "Asheesh K Singh"
    ],
    "doi": "10.1101/2025.05.30.657051"
@@ -883,8 +898,7 @@
   },
   "soybeanmaturitypredictionusingtwodimensionalcontourplotsfromdronebasedtimeseriesimagery": {
    "corresponding": [
-    "Arti Singh",
-    "Asheesh K. Singh",
+    "Asheesh Kumar Singh",
     "Baskar Ganapathysubramanian"
    ],
    "doi": "10.1002/ppj2.70036"
@@ -911,9 +925,7 @@
   "weednetafoundationmodelbasedglobaltolocalaiapproachforweedspeciesidentificationandclassification": {
    "corresponding": [
     "Asheesh K. Singh",
-    "Asheesh K. Singh",
     "Soumik Sarkar",
-    "Arti Singh",
     "Arti Singh"
    ],
    "doi": "10.1038/s41467-026-78044-4"
@@ -962,8 +974,6 @@
   "aggymanagriculturalbioticstresssimulationenvironmentforultraprecisionmanagementplanning": {
    "corresponding": [
     "Arti Singh",
-    "Arti Singh",
-    "Asheesh Kumar Singh",
     "Asheesh Kumar Singh",
     "Soumik Sarkar"
    ],
@@ -971,7 +981,8 @@
   },
   "transformermodeltodeterminespatiotemporalrelationshipsofvariablesandinterpretabilityforsoybeanseedyieldoilandproteinprediction": {
    "corresponding": [
-    "Soumik Sarkar"
+    "Soumik Sarkar",
+    "Asheesh Kumar Singh"
    ],
    "doi": "10.3389/frai.2026.1750108"
   },
@@ -1006,12 +1017,15 @@
    ],
    "doi": "10.1007/978-3-031-88574-7_12"
   },
+  "phenologicalgrowthstagesoffingermilleteleusinecoracanalusing3dphenotypingwithrelevancetobreedingapplications": {
+   "corresponding": [
+    "Asheesh Kumar Singh"
+   ],
+   "doi": "10.3389/fpls.2026.1747707"
+  },
   "soybeanvarietydevelopmentusingaerialimageryandmachinelearningenabledphenomicassistedselection": {
    "corresponding": [
-    "Arti Singh",
-    "Arti Singh",
-    "Asheesh K. Singh",
-    "Asheesh K. Singh"
+    "Asheesh Kumar Singh"
    ],
    "doi": "10.1002/csc2.70341"
   },
