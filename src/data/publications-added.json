@@ -966,5 +966,24 @@
   "retrieval": [
    "auto-match:A5159955747 (Iowa State; co-authors Qisai Liu, Shreyan Ganguly, Souradeep Chattopadhyay)"
   ]
+ },
+ {
+  "category": "preprints",
+  "categoryLabel": "Preprints",
+  "number": null,
+  "title": "Vision Paper: Why Distributed LLM Post-Training and Decentralized Alignment Are Now Essential",
+  "authors": "Zhanhong Jiang and Qisai Liu and Soumik Sarkar",
+  "venue": "arXiv",
+  "year": 2026,
+  "date": "2026-11-04",
+  "type": "preprint",
+  "citationsAsOfArchive": null,
+  "url": "https://doi.org/10.48550/arxiv.2611.05841",
+  "doi": "10.48550/arxiv.2611.05841",
+  "source": "OpenAlex (auto, 2026-11-09)",
+  "openalex": "https://openalex.org/W7225332113",
+  "retrieval": [
+   "auto-match:A5101953320 (Iowa State; co-authors Qisai Liu, Zhanhong Jiang)"
+  ]
  }
 ]

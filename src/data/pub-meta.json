@@ -1,6 +1,6 @@
 {
  "source": "OpenAlex corresponding_author_ids",
- "collected": "2026-11-02",
+ "collected": "2026-11-09",
  "byTitle": {
   "faulttolerantoptimalcontrolofabuildinghvacsystem": {
    "corresponding": [
@@ -169,13 +169,6 @@
     "Soumik Sarkar"
    ],
    "doi": "10.1073/pnas.1716999115"
-  },
-  "integratinggenotypeandweathervariablesforsoybeanyieldpredictionusingdeeplearning": {
-   "corresponding": [
-    "Soumik Sarkar",
-    "Asheesh Kumar Singh"
-   ],
-   "doi": "10.1101/331561"
   },
   "adeeplearningframeworktodiscernandcountmicroscopicnematodeeggs": {
    "corresponding": [
@@ -508,7 +501,7 @@
    "corresponding": [
     "Koushik Nagasubramanian"
    ],
-   "doi": "10.1002/essoar.10508358.1"
+   "doi": "10.1002/ppj2.20051"
   },
   "ahighfidelityresidentialbuildingoccupancydetectiondataset": {
    "corresponding": [
@@ -540,12 +533,6 @@
    ],
    "doi": "10.1093/jas/skac064.022"
   },
-  "fewshotdeeplearningforafmcharacterizationofsinglemoleculeinteractions": {
-   "corresponding": [
-    "Anwesha Sarkar"
-   ],
-   "doi": "10.2139/ssrn.4152104"
-  },
   "multifidelitymachinelearningmodelsforstructurepropertymappingoforganicelectronics": {
    "corresponding": [
     "Baskar Ganapathysubramanian"
@@ -564,12 +551,6 @@
    ],
    "doi": "10.1016/j.mfglet.2022.08.013"
   },
-  "nappnannualconferenceabstractgenomewideassociationstudyofsuddendeathsyndromeinsoybeanusingdeeplearningbasedphenotyping": {
-   "corresponding": [
-    "Ashlyn M. Rairdin"
-   ],
-   "doi": "10.22541/au.166497104.42473667/v1"
-  },
   "deeplearningforlivecellshapedetectionandautomatedafmnavigation": {
    "corresponding": [
     "Anwesha Sarkar"
@@ -578,8 +559,7 @@
   },
   "deeplearningbasedphenotypingforgenomewideassociationstudiesofsuddendeathsyndromeinsoybean": {
    "corresponding": [
-    "Soumik Sarkar",
-    "Arti Singh"
+    "Ashlyn M. Rairdin"
    ],
    "doi": "10.3389/fpls.2022.966244"
   },
@@ -592,7 +572,7 @@
    ],
    "doi": "10.1016/j.ifacol.2022.11.183"
   },
-  "fewshotdeeplearningforafmforcecurvecharacterizationofsinglemoleculeinteractions": {
+  "fewshotdeeplearningforafmcharacterizationofsinglemoleculeinteractions": {
    "corresponding": [
     "Anwesha Sarkar"
    ],
@@ -630,13 +610,6 @@
    ],
    "doi": "10.1016/j.cad.2024.103709"
   },
-  "3dreconstructionofplantsusingprobabilisticvoxelcarving": {
-   "corresponding": [
-    "Baskar Ganapathysubramanian",
-    "Adarsh Krishnamurthy"
-   ],
-   "doi": "10.1016/j.compag.2023.108248"
-  },
   "systematicperformanceevaluationofreinforcementlearningalgorithmsappliedtowastewatertreatmentcontroloptimization": {
    "corresponding": [
     "Henry C. Croll"
@@ -666,6 +639,13 @@
     "Adarsh Krishnamurthy"
    ],
    "doi": "10.1016/j.engappai.2023.107033"
+  },
+  "3dreconstructionofplantsusingprobabilisticvoxelcarving": {
+   "corresponding": [
+    "Baskar Ganapathysubramanian",
+    "Adarsh Krishnamurthy"
+   ],
+   "doi": "10.1016/j.compag.2023.108248"
   },
   "acomprehensivestudyonsoybeanyieldpredictionusingsoilandhyperspectralreflectancedata": {
    "corresponding": [
@@ -877,12 +857,6 @@
     "Baskar Ganapathysubramanian"
    ],
    "doi": "10.1016/j.compag.2025.110382"
-  },
-  "sewingthefutureofcottonamultiomicsstudycombiningnanomechanicstranscriptomicsandphenotypictraits": {
-   "corresponding": [
-    "Anwesha Sarkar"
-   ],
-   "doi": "10.1101/2025.05.12.653486"
   },
   "timeseriesgwasforirondeficiencychlorosistoleranceinsoybeanusingaerialimagery": {
    "corresponding": [
